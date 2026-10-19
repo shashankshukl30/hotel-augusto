@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+*.log
+research/assets/originals/
+research/assets/contact-sheets/
+research/raw/
+evidence/screenshots/
+evidence/browser-profiles/
+__pycache__/

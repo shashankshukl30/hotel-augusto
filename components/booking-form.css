@@ -1,0 +1,32 @@
+.booking-form { background: var(--paper-deep); padding: 46px; border-top: 2px solid var(--accent); }
+.form-heading h3 { font-family: var(--font-display); font-size: 42px; line-height: 1.15; letter-spacing: -.045em; margin-block: 22px 18px; }
+.form-heading p { font-size: 12px; color: var(--muted); max-width: 45ch; margin-bottom: 30px; }
+.booking-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 23px 20px; }
+.form-field { min-width: 0; }
+.full-field { grid-column: 1/-1; }
+.form-field label { display: block; margin-bottom: 9px; font-size: 11px; line-height: 1.5; }
+.form-field label>span { color: var(--accent); }
+.form-field label .optional { float: right; color: var(--muted); font-size: 9px; }
+.form-field input, .form-field select, .form-field textarea { appearance: auto; display: block; min-width: 0; width: 100%; min-height: 50px; border: 1px solid var(--line); background: var(--paper); border-radius: 0; padding: 13px 12px; color: var(--ink); font-size: 13px; line-height: 1.6; transition: border-color 180ms; }
+.form-field input:hover, .form-field select:hover, .form-field textarea:hover { border-color: var(--muted); }
+.form-field textarea { resize: vertical; min-height: 100px; }
+.form-field input::placeholder, .form-field textarea::placeholder { color: var(--muted); opacity: .9; }
+.form-field input[aria-invalid="true"] { border-color: var(--accent); }
+.field-error { display: block; font-size: 10px; line-height: 1.6; color: var(--accent); margin-top: 7px; }
+.booking-submit { margin-top: 28px; width: 100%; gap: 13px; }
+.booking-submit svg:last-child { margin-left: auto; }
+.form-footnote { font-size: 10px; line-height: 1.8; color: var(--muted); margin: 17px 0 0; }
+.form-error-summary { color: var(--accent); font-size: 11px; margin: 20px 0 -10px; }
+.booking-draft { margin-top: 25px; }
+.booking-draft>p:first-child { display: flex; align-items: center; gap: 9px; font-size: 12px; }
+.booking-draft .button { width: 100%; gap: 12px; }
+.draft-note { font-size: 11px; color: var(--muted); margin-block: 12px 0; }
+@media (max-width: 1000px) { .booking-form { padding: 32px; } }
+@media (max-width: 600px) {
+  .booking-form { padding: 28px 20px; }
+  .form-heading h3 { font-size: 36px; }
+  .booking-fields { gap: 20px 12px; }
+  .form-field input, .form-field select, .form-field textarea { font-size: 16px; padding-inline: 9px; }
+  .form-field input[type="date"] { font-size: 13px; min-height: 53px; }
+  .booking-submit, .booking-draft .button { font-size: 11px; padding-inline: 14px; }
+}
