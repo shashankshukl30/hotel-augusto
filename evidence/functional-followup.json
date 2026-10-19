@@ -1,0 +1,66 @@
+{
+  "menuFocusSequence": [
+    {
+      "key": "",
+      "tag": "BUTTON",
+      "text": "",
+      "label": "Close navigation",
+      "inside": true,
+      "backgroundFocus": false
+    },
+    {
+      "key": "Shift+Tab",
+      "tag": "BODY",
+      "text": "Skip to contentaugustoHOTEL \u00b7 VARANASIOur roomsDiscover VaranasiGalleryFind usPl",
+      "label": null,
+      "inside": false,
+      "backgroundFocus": false
+    },
+    {
+      "key": "Shift+Tab",
+      "tag": "A",
+      "text": "Plan your stay ",
+      "label": null,
+      "inside": true,
+      "backgroundFocus": false
+    },
+    {
+      "key": "Tab",
+      "tag": "BODY",
+      "text": "Skip to contentaugustoHOTEL \u00b7 VARANASIOur roomsDiscover VaranasiGalleryFind usPl",
+      "label": null,
+      "inside": false,
+      "backgroundFocus": false
+    },
+    {
+      "key": "Tab",
+      "tag": "BUTTON",
+      "text": "",
+      "label": "Close navigation",
+      "inside": true,
+      "backgroundFocus": false
+    },
+    {
+      "key": "Tab",
+      "tag": "A",
+      "text": "01Welcome",
+      "label": null,
+      "inside": true,
+      "backgroundFocus": false
+    }
+  ],
+  "directHashNavigation": {
+    "hash": "#enquire",
+    "scrollY": 1455,
+    "targetTop": 184.484375,
+    "scrollMargin": "96px",
+    "scrollRestoration": "manual"
+  },
+  "hashReload": {
+    "hash": "#enquire",
+    "scrollY": 0,
+    "targetTop": 1639.484375,
+    "scrollMargin": "96px",
+    "scrollRestoration": "manual"
+  }
+}

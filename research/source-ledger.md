@@ -1,0 +1,203 @@
+# Hotel Augusto | Public source ledger
+
+Research date: 19 October 2026. Public-source evidence; not hotel management confirmation.
+
+## S01 | Google Hotels / public Google listing
+
+URL: https://www.google.co.in/travel/hotels/entity/ChkI9IOdtNaKmJZrGg0vZy8xMWI2ZGc2bWszEAE
+
+Source type: Public business listing. Access: Web search returned page content; indexed variants crawled last week to last month.
+
+D36/1 August Kunda Road, Jangambari, 221001. Phone +91 80817 09146. Three-star classification. Walking distance to temple/ghat. AC, Wi-Fi, restaurant, front desk, room service. Noon/11am timings. No pool/spa. Other amenity/policy data conflicts with OTAs.
+
+## S02 | MakeMyTrip property detail
+
+URL: https://www.makemytrip.com/hotels/hotel_augusto-details-varanasi.html
+
+Source type: OTA. Access: Web search full property excerpt, crawled two weeks before research.
+
+Deluxe, Deluxe Twin Bed and Family categories; on-site pure vegetarian restaurant; complimentary Wi-Fi, 24h room service, lift. D36/1 Godowlia/Jangambadi. Typical noon/11am. Unmarried couples allowed/local IDs disallowed in this snapshot. Rate plans separately include breakfast. Avoid its incorrect UNESCO claim about Sarnath Deer Park.
+
+## S03 | Exa place record
+
+URL: https://exa.ai/library/place/cw9fwst4s3j
+
+Source type: Business-listing mirror. Access: Agent Reach via Exa; record dated 2026-09-14.
+
+Phone +918081709146, coordinates 25.308219,83.006511 and legacy thehotelaugusto.in domain. Used as corroboration and domain discovery, not independent owner verification.
+
+## S04 | Goibibo property detail
+
+URL: https://www.goibibo.com/hotels/augusto-hotel-in-varanasi-6897683623351687589/
+
+Source type: OTA. Access: Web open returned full text, indexed last month.
+
+69 property photos. Restaurant, room service, housekeeping, Wi-Fi, AC, luggage assistance. Noon/11am. Unmarried couples prohibited in this snapshot, contradicting MMT. Pets prohibited; smoking policy conflicts with smoking-room amenity.
+
+## S05 | Booking.com Hotel Augusto
+
+URL: https://www.booking.com/hotel/in/augusto-varanasi1.en-gb.html
+
+Source type: OTA. Access: Search index returned substantial property excerpt (last month); direct open produced JavaScript robot-verification page.
+
+D36/1 Godowlia/Dasaswmedh/Jangambari road. AC family rooms, private bathrooms, toiletries, room service, 24h front desk, lounge, sun terrace, luggage storage, laundry, paid shuttle. Breakfast available; rate inclusion unknown. Phone hidden until booking. 6.2/10 from 37 reviews.
+
+## S06 | Tripadvisor Hotel Augusto
+
+URL: https://www.tripadvisor.in/Hotel_Review-g297685-d6540696-Reviews-HOTEL_AUGUSTO-Varanasi_Varanasi_District_Uttar_Pradesh.html
+
+Source type: OTA/reviews. Access: Web open returned full page, crawled last month.
+
+4.0/5, 44 reviews; D36/1 Jangambari Road near temple/Godowlia. AC, housekeeping, room service, family rooms. Formerly OYO 4009. Claimed 45 rooms and pets allowed conflict with other channels. Guest photographs mixed with property images; do not assume reuse permission. Review mentions Aroma of Kashi but relationship unverified.
+
+## S07 | Goibibo room inventory
+
+URL: https://www.goibibo.com/hotels/rooms-of-augusto-hotel-in-varanasi-6897683623351687589/
+
+Source type: OTA room detail. Access: Web search room-page excerpt, crawled last month.
+
+Deluxe Room: double bed, 150 sq ft. Deluxe Twin Room: two single beds, 270 sq ft. Four-bed Family Room: two king beds, 210 sq ft. Each lists one bathroom. Separate room-only and breakfast rates. Room size and maximum occupancy should be confirmed before publication.
+
+## S08 | Agoda Hotel Augusto
+
+URL: https://www.agoda.com/en-in/hotel-augusto/hotel/varanasi-in.html
+
+Alternate indexed URL: https://www.agoda.com/ja-jp/hotel-augusto/hotel/varanasi-in.html
+
+Source type: OTA. Access: English page shell only; indexed Japanese page crawled four months before research.
+
+Matching D36/1 address. Free Wi-Fi, 24h front desk, restaurant, family rooms, luggage storage and airport transfer. Older Standard room name and size differ from Indian OTA inventory; do not add an unconfirmed fourth category.
+
+## S09 | Trip.com Hotel Augusto
+
+URL: https://www.trip.com/hotels/varanasi-hotel-detail-48688182/hotel-augusto/
+
+Source type: OTA. Access: Web search detailed property excerpt, last month.
+
+Alternate phone +91-8707451949. Renovated 2025 claim not corroborated. 26 rooms in structured detail, 20 in description. 11am-noon check-in/10am checkout differs from Indian OTAs. Restaurant, 24h front desk/service, Wi-Fi, laundry, family facilities. No pets.
+
+## S10 | Expedia India Hotel Augusto
+
+URL: https://www.expedia.co.in/Varanasi-Hotels-Hotel-Augusto.h45841007.Hotel-Information
+
+Source type: OTA. Access: Web search detailed excerpt, last month.
+
+Onsite restaurant, public-area Wi-Fi, AC, 24h front desk/room service, daily housekeeping, television, toiletries, electric kettle. Address opposite SBI, Jangambari Road. No on-site parking. 11am-noon check-in/10am checkout. Photos identify lobby, exterior, bedrooms and bathroom.
+
+## S11 | Hotels.com India Hotel Augusto
+
+URL: https://in.hotels.com/ho1467912224/hotel-augusto-varanasi-india/
+
+Source type: OTA (same Expedia Group data family). Access: Web search detailed excerpt; variants last week/last month.
+
+20 rooms. Indian-cuisine restaurant, AC, Wi-Fi, 24h front desk/service. No onsite parking; nearby paid parking listed. 11am-noon check-in/10am checkout. No pets. Breakfast inclusion and cancellation vary by rate. 6.6/10 from four reviews. Treat Expedia corroboration as same data family.
+
+## S12 | Travelsfinder hotel directory
+
+URL: https://www.travelsfinder.in/hotel/hotel-augusto-varanasi-2014/
+
+Source type: Directory. Access: Agent Reach via Exa.
+
+Matching address and 08081709146 phone. Links old Google business.site URL, not usable proof of a current hotel-owned domain.
+
+## S13 | Live domain check: thehotelaugusto.in
+
+URL: https://thehotelaugusto.in/
+
+Source type: Direct HTTP observation. Access: curl HEAD with redirects on 2026-10-19; Jina Reader returned bot verification.
+
+HTTP 301 redirects to https://rogotravel.com/red.php?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fin%2Faugusto-varanasi1.html%3Faid%3D7992060%26label%3Did34 . Hotel ownership not established. Do not use as new website canonical without confirmation.
+
+## S14 | Live domain check: hotelaugusto.in
+
+URL: https://hotelaugusto.in/
+
+Source type: Direct DNS/HTTP observation. Access: curl returned could not resolve host on 2026-10-19.
+
+Legacy domain is listed on https://linkedin.com/company/hotel-augusto but did not resolve in environment. Not proof of permanent closure; simply unavailable during research.
+
+## S15 | Trivago Hotel Augusto
+
+URL: https://www.trivago.in/en-IN/oar/hotel-augusto-varanasi?search=100-19052712
+
+Source type: OTA aggregator. Access: Web search excerpt, crawled three months before research.
+
+Matching Godowlia address. Restaurant with Indian/Chinese and vegetarian options, shared kitchen and paid airport shuttle. Address is malformed, so use corroborated Google address instead.
+
+## S16 | EaseMyTrip Hotel Augusto
+
+URL: https://www.easemytrip.com/hotels/hotel-augusto-1879039/
+
+Source type: OTA. Access: Web search excerpt, crawled six days before research.
+
+Matching August Kunda Road/Jangambari address; 40 photographs. Generic platform ID/extra-bed policies are not hotel-specific assurances. Availability is date-specific, not an enduring hotel claim.
+
+## S17 | Justdial Hotel Augusto
+
+URL: https://www.justdial.com/Varanasi/HOTEL-AUGUSTO-Opposite-State-Bank-Of-India-Godowlia/0542PX542-X542-220311124631-Q3U9_BZDET
+
+Source type: Business directory. Access: Agent Reach Exa + web search, indexed four months before research.
+
+Opposite State Bank of India/Jagambari Road/Godowlia corroborates location. Generic WhatsApp controls appear but no verified destination account recovered. Promotional prose and asserted 2019 establishment are not adequately corroborated.
+
+## S18 | Dashashwamedh Ghat, Kashi official portal
+
+URL: https://kashi.gov.in/listing-details/dashashwamedh-ghat
+
+Source type: Government destination source. Access: Public indexed page crawled research day.
+
+Ghat is close to Kashi Vishwanath Temple; known for evening Ganga Aarti and riverboats. Supports destination copy only, not hotel-provided tours, bookings, guaranteed schedules or transport.
+
+## S19 | Shree Kashi Vishvanath Temple, Varanasi district
+
+URL: https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/
+
+Source type: Government destination source. Access: Public indexed page crawled last week.
+
+Temple dedicated to Lord Shiva on the western Ganga bank; one of twelve Jyotirlingas. Supports short devotional context. Do not reuse the page's old transport schedules without separate current verification.
+
+## S20 | Places of Tourist Attraction, Varanasi district
+
+URL: https://varanasi.nic.in/gallery/places-of-tourist-attraction/
+
+Source type: Government destination source. Access: Public indexed page crawled research day.
+
+Describes dawn views of the riverfront/ghats and boats available to hire at Dashashwamedh. Supports sunrise river experience, not an included hotel service.
+
+## S21 | Google Maps mobile landed-place verification
+
+URL: https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi
+
+Source type: Live mobile browser verification. Access: Isolated Playwright browser at 390px on 2026-10-19; full result in map-link-verification.json.
+
+Query landed on HOTEL AUGUSTO VARANASI h1, matching D36/1 August Kunda Road/Jangambari and 080817 09146. Live coordinates 25.3084409,83.0065447. CID 0x6b2c6055668741f4, Google entity /g/11b6dg6mk3. Confirms website map target and telephone, not WhatsApp registration.
+
+## S22 | Public WhatsApp phone landing
+
+URL: https://wa.me/918081709146
+
+Source type: Live read-only browser check. Access: Fresh Edge mobile context on 2026-10-19; result whatsapp-public-check.json.
+
+Redirected to api.whatsapp.com/send/?phone=918081709146 and displayed Chat on WhatsApp with +91 80817 09146. Generic landing does not verify account registration or hotel control. No Open app, Continue or Send action taken.
+
+## Access limits
+
+Verified hotel-controlled current website
+
+Verified hotel booking email
+
+Confirmed WhatsApp business registration
+
+Hotel-approved final policies, latest room dimensions and room count
+
+Authenticated native social profile content: Agent Reach doctor found Facebook/Instagram backend unavailable. No login was attempted.
+
+Owner-supplied logo master or image licensing documents
+
+## Image provenance
+
+Image and logo collection belongs to the parallel asset task. Publicly visible OTA images may contain guest-created material; retain source/credit and distinguish hotel images from guest photos. Do not substitute unrelated luxury-property imagery.
+
+## Tool status
+
+v1.5.0 installed; check-update on 2026-10-19 reported current. Exa and Jina were used. No software updates installed.

@@ -35,7 +35,7 @@ export function BookingForm({ room = "" }: { room?: string }) {
     setDraft(buildWhatsAppUrl(hotel.whatsappNumber, data));
     window.requestAnimationFrame(() => document.getElementById("whatsapp-draft")?.focus());
   }}>
-    <div className="form-heading"><span className="eyebrow">LET’S MAKE A PLAN</span><h3>When shall we<br/><em>welcome you?</em></h3><p>Share a few details. We’ll prepare your enquiry to send directly to the hotel on WhatsApp.</p></div>
+    <div className="form-heading"><h3>Plan your stay.</h3><p>Share a few details. We’ll prepare your enquiry to send directly to the hotel on WhatsApp.</p></div>
     <div className="booking-fields">
       <div className="form-field"><label htmlFor="arrival">Arrival <span>*</span></label><input type="date" id="arrival" name="arrival" required value={arrival} min={today || undefined} onFocus={() => setToday(localToday())} onChange={event => setArrival(event.target.value)} aria-invalid={!!errors.arrival} aria-describedby={errors.arrival ? "arrival-error" : undefined}/>{error("arrival")}</div>
       <div className="form-field"><label htmlFor="departure">Departure <span>*</span></label><input type="date" id="departure" name="departure" required min={arrival ? nextDate(arrival) : today || undefined} onFocus={() => setToday(localToday())} aria-invalid={!!errors.departure} aria-describedby={errors.departure ? "departure-error" : undefined}/>{error("departure")}</div>

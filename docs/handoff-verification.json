@@ -1,0 +1,101 @@
+{
+  "verified": "2026-10-19T15:46:32.674423+00:00",
+  "rendered_snapshot_sha256": {
+    "HANDOFF.md": "ff4651e7aab56f8f45e23da8954393b67a91f1340afe119554f0ee9046e538e5",
+    "HANDOFF.docx": "de09a6eb413bc97cd4d42c9c962f915ffbb298d6196dc2225371e96819112d83"
+  },
+  "word_render_pages": 3,
+  "page_text_out_of_bounds": [],
+  "all_pages_visually_inspected": true,
+  "docx_reopened": true,
+  "zip_integrity": true,
+  "source_unchanged_after_cleanup": true,
+  "qa_report": "evidence/qa-production-report.json",
+  "qa_report_sha256": "39f9906170baaccacca5264a143b3841d446d0103e2f97f5942f120e5bf1ba13",
+  "qa_summary": {
+    "viewportChecks": 20,
+    "axeAudits": 20,
+    "interactionChecks": 48,
+    "failures": 0,
+    "passed": true
+  },
+  "qa_completed": "2026-10-19T15:45:10.972421+00:00",
+  "cleanup": {
+    "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review",
+    "removed": [
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\HANDOFF.pdf",
+        "bytes": 272999,
+        "sha256": "2bc9c8043f768fdd7fdee8e8e78b13312d7e2b7f75332aea27fdb95d187388bc",
+        "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-1.png",
+        "bytes": 117315,
+        "sha256": "cee479c4973d1e0a60605e96f1787e717b286982a6f935dbd59108b34eb16a00",
+        "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-2.png",
+        "bytes": 134703,
+        "sha256": "f4ee8965913ea38a8b4ed46b12795ad9d6b79450bdaadad3b3acf0e286c7bb79",
+        "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-3.png",
+        "bytes": 131491,
+        "sha256": "9e6980e9c49026f0a7fdbd5edf7141112131874052ec30dfabc9231d50e0c08c",
+        "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+      }
+    ],
+    "removed_bytes": 656508,
+    "free_before": {
+      "C": 29320814592,
+      "D": 68748906496
+    },
+    "free_after": {
+      "C": 29320814592,
+      "D": 68749570048
+    }
+  },
+  "previous_doc_cleanup": [
+    {
+      "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review",
+      "removed": [
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\HANDOFF.pdf",
+          "bytes": 272676,
+          "sha256": "8ad92c8dfcfeeeeeb133f5705f2f978c2168634a07241061188f0ccc30a10851",
+          "reason": "Task-owned DOCX rendering scratch; editable DOCX and Markdown source retained and verified."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-1.png",
+          "bytes": 117298,
+          "sha256": "eea519f6247d15a0c868ca8812c44de20d73d75b547e6186ce12f3a2e935d93b",
+          "reason": "Task-owned DOCX rendering scratch; editable DOCX and Markdown source retained and verified."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-2.png",
+          "bytes": 134703,
+          "sha256": "f4ee8965913ea38a8b4ed46b12795ad9d6b79450bdaadad3b3acf0e286c7bb79",
+          "reason": "Task-owned DOCX rendering scratch; editable DOCX and Markdown source retained and verified."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-3.png",
+          "bytes": 129152,
+          "sha256": "479328e2afe75e1b32f03dd06aafe2c95658302147ba38af86f113cdf985234b",
+          "reason": "Task-owned DOCX rendering scratch; editable DOCX and Markdown source retained and verified."
+        }
+      ],
+      "removed_bytes": 653829,
+      "free_before": {
+        "C": 29321932800,
+        "D": 68477472768
+      },
+      "free_after": {
+        "C": 29321932800,
+        "D": 68478132224
+      }
+    }
+  ]
+}

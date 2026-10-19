@@ -1,0 +1,13 @@
+{
+  "before_free_bytes": {
+    "C": 29458378752,
+    "D": 68705099776
+  },
+  "after_free_bytes": {
+    "C": 29443788800,
+    "D": 68699049984
+  },
+  "removed": [],
+  "reason": "No safely disposable review files: screenshots, structured browser results and review script are intentional verification evidence. Fresh browser contexts were closed.",
+  "evidence_bytes": 19893574
+}

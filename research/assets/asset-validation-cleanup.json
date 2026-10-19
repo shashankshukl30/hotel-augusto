@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-19",
+  "start_of_asset_task_free_bytes": {
+    "C": 30069055488,
+    "D": 69505159168
+  },
+  "cleanup_before_free_bytes": {
+    "C": 29499760640,
+    "D": 68805722112
+  },
+  "cleanup_after_free_bytes": {
+    "C": 29499760640,
+    "D": 68805799936
+  },
+  "removed": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\assets\\booking-page.md",
+      "bytes": 75223,
+      "reason": "Disposable failed page extraction: irrelevant search results, 200-OK placeholder, or bot verification page; source URLs and access limitations are retained in asset research notes."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\assets\\makemytrip-page.md",
+      "bytes": 127,
+      "reason": "Disposable failed page extraction: irrelevant search results, 200-OK placeholder, or bot verification page; source URLs and access limitations are retained in asset research notes."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\assets\\hotels-page.md",
+      "bytes": 330,
+      "reason": "Disposable failed page extraction: irrelevant search results, 200-OK placeholder, or bot verification page; source URLs and access limitations are retained in asset research notes."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\assets\\goibibo-page.md",
+      "bytes": 127,
+      "reason": "Disposable failed page extraction: irrelevant search results, 200-OK placeholder, or bot verification page; source URLs and access limitations are retained in asset research notes."
+    }
+  ],
+  "removed_bytes": 75807,
+  "original_hashes_verified": 77,
+  "public_images_opened": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\dining-room-wide.webp",
+      "bytes": 126042
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\family-room-alternate.webp",
+      "bytes": 109450
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\room-tea.webp",
+      "bytes": 145740
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\deluxe-room-blue.webp",
+      "bytes": 125406
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\hotel-lobby.webp",
+      "bytes": 223808
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\hotel-exterior.webp",
+      "bytes": 209346
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\deluxe-room.webp",
+      "bytes": 112082
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\twin-room.webp",
+      "bytes": 136568
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\hotel-reception.webp",
+      "bytes": 194606
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\hotel-exterior-day.webp",
+      "bytes": 233820
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\hotel-lounge.webp",
+      "bytes": 211606
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\room-bathroom.webp",
+      "bytes": 158788
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\family-room.webp",
+      "bytes": 122752
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\dining-room.webp",
+      "bytes": 107542
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\varanasi-ghats.webp",
+      "bytes": 352434
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\ganges-dawn.webp",
+      "bytes": 94818
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\ganges-boats.webp",
+      "bytes": 86706
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\public\\images\\kashi-vishwanath.webp",
+      "bytes": 204844
+    }
+  ],
+  "note": "Parallel website work may change drive free space during asset collection. All 77 downloaded original assets and editable asset scripts are retained; no dependencies, user files, or sibling projects were removed."
+}

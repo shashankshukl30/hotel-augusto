@@ -1,0 +1,246 @@
+[
+  {
+    "width": 360,
+    "bodyWidth": 360,
+    "allControlsVisible": true,
+    "states": [
+      {
+        "label": "Explore the Deluxe Room",
+        "left": 24,
+        "right": 312,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 24,
+        "right": 154.09375,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 178.09375,
+        "right": 257.59375,
+        "passed": true
+      },
+      {
+        "label": "Explore the Deluxe Twin Room",
+        "left": 24,
+        "right": 312,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 24,
+        "right": 154.09375,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 178.09375,
+        "right": 257.59375,
+        "passed": true
+      },
+      {
+        "label": "Explore the Family Room",
+        "left": 48,
+        "right": 336,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 48,
+        "right": 178.09375,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 202.09375,
+        "right": 281.59375,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "bodyWidth": 390,
+    "allControlsVisible": true,
+    "states": [
+      {
+        "label": "Explore the Deluxe Room",
+        "left": 24,
+        "right": 342,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 24,
+        "right": 154.09375,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 178.09375,
+        "right": 257.59375,
+        "passed": true
+      },
+      {
+        "label": "Explore the Deluxe Twin Room",
+        "left": 24,
+        "right": 342,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 24,
+        "right": 154.09375,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 178.09375,
+        "right": 257.59375,
+        "passed": true
+      },
+      {
+        "label": "Explore the Family Room",
+        "left": 48,
+        "right": 366,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 48,
+        "right": 178.09375,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 202.09375,
+        "right": 281.59375,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "bodyWidth": 768,
+    "allControlsVisible": true,
+    "states": [
+      {
+        "label": "Explore the Deluxe Room",
+        "left": 40,
+        "right": 460,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 138.203125,
+        "right": 268.296875,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 282.296875,
+        "right": 361.796875,
+        "passed": true
+      },
+      {
+        "label": "Explore the Deluxe Twin Room",
+        "left": 40,
+        "right": 460,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 138.203125,
+        "right": 268.296875,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 282.296875,
+        "right": 361.796875,
+        "passed": true
+      },
+      {
+        "label": "Explore the Family Room",
+        "left": 308,
+        "right": 728,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 406.203125,
+        "right": 536.296875,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 550.296875,
+        "right": 629.796875,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "width": 900,
+    "bodyWidth": 900,
+    "allControlsVisible": true,
+    "states": [
+      {
+        "label": "Explore the Deluxe Room",
+        "left": 40,
+        "right": 460,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 138.203125,
+        "right": 268.296875,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 282.296875,
+        "right": 361.796875,
+        "passed": true
+      },
+      {
+        "label": "Explore the Deluxe Twin Room",
+        "left": 40,
+        "right": 460,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 138.203125,
+        "right": 268.296875,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 282.296875,
+        "right": 361.796875,
+        "passed": true
+      },
+      {
+        "label": "Explore the Family Room",
+        "left": 440,
+        "right": 860,
+        "passed": true
+      },
+      {
+        "label": "Explore room",
+        "left": 538.203125,
+        "right": 668.296875,
+        "passed": true
+      },
+      {
+        "label": "Enquire ",
+        "left": 682.296875,
+        "right": 761.796875,
+        "passed": true
+      }
+    ]
+  }
+]

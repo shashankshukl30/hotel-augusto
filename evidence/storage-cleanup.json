@@ -1,0 +1,93 @@
+{
+  "scope": "D:\\Digiocular\\Websites\\Hotel Augusto",
+  "started": "2026-10-19T15:43:00.516044+00:00",
+  "freeBeforeBytes": {
+    "C": 29310373888,
+    "D": 68474499072
+  },
+  "removed": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\qa-problem-varanasi-390.png",
+      "bytes": 175314,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\varanasi-390-top.png",
+      "sha256": "c4feae85bb3c9e927ba503414cbe223bf0f312db5fac231e16a3ed2e4c23c7db"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\contact-1440-full.png",
+      "bytes": 806617,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\contact-review\\contact-1440-full.png",
+      "sha256": "e9d9e55feacd0f804a3ef115d190c4bbac290cbce9aa7a5c0d7d76870bc90963"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\contact-1440-top.png",
+      "bytes": 300899,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\contact-review\\contact-1440-top.png",
+      "sha256": "cfd8692a7c0d3c7d763d28d6e5b13fb088106343c3faaa4abe2b47af3d21a4ee"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\contact-390-full.png",
+      "bytes": 369646,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\contact-review\\contact-390-full.png",
+      "sha256": "5f0054ea522def219cdf963f4f4a44002888ca6fb4e578582602a23197fb9f6e"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\contact-390-top.png",
+      "bytes": 151864,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\contact-review\\contact-390-top.png",
+      "sha256": "5e000a42f7ad042a30f569d4deeb0cd0f139f72a0da20e268545d5cd305361d5"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\privacy-1440-full.png",
+      "bytes": 345913,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\contact-review\\privacy-1440-full.png",
+      "sha256": "fb2cbac7cf0460608fc2142fd13c918696901eb8fbb74f8c119c2c5bd9173e38"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\privacy-1440-top.png",
+      "bytes": 108330,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\contact-review\\privacy-1440-top.png",
+      "sha256": "7dbc60ec12ea500c1d7f7d57813aa3e44db5e9006e6231663155dd8e333dd393"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\privacy-390-full.png",
+      "bytes": 273063,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\contact-review\\privacy-390-full.png",
+      "sha256": "4809c7a6e17039ac4b3bc61ef224e9c8a79945f2ad93a443f0a6957159973c6e"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\privacy-390-top.png",
+      "bytes": 65732,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\contact-review\\privacy-390-top.png",
+      "sha256": "7ff8009fb13122c066468626ca558962ac036cc23bb339117b49a387a673930a"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\design-qa\\varanasi-390.png",
+      "bytes": 657045,
+      "reason": "Task-generated screenshot duplicate; identical original evidence retained and decoded.",
+      "retainedCopy": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\independent-review\\varanasi-390-full.png",
+      "sha256": "f7025511f6ecc2c05cabd9c390a1a5ba5b1485a074924b49b7cdb5430584b502"
+    }
+  ],
+  "removedBytes": 3254423,
+  "freeAfterBytes": {
+    "C": 29310373888,
+    "D": 68477775872
+  },
+  "completed": "2026-10-19T15:43:00.658206+00:00",
+  "preserved": [
+    "All source and dependencies",
+    "All original and optimized hotel/destination assets",
+    "All unique research and verification evidence",
+    "Active production build",
+    "Editable handoff files"
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay",
+    "h1": [
+      "Your next chapter starts here."
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "badImages": [],
+    "overflowElements": [],
+    "route": "/contact",
+    "status": 200,
+    "consoleErrors": [],
+    "faqFirstOpened": true,
+    "faqKeyboardOpened": true,
+    "faqPreviousClosed": true,
+    "phoneHref": "tel:+918081709146",
+    "mapsHref": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+    "duplicateFormHeadingVisible": false,
+    "roomPreselection": "Family Room",
+    "invalidFormFocus": "arrival",
+    "invalidFormAlert": "Please check the highlighted details above.",
+    "draftHref": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AName%3A%20Review%20%26%20Family%0AArrival%3A%2026%20Oct%202026%0ADeparture%3A%2029%20Oct%202026%0AGuests%3A%202%20adults%0ARoom%20preference%3A%20Family%20Room%0ANote%3A%20Please%20confirm%20arrival%20arrangements.%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!",
+    "draftFocus": "whatsapp-draft",
+    "draftMessage": "Namaste Hotel Augusto! I would like to enquire about a stay.\nName: Review & Family\nArrival: 26 Oct 2026\nDeparture: 29 Oct 2026\nGuests: 2 adults\nRoom preference: Family Room\nNote: Please confirm arrival arrangements.\nPlease share availability, room rates and booking conditions. Thank you!",
+    "submittedToWhatsApp": false
+  },
+  {
+    "title": "Privacy & Photo Credits | Hotel Augusto in Varanasi",
+    "h1": [
+      "Your privacy.Our website."
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "badImages": [],
+    "overflowElements": [],
+    "route": "/privacy",
+    "status": 200,
+    "consoleErrors": [],
+    "credits": [
+      "The Varanasi riverfront\nRudra Gupta\nOriginal photograph\nUnsplash License\nResized and cropped for this website.",
+      "Morning on the Ganges\nSubhra Jyoti Paul\nOriginal photograph\nUnsplash License\nResized and cropped for this website.",
+      "Boats on the Ganges\nARTO SURAJ\nOriginal photograph\nUnsplash License\nResized and cropped for this website.",
+      "Shri Kashi Vishwanath Temple\nPradum Shukla\nOriginal photograph\nCC BY 4.0\nResized and cropped for this website."
+    ],
+    "creditLinks": [
+      "https://unsplash.com/photos/boats-on-a-river-with-city-buildings-in-background-_IdOI0J_doY",
+      "https://unsplash.com/license",
+      "https://unsplash.com/photos/two-boats-on-a-wide-river-at-sunrise-Sj6zqvbuykY",
+      "https://unsplash.com/license",
+      "https://unsplash.com/photos/two-people-in-a-small-boat-on-the-water-at-sunset-y4oZkoD6RYY",
+      "https://unsplash.com/license",
+      "https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ]
+  },
+  {
+    "title": "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay",
+    "h1": [
+      "Your next chapter starts here."
+    ],
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "badImages": [],
+    "overflowElements": [],
+    "route": "/contact",
+    "status": 200,
+    "consoleErrors": [],
+    "faqFirstOpened": true,
+    "faqKeyboardOpened": true,
+    "faqPreviousClosed": true,
+    "phoneHref": "tel:+918081709146",
+    "mapsHref": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+    "duplicateFormHeadingVisible": false,
+    "roomPreselection": "Family Room",
+    "invalidFormFocus": "arrival",
+    "invalidFormAlert": "Please check the highlighted details above.",
+    "draftHref": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AName%3A%20Review%20%26%20Family%0AArrival%3A%2026%20Oct%202026%0ADeparture%3A%2029%20Oct%202026%0AGuests%3A%202%20adults%0ARoom%20preference%3A%20Family%20Room%0ANote%3A%20Please%20confirm%20arrival%20arrangements.%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!",
+    "draftFocus": "whatsapp-draft",
+    "draftMessage": "Namaste Hotel Augusto! I would like to enquire about a stay.\nName: Review & Family\nArrival: 26 Oct 2026\nDeparture: 29 Oct 2026\nGuests: 2 adults\nRoom preference: Family Room\nNote: Please confirm arrival arrangements.\nPlease share availability, room rates and booking conditions. Thank you!",
+    "submittedToWhatsApp": false
+  },
+  {
+    "title": "Privacy & Photo Credits | Hotel Augusto in Varanasi",
+    "h1": [
+      "Your privacy.Our website."
+    ],
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "badImages": [],
+    "overflowElements": [],
+    "route": "/privacy",
+    "status": 200,
+    "consoleErrors": [],
+    "credits": [
+      "The Varanasi riverfront\nRudra Gupta\nOriginal photograph\nUnsplash License\nResized and cropped for this website.",
+      "Morning on the Ganges\nSubhra Jyoti Paul\nOriginal photograph\nUnsplash License\nResized and cropped for this website.",
+      "Boats on the Ganges\nARTO SURAJ\nOriginal photograph\nUnsplash License\nResized and cropped for this website.",
+      "Shri Kashi Vishwanath Temple\nPradum Shukla\nOriginal photograph\nCC BY 4.0\nResized and cropped for this website."
+    ],
+    "creditLinks": [
+      "https://unsplash.com/photos/boats-on-a-river-with-city-buildings-in-background-_IdOI0J_doY",
+      "https://unsplash.com/license",
+      "https://unsplash.com/photos/two-boats-on-a-wide-river-at-sunrise-Sj6zqvbuykY",
+      "https://unsplash.com/license",
+      "https://unsplash.com/photos/two-people-in-a-small-boat-on-the-water-at-sunset-y4oZkoD6RYY",
+      "https://unsplash.com/license",
+      "https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ]
+  }
+]

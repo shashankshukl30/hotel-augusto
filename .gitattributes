@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff2 binary
+*.docx binary
+# Preserve upstream design tooling and verbatim research captures.
+.agent/** -whitespace
+research/apple-reference/*.txt -whitespace
+research/assets/*.html -whitespace

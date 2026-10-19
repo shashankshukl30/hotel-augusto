@@ -12,16 +12,16 @@ export type GalleryImage = {
   position?: string;
 };
 
-const categories = ["All photographs", "Hotel", "Rooms", "Dining"] as const;
+const categories = ["All", "Hotel", "Rooms", "Dining"] as const;
 type Category = (typeof categories)[number];
 
 export function Gallery({ images }: { images: GalleryImage[] }) {
-  const [category, setCategory] = useState<Category>("All photographs");
+  const [category, setCategory] = useState<Category>("All");
   const [selected, setSelected] = useState<number | null>(null);
   const dialog = useRef<HTMLDialogElement>(null);
   const opener = useRef<HTMLButtonElement | null>(null);
   const touchStart = useRef<{ x: number; y: number } | null>(null);
-  const visible = images.filter((photo) => category === "All photographs" || photo.category === category);
+  const visible = images.filter((photo) => category === "All" || photo.category === category);
   const photograph = selected === null ? undefined : visible[selected];
 
   useEffect(() => {
@@ -49,7 +49,7 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
     <div className="photo-gallery">
       <div className="gallery-toolbar">
         <div className="gallery-filters" role="group" aria-label="Filter photographs">
-          {categories.filter((item) => item === "All photographs" || images.some((photo) => photo.category === item)).map((item) => (
+          {categories.filter((item) => item === "All" || images.some((photo) => photo.category === item)).map((item) => (
             <button key={item} type="button" aria-pressed={category === item} onClick={() => setCategory(item)}>
               {item}
             </button>
@@ -60,12 +60,12 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
 
       <div className="gallery-grid">
         {visible.map((photo, index) => (
-          <button className="gallery-tile" key={photo.src} type="button" aria-label={`Enlarge photograph: ${photo.caption}`} onClick={(event) => openPhoto(index, event.currentTarget)}>
+          <button className="gallery-tile" key={photo.src} type="button" aria-label={`${photo.caption} ${photo.category}: enlarge photograph`} onClick={(event) => openPhoto(index, event.currentTarget)}>
             <span className="gallery-image-wrap">
-              <Image src={photo.src} alt={photo.alt} fill sizes="(max-width: 640px) 88vw, (max-width: 1000px) 44vw, 53vw" style={{ objectPosition: photo.position }} priority={index === 0} />
+              <Image src={photo.src} alt={photo.alt} fill sizes="(max-width: 760px) 88vw, 43vw" style={{ objectPosition: photo.position }} priority={index === 0} />
               <span className="gallery-expand" aria-hidden="true"><Expand size={18} strokeWidth={1.5} /></span>
             </span>
-            <span className="gallery-caption"><span>{photo.caption}</span><span>{photo.category}</span></span>
+            <span className="gallery-caption"><span>{photo.caption}</span>{" "}<span>{photo.category}</span></span>
           </button>
         ))}
       </div>
@@ -90,7 +90,7 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
       >
         <div className="lightbox-shell">
           <div className="lightbox-topline">
-            <span className="eyebrow">Hotel Augusto · Photographs</span>
+            <span className="lightbox-brand">Hotel Augusto</span>
             <button className="lightbox-icon" type="button" onClick={closePhoto} aria-label="Close photograph viewer" autoFocus><X size={24} strokeWidth={1.5} /></button>
           </div>
           <div

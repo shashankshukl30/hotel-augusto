@@ -15,5 +15,5 @@ export function FloatingWhatsApp({ href }: { href: string }) {
   const pathname = usePathname();
   const show = useSyncExternalStore(subscribe, pastHero, initialScroll);
   if (pathname === "/" && !show) return null;
-  return <a className="whatsapp-float" href={href} target="_blank" rel="noopener noreferrer" aria-label="Enquire with Hotel Augusto on WhatsApp" style={{ color: "var(--paper)" }}><WhatsAppIcon size={22}/><span>Let’s plan your stay</span></a>;
+  return <aside aria-label="Booking assistance"><a className="whatsapp-float" href={href} target="_blank" rel="noopener noreferrer" aria-label="Let’s plan your stay on WhatsApp" style={{ color: "var(--paper)" }}><WhatsAppIcon size={22}/><span>Let’s plan your stay</span></a></aside>;
 }

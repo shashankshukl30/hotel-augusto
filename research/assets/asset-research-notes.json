@@ -1,0 +1,23 @@
+{
+  "retrieved": "2026-10-19",
+  "identity": {
+    "name": "Hotel Augusto, Varanasi",
+    "address": "D 36/1, Godowlia, Jangambari Road, Varanasi, Uttar Pradesh 221001",
+    "verified_visually": "Hotel exterior signs, in-room printed hotel collateral, same lobby and room features across listing galleries. No unrelated hotel photographs included."
+  },
+  "sources_examined": [
+    {"url":"https://thehotelaugusto.in/","result":"Google/Exa-associated hotel website. Direct fetched HTML contains only client-side redirect to Booking.com hotel/in/augusto-varanasi1.html?aid=7992060&label=id34. Retained official-home.html as evidence."},
+    {"url":"https://hotelaugusto.in/","result":"Older LinkedIn-associated domain did not return a usable page."},
+    {"url":"https://www.booking.com/hotel/in/augusto-varanasi1.en-gb.html","result":"Search engine hotel record accessible with matching address and photo descriptions. Direct browser and reader navigate to search results rather than the hotel. No images from that unrelated search-results page retained."},
+    {"url":"https://www.makemytrip.com/hotels/photos-of-hotel_augusto-details-varanasi.html","result":"Search index confirms 68 property images and matching hotel. Reader returned 200-OK placeholder and direct fetch timed out."},
+    {"url":"https://www.goibibo.com/hotels/augusto-hotel-in-varanasi-6897683623351687589/","result":"Search index confirms 69 property photos and matching hotel. Reader returned 200-OK placeholder."},
+    {"url":"https://www.hotels.com/ho1467912224/hotel-augusto-varanasi-india/","result":"Search/web record exposes gallery, exact hotel name/address, matching room, lobby and exterior photo descriptions. Direct reader returned a bot check; no bypass attempted."},
+    {"url":"https://www.tripadvisor.in/Hotel_Review-g297685-d6540696-Reviews-HOTEL_AUGUSTO-Varanasi_Varanasi_District_Uttar_Pradesh.html","result":"Search record confirms matching property/address. Guest photos were not needed or reused."},
+    {"url":"https://www.varanasihotels.org/augusto-varanasi.en.html","result":"Public gallery exposed 71 images at up to 1920×1080. All downloaded once, visually reviewed through contact sheets. This is a third-party hotel listing, not an official hotel site. Python requests returned 429 while native curl fetched images normally. Manifest records exact final source URLs."}
+  ],
+  "hotel_image_rights": "Photography is genuine hotel listing material. The public listing does not establish photographer ownership or grant independent reuse rights. Confirm client controls or has permission for the selected hotel images before publication.",
+  "destination_rights": "Three Unsplash photographs have explicit Unsplash License declarations on their individual pages. The selected Kashi Vishwanath image by Pradum Shukla is CC BY 4.0, with photo page and license links in manifest. Other temple candidates are retained as research only and are not public web assets.",
+  "logo": "No original downloadable logo asset recovered. Exterior and printed materials show Hotel Augusto naming; use a typographic wordmark as new site design, without presenting it as a recovered original logo.",
+  "processing": "WebP compression and resizing only. No watermarks removed, no objects added or removed, no synthetic hotel imagery. All original downloads and hashes retained. 18 public assets validated as decodable images.",
+  "workflow": "agent-reach Exa search and Jina reader routes used. agent-reach v1.5.0 is current according to check-update. Native curl used to retrieve public image bytes after reader limitations."
+}

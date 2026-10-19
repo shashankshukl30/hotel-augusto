@@ -1,0 +1,41 @@
+﻿{
+    "Scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research",
+    "Before":  [
+                   {
+                       "Drive":  "C",
+                       "FreeBytes":  29446733824
+                   },
+                   {
+                       "Drive":  "D",
+                       "FreeBytes":  68637413376
+                   }
+               ],
+    "Removed":  [
+                    {
+                        "Path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\montrural-live-desktop.png",
+                        "Bytes":  8567,
+                        "Reason":  "Failed or incomplete website loading screenshot; no usable design evidence. Source URLs and successful reference images retained."
+                    },
+                    {
+                        "Path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\montrural-live-mobile.png",
+                        "Bytes":  3724,
+                        "Reason":  "Failed or incomplete website loading screenshot; no usable design evidence. Source URLs and successful reference images retained."
+                    },
+                    {
+                        "Path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\vesper-live-desktop.png",
+                        "Bytes":  79925,
+                        "Reason":  "Failed or incomplete website loading screenshot; no usable design evidence. Source URLs and successful reference images retained."
+                    }
+                ],
+    "After":  [
+                  {
+                      "Drive":  "C",
+                      "FreeBytes":  29446733824
+                  },
+                  {
+                      "Drive":  "D",
+                      "FreeBytes":  68637511680
+                  }
+              ],
+    "Retained":  "Successful Awwwards reference images, Miramare desktop/mobile evidence, original project assets and all editable source."
+}

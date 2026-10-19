@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-19",
+  "scope": "Independent review of the implementation while room routes and enquiry form were still being completed. No frontend edits made by reviewer.",
+  "environment": "Python Playwright, fresh headless Microsoft Edge contexts, device scale factor 1, CSS widths 390 and 1440, viewport height 900, local server http://127.0.0.1:3080.",
+  "findings": [
+    {
+      "severity": "medium",
+      "title": "Home destination links target missing anchors",
+      "evidence": "app/page.tsx links to /varanasi#river, #temple and #aarti, while captured Varanasi page contained no elements with those ids. The link promise is a specific chapter, but browser cannot target it.",
+      "location": "app/page.tsx:22; app/varanasi/page.tsx",
+      "suggested_fix": "Add river, temple and aarti IDs to their destination chapter elements."
+    },
+    {
+      "severity": "medium",
+      "title": "Inactive room tabs reference absent panels",
+      "evidence": "Home DOM reports aria-controls room-panel-1 and room-panel-2 but only room-panel-0 exists when Deluxe is selected. Verified at 390 and 1440 CSS pixels. Click and arrow-key selection otherwise works.",
+      "location": "components/room-showcase.tsx:13",
+      "suggested_fix": "Point all tabs at a stable single tabpanel id and update its aria-labelledby, or render all tabpanels and hide inactive panels."
+    },
+    {
+      "severity": "medium",
+      "title": "Mobile hero image is undersized for its cover crop",
+      "evidence": "At 390x900 CSS pixels with deviceScaleFactor 1, hero image currentSrc selected Next image width=640 while container is 390x760. A 3:2 landscape image covering a 760px-tall frame needs approximately 1140px source width. Screenshot home-390-top.png shows softened detail.",
+      "location": "components/home-hero.tsx hero Image sizes",
+      "suggested_fix": "Use a mobile sizes value that accounts for the tall cover crop or provide a dedicated mobile crop."
+    },
+    {
+      "severity": "low",
+      "title": "Floating WhatsApp action covers hero caption at desktop height",
+      "evidence": "home-1440-top.png shows the bottom-right Life along the Ganges caption partly behind the fixed WhatsApp CTA at 1440x900.",
+      "location": "app/home.css .hero-bottom and .hero-caption; app/shell.css .whatsapp-float",
+      "suggested_fix": "Reserve right or bottom clearance for the floating CTA."
+    }
+  ],
+  "passes": [
+    "Home, Gallery, Varanasi, Contact and Privacy routes each returned 200 at both widths.",
+    "All 10 page/viewport combinations had body.scrollWidth equal to documentElement.clientWidth and no element overflow detected.",
+    "No browser pageerror events were captured.",
+    "Visible images decoded on all five pages; the unloaded room-tea image on mobile is intentionally display:none, so it is not a visible broken image.",
+    "Home room tabs display the correct genuine double, twin and family photographs; each link updates to the corresponding room slug.",
+    "Arrow-right moves selected tab and focus together.",
+    "Mobile menu opens at the full 390px width, locks background scrolling, focuses close, closes on Escape and restores the trigger focus.",
+    "Desktop hamburger is hidden while desktop navigation remains visible.",
+    "Gallery filters show 4 Hotel, 6 Rooms and 2 Dining photographs. Lightbox opens, advances with arrow keys, closes with Escape and restores opener focus.",
+    "Each page has one H1 and page title lengths of 51 to 53 characters.",
+    "Hotel imagery accurately represents the property and room arrangements. Destination imagery is identified as Varanasi rather than a room view.",
+    "Temple image and credit correctly reference Pradum Shukla under CC BY 4.0. Unsplash destination credits match manifest. Sunrise wording for ARTO SURAJ follows the photographer's explicit description."
+  ],
+  "limitations": [
+    "Room routes and the final enquiry form were being implemented during this review and were not assessed.",
+    "This is a functional and visual accessibility spot-check, not a formal WCAG conformance audit.",
+    "No WhatsApp messages or hotel communications were sent."
+  ]
+}

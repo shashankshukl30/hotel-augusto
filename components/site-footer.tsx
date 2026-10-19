@@ -11,14 +11,14 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="container">
         <div className="footer-invitation">
-          <div><span className="eyebrow">YOUR VARANASI CHAPTER</span><h2>Some places stay<br/>with you. <em>Stay here.</em></h2></div>
-          <div className="footer-invitation-action"><p>Tell us when you’re coming.<br/>We’ll help you find your room.</p><a className="button button-light" href={whatsapp} target="_blank" rel="noopener noreferrer" style={{ color: "var(--ink)" }}><WhatsAppIcon /> Enquire on WhatsApp <ArrowUpRight size={18}/></a><span className="footer-small">Speak directly with the hotel.</span></div>
+          <div><span className="eyebrow">Hotel Augusto, Varanasi</span><h2>Stay at Augusto.</h2></div>
+          <div className="footer-invitation-action"><p>Send your dates. We’ll help you choose a room.</p><a className="button" href={whatsapp} target="_blank" rel="noopener noreferrer" style={{ color: "var(--paper)" }}><WhatsAppIcon /> Enquire on WhatsApp</a><span className="footer-small">Speak directly with the hotel.</span></div>
         </div>
         <div className="footer-details">
-          <Link href="/" className="brand-link" aria-label="Hotel Augusto home"><Brand large /></Link>
-          <div><h3>FIND AUGUSTO</h3><p>{hotel.address.map((line) => <span key={line}>{line}<br/></span>)}</p><a href={hotel.mapsUrl} className="footer-link" target="_blank" rel="noopener noreferrer">Get directions <ArrowUpRight size={15}/></a></div>
-          <div><h3>TAKE A LOOK AROUND</h3><Link href="/rooms">Our rooms</Link><Link href="/varanasi">Discover Varanasi</Link><Link href="/gallery">The gallery</Link><Link href="/contact">Contact & enquiries</Link></div>
-          <div><h3>LET’S TALK</h3><a href={hotel.phoneHref}>{hotel.phone}</a><a href={whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp the hotel <ArrowUpRight size={14}/></a><p className="footer-small">A warm welcome awaits<br/>in the heart of Godowlia.</p></div>
+          <Link href="/" className="brand-link" aria-label="Augusto. Home"><Brand large /></Link>
+          <div><h3>Find us</h3><p>{hotel.address.map((line) => <span key={line}>{line}<br/></span>)}</p><a href={hotel.mapsUrl} className="footer-link" target="_blank" rel="noopener noreferrer">Get directions <ArrowUpRight size={15}/></a></div>
+          <div><h3>Explore</h3><Link href="/rooms">Our rooms</Link><Link href="/varanasi">Varanasi</Link><Link href="/gallery">Gallery</Link><Link href="/contact">Contact & enquiries</Link></div>
+          <div><h3>Contact</h3><a href={hotel.phoneHref}>{hotel.phone}</a><a href={whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp the hotel <ArrowUpRight size={14}/></a></div>
         </div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} Hotel Augusto.</span><Link href="/privacy">Privacy & photo credits</Link><span>Made with <span className="credit-heart">♥</span> by <a href="https://digiocular.com" target="_blank" rel="noopener noreferrer">Digiocular</a></span></div>
       </div>

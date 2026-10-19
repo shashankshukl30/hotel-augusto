@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-10-19",
+  "scope": "Dependency advisory triage and enquiry storage/external URL source review",
+  "package_changes_made": false,
+  "dependency_review": {
+    "full_audit": { "high": 5, "distinct_root_advisories": 1 },
+    "production_audit": { "vulnerabilities": 0, "command": "npm audit --omit=dev --json" },
+    "advisory": "GHSA-vfj7-8cjw-p6xm",
+    "cve": "CVE-2026-93687",
+    "affected": "braces <=3.0.3",
+    "patched_version": null,
+    "installed_chain": ["eslint-config-next@16.4.2", "@next/eslint-plugin-next@16.4.2", "fast-glob@3.3.1", "micromatch@4.0.8", "braces@3.0.3"],
+    "official_registry_latest": { "braces": "3.0.3", "micromatch": "4.0.8", "fast-glob": "3.3.3" },
+    "latest_fast_glob_dependency": "micromatch ^4.0.8, which requires braces ^3.0.3",
+    "exposure": "Development lint tooling only. Installed @next/eslint-plugin-next invokes fast-glob for next.rootDir glob patterns from trusted local ESLint configuration. This project does not configure next.rootDir. No connection to public visitor input was found.",
+    "recommendation": "Retain the lockfile and current Next versions. Record the unresolved dev-only advisory and revisit when an official patch is published. No same-package override can remove the advisory today. Do not apply npm audit fix --force or the suggested eslint-config-next downgrade to 14.2.35.",
+    "sources": [
+      "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+      "https://github.com/micromatch/braces/issues/70",
+      "https://registry.npmjs.org/braces/latest",
+      "https://registry.npmjs.org/micromatch/latest",
+      "https://registry.npmjs.org/fast-glob/latest",
+      "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/#overrides"
+    ],
+    "commands": [
+      "npm audit --json",
+      "npm audit --omit=dev --json",
+      "npm ls braces micromatch fast-glob @next/eslint-plugin-next --all",
+      "npm view braces version dist-tags time.modified repository --json",
+      "npm view micromatch version dependencies --json",
+      "npm view fast-glob version dependencies --json"
+    ]
+  },
+  "application_review": {
+    "enquiry_persistence": "None found. FormData and React state remain in the browser; no API handler, server action, database, localStorage, sessionStorage, IndexedDB, cookie write, fetch, or beacon submission was found in application source.",
+    "external_handoff": "Validated fields build an HTTPS wa.me link. The user reviews the draft, opens WhatsApp, and sends there. No automatic message sending occurs.",
+    "user_input_handling": "WhatsApp number constrained to digits; all message values encoded with encodeURIComponent; dates/counts/lengths validated; query-selected room slug resolved against the local room list.",
+    "external_urls": "Static hotel map, official destination references, photographer/license credits, WhatsApp privacy, and Digiocular credit. No user-controlled external navigation destination found.",
+    "html_injection": "Only dangerouslySetInnerHTML use is static Hotel JSON-LD; '<' escaped as Unicode. No enquiry input enters HTML injection sinks.",
+    "headers": "Baseline CSP, nosniff, DENY framing, referrer policy, disabled camera/microphone/geolocation, and HSTS configured. CSP is baseline hardening, not a strict script allowlist.",
+    "limitations": "Source review and dependency triage do not constitute a penetration test. WhatsApp public landing was inspected separately; this does not prove number registration or hotel account ownership."
+  }
+}

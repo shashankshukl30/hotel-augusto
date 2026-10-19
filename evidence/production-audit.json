@@ -1,0 +1,640 @@
+{
+  "generated": "2026-10-19T15:41:33.523415+00:00",
+  "base_url": "http://127.0.0.1:3081",
+  "scope": "Local synthetic samples, not field Core Web Vitals or a Lighthouse score.",
+  "headers": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "Content-Security-Policy": "base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://wa.me; upgrade-insecure-requests",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "x-nextjs-cache": "HIT",
+    "x-nextjs-prerender": "1",
+    "x-nextjs-stale-time": "300",
+    "Cache-Control": "s-maxage=31536000",
+    "ETag": "\"57s4n71507z8g\"",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "45698",
+    "Date": "Mon, 19 Oct 2026 15:41:33 GMT",
+    "Connection": "close"
+  },
+  "og": {
+    "size": [
+      1200,
+      630
+    ],
+    "bytes": 44503,
+    "format": "PNG"
+  },
+  "robots": "User-Agent: *\nDisallow: /\n\n",
+  "performance": {
+    "method": "Cold browser cache; mobile: 1.6 Mbps downstream, 150ms latency, 4x CPU slowdown. Local server and machine affect timings.",
+    "samples": [
+      {
+        "lcp": 176,
+        "cls": 0,
+        "longTasks": [],
+        "fcp": 176,
+        "resources": [
+          {
+            "name": "inter_latin_wght_normal-s.p.0gsaq8ukbf34m.woff2",
+            "type": "link",
+            "encodedBytes": 48256,
+            "transferBytes": 48556
+          },
+          {
+            "name": "image?url=%2Fimages%2Fganges-boats.webp&w=1920&q=85",
+            "type": "link",
+            "encodedBytes": 33296,
+            "transferBytes": 33596
+          },
+          {
+            "name": "0xhms5lj43h5g.css",
+            "type": "link",
+            "encodedBytes": 2206,
+            "transferBytes": 2506
+          },
+          {
+            "name": "3--olg9fl5jvw.css",
+            "type": "link",
+            "encodedBytes": 7111,
+            "transferBytes": 7411
+          },
+          {
+            "name": "1ckvzn7sfprko.js",
+            "type": "link",
+            "encodedBytes": 2035,
+            "transferBytes": 2335
+          },
+          {
+            "name": "0sg2ukq2rk6r3.js",
+            "type": "script",
+            "encodedBytes": 9020,
+            "transferBytes": 9320
+          },
+          {
+            "name": "2d_4a77it__kx.js",
+            "type": "script",
+            "encodedBytes": 45063,
+            "transferBytes": 45363
+          },
+          {
+            "name": "0zl36_62a8ie1.js",
+            "type": "script",
+            "encodedBytes": 71897,
+            "transferBytes": 72197
+          },
+          {
+            "name": "3q45jf57qxvi9.js",
+            "type": "script",
+            "encodedBytes": 3514,
+            "transferBytes": 3814
+          },
+          {
+            "name": "turbopack-2c3mg3r-05n1w.js",
+            "type": "script",
+            "encodedBytes": 4390,
+            "transferBytes": 4690
+          },
+          {
+            "name": "0fpf5locb1i3h.js",
+            "type": "script",
+            "encodedBytes": 6356,
+            "transferBytes": 6656
+          },
+          {
+            "name": "31fn6kj5f3vv2.js",
+            "type": "script",
+            "encodedBytes": 11461,
+            "transferBytes": 11761
+          },
+          {
+            "name": "1np3grcwh7rqi.js",
+            "type": "script",
+            "encodedBytes": 44132,
+            "transferBytes": 44432
+          },
+          {
+            "name": "image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+            "type": "img",
+            "encodedBytes": 53912,
+            "transferBytes": 54212
+          },
+          {
+            "name": "image?url=%2Fimages%2Ftwin-room.webp&w=1920&q=85",
+            "type": "img",
+            "encodedBytes": 63864,
+            "transferBytes": 64164
+          },
+          {
+            "name": "image?url=%2Fimages%2Ffamily-room.webp&w=1920&q=85",
+            "type": "img",
+            "encodedBytes": 57536,
+            "transferBytes": 57836
+          },
+          {
+            "name": "icon.svg?icon.0bj82hlbst1uz.svg",
+            "type": "other",
+            "encodedBytes": 247,
+            "transferBytes": 547
+          },
+          {
+            "name": "?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 257,
+            "transferBytes": 557
+          },
+          {
+            "name": "rooms?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 274,
+            "transferBytes": 574
+          },
+          {
+            "name": "varanasi?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 276,
+            "transferBytes": 576
+          },
+          {
+            "name": "gallery?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 275,
+            "transferBytes": 575
+          },
+          {
+            "name": "contact?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 291,
+            "transferBytes": 591
+          },
+          {
+            "name": "0atly0sxd4gq7.css",
+            "type": "link",
+            "encodedBytes": 2352,
+            "transferBytes": 2652
+          },
+          {
+            "name": "?_rsc=yIp22O3xgPPxC28X",
+            "type": "fetch",
+            "encodedBytes": 2201,
+            "transferBytes": 2501
+          },
+          {
+            "name": "2rujx3h-28ie2.css",
+            "type": "link",
+            "encodedBytes": 2805,
+            "transferBytes": 3105
+          },
+          {
+            "name": "?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "encodedBytes": 2642,
+            "transferBytes": 2942
+          },
+          {
+            "name": "rooms?_rsc=fz2dyb1obUopobmp",
+            "type": "fetch",
+            "encodedBytes": 3077,
+            "transferBytes": 3377
+          },
+          {
+            "name": "3miukepfll5i3.css",
+            "type": "link",
+            "encodedBytes": 1176,
+            "transferBytes": 1476
+          },
+          {
+            "name": "2az1vl57wy5gx.css",
+            "type": "link",
+            "encodedBytes": 1898,
+            "transferBytes": 2198
+          },
+          {
+            "name": "varanasi?_rsc=Rl9sPfA3_E5XlVDF",
+            "type": "fetch",
+            "encodedBytes": 3230,
+            "transferBytes": 3530
+          },
+          {
+            "name": "gallery?_rsc=Ms9RZ1ulVGHZx9cA",
+            "type": "fetch",
+            "encodedBytes": 2235,
+            "transferBytes": 2535
+          },
+          {
+            "name": "contact?_rsc=BiuOixuigeBXVJn7",
+            "type": "fetch",
+            "encodedBytes": 4042,
+            "transferBytes": 4342
+          },
+          {
+            "name": "0paoxeozaqc77.js",
+            "type": "script",
+            "encodedBytes": 5633,
+            "transferBytes": 5933
+          },
+          {
+            "name": "1j877cln2j0aa.js",
+            "type": "script",
+            "encodedBytes": 7247,
+            "transferBytes": 7547
+          },
+          {
+            "name": "3d4955ss58lcy.js",
+            "type": "script",
+            "encodedBytes": 8769,
+            "transferBytes": 9069
+          }
+        ],
+        "fontsReady": "loaded",
+        "imageLoaded": true,
+        "width": 1440,
+        "throttled": false,
+        "errors": []
+      },
+      {
+        "lcp": 1136,
+        "cls": 4.677223680527599e-05,
+        "longTasks": [
+          191,
+          142
+        ],
+        "fcp": 1136,
+        "resources": [
+          {
+            "name": "inter_latin_wght_normal-s.p.0gsaq8ukbf34m.woff2",
+            "type": "link",
+            "encodedBytes": 48256,
+            "transferBytes": 48556
+          },
+          {
+            "name": "image?url=%2Fimages%2Fganges-boats.webp&w=1080&q=85",
+            "type": "link",
+            "encodedBytes": 14570,
+            "transferBytes": 14870
+          },
+          {
+            "name": "3--olg9fl5jvw.css",
+            "type": "link",
+            "encodedBytes": 7111,
+            "transferBytes": 7411
+          },
+          {
+            "name": "0xhms5lj43h5g.css",
+            "type": "link",
+            "encodedBytes": 2206,
+            "transferBytes": 2506
+          },
+          {
+            "name": "1ckvzn7sfprko.js",
+            "type": "link",
+            "encodedBytes": 2035,
+            "transferBytes": 2335
+          },
+          {
+            "name": "0sg2ukq2rk6r3.js",
+            "type": "script",
+            "encodedBytes": 9020,
+            "transferBytes": 9320
+          },
+          {
+            "name": "0zl36_62a8ie1.js",
+            "type": "script",
+            "encodedBytes": 71897,
+            "transferBytes": 72197
+          },
+          {
+            "name": "2d_4a77it__kx.js",
+            "type": "script",
+            "encodedBytes": 45063,
+            "transferBytes": 45363
+          },
+          {
+            "name": "turbopack-2c3mg3r-05n1w.js",
+            "type": "script",
+            "encodedBytes": 4390,
+            "transferBytes": 4690
+          },
+          {
+            "name": "0fpf5locb1i3h.js",
+            "type": "script",
+            "encodedBytes": 6356,
+            "transferBytes": 6656
+          },
+          {
+            "name": "3q45jf57qxvi9.js",
+            "type": "script",
+            "encodedBytes": 3514,
+            "transferBytes": 3814
+          },
+          {
+            "name": "31fn6kj5f3vv2.js",
+            "type": "script",
+            "encodedBytes": 11461,
+            "transferBytes": 11761
+          },
+          {
+            "name": "1np3grcwh7rqi.js",
+            "type": "script",
+            "encodedBytes": 44132,
+            "transferBytes": 44432
+          },
+          {
+            "name": "image?url=%2Fimages%2Fdeluxe-room.webp&w=750&q=85",
+            "type": "img",
+            "encodedBytes": 16383,
+            "transferBytes": 16683
+          },
+          {
+            "name": "image?url=%2Fimages%2Ftwin-room.webp&w=750&q=85",
+            "type": "img",
+            "encodedBytes": 18541,
+            "transferBytes": 18841
+          },
+          {
+            "name": "image?url=%2Fimages%2Ffamily-room.webp&w=750&q=85",
+            "type": "img",
+            "encodedBytes": 17924,
+            "transferBytes": 18224
+          },
+          {
+            "name": "icon.svg?icon.0bj82hlbst1uz.svg",
+            "type": "other",
+            "encodedBytes": 247,
+            "transferBytes": 547
+          },
+          {
+            "name": "?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 257,
+            "transferBytes": 557
+          },
+          {
+            "name": "contact?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 291,
+            "transferBytes": 591
+          },
+          {
+            "name": "rooms?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 274,
+            "transferBytes": 574
+          },
+          {
+            "name": "?_rsc=yIp22O3xgPPxC28X",
+            "type": "fetch",
+            "encodedBytes": 2201,
+            "transferBytes": 2501
+          },
+          {
+            "name": "?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "encodedBytes": 2642,
+            "transferBytes": 2942
+          },
+          {
+            "name": "3miukepfll5i3.css",
+            "type": "link",
+            "encodedBytes": 1176,
+            "transferBytes": 1476
+          },
+          {
+            "name": "2az1vl57wy5gx.css",
+            "type": "link",
+            "encodedBytes": 1898,
+            "transferBytes": 2198
+          },
+          {
+            "name": "contact?_rsc=BiuOixuigeBXVJn7",
+            "type": "fetch",
+            "encodedBytes": 4042,
+            "transferBytes": 4342
+          },
+          {
+            "name": "0atly0sxd4gq7.css",
+            "type": "link",
+            "encodedBytes": 2352,
+            "transferBytes": 2652
+          },
+          {
+            "name": "rooms?_rsc=fz2dyb1obUopobmp",
+            "type": "fetch",
+            "encodedBytes": 3077,
+            "transferBytes": 3377
+          },
+          {
+            "name": "3d4955ss58lcy.js",
+            "type": "script",
+            "encodedBytes": 8769,
+            "transferBytes": 9069
+          },
+          {
+            "name": "0paoxeozaqc77.js",
+            "type": "script",
+            "encodedBytes": 5633,
+            "transferBytes": 5933
+          }
+        ],
+        "fontsReady": "loaded",
+        "imageLoaded": true,
+        "width": 390,
+        "throttled": true,
+        "errors": []
+      },
+      {
+        "lcp": 1256,
+        "cls": 4.677223680527599e-05,
+        "longTasks": [
+          198,
+          149
+        ],
+        "fcp": 1256,
+        "resources": [
+          {
+            "name": "inter_latin_wght_normal-s.p.0gsaq8ukbf34m.woff2",
+            "type": "link",
+            "encodedBytes": 48256,
+            "transferBytes": 48556
+          },
+          {
+            "name": "image?url=%2Fimages%2Fganges-boats.webp&w=1080&q=85",
+            "type": "link",
+            "encodedBytes": 14570,
+            "transferBytes": 14870
+          },
+          {
+            "name": "3--olg9fl5jvw.css",
+            "type": "link",
+            "encodedBytes": 7111,
+            "transferBytes": 7411
+          },
+          {
+            "name": "0xhms5lj43h5g.css",
+            "type": "link",
+            "encodedBytes": 2206,
+            "transferBytes": 2506
+          },
+          {
+            "name": "1ckvzn7sfprko.js",
+            "type": "link",
+            "encodedBytes": 2035,
+            "transferBytes": 2335
+          },
+          {
+            "name": "0sg2ukq2rk6r3.js",
+            "type": "script",
+            "encodedBytes": 9020,
+            "transferBytes": 9320
+          },
+          {
+            "name": "0zl36_62a8ie1.js",
+            "type": "script",
+            "encodedBytes": 71897,
+            "transferBytes": 72197
+          },
+          {
+            "name": "2d_4a77it__kx.js",
+            "type": "script",
+            "encodedBytes": 45063,
+            "transferBytes": 45363
+          },
+          {
+            "name": "turbopack-2c3mg3r-05n1w.js",
+            "type": "script",
+            "encodedBytes": 4390,
+            "transferBytes": 4690
+          },
+          {
+            "name": "0fpf5locb1i3h.js",
+            "type": "script",
+            "encodedBytes": 6356,
+            "transferBytes": 6656
+          },
+          {
+            "name": "3q45jf57qxvi9.js",
+            "type": "script",
+            "encodedBytes": 3514,
+            "transferBytes": 3814
+          },
+          {
+            "name": "31fn6kj5f3vv2.js",
+            "type": "script",
+            "encodedBytes": 11461,
+            "transferBytes": 11761
+          },
+          {
+            "name": "1np3grcwh7rqi.js",
+            "type": "script",
+            "encodedBytes": 44132,
+            "transferBytes": 44432
+          },
+          {
+            "name": "image?url=%2Fimages%2Fdeluxe-room.webp&w=750&q=85",
+            "type": "img",
+            "encodedBytes": 16383,
+            "transferBytes": 16683
+          },
+          {
+            "name": "image?url=%2Fimages%2Ftwin-room.webp&w=750&q=85",
+            "type": "img",
+            "encodedBytes": 18541,
+            "transferBytes": 18841
+          },
+          {
+            "name": "image?url=%2Fimages%2Ffamily-room.webp&w=750&q=85",
+            "type": "img",
+            "encodedBytes": 17924,
+            "transferBytes": 18224
+          },
+          {
+            "name": "icon.svg?icon.0bj82hlbst1uz.svg",
+            "type": "other",
+            "encodedBytes": 247,
+            "transferBytes": 547
+          },
+          {
+            "name": "?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 257,
+            "transferBytes": 557
+          },
+          {
+            "name": "contact?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 291,
+            "transferBytes": 591
+          },
+          {
+            "name": "rooms?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 274,
+            "transferBytes": 574
+          },
+          {
+            "name": "?_rsc=yIp22O3xgPPxC28X",
+            "type": "fetch",
+            "encodedBytes": 2201,
+            "transferBytes": 2501
+          },
+          {
+            "name": "?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "encodedBytes": 2642,
+            "transferBytes": 2942
+          },
+          {
+            "name": "3miukepfll5i3.css",
+            "type": "link",
+            "encodedBytes": 1176,
+            "transferBytes": 1476
+          },
+          {
+            "name": "2az1vl57wy5gx.css",
+            "type": "link",
+            "encodedBytes": 1898,
+            "transferBytes": 2198
+          },
+          {
+            "name": "contact?_rsc=BiuOixuigeBXVJn7",
+            "type": "fetch",
+            "encodedBytes": 4042,
+            "transferBytes": 4342
+          },
+          {
+            "name": "0atly0sxd4gq7.css",
+            "type": "link",
+            "encodedBytes": 2352,
+            "transferBytes": 2652
+          },
+          {
+            "name": "rooms?_rsc=fz2dyb1obUopobmp",
+            "type": "fetch",
+            "encodedBytes": 3077,
+            "transferBytes": 3377
+          },
+          {
+            "name": "3d4955ss58lcy.js",
+            "type": "script",
+            "encodedBytes": 8769,
+            "transferBytes": 9069
+          },
+          {
+            "name": "0paoxeozaqc77.js",
+            "type": "script",
+            "encodedBytes": 5633,
+            "transferBytes": 5933
+          }
+        ],
+        "fontsReady": "loaded",
+        "imageLoaded": true,
+        "width": 390,
+        "throttled": true,
+        "errors": []
+      }
+    ]
+  }
+}

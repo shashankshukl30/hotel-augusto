@@ -1,0 +1,769 @@
+{
+  "started": "2026-10-19T15:38:07.470576+00:00",
+  "base_url": "http://127.0.0.1:3080",
+  "mode": "Redesign targeted regression after comprehensive sweep",
+  "browser": "Fresh headless Microsoft Edge contexts, deviceScaleFactor=1",
+  "viewports": [
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "A look inside."
+      ],
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "titleLength": 52,
+      "description": "Take a closer look at Hotel Augusto, Varanasi. Explore photographs of the guest rooms, reception, restaurant and the hotel before planning your stay.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Hotel Augusto's entrance lobby with patterned seating and warm ceiling lights",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Double-bed guest room with a tan upholstered headboard at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Two single beds with green runners in a guest room at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Kettle, cups and tea supplies on a tray in a Hotel Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Tables and upholstered dining chairs in Hotel Augusto's restaurant",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Reception desk and seating at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Family guest room with two beds at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Hotel Augusto's exterior and illuminated sign after dark",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Sofas and a coffee table in the Hotel Augusto lounge",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lounge.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "A wide view of Hotel Augusto's dining room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "Double-bed guest room with a blue upholstered headboard at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        },
+        {
+          "alt": "A tiled private bathroom in a Hotel Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 619,
+          "width": 626,
+          "height": 423
+        }
+      ],
+      "ids": [
+        "main",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto. Home"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/rooms",
+          "name": "02Rooms"
+        },
+        {
+          "href": "/varanasi",
+          "name": "03Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "04Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "05Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "Explore rooms"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto. Home"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/gallery",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [
+        "axe violations"
+      ],
+      "axe": {
+        "violations": [
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+            "help": "Elements must have their visible text as part of their accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+            "nodes": [
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(1)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(4)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(5)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(6)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(7)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(8)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(9)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(10)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(11)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(12)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            ]
+          }
+        ],
+        "passes": 39,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "A look inside."
+      ],
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "titleLength": 52,
+      "description": "Take a closer look at Hotel Augusto, Varanasi. Explore photographs of the guest rooms, reception, restaurant and the hotel before planning your stay.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Hotel Augusto's entrance lobby with patterned seating and warm ceiling lights",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Double-bed guest room with a tan upholstered headboard at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Two single beds with green runners in a guest room at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Kettle, cups and tea supplies on a tray in a Hotel Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Tables and upholstered dining chairs in Hotel Augusto's restaurant",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Reception desk and seating at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Family guest room with two beds at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Hotel Augusto's exterior and illuminated sign after dark",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Sofas and a coffee table in the Hotel Augusto lounge",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lounge.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "A wide view of Hotel Augusto's dining room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "Double-bed guest room with a blue upholstered headboard at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        },
+        {
+          "alt": "A tiled private bathroom in a Hotel Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 343,
+          "width": 342,
+          "height": 253
+        }
+      ],
+      "ids": [
+        "main",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto. Home"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/rooms",
+          "name": "02Rooms"
+        },
+        {
+          "href": "/varanasi",
+          "name": "03Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "04Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "05Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "Explore rooms"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto. Home"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/gallery",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [
+        "axe violations"
+      ],
+      "axe": {
+        "violations": [
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+            "help": "Elements must have their visible text as part of their accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+            "nodes": [
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(1)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(4)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(5)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(6)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(7)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(8)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(9)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(10)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(11)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              },
+              {
+                "target": [
+                  ".gallery-tile[type=\"button\"]:nth-child(12)"
+                ],
+                "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            ]
+          }
+        ],
+        "passes": 39,
+        "incomplete": 0
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "test": "Mobile menu opens, focuses close, locks body",
+      "passed": true,
+      "evidence": "Close navigation"
+    },
+    {
+      "test": "Mobile menu prevents focus to background controls",
+      "passed": true,
+      "evidence": [
+        {
+          "tag": "BODY",
+          "inside": false,
+          "backgroundFocus": false
+        },
+        {
+          "tag": "A",
+          "inside": true,
+          "backgroundFocus": false
+        },
+        {
+          "tag": "BODY",
+          "inside": false,
+          "backgroundFocus": false
+        },
+        {
+          "tag": "BUTTON",
+          "inside": true,
+          "backgroundFocus": false
+        }
+      ]
+    },
+    {
+      "test": "Menu Escape closes and restores focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room tab ArrowRight updates selected and focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room tab End selects last room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room tab Home selects first room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room tab ArrowLeft wraps to last room",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "failures": [
+    {
+      "type": "viewport",
+      "route": "/gallery",
+      "width": 1440,
+      "failures": [
+        "axe violations"
+      ]
+    },
+    {
+      "type": "viewport",
+      "route": "/gallery",
+      "width": 390,
+      "failures": [
+        "axe violations"
+      ]
+    },
+    {
+      "type": "interaction-execution",
+      "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"Next room type\", exact=True)\n"
+    }
+  ],
+  "notes": [],
+  "external_messages_sent": 0,
+  "previous_report": "qa-report.json",
+  "summary": {
+    "viewportChecks": 2,
+    "interactionChecks": 7,
+    "failures": 3,
+    "passed": false
+  }
+}

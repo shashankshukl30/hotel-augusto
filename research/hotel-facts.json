@@ -1,0 +1,69 @@
+{
+  "researchedAt": "2026-10-19",
+  "method": "Public web search, Agent Reach via Exa and Jina Reader, OTA page inspection and direct HTTP/DNS checks. No hotel or third party was contacted.",
+  "identity": {
+    "displayName": "Hotel Augusto",
+    "googleName": "HOTEL AUGUSTO VARANASI",
+    "address": "D 36/1, August Kunda Road, Jangambari, Godowlia, Varanasi, Uttar Pradesh 221001, India",
+    "addressNotes": "Google says August Kunda Road/Jangambari; Indian OTAs use Godowlia, Dasaswamedh, Jangambadi road. Same D 36/1 property. Opposite State Bank of India is corroborated by Expedia/Hotels.com/Tripadvisor/Justdial.",
+    "latitude": 25.3084409,
+    "longitude": 83.0065447,
+    "coordinateSource": "S21",
+    "phone": "+918081709146",
+    "phoneDisplay": "+91 80817 09146",
+    "phoneSources": ["S01", "S03", "S12"],
+    "alternatePhone": "+918707451949",
+    "alternatePhoneSource": "S09",
+    "whatsappVerified": false,
+    "whatsappNotes": "The live public wa.me landing page says Chat on WhatsApp with +91 80817 09146, but does not establish registration or hotel account control. No Continue/Send action was taken. +918081709146 is the best corroborated public hotel telephone and remains a candidate until owner confirmation.",
+    "email": null,
+    "emailNotes": "No verified public email was found. Do not invent reservations@ or info@ addresses.",
+    "googleEntityUrl": "https://www.google.co.in/travel/hotels/entity/ChkI9IOdtNaKmJZrGg0vZy8xMWI2ZGc2bWszEAE",
+    "legacyDomains": [
+      {"domain":"hotelaugusto.in","liveStatus":"DNS did not resolve from task environment on 2026-10-19.","source":"S14"},
+      {"domain":"thehotelaugusto.in","liveStatus":"HTTP 301 to rogotravel.com/red.php affiliate redirect for Booking.com. Do not treat as hotel-controlled canonical site without ownership confirmation.","source":"S13"}
+    ]
+  },
+  "publishableFacts": [
+    {"fact":"Located in Godowlia/Jangambari, Varanasi","sources":["S01","S02","S04","S06"]},
+    {"fact":"Walking distance from Shri Kashi Vishwanath Temple and Dashashwamedh Ghat","sources":["S01","S02","S06","S10","S11"],"notes":"Prefer walking-distance wording. Exact routes, gates and crowd conditions change; sources give differing minutes/metres."},
+    {"fact":"Air-conditioned guest rooms","sources":["S01","S04","S05","S06","S10"]},
+    {"fact":"Wi-Fi","sources":["S01","S02","S04","S06","S10","S11"],"notes":"Free Wi-Fi is broadly corroborated. Expedia explicitly says public areas; avoid a guaranteed speed or uptime claim."},
+    {"fact":"On-site restaurant","sources":["S02","S04","S10","S11"]},
+    {"fact":"Vegetarian dining","sources":["S02","S05","S15"],"notes":"MMT calls restaurant pure vegetarian. Avoid naming a restaurant until owner confirms; reviews mention Aroma of Kashi but ownership/link is not established."},
+    {"fact":"Room service","sources":["S02","S04","S05","S06","S10","S11"],"notes":"24-hour room service is corroborated by MMT/Expedia/Hotels.com, but response speed must not be promised."},
+    {"fact":"24-hour front desk","sources":["S01","S05","S09","S10","S11"]},
+    {"fact":"Family accommodation","sources":["S02","S04","S05","S06","S07"]},
+    {"fact":"Private bathrooms and televisions","sources":["S01","S05","S10","S11"]},
+    {"fact":"Housekeeping","sources":["S04","S06","S10","S11"]},
+    {"fact":"Luggage assistance/storage","sources":["S04","S05","S06","S09"]},
+    {"fact":"Lift/elevator","sources":["S02"],"notes":"MMT amenity and Expedia/Hotels.com photo descriptions support a lift; this does not establish full step-free accessibility."}
+  ],
+  "rooms": [
+    {"name":"Deluxe Room","bedDescription":"Double bed","sources":["S02","S07"],"otaSize":"150 sq ft / 14 sq m on MMT and Goibibo","capacityNotes":"MMT says maximum 3 guests, but extra-bed conditions unknown. No occupancy guarantees without confirmation."},
+    {"name":"Deluxe Twin Room","bedDescription":"Two single beds","sources":["S02","S07"],"otaSize":"270 sq ft / 25 sq m on Goibibo","capacityNotes":"Bed configuration verified by OTA. Avoid size until owner confirms because broader inventory is inconsistent."},
+    {"name":"Family Room","bedDescription":"Two king beds in Goibibo listing","otaName":"4 bed family room","sources":["S02","S04","S07"],"otaSize":"210 sq ft / 20 sq m on Goibibo","capacityNotes":"Market as family room; keep exact adult/child occupancy and extra-bed price subject to enquiry."}
+  ],
+  "policyConflicts": [
+    {"topic":"Check-in/check-out","sources":["S01","S02","S04","S09","S10","S11"],"evidence":"Google, MMT and Goibibo: 12:00 check-in / 11:00 check-out. Expedia, Hotels.com and Trip.com: 11:00-noon check-in / 10:00 check-out.","decision":"Ask guests to confirm arrival/departure timings with hotel; do not publish one as universally guaranteed."},
+    {"topic":"Unmarried couples","sources":["S01","S02","S04"],"evidence":"MMT says allowed; Google and Goibibo say not allowed.","decision":"Omit categorical eligibility claims pending hotel confirmation."},
+    {"topic":"Pets","sources":["S01","S02","S04","S06","S09","S10","S11"],"evidence":"Most sources say no pets; Tripadvisor amenities says pets allowed.","decision":"Do not advertise pet friendly. Ask guests to confirm before travel."},
+    {"topic":"Smoking","sources":["S02","S04","S06","S11"],"evidence":"MMT/Goibibo list smoking rooms but property rules prohibit smoking; Tripadvisor has smoking and non-smoking rooms; Hotels.com designated smoking areas.","decision":"Omit room-specific smoking claims."},
+    {"topic":"Breakfast","sources":["S01","S02","S07","S09"],"evidence":"Google/Tripadvisor call it free, but MMT/Goibibo sell separate room-only and breakfast plans and Trip.com says contact property for price.","decision":"Say breakfast available, confirm inclusion with chosen rate. Do not promise free breakfast on every stay."},
+    {"topic":"Parking","sources":["S01","S08","S10","S11"],"evidence":"Google says parking extra charge; Agoda lists car park; Expedia/Hotels.com say no on-site parking; Hotels.com also mentions nearby paid parking.","decision":"Ask hotel for arrival/parking guidance. Never promise on-site or free parking."},
+    {"topic":"Room count","sources":["S06","S09","S11"],"evidence":"Tripadvisor 45; Trip.com 26 in structured section and 20 in prose; Expedia/Hotels.com 20; an old government record mentioned 32.","decision":"Omit total room count."},
+    {"topic":"Distances","sources":["S01","S02","S05","S08","S10","S11"],"evidence":"Airport distances vary 21.5-38 km across sources; temple walking estimates vary 8-11 minutes; some OTA distance lists are straight-line and some routes.","decision":"Avoid exact airport distance and guaranteed travel times. Temple/ghat proximity can be described as walking distance."},
+    {"topic":"Cancellation and prices","sources":["S02","S04","S07","S11"],"evidence":"Prices vary substantially by date, occupancy, inclusions and channel; cancellation is rate-plan specific.","decision":"No fabricated starting rate, discounts, best-rate guarantee or universal free-cancellation promise."},
+    {"topic":"Restaurant identity","sources":["S06"],"evidence":"A June 2026 review thanks Hotel Augusto and Aroma of Kashi restaurant. That does not establish that the hotel owns/operates the restaurant.","decision":"Use generic on-site restaurant wording; confirm brand/menu with hotel."}
+  ],
+  "doNotInvent": ["Official email","WhatsApp registration or response time","Hotel-owned canonical domain","Five-star/luxury resort status","Riverfront or river views","Pool/spa/fitness centre","Heritage-building story or founding year","Room count","Exact room sizes or guaranteed occupancy","Direct-booking discounts","A universal cancellation policy","Testimonials or composite guest reviews","Licensing rights for guest-created OTA photographs","Logo authenticity without visual source evidence"],
+  "ratingsSnapshot": [
+    {"platform":"Google Hotels","rating":"3.7/5","count":"1611-1625, varying by indexed snapshot","source":"S01"},
+    {"platform":"Tripadvisor","rating":"4.0/5","count":"44 reviews","source":"S06"},
+    {"platform":"MakeMyTrip","rating":"3.5/5","count":"659 ratings on detail snapshot; 660 on nearby index","source":"S02"},
+    {"platform":"Goibibo","rating":"3.3/5","count":"348 ratings / 117 reviews in snapshot","source":"S04"},
+    {"platform":"Booking.com","rating":"6.2/10","count":"37 reviews","source":"S05"},
+    {"platform":"Agoda","rating":"6.4/10","count":"107 on indexed Japanese page","source":"S08"},
+    {"platform":"Hotels.com / Expedia","rating":"6.6/10","count":"4 reviews","source":"S11"}
+  ]
+}

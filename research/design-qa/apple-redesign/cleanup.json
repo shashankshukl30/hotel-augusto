@@ -1,0 +1,18 @@
+﻿{
+    "checkedAtUtc":  "2026-10-19T15:38:27.2014402Z",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\apple-reference; research\\design-qa",
+    "beforeFreeBytes":  {
+                            "D":  68481626112,
+                            "C":  29327491072
+                        },
+    "afterFreeBytes":  {
+                           "D":  68479156224,
+                           "C":  29312253952
+                       },
+    "removed":  [
+
+                ],
+    "removedBytes":  0,
+    "result":  "No additional files positively identified as disposable. Source captures, implementation evidence, scripts, and original-revision QA retained for traceability. No reparse-point files were found in inspected scope.",
+    "verification":  "Updated routes pass fresh Edge checks; apple-direction.docx opens with python-docx and ZIP integrity passes."
+}
