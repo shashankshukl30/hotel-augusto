@@ -6,11 +6,11 @@ import argparse, asyncio, json, shutil, time
 from playwright.async_api import async_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
-ROUTES=['/','/rooms','/rooms/deluxe-room','/rooms/deluxe-twin-room','/rooms/family-room','/varanasi','/gallery','/contact','/privacy','/does-not-exist']
+ROUTES=['/','/hotel','/rooms','/rooms/deluxe-room','/rooms/deluxe-twin-room','/rooms/family-room','/dining','/varanasi','/gallery','/contact','/privacy','/does-not-exist']
 WIDTHS=[360,390,768,1024,1440,1920]
 AXE=ROOT/'node_modules'/'axe-core'/'axe.min.js'
 parser=argparse.ArgumentParser()
-parser.add_argument('--base-url',default='http://127.0.0.1:3080')
+parser.add_argument('--base-url',default='http://127.0.0.1:3082')
 parser.add_argument('--output',default='qa-report.json')
 parser.add_argument('--smoke',action='store_true',help='Production smoke at 390 and 1440; still runs axe and interactions.')
 args=parser.parse_args()
@@ -106,6 +106,8 @@ async def sweep_width(browser,width,semaphore):
                     if axe['violations']: state['failures'].append('axe violations')
                 if route=='/' and width in [390,1440]:
                     await page.screenshot(path=str(OUT/f'qa-home-{width}.png'))
+                if route=='/rooms' and width in [390,1440]:
+                    await page.screenshot(path=str(OUT/f'hospitality-room-index-{width}.png'),full_page=True)
                 if state['failures']:
                     report['failures'].append({'type':'viewport','route':route,'width':width,'failures':state['failures']})
                     if len(report['failures'])<=6: await page.screenshot(path=str(OUT/f'qa-problem-{route.strip("/").replace("/","-") or "home"}-{width}.png'))
@@ -121,13 +123,16 @@ async def sweep_width(browser,width,semaphore):
 async def interaction_checks(browser):
     context=await browser.new_context(viewport={'width':390,'height':844},device_scale_factor=1)
     page=await context.new_page()
+    interaction_errors=[]
+    page.on('pageerror',lambda e:interaction_errors.append({'type':'runtime','message':str(e)}))
+    page.on('console',lambda m:interaction_errors.append({'type':'console','message':m.text}) if m.type=='error' else None)
     # All outbound actions are deliberately left unclicked. No messages are sent.
     await ready(page,'/')
     headline=await page.locator('#hero-title').inner_text()
-    add_check('Final homepage headline is current', 'Augusto.' in headline and 'Varanasi, up close.' in headline,headline)
+    add_check('Final homepage headline is current',' '.join(headline.split())=='Varanasi. Stay closer.',headline)
     await page.wait_for_timeout(300)
     before_parallax=await page.locator('.hero-scene-image').evaluate('e=>getComputedStyle(e).transform')
-    await page.locator('.hero-scene').evaluate('e=>scrollTo(0,e.offsetTop+100)')
+    await page.locator('.home-hero').evaluate('e=>scrollTo(0,e.offsetTop+150)')
     await page.wait_for_timeout(300)
     after_parallax=await page.locator('.hero-scene-image').evaluate('e=>getComputedStyle(e).transform')
     add_check('Hero image parallax responds to scroll',before_parallax!=after_parallax,{'before':before_parallax,'after':after_parallax})
@@ -143,6 +148,36 @@ async def interaction_checks(browser):
     add_check('Mobile menu prevents focus to background controls',not any(s['backgroundFocus'] for s in focus_sequence),focus_sequence)
     await page.keyboard.press('Escape')
     add_check('Menu Escape closes and restores focus',not await page.locator('.navigation-dialog').evaluate('e=>e.open') and await menu.evaluate('e=>e===document.activeElement'))
+    navigation_routes=[('/hotel','Get to know Augusto.'),('/dining','Take a seat.'),('/gallery','Inside Augusto.'),('/rooms','Rooms at Augusto.')]
+    for viewport,nav_name in [(390,'Mobile navigation'),(1440,'Main navigation')]:
+        await page.set_viewport_size({'width':viewport,'height':900})
+        for route,expected_heading in navigation_routes:
+            if viewport==390: await menu.click()
+            await page.get_by_role('navigation',name=nav_name,exact=True).locator('a[href="'+route+'"]').click()
+            await page.wait_for_url(BASE+route)
+            await page.wait_for_timeout(150)
+            actual_heading=' '.join((await page.locator('h1').inner_text()).split())
+            add_check(('Mobile menu' if viewport==390 else 'Desktop header')+' navigates to '+route,actual_heading==expected_heading and not await page.locator('.navigation-dialog').evaluate('e=>e.open'),{'url':page.url,'heading':actual_heading})
+    repeat_navigation=[]
+    for _ in range(3):
+        for route,heading in [('/gallery','Inside Augusto.'),('/varanasi','Explore Varanasi.')]:
+            await page.get_by_role('navigation',name='Main navigation',exact=True).locator('a[href="'+route+'"]').click()
+            await page.wait_for_url(BASE+route)
+            await page.get_by_role('heading',name=heading,exact=True).wait_for(state='visible')
+            actual=' '.join((await page.locator('h1').inner_text()).split())
+            repeat_navigation.append({'route':route,'heading':actual,'passed':actual==heading})
+    add_check('Repeated Gallery and Varanasi navigation remains stable',all(s['passed'] for s in repeat_navigation) and not interaction_errors,{'transitions':repeat_navigation,'browserErrors':list(interaction_errors)})
+    await page.set_viewport_size({'width':390,'height':844})
+    await ready(page,'/')
+    await page.locator('.hero-stay-link').click()
+    await page.wait_for_url(BASE+'/hotel')
+    add_check('Hero hotel inset opens dedicated hotel page',await page.locator('#hotel-title').count()==1 and await page.locator('#hotel-title').is_visible(),page.url)
+    await ready(page,'/')
+    await page.locator('.hero-scroll').click()
+    await page.wait_for_timeout(900)
+    discover=await anchor_alignment(page,'#discover')
+    add_check('Hero exploration anchor reaches hotel introduction',discover['hash']=='#discover' and discover['aligned'],discover)
+    await ready(page,'/')
     tabs=page.get_by_role('tab')
     await tabs.nth(0).focus()
     await page.keyboard.press('ArrowRight')
@@ -236,29 +271,34 @@ async def interaction_checks(browser):
         await page.wait_for_timeout(150)
         add_check('Room-detail enquiry preselects '+name,await page.locator('#room').input_value()==name)
     await ready(page,'/rooms')
-    lineup=page.locator('.room-lineup')
-    await lineup.focus()
-    await page.keyboard.press('ArrowRight')
-    await page.wait_for_timeout(600)
-    add_check('Mobile room comparison supports keyboard scrolling',await lineup.evaluate('e=>e.scrollLeft>0'),await lineup.evaluate('e=>({scrollLeft:e.scrollLeft,clientWidth:e.clientWidth,scrollWidth:e.scrollWidth})'))
-    await lineup.evaluate('e=>e.scrollTo({left:0,behavior:"instant"})')
-    await lineup.focus()
-    focused_cards=[]
-    for _ in range(9):
-        await page.keyboard.press('Tab')
-        await page.wait_for_timeout(100)
-        focused_cards.append(await page.evaluate('''()=>{const e=document.activeElement,r=e.getBoundingClientRect();return {label:e.getAttribute('aria-label')||e.textContent,href:e.getAttribute('href'),left:r.left,right:r.right,visible:r.left>=0&&r.right<=innerWidth,inside:!!e.closest('.room-product')}}'''))
-    add_check('Keyboard focus exposes all room comparison links',all(v['visible'] and v['inside'] for v in focused_cards),focused_cards)
+    room_options=[('deluxe-room','Deluxe Room'),('deluxe-twin-room','Deluxe Twin Room'),('family-room','Family Room')]
+    directory=await page.locator('.rooms-directory a').evaluate_all('items=>items.map(e=>({href:e.getAttribute("href"),name:e.innerText,visible:e.getBoundingClientRect().width>0}))')
+    add_check('Room directory exposes all three choices without a carousel',len(directory)==3 and all(v['href']=='/rooms/'+slug and name in v['name'] and v['visible'] for v,(slug,name) in zip(directory,room_options)),directory)
+    for index,(slug,name) in enumerate(room_options):
+        await ready(page,'/rooms')
+        link=page.locator('.rooms-directory a').nth(index)
+        await link.focus()
+        focus_state=await link.evaluate('e=>{const r=e.getBoundingClientRect();return {focused:e===document.activeElement,left:r.left,right:r.right,top:r.top,bottom:r.bottom,visible:r.left>=0&&r.right<=innerWidth&&r.top>=0&&r.bottom<=innerHeight}}')
+        await page.keyboard.press('Enter')
+        await page.wait_for_url(BASE+'/rooms/'+slug)
+        add_check('Keyboard room directory opens '+name,focus_state['focused'] and focus_state['visible'] and ' '.join((await page.locator('h1').inner_text()).split())==name,{'focus':focus_state,'url':page.url})
+    await ready(page,'/rooms')
+    await load_images(page)
+    for slug,name in room_options:
+        story=page.locator('#'+slug)
+        state=await story.evaluate('e=>({heading:e.querySelector("h3").innerText,image:e.querySelector("img").complete&&e.querySelector("img").naturalWidth>0,bed:e.querySelector(".room-story-bed").innerText,links:[...e.querySelectorAll("a")].map(a=>a.getAttribute("href"))})')
+        add_check('Room story presents photograph, bed and routes for '+name,state['heading']==name and state['image'] and bool(state['bed']) and '/rooms/'+slug in state['links'] and '/contact?room='+slug+'#enquire' in state['links'],state)
     await menu.click()
     await page.get_by_role('navigation',name='Mobile navigation').get_by_role('link',name='Welcome',exact=False).click()
     await page.wait_for_url(BASE+'/')
     add_check('Mobile navigation links change route and close menu',not await page.locator('.navigation-dialog').evaluate('e=>e.open') and await page.locator('#hero-title').count()==1)
+    add_check('Navigation, booking and gallery interactions emit no browser errors',not interaction_errors,interaction_errors)
     await context.close()
     reduced=await browser.new_context(viewport={'width':390,'height':844},reduced_motion='reduce')
     page=await reduced.new_page()
     await ready(page,'/')
     add_check('Reduced motion preference honored',await page.evaluate('matchMedia("(prefers-reduced-motion: reduce)").matches') and await page.locator('#hero-title').evaluate('e=>getComputedStyle(e).opacity')=='1')
-    await page.locator('.hero-scene').evaluate('e=>scrollTo(0,e.offsetTop+100)')
+    await page.locator('.home-hero').evaluate('e=>scrollTo(0,e.offsetTop+150)')
     await page.wait_for_timeout(100)
     transform=await page.locator('.hero-scene-image').evaluate('e=>getComputedStyle(e).transform')
     add_check('Reduced motion disables hero parallax',transform in ['none','matrix(1, 0, 0, 1, 0, 0)'],transform)
@@ -288,6 +328,13 @@ async def main():
                 elif parsed.fragment and unquote(parsed.fragment) not in route_ids[target]: invalid.append({'from':r['route'],'href':href,'reason':'Missing target id'})
         unique=list({json.dumps(i,sort_keys=True):i for i in invalid}.values())
         add_check('All rendered internal route and hash links resolve',not unique,unique)
+        expected_google={'/':['google-double-room.webp','google-dining-room.webp'],'/gallery':['google-double-room.webp','google-family-room.webp'],'/dining':['google-dining-room.webp']}
+        google_observations=[]
+        for state in report['viewports']:
+            for filename in expected_google.get(state['route'],[]):
+                matches=[img for img in state['images'] if filename in unquote(img['source'])]
+                google_observations.append({'route':state['route'],'width':state['width'],'file':filename,'passed':bool(matches) and all(img['complete'] and img['naturalWidth']>0 for img in matches)})
+        add_check('Current Google property photographs are present and decoded',len(google_observations)==len(widths)*5 and all(item['passed'] for item in google_observations),google_observations)
         await browser.close()
     report['completed']=datetime.now(timezone.utc).isoformat()
     report['summary']={'viewportChecks':len(report['viewports']),'axeAudits':sum('axe'in r for r in report['viewports']),'interactionChecks':len(report['interactions']),'failures':len(report['failures']),'passed':not report['failures']}

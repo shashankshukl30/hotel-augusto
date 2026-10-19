@@ -1,0 +1,44 @@
+﻿{
+    "completed":  "2026-10-19T17:14:24.4655550Z",
+    "preview":  "http://localhost:3080",
+    "contentPages":  11,
+    "build":  "passed; final rebuild includes explicit OG contrast overlay dimensions",
+    "lint":  "passed",
+    "typecheck":  "passed",
+    "bookingUnitTests":  4,
+    "developmentQA":  "evidence/qa-hospitality-report.json",
+    "productionQA":  "evidence/qa-hospitality-production.json",
+    "productionAudit":  "evidence/production-audit.json",
+    "visualReview":  [
+                         "desktop and mobile homepage",
+                         "all editorial and hotel pages",
+                         "final 1200x630 photographic OG"
+                     ],
+    "metadataTitleLengths":  "all 11 content pages verified between 50 and 60 characters",
+    "cleanup":  {
+                    "ledgers":  [
+                                    "evidence/dev-output-cleanup.json",
+                                    "research/awwwards-revision/cleanup.json",
+                                    "research/ota-revision/source-review-verification.json",
+                                    "docs/handoff-verification.json"
+                                ],
+                    "sourceRenderScratchRetainedBytes":  447116,
+                    "freeAfterBytes":  {
+                                           "D":  68690915328,
+                                           "C":  29129576448
+                                       },
+                    "removedDevelopmentBytes":  246218803,
+                    "sourceRenderCleanup":  "Automatic approval review rejected narrowed hash-verified PowerShell deletion: blocked by policy. Files retained.",
+                    "freeBeforeBytes":  {
+                                            "D":  68453482496,
+                                            "C":  29083172864
+                                        }
+                },
+    "publicLaunch":  false,
+    "notes":  [
+                  "No enquiry message sent",
+                  "Google public profile and accessible photos re-inspected",
+                  "Exact supplied MMT dated URL returned HTTP2 protocol error; indexed canonical property data used",
+                  "Current production server includes OG-only correction after the full interaction suite; production audit repeated afterwards"
+              ]
+}

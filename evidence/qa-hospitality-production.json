@@ -1,0 +1,6645 @@
+{
+  "started": "2026-10-19T17:11:33.659169+00:00",
+  "base_url": "http://127.0.0.1:3080",
+  "mode": "production-smoke",
+  "browser": "Fresh headless Microsoft Edge contexts, deviceScaleFactor=1",
+  "viewports": [
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Varanasi.Stay closer."
+      ],
+      "title": "Hotel Augusto Varanasi | A Stay in the Heart of Kashi",
+      "titleLength": 53,
+      "description": "Make yourself at home at Hotel Augusto in Godowlia, Varanasi. Explore our rooms, vegetarian dining and the old city. Enquire directly on WhatsApp.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image?065db89b81df7ae5",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Golden riverfront buildings and boats along the ghats of Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fvaranasi-hero.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1500,
+          "width": 390,
+          "height": 954
+        },
+        {
+          "alt": "A double-bed guest room shared on Hotel Augusto\u2019s Google profile",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=256&q=85",
+          "complete": true,
+          "naturalWidth": 160,
+          "width": 100,
+          "height": 91
+        },
+        {
+          "alt": "The welcoming lobby and reception at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 331,
+          "width": 280,
+          "height": 360
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 700,
+          "width": 342,
+          "height": 300
+        },
+        {
+          "alt": "",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 700,
+          "width": 342,
+          "height": 300
+        },
+        {
+          "alt": "",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 700,
+          "width": 342,
+          "height": 300
+        },
+        {
+          "alt": "Tables and seating in Hotel Augusto\u2019s dining room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-dining-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 750,
+          "width": 342,
+          "height": 420
+        },
+        {
+          "alt": "A rowing boat on the Ganges at sunrise",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fganges-boats.webp&w=640&q=85",
+          "complete": true,
+          "naturalWidth": 390,
+          "width": 390,
+          "height": 350
+        }
+      ],
+      "ids": [
+        "main",
+        "hero-title",
+        "discover",
+        "rooms-title",
+        "room-panel",
+        "room-tab-0",
+        "room-tab-1",
+        "room-tab-2",
+        "dining-title",
+        "city-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "Find your room"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates.",
+          "name": "Book on WhatsApp"
+        },
+        {
+          "href": "/hotel",
+          "name": "AT HOTEL AUGUSTOYour place in the city.Meet the hotel"
+        },
+        {
+          "href": "#discover",
+          "name": "Take a look around"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "The neighbourhood"
+        },
+        {
+          "href": "/hotel",
+          "name": "Get to know Augusto"
+        },
+        {
+          "href": "/rooms",
+          "name": "Discover all rooms"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Explore the Deluxe Room"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Take a closer look"
+        },
+        {
+          "href": "/dining",
+          "name": "Explore dining at Hotel Augusto"
+        },
+        {
+          "href": "/dining",
+          "name": "Explore dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Explore the neighbourhood"
+        },
+        {
+          "href": "/gallery",
+          "name": "Visit the gallery"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 42,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Varanasi.Stay closer."
+      ],
+      "title": "Hotel Augusto Varanasi | A Stay in the Heart of Kashi",
+      "titleLength": 53,
+      "description": "Make yourself at home at Hotel Augusto in Godowlia, Varanasi. Explore our rooms, vegetarian dining and the old city. Enquire directly on WhatsApp.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image?065db89b81df7ae5",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Golden riverfront buildings and boats along the ghats of Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fvaranasi-hero.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1440,
+          "width": 1440,
+          "height": 1026
+        },
+        {
+          "alt": "A double-bed guest room shared on Hotel Augusto\u2019s Google profile",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 280,
+          "width": 236,
+          "height": 146
+        },
+        {
+          "alt": "The welcoming lobby and reception at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=640&q=85",
+          "complete": true,
+          "naturalWidth": 432,
+          "width": 370,
+          "height": 390
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1080,
+          "width": 788,
+          "height": 560
+        },
+        {
+          "alt": "",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1080,
+          "width": 788,
+          "height": 560
+        },
+        {
+          "alt": "",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1080,
+          "width": 788,
+          "height": 560
+        },
+        {
+          "alt": "Tables and seating in Hotel Augusto\u2019s dining room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-dining-room.webp&w=828&q=85",
+          "complete": true,
+          "naturalWidth": 792,
+          "width": 644,
+          "height": 630
+        },
+        {
+          "alt": "A rowing boat on the Ganges at sunrise",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fganges-boats.webp&w=1080&q=85",
+          "complete": true,
+          "naturalWidth": 936,
+          "width": 785,
+          "height": 640
+        }
+      ],
+      "ids": [
+        "main",
+        "hero-title",
+        "discover",
+        "rooms-title",
+        "room-panel",
+        "room-tab-0",
+        "room-tab-1",
+        "room-tab-2",
+        "dining-title",
+        "city-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "Find your room"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates.",
+          "name": "Book on WhatsApp"
+        },
+        {
+          "href": "/hotel",
+          "name": "AT HOTEL AUGUSTOYour place in the city.Meet the hotel"
+        },
+        {
+          "href": "#discover",
+          "name": "Take a look around"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "The neighbourhood"
+        },
+        {
+          "href": "/hotel",
+          "name": "Get to know Augusto"
+        },
+        {
+          "href": "/rooms",
+          "name": "Discover all rooms"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Explore the Deluxe Room"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Take a closer look"
+        },
+        {
+          "href": "/dining",
+          "name": "Explore dining at Hotel Augusto"
+        },
+        {
+          "href": "/dining",
+          "name": "Explore dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Explore the neighbourhood"
+        },
+        {
+          "href": "/gallery",
+          "name": "Visit the gallery"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 42,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Get to knowAugusto."
+      ],
+      "title": "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities",
+      "titleLength": 54,
+      "description": "Get to know Hotel Augusto in Godowlia, Varanasi. Explore the hotel, guest facilities, vegetarian dining and our location near the temples and ghats.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Hotel Augusto's street entrance and sign on August Kunda Road, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 750,
+          "width": 342,
+          "height": 300
+        },
+        {
+          "alt": "Hotel Augusto's lobby with seating, reception desk and lift entrance",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=640&q=85",
+          "complete": true,
+          "naturalWidth": 390,
+          "width": 342,
+          "height": 305
+        },
+        {
+          "alt": "The reception counter and guest seating at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 311,
+          "width": 257,
+          "height": 233
+        },
+        {
+          "alt": "Tables and chairs in Hotel Augusto's vegetarian restaurant",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 390,
+          "width": 342,
+          "height": 285
+        }
+      ],
+      "ids": [
+        "main",
+        "hotel-title",
+        "inside",
+        "welcome-title",
+        "essentials-title",
+        "location-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/",
+          "name": "Home"
+        },
+        {
+          "href": "/rooms",
+          "name": "Find your room"
+        },
+        {
+          "href": "#inside",
+          "name": "Step inside"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Explore Varanasi"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Open Google Maps"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "/dining",
+          "name": "Also at AugustoStay fora meal.Discover dining"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/hotel",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Get to knowAugusto."
+      ],
+      "title": "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities",
+      "titleLength": 54,
+      "description": "Get to know Hotel Augusto in Godowlia, Varanasi. Explore the hotel, guest facilities, vegetarian dining and our location near the temples and ghats.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Hotel Augusto's street entrance and sign on August Kunda Road, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1080,
+          "width": 637,
+          "height": 678
+        },
+        {
+          "alt": "Hotel Augusto's lobby with seating, reception desk and lift entrance",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=1080&q=85",
+          "complete": true,
+          "naturalWidth": 936,
+          "width": 798,
+          "height": 624
+        },
+        {
+          "alt": "The reception counter and guest seating at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=640&q=85",
+          "complete": true,
+          "naturalWidth": 576,
+          "width": 440,
+          "height": 489
+        },
+        {
+          "alt": "Tables and chairs in Hotel Augusto's vegetarian restaurant",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 648,
+          "width": 767,
+          "height": 440
+        }
+      ],
+      "ids": [
+        "main",
+        "hotel-title",
+        "inside",
+        "welcome-title",
+        "essentials-title",
+        "location-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/",
+          "name": "Home"
+        },
+        {
+          "href": "/rooms",
+          "name": "Find your room"
+        },
+        {
+          "href": "#inside",
+          "name": "Step inside"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Explore Varanasi"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Open Google Maps"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "/dining",
+          "name": "Also at AugustoStay fora meal.Discover dining"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/hotel",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Rooms atAugusto."
+      ],
+      "title": "Rooms at Hotel Augusto Varanasi | Make Yourself at Home",
+      "titleLength": 55,
+      "description": "Explore the Deluxe, Deluxe Twin and Family Rooms at Hotel Augusto in Godowlia, Varanasi. Choose your bed arrangement and enquire directly with the hotel.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "A double-bed room at Hotel Augusto with a blue upholstered headboard and seating",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=1080&q=85",
+          "complete": true,
+          "naturalWidth": 900,
+          "width": 342,
+          "height": 323
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 351,
+          "width": 342,
+          "height": 263
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 351,
+          "width": 342,
+          "height": 263
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 351,
+          "width": 342,
+          "height": 263
+        }
+      ],
+      "ids": [
+        "main",
+        "rooms-title",
+        "room-stories-title",
+        "deluxe-room",
+        "deluxe-room-title",
+        "deluxe-twin-room",
+        "deluxe-twin-room-title",
+        "family-room",
+        "family-room-title",
+        "inclusions-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Deluxe RoomDouble bed"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "Deluxe Twin RoomTwo single beds"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "Family RoomTwo beds"
+        },
+        {
+          "href": "/gallery",
+          "name": "View room photographs"
+        },
+        {
+          "href": "#deluxe-room",
+          "name": "Explore the rooms"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "View the Deluxe Room"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "View room"
+        },
+        {
+          "href": "/contact?room=deluxe-room#enquire",
+          "name": "Enquire"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "View the Deluxe Twin Room"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "View room"
+        },
+        {
+          "href": "/contact?room=deluxe-twin-room#enquire",
+          "name": "Enquire"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "View the Family Room"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "View room"
+        },
+        {
+          "href": "/contact?room=family-room#enquire",
+          "name": "Enquire"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay with us"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/rooms",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Rooms atAugusto."
+      ],
+      "title": "Rooms at Hotel Augusto Varanasi | Make Yourself at Home",
+      "titleLength": 55,
+      "description": "Explore the Deluxe, Deluxe Twin and Family Rooms at Hotel Augusto in Godowlia, Varanasi. Choose your bed arrangement and enquire directly with the hotel.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "A double-bed room at Hotel Augusto with a blue upholstered headboard and seating",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=1080&q=85",
+          "complete": true,
+          "naturalWidth": 864,
+          "width": 666,
+          "height": 677
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 720,
+          "width": 687,
+          "height": 501
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 720,
+          "width": 687,
+          "height": 501
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 720,
+          "width": 687,
+          "height": 501
+        }
+      ],
+      "ids": [
+        "main",
+        "rooms-title",
+        "room-stories-title",
+        "deluxe-room",
+        "deluxe-room-title",
+        "deluxe-twin-room",
+        "deluxe-twin-room-title",
+        "family-room",
+        "family-room-title",
+        "inclusions-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Deluxe RoomDouble bed"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "Deluxe Twin RoomTwo single beds"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "Family RoomTwo beds"
+        },
+        {
+          "href": "/gallery",
+          "name": "View room photographs"
+        },
+        {
+          "href": "#deluxe-room",
+          "name": "Explore the rooms"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "View the Deluxe Room"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "View room"
+        },
+        {
+          "href": "/contact?room=deluxe-room#enquire",
+          "name": "Enquire"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "View the Deluxe Twin Room"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "View room"
+        },
+        {
+          "href": "/contact?room=deluxe-twin-room#enquire",
+          "name": "Enquire"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "View the Family Room"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "View room"
+        },
+        {
+          "href": "/contact?room=family-room#enquire",
+          "name": "Enquire"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay with us"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/rooms",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "description": "Set down your bags, cool off and settle in. A double bed and the comforts you need between early temple visits and evenings by the river.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1166,
+          "width": 390,
+          "height": 594
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=1080&q=85",
+          "complete": true,
+          "naturalWidth": 351,
+          "width": 342,
+          "height": 290
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 350,
+          "width": 287,
+          "height": 261
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 351,
+          "width": 342,
+          "height": 244
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 351,
+          "width": 342,
+          "height": 244
+        }
+      ],
+      "ids": [
+        "main",
+        "room-title",
+        "room-overview-title",
+        "other-rooms-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/contact?room=deluxe-room#enquire",
+          "name": "Enquire about this room"
+        },
+        {
+          "href": "/contact?room=deluxe-room#enquire",
+          "name": "Ask about your dates"
+        },
+        {
+          "href": "/contact?room=deluxe-room#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "Deluxe Twin RoomTwo single beds"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "Family RoomTwo beds"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/rooms/deluxe-room",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "description": "Set down your bags, cool off and settle in. A double bed and the comforts you need between early temple visits and evenings by the river.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1200,
+          "width": 1440,
+          "height": 690
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=1080&q=85",
+          "complete": true,
+          "naturalWidth": 792,
+          "width": 729,
+          "height": 561
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=828&q=85",
+          "complete": true,
+          "naturalWidth": 792,
+          "width": 521,
+          "height": 473
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 540,
+          "width": 620,
+          "height": 365
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 540,
+          "width": 620,
+          "height": 365
+        }
+      ],
+      "ids": [
+        "main",
+        "room-title",
+        "room-overview-title",
+        "other-rooms-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/contact?room=deluxe-room#enquire",
+          "name": "Enquire about this room"
+        },
+        {
+          "href": "/contact?room=deluxe-room#enquire",
+          "name": "Ask about your dates"
+        },
+        {
+          "href": "/contact?room=deluxe-room#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "Deluxe Twin RoomTwo single beds"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "Family RoomTwo beds"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/rooms/deluxe-room",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 56,
+      "description": "Two separate beds make sharing a room easy. An uncomplicated base for friends or family, close to the places you came to see.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1166,
+          "width": 390,
+          "height": 594
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 350,
+          "width": 342,
+          "height": 290
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 350,
+          "width": 287,
+          "height": 261
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 292,
+          "width": 342,
+          "height": 244
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 351,
+          "width": 342,
+          "height": 244
+        }
+      ],
+      "ids": [
+        "main",
+        "room-title",
+        "room-overview-title",
+        "other-rooms-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/contact?room=deluxe-twin-room#enquire",
+          "name": "Enquire about this room"
+        },
+        {
+          "href": "/contact?room=deluxe-twin-room#enquire",
+          "name": "Ask about your dates"
+        },
+        {
+          "href": "/contact?room=deluxe-twin-room#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Deluxe RoomDouble bed"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "Family RoomTwo beds"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/rooms/deluxe-twin-room",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 56,
+      "description": "Two separate beds make sharing a room easy. An uncomplicated base for friends or family, close to the places you came to see.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1200,
+          "width": 1440,
+          "height": 690
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=828&q=85",
+          "complete": true,
+          "naturalWidth": 792,
+          "width": 729,
+          "height": 561
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=828&q=85",
+          "complete": true,
+          "naturalWidth": 792,
+          "width": 521,
+          "height": 473
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 540,
+          "width": 620,
+          "height": 365
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 540,
+          "width": 620,
+          "height": 365
+        }
+      ],
+      "ids": [
+        "main",
+        "room-title",
+        "room-overview-title",
+        "other-rooms-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/contact?room=deluxe-twin-room#enquire",
+          "name": "Enquire about this room"
+        },
+        {
+          "href": "/contact?room=deluxe-twin-room#enquire",
+          "name": "Ask about your dates"
+        },
+        {
+          "href": "/contact?room=deluxe-twin-room#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Deluxe RoomDouble bed"
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "Family RoomTwo beds"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/rooms/deluxe-twin-room",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Family Room"
+      ],
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "description": "A room for the journey you share. Two beds bring the family together, with a comfortable place to return to after a day around Kashi.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1166,
+          "width": 390,
+          "height": 594
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room-alternate.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 350,
+          "width": 342,
+          "height": 290
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 350,
+          "width": 287,
+          "height": 261
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 292,
+          "width": 342,
+          "height": 244
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 292,
+          "width": 342,
+          "height": 244
+        }
+      ],
+      "ids": [
+        "main",
+        "room-title",
+        "room-overview-title",
+        "other-rooms-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/contact?room=family-room#enquire",
+          "name": "Enquire about this room"
+        },
+        {
+          "href": "/contact?room=family-room#enquire",
+          "name": "Ask about your dates"
+        },
+        {
+          "href": "/contact?room=family-room#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Deluxe RoomDouble bed"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "Deluxe Twin RoomTwo single beds"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/rooms/family-room",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Family Room"
+      ],
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "description": "A room for the journey you share. Two beds bring the family together, with a comfortable place to return to after a day around Kashi.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1200,
+          "width": 1440,
+          "height": 690
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room-alternate.webp&w=828&q=85",
+          "complete": true,
+          "naturalWidth": 792,
+          "width": 729,
+          "height": 561
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=828&q=85",
+          "complete": true,
+          "naturalWidth": 792,
+          "width": 521,
+          "height": 473
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 540,
+          "width": 620,
+          "height": 365
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 540,
+          "width": 620,
+          "height": 365
+        }
+      ],
+      "ids": [
+        "main",
+        "room-title",
+        "room-overview-title",
+        "other-rooms-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/contact?room=family-room#enquire",
+          "name": "Enquire about this room"
+        },
+        {
+          "href": "/contact?room=family-room#enquire",
+          "name": "Ask about your dates"
+        },
+        {
+          "href": "/contact?room=family-room#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "All rooms"
+        },
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Deluxe RoomDouble bed"
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "Deluxe Twin RoomTwo single beds"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/rooms/family-room",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 41,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Take a seat."
+      ],
+      "title": "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+      "titleLength": 51,
+      "description": "Vegetarian dining and room service at Hotel Augusto, Varanasi. See the restaurant and ask the hotel about menus, serving times and breakfast inclusions.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "A wide view of the dining room at Hotel Augusto, with tables arranged for guests",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=1200&q=85",
+          "complete": true,
+          "naturalWidth": 1100,
+          "width": 390,
+          "height": 648
+        },
+        {
+          "alt": "Marble-topped tables and the serving counter inside Hotel Augusto's restaurant",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-dining-room.webp&w=750&q=85",
+          "complete": true,
+          "naturalWidth": 351,
+          "width": 301,
+          "height": 301
+        },
+        {
+          "alt": "A kettle, tea and coffee supplies photographed in a guest room at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=384&q=85",
+          "complete": true,
+          "naturalWidth": 311,
+          "width": 257,
+          "height": 257
+        }
+      ],
+      "ids": [
+        "main",
+        "dining-title",
+        "dining-intro-title",
+        "meal-title",
+        "meal-enquiry-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/",
+          "name": "Home"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20am%20planning%20a%20stay.%20Could%20you%20share%20the%20restaurant%20menu%2C%20serving%20hours%2C%20and%20whether%20breakfast%20is%20included%20in%20my%20room%20rate%3F",
+          "name": "Ask about dining"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Or plan your whole stay"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotelGet to know Augusto."
+        },
+        {
+          "href": "/rooms",
+          "name": "Your stayFind your room."
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/dining",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 39,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Take a seat."
+      ],
+      "title": "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+      "titleLength": 51,
+      "description": "Vegetarian dining and room service at Hotel Augusto, Varanasi. See the restaurant and ask the hotel about menus, serving times and breakfast inclusions.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "A wide view of the dining room at Hotel Augusto, with tables arranged for guests",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=1920&q=85",
+          "complete": true,
+          "naturalWidth": 1200,
+          "width": 1440,
+          "height": 790
+        },
+        {
+          "alt": "Marble-topped tables and the serving counter inside Hotel Augusto's restaurant",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-dining-room.webp&w=828&q=85",
+          "complete": true,
+          "naturalWidth": 720,
+          "width": 575,
+          "height": 677
+        },
+        {
+          "alt": "A kettle, tea and coffee supplies photographed in a guest room at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-tea.webp&w=828&q=85",
+          "complete": true,
+          "naturalWidth": 503,
+          "width": 430,
+          "height": 453
+        }
+      ],
+      "ids": [
+        "main",
+        "dining-title",
+        "dining-intro-title",
+        "meal-title",
+        "meal-enquiry-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/",
+          "name": "Home"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20am%20planning%20a%20stay.%20Could%20you%20share%20the%20restaurant%20menu%2C%20serving%20hours%2C%20and%20whether%20breakfast%20is%20included%20in%20my%20room%20rate%3F",
+          "name": "Ask about dining"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Or plan your whole stay"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotelGet to know Augusto."
+        },
+        {
+          "href": "/rooms",
+          "name": "Your stayFind your room."
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/dining",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 39,
+        "incomplete": 1
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "ExploreVaranasi."
+      ],
+      "title": "Explore Varanasi: Ghats and Temples | Hotel Augusto",
+      "titleLength": 51,
+      "description": "Discover Varanasi from Hotel Augusto in Godowlia. Explore the Ganga, Kashi Vishwanath Temple and the evening aarti at Dashashwamedh Ghat.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Boats on the Ganga beside the sunlit ghats and buildings of Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fvaranasi-hero.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 440
+        },
+        {
+          "alt": "Boats on the Ganga in the soft golden light of sunrise",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 326
+        },
+        {
+          "alt": "The golden shrine of Shri Kashi Vishwanath Temple with visitors in the courtyard",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 292,
+          "width": 301,
+          "height": 401
+        },
+        {
+          "alt": "A wooden boat on the Ganga beneath the orange sun in Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fganges-boats.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 326
+        }
+      ],
+      "ids": [
+        "main",
+        "experiences-heading",
+        "river",
+        "river-heading",
+        "temple",
+        "temple-heading",
+        "aarti",
+        "aarti-heading",
+        "arrival-heading",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/contact",
+          "name": "Find the hotel"
+        },
+        {
+          "href": "#river",
+          "name": "River mornings"
+        },
+        {
+          "href": "#temple",
+          "name": "Temple visits"
+        },
+        {
+          "href": "#aarti",
+          "name": "Evening aarti"
+        },
+        {
+          "href": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-river-wloNuC7qKf8",
+          "name": "Martijn Vonk"
+        },
+        {
+          "href": "https://varanasi.nic.in/gallery/places-of-tourist-attraction/",
+          "name": "Explore the riverfront"
+        },
+        {
+          "href": "https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg",
+          "name": "Pradum Shukla"
+        },
+        {
+          "href": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "CC BY 4.0"
+        },
+        {
+          "href": "https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/",
+          "name": "About the temple"
+        },
+        {
+          "href": "https://kashi.gov.in/listing-details/dashashwamedh-ghat",
+          "name": "Discover Dashashwamedh"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/rooms",
+          "name": "Explore rooms"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/varanasi",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 39,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "ExploreVaranasi."
+      ],
+      "title": "Explore Varanasi: Ghats and Temples | Hotel Augusto",
+      "titleLength": 51,
+      "description": "Discover Varanasi from Hotel Augusto in Godowlia. Explore the Ganga, Kashi Vishwanath Temple and the evening aarti at Dashashwamedh Ghat.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Boats on the Ganga beside the sunlit ghats and buildings of Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fvaranasi-hero.webp&w=1920&q=75",
+          "complete": true,
+          "naturalWidth": 1281,
+          "width": 1280,
+          "height": 620
+        },
+        {
+          "alt": "Boats on the Ganga in the soft golden light of sunrise",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 705,
+          "width": 656,
+          "height": 618
+        },
+        {
+          "alt": "The golden shrine of Shri Kashi Vishwanath Temple with visitors in the courtyard",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=640&q=75",
+          "complete": true,
+          "naturalWidth": 518,
+          "width": 496,
+          "height": 688
+        },
+        {
+          "alt": "A wooden boat on the Ganga beneath the orange sun in Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fganges-boats.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 705,
+          "width": 590,
+          "height": 536
+        }
+      ],
+      "ids": [
+        "main",
+        "experiences-heading",
+        "river",
+        "river-heading",
+        "temple",
+        "temple-heading",
+        "aarti",
+        "aarti-heading",
+        "arrival-heading",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/contact",
+          "name": "Find the hotel"
+        },
+        {
+          "href": "#river",
+          "name": "River mornings"
+        },
+        {
+          "href": "#temple",
+          "name": "Temple visits"
+        },
+        {
+          "href": "#aarti",
+          "name": "Evening aarti"
+        },
+        {
+          "href": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-river-wloNuC7qKf8",
+          "name": "Martijn Vonk"
+        },
+        {
+          "href": "https://varanasi.nic.in/gallery/places-of-tourist-attraction/",
+          "name": "Explore the riverfront"
+        },
+        {
+          "href": "https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg",
+          "name": "Pradum Shukla"
+        },
+        {
+          "href": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "CC BY 4.0"
+        },
+        {
+          "href": "https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/",
+          "name": "About the temple"
+        },
+        {
+          "href": "https://kashi.gov.in/listing-details/dashashwamedh-ghat",
+          "name": "Discover Dashashwamedh"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/rooms",
+          "name": "Explore rooms"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/varanasi",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 39,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "InsideAugusto."
+      ],
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "titleLength": 52,
+      "description": "Take a closer look at Hotel Augusto, Varanasi. Explore photographs of the guest rooms, reception, restaurant and the hotel before planning your stay.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Hotel Augusto's entrance lobby with patterned seating and warm ceiling lights",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 280
+        },
+        {
+          "alt": "Double-bed guest room with a tan upholstered headboard at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 305
+        },
+        {
+          "alt": "Two single beds with green runners in a guest room at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 305
+        },
+        {
+          "alt": "Double-bed guest room with a curved wooden headboard, wardrobe and television at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 280
+        },
+        {
+          "alt": "Tables and upholstered dining chairs in Hotel Augusto's restaurant",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 280
+        },
+        {
+          "alt": "Reception desk and seating at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 305
+        },
+        {
+          "alt": "Family guest room with two beds at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 280
+        },
+        {
+          "alt": "Hotel Augusto's exterior and illuminated sign after dark",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 305
+        },
+        {
+          "alt": "Sofas and a coffee table in the Hotel Augusto lounge",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lounge.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 305
+        },
+        {
+          "alt": "A wide view of Hotel Augusto's dining room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 280
+        },
+        {
+          "alt": "Two beds with green runners and a small table in a Hotel Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-family-room.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 280
+        },
+        {
+          "alt": "A tiled private bathroom in a Hotel Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 342,
+          "width": 342,
+          "height": 305
+        }
+      ],
+      "ids": [
+        "main",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "Find your room"
+        },
+        {
+          "href": "/rooms",
+          "name": "Explore rooms"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/gallery",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 39,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "InsideAugusto."
+      ],
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "titleLength": 52,
+      "description": "Take a closer look at Hotel Augusto, Varanasi. Explore photographs of the guest rooms, reception, restaurant and the hotel before planning your stay.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "Hotel Augusto's entrance lobby with patterned seating and warm ceiling lights",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 733,
+          "height": 601
+        },
+        {
+          "alt": "Double-bed guest room with a tan upholstered headboard at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 515,
+          "height": 525
+        },
+        {
+          "alt": "Two single beds with green runners in a guest room at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ftwin-room.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 515,
+          "height": 525
+        },
+        {
+          "alt": "Double-bed guest room with a curved wooden headboard, wardrobe and television at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 733,
+          "height": 601
+        },
+        {
+          "alt": "Tables and upholstered dining chairs in Hotel Augusto's restaurant",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 733,
+          "height": 601
+        },
+        {
+          "alt": "Reception desk and seating at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 515,
+          "height": 525
+        },
+        {
+          "alt": "Family guest room with two beds at Hotel Augusto",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Ffamily-room.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 733,
+          "height": 601
+        },
+        {
+          "alt": "Hotel Augusto's exterior and illuminated sign after dark",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 515,
+          "height": 525
+        },
+        {
+          "alt": "Sofas and a coffee table in the Hotel Augusto lounge",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-lounge.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 515,
+          "height": 525
+        },
+        {
+          "alt": "A wide view of Hotel Augusto's dining room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 733,
+          "height": 601
+        },
+        {
+          "alt": "Two beds with green runners and a small table in a Hotel Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fgoogle-family-room.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 733,
+          "height": 601
+        },
+        {
+          "alt": "A tiled private bathroom in a Hotel Augusto guest room",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 748,
+          "width": 515,
+          "height": 525
+        }
+      ],
+      "ids": [
+        "main",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/rooms",
+          "name": "Find your room"
+        },
+        {
+          "href": "/rooms",
+          "name": "Explore rooms"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/gallery",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 39,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Let\u2019s plan your stay."
+      ],
+      "title": "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay",
+      "titleLength": 53,
+      "description": "Speak with Hotel Augusto about your Varanasi stay. Find our Godowlia address, call the hotel or send your travel dates and room enquiry on WhatsApp.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "The illuminated Hotel Augusto entrance and sign on August Kunda Road in Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=384&q=75",
+          "complete": true,
+          "naturalWidth": 350,
+          "width": 342,
+          "height": 342
+        }
+      ],
+      "ids": [
+        "main",
+        "enquire",
+        "enquiry-title",
+        "arrival",
+        "departure",
+        "adults",
+        "children",
+        "room",
+        "name",
+        "notes",
+        "find-us",
+        "faq-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "#enquire",
+          "name": "Or start with your travel dates"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/contact",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 45,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Let\u2019s plan your stay."
+      ],
+      "title": "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay",
+      "titleLength": 53,
+      "description": "Speak with Hotel Augusto about your Varanasi stay. Find our Godowlia address, call the hotel or send your travel dates and room enquiry on WhatsApp.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [
+        {
+          "alt": "The illuminated Hotel Augusto entrance and sign on August Kunda Road in Varanasi",
+          "source": "http://127.0.0.1:3080/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=750&q=75",
+          "complete": true,
+          "naturalWidth": 648,
+          "width": 597,
+          "height": 746
+        }
+      ],
+      "ids": [
+        "main",
+        "enquire",
+        "enquiry-title",
+        "arrival",
+        "departure",
+        "adults",
+        "children",
+        "room",
+        "name",
+        "notes",
+        "find-us",
+        "faq-title",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates.",
+          "name": "Chat on WhatsApp"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "#enquire",
+          "name": "Or start with your travel dates"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/contact",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 46,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Your privacy.In plain language."
+      ],
+      "title": "Privacy & Photo Credits | Hotel Augusto in Varanasi",
+      "titleLength": 51,
+      "description": "How the Hotel Augusto website handles stay enquiries, links to WhatsApp and basic technical information, with credits for destination photography.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [],
+      "ids": [
+        "main",
+        "stay-enquiries",
+        "technical-information",
+        "external-services",
+        "privacy-questions",
+        "photo-credits",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "#stay-enquiries",
+          "name": "Stay enquiries"
+        },
+        {
+          "href": "#technical-information",
+          "name": "Browsing"
+        },
+        {
+          "href": "#external-services",
+          "name": "External services"
+        },
+        {
+          "href": "#privacy-questions",
+          "name": "Questions"
+        },
+        {
+          "href": "#photo-credits",
+          "name": "Photo credits"
+        },
+        {
+          "href": "https://www.whatsapp.com/legal/privacy-policy",
+          "name": "WhatsApp Privacy Policy"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "/contact",
+          "name": "contact page"
+        },
+        {
+          "href": "https://unsplash.com/photos/boats-on-a-river-with-city-buildings-in-background-_IdOI0J_doY",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://unsplash.com/license",
+          "name": "Unsplash License"
+        },
+        {
+          "href": "https://unsplash.com/photos/two-boats-on-a-wide-river-at-sunrise-Sj6zqvbuykY",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://unsplash.com/license",
+          "name": "Unsplash License"
+        },
+        {
+          "href": "https://unsplash.com/photos/two-people-in-a-small-boat-on-the-water-at-sunset-y4oZkoD6RYY",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://unsplash.com/license",
+          "name": "Unsplash License"
+        },
+        {
+          "href": "https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "CC BY 4.0"
+        },
+        {
+          "href": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-river-wloNuC7qKf8",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://unsplash.com/license",
+          "name": "Unsplash License"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/privacy",
+      "width": 390,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 36,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Your privacy.In plain language."
+      ],
+      "title": "Privacy & Photo Credits | Hotel Augusto in Varanasi",
+      "titleLength": 51,
+      "description": "How the Hotel Augusto website handles stay enquiries, links to WhatsApp and basic technical information, with credits for destination photography.",
+      "robots": "noindex, nofollow",
+      "ogImage": "http://localhost:3080/opengraph-image",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [],
+      "ids": [
+        "main",
+        "stay-enquiries",
+        "technical-information",
+        "external-services",
+        "privacy-questions",
+        "photo-credits",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "#stay-enquiries",
+          "name": "Stay enquiries"
+        },
+        {
+          "href": "#technical-information",
+          "name": "Browsing"
+        },
+        {
+          "href": "#external-services",
+          "name": "External services"
+        },
+        {
+          "href": "#privacy-questions",
+          "name": "Questions"
+        },
+        {
+          "href": "#photo-credits",
+          "name": "Photo credits"
+        },
+        {
+          "href": "https://www.whatsapp.com/legal/privacy-policy",
+          "name": "WhatsApp Privacy Policy"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "/contact",
+          "name": "contact page"
+        },
+        {
+          "href": "https://unsplash.com/photos/boats-on-a-river-with-city-buildings-in-background-_IdOI0J_doY",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://unsplash.com/license",
+          "name": "Unsplash License"
+        },
+        {
+          "href": "https://unsplash.com/photos/two-boats-on-a-wide-river-at-sunrise-Sj6zqvbuykY",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://unsplash.com/license",
+          "name": "Unsplash License"
+        },
+        {
+          "href": "https://unsplash.com/photos/two-people-in-a-small-boat-on-the-water-at-sunset-y4oZkoD6RYY",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://unsplash.com/license",
+          "name": "Unsplash License"
+        },
+        {
+          "href": "https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://creativecommons.org/licenses/by/4.0/",
+          "name": "CC BY 4.0"
+        },
+        {
+          "href": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-river-wloNuC7qKf8",
+          "name": "Original photograph"
+        },
+        {
+          "href": "https://unsplash.com/license",
+          "name": "Unsplash License"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/privacy",
+      "width": 1440,
+      "status": 200,
+      "pageErrors": [],
+      "consoleErrors": [],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 35,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyScrollWidth": 390,
+      "h1": [
+        "Let\u2019s findyour way back."
+      ],
+      "title": "Hotel Augusto Varanasi | A Stay in the Heart of Kashi",
+      "titleLength": 53,
+      "description": "Make yourself at home at Hotel Augusto in Godowlia, Varanasi. Explore our rooms, vegetarian dining and the old city. Enquire directly on WhatsApp.",
+      "robots": "noindex",
+      "ogImage": "http://localhost:3080/opengraph-image?065db89b81df7ae5",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [],
+      "ids": [
+        "main",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/",
+          "name": "Back to Augusto"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/does-not-exist",
+      "width": 390,
+      "status": 404,
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 36,
+        "incomplete": 0
+      }
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": [
+        "Let\u2019s findyour way back."
+      ],
+      "title": "Hotel Augusto Varanasi | A Stay in the Heart of Kashi",
+      "titleLength": 53,
+      "description": "Make yourself at home at Hotel Augusto in Godowlia, Varanasi. Explore our rooms, vegetarian dining and the old city. Enquire directly on WhatsApp.",
+      "robots": "noindex",
+      "ogImage": "http://localhost:3080/opengraph-image?065db89b81df7ae5",
+      "viewport": "width=device-width, initial-scale=1",
+      "schemaInHead": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Hotel",
+          "name": "Hotel Augusto",
+          "telephone": "+91 80817 09146",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D 36/1, August Kunda Road, Godowlia, Jangambari",
+            "addressLocality": "Varanasi",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221001",
+            "addressCountry": "IN"
+          },
+          "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+        }
+      ],
+      "images": [],
+      "ids": [
+        "main",
+        "_R_"
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "name": "Skip to content"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Book a stay"
+        },
+        {
+          "href": "/",
+          "name": "01Welcome"
+        },
+        {
+          "href": "/hotel",
+          "name": "02The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "03Rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "04Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "05Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "06Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "07Contact"
+        },
+        {
+          "href": "/contact#enquire",
+          "name": "Plan your stay"
+        },
+        {
+          "href": "/",
+          "name": "Back to Augusto"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Enquire on WhatsApp"
+        },
+        {
+          "href": "/",
+          "name": "Augusto.HOTEL \u00b7 VARANASI"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi",
+          "name": "Get directions"
+        },
+        {
+          "href": "/hotel",
+          "name": "The hotel"
+        },
+        {
+          "href": "/rooms",
+          "name": "Our rooms"
+        },
+        {
+          "href": "/dining",
+          "name": "Dining"
+        },
+        {
+          "href": "/varanasi",
+          "name": "Varanasi"
+        },
+        {
+          "href": "/gallery",
+          "name": "Gallery"
+        },
+        {
+          "href": "/contact",
+          "name": "Contact & enquiries"
+        },
+        {
+          "href": "tel:+918081709146",
+          "name": "+91 80817 09146"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "WhatsApp the hotel"
+        },
+        {
+          "href": "/privacy",
+          "name": "Privacy & photo credits"
+        },
+        {
+          "href": "https://digiocular.com",
+          "name": "Digiocular"
+        },
+        {
+          "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay%20in%20Varanasi.",
+          "name": "Let\u2019s plan your stay on WhatsApp"
+        }
+      ],
+      "brokenAriaControls": [],
+      "overflows": [],
+      "route": "/does-not-exist",
+      "width": 1440,
+      "status": 404,
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "failures": [],
+      "axe": {
+        "violations": [],
+        "passes": 35,
+        "incomplete": 0
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "test": "Final homepage headline is current",
+      "passed": true,
+      "evidence": "Varanasi.\nStay closer."
+    },
+    {
+      "test": "Hero image parallax responds to scroll",
+      "passed": true,
+      "evidence": {
+        "before": "none",
+        "after": "matrix(1, 0, 0, 1, 0, 22.2596)"
+      }
+    },
+    {
+      "test": "Mobile menu opens, focuses close, locks body",
+      "passed": true,
+      "evidence": "Close navigation"
+    },
+    {
+      "test": "Mobile menu prevents focus to background controls",
+      "passed": true,
+      "evidence": [
+        {
+          "tag": "BODY",
+          "inside": false,
+          "backgroundFocus": false
+        },
+        {
+          "tag": "A",
+          "inside": true,
+          "backgroundFocus": false
+        },
+        {
+          "tag": "BODY",
+          "inside": false,
+          "backgroundFocus": false
+        },
+        {
+          "tag": "BUTTON",
+          "inside": true,
+          "backgroundFocus": false
+        }
+      ]
+    },
+    {
+      "test": "Menu Escape closes and restores focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Mobile menu navigates to /hotel",
+      "passed": true,
+      "evidence": {
+        "url": "http://127.0.0.1:3080/hotel",
+        "heading": "Get to know Augusto."
+      }
+    },
+    {
+      "test": "Mobile menu navigates to /dining",
+      "passed": true,
+      "evidence": {
+        "url": "http://127.0.0.1:3080/dining",
+        "heading": "Take a seat."
+      }
+    },
+    {
+      "test": "Mobile menu navigates to /gallery",
+      "passed": true,
+      "evidence": {
+        "url": "http://127.0.0.1:3080/gallery",
+        "heading": "Inside Augusto."
+      }
+    },
+    {
+      "test": "Mobile menu navigates to /rooms",
+      "passed": true,
+      "evidence": {
+        "url": "http://127.0.0.1:3080/rooms",
+        "heading": "Rooms at Augusto."
+      }
+    },
+    {
+      "test": "Desktop header navigates to /hotel",
+      "passed": true,
+      "evidence": {
+        "url": "http://127.0.0.1:3080/hotel",
+        "heading": "Get to know Augusto."
+      }
+    },
+    {
+      "test": "Desktop header navigates to /dining",
+      "passed": true,
+      "evidence": {
+        "url": "http://127.0.0.1:3080/dining",
+        "heading": "Take a seat."
+      }
+    },
+    {
+      "test": "Desktop header navigates to /gallery",
+      "passed": true,
+      "evidence": {
+        "url": "http://127.0.0.1:3080/gallery",
+        "heading": "Inside Augusto."
+      }
+    },
+    {
+      "test": "Desktop header navigates to /rooms",
+      "passed": true,
+      "evidence": {
+        "url": "http://127.0.0.1:3080/rooms",
+        "heading": "Rooms at Augusto."
+      }
+    },
+    {
+      "test": "Repeated Gallery and Varanasi navigation remains stable",
+      "passed": true,
+      "evidence": {
+        "transitions": [
+          {
+            "route": "/gallery",
+            "heading": "Inside Augusto.",
+            "passed": true
+          },
+          {
+            "route": "/varanasi",
+            "heading": "Explore Varanasi.",
+            "passed": true
+          },
+          {
+            "route": "/gallery",
+            "heading": "Inside Augusto.",
+            "passed": true
+          },
+          {
+            "route": "/varanasi",
+            "heading": "Explore Varanasi.",
+            "passed": true
+          },
+          {
+            "route": "/gallery",
+            "heading": "Inside Augusto.",
+            "passed": true
+          },
+          {
+            "route": "/varanasi",
+            "heading": "Explore Varanasi.",
+            "passed": true
+          }
+        ],
+        "browserErrors": []
+      }
+    },
+    {
+      "test": "Hero hotel inset opens dedicated hotel page",
+      "passed": true,
+      "evidence": "http://127.0.0.1:3080/hotel"
+    },
+    {
+      "test": "Hero exploration anchor reaches hotel introduction",
+      "passed": true,
+      "evidence": {
+        "hash": "#discover",
+        "scrollY": 873,
+        "top": 80,
+        "expected": 80,
+        "aligned": true
+      }
+    },
+    {
+      "test": "Room tab ArrowRight updates selected and focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room tab End selects last room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room tab Home selects first room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room tab ArrowLeft wraps to last room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Next room control wraps to first room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Previous room control wraps to last room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room panel matches selected deluxe-room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room image crossfade settles correctly for deluxe-room",
+      "passed": true,
+      "evidence": [
+        {
+          "hidden": "false",
+          "opacity": 1,
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "hidden": "true",
+          "opacity": 0,
+          "alt": "",
+          "decoded": true
+        },
+        {
+          "hidden": "true",
+          "opacity": 0,
+          "alt": "",
+          "decoded": true
+        }
+      ]
+    },
+    {
+      "test": "Room panel matches selected deluxe-twin-room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room image crossfade settles correctly for deluxe-twin-room",
+      "passed": true,
+      "evidence": [
+        {
+          "hidden": "true",
+          "opacity": 0,
+          "alt": "",
+          "decoded": true
+        },
+        {
+          "hidden": "false",
+          "opacity": 1,
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "hidden": "true",
+          "opacity": 0,
+          "alt": "",
+          "decoded": true
+        }
+      ]
+    },
+    {
+      "test": "Room panel matches selected family-room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room image crossfade settles correctly for family-room",
+      "passed": true,
+      "evidence": [
+        {
+          "hidden": "true",
+          "opacity": 0,
+          "alt": "",
+          "decoded": true
+        },
+        {
+          "hidden": "true",
+          "opacity": 0,
+          "alt": "",
+          "decoded": true
+        },
+        {
+          "hidden": "false",
+          "opacity": 1,
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ]
+    },
+    {
+      "test": "Reload without hash returns to top",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "test": "Same-route navbar brand scrolls to top",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "test": "Hash navigation aligns enquiry section below fixed header",
+      "passed": true,
+      "evidence": {
+        "hash": "#enquire",
+        "scrollY": 471,
+        "top": 167.53125,
+        "expected": 168,
+        "aligned": true
+      }
+    },
+    {
+      "test": "Hash reload remains aligned to enquiry section",
+      "passed": true,
+      "evidence": {
+        "hash": "#enquire",
+        "scrollY": 471,
+        "top": 167.53125,
+        "expected": 168,
+        "aligned": true
+      }
+    },
+    {
+      "test": "Varanasi #river target exists and aligns below fixed header",
+      "passed": true,
+      "evidence": {
+        "hash": "#river",
+        "scrollY": 1116,
+        "top": 192.25,
+        "expected": 192,
+        "aligned": true
+      }
+    },
+    {
+      "test": "Varanasi #temple target exists and aligns below fixed header",
+      "passed": true,
+      "evidence": {
+        "hash": "#temple",
+        "scrollY": 1946,
+        "top": 184.390625,
+        "expected": 184,
+        "aligned": true
+      }
+    },
+    {
+      "test": "Varanasi #aarti target exists and aligns below fixed header",
+      "passed": true,
+      "evidence": {
+        "hash": "#aarti",
+        "scrollY": 2828,
+        "top": 184.3125,
+        "expected": 184,
+        "aligned": true
+      }
+    },
+    {
+      "test": "Gallery filter Hotel",
+      "passed": true,
+      "evidence": 4
+    },
+    {
+      "test": "Gallery filter Rooms",
+      "passed": true,
+      "evidence": 6
+    },
+    {
+      "test": "Gallery filter Dining",
+      "passed": true,
+      "evidence": 2
+    },
+    {
+      "test": "Gallery filter All",
+      "passed": true,
+      "evidence": 12
+    },
+    {
+      "test": "Gallery arrow advances photograph",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Gallery dialog traps focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Gallery Escape closes and restores tile focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room query preselects family room",
+      "passed": true,
+      "evidence": "Family Room"
+    },
+    {
+      "test": "Empty form reports required dates and focuses arrival",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Same-day departure rejected",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Reversed dates rejected",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Past arrival rejected",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Valid future enquiry prepares correctly encoded WhatsApp draft",
+      "passed": true,
+      "evidence": {
+        "urlHost": "wa.me",
+        "number": "/918081709146",
+        "decodedMessage": "Namaste Hotel Augusto! I would like to enquire about a stay.\nName: QA Guest & Family\nArrival: 18 Nov 2026\nDeparture: 21 Nov 2026\nGuests: 3 adults, 2 children\nRoom preference: Family Room\nNote: Late arrival & quiet room?\nChildren ages 4 and 7.\nPlease share availability, room rates and booking conditions. Thank you!",
+        "url": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AName%3A%20QA%20Guest%20%26%20Family%0AArrival%3A%2018%20Nov%202026%0ADeparture%3A%2021%20Nov%202026%0AGuests%3A%203%20adults%2C%202%20children%0ARoom%20preference%3A%20Family%20Room%0ANote%3A%20Late%20arrival%20%26%20quiet%20room%3F%0AChildren%20ages%204%20and%207.%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!"
+      }
+    },
+    {
+      "test": "Draft receives keyboard focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Changing form details invalidates old draft",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room-detail enquiry preselects Deluxe Room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room-detail enquiry preselects Deluxe Twin Room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room-detail enquiry preselects Family Room",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Room directory exposes all three choices without a carousel",
+      "passed": true,
+      "evidence": [
+        {
+          "href": "/rooms/deluxe-room",
+          "name": "Deluxe Room\nDouble bed",
+          "visible": true
+        },
+        {
+          "href": "/rooms/deluxe-twin-room",
+          "name": "Deluxe Twin Room\nTwo single beds",
+          "visible": true
+        },
+        {
+          "href": "/rooms/family-room",
+          "name": "Family Room\nTwo beds",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "test": "Keyboard room directory opens Deluxe Room",
+      "passed": true,
+      "evidence": {
+        "focus": {
+          "focused": true,
+          "left": 24,
+          "right": 366,
+          "top": 735.546875,
+          "bottom": 812.140625,
+          "visible": true
+        },
+        "url": "http://127.0.0.1:3080/rooms/deluxe-room"
+      }
+    },
+    {
+      "test": "Keyboard room directory opens Deluxe Twin Room",
+      "passed": true,
+      "evidence": {
+        "focus": {
+          "focused": true,
+          "left": 24,
+          "right": 366,
+          "top": 767.140625,
+          "bottom": 843.734375,
+          "visible": true
+        },
+        "url": "http://127.0.0.1:3080/rooms/deluxe-twin-room"
+      }
+    },
+    {
+      "test": "Keyboard room directory opens Family Room",
+      "passed": true,
+      "evidence": {
+        "focus": {
+          "focused": true,
+          "left": 24,
+          "right": 366,
+          "top": 423.734375,
+          "bottom": 500.328125,
+          "visible": true
+        },
+        "url": "http://127.0.0.1:3080/rooms/family-room"
+      }
+    },
+    {
+      "test": "Room story presents photograph, bed and routes for Deluxe Room",
+      "passed": true,
+      "evidence": {
+        "heading": "Deluxe Room",
+        "image": true,
+        "bed": "Double bed",
+        "links": [
+          "/rooms/deluxe-room",
+          "/rooms/deluxe-room",
+          "/contact?room=deluxe-room#enquire"
+        ]
+      }
+    },
+    {
+      "test": "Room story presents photograph, bed and routes for Deluxe Twin Room",
+      "passed": true,
+      "evidence": {
+        "heading": "Deluxe Twin Room",
+        "image": true,
+        "bed": "Two single beds",
+        "links": [
+          "/rooms/deluxe-twin-room",
+          "/rooms/deluxe-twin-room",
+          "/contact?room=deluxe-twin-room#enquire"
+        ]
+      }
+    },
+    {
+      "test": "Room story presents photograph, bed and routes for Family Room",
+      "passed": true,
+      "evidence": {
+        "heading": "Family Room",
+        "image": true,
+        "bed": "Two beds",
+        "links": [
+          "/rooms/family-room",
+          "/rooms/family-room",
+          "/contact?room=family-room#enquire"
+        ]
+      }
+    },
+    {
+      "test": "Mobile navigation links change route and close menu",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Navigation, booking and gallery interactions emit no browser errors",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "test": "Reduced motion preference honored",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "test": "Reduced motion disables hero parallax",
+      "passed": true,
+      "evidence": "none"
+    },
+    {
+      "test": "All rendered internal route and hash links resolve",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "test": "Current Google property photographs are present and decoded",
+      "passed": true,
+      "evidence": [
+        {
+          "route": "/",
+          "width": 390,
+          "file": "google-double-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/",
+          "width": 390,
+          "file": "google-dining-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/",
+          "width": 1440,
+          "file": "google-double-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/",
+          "width": 1440,
+          "file": "google-dining-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/dining",
+          "width": 390,
+          "file": "google-dining-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/dining",
+          "width": 1440,
+          "file": "google-dining-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/gallery",
+          "width": 390,
+          "file": "google-double-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/gallery",
+          "width": 390,
+          "file": "google-family-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/gallery",
+          "width": 1440,
+          "file": "google-double-room.webp",
+          "passed": true
+        },
+        {
+          "route": "/gallery",
+          "width": 1440,
+          "file": "google-family-room.webp",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "notes": [],
+  "external_messages_sent": 0,
+  "completed": "2026-10-19T17:12:30.784614+00:00",
+  "summary": {
+    "viewportChecks": 24,
+    "axeAudits": 24,
+    "interactionChecks": 66,
+    "failures": 0,
+    "passed": true
+  },
+  "cleanup": {
+    "freeBeforeBytes": {
+      "C": 29138206720,
+      "D": 68446834688
+    },
+    "freeAfterBytes": {
+      "C": 29134041088,
+      "D": 68445069312
+    },
+    "removed": [],
+    "note": "Fresh Edge contexts and browser closed. No disposable task files created; concise JSON and requested evidence screenshots retained."
+  }
+}

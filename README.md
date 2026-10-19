@@ -2,7 +2,7 @@
 
 An independent Digiocular client website in `D:\Digiocular\Websites\Hotel Augusto`.
 
-The current design follows the client's explicit Apple direction: Inter variable typography, neutral surfaces, blue capsule actions, large real photographs, restrained motion and dedicated mobile layouts. The earlier serif/terracotta direction was rejected and is superseded.
+The current design combines Apple-like clarity with an original hospitality direction informed by live Awwwards references: Manrope display typography, Inter body text, bone/ink/verdigris surfaces, a full-screen photographic Varanasi hero and asymmetric layouts. The site is multi-page. Earlier serif/terracotta and literal Apple directions are superseded.
 
 ## Run locally
 
@@ -25,6 +25,8 @@ Stop the development server before starting production on the same port.
 ## Pages
 
 - `/` — hotel introduction, room selector, dining and city photography
+- `/hotel` — property story, real hotel spaces, amenities and arrival
+- `/dining` — vegetarian dining, restaurant photographs and meal enquiries
 - `/rooms` — room comparison
 - `/rooms/deluxe-room`, `/rooms/deluxe-twin-room`, `/rooms/family-room`
 - `/varanasi` — local destination guide
@@ -34,7 +36,7 @@ Stop the development server before starting production on the same port.
 
 ## Content and booking
 
-`content/hotel.ts` is the single source of hotel facts and the booking phone number. Room image mappings are in `content/room-images.ts`. Photo provenance and retained originals are in `research/assets/`. Research includes a 22-source ledger and fact sheet with DOCX twins.
+`content/hotel.ts` is the single source of hotel facts and the booking phone number. Room image mappings are in `content/room-images.ts`. Photo provenance and retained originals are in `research/assets/`, with the new hero licence and original in `research/awwwards-revision/`. The source ledger includes Google and MakeMyTrip; the supplied MMT hotel ID is `201909301024364424`. Research documents include DOCX twins.
 
 The current WhatsApp destination is the hotel's Google-listed telephone, **+91 80817 09146**. The public WhatsApp link resolves to that number. The hotel must confirm it is the desired, active booking account before public launch. No enquiry was sent during testing.
 

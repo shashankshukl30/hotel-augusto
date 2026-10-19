@@ -1,0 +1,1355 @@
+{
+  "started": "2026-10-19T17:00:29.733543+00:00",
+  "base": "http://127.0.0.1:3082",
+  "viewports": [
+    {
+      "innerWidth": 360,
+      "clientWidth": 360,
+      "bodyWidth": 360,
+      "title": "Rooms at Hotel Augusto Varanasi | Make Yourself at Home",
+      "titleLength": 55,
+      "h1": [
+        "Rooms atAugusto."
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "The double bed and warm wood finishes of a Deluxe Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 360,
+      "clientWidth": 360,
+      "bodyWidth": 360,
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire"
+      ],
+      "route": "/rooms/deluxe-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 360,
+      "clientWidth": 360,
+      "bodyWidth": 360,
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 56,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire"
+      ],
+      "route": "/rooms/deluxe-twin-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 360,
+      "clientWidth": 360,
+      "bodyWidth": 360,
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Family Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms/family-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390,
+      "title": "Rooms at Hotel Augusto Varanasi | Make Yourself at Home",
+      "titleLength": 55,
+      "h1": [
+        "Rooms atAugusto."
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "The double bed and warm wood finishes of a Deluxe Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms",
+      "status": 200,
+      "errors": [],
+      "failures": [
+        "axe"
+      ],
+      "axe": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "targets": [
+            [
+              ".header-inner > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ],
+            [
+              ".footer-details > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390,
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire"
+      ],
+      "route": "/rooms/deluxe-room",
+      "status": 200,
+      "errors": [],
+      "failures": [
+        "axe"
+      ],
+      "axe": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "targets": [
+            [
+              ".header-inner > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ],
+            [
+              ".footer-details > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390,
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 56,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire"
+      ],
+      "route": "/rooms/deluxe-twin-room",
+      "status": 200,
+      "errors": [],
+      "failures": [
+        "axe"
+      ],
+      "axe": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "targets": [
+            [
+              ".header-inner > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ],
+            [
+              ".footer-details > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390,
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Family Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms/family-room",
+      "status": 200,
+      "errors": [],
+      "failures": [
+        "axe"
+      ],
+      "axe": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "targets": [
+            [
+              ".header-inner > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ],
+            [
+              ".footer-details > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "bodyWidth": 768,
+      "title": "Rooms at Hotel Augusto Varanasi | Make Yourself at Home",
+      "titleLength": 55,
+      "h1": [
+        "Rooms atAugusto."
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "The double bed and warm wood finishes of a Deluxe Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "bodyWidth": 768,
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire"
+      ],
+      "route": "/rooms/deluxe-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "bodyWidth": 768,
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 56,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire"
+      ],
+      "route": "/rooms/deluxe-twin-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 768,
+      "clientWidth": 768,
+      "bodyWidth": 768,
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Family Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms/family-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 1024,
+      "clientWidth": 1024,
+      "bodyWidth": 1024,
+      "title": "Rooms at Hotel Augusto Varanasi | Make Yourself at Home",
+      "titleLength": 55,
+      "h1": [
+        "Rooms atAugusto."
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "The double bed and warm wood finishes of a Deluxe Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 1024,
+      "clientWidth": 1024,
+      "bodyWidth": 1024,
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire"
+      ],
+      "route": "/rooms/deluxe-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 1024,
+      "clientWidth": 1024,
+      "bodyWidth": 1024,
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 56,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire"
+      ],
+      "route": "/rooms/deluxe-twin-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 1024,
+      "clientWidth": 1024,
+      "bodyWidth": 1024,
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Family Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms/family-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyWidth": 1440,
+      "title": "Rooms at Hotel Augusto Varanasi | Make Yourself at Home",
+      "titleLength": 55,
+      "h1": [
+        "Rooms atAugusto."
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "The double bed and warm wood finishes of a Deluxe Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms",
+      "status": 200,
+      "errors": [],
+      "failures": [
+        "axe"
+      ],
+      "axe": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "targets": [
+            [
+              ".header-inner > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ],
+            [
+              ".footer-details > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyWidth": 1440,
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire"
+      ],
+      "route": "/rooms/deluxe-room",
+      "status": 200,
+      "errors": [],
+      "failures": [
+        "axe"
+      ],
+      "axe": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "targets": [
+            [
+              ".header-inner > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ],
+            [
+              ".footer-details > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyWidth": 1440,
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 56,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire"
+      ],
+      "route": "/rooms/deluxe-twin-room",
+      "status": 200,
+      "errors": [],
+      "failures": [
+        "axe"
+      ],
+      "axe": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "targets": [
+            [
+              ".header-inner > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ],
+            [
+              ".footer-details > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyWidth": 1440,
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Family Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms/family-room",
+      "status": 200,
+      "errors": [],
+      "failures": [
+        "axe"
+      ],
+      "axe": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "targets": [
+            [
+              ".header-inner > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ],
+            [
+              ".footer-details > .brand-link[aria-label=\"Augusto. Home\"][href=\"/\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "bodyWidth": 1920,
+      "title": "Rooms at Hotel Augusto Varanasi | Make Yourself at Home",
+      "titleLength": 55,
+      "h1": [
+        "Rooms atAugusto."
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "The double bed and warm wood finishes of a Deluxe Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "bodyWidth": 1920,
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire"
+      ],
+      "route": "/rooms/deluxe-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "bodyWidth": 1920,
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 56,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/family-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire"
+      ],
+      "route": "/rooms/deluxe-twin-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "innerWidth": 1920,
+      "clientWidth": 1920,
+      "bodyWidth": 1920,
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "titleLength": 51,
+      "h1": [
+        "Family Room"
+      ],
+      "font": "manrope, \"manrope Fallback\", sans-serif",
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "roomLinks": [
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room"
+      ],
+      "enquiryLinks": [
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms/family-room",
+      "status": 200,
+      "errors": [],
+      "failures": []
+    }
+  ],
+  "enquiries": [
+    {
+      "room": "deluxe-room",
+      "selected": "Deluxe Room",
+      "passed": true
+    },
+    {
+      "room": "deluxe-twin-room",
+      "selected": "Deluxe Twin Room",
+      "passed": true
+    },
+    {
+      "room": "family-room",
+      "selected": "Family Room",
+      "passed": true
+    }
+  ],
+  "externalMessagesSent": 0,
+  "summary": {
+    "viewportChecks": 24,
+    "axeAudits": 8,
+    "routeFailures": [
+      {
+        "route": "/rooms",
+        "width": 390,
+        "failures": [
+          "axe"
+        ]
+      },
+      {
+        "route": "/rooms/deluxe-room",
+        "width": 390,
+        "failures": [
+          "axe"
+        ]
+      },
+      {
+        "route": "/rooms/deluxe-twin-room",
+        "width": 390,
+        "failures": [
+          "axe"
+        ]
+      },
+      {
+        "route": "/rooms/family-room",
+        "width": 390,
+        "failures": [
+          "axe"
+        ]
+      },
+      {
+        "route": "/rooms",
+        "width": 1440,
+        "failures": [
+          "axe"
+        ]
+      },
+      {
+        "route": "/rooms/deluxe-room",
+        "width": 1440,
+        "failures": [
+          "axe"
+        ]
+      },
+      {
+        "route": "/rooms/deluxe-twin-room",
+        "width": 1440,
+        "failures": [
+          "axe"
+        ]
+      },
+      {
+        "route": "/rooms/family-room",
+        "width": 1440,
+        "failures": [
+          "axe"
+        ]
+      }
+    ],
+    "enquiryPreselectionPassed": true
+  },
+  "cleanup": {
+    "freeBeforeBytes": {
+      "C": 29245628416,
+      "D": 68735717376
+    },
+    "freeAfterBytes": {
+      "C": 29216956416,
+      "D": 68607926272
+    },
+    "removed": [],
+    "note": "Browser contexts closed. Source and verification evidence retained; no disposable files created."
+  }
+}

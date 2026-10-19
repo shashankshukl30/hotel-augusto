@@ -1,20 +1,22 @@
 """Browser acceptance checks for the gallery and Varanasi editorial routes."""
 import json
+import os
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
-OUT = Path(__file__).resolve().parent / "apple-redesign"
+OUT = Path(__file__).resolve().parent / "cinematic-redesign"
 OUT.mkdir(exist_ok=True)
-BASE = "http://127.0.0.1:3080"
+BASE = os.environ.get("HOTEL_QA_URL", "http://127.0.0.1:3082")
 report = {"layouts": [], "gallery": {}, "errors": []}
 
 with sync_playwright() as runner:
     browser = runner.chromium.launch(channel="msedge", headless=True)
     context = browser.new_context(viewport={"width": 390, "height": 844}, reduced_motion="reduce")
     page = context.new_page()
-    page.on("pageerror", lambda error: report["errors"].append(str(error)))
+    page.on("pageerror", lambda error: report["errors"].append({"message": str(error), "stack": error.stack, "url": page.url, "step": report.get("currentStep")}))
     for route in ["gallery", "varanasi"]:
         for width in [360, 390, 768, 1440]:
+            report["currentStep"] = f"{route} layout at {width}px"
             page.set_viewport_size({"width": width, "height": 900})
             page.goto(f"{BASE}/{route}", wait_until="networkidle")
             page.evaluate("""async () => {
@@ -38,6 +40,7 @@ with sync_playwright() as runner:
 
     page.set_viewport_size({"width": 390, "height": 844})
     page.goto(f"{BASE}/gallery", wait_until="networkidle")
+    report["currentStep"] = "Gallery filters and dialog"
     for category, count in [("Hotel", 4), ("Rooms", 6), ("Dining", 2), ("All", 12)]:
         page.get_by_role("button", name=category, exact=True).click()
         assert page.locator(".gallery-tile").count() == count
@@ -65,12 +68,18 @@ with sync_playwright() as runner:
     assert page.evaluate("document.activeElement.getAttribute('aria-label')") == "Hotel lobby Hotel: enlarge photograph"
     report["gallery"]["close"] = "Escape closes and restores focus to opening photograph"
     page.goto(f"{BASE}/varanasi", wait_until="networkidle")
+    report["currentStep"] = "Destination anchor navigation"
     for anchor in ["river", "temple", "aarti"]:
         assert page.locator(f"#{anchor}").count() == 1
+        page.locator(f".destination-guide-nav a[href='#{anchor}']").click()
+        assert page.evaluate("location.hash") == f"#{anchor}"
+        header = page.locator(".site-header").bounding_box()
+        target_y = page.locator(f"#{anchor}").bounding_box()["y"]
+        assert header["y"] + header["height"] <= target_y <= 422, {"anchor": anchor, "top": target_y}
     report["anchors"] = ["river", "temple", "aarti"]
     context.close()
     browser.close()
 
-assert not report["errors"], report["errors"]
 (OUT / "verification.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+assert not report["errors"], report["errors"]
 print(json.dumps({"layouts": len(report["layouts"]), "gallery": report["gallery"], "anchors": report["anchors"], "errors": report["errors"]}, indent=2))

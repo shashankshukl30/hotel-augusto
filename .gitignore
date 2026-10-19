@@ -11,7 +11,11 @@ research/raw/
 evidence/screenshots/
 evidence/browser-profiles/
 __pycache__/
-# Keep detailed local captures; version the final Apple homepage and audit reports.
+# Keep detailed local captures; version representative homepage captures and audit reports.
 evidence/**/*.png
 !evidence/apple-design/*.png
+!evidence/cinematic-revision/*.png
 research/design-qa/**/*.png
+# Local Word rendering evidence and retained cleanup-blocked scratch.
+docs/.handoff-review/
+research/ota-revision/.document-review/

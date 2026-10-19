@@ -1,0 +1,189 @@
+{
+  "retrieved": "2026-10-19",
+  "purpose": "User-requested Google profile and MakeMyTrip reinspection; source-to-page mapping for the cinematic multipage revision.",
+  "sources": [
+    {
+      "id": "GOOGLE-LIVE",
+      "url": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084409,83.0065447,17z/data=!4m9!3m8!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "method": "Fresh Microsoft Edge browser; correct rendered property h1 and address.",
+      "evidence": [
+        "research/requested-source-verification/google-profile.json",
+        "research/requested-source-verification/google-profile.png"
+      ],
+      "facts": {
+        "name": "HOTEL AUGUSTO VARANASI",
+        "phone": "+91 80817 09146",
+        "address": "D 36/1 August Kunda Road, Jangambari, Varanasi, Uttar Pradesh 221001",
+        "coordinates": [
+          25.3084409,
+          83.0065447
+        ]
+      },
+      "owner_post_observation": "From the owner section contained an October 3, 2026 post about visiting Varanasi. Promotional copy was not duplicated."
+    },
+    {
+      "id": "MMT-USER-URL",
+      "url": "https://www.makemytrip.com/hotels/hotel-details/?hotelId=201909301024364424&_uCurrency=INR&checkin=11192026&checkout=11202026&city=CTVNS&country=IN&lat=25.30833&lng=83.00653&locusId=CTVNS&locusType=city&rank=1&regionNearByExp=3&roomStayQualifier=2e0e&rsc=1e2e0e&searchText=HOTEL+AUGUSTO&topHtlId=201909301024364424&mtkeys=undefined&isPropSearch=T",
+      "method": "Fresh Edge browser attempt; transport error net::ERR_HTTP2_PROTOCOL_ERROR, no property h1 rendered.",
+      "evidence": [
+        "research/requested-source-verification/makemytrip-exact.json",
+        "research/requested-source-verification/makemytrip-exact.png"
+      ],
+      "limitation": "Exact dated offer and photo gallery were not verified as rendered. Further HTTP/1 photo-page request timed out after 35 seconds with zero bytes. This is not proof of an authentication block."
+    },
+    {
+      "id": "MMT-CANONICAL",
+      "url": "https://www.makemytrip.com/hotels/hotel_augusto-details-varanasi.html",
+      "method": "Fresh web search returned public indexed property page, crawled two weeks earlier; direct fetch timed out.",
+      "facts": [
+        "Matching Hotel Augusto name and D 36/1 Godowlia/Jangambadi address.",
+        "Three categories: Deluxe Rooms, Deluxe Twin Bed Rooms, Family Rooms.",
+        "Pure vegetarian restaurant, Wi-Fi, room service, lift."
+      ],
+      "limitation": "Indexed content corroborates durable property facts, not live prices, dated availability or owner-final policies."
+    },
+    {
+      "id": "MMT-PHOTOS",
+      "url": "https://www.makemytrip.com/hotels/photos-of-hotel_augusto-details-varanasi.html",
+      "method": "Public indexed photo page, crawled last month.",
+      "facts": [
+        "68 property photos and 137 guest photos indicated by the index."
+      ],
+      "limitation": "No individual MakeMyTrip image URL was recovered; do not claim our photographs were downloaded from this listing or that byte-level MMT image matching was established."
+    },
+    {
+      "id": "GOOGLE-PHOTOS",
+      "url": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgID32qD9dQ!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9SGBDe38WRGKCHSMcfmZgZUAvpcKIObAzL9TD9Be--_wRYHd3ZTg8JW3e8g4cJO_-UmY9ajjdxmZ-hbgDJXkiWUSZ641aCsIRgk3aRJgu9eS0HPVs385ZWvi-Jb89S14-LGCTYl%3Dw203-h152-k-no!7i1280!8i960!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "method": "Normal public photo-gallery UI; eight still photos individually opened and uploader/capture labels recorded.",
+      "evidence": [
+        "research/ota-revision/google-photo-candidates.json",
+        "research/ota-revision/google-property-contact-sheet.jpg"
+      ],
+      "limitation": "See more photos displayed a sign-in prompt. No sign-in or access-control workaround was attempted."
+    }
+  ],
+  "fact_to_page": [
+    {
+      "fact": "Godowlia/Jangambari address and telephone",
+      "sources": [
+        "GOOGLE-LIVE",
+        "MMT-CANONICAL"
+      ],
+      "pages": [
+        "/hotel",
+        "/contact",
+        "shared footer"
+      ],
+      "implementation": "content/hotel.ts"
+    },
+    {
+      "fact": "Room-category names",
+      "sources": [
+        "MMT-CANONICAL"
+      ],
+      "pages": [
+        "/rooms",
+        "/rooms/deluxe-room",
+        "/rooms/deluxe-twin-room",
+        "/rooms/family-room"
+      ],
+      "implementation": "content/hotel.ts"
+    },
+    {
+      "fact": "Vegetarian restaurant",
+      "sources": [
+        "MMT-CANONICAL"
+      ],
+      "pages": [
+        "/dining",
+        "/hotel",
+        "/"
+      ],
+      "implementation": "app/dining/page.tsx"
+    },
+    {
+      "fact": "Wi-Fi and room service; reception/housekeeping cross-checked in existing ledger",
+      "sources": [
+        "MMT-CANONICAL",
+        "research/source-ledger.json"
+      ],
+      "pages": [
+        "/hotel",
+        "/rooms"
+      ],
+      "implementation": "content/hotel.ts"
+    },
+    {
+      "fact": "Meal inclusions depend on plan; ask for current menu/hours",
+      "sources": [
+        "MMT-CANONICAL"
+      ],
+      "pages": [
+        "/dining",
+        "/contact"
+      ],
+      "implementation": "No published prices or invented serving hours."
+    }
+  ],
+  "photo_to_page": [
+    {
+      "google_photo": 9,
+      "public_path": "/images/hotel-exterior-day.webp",
+      "pages": [
+        "/hotel"
+      ],
+      "match": "Visually the same daytime street photograph shown in Google's Hotels.com-sourced photo entry. Existing original has higher resolution; retain it.",
+      "google_source_page": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,85.3y,90t/data=!3m8!1e2!3m6!1shttps:%2F%2Fimages.trvl-media.com%2Flodging%2F46000000%2F45850000%2F45841100%2F45841007%2Fe281bf4e_z.jpg!2e7!3e27!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-proxy%2FALd4DhF9FQI3mmH1ONLT5eT2hm3xp84pm5lNW0nN0Y5ZWA5DBjtDAvm9g0LI6oHeIdFrAbDsz9gXLZwGUjsAGjSD7ZwKN3K5ZLA-uttkPQ54XQhAAFS48afP71wtF9crXu3Sogmlc-5a4XvUGHCT2BNpDO-kEWTJrsnYbfdSvTk76rjW3-BkK-Ax-sB7%3Dw203-h135-k-no!7i1000!8i666!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "original_download": "https://www.varanasihotels.org/data/Photos/1920x1080/16875/1687586/1687586848.JPEG"
+    },
+    {
+      "google_photo": 7,
+      "public_path": "/images/deluxe-room.webp",
+      "pages": [
+        "/rooms",
+        "/rooms/deluxe-room"
+      ],
+      "match": "Same tan-buttoned-headboard room photograph visible in the Google Agoda-sourced gallery. Matching is visual, not byte-level.",
+      "google_source_page": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,79.6y,90t/data=!3m8!1e2!3m6!1shttp:%2F%2Fpix8.agoda.net%2FhotelImages%2F37718263%2F737802577%2Ffa7380203f4e7c4c2d2682fdfb6507d9.jpg%3Fce%3D2!2e7!3e27!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-proxy%2FALd4DhFmanBvgysJQpKuAWtTJS0NI7W8z6-y7h2RIMirFOMhXwUw0XrY1CzDNlETb4-mdL8X1RXU2LYg5jI0pGp8Yw15clVZcTNiR78sh12RzMdr-6O2WTpO1RLt_6MCxN10Pc45gPRLYQSMC8fQBB1gqdUMyRsnJHscpVhvNR9MdEwuzWUA0LKYnZgYJQ%3Dw203-h135-k-no!7i1024!8i768!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "original_download": "https://www.varanasihotels.org/data/Photos/1920x1080/16875/1687586/1687586875.JPEG"
+    },
+    {
+      "google_photo": 10,
+      "public_path": "/images/google-dining-room.webp",
+      "pages": [
+        "/",
+        "/dining"
+      ],
+      "match": "New restaurant angle directly downloaded from the Hotels.com original linked in Google's photo entry.",
+      "google_source_page": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,85.3y,90t/data=!3m8!1e2!3m6!1shttps:%2F%2Fimages.trvl-media.com%2Flodging%2F46000000%2F45850000%2F45841100%2F45841007%2F5036d456_z.jpg!2e7!3e27!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-proxy%2FALd4DhEssjW5B_IGR5rhoAQpZVTyXmxhFg2gFZ0fDw8yIGOZvctqBkzarDSxFShj6ie4AgkenXc8nXiVdn06YeIFmGaJvy-EWl0h-N37BEi6ux2Cn9-UuQPvqpwvLh7m5trPjIxHmGvp_bIKQvIUq38Ku-AoWTG7_W09I2b-fREDFy-rCvOxgzfMjrpg_w%3Dw203-h135-k-no!7i1000!8i666!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "original_download": "https://images.trvl-media.com/lodging/46000000/45850000/45841100/45841007/5036d456_z.jpg"
+    },
+    {
+      "google_photo": 3,
+      "public_path": "/images/google-double-room.webp",
+      "pages": [
+        "/",
+        "/gallery"
+      ],
+      "match": "New real room photograph used in the homepage hotel inset and gallery; no room-category assignment inferred.",
+      "google_source_page": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,83.9y,90t/data=!3m8!1e2!3m6!1sCIABIhAsyAhWUsk0j56e58t9-Ke9!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9TUBf5-eHVIm6sH6RgBN_vRWUEnoazcvRpfF1yKPmdQUfa-YAYKF8OkIcFV2CLVOZ5Nzp1QCpe2tNCv-WMi3ciPhCPiWRiCX2DRuEvXgOrzZGRd5NZKqHZ6kHb5AEXSRZ2f80spHWTwLOY%3Dw203-h152-k-no!7i1024!8i768!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "google_photo": 5,
+      "public_path": "/images/google-family-room.webp",
+      "pages": [
+        "/gallery"
+      ],
+      "match": "New real two-double-bed room photograph used in the gallery; no category assignment inferred.",
+      "google_source_page": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDm-pnCRg!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9RvAJi2dZqsYKmYDCqkMlr4Xjp01s11Etr0viigML6hplcJIIedCXxB8_V4ykgewOnpIFz1vprPZjNXake-JIC_z1aN__yObA9aLp7SN_Wxkx44Q1CTzVbRkQ0n0EBi6p4FaP2S%3Dw203-h152-k-no!7i4032!8i3024!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D"
+    }
+  ],
+  "not_promoted": [
+    "Raw Google text can lose crossed-out amenity icon semantics: no pool claim was added.",
+    "No ratings, star classification, live prices, fixed travel times, conflicting check-in/out policies or parking guarantee added.",
+    "Google gallery uploader display names do not independently prove copyright ownership. Confirm client reuse rights.",
+    "The Google-listed phone is verified; WhatsApp account registration/ownership still requires hotel confirmation."
+  ],
+  "new_asset_ledger": "research/ota-revision/asset-candidates.json",
+  "qa": "evidence/hospitality-review/results.json"
+}

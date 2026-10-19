@@ -7,6 +7,7 @@ import { hotel } from "@/content/hotel";
 import "./globals.css";
 
 const inter = localFont({ src: "../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2", variable: "--font-inter", weight: "100 900", display: "swap" });
+const manrope = localFont({ src: "../node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2", variable: "--font-manrope", weight: "200 800", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3080")),
@@ -14,12 +15,12 @@ export const metadata: Metadata = {
   description: "Make yourself at home at Hotel Augusto in Godowlia, Varanasi. Explore our rooms, vegetarian dining and the old city. Enquire directly on WhatsApp.",
   applicationName: "Hotel Augusto",
   robots: { index: process.env.SITE_INDEXABLE === "true", follow: process.env.SITE_INDEXABLE === "true" },
-  openGraph: { type: "website", locale: "en_IN", siteName: "Hotel Augusto", title: "Hotel Augusto · At home in Varanasi", description: "The heart of Kashi. A place of your own.", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { type: "website", locale: "en_IN", siteName: "Hotel Augusto", title: "Hotel Augusto · Varanasi. Stay closer.", description: "Your place in Godowlia. Explore the hotel, rooms, dining and Varanasi.", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
   twitter: { card: "summary_large_image" },
 };
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#fafafa" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#f6f5f0" };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const schema = { "@context": "https://schema.org", "@type": "Hotel", name: hotel.name, telephone: hotel.phone, address: { "@type": "PostalAddress", streetAddress: hotel.address[0] + ", " + hotel.address[1], addressLocality: "Varanasi", addressRegion: "Uttar Pradesh", postalCode: "221001", addressCountry: "IN" }, hasMap: hotel.mapsUrl };
-  return <html lang="en" className={inter.variable}><head><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }}/></head><body><a className="skip-link" href="#main">Skip to content</a><ScrollReset/><SiteHeader/>{children}<SiteFooter/></body></html>;
+  return <html lang="en" className={inter.variable + " " + manrope.variable}><head><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }}/></head><body><a className="skip-link" href="#main">Skip to content</a><ScrollReset/><SiteHeader/>{children}<SiteFooter/></body></html>;
 }

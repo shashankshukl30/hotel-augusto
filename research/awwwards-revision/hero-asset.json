@@ -1,0 +1,24 @@
+{
+  "retrieved": "2026-10-19",
+  "id": "varanasi-hero",
+  "author": "Martijn Vonk",
+  "source_page": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-river-wloNuC7qKf8",
+  "source_image": "https://images.unsplash.com/photo-1706186839147-0d708602587b?fm=jpg&q=85&w=2800&fit=max",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "license_verification": "Primary Unsplash photo page identifies Martijn Vonk, Varanasi, and free use under Unsplash License. Primary license page allows commercial use. Verified by web reader after Jina returned blocked pages.",
+  "original": "research\\awwwards-revision\\martijn-ghats.jpg",
+  "public_path": "/images/varanasi-hero.webp",
+  "width": 2800,
+  "height": 1867,
+  "public_bytes": 888608,
+  "original_sha256": "7c5d9aaee750921b55f8f7cdf50bab91127092186108856c238bfe8159fe0ae4",
+  "public_sha256": "788ee583a8da163127ac056450d48a5d400e7794fdb78c51c6e50b8b59d11ccf",
+  "alt": "Boats on the Ganga beside the sunlit ghats and buildings of Varanasi",
+  "changes": "WebP conversion only. No photographic content altered. Responsive cropping may be applied in CSS.",
+  "recommended_position": {
+    "desktop": "50% 55%",
+    "mobile": "63% 55%"
+  },
+  "verified_location": "Varanasi; not presented as a view from Hotel Augusto"
+}

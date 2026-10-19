@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Reveal } from "@/components/reveal";
 import { hotel } from "@/content/hotel";
 import assetManifest from "@/research/assets/asset-manifest.json";
+import heroAsset from "@/research/awwwards-revision/hero-asset.json";
 import "../contact/contact.css";
 
 export const metadata: Metadata = {
@@ -27,10 +28,11 @@ const photoNames: Record<string, string> = {
   "ganges-boats": "Boats on the Ganges",
   "kashi-vishwanath": "Shri Kashi Vishwanath Temple",
   "kashi-vishwanath-2025": "Shri Kashi Vishwanath Temple",
+  "varanasi-hero": "The sunlit ghats of Varanasi",
 };
-const credits = (assetManifest.assets as CreditAsset[]).filter(
+const credits = [...(assetManifest.assets as CreditAsset[]).filter(
   (asset) => asset.kind === "destination" && Boolean(asset.public_path),
-);
+), { ...heroAsset, kind: "destination", rights: heroAsset.license }];
 
 export default function PrivacyPage() {
   return (

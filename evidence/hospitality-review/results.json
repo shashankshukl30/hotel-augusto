@@ -1,0 +1,234 @@
+[
+  {
+    "title": "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities",
+    "h1": [
+      "Get to know\nAugusto."
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "images": [
+      {
+        "alt": "Hotel Augusto's street entrance and sign on August Kunda Road, Varanasi",
+        "loaded": true
+      },
+      {
+        "alt": "Hotel Augusto's lobby with seating, reception desk and lift entrance",
+        "loaded": true
+      },
+      {
+        "alt": "The reception counter and guest seating at Hotel Augusto",
+        "loaded": true
+      },
+      {
+        "alt": "Tables and chairs in Hotel Augusto's vegetarian restaurant",
+        "loaded": true
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "url": "http://localhost:3082/"
+      },
+      {
+        "text": "Find your room",
+        "url": "http://localhost:3082/rooms"
+      },
+      {
+        "text": " Step inside",
+        "url": "http://localhost:3082/hotel#inside"
+      },
+      {
+        "text": "Explore Varanasi",
+        "url": "http://localhost:3082/varanasi"
+      },
+      {
+        "text": "Open Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+      },
+      {
+        "text": "+91 80817 09146",
+        "url": "tel:+918081709146"
+      },
+      {
+        "text": "Also at Augusto\nStay for\na meal.\nDiscover dining",
+        "url": "http://localhost:3082/dining"
+      },
+      {
+        "text": "Plan your stay",
+        "url": "http://localhost:3082/contact#enquire"
+      }
+    ],
+    "font": "manrope, \"manrope Fallback\", sans-serif",
+    "route": "hotel",
+    "viewport": 390,
+    "status": 200,
+    "errors": []
+  },
+  {
+    "title": "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+    "h1": [
+      "Take a seat."
+    ],
+    "width": 390,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "images": [
+      {
+        "alt": "A wide view of the dining room at Hotel Augusto, with tables arranged for guests",
+        "loaded": true
+      },
+      {
+        "alt": "Seating and tables inside Hotel Augusto's restaurant",
+        "loaded": true
+      },
+      {
+        "alt": "A kettle, tea and coffee supplies photographed in a guest room at Hotel Augusto",
+        "loaded": true
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "url": "http://localhost:3082/"
+      },
+      {
+        "text": "Ask about dining",
+        "url": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20am%20planning%20a%20stay.%20Could%20you%20share%20the%20restaurant%20menu%2C%20serving%20hours%2C%20and%20whether%20breakfast%20is%20included%20in%20my%20room%20rate%3F"
+      },
+      {
+        "text": "Or plan your whole stay",
+        "url": "http://localhost:3082/contact#enquire"
+      },
+      {
+        "text": "The hotel\nGet to know Augusto.",
+        "url": "http://localhost:3082/hotel"
+      },
+      {
+        "text": "Your stay\nFind your room.",
+        "url": "http://localhost:3082/rooms"
+      }
+    ],
+    "font": "manrope, \"manrope Fallback\", sans-serif",
+    "route": "dining",
+    "viewport": 390,
+    "status": 200,
+    "errors": []
+  },
+  {
+    "title": "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities",
+    "h1": [
+      "Get to know\nAugusto."
+    ],
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "images": [
+      {
+        "alt": "Hotel Augusto's street entrance and sign on August Kunda Road, Varanasi",
+        "loaded": true
+      },
+      {
+        "alt": "Hotel Augusto's lobby with seating, reception desk and lift entrance",
+        "loaded": true
+      },
+      {
+        "alt": "The reception counter and guest seating at Hotel Augusto",
+        "loaded": true
+      },
+      {
+        "alt": "Tables and chairs in Hotel Augusto's vegetarian restaurant",
+        "loaded": true
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "url": "http://localhost:3082/"
+      },
+      {
+        "text": "Find your room",
+        "url": "http://localhost:3082/rooms"
+      },
+      {
+        "text": "Step inside",
+        "url": "http://localhost:3082/hotel#inside"
+      },
+      {
+        "text": "Explore Varanasi",
+        "url": "http://localhost:3082/varanasi"
+      },
+      {
+        "text": "Open Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Hotel+Augusto%2C+D+36%2F1%2C+Jangambari%2C+Varanasi"
+      },
+      {
+        "text": "+91 80817 09146",
+        "url": "tel:+918081709146"
+      },
+      {
+        "text": "Also at Augusto\nStay for\na meal.\nDiscover dining",
+        "url": "http://localhost:3082/dining"
+      },
+      {
+        "text": "Plan your stay",
+        "url": "http://localhost:3082/contact#enquire"
+      }
+    ],
+    "font": "manrope, \"manrope Fallback\", sans-serif",
+    "route": "hotel",
+    "viewport": 1440,
+    "status": 200,
+    "errors": []
+  },
+  {
+    "title": "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+    "h1": [
+      "Take a seat."
+    ],
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "images": [
+      {
+        "alt": "A wide view of the dining room at Hotel Augusto, with tables arranged for guests",
+        "loaded": true
+      },
+      {
+        "alt": "Seating and tables inside Hotel Augusto's restaurant",
+        "loaded": true
+      },
+      {
+        "alt": "A kettle, tea and coffee supplies photographed in a guest room at Hotel Augusto",
+        "loaded": true
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "url": "http://localhost:3082/"
+      },
+      {
+        "text": "Ask about dining",
+        "url": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20am%20planning%20a%20stay.%20Could%20you%20share%20the%20restaurant%20menu%2C%20serving%20hours%2C%20and%20whether%20breakfast%20is%20included%20in%20my%20room%20rate%3F"
+      },
+      {
+        "text": "Or plan your whole stay",
+        "url": "http://localhost:3082/contact#enquire"
+      },
+      {
+        "text": "The hotel\nGet to know Augusto.",
+        "url": "http://localhost:3082/hotel"
+      },
+      {
+        "text": "Your stay\nFind your room.",
+        "url": "http://localhost:3082/rooms"
+      }
+    ],
+    "font": "manrope, \"manrope Fallback\", sans-serif",
+    "route": "dining",
+    "viewport": 1440,
+    "status": 200,
+    "errors": []
+  }
+]

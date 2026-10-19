@@ -1,0 +1,44 @@
+{
+  "pages": 1,
+  "out_of_bounds": [],
+  "docx_reopened": true,
+  "visually_inspected": true,
+  "zip_integrity": true,
+  "source_sha256": {
+    "SOURCE-REVIEW.md": "aa47091eabf43f47eab5df880b28b0c78271a4dc06b3a21efd8bb08afa339c8c",
+    "SOURCE-REVIEW.docx": "2d62638a93a9c418019cb7bbbcf2bcaf24c409e1618ebfd76e80d1399a3686a6"
+  },
+  "cleanup": {
+    "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\ota-revision\\.document-review",
+    "status": "No deletion performed: exec_command cleanup rejected with 'blocked by policy'.",
+    "tool": "functions.exec -> tools.exec_command (PowerShell)",
+    "attempted_action": "Remove-Item -LiteralPath for SOURCE-REVIEW.pdf, page-1.png and page-2.png after scope/reparse checks, then remove empty .document-review directory; no recursion.",
+    "free_now": {
+      "C": 29120495616,
+      "D": 68444831744
+    },
+    "retained_scratch": [
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\ota-revision\\.document-review\\page-1.png",
+        "bytes": 185646,
+        "sha256": "930466ceb26ed574088b76930a436aad14e72db88d8f939fe853644f6d0047ac",
+        "is_symlink": false,
+        "reason": "Task-created render scratch; page-2.png is from the first two-page render, final verified DOCX now renders one page."
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\ota-revision\\.document-review\\page-2.png",
+        "bytes": 29300,
+        "sha256": "bc498ed6b21d034735c06c883df842ec6ba4098a5ec335379f88c1a07f207f86",
+        "is_symlink": false,
+        "reason": "Task-created render scratch; page-2.png is from the first two-page render, final verified DOCX now renders one page."
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\ota-revision\\.document-review\\SOURCE-REVIEW.pdf",
+        "bytes": 232170,
+        "sha256": "2d56dff9230345f851ffa74d3e45b21fe5a94dab3dc3397a1ae00390f6e427d6",
+        "is_symlink": false,
+        "reason": "Task-created render scratch; page-2.png is from the first two-page render, final verified DOCX now renders one page."
+      }
+    ]
+  }
+}

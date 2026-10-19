@@ -6,8 +6,9 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--base-url', default='http://127.0.0.1:3080')
+parser.add_argument('--output', default='evidence/current-design')
 args = parser.parse_args()
-OUT = ROOT / 'evidence' / 'apple-design'
+OUT = ROOT / args.output
 OUT.mkdir(parents=True, exist_ok=True)
 results = []
 with sync_playwright() as p:

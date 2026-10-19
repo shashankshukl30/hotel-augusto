@@ -1,0 +1,6 @@
+Hmmm… can't reach this page
+
+It looks like the webpage at https://www.makemytrip.com/hotels/hotel-details/?hotelId=201909301024364424&_uCurrency=INR&checkin=11192026&checkout=11202026&city=CTVNS&country=IN&lat=25.30833&lng=83.00653&locusId=CTVNS&locusType=city&rank=1&regionNearByExp=3&roomStayQualifier=2e0e&rsc=1e2e0e&searchText=HOTEL+AUGUSTO&topHtlId=201909301024364424&mtkeys=undefined&isPropSearch=T might be having issues, or it may have moved permanently to a new web address.
+
+ERR_HTTP2_PROTOCOL_ERROR
+Microsoft Edge

@@ -1,0 +1,78 @@
+{
+  "retrieved": "2026-10-19",
+  "assets": [
+    {
+      "id": "google-photo-3",
+      "source_page": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,83.9y,90t/data=!3m8!1e2!3m6!1sCIABIhAsyAhWUsk0j56e58t9-Ke9!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9TUBf5-eHVIm6sH6RgBN_vRWUEnoazcvRpfF1yKPmdQUfa-YAYKF8OkIcFV2CLVOZ5Nzp1QCpe2tNCv-WMi3ciPhCPiWRiCX2DRuEvXgOrzZGRd5NZKqHZ6kHb5AEXSRZ2f80spHWTwLOY%3Dw203-h152-k-no!7i1024!8i768!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "observed_image_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TUBf5-eHVIm6sH6RgBN_vRWUEnoazcvRpfF1yKPmdQUfa-YAYKF8OkIcFV2CLVOZ5Nzp1QCpe2tNCv-WMi3ciPhCPiWRiCX2DRuEvXgOrzZGRd5NZKqHZ6kHb5AEXSRZ2f80spHWTwLOY=w203-h152-k-no",
+      "download_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TUBf5-eHVIm6sH6RgBN_vRWUEnoazcvRpfF1yKPmdQUfa-YAYKF8OkIcFV2CLVOZ5Nzp1QCpe2tNCv-WMi3ciPhCPiWRiCX2DRuEvXgOrzZGRd5NZKqHZ6kHb5AEXSRZ2f80spHWTwLOY=w1600",
+      "original": "research/ota-revision/google-photo-3.jpg",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "original_sha256": "3473ba54b80923a4d8a3dae0b93bcc91843a2c7c5798e321b6bee9900650f00d",
+      "public_path": "/images/google-double-room.webp",
+      "public_sha256": "8eff419f89de3d571cbba94fb277dc2215bc2136cd5772b038857bd783d9cdde",
+      "public_bytes": 100296,
+      "alt": "Double guest room photographed by Augusto Hotel in July 2026.",
+      "uploader": "Augusto Hotel",
+      "capture_date": "Jul 2026",
+      "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights; uploader display name alone does not prove copyright ownership.",
+      "changes": "WebP conversion only. No photographic content altered.",
+      "usage": "Available for gallery/editorial use; do not infer room-category assignment or current furnishings solely from this photo.",
+      "website_routes": [
+        "/",
+        "/gallery"
+      ]
+    },
+    {
+      "id": "google-photo-5",
+      "source_page": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDm-pnCRg!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9RvAJi2dZqsYKmYDCqkMlr4Xjp01s11Etr0viigML6hplcJIIedCXxB8_V4ykgewOnpIFz1vprPZjNXake-JIC_z1aN__yObA9aLp7SN_Wxkx44Q1CTzVbRkQ0n0EBi6p4FaP2S%3Dw203-h152-k-no!7i4032!8i3024!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "observed_image_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RvAJi2dZqsYKmYDCqkMlr4Xjp01s11Etr0viigML6hplcJIIedCXxB8_V4ykgewOnpIFz1vprPZjNXake-JIC_z1aN__yObA9aLp7SN_Wxkx44Q1CTzVbRkQ0n0EBi6p4FaP2S=w203-h152-k-no",
+      "download_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RvAJi2dZqsYKmYDCqkMlr4Xjp01s11Etr0viigML6hplcJIIedCXxB8_V4ykgewOnpIFz1vprPZjNXake-JIC_z1aN__yObA9aLp7SN_Wxkx44Q1CTzVbRkQ0n0EBi6p4FaP2S=w1600",
+      "original": "research/ota-revision/google-photo-5.jpg",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "original_sha256": "80ed0a0f8e4e2427e00484af6663e28c2e110d1f3c421e298dfcdadc9f877f5f",
+      "public_path": "/images/google-family-room.webp",
+      "public_sha256": "78a1e57034d202cd0fc4d096864efb2e6e4dac8311fee014cf603a32b6fa4131",
+      "public_bytes": 349310,
+      "alt": "Two-double-bed guest room photographed on the Hotel Augusto Google profile in January 2022.",
+      "uploader": "HOTEL AUGUSTO VARANASI",
+      "capture_date": "Jan 2022",
+      "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights; uploader display name alone does not prove copyright ownership.",
+      "changes": "WebP conversion only. No photographic content altered.",
+      "usage": "Available for gallery/editorial use; do not infer room-category assignment or current furnishings solely from this photo.",
+      "website_routes": [
+        "/gallery"
+      ]
+    },
+    {
+      "id": "google-photo-10",
+      "source_page": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,85.3y,90t/data=!3m8!1e2!3m6!1shttps:%2F%2Fimages.trvl-media.com%2Flodging%2F46000000%2F45850000%2F45841100%2F45841007%2F5036d456_z.jpg!2e7!3e27!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-proxy%2FALd4DhEssjW5B_IGR5rhoAQpZVTyXmxhFg2gFZ0fDw8yIGOZvctqBkzarDSxFShj6ie4AgkenXc8nXiVdn06YeIFmGaJvy-EWl0h-N37BEi6ux2Cn9-UuQPvqpwvLh7m5trPjIxHmGvp_bIKQvIUq38Ku-AoWTG7_W09I2b-fREDFy-rCvOxgzfMjrpg_w%3Dw203-h135-k-no!7i1000!8i666!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "download_url": "https://images.trvl-media.com/lodging/46000000/45850000/45841100/45841007/5036d456_z.jpg",
+      "original": "research/ota-revision/google-dining-original.jpg",
+      "dimensions": [
+        1000,
+        667
+      ],
+      "original_sha256": "9a1563b7c8c4d2c00b4086649577e300d5d02f944efc0d6bdab3a842ea7968fc",
+      "public_path": "/images/google-dining-room.webp",
+      "public_sha256": "389254f437a53a916010067e11091879c6e49575be7c2803de1c69b2a541dd34",
+      "public_bytes": 87948,
+      "alt": "Tables and chairs with the serving counter in Hotel Augusto's restaurant.",
+      "uploader": "Hotels.com via Google Maps property gallery",
+      "capture_date": null,
+      "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights.",
+      "changes": "WebP conversion only. No photographic content altered.",
+      "usage": "Alternative real dining-room angle.",
+      "website_routes": [
+        "/",
+        "/dining"
+      ]
+    }
+  ]
+}

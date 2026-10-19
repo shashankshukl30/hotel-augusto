@@ -62,7 +62,7 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
         {visible.map((photo, index) => (
           <button className="gallery-tile" key={photo.src} type="button" aria-label={`${photo.caption} ${photo.category}: enlarge photograph`} onClick={(event) => openPhoto(index, event.currentTarget)}>
             <span className="gallery-image-wrap">
-              <Image src={photo.src} alt={photo.alt} fill sizes="(max-width: 760px) 88vw, 43vw" style={{ objectPosition: photo.position }} priority={index === 0} />
+              <Image src={photo.src} alt={photo.alt} fill sizes="(max-width: 760px) calc(100vw - 48px), 52vw" style={{ objectPosition: photo.position }} priority={index === 0} />
               <span className="gallery-expand" aria-hidden="true"><Expand size={18} strokeWidth={1.5} /></span>
             </span>
             <span className="gallery-caption"><span>{photo.caption}</span>{" "}<span>{photo.category}</span></span>

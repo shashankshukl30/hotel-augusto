@@ -17,9 +17,9 @@ from docx.opc.constants import RELATIONSHIP_TYPE as RT
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-BLUE = "0066CC"
-INK = "1D1D1F"
-MUTED = "545459"
+BLUE = "174D47"
+INK = "162A27"
+MUTED = "596762"
 Block = tuple[str, str]
 
 
@@ -59,7 +59,7 @@ def build_blocks() -> list[Block]:
     image_count = len(list((ROOT / "public/images").glob("*.webp")))
     origin = git_origin()
     qa_path, qa = latest_qa()
-    contact = read_json("evidence/contact-apple-review/review-results.json") or []
+    hospitality = read_json("evidence/hospitality-review/results.json") or []
     security = read_json("evidence/security-review.json") or {}
     dev_cleanup = read_json("evidence/dev-output-cleanup.json") or {}
     dependency = security.get("dependency_review", {})
@@ -72,10 +72,11 @@ def build_blocks() -> list[Block]:
         ("p", "No production domain has been changed. This handoff records the local implementation and the available evidence; it does not assert a public launch."),
         ("p", f"Git origin at generation: `{origin}`." if origin else "Git is initialized locally; no `origin` remote is configured at this snapshot. Create and push the project's private GitHub repository before any Vercel deployment."),
         ("h", "Visual system"),
-        ("p", "The user's explicit Apple direction governs the current design. Local Inter variable serves display and body text. Near-white and cool gray surfaces, charcoal text, one blue accent, semibold titles, large real photographs, 24–28px corners and capsule actions establish the hierarchy. Mobile layouts use their own crops and room lineup; motion respects reduced-motion preferences."),
-        ("p", "Contact uses 56px desktop / 44px mobile page titles, a focused enquiry panel and 48px controls with 16px input text. The current shared theme is authoritative. See [Apple design contract](../research/apple-direction.md) and [implementation plan](plans/2026-10-19-website.md). The former serif direction is superseded."),
+        ("p", "The current direction combines Apple's clarity with original Awwwards-inspired hospitality composition. Local Manrope display and Inter body fonts, bone surfaces, deep green-black ink and a restrained verdigris accent support an immersive Varanasi photograph, asymmetric property stories and visibly separate pages. Photographs are genuine and destinations are never presented as room views. Mobile uses deliberate crops and vertical room comparisons; motion respects reduced-motion preferences."),
+        ("p", "The hotel and dining routes have different openings: a street-facing editorial hotel introduction and a full-width restaurant photograph. Contact keeps a focused enquiry panel, 48px controls and 16px input text. See [current cinematic direction](../research/awwwards-revision/direction.md) and [implementation plan](plans/2026-10-19-website.md). Earlier literal Apple and serif/terracotta directions are historical."),
         ("h", "Pages and editing locations"),
         ("bullet", "`/` — hotel introduction, room selection, dining and Varanasi photography."),
+        ("bullet", "`/hotel` — the property, reception, facilities and arrival guidance; `/dining` — vegetarian restaurant, room service and meal-plan enquiries."),
         ("bullet", "`/rooms` and `/rooms/deluxe-room`, `/rooms/deluxe-twin-room`, `/rooms/family-room` — comparison and individual room pages."),
         ("bullet", "`/varanasi` — destination guide; `/gallery` — filters and keyboard/touch image viewer."),
         ("bullet", "`/contact` — enquiry, phone, directions and FAQs; `/privacy` — actual data handling and destination photo credits."),
@@ -83,10 +84,11 @@ def build_blocks() -> list[Block]:
         ("h", "Content, photographs and owner confirmations"),
         ("p", f"Research retains {source_count} source entries covering Google, OTAs, destination authorities and contact verification. The public image set contains {image_count} WebP files. Property photographs show Hotel Augusto; destination photographs are separately identified. No generated hotel photographs or unrelated room stand-ins are used."),
         ("bullet", "Confirm that +91 80817 09146 is the hotel's active WhatsApp booking account. It is the Google-listed telephone and its public WhatsApp link resolves, which does not establish registration or account ownership. Testing sent no enquiry."),
-        ("bullet", "Confirm permission to reuse property photographs collected from public hotel listings. Public visibility alone is not a reuse licence. Preserve source originals, hashes and provenance in `research/assets/`."),
+        ("bullet", "Confirm permission to reuse property photographs collected from public hotel listings. Public visibility alone is not a reuse licence. Preserve originals, hashes and provenance in `research/assets/` and `research/ota-revision/`; Google uploader display names alone do not establish copyright ownership."),
         ("bullet", "Destination images use Unsplash licences and a CC BY 4.0 temple photo by Pradum Shukla. Keep the visible temple attribution and `/privacy` credits. The Augusto wordmark is an original typographic treatment, not a recovered official logo."),
         ("bullet", "Confirm current check-in/out, guest identification, parking, meal inclusions and cancellation/payment terms with the hotel. Conflicting published policies, room areas/capacities, live rates and availability have not been promoted as established facts."),
         ("p", "Evidence: [fact sheet](../research/hotel-fact-sheet.md), [source ledger](../research/source-ledger.md), [asset manifest](../research/assets/asset-manifest.json), [Maps verification](../research/map-link-verification.json), [WhatsApp verification](../research/whatsapp-public-check.json). Research documents also have DOCX twins."),
+        ("p", "The user-supplied MakeMyTrip dated route was tried in a fresh browser and returned an HTTP/2 transport error. The canonical indexed MMT property page corroborates the address, room categories and vegetarian dining; it does not verify live dated availability. Google’s rendered profile and eight accessible still-photo entries were inspected, and three additional real property photographs were collected. See [OTA revision record](../research/ota-revision/SOURCE-REVIEW.md), [source-to-page mapping](../research/ota-revision/source-to-page-mapping.json) and [new asset ledger](../research/ota-revision/asset-candidates.json)."),
         ("h", "Run, deploy and configure"),
         ("p", "Use Node.js 22.9+; this workspace used Node 24. From the project folder:"),
         ("code", "npm ci\nnpm run dev"),
@@ -108,18 +110,19 @@ def build_blocks() -> list[Block]:
             blocks.append(("p", "Recorded items requiring review: " + "; ".join(str(name).splitlines()[0][:180] for name in names[:3]) + "."))
     else:
         blocks.append(("p", "No completed shared QA report was available at generation. Final verification remains unrecorded; do not infer a pass from this document."))
-    if contact:
-        passed = all(item.get("scrollWidth") == item.get("clientWidth") and not item.get("overflow") and not item.get("badImages") and not item.get("pageErrors") for item in contact)
-        widths = ", ".join(str(width) for width in sorted({item['width'] for item in contact}))
-        blocks.append(("p", f"Contact/privacy redesign review: {len(contact)} route/viewport records at {widths}px; layout/image/runtime checks {'pass' if passed else 'require review'}. The report also records FAQ keyboard behavior, validation, room preselection and the prepared WhatsApp draft: [contact review](../evidence/contact-apple-review/review-results.json)."))
+    if hospitality:
+        passed = all(item.get("scrollWidth") == item.get("clientWidth") and not item.get("errors") and all(image.get("loaded") for image in item.get("images", [])) for item in hospitality)
+        widths = ", ".join(str(width) for width in sorted({item['viewport'] for item in hospitality}))
+        blocks.append(("p", f"Dedicated hotel/dining review: {len(hospitality)} route/viewport records at {widths}px; layout/image/runtime checks {'pass' if passed else 'require review'}. All four full-page screenshots were inspected; the later Google dining photograph also passed both widths. Evidence: [page review](../evidence/hospitality-review/results.json) and [final photo check](../evidence/hospitality-review/final-photo-check.json)."))
     blocks += [
-        ("p", "Additional visual evidence: `evidence/apple-design/`, `evidence/apple-room-*.png`, and `research/design-qa/apple-redesign/verification.json`. Earlier QA files are retained as investigation history; use the latest completed report and its remaining failures. Browser checks do not establish hotel policy accuracy or photo rights."),
+        ("p", "Current visual evidence: `research/awwwards-revision/live-inspection.json`, `research/design-qa/cinematic-redesign/verification.json` and `evidence/hospitality-review/`. Earlier Apple QA files are investigation history; use the latest completed report and its remaining failures. Browser checks do not establish hotel policy accuracy or photo rights."),
         ("p", "Release evidence: [production audit](../evidence/production-audit.json), [scoped storage cleanup](../evidence/storage-cleanup.json), and [inactive development output cleanup](../evidence/dev-output-cleanup.json). " + (f"The development cleanup records {dev_cleanup['removedBytes']:,} bytes removed after stopping the dev session; production was verified afterwards. " if dev_cleanup.get("productionVerifiedAfter") and "removedBytes" in dev_cleanup else "") + "The local preview remains noindex. An approved public domain and route canonical configuration still require launch verification."),
+        ("p", "Render-cleanup limitation: automatic approval review rejected removal of the verified OTA-document render scratch with the reason 'blocked by policy'. Its 447,116 bytes remain under `research/ota-revision/.document-review/`; no further removal was attempted. The retained source twins and scratch hashes are recorded in `research/ota-revision/source-review-verification.json`. Final handoff render evidence is retained with `docs/handoff-verification.json`."),
         ("h", "Security and maintenance"),
         ("p", f"The recorded production dependency audit has {dependency.get('production_audit', {}).get('vulnerabilities', 'unrecorded')} vulnerabilities. The full audit records {dependency.get('full_audit', {}).get('high', 'unrecorded')} high findings from one development-only ESLint chain ending in braces 3.0.3. [GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm) had no official patched release at the 19 October 2026 review. Keep the lockfile, recheck upstream and do not force-downgrade Next.js to silence it. Details: [security review](../evidence/security-review.json)."),
         ("p", "The enquiry stays in browser memory until the visitor opens the encoded WhatsApp link. No silent message sending, payment collection, analytics or enquiry persistence is installed. Security headers, Hotel JSON-LD, local fonts and a 1200×630 OG image are included. Revisit privacy and security when a booking engine or analytics is added."),
         ("h", "Primary reference links"),
-        ("p", "Design: [Apple iPhone](https://www.apple.com/iphone/), [MacBook Pro](https://www.apple.com/macbook-pro/), [HIG typography](https://developer.apple.com/design/human-interface-guidelines/typography). Destination facts: [Kashi Vishwanath](https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/), [Dashashwamedh Ghat](https://kashi.gov.in/listing-details/dashashwamedh-ghat). Image credit: [Pradum Shukla's temple photograph](https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [Unsplash licence](https://unsplash.com/license)."),
+        ("p", "Design: [The Drake on Awwwards](https://www.awwwards.com/sites/the-drake-hotel), [Kaskady on Awwwards](https://www.awwwards.com/sites/hotel-spa-resort-kaskady), [Casa Cook on Awwwards](https://www.awwwards.com/sites/casa-cook-hotels), [Apple typography](https://developer.apple.com/design/human-interface-guidelines/typography). Property: [MakeMyTrip Hotel Augusto](https://www.makemytrip.com/hotels/hotel_augusto-details-varanasi.html). Destination: [Kashi Vishwanath](https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/), [Dashashwamedh Ghat](https://kashi.gov.in/listing-details/dashashwamedh-ghat). Credits: [Pradum Shukla temple photo](https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [Unsplash licence](https://unsplash.com/license)."),
         ("small", "Regenerate both handoff files with: python scripts/generate_handoff.py. The generator uses python-docx and verifies that its DOCX can be reopened."),
     ]
     return blocks
@@ -216,7 +219,7 @@ def write_docx(blocks: list[Block], destination: Path) -> None:
                 run.font.color.rgb = RGBColor.from_string(MUTED)
     doc.core_properties.title = "Hotel Augusto — Website Handoff"
     doc.core_properties.author = "Digiocular"
-    doc.core_properties.subject = "Apple-inspired website, source evidence and launch instructions"
+    doc.core_properties.subject = "Cinematic multipage hotel website, source evidence and launch instructions"
     doc.save(destination)
 
 

@@ -28,7 +28,7 @@ with Image.open(BytesIO(og)) as photo:
     photo.load()
     report['og'] = {'size': list(photo.size), 'bytes': len(og), 'format': photo.format}
     assert photo.size == (1200, 630)
-(ROOT / 'evidence' / 'apple-design' / 'opengraph-image.png').write_bytes(og)
+(ROOT / 'evidence' / 'cinematic-revision' / 'opengraph-image.png').write_bytes(og)
 with urllib.request.urlopen(base + '/robots.txt') as response:
     report['robots'] = response.read().decode()
 assert 'Disallow: /' in report['robots']
@@ -59,7 +59,7 @@ with sync_playwright() as p:
           fcp:performance.getEntriesByName('first-contentful-paint')[0]?.startTime,
           resources:performance.getEntriesByType('resource').map(r=>({name:r.name.split('/').pop(),type:r.initiatorType,encodedBytes:r.encodedBodySize,transferBytes:r.transferSize})),
           fontsReady:document.fonts.status,
-          imageLoaded:document.querySelector('.hero-scene img').complete && document.querySelector('.hero-scene img').naturalWidth>0
+          imageLoaded:document.querySelector('.hero-scene-image img').complete && document.querySelector('.hero-scene-image img').naturalWidth>0
         })""")
         sample.update({'width':width,'throttled':throttled,'errors':errors})
         assert not errors and sample['imageLoaded']

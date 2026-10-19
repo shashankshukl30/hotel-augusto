@@ -1,62 +1,60 @@
 {
-  "verified": "2026-10-19T15:46:32.674423+00:00",
+  "verified": "2026-10-19T17:14:00.586704+00:00",
   "rendered_snapshot_sha256": {
-    "HANDOFF.md": "ff4651e7aab56f8f45e23da8954393b67a91f1340afe119554f0ee9046e538e5",
-    "HANDOFF.docx": "de09a6eb413bc97cd4d42c9c962f915ffbb298d6196dc2225371e96819112d83"
+    "HANDOFF.md": "1eba09224d833a9bf04665b576f6956c5996d7fe0e75746a1f6a9f43113e1bbb",
+    "HANDOFF.docx": "408903204cf8d707091b357e66aefc1fc3390589976a41d630d8d54f33189a48"
   },
   "word_render_pages": 3,
   "page_text_out_of_bounds": [],
   "all_pages_visually_inspected": true,
   "docx_reopened": true,
   "zip_integrity": true,
-  "source_unchanged_after_cleanup": true,
-  "qa_report": "evidence/qa-production-report.json",
-  "qa_report_sha256": "39f9906170baaccacca5264a143b3841d446d0103e2f97f5942f120e5bf1ba13",
+  "qa_report": "evidence/qa-hospitality-production.json",
+  "qa_report_sha256": "1f6693d96ba1f801c0cf4ff2ad2e645bdc3cab040f5d8df5b28fdf42c7a4b2f6",
   "qa_summary": {
-    "viewportChecks": 20,
-    "axeAudits": 20,
-    "interactionChecks": 48,
+    "viewportChecks": 24,
+    "axeAudits": 24,
+    "interactionChecks": 66,
     "failures": 0,
     "passed": true
   },
-  "qa_completed": "2026-10-19T15:45:10.972421+00:00",
+  "qa_completed": "2026-10-19T17:12:30.784614+00:00",
   "cleanup": {
     "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review",
-    "removed": [
+    "removed": [],
+    "removed_bytes": 0,
+    "retained_render_evidence": [
       {
         "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\HANDOFF.pdf",
-        "bytes": 272999,
-        "sha256": "2bc9c8043f768fdd7fdee8e8e78b13312d7e2b7f75332aea27fdb95d187388bc",
-        "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+        "bytes": 277961,
+        "sha256": "51c59127dc828eaf119ae7ff2725b588684733c717c6eb73d7d934829e1584a6",
+        "reason": "Retained final Word rendering and visually inspected page evidence, as instructed after automatic review blocked document-scratch cleanup."
       },
       {
         "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-1.png",
-        "bytes": 117315,
-        "sha256": "cee479c4973d1e0a60605e96f1787e717b286982a6f935dbd59108b34eb16a00",
-        "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+        "bytes": 139055,
+        "sha256": "00994993adc6889a25609b43175c4a030e87db82d76e9a172e9a0f49c2692f33",
+        "reason": "Retained final Word rendering and visually inspected page evidence, as instructed after automatic review blocked document-scratch cleanup."
       },
       {
         "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-2.png",
-        "bytes": 134703,
-        "sha256": "f4ee8965913ea38a8b4ed46b12795ad9d6b79450bdaadad3b3acf0e286c7bb79",
-        "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+        "bytes": 174129,
+        "sha256": "345c0c959a67e3226dd9a1565750dc8c142c81dc8a467cb3f03fb7cf4e52115e",
+        "reason": "Retained final Word rendering and visually inspected page evidence, as instructed after automatic review blocked document-scratch cleanup."
       },
       {
         "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-3.png",
-        "bytes": 131491,
-        "sha256": "9e6980e9c49026f0a7fdbd5edf7141112131874052ec30dfabc9231d50e0c08c",
-        "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+        "bytes": 166184,
+        "sha256": "17663519abd256602044ae45981e2c1e615eeebbfee214c1a7677d49f6f9e31a",
+        "reason": "Retained final Word rendering and visually inspected page evidence, as instructed after automatic review blocked document-scratch cleanup."
       }
     ],
-    "removed_bytes": 656508,
-    "free_before": {
-      "C": 29320814592,
-      "D": 68748906496
+    "retained_bytes": 757329,
+    "free_space": {
+      "C": 29129646080,
+      "D": 68690915328
     },
-    "free_after": {
-      "C": 29320814592,
-      "D": 68749570048
-    }
+    "note": "No further deletion attempted. Related OTA render cleanup was rejected by automatic approval review with 'blocked by policy'; that separate 447116-byte scope remains documented in research/ota-revision/source-review-verification.json."
   },
   "previous_doc_cleanup": [
     {
@@ -95,6 +93,44 @@
       "free_after": {
         "C": 29321932800,
         "D": 68478132224
+      }
+    },
+    {
+      "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review",
+      "removed": [
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\HANDOFF.pdf",
+          "bytes": 272999,
+          "sha256": "2bc9c8043f768fdd7fdee8e8e78b13312d7e2b7f75332aea27fdb95d187388bc",
+          "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-1.png",
+          "bytes": 117315,
+          "sha256": "cee479c4973d1e0a60605e96f1787e717b286982a6f935dbd59108b34eb16a00",
+          "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-2.png",
+          "bytes": 134703,
+          "sha256": "f4ee8965913ea38a8b4ed46b12795ad9d6b79450bdaadad3b3acf0e286c7bb79",
+          "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-3.png",
+          "bytes": 131491,
+          "sha256": "9e6980e9c49026f0a7fdbd5edf7141112131874052ec30dfabc9231d50e0c08c",
+          "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
+        }
+      ],
+      "removed_bytes": 656508,
+      "free_before": {
+        "C": 29320814592,
+        "D": 68748906496
+      },
+      "free_after": {
+        "C": 29320814592,
+        "D": 68749570048
       }
     }
   ]

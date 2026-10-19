@@ -1,0 +1,40 @@
+﻿{
+    "checkedAtUtc":  "2026-10-19T17:07:42.7320754Z",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\awwwards-revision",
+    "before":  [
+                   {
+                       "Name":  "C",
+                       "Free":  29184929792
+                   },
+                   {
+                       "Name":  "D",
+                       "Free":  68447313920
+                   }
+               ],
+    "after":  [
+                  {
+                      "Name":  "C",
+                      "Free":  29184929792
+                  },
+                  {
+                      "Name":  "D",
+                      "Free":  68447219712
+                  }
+              ],
+    "removed":  [
+                    {
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\awwwards-revision\\martijn-source.md",
+                        "bytes":  594,
+                        "sha256":  "48251925BEBABE4C61A8744B57167C343F9222E00F67FDEDBE1B44B9CAA6F55A",
+                        "reason":  "Failed Jina challenge response, not source content. Successful primary-source verification retained in hero-asset.json and direction.md."
+                    },
+                    {
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\awwwards-revision\\unsplash-license.md",
+                        "bytes":  1195,
+                        "sha256":  "D994B0B1AE06F8253D1063E1298709E3B6578443FD41C9D81108565B178EF773",
+                        "reason":  "Failed Jina challenge response, not source content. Successful primary-source verification retained in hero-asset.json and direction.md."
+                    }
+                ],
+    "retained":  "Original licensed photographs, new public hero, source/license/hash manifest, editable research documents, screenshots and scripts.",
+    "verification":  "Public hero decoded; original and converted asset hashes retained; Word research twin reopens and ZIP integrity passes."
+}

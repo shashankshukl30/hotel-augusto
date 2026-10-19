@@ -2,7 +2,7 @@
   min-width: 0;
   padding: 44px;
   border: 0;
-  border-radius: 24px;
+  border-radius: 6px;
   background: var(--paper-deep);
 }
 .form-heading { margin-bottom: 32px; }
