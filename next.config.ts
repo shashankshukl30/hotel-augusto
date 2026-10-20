@@ -1,10 +1,18 @@
 import type { NextConfig } from "next";
 
+const staticExport = process.env.SITE_STATIC_EXPORT === "true";
+
 const nextConfig: NextConfig = {
+  ...(staticExport ? { output: "export" as const } : {}),
   poweredByHeader: false,
-  images: { formats: ["image/avif", "image/webp"], qualities: [75, 85] },
+  images: {
+    formats: ["image/avif", "image/webp"],
+    qualities: [75, 85],
+    ...(staticExport ? { unoptimized: true } : {}),
+  },
   turbopack: { root: process.cwd() },
-  async headers() {
+  // Static hosting supplies response headers; Next's headers() needs a server.
+  headers: staticExport ? undefined : async () => {
     return [{
       source: "/(.*)",
       headers: [

@@ -1,0 +1,45 @@
+﻿{
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\hospitality-revision",
+    "beforeFreeBytes":  [
+                            {
+                                "Name":  "C",
+                                "Free":  26314805248
+                            },
+                            {
+                                "Name":  "D",
+                                "Free":  67995107328
+                            }
+                        ],
+    "afterFreeBytes":  [
+                           {
+                               "Name":  "C",
+                               "Free":  26314805248
+                           },
+                           {
+                               "Name":  "D",
+                               "Free":  67995131904
+                           }
+                       ],
+    "removed":  [
+                    {
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\hospitality-revision\\ddd-1440-section.png",
+                        "sha256":  "A21F5ED188C0D38CD3DBAF82A1FD86B5081E547E4CD9AE5EE56DAEA236CFA79C",
+                        "bytes":  21724,
+                        "reason":  "Byte-identical redundant failed-loading reference screenshot",
+                        "retainedCopy":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\hospitality-revision\\ddd-1440-hero.png"
+                    }
+                ],
+    "otherFiles":  "All source, assets, dependencies and distinct evidence retained",
+    "survivorExists":  true,
+    "endOfTaskFreeBytes":  [
+                               {
+                                   "Name":  "C",
+                                   "Free":  26298339328
+                               },
+                               {
+                                   "Name":  "D",
+                                   "Free":  67909320704
+                               }
+                           ],
+    "retainedVerification":  "Research screenshot manifest resolves, DOCX ZIP opens, and all final decoded UI screenshots exist. Active source/dependencies/QA evidence retained."
+}

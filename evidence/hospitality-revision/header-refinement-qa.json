@@ -1,0 +1,833 @@
+{
+  "timestamp": "2026-10-20T06:06:56.653533+00:00",
+  "scope": "Focused regression after mobile header label and target-size refinement. Previous102-layout/34-axe/40-interaction suite remains the earlier baseline; this is a separate later run.",
+  "baseUrl": "http://127.0.0.1:3080",
+  "status": "pass",
+  "browserClosed": true,
+  "summary": {
+    "layoutWidths": 6,
+    "axeAudits": 2,
+    "checks": 79,
+    "passed": 79,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "360: exact viewport and no body overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: all header elements inside viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: header elements do not overlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: brand remains visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: booking link target at least44px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: correct readable booking label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: booking label not clipped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: navigation breakpoint matches viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: keyboard reaches Enquire after brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: Enquire focus indicator visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: Enquire opens contact form anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: keyboard opens menu",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: Escape closes menu and restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "360: menu route navigation works and closes dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: exact viewport and no body overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: all header elements inside viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: header elements do not overlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: brand remains visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: booking link target at least44px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: correct readable booking label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: booking label not clipped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: navigation breakpoint matches viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: keyboard reaches Enquire after brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: Enquire focus indicator visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: Enquire opens contact form anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: keyboard opens menu",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: Escape closes menu and restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: menu route navigation works and closes dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: exact viewport and no body overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: all header elements inside viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: header elements do not overlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: brand remains visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: booking link target at least44px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: correct readable booking label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: booking label not clipped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: navigation breakpoint matches viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: keyboard reaches Enquire after brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: Enquire focus indicator visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: Enquire opens contact form anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: keyboard opens menu",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: Escape closes menu and restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768: menu route navigation works and closes dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: exact viewport and no body overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: all header elements inside viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: header elements do not overlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: brand remains visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: booking link target at least44px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: correct readable booking label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: booking label not clipped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: navigation breakpoint matches viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: keyboard reaches Enquire after brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: Enquire focus indicator visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: Enquire opens contact form anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: keyboard opens menu",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: Escape closes menu and restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1024: menu route navigation works and closes dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: exact viewport and no body overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: all header elements inside viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: header elements do not overlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: brand remains visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: booking link target at least44px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: correct readable booking label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: booking label not clipped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: navigation breakpoint matches viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: Enquire focus indicator visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440: Enquire opens contact form anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: exact viewport and no body overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: all header elements inside viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: header elements do not overlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: brand remains visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: booking link target at least44px",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: correct readable booking label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: booking label not clipped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: navigation breakpoint matches viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: Enquire focus indicator visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1920: Enquire opens contact form anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390: axe /",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390: axe /contact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No page or console errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "layouts": [
+    {
+      "viewport": 360,
+      "bodyWidth": 360,
+      "clientWidth": 360,
+      "headerHeight": 87,
+      "nodes": [
+        {
+          "selector": ".brand-link",
+          "text": "AUGUSTO\nHOTEL \u00b7 VARANASI",
+          "visible": true,
+          "x": 18,
+          "y": 24.5,
+          "width": 123.546875,
+          "height": 37,
+          "right": 141.546875,
+          "bottom": 61.5,
+          "fontSize": 17,
+          "scrollWidth": 124,
+          "clientWidth": 124
+        },
+        {
+          "selector": ".desktop-nav",
+          "text": "The hotelRoomsDiningVaranasiGalleryStay guideContact",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "fontSize": 17,
+          "scrollWidth": 0,
+          "clientWidth": 0
+        },
+        {
+          "selector": ".header-book",
+          "text": "Enquire",
+          "visible": true,
+          "x": 200.125,
+          "y": 21,
+          "width": 89.875,
+          "height": 44,
+          "right": 290,
+          "bottom": 65,
+          "fontSize": 12,
+          "scrollWidth": 88,
+          "clientWidth": 88
+        },
+        {
+          "selector": ".menu-trigger",
+          "text": "",
+          "visible": true,
+          "x": 296,
+          "y": 19,
+          "width": 48,
+          "height": 48,
+          "right": 344,
+          "bottom": 67,
+          "fontSize": 17,
+          "scrollWidth": 48,
+          "clientWidth": 48
+        }
+      ],
+      "width": 360
+    },
+    {
+      "viewport": 390,
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "headerHeight": 87,
+      "nodes": [
+        {
+          "selector": ".brand-link",
+          "text": "AUGUSTO\nHOTEL \u00b7 VARANASI",
+          "visible": true,
+          "x": 24,
+          "y": 23.5,
+          "width": 134.296875,
+          "height": 39,
+          "right": 158.296875,
+          "bottom": 62.5,
+          "fontSize": 17,
+          "scrollWidth": 134,
+          "clientWidth": 134
+        },
+        {
+          "selector": ".desktop-nav",
+          "text": "The hotelRoomsDiningVaranasiGalleryStay guideContact",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "fontSize": 17,
+          "scrollWidth": 0,
+          "clientWidth": 0
+        },
+        {
+          "selector": ".header-book",
+          "text": "Enquire",
+          "visible": true,
+          "x": 220.125,
+          "y": 21,
+          "width": 95.875,
+          "height": 44,
+          "right": 316,
+          "bottom": 65,
+          "fontSize": 12,
+          "scrollWidth": 94,
+          "clientWidth": 94
+        },
+        {
+          "selector": ".menu-trigger",
+          "text": "",
+          "visible": true,
+          "x": 326,
+          "y": 19,
+          "width": 48,
+          "height": 48,
+          "right": 374,
+          "bottom": 67,
+          "fontSize": 17,
+          "scrollWidth": 48,
+          "clientWidth": 48
+        }
+      ],
+      "width": 390
+    },
+    {
+      "viewport": 768,
+      "bodyWidth": 768,
+      "clientWidth": 768,
+      "headerHeight": 91,
+      "nodes": [
+        {
+          "selector": ".brand-link",
+          "text": "AUGUSTO\nHOTEL \u00b7 VARANASI",
+          "visible": true,
+          "x": 32,
+          "y": 20,
+          "width": 166.53125,
+          "height": 50,
+          "right": 198.53125,
+          "bottom": 70,
+          "fontSize": 17,
+          "scrollWidth": 167,
+          "clientWidth": 167
+        },
+        {
+          "selector": ".desktop-nav",
+          "text": "The hotelRoomsDiningVaranasiGalleryStay guideContact",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "fontSize": 17,
+          "scrollWidth": 0,
+          "clientWidth": 0
+        },
+        {
+          "selector": ".header-book",
+          "text": "Enquire & book",
+          "visible": true,
+          "x": 495.015625,
+          "y": 19.5,
+          "width": 172.984375,
+          "height": 51,
+          "right": 668,
+          "bottom": 70.5,
+          "fontSize": 14,
+          "scrollWidth": 171,
+          "clientWidth": 171
+        },
+        {
+          "selector": ".menu-trigger",
+          "text": "",
+          "visible": true,
+          "x": 688,
+          "y": 21,
+          "width": 48,
+          "height": 48,
+          "right": 736,
+          "bottom": 69,
+          "fontSize": 17,
+          "scrollWidth": 48,
+          "clientWidth": 48
+        }
+      ],
+      "width": 768
+    },
+    {
+      "viewport": 1024,
+      "bodyWidth": 1024,
+      "clientWidth": 1024,
+      "headerHeight": 91,
+      "nodes": [
+        {
+          "selector": ".brand-link",
+          "text": "AUGUSTO\nHOTEL \u00b7 VARANASI",
+          "visible": true,
+          "x": 32,
+          "y": 20,
+          "width": 166.53125,
+          "height": 50,
+          "right": 198.53125,
+          "bottom": 70,
+          "fontSize": 17,
+          "scrollWidth": 167,
+          "clientWidth": 167
+        },
+        {
+          "selector": ".desktop-nav",
+          "text": "The hotelRoomsDiningVaranasiGalleryStay guideContact",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "fontSize": 17,
+          "scrollWidth": 0,
+          "clientWidth": 0
+        },
+        {
+          "selector": ".header-book",
+          "text": "Enquire & book",
+          "visible": true,
+          "x": 751.015625,
+          "y": 19.5,
+          "width": 172.984375,
+          "height": 51,
+          "right": 924,
+          "bottom": 70.5,
+          "fontSize": 14,
+          "scrollWidth": 171,
+          "clientWidth": 171
+        },
+        {
+          "selector": ".menu-trigger",
+          "text": "",
+          "visible": true,
+          "x": 944,
+          "y": 21,
+          "width": 48,
+          "height": 48,
+          "right": 992,
+          "bottom": 69,
+          "fontSize": 17,
+          "scrollWidth": 48,
+          "clientWidth": 48
+        }
+      ],
+      "width": 1024
+    },
+    {
+      "viewport": 1440,
+      "bodyWidth": 1440,
+      "clientWidth": 1440,
+      "headerHeight": 101,
+      "nodes": [
+        {
+          "selector": ".brand-link",
+          "text": "AUGUSTO\nHOTEL \u00b7 VARANASI",
+          "visible": true,
+          "x": 52,
+          "y": 23.5,
+          "width": 182.640625,
+          "height": 53,
+          "right": 234.640625,
+          "bottom": 76.5,
+          "fontSize": 17,
+          "scrollWidth": 183,
+          "clientWidth": 183
+        },
+        {
+          "selector": ".desktop-nav",
+          "text": "The hotel\nRooms\nDining\nVaranasi\nGallery\nStay guide\nContact",
+          "visible": true,
+          "x": 673.421875,
+          "y": 21.5,
+          "width": 505.59375,
+          "height": 57,
+          "right": 1179.015625,
+          "bottom": 78.5,
+          "fontSize": 17,
+          "scrollWidth": 506,
+          "clientWidth": 506
+        },
+        {
+          "selector": ".header-book",
+          "text": "Enquire & book",
+          "visible": true,
+          "x": 1207.015625,
+          "y": 24.5,
+          "width": 180.984375,
+          "height": 51,
+          "right": 1388,
+          "bottom": 75.5,
+          "fontSize": 14,
+          "scrollWidth": 179,
+          "clientWidth": 179
+        },
+        {
+          "selector": ".menu-trigger",
+          "text": "",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "fontSize": 17,
+          "scrollWidth": 0,
+          "clientWidth": 0
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "viewport": 1920,
+      "bodyWidth": 1920,
+      "clientWidth": 1920,
+      "headerHeight": 101,
+      "nodes": [
+        {
+          "selector": ".brand-link",
+          "text": "AUGUSTO\nHOTEL \u00b7 VARANASI",
+          "visible": true,
+          "x": 132,
+          "y": 23.5,
+          "width": 182.640625,
+          "height": 53,
+          "right": 314.640625,
+          "bottom": 76.5,
+          "fontSize": 17,
+          "scrollWidth": 183,
+          "clientWidth": 183
+        },
+        {
+          "selector": ".desktop-nav",
+          "text": "The hotel\nRooms\nDining\nVaranasi\nGallery\nStay guide\nContact",
+          "visible": true,
+          "x": 1073.421875,
+          "y": 21.5,
+          "width": 505.59375,
+          "height": 57,
+          "right": 1579.015625,
+          "bottom": 78.5,
+          "fontSize": 17,
+          "scrollWidth": 506,
+          "clientWidth": 506
+        },
+        {
+          "selector": ".header-book",
+          "text": "Enquire & book",
+          "visible": true,
+          "x": 1607.015625,
+          "y": 24.5,
+          "width": 180.984375,
+          "height": 51,
+          "right": 1788,
+          "bottom": 75.5,
+          "fontSize": 14,
+          "scrollWidth": 179,
+          "clientWidth": 179
+        },
+        {
+          "selector": ".menu-trigger",
+          "text": "",
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "fontSize": 17,
+          "scrollWidth": 0,
+          "clientWidth": 0
+        }
+      ],
+      "width": 1920
+    }
+  ],
+  "axe": [
+    {
+      "route": "/",
+      "width": 390,
+      "violations": [],
+      "passes": 50,
+      "incomplete": 2
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "violations": [],
+      "passes": 47,
+      "incomplete": 0
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "cleanup": {
+    "beforeFreeBytes": {
+      "C": 26299314176,
+      "D": 68131885056
+    },
+    "afterFreeBytes": {
+      "C": 26294562816,
+      "D": 68128014336
+    },
+    "removed": [],
+    "reason": "Retained focused release screenshots, report and reproducible runner; no disposable files."
+  }
+}

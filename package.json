@@ -10,9 +10,10 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/booking.test.mjs",
-    "qa": "python scripts/browser_qa.py"
+    "qa": "python scripts/qa_hospitality_revision.py"
   },
   "dependencies": {
+    "@fontsource-variable/bodoni-moda": "^5.3.0",
     "@fontsource-variable/inter": "^5.3.0",
     "@fontsource-variable/manrope": "^5.3.0",
     "class-variance-authority": "latest",

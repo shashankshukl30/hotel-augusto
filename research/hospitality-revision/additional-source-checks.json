@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-20",
+  "method": "Agent Reach via Exa; indexed primary pages, no browser or booking action",
+  "sources": [
+    {
+      "url": "https://www.shrikashivishwanath.org/",
+      "title": "Shri Kashi Vishwanath Official Web Portal",
+      "use": "Durable official visitor-information link only; do not reproduce changing prices or schedules."
+    },
+    {
+      "url": "https://www.shrikashivishwanath.org/frontend/home/poojaList",
+      "title": "List of Pooja / Darshan",
+      "use": "Evidence that the official portal offers current visitor services. No hotel tour or access guarantee."
+    },
+    {
+      "url": "https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/",
+      "title": "Shree Kashi Vishvanath Temple",
+      "use": "Government corroboration of temple identity, Lord Shiva, western bank and Jyotirlinga context."
+    }
+  ],
+  "guideReview": {
+    "file": "content/guides.ts",
+    "slugs": [
+      "first-visit-to-kashi",
+      "arriving-in-godowlia",
+      "choosing-your-room"
+    ],
+    "result": "No new unsupported rates, times, capacities, hotel transfers or tour inclusions identified."
+  }
+}

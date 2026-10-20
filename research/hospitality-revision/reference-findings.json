@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-20",
+  "brief": "Transfer most Hotel Vagmi elements into Augusto's own hotel identity and UI/UX; copy structure, never unrelated property facts.",
+  "readOnlyReferences": [
+    {
+      "name": "Hotel Vagmi",
+      "url": "https://hotelvagmi.com/",
+      "local": "D:\\Digiocular\\Websites\\Hotel Vagmi\\site",
+      "sources": [
+        "app/(en)/page.tsx",
+        "components/sections",
+        "components/booking",
+        "components/pages",
+        "components/site/Nav.tsx",
+        "app/globals.css"
+      ]
+    },
+    {
+      "name": "Shree Ganesha Palace",
+      "url": "https://sgphotels.com/",
+      "local": "D:\\Digiocular\\Websites\\shree-ganesha-palace",
+      "sources": [
+        "app/page.tsx",
+        "app/layout.tsx",
+        "app/globals.css",
+        "lib/site.ts"
+      ]
+    },
+    {
+      "name": "The Drake",
+      "url": "https://thedrake.ca/",
+      "awwwards": "https://www.awwwards.com/sites/the-drake-hotel",
+      "awardDate": "2025-09-02"
+    }
+  ],
+  "homepageOrder": [
+    "HeroSection",
+    "WelcomeSection",
+    "RoomsSection",
+    "FlavourSection",
+    "CitySection",
+    "WitnessSection",
+    "GettingHereSection",
+    "GoodToKnowSection",
+    "ReserveSection"
+  ],
+  "inventory": [
+    {
+      "module": "Hero",
+      "vagmiEvidence": "Actual property video, location headline, room link, live rate/offer and dated booking bar.",
+      "augustoAdaptation": "Use actual Augusto property photography and a dated WhatsApp enquiry. No live prices or booking-engine claims."
+    },
+    {
+      "module": "Welcome",
+      "vagmiEvidence": "Name/place narrative, amenity strip, overlapping property photos and practical stay facts.",
+      "augustoAdaptation": "Use Augusto's Godowlia location, genuine lobby/interior photos and independently verified services."
+    },
+    {
+      "module": "Rooms",
+      "vagmiEvidence": "All four Vagmi categories appear in full alternating photographic spreads, each with room detail links.",
+      "augustoAdaptation": "Show all three Augusto categories, real bed arrangements and multiple photographs. Do not transfer Vagmi capacity, rates or category names."
+    },
+    {
+      "module": "Dining",
+      "vagmiEvidence": "Named Flavours restaurant, video, service narrative and a dedicated dining page.",
+      "augustoAdaptation": "Show Augusto's verified vegetarian restaurant and its real dining photographs. Current menu and serving times remain hotel-confirmed."
+    },
+    {
+      "module": "City",
+      "vagmiEvidence": "Six-stop day narrative, desktop horizontal progression and mobile touch/scroll treatment.",
+      "augustoAdaptation": "Use a four-part manual itinerary: river, temple, time back at the hotel, evening aarti. Native controls, no imposed clock or included-tour claims."
+    },
+    {
+      "module": "Guest witness",
+      "vagmiEvidence": "Source-linked guest quotations, manual/automatic controls and linked platform ratings.",
+      "augustoAdaptation": "Link to Augusto's verified review profiles. Publish a quote or numerical score only with current attributable evidence."
+    },
+    {
+      "module": "Getting here",
+      "vagmiEvidence": "Airport/rail/river approach, map, location table and address.",
+      "augustoAdaptation": "Use Augusto's exact address, map and arrival-mode guidance. Do not transfer Vagmi distances or promise transfers/parking."
+    },
+    {
+      "module": "Good to know",
+      "vagmiEvidence": "Hotel amenity groups and policy definition list.",
+      "augustoAdaptation": "Use verified Augusto amenities and practical questions; obtain hotel confirmation for conflicting or variable policies."
+    },
+    {
+      "module": "Reserve",
+      "vagmiEvidence": "Stay-date booking bar, phone/WhatsApp/email, corporate-rate form and OTA alternatives.",
+      "augustoAdaptation": "Use one consistent enquiry flow with dates, rooms and all guests. Exclude corporate discounts and STAAH integration until separately established."
+    },
+    {
+      "module": "Header and footer",
+      "vagmiEvidence": "Rooms, Flavours, City and Contact routes; explicit book action; mobile contact shortcuts; language switch.",
+      "augustoAdaptation": "Keep clear Augusto page navigation and persistent booking access. Do not imply a Hindi version until translated and implemented."
+    },
+    {
+      "module": "Room pages",
+      "vagmiEvidence": "Photo gallery, amenities, meal plans, room-prefilled dates, related rooms and external booking options.",
+      "augustoAdaptation": "Provide factual room details and images, comparison, a room-prefilled enquiry and related categories. No unsupported meal plans."
+    },
+    {
+      "module": "Dining page",
+      "vagmiEvidence": "Restaurant story, gallery, menus and delivery-platform links.",
+      "augustoAdaptation": "Provide a real restaurant page. Menus, named outlet and delivery links require Augusto evidence."
+    },
+    {
+      "module": "City and guides",
+      "vagmiEvidence": "Detailed city information, practical guides and guide-level FAQs.",
+      "augustoAdaptation": "Build distinct Varanasi and practical guide routes using official destination sources and verified hotel facts."
+    }
+  ],
+  "patterns": [
+    "Property first: Vagmi and Shree Ganesha Palace immediately show their real hotel with a visible reservation action. Room, food and arrival utility make the experience unmistakably hospitality.",
+    "Inventory in the open: Vagmi gives each room category a full photographic treatment. Guests can compare the options while scrolling instead of discovering that more options exist behind one featured card.",
+    "One continuous hotel story: property introduction, rooms, dining, city, guest evidence, directions, policy and enquiry form one useful journey. The Drake reinforces this with a precise navigation taxonomy and human hospitality imagery."
+  ],
+  "augustoDeficienciesAtReview": [
+    "The previous large Apple-style treatment gave similar visual weight to abstract headings and selected photos; its place-first hero and limited hotel chapters did not establish the property quickly enough.",
+    "A single selected-room presentation made Augusto's inventory feel smaller and less comparable than Vagmi's complete room spreads.",
+    "The existing short city page and narrow practical journey left the site with less hospitality breadth despite its real separate routes."
+  ],
+  "direction": "A warm editorial hotel identity: ivory and ink blue, restrained bronze details, Bodoni Moda display with Manrope body, honest property photography, full room spreads, useful arrival and stay details, small corners and generous spacing. Manual city tabs and restrained image/reveal motion provide character without hiding content.",
+  "limitations": [
+    "DDD Hotel's live page remained in its numeric loading/blank transition during capture. Its Awwwards listing was recorded, but it was not used as a successful live visual reference.",
+    "The Scott Resort & Spa Awwwards record was read (2019-12-08); its live website was not visually inspected during this bounded study.",
+    "Vagmi does not have a standalone homepage comparison matrix or homepage FAQ in the inspected source. Augusto comparison/FAQ additions should not be described as exact copies of those modules.",
+    "Vagmi's property video, STAAH rates, offers, corporate terms, reviews, occupancy, restaurant identity and translation do not establish equivalent Augusto facilities or integrations."
+  ],
+  "captureEvidence": "live-inspection.json"
+}

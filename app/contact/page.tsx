@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { ArrowUpRight, ChevronDown, MapPin, Phone } from "lucide-react";
+import { ChevronDown, Phone } from "lucide-react";
 import { BookingForm } from "@/components/booking-form";
 import { Reveal } from "@/components/reveal";
 import { WhatsAppIcon } from "@/components/whatsapp-icon";
+import { ArrivalGuide } from "@/components/arrival-guide";
 import { faqs, hotel } from "@/content/hotel";
 import "./contact.css";
 
@@ -21,7 +22,7 @@ export default function ContactPage() {
       <section className="container contact-intro">
         <Reveal>
           <p className="contact-context">Hotel Augusto, Varanasi</p>
-          <h1>Let’s plan your stay.</h1>
+          <h1>Your stay.<br/><em>Let’s make it yours.</em></h1>
           <p className="contact-intro-copy">
             A few nights in Kashi. A visit with the family. Get in touch
             for room availability, rates and a little help with your journey.
@@ -39,6 +40,7 @@ export default function ContactPage() {
             Or start with your travel dates <ChevronDown size={16} aria-hidden="true" />
           </a>
         </Reveal>
+        <Reveal className="contact-intro-photo"><Image src="/images/google-double-room.webp" alt="A double-bed guest room at Hotel Augusto" fill preload sizes="(max-width:760px) 90vw, 42vw" quality={85}/><span>Your room in Godowlia, Varanasi.</span></Reveal>
       </section>
 
       <section className="container contact-enquiry" id="enquire" aria-labelledby="enquiry-title">
@@ -52,38 +54,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="container contact-arrival" aria-labelledby="find-us">
-        <Reveal>
-          <div className="contact-location-grid">
-            <figure className="contact-exterior">
-              <div className="contact-exterior-image">
-                <Image src="/images/hotel-exterior.webp"
-                  alt="The illuminated Hotel Augusto entrance and sign on August Kunda Road in Varanasi"
-                  fill sizes="(max-width: 760px) 90vw, 45vw" />
-              </div>
-              <figcaption>The hotel entrance on August Kunda Road.</figcaption>
-            </figure>
-            <div className="contact-address-panel">
-              <MapPin size={28} strokeWidth={1.6} aria-hidden="true" />
-              <h2 id="find-us">Find us in Godowlia.</h2>
-              <address>
-                <strong>{hotel.name}</strong>
-                {hotel.address.map((line) => <span key={line}>{line}</span>)}
-              </address>
-              <p className="contact-landmark">Opposite State Bank of India</p>
-              <a className="contact-directions" href={hotel.mapsUrl} target="_blank" rel="noopener noreferrer">
-                Get directions <ArrowUpRight size={17} aria-hidden="true" />
-              </a>
-              <div className="contact-arrival-note">
-                <h3>Arriving by car or taxi?</h3>
-                <p>Call ahead for current approach, drop-off and parking guidance.
-                  Share your arrival time so the hotel can help you plan the last part of your journey.</p>
-              </div>
-            </div>
-          </div>
-        </Reveal>
-      </section>
-
+      <ArrivalGuide/>
       <section className="container contact-faq" aria-labelledby="faq-title">
         <div className="contact-faq-content">
           <Reveal className="contact-section-heading">

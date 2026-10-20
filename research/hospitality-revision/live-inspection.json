@@ -1,0 +1,1545 @@
+{
+  "date": "2026-10-20",
+  "references": [
+    {
+      "id": "vagmi",
+      "requestedUrl": "https://hotelvagmi.com",
+      "screens": [
+        "vagmi-1440-hero.png",
+        "vagmi-1440-section.png",
+        "vagmi-1440-rooms.png",
+        "vagmi-390-hero.png",
+        "vagmi-390-section.png"
+      ],
+      "landedUrl": "https://hotelvagmi.com/",
+      "title": "Hotel Vagmi - Boutique Hotel in Varanasi | Rooms & Dining",
+      "headings": [
+        "Banaras speaks.We listen.",
+        "वाग्मी means the eloquent one.",
+        "Four ways to stay.",
+        "Deluxe",
+        "Deluxe Twin",
+        "Executive",
+        "Mini Suite",
+        "Flavours.",
+        "One day in Banaras.",
+        "Leave before the light",
+        "The waking streets",
+        "First light on the Ganga",
+        "Sarnath",
+        "Ganga aarti",
+        "Return to quiet",
+        "Between the airport and the river.",
+        "The practical answers.",
+        "Across the hotel",
+        "House policies",
+        "Tell us when.",
+        "Booking on the company?"
+      ],
+      "links": [
+        {
+          "text": "Hotel Vagmi",
+          "href": "https://hotelvagmi.com/"
+        },
+        {
+          "text": "Rooms",
+          "href": "https://hotelvagmi.com/rooms"
+        },
+        {
+          "text": "Flavours",
+          "href": "https://hotelvagmi.com/flavours"
+        },
+        {
+          "text": "The City",
+          "href": "https://hotelvagmi.com/the-city"
+        },
+        {
+          "text": "Contact",
+          "href": "https://hotelvagmi.com/contact"
+        },
+        {
+          "text": "हिन्दी",
+          "href": "https://hotelvagmi.com/hi/index"
+        },
+        {
+          "text": "+91-9369601100",
+          "href": "tel:+919369601100"
+        },
+        {
+          "text": "Book now",
+          "href": "https://booking.hotelvagmi.com/inst/#/home?propertyId=701M5Xupqky9CLln0MTN2FNt5erb4LqGQQF6ha9jcwMzg=&JDRN=Y&gsId=701M5Xupqky9CLln0MTN2FNt5erb4LqGQQF6ha9jcwMzg="
+        },
+        {
+          "text": "See the rooms",
+          "href": "https://hotelvagmi.com/rooms"
+        },
+        {
+          "text": "See the deluxe\n→",
+          "href": "https://hotelvagmi.com/rooms/deluxe"
+        },
+        {
+          "text": "See the deluxe twin\n→",
+          "href": "https://hotelvagmi.com/rooms/deluxe-twin"
+        },
+        {
+          "text": "See the executive\n→",
+          "href": "https://hotelvagmi.com/rooms/executive"
+        },
+        {
+          "text": "See the mini suite\n→",
+          "href": "https://hotelvagmi.com/rooms/mini-suite"
+        },
+        {
+          "text": "See the restaurant\n→",
+          "href": "https://hotelvagmi.com/flavours"
+        },
+        {
+          "text": "Verify on Tripadvisor\n↗",
+          "href": "https://www.tripadvisor.in/ShowUserReviews-g297685-d21103848-r1070764434-Hotel_Vagmi-Varanasi_Varanasi_District_Uttar_Pradesh.html"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/919369601100?text=Hello%20Hotel%20Vagmi%20-%20I%27d%20like%20to%20enquire%20about%20booking%20a%20room."
+        },
+        {
+          "text": "Call +91-9369601100",
+          "href": "tel:+919369601100"
+        },
+        {
+          "text": "info@hotelvagmi.com",
+          "href": "mailto:info@hotelvagmi.com"
+        },
+        {
+          "text": "Request the corporate rate",
+          "href": "https://wa.me/919369601100?text=Hello%20Hotel%20Vagmi%20-%20I%27d%20like%20the%20corporate%20rate.%0A%0ACompany%20name%3A%0AGSTIN%3A%0ACheck-in%3A%0ACheck-out%3A%0AGuests%3A"
+        },
+        {
+          "text": "Rooms",
+          "href": "https://hotelvagmi.com/rooms"
+        },
+        {
+          "text": "Flavours",
+          "href": "https://hotelvagmi.com/flavours"
+        },
+        {
+          "text": "The City",
+          "href": "https://hotelvagmi.com/the-city"
+        },
+        {
+          "text": "Guides",
+          "href": "https://hotelvagmi.com/guides"
+        },
+        {
+          "text": "Reserve",
+          "href": "https://hotelvagmi.com/contact"
+        },
+        {
+          "text": "Refunds & Cancellation",
+          "href": "https://hotelvagmi.com/policies"
+        },
+        {
+          "text": "Terms & Conditions",
+          "href": "https://hotelvagmi.com/terms"
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://hotelvagmi.com/privacy"
+        },
+        {
+          "text": "+91-9369601100",
+          "href": "tel:+919369601100"
+        },
+        {
+          "text": "info@hotelvagmi.com",
+          "href": "mailto:info@hotelvagmi.com"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "https://wa.me/919369601100?text=Hello%20Hotel%20Vagmi%20-%20I%27d%20like%20to%20enquire%20about%20booking%20a%20room."
+        },
+        {
+          "text": "Instagram",
+          "href": "https://instagram.com/hotelvagmi"
+        },
+        {
+          "text": "Facebook",
+          "href": "https://facebook.com/hotelvagmi"
+        }
+      ],
+      "typography": [
+        {
+          "tag": "A",
+          "text": "Hotel Vagmi",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "26.4px",
+          "color": "lab(8.0036 2.516 -14.4046)"
+        },
+        {
+          "tag": "A",
+          "text": "Rooms",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "13px",
+          "weight": "600",
+          "lineHeight": "21.45px",
+          "color": "lab(94.8062 0.769764 4.12568)"
+        },
+        {
+          "tag": "A",
+          "text": "Flavours",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "13px",
+          "weight": "600",
+          "lineHeight": "21.45px",
+          "color": "lab(94.8062 0.769764 4.12568)"
+        },
+        {
+          "tag": "A",
+          "text": "The City",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "13px",
+          "weight": "600",
+          "lineHeight": "21.45px",
+          "color": "lab(94.8062 0.769764 4.12568)"
+        },
+        {
+          "tag": "A",
+          "text": "Contact",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "13px",
+          "weight": "600",
+          "lineHeight": "21.45px",
+          "color": "lab(94.8062 0.769764 4.12568)"
+        },
+        {
+          "tag": "A",
+          "text": "हिन्दी",
+          "font": "\"Tiro Devanagari Hindi\", \"Tiro Devanagari Hindi Fallback\", Fraunces, \"Fraunces Fallback\", serif",
+          "size": "13px",
+          "weight": "600",
+          "lineHeight": "21.45px",
+          "color": "lab(94.8062 0.769764 4.12568)"
+        },
+        {
+          "tag": "A",
+          "text": "+91-9369601100",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "13px",
+          "weight": "500",
+          "lineHeight": "21.45px",
+          "color": "lab(94.8062 0.769764 4.12568)"
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "26.4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "26.4px",
+          "color": "rgb(234, 67, 53)"
+        },
+        {
+          "tag": "A",
+          "text": "Book now",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "13px",
+          "weight": "600",
+          "lineHeight": "21.45px",
+          "color": "lab(94.8062 0.769764 4.12568)"
+        },
+        {
+          "tag": "P",
+          "text": "HOTEL VAGMI · SHIVPUR, VARANASI\nवाग्मी",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "11px",
+          "weight": "600",
+          "lineHeight": "18.15px",
+          "color": "lab(79.0839 14.7215 49.715)"
+        },
+        {
+          "tag": "H1",
+          "text": "Banaras speaks.\nWe listen.",
+          "font": "Fraunces, \"Fraunces Fallback\", Georgia, \"Times New Roman\", serif",
+          "size": "88px",
+          "weight": "380",
+          "lineHeight": "86.24px",
+          "color": "lab(94.8062 0.769764 4.12568)"
+        },
+        {
+          "tag": "P",
+          "text": "Quiet rooms, brass light, the ghats a short drive away. See the rooms.",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "29.25px",
+          "color": "oklch(0.955 0.011 78 / 0.82)"
+        },
+        {
+          "tag": "P",
+          "text": "1 night · Book direct for the best rate.",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "16px",
+          "color": "oklch(0.955 0.011 78 / 0.85)"
+        },
+        {
+          "tag": "P",
+          "text": "WELCOME",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "11px",
+          "weight": "600",
+          "lineHeight": "18.15px",
+          "color": "lab(48.5136 24.9112 59.7415)"
+        },
+        {
+          "tag": "H2",
+          "text": "वाग्मी means the eloquent one.",
+          "font": "Fraunces, \"Fraunces Fallback\", Georgia, \"Times New Roman\", serif",
+          "size": "62.08px",
+          "weight": "380",
+          "lineHeight": "64.5632px",
+          "color": "lab(8.0036 2.516 -14.4046)"
+        },
+        {
+          "tag": "P",
+          "text": "The name is a promise. A hotel that speaks in small gestures - gold jaali light across the lobby marble, rooms kept simp",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "29.25px",
+          "color": "lab(18.5106 1.60612 -13.8553)"
+        },
+        {
+          "tag": "P",
+          "text": "THE ROOMS",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "11px",
+          "weight": "600",
+          "lineHeight": "18.15px",
+          "color": "lab(48.5136 24.9112 59.7415)"
+        },
+        {
+          "tag": "H2",
+          "text": "Four ways to stay.",
+          "font": "Fraunces, \"Fraunces Fallback\", Georgia, \"Times New Roman\", serif",
+          "size": "62.08px",
+          "weight": "380",
+          "lineHeight": "64.5632px",
+          "color": "lab(8.0036 2.516 -14.4046)"
+        },
+        {
+          "tag": "P",
+          "text": "Every room photographed as it is - nothing staged that isn’t there when you arrive.",
+          "font": "Manrope, \"Manrope Fallback\", system-ui, -apple-system, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "22.75px",
+          "color": "lab(51.2 0.15232 -5.27127)"
+        }
+      ],
+      "video": [
+        {
+          "src": "https://hotelvagmi.com/videos/hero-desktop.mp4",
+          "paused": false,
+          "time": 5.10382,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "https://hotelvagmi.com/videos/flavour.mp4",
+          "paused": true,
+          "time": 0,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "mobileMetrics": {
+        "width": 390,
+        "body": 390
+      }
+    },
+    {
+      "id": "sgp",
+      "requestedUrl": "https://sgphotels.com",
+      "screens": [
+        "sgp-1440-hero.png",
+        "sgp-1440-section.png",
+        "sgp-1440-rooms.png",
+        "sgp-390-hero.png",
+        "sgp-390-section.png"
+      ],
+      "landedUrl": "https://sgphotels.com/",
+      "title": "Shree Ganesha Palace — Heritage Hotel near the Ghats, Varanasi",
+      "headings": [
+        "Shree GaneshaPalace",
+        "A hotel, and a café, older than the country.",
+        "Seven kinds of rest, one warm light.",
+        "Premium Room with Bathtub",
+        "Family Room",
+        "Premium Twin Room",
+        "When the lamps come on.",
+        "The eternal city, arranged for you.",
+        "A few steps from the eternal city."
+      ],
+      "links": [
+        {
+          "text": "SHREE GANESHA PALACE",
+          "href": "https://sgphotels.com/"
+        },
+        {
+          "text": "ROOMS & SUITES",
+          "href": "https://sgphotels.com/rooms"
+        },
+        {
+          "text": "DINING",
+          "href": "https://sgphotels.com/dining"
+        },
+        {
+          "text": "HERITAGE",
+          "href": "https://sgphotels.com/heritage"
+        },
+        {
+          "text": "EXPERIENCES",
+          "href": "https://sgphotels.com/experiences"
+        },
+        {
+          "text": "GALLERY",
+          "href": "https://sgphotels.com/gallery"
+        },
+        {
+          "text": "CONTACT",
+          "href": "https://sgphotels.com/contact"
+        },
+        {
+          "text": "BOOK NOW",
+          "href": "https://booking.sgphotels.com/"
+        },
+        {
+          "text": "BOOK NOW",
+          "href": "https://booking.sgphotels.com/"
+        },
+        {
+          "text": "WHATSAPP US",
+          "href": "https://wa.me/918601841233?text=Namaste%2C%20I%27d%20like%20to%20check%20availability%20at%20Shree%20Ganesha%20Palace."
+        },
+        {
+          "text": "OUR STORY",
+          "href": "https://sgphotels.com/heritage"
+        },
+        {
+          "text": "EXPLORE THE ROOM",
+          "href": "https://sgphotels.com/rooms/premium-bathtub"
+        },
+        {
+          "text": "EXPLORE THE ROOM",
+          "href": "https://sgphotels.com/rooms/family"
+        },
+        {
+          "text": "EXPLORE THE ROOM",
+          "href": "https://sgphotels.com/rooms/premium-twin"
+        },
+        {
+          "text": "VIEW ALL 7 ROOM TYPES",
+          "href": "https://sgphotels.com/rooms"
+        },
+        {
+          "text": "THE 1916 CAFÉ",
+          "href": "https://sgphotels.com/dining"
+        },
+        {
+          "text": "FOLLOW US ON INSTAGRAM",
+          "href": "https://www.instagram.com/shreeganeshapalace"
+        },
+        {
+          "text": "BOOK YOUR STAY",
+          "href": "https://booking.sgphotels.com/"
+        },
+        {
+          "text": "WHATSAPP US",
+          "href": "https://wa.me/918601841233?text=Namaste%2C%20I%27d%20like%20to%20check%20availability%20at%20Shree%20Ganesha%20Palace."
+        },
+        {
+          "text": "FIND US",
+          "href": "https://sgphotels.com/contact"
+        },
+        {
+          "text": "+91 86018 41233",
+          "href": "tel:+918601841233"
+        },
+        {
+          "text": "+91 86040 61916",
+          "href": "tel:+918604061916"
+        },
+        {
+          "text": "shreeganeshapalace@gmail.com",
+          "href": "mailto:shreeganeshapalace@gmail.com"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "https://wa.me/918601841233?text=Namaste%2C%20I%20have%20a%20question%20about%20Shree%20Ganesha%20Palace."
+        },
+        {
+          "text": "Rooms & Suites",
+          "href": "https://sgphotels.com/rooms"
+        },
+        {
+          "text": "Dining",
+          "href": "https://sgphotels.com/dining"
+        },
+        {
+          "text": "Heritage",
+          "href": "https://sgphotels.com/heritage"
+        },
+        {
+          "text": "Experiences",
+          "href": "https://sgphotels.com/experiences"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://sgphotels.com/gallery"
+        },
+        {
+          "text": "Contact",
+          "href": "https://sgphotels.com/contact"
+        },
+        {
+          "text": "BOOK NOW",
+          "href": "https://booking.sgphotels.com/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/shreeganeshapalace"
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/shreeganeshapalacevaranasi"
+        },
+        {
+          "text": "YouTube",
+          "href": "https://www.youtube.com/@ShreeGaneshaPalace"
+        },
+        {
+          "text": "Digiocular",
+          "href": "https://digiocular.com/"
+        },
+        {
+          "text": "Book now",
+          "href": "https://booking.sgphotels.com/"
+        },
+        {
+          "text": "WhatsApp",
+          "href": "https://wa.me/918601841233?text=Namaste%2C%20I%27d%20like%20to%20check%20availability%20at%20Shree%20Ganesha%20Palace."
+        }
+      ],
+      "typography": [
+        {
+          "tag": "A",
+          "text": "SHREE GANESHA PALACE",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "14.72px",
+          "weight": "400",
+          "lineHeight": "23.552px",
+          "color": "lab(97.7277 0.350952 4.58053)"
+        },
+        {
+          "tag": "A",
+          "text": "ROOMS & SUITES",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "11.84px",
+          "weight": "400",
+          "lineHeight": "18.944px",
+          "color": "lab(94.2394 0.564069 4.55636)"
+        },
+        {
+          "tag": "A",
+          "text": "DINING",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "11.84px",
+          "weight": "400",
+          "lineHeight": "18.944px",
+          "color": "lab(94.2394 0.564069 4.55636)"
+        },
+        {
+          "tag": "A",
+          "text": "HERITAGE",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "11.84px",
+          "weight": "400",
+          "lineHeight": "18.944px",
+          "color": "lab(94.2394 0.564069 4.55636)"
+        },
+        {
+          "tag": "A",
+          "text": "EXPERIENCES",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "11.84px",
+          "weight": "400",
+          "lineHeight": "18.944px",
+          "color": "lab(94.2394 0.564069 4.55636)"
+        },
+        {
+          "tag": "A",
+          "text": "GALLERY",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "11.84px",
+          "weight": "400",
+          "lineHeight": "18.944px",
+          "color": "lab(94.2394 0.564069 4.55636)"
+        },
+        {
+          "tag": "A",
+          "text": "CONTACT",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "11.84px",
+          "weight": "400",
+          "lineHeight": "18.944px",
+          "color": "lab(94.2394 0.564069 4.55636)"
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "25.6px",
+          "color": "lab(94.2394 0.564069 4.55636)"
+        },
+        {
+          "tag": "A",
+          "text": "BOOK NOW",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "11.84px",
+          "weight": "400",
+          "lineHeight": "11.84px",
+          "color": "lab(9.38996 6.55624 8.87048)"
+        },
+        {
+          "tag": "H1",
+          "text": "SHREE GANESHA\nPALACE",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "76.8px",
+          "weight": "400",
+          "lineHeight": "76.8px",
+          "color": "lab(97.7277 0.350952 4.58053)"
+        },
+        {
+          "tag": "P",
+          "text": "A century of light on the Ganga.",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "24.8px",
+          "weight": "300",
+          "lineHeight": "39.68px",
+          "color": "lab(91.9194 0.565052 4.55699)"
+        },
+        {
+          "tag": "H2",
+          "text": "A hotel, and a café, older than the country.",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "64px",
+          "weight": "400",
+          "lineHeight": "65.28px",
+          "color": "lab(16.3116 8.01644 11.3863)"
+        },
+        {
+          "tag": "P",
+          "text": "Built in 1916 by a Bengali saint and kept by the Lakhmani family since 1938, this address at Girjaghar Crossing has welc",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "24.8px",
+          "weight": "300",
+          "lineHeight": "39.68px",
+          "color": "lab(38.4324 5.72133 10.0689)"
+        },
+        {
+          "tag": "P",
+          "text": "OUR STORY",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "25.6px",
+          "color": "lab(16.3116 8.01644 11.3863)"
+        },
+        {
+          "tag": "H2",
+          "text": "Seven kinds of rest, one warm light.",
+          "font": "Marcellus, \"Marcellus Fallback\", Georgia, serif",
+          "size": "64px",
+          "weight": "400",
+          "lineHeight": "65.28px",
+          "color": "lab(16.3116 8.01644 11.3863)"
+        },
+        {
+          "tag": "P",
+          "text": "A king bed, a sofa by the window, and a bathtub to come back to. The quiet indulgence after a day in the old city.",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "18.4px",
+          "weight": "300",
+          "lineHeight": "29.44px",
+          "color": "lab(38.4324 5.72133 10.0689)"
+        },
+        {
+          "tag": "P",
+          "text": "EXPLORE THE ROOM",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "25.6px",
+          "color": "lab(16.3116 8.01644 11.3863)"
+        },
+        {
+          "tag": "P",
+          "text": "Our largest room at 385 sq ft, with two king beds and a private patio to step out onto. Room to spread out after a long ",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "18.4px",
+          "weight": "300",
+          "lineHeight": "29.44px",
+          "color": "lab(38.4324 5.72133 10.0689)"
+        },
+        {
+          "tag": "P",
+          "text": "EXPLORE THE ROOM",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "25.6px",
+          "color": "lab(16.3116 8.01644 11.3863)"
+        },
+        {
+          "tag": "P",
+          "text": "Two beds, a sofa, and the same warm light, for friends and colleagues who would rather not share a bed.",
+          "font": "Spectral, \"Spectral Fallback\", Georgia, serif",
+          "size": "18.4px",
+          "weight": "300",
+          "lineHeight": "29.44px",
+          "color": "lab(38.4324 5.72133 10.0689)"
+        }
+      ],
+      "video": [
+        {
+          "src": "https://sgphotels.com/images/hero-loop.mp4",
+          "paused": false,
+          "time": 4.996444,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "mobileMetrics": {
+        "width": 390,
+        "body": 390
+      }
+    },
+    {
+      "id": "drake",
+      "requestedUrl": "https://thedrake.ca",
+      "screens": [
+        "drake-1440-hero.png",
+        "drake-1440-section.png",
+        "drake-1440-rooms.png",
+        "drake-390-hero.png",
+        "drake-390-section.png"
+      ],
+      "landedUrl": "https://thedrake.ca/",
+      "title": "The Drake | Boutique Hotels in Toronto + Prince Edward County",
+      "headings": [
+        "Book",
+        "Meet The Drake\n",
+        "Explore Our Locations\n",
+        "Toronto\n",
+        "Prince Edward County\n",
+        "Discover Our Properties\n",
+        "The Drake Hotel",
+        "Drake Underground",
+        "Drake Devonshire",
+        "Drake Motor Inn",
+        "Take Your Shot Of Art\n",
+        "What's On",
+        "\n                    Wine Tours in The County\n                ",
+        "\n                    Happy Hour\n                ",
+        "\n                    COUNTYLICIOUS\n                ",
+        "\n                    Night Service: Jazz W/ Jesse Maxwell\n                ",
+        "\n                    Nick Cheo\n                ",
+        "\n                    Halloween Queer Cocktail Night\n                ",
+        "Latest News From Hotbed",
+        "\n                    My Shift in 9 with Steph Barton, Front Desk at Drake Devonshire\n                ",
+        "\n                    Meet Chef Daniel Hyam: The Drake Hotel’s Executive Chef\n                ",
+        "\n                    The Drake Loves The Nightlife\n                ",
+        "\n                    Polaris Music Prize 2026 Afterparty: The Drake Hotel Toronto \n                ",
+        "\n                    Fall Festivals + Things to Do in Prince Edward County\n                ",
+        "\n                    Celebration Dining at The Drake Hotel: You Throw the Party, We’ll Handle the House\n                ",
+        "\n                    In The Green Room With: Carmen Elle of Army Girls on Toronto Indie Music\n                ",
+        "\n                    Where to Stay During TIFF 2026: The Drake is Toronto’s Indie Boutique Hotel\n                ",
+        "\n                    Indigenous Garden + Moccasin Identifier Project\n                ",
+        "\n                    Hotbed Recipes\n                ",
+        "Contact Us\n",
+        "\n                            1150 Queen St W, Toronto, ON M6J 1J3\n                        "
+      ],
+      "links": [
+        {
+          "text": "The Drake Hotel",
+          "href": "https://thedrake.ca/thedrakehotel/"
+        },
+        {
+          "text": "Drake Devonshire",
+          "href": "https://thedrake.ca/drakedevonshire/"
+        },
+        {
+          "text": "Drake Motor Inn",
+          "href": "https://thedrake.ca/drakemotorinn/"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://thedrake.ca/about/"
+        },
+        {
+          "text": "OUR HOTELS",
+          "href": "https://thedrake.ca/our-hotels/"
+        },
+        {
+          "text": "FOOD + DRINK",
+          "href": "https://thedrake.ca/home/food-drink-home/"
+        },
+        {
+          "text": "ART + CULTURE",
+          "href": "https://thedrake.ca/drake-art"
+        },
+        {
+          "text": "BLOG",
+          "href": "https://thedrake.ca/blog"
+        },
+        {
+          "text": "GIFT CARDS",
+          "href": "https://thedrake.ca/gift-cards/"
+        },
+        {
+          "text": "CAREERS",
+          "href": "https://thedrake.ca/careers/"
+        },
+        {
+          "text": "CONTACT US",
+          "href": "https://thedrake.ca/contact-us/"
+        },
+        {
+          "text": "Fr",
+          "href": "https://thedrake.ca/fr/accueil/"
+        },
+        {
+          "text": "Fr",
+          "href": "https://thedrake.ca/fr/accueil/"
+        },
+        {
+          "text": "Tripleseat's privacy policy.",
+          "href": "https://www.tripleseat.com/privacy-policy/"
+        },
+        {
+          "text": "ABOUT US",
+          "href": "https://thedrake.ca/about/"
+        },
+        {
+          "text": "Explore",
+          "href": "https://thedrake.ca/the-drake/"
+        },
+        {
+          "text": "Explore",
+          "href": "https://thedrake.ca/devonshire/"
+        },
+        {
+          "text": "Visit The Drake Hotel",
+          "href": "https://thedrake.ca/the-drake/"
+        },
+        {
+          "text": "Visit Drake Underground",
+          "href": "https://thedrake.ca/drake-underground/"
+        },
+        {
+          "text": "Visit Drake Devonshire",
+          "href": "https://thedrake.ca/devonshire/"
+        },
+        {
+          "text": "Visit Drake Motor Inn",
+          "href": "https://thedrake.ca/drake-motor-inn/"
+        },
+        {
+          "text": "DISCOVER DRAKE ART",
+          "href": "https://thedrake.ca/drake-art/"
+        },
+        {
+          "text": "VIEW CALENDAR",
+          "href": "https://thedrake.ca/events"
+        },
+        {
+          "text": "View Wine Tours in The County",
+          "href": "https://thedrake.ca/event/wine-tours-in-the-county/"
+        },
+        {
+          "text": "View Happy Hour",
+          "href": "https://thedrake.ca/event/happy-hour-15/"
+        },
+        {
+          "text": "View COUNTYLICIOUS",
+          "href": "https://thedrake.ca/event/countylicious-3/"
+        },
+        {
+          "text": "View Night Service: Jazz W/ Jesse Maxwell",
+          "href": "https://thedrake.ca/event/night-service-jazz-w-jesse-maxwell-2/"
+        },
+        {
+          "text": "View Nick Cheo",
+          "href": "https://thedrake.ca/event/nick-cheo/"
+        },
+        {
+          "text": "View Halloween Queer Cocktail Night",
+          "href": "https://thedrake.ca/event/halloween-queer-cocktail-night/"
+        },
+        {
+          "text": "VIEW ALL ARTICLES",
+          "href": "https://thedrake.ca/blog"
+        },
+        {
+          "text": "View My Shift in 9 with Steph Barton, Front Desk at Drake Devonshire",
+          "href": "https://thedrake.ca/blog/my-shift-in-9-with-steph-barton-front-desk-at-drake-devonshire/"
+        },
+        {
+          "text": "View Meet Chef Daniel Hyam: The Drake Hotel’s Executive Chef",
+          "href": "https://thedrake.ca/blog/get-to-know-the-drake-hotels-executive-chef-daniel-hyam/"
+        },
+        {
+          "text": "View The Drake Loves The Nightlife",
+          "href": "https://thedrake.ca/blog/drake_loves_nightlife/"
+        },
+        {
+          "text": "View Polaris Music Prize 2026 Afterparty: The Drake Hotel Toronto",
+          "href": "https://thedrake.ca/blog/polaris-music-prize-2026-afterparty-the-drake-hotel-toronto/"
+        },
+        {
+          "text": "View Fall Festivals + Things to Do in Prince Edward County",
+          "href": "https://thedrake.ca/blog/fall-festivals-things-to-do-in-prince-edward-county/"
+        },
+        {
+          "text": "View Celebration Dining at The Drake Hotel: You Throw the Party, We’ll Handle the House",
+          "href": "https://thedrake.ca/blog/celebration-dining-at-the-drake-hotel/"
+        },
+        {
+          "text": "View In The Green Room With: Carmen Elle of Army Girls on Toronto Indie Music",
+          "href": "https://thedrake.ca/blog/carmen-elle-army-girls-toronto-indie-music-drake-underground/"
+        },
+        {
+          "text": "View Where to Stay During TIFF 2026: The Drake is Toronto’s Indie Boutique Hotel",
+          "href": "https://thedrake.ca/blog/tiff-2026-hotels-where-to-stay-toronto/"
+        },
+        {
+          "text": "View Indigenous Garden + Moccasin Identifier Project",
+          "href": "https://thedrake.ca/blog/indigenous-garden-moccasin-identifier-project/"
+        },
+        {
+          "text": "View Hotbed Recipes",
+          "href": "https://thedrake.ca/blog/hotbed-recipes/"
+        },
+        {
+          "text": "REACH US",
+          "href": "https://thedrake.ca/contact-us/"
+        },
+        {
+          "text": "1150 Queen St W, Toronto, ON M6J 1J3",
+          "href": "https://google.com/maps?q=1150+Queen+St+W%2C+Toronto%2C+ON+M6J+1J3"
+        },
+        {
+          "text": "(+1) 416.531.5042",
+          "href": "tel:+14165315042"
+        },
+        {
+          "text": "MARKETING@THEDRAKE.CA",
+          "href": "mailto:marketing@thedrake.ca"
+        },
+        {
+          "text": "SALES@THEDRAKE.CA",
+          "href": "mailto:sales@thedrake.ca"
+        },
+        {
+          "text": "SPECIALEVENTS@THEDRAKE.CA",
+          "href": "mailto:specialevents@thedrake.ca"
+        },
+        {
+          "text": "PROGRAMMING@THEDRAKEHOTEL.CA",
+          "href": "mailto:programming@thedrakehotel.ca"
+        },
+        {
+          "text": "LOCOMOTIVE",
+          "href": "https://locomotive.ca/"
+        },
+        {
+          "text": "The Drake Hotel",
+          "href": "https://thedrake.ca/thedrakehotel/"
+        },
+        {
+          "text": "Drake Devonshire",
+          "href": "https://thedrake.ca/drakedevonshire/"
+        },
+        {
+          "text": "Drake Motor Inn",
+          "href": "https://thedrake.ca/drakemotorinn/"
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://thedrake.ca/about/"
+        },
+        {
+          "text": "WHAT'S ON",
+          "href": "https://thedrake.ca/events"
+        },
+        {
+          "text": "CAREERS",
+          "href": "https://thedrake.ca/careers/"
+        },
+        {
+          "text": "DRAKE ART",
+          "href": "https://thedrake.ca/drake-art"
+        },
+        {
+          "text": "BLOG",
+          "href": "https://thedrake.ca/blog"
+        },
+        {
+          "text": "GIFT CARDS",
+          "href": "https://thedrake.ca/gift-cards/"
+        },
+        {
+          "text": "CONTACT US",
+          "href": "https://thedrake.ca/contact-us/"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://thedrake.ca/faq/"
+        },
+        {
+          "text": "TERMS AND CONDITIONS",
+          "href": "https://thedrake.ca/terms-and-conditions/"
+        },
+        {
+          "text": "AEROPLAN",
+          "href": "https://thedrake.ca/aeroplan/"
+        },
+        {
+          "text": "MANAGE COOKIES",
+          "href": "https://thedrake.ca/#show-cookie-consent"
+        },
+        {
+          "text": "facebook",
+          "href": "https://www.facebook.com/thedrakehoteltoronto/"
+        },
+        {
+          "text": "instagram",
+          "href": "https://www.instagram.com/thedrake/"
+        },
+        {
+          "text": "linkedin",
+          "href": "https://www.linkedin.com/company/the-drake-hotel"
+        },
+        {
+          "text": "tiktok",
+          "href": "https://www.tiktok.com/@thedrakehotel"
+        },
+        {
+          "text": "spotify",
+          "href": "https://open.spotify.com/user/thedrakex%5Boh%21%5D#_=_"
+        },
+        {
+          "text": "tripadvisor",
+          "href": "https://www.tripadvisor.ca/Hotel_Review-g155019-d496106-Reviews-The_Drake_Hotel-Toronto_Ontario.html"
+        },
+        {
+          "text": "Locomotive",
+          "href": "https://locomotive.ca/"
+        }
+      ],
+      "typography": [
+        {
+          "tag": "A",
+          "text": "",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "P",
+          "text": "TORONTO, ON",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "10px",
+          "weight": "400",
+          "lineHeight": "13px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "The Drake Hotel",
+          "font": "\"Sequel Sans Medium Disp\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "22px",
+          "weight": "415",
+          "lineHeight": "26.4px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "P",
+          "text": "PRINCE EDWARD COUNTY, ON",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "10px",
+          "weight": "400",
+          "lineHeight": "13px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "Drake Devonshire",
+          "font": "\"Sequel Sans Medium Disp\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "22px",
+          "weight": "415",
+          "lineHeight": "26.4px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "Drake Motor Inn",
+          "font": "\"Sequel Sans Medium Disp\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "22px",
+          "weight": "415",
+          "lineHeight": "26.4px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "ABOUT",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "OUR HOTELS",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "FOOD + DRINK",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "ART + CULTURE",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "BLOG",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "GIFT CARDS",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "CAREERS",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "A",
+          "text": "CONTACT US",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "15.6px",
+          "color": "rgb(34, 34, 35)"
+        },
+        {
+          "tag": "P",
+          "text": "",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "18.2px",
+          "color": "rgb(181, 183, 216)"
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "font": "\"Sequel Sans Medium Disp\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "37px",
+          "weight": "415",
+          "lineHeight": "37px",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "P",
+          "text": "",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "18.2px",
+          "color": "rgb(181, 183, 216)"
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "font": "\"Sequel Sans Medium Disp\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "37px",
+          "weight": "415",
+          "lineHeight": "37px",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "font": "\"Sequel Sans Medium Disp\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "37px",
+          "weight": "415",
+          "lineHeight": "37px",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "tag": "A",
+          "text": "",
+          "font": "\"Maison Mono\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "20.8px",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "video": [
+        {
+          "src": "https://player.vimeo.com/progressive_redirect/playback/1087748790/rendition/720p/file.mp4?loc=external&signature=cd9a6f09b382385e92c41866bc6edaa799ec93a695aa3de78b99a926a7ea5895",
+          "paused": false,
+          "time": 1.449521,
+          "width": 1280,
+          "height": 720,
+          "muted": true,
+          "loop": false
+        },
+        {
+          "src": "https://player.vimeo.com/progressive_redirect/playback/1087748595/rendition/1080p/file.mp4?loc=external&signature=1f219479e1c63198a3da8863da735021f6ae7ff55d8fe4be8f2c1ab2fd369cdd",
+          "paused": true,
+          "time": 0,
+          "width": 0,
+          "height": 0,
+          "muted": true,
+          "loop": false
+        }
+      ],
+      "mobileMetrics": {
+        "width": 390,
+        "body": 390
+      }
+    },
+    {
+      "id": "ddd",
+      "requestedUrl": "https://dddhotel.jp/",
+      "screens": [
+        "ddd-1440-hero.png",
+        "ddd-1440-rooms.png",
+        "ddd-390-hero.png",
+        "ddd-390-section.png"
+      ],
+      "landedUrl": "https://dddhotel.jp/en/",
+      "title": "DDD HOTEL",
+      "headings": [
+        "DDD HOTEL ",
+        "Welcome",
+        "Discover",
+        "Facilities"
+      ],
+      "links": [
+        {
+          "text": "Reservation\nReservation",
+          "href": "https://go-dddhotel.reservation.jp/en"
+        },
+        {
+          "text": "en",
+          "href": "https://dddhotel.jp/en"
+        },
+        {
+          "text": "ja",
+          "href": "https://dddhotel.jp/"
+        },
+        {
+          "text": "Home",
+          "href": "https://dddhotel.jp/en"
+        },
+        {
+          "text": "Home",
+          "href": "https://dddhotel.jp/en"
+        },
+        {
+          "text": "Concept",
+          "href": "https://dddhotel.jp/en/concept"
+        },
+        {
+          "text": "Rooms",
+          "href": "https://dddhotel.jp/en/rooms"
+        },
+        {
+          "text": "Access",
+          "href": "https://dddhotel.jp/en/access"
+        },
+        {
+          "text": "Cafe & Bar",
+          "href": "https://dddhotel.jp/en/cafeandbar"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://dddhotel.jp/en/gallery"
+        },
+        {
+          "text": "Kitchen",
+          "href": "http://nol.jp/"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.stories-dddhotel.jp/hotel-faq"
+        },
+        {
+          "text": "Terms and Conditions\nTerms and Conditions",
+          "href": "https://dddhotel.jp/en/terms"
+        },
+        {
+          "text": "Privacy Policy\nPrivacy Policy",
+          "href": "https://dddhotel.jp/en/privacy"
+        },
+        {
+          "text": "Careers\nCareers",
+          "href": "https://www.stories-dddhotel.jp/now-hiring"
+        },
+        {
+          "text": "Concept",
+          "href": "https://dddhotel.jp/en/concept"
+        },
+        {
+          "text": "CONCEPT\nCONCEPT",
+          "href": "https://dddhotel.jp/en/concept"
+        },
+        {
+          "text": "SUPERIORTWINROOM/MINIMALDOUBLEROOM/STANDARDTRIPLEROOM",
+          "href": "https://dddhotel.jp/en/rooms"
+        },
+        {
+          "text": "SUPERIORTWINROOM/MINIMALDOUBLEROOM/STANDARDTRIPLEROOM",
+          "href": "https://dddhotel.jp/en/rooms"
+        },
+        {
+          "text": "ROOMS\nROOMS",
+          "href": "https://dddhotel.jp/en/rooms"
+        },
+        {
+          "text": "Cafe&Bar",
+          "href": "https://dddhotel.jp/en/cafeandbar"
+        },
+        {
+          "text": "Kitchen",
+          "href": "http://nol.jp/"
+        },
+        {
+          "text": "Gallery",
+          "href": "https://dddhotel.jp/en/gallery"
+        },
+        {
+          "text": "Join the collective\nBookNow\nBookNow",
+          "href": "https://go-dddhotel.reservation.jp/en"
+        },
+        {
+          "text": "instagram",
+          "href": "https://www.instagram.com/dddhotel/"
+        },
+        {
+          "text": "+81 3 3668 0840",
+          "href": "tel:+81-3-3668-0840"
+        },
+        {
+          "text": "Map",
+          "href": "https://goo.gl/maps/cUGNvtt4rFz"
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.stories-dddhotel.jp/hotel-faq"
+        }
+      ],
+      "typography": [
+        {
+          "tag": "A",
+          "text": "Home",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "76.0128px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(41, 41, 41)"
+        },
+        {
+          "tag": "A",
+          "text": "Concept",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "76.0128px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        {
+          "tag": "A",
+          "text": "Rooms",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "76.0128px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        {
+          "tag": "A",
+          "text": "Access",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "76.0128px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        {
+          "tag": "A",
+          "text": "Cafe & Bar",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "76.0128px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        {
+          "tag": "A",
+          "text": "Gallery",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "76.0128px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        {
+          "tag": "A",
+          "text": "Kitchen",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "76.0128px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        {
+          "tag": "A",
+          "text": "FAQ",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "76.0128px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        {
+          "tag": "H1",
+          "text": "",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "14.3808px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(4, 4, 4)"
+        },
+        {
+          "tag": "H2",
+          "text": "Welcome",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "20.544px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        {
+          "tag": "H2",
+          "text": "Discover",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "20.544px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(4, 4, 4)"
+        },
+        {
+          "tag": "H2",
+          "text": "Facilities",
+          "font": "Cardo, \"Noto Sans JP\", \"ヒラギノ明朝 ProN W3\", \"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"ＭＳ 明朝\", serif",
+          "size": "20.544px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "color": "rgb(4, 4, 4)"
+        }
+      ],
+      "video": [],
+      "mobileMetrics": {
+        "width": 390,
+        "body": 390
+      },
+      "deduplicatedCapture": {
+        "removed": "ddd-1440-section.png",
+        "identicalRetained": "ddd-1440-hero.png",
+        "audit": "design-cleanup.json"
+      }
+    }
+  ],
+  "limitations": [],
+  "awardRecords": [
+    {
+      "id": "drake",
+      "url": "https://www.awwwards.com/sites/the-drake-hotel",
+      "text": "The Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nExplore\nDirectory\nAcademy\nNew\nJobs\nMarket\nLog in\nSign Up\nBe Pro\nSubmit Website\nThe Drake Hotel\nby\nLocomotive PRO\nSOTD\n7.44\n/10\nSite of the Day - Sep 2, 2025\nTHE DRAKE HOTEL\nLocomotive PRO\nElements\nSee the highlights\nof this website.\nMenu\nfrom\nNavigation\nDiscover\nfrom\nUI Components\nBlog\nfrom\nBlog\nPage hero\nfrom\nHeader\nMobile layouts\nfrom\nUI Components\nHeaders\nfrom\nHeader\nCards\nfrom\nUI Components\n2\nContent\nfrom\nUI Components\nColor Palette\n\nThis website uses a color\npalette of 2 colors\n\nHEX #F0EEEA\nAa\nHEX #FFFFFF\nAa\nTechnologies & Tools\nBusiness & Corporate\nHotel / Restaurant\nLuxury\nAnimation\nInteraction Design\nUI design\nMicrointeractions\nContentful\nWordpress\nHTML5\nTailwind\nDescription\nLocated in the heart of Toronto and Prince Edward County, Drake Hotel Properties are boutique hotels that blend culture, community, and hospitality for curious travellers.\nSOTD / SCORE\n→ 7.44/ 10\nEvaluation System\nDesign\n40%\nUsability\n30%\nCreativity\n20%\nContent\n10%\n7.63 / 10\n7.25 / 10\n7.35 / 10\n7.41 / 10\nVotes\nJury\nCommunity Members\nDesign\nUsability\nCreativity\nContent\nOverall\nLudovic Saffroy from France\nco-founder & CTO\n7\n7\n7\n7\n7.00\nJoakim Holmqvist TBD from Sweden\ndesigner\n5\n6\n6\n6\n5.60\nEkaterina Komarova from Russia\nart-director\n8\n7\n7\n7\n7.40\nMarina Golubeva from Russia\nWeb designer\n8\n7\n7\n8\n7.50\nRuslan Siiz from Poland\nSenior Designer\n9\n8\n8\n8\n8.40\n•••\nDEV AWARD\n→ 7.54/ 10\nEvaluation System\nSemantics / SEO\nAnimations / Transitions\nAccessibility\nWPO\nResponsive Design\nMarkup / Meta-data\n7.60 / 10\n7.80 / 10\n7.00 / 10\n7.80 / 10\n7.40 / 10\n7.40 / 10\nVotes\nJury\nSemantics\nAnimations\nAccessibility\nWPO\nResponsive Design\nMarkup\nOverall\nIrene Butenko from United States\nUI/UX Designer and Webflow Developer\n7\n8\n7\n8\n7\n7\n7.35\nmChanh from Vietnam\ncreative developer\n8\n8\n8\n8\n8\n8\n8.00\nFrancesco Michelini from Italy\nFreelance creative developer\n7\n8\n6\n8\n7\n7\n7.25\nFederico Pian from Italy\nFreelance Creative Developer and Co-Founder of Overpx Studio\n8\n8\n6\n8\n7\n8\n7.60\nAndrea Biason from Italy\nCreative Frontend Developer at Adoratorio\n8\n7\n8\n7\n8\n7\n7.50\nCollections\nExplore more\ngreat collections.\nHandy Tools and Apps for De...\nfollowed by\n+1059\nWebGL / HTML5 Games\nfollowed by\n+74\nInteractive Narratives\nfollowed by\n+132\nText Marquee animation\nfollowed by\n+36\nInteractive Experience\nfollowed by\n+195\nCSS Animations\nfollowed by\n+474\nTrendy Gradients\nfollowed by\n+179\nTypography in Web Design\nfollowed by\n+189\nCreator\nFont & Color\nDetails\nScore\nVisit Site\n\nWebsites\nCollections\nElements\nAcademy\nJobs\nMarket\nDirectory\nConferences\nFAQs\nAbout Us\nContact Us\nCookies Policy\nLegal Terms\nPrivacy Policy\nConnect:\nInstagram\nLinkedIn\nTwitter\nFacebook\nYouTube\nTikTok\nPinterest\n\nThis website uses cookies to ensure you get the best experience on our website. Cookies Policy\n\nGOT IT",
+      "screen": "awwwards-drake.png"
+    },
+    {
+      "id": "ddd",
+      "url": "https://www.awwwards.com/sites/ddd-hotel",
+      "text": "The Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nThe Creative Pass  Watch all courses for just $12/month\nExplore\nDirectory\nAcademy\nNew\nJobs\nMarket\nLog in\nSign Up\nBe Pro\nSubmit Website\nDDD HOTEL\nby\nGarden Eight PRO\nMikiko Kikuoka\nKenta Toshikura\nSOTD\n7.45\n/10\nSite of the Day - Feb 24, 2020\nDDD HOTEL\nGarden Eight PRO\nMikiko Kikuoka\nKenta Toshikura\nElements\nSee the highlights\nof this website.\nvideo\nFull Screen Menu - DDD hotel\nfrom\nMenu\nvideo\nTransition Navigation - DDD Hotel\nfrom\nInteraction\nColor Palette\n\nThis website uses a color\npalette of 3 colors\n\nHEX #49c5b6\nAa\nHEX #9C9C9C\nAa\nHEX #ffffff\nAa\nTechnologies & Tools\nHotel / Restaurant\nClean\nTypography\nTransitions\nWebGL\nGSAP\nThree.js\nNuxt.js\nDescription\nDDD HOTEL is a design hotel in central Tokyo. It also has a contemporary art gallery, cafe, bar, and restaurant directed by a Michelin star chef. It is space where creators collaborate.\nSOTD / SCORE\n→ 7.45/ 10\nEvaluation System\nDesign\n40%\nUsability\n30%\nCreativity\n20%\nContent\n10%\n7.61 / 10\n7.23 / 10\n7.51 / 10\n7.31 / 10\nVotes\nJury\nCommunity Members\nDesign\nUsability\nCreativity\nContent\nOverall\nAnton Pecheritsa from Russia\nArt Director & Digital Designer\n8\n7\n7\n8\n7.50\nAnais Iris from France\ninteractive designer\n7\n8\n7\n7\n7.30\nClément Dumas from France\nSenior Product Designer\n8\n7\n9\n8\n7.90\nSaz Chaudhry from United Kingdom\nCreative Director\n7\n7\n8\n7\n7.20\nFélix Péault from France\nFreelance Art Director and Digital Designer\n7\n6\n8\n7\n6.90\n•••\nDEV AWARD\n→ 7/ 10\nEvaluation System\nSemantics / SEO\nAnimations / Transitions\nAccessibility\nWPO\nResponsive Design\nMarkup / Meta-data\n6.67 / 10\n8.00 / 10\n6.67 / 10\n7.00 / 10\n7.00 / 10\n6.67 / 10\nVotes\nJury\nSemantics\nAnimations\nAccessibility\nWPO\nResponsive Design\nMarkup\nOverall\nFabio Carretti from Italy\nFreelance Creative Developer\n7\n8\n6\n7\n7\n6\n6.90\nGopal Raju from India\nLead front-end Architect\n7\n8\n7\n8\n8\n7\n7.55\nBahaa Samir from United Arab Emirates\nCreative Director/Developer\n6\n8\n7\n6\n6\n7\n6.55\nCollections\nExplore more\ngreat collections.\nHandy Tools and Apps for De...\nfollowed by\n+1059\nWebGL / HTML5 Games\nfollowed by\n+74\nText Marquee animation\nfollowed by\n+36\nCSS Animations\nfollowed by\n+474\nTrendy Gradients\nfollowed by\n+179\nTypography in Web Design\nfollowed by\n+189\nHorizontal Layout Websites\nfollowed by\n+55\nVideo and Audio Players\nfollowed by\n+745\nCreator\nFont & Color\nDetails\nScore\nVisit Site\n\nWebsites\nCollections\nElements\nAcademy\nJobs\nMarket\nDirectory\nConferences\nFAQs\nAbout Us\nContact Us\nCookies Policy\nLegal Terms\nPrivacy Policy\nConnect:\nInstagram\nLinkedIn\nTwitter\nFacebook\nYouTube\nTikTok\nPinterest\n\nThis website uses cookies to ensure you get the best experience on our website. Cookies Policy\n\nGOT IT",
+      "screen": "awwwards-ddd.png"
+    }
+  ]
+}

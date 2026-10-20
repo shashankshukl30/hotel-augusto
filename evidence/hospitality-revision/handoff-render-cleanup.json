@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-20T06:05:00.0419124Z",
+  "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review",
+  "removed": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\page-1.png",
+      "bytes": 180946,
+      "sha256": "1523AE6F33418B67F9C5BC6BA662C174D5F1D5544B4C24ECB7967475566156EB",
+      "reason": "Disposable initial Word pagination test render. Final editable twins, three-page PDF and visually inspected final-page images retained and hashed."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\page-2.png",
+      "bytes": 17833,
+      "sha256": "0FD59970A8337527E66678C390A9BBAE662300E3E1EF55A865ED6ED17A719293",
+      "reason": "Disposable initial Word pagination test render. Final editable twins, three-page PDF and visually inspected final-page images retained and hashed."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\page-3.png",
+      "bytes": 192010,
+      "sha256": "C13D44249C09CB4EDBB36C67571E1DFEC3B988310CCC7EB4F9145010742A3083",
+      "reason": "Disposable initial Word pagination test render. Final editable twins, three-page PDF and visually inspected final-page images retained and hashed."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\page-4.png",
+      "bytes": 17255,
+      "sha256": "A3DC763140871513C1859108C095F8257CD9D328DBF9950F3454894468D69799",
+      "reason": "Disposable initial Word pagination test render. Final editable twins, three-page PDF and visually inspected final-page images retained and hashed."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\page-5.png",
+      "bytes": 214721,
+      "sha256": "BFC0806AD3C369A39B5EF034039F4C2BA85D1CA7ADCBDF795496A361D75F4C4E",
+      "reason": "Disposable initial Word pagination test render. Final editable twins, three-page PDF and visually inspected final-page images retained and hashed."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\page-6.png",
+      "bytes": 13494,
+      "sha256": "DF1D3340D2A47A024224FCFDFB69F1544EDC67468603F94D35CB5480F8BE1201",
+      "reason": "Disposable initial Word pagination test render. Final editable twins, three-page PDF and visually inspected final-page images retained and hashed."
+    }
+  ],
+  "removedBytes": 636259,
+  "retained": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\HANDOFF.md",
+      "bytes": 11976,
+      "sha256": "D95FD065985997E8E9C4F9424AF66C1238A5F175E13EBF20778B2559032E67A7"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\HANDOFF.docx",
+      "bytes": 44282,
+      "sha256": "23D0D0B0A36CBAC7A0B71FA71484A9BB40F779653332E13074E45759373B4B0C"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\HANDOFF.pdf",
+      "bytes": 283206,
+      "sha256": "A6DD688AB66D436C85C334717914FBD3D3932EA256CB9C0CD590F14AFA4DCEED"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-1.png",
+      "bytes": 188546,
+      "sha256": "7C50D7816B51E1BFDC0A8D197FAC1D02F9C85FC91766F73A43A5C93727FDD433"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-2.png",
+      "bytes": 199269,
+      "sha256": "83E6BF4A74C103C125B1B2D28386A04142839933E1C1095291A3041F6C346B09"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-3.png",
+      "bytes": 218443,
+      "sha256": "B4AB8D779B7D9EA2720BC92AF55CA4654DCA9DC340EFB19ABA1EAA97627E6476"
+    }
+  ],
+  "freeBytesBefore": {
+    "D": 68053032960,
+    "C": 26286379008
+  },
+  "freeBytesAfter": {
+    "D": 68038807552,
+    "C": 26286379008
+  },
+  "priorBlockedArtifactsUntouched": true
+}

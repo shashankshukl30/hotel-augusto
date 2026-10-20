@@ -1,0 +1,1229 @@
+{
+  "timestamp": "2026-10-20T06:06:49.033331+00:00",
+  "scope": "Read-only static artifact audit after mobile header refinement; no browser or network requests.",
+  "expectedBaseUrl": "https://hotel-augusto.candy-okapi-4696.chatgpt.site",
+  "status": "pass",
+  "previousAudit": {
+    "timestamp": "2026-10-20T05:58:05.809173+00:00",
+    "summary": {
+      "contentRoutes": 16,
+      "notFoundArtifact": true,
+      "checks": 60,
+      "passed": 60,
+      "failed": 0,
+      "localDependencies": 57,
+      "dependencyReferences": 413,
+      "imagesDecoded": 24,
+      "fontsParsed": 5,
+      "formsInspected": 6
+    }
+  },
+  "summary": {
+    "contentRoutes": 16,
+    "notFoundArtifact": true,
+    "checks": 60,
+    "passed": 60,
+    "failed": 0,
+    "localDependencies": 57,
+    "dependencyReferences": 413,
+    "imagesDecoded": 24,
+    "fontsParsed": 5,
+    "formsInspected": 6
+  },
+  "checks": [
+    {
+      "name": "Export exists: /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "One H1: /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Private noindex: /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Export exists: /404",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Referenced image/font/script/stylesheet files resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Local navigation targets have corresponding artifacts",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "All canonical and OG URLs use expected private preview base",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Every exported property/destination photo and OG image decodes",
+      "passed": true,
+      "detail": 24
+    },
+    {
+      "name": "Exported OG is PNG1200x630",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All exported fonts parse",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "name": "No active exported form server actions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No application API/server-action dependency",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Client form handoff: components/booking-form.tsx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Client form handoff: components/stay-bar.tsx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview robots blocks indexing",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "Hotel Augusto Varanasi | A Stay in the Heart of Kashi",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image?ed6ce1c4008ba191",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/hotel",
+      "title": "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/rooms",
+      "title": "Rooms at Hotel Augusto Varanasi | Find Your Kashi Stay",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/rooms/compare",
+      "title": "Compare Rooms at Hotel Augusto Varanasi | Find Your Stay",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/rooms/family-room",
+      "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/dining",
+      "title": "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/varanasi",
+      "title": "Explore Varanasi: Ghats and Temple Walks | Hotel Augusto",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/gallery",
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/guides",
+      "title": "Practical Travel Guides for Varanasi | Hotel Augusto",
+      "h1Count": 1,
+      "canonical": [
+        "https://hotel-augusto.candy-okapi-4696.chatgpt.site/guides"
+      ],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/guides/arriving-in-godowlia",
+      "title": "Arriving in Godowlia, Varanasi | Hotel Augusto Guide",
+      "h1Count": 1,
+      "canonical": [
+        "https://hotel-augusto.candy-okapi-4696.chatgpt.site/guides/arriving-in-godowlia"
+      ],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/guides/choosing-your-room",
+      "title": "Choosing Your Room in Varanasi | Hotel Augusto Guide",
+      "h1Count": 1,
+      "canonical": [
+        "https://hotel-augusto.candy-okapi-4696.chatgpt.site/guides/choosing-your-room"
+      ],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/guides/first-visit-to-kashi",
+      "title": "First Visit to Kashi Vishwanath | Hotel Augusto Guide",
+      "h1Count": 1,
+      "canonical": [
+        "https://hotel-augusto.candy-okapi-4696.chatgpt.site/guides/first-visit-to-kashi"
+      ],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/contact",
+      "title": "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/privacy",
+      "title": "Privacy & Photo Credits | Hotel Augusto in Varanasi",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    },
+    {
+      "route": "/404",
+      "title": "Hotel Augusto Varanasi | A Stay in the Heart of Kashi",
+      "h1Count": 1,
+      "canonical": [],
+      "ogImage": "https://hotel-augusto.candy-okapi-4696.chatgpt.site/opengraph-image?ed6ce1c4008ba191",
+      "ogUrl": null,
+      "robots": "noindex, nofollow"
+    }
+  ],
+  "images": [
+    {
+      "file": "out/images/augusto-og-room-v1.jpg",
+      "format": "JPEG",
+      "size": [
+        1200,
+        675
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/deluxe-room-blue.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/deluxe-room.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/dining-room-wide.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/dining-room.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/family-room-alternate.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/family-room.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/ganges-boats.webp",
+      "format": "WEBP",
+      "size": [
+        2400,
+        1600
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/ganges-dawn.webp",
+      "format": "WEBP",
+      "size": [
+        2400,
+        1350
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/google-dining-room.webp",
+      "format": "WEBP",
+      "size": [
+        1000,
+        667
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/google-double-room.webp",
+      "format": "WEBP",
+      "size": [
+        1024,
+        768
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/google-family-room.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        1200
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/hotel-exterior-day.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/hotel-exterior.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/hotel-lobby.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/hotel-lounge.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/hotel-reception.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/kashi-vishwanath.webp",
+      "format": "WEBP",
+      "size": [
+        1153,
+        2048
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/room-bathroom.webp",
+      "format": "WEBP",
+      "size": [
+        1333,
+        1080
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/room-tea.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/twin-room.webp",
+      "format": "WEBP",
+      "size": [
+        1600,
+        900
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/varanasi-ghats.webp",
+      "format": "WEBP",
+      "size": [
+        2400,
+        1600
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/images/varanasi-hero.webp",
+      "format": "WEBP",
+      "size": [
+        2800,
+        1867
+      ],
+      "valid": true
+    },
+    {
+      "file": "out/opengraph-image",
+      "format": "PNG",
+      "size": [
+        1200,
+        630
+      ],
+      "valid": true
+    }
+  ],
+  "fonts": [
+    {
+      "file": "out/_next/static/media/bodoni_moda_latin_wght_italic-s.p.2ebojhi24cjg8.woff2",
+      "valid": true,
+      "glyphs": 224
+    },
+    {
+      "file": "out/_next/static/media/bodoni_moda_latin_wght_normal-s.p.328xhr0-_klet.woff2",
+      "valid": true,
+      "glyphs": 224
+    },
+    {
+      "file": "out/_next/static/media/manrope_latin_wght_normal-s.p.1p_a2k8qd5zhp.woff2",
+      "valid": true,
+      "glyphs": 218
+    },
+    {
+      "file": "out/fonts/augusto-og-bodoni-400-v1.ttf",
+      "valid": true,
+      "glyphs": 224
+    },
+    {
+      "file": "out/fonts/augusto-og-manrope-500-v1.ttf",
+      "valid": true,
+      "glyphs": 218
+    }
+  ],
+  "forms": [
+    {
+      "route": "/",
+      "attributes": {
+        "class": "stay-bar",
+        "novalidate": ""
+      }
+    },
+    {
+      "route": "/",
+      "attributes": {
+        "class": "stay-bar stay-bar-compact",
+        "novalidate": ""
+      }
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "attributes": {
+        "class": "stay-bar stay-bar-compact",
+        "novalidate": ""
+      }
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "attributes": {
+        "class": "stay-bar stay-bar-compact",
+        "novalidate": ""
+      }
+    },
+    {
+      "route": "/rooms/family-room",
+      "attributes": {
+        "class": "stay-bar stay-bar-compact",
+        "novalidate": ""
+      }
+    },
+    {
+      "route": "/contact",
+      "attributes": {
+        "class": "booking-form",
+        "novalidate": ""
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "out/_next/static/media/bodoni_moda_latin_wght_italic-s.p.2ebojhi24cjg8.woff2",
+      "types": [
+        "css:url",
+        "link:preload"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/media/bodoni_moda_latin_wght_normal-s.p.328xhr0-_klet.woff2",
+      "types": [
+        "css:url",
+        "link:preload"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/media/manrope_latin_wght_normal-s.p.1p_a2k8qd5zhp.woff2",
+      "types": [
+        "css:url",
+        "link:preload"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/images/deluxe-room-blue.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 8
+    },
+    {
+      "file": "out/images/hotel-lounge.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 4
+    },
+    {
+      "file": "out/images/dining-room-wide.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 6
+    },
+    {
+      "file": "out/_next/static/chunks/2--pcje9hgdnr.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/10ndguidpimqo.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 4
+    },
+    {
+      "file": "out/_next/static/chunks/2xxh0u7uuv28x.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 2
+    },
+    {
+      "file": "out/_next/static/chunks/3j9irz7d6lmje.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 3
+    },
+    {
+      "file": "out/_next/static/chunks/02co_o4n0c2ek.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/1ckvzn7sfprko.js",
+      "types": [
+        "link:preload",
+        "script"
+      ],
+      "references": 34
+    },
+    {
+      "file": "out/_next/static/chunks/0sg2ukq2rk6r3.js",
+      "types": [
+        "script"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/0zl36_62a8ie1.js",
+      "types": [
+        "script"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/1mx4qwoz_o81k.js",
+      "types": [
+        "script"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/turbopack-2c3mg3r-05n1w.js",
+      "types": [
+        "script"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/0hc7wuz5pxnnp.js",
+      "types": [
+        "script"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/1nvvea00hqd4e.js",
+      "types": [
+        "script"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/3q45jf57qxvi9.js",
+      "types": [
+        "script"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/19tov911x8wuw.js",
+      "types": [
+        "script"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/icon.svg",
+      "types": [
+        "link:icon"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "types": [
+        "script"
+      ],
+      "references": 17
+    },
+    {
+      "file": "out/images/hotel-reception.webp",
+      "types": [
+        "img"
+      ],
+      "references": 3
+    },
+    {
+      "file": "out/images/deluxe-room.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 11
+    },
+    {
+      "file": "out/images/twin-room.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 12
+    },
+    {
+      "file": "out/images/room-bathroom.webp",
+      "types": [
+        "img"
+      ],
+      "references": 5
+    },
+    {
+      "file": "out/images/family-room.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 13
+    },
+    {
+      "file": "out/images/family-room-alternate.webp",
+      "types": [
+        "img"
+      ],
+      "references": 4
+    },
+    {
+      "file": "out/images/google-dining-room.webp",
+      "types": [
+        "img"
+      ],
+      "references": 3
+    },
+    {
+      "file": "out/images/ganges-dawn.webp",
+      "types": [
+        "img"
+      ],
+      "references": 2
+    },
+    {
+      "file": "out/images/kashi-vishwanath.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 7
+    },
+    {
+      "file": "out/images/hotel-exterior-day.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 10
+    },
+    {
+      "file": "out/images/ganges-boats.webp",
+      "types": [
+        "img"
+      ],
+      "references": 3
+    },
+    {
+      "file": "out/images/hotel-lobby.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 4
+    },
+    {
+      "file": "out/images/google-double-room.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 4
+    },
+    {
+      "file": "out/_next/static/chunks/1c_mgu0p290td.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 2
+    },
+    {
+      "file": "out/_next/static/chunks/2r3vhtlgkosln.js",
+      "types": [
+        "script"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/3lvduguby5y-0.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 5
+    },
+    {
+      "file": "out/_next/static/chunks/1xknmwe68zri_.js",
+      "types": [
+        "script"
+      ],
+      "references": 3
+    },
+    {
+      "file": "out/_next/static/chunks/0a_97wifjgg3j.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/3yu1ch7jevfgp.js",
+      "types": [
+        "script"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/36d9hlmczsqdu.js",
+      "types": [
+        "script"
+      ],
+      "references": 3
+    },
+    {
+      "file": "out/images/room-tea.webp",
+      "types": [
+        "img"
+      ],
+      "references": 6
+    },
+    {
+      "file": "out/images/varanasi-hero.webp",
+      "types": [
+        "img",
+        "link:preload"
+      ],
+      "references": 2
+    },
+    {
+      "file": "out/_next/static/chunks/07fkrj9i8ou7b.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 6
+    },
+    {
+      "file": "out/_next/static/chunks/1-ope95_xb0fc.js",
+      "types": [
+        "script"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/3wrg1yfhyg1p2.js",
+      "types": [
+        "script"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/images/dining-room.webp",
+      "types": [
+        "img"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/images/hotel-exterior.webp",
+      "types": [
+        "img"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/images/google-family-room.webp",
+      "types": [
+        "img"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/0tjad1d22l9sg.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 4
+    },
+    {
+      "file": "out/_next/static/chunks/3c-vxhcs8gqz9.js",
+      "types": [
+        "script"
+      ],
+      "references": 3
+    },
+    {
+      "file": "out/_next/static/chunks/21r_t2p43pnmh.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/0vpc65mss17fz.css",
+      "types": [
+        "link:stylesheet"
+      ],
+      "references": 2
+    },
+    {
+      "file": "out/_next/static/chunks/25n9ie5vf048f.js",
+      "types": [
+        "script"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/23hfurtc0ji53.js",
+      "types": [
+        "script"
+      ],
+      "references": 1
+    },
+    {
+      "file": "out/_next/static/chunks/2pkl4vstykwaz.js",
+      "types": [
+        "script"
+      ],
+      "references": 1
+    }
+  ],
+  "hostingBehavior": {
+    "source": "C:/Users/Shashank Shukla/.codex/plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/scripts/prepare-site-build.cjs",
+    "verified": [
+      "The helper accepts out as static.directory.",
+      "It requires out/index.html and copies the static tree into the packaged dist directory.",
+      "It supports optional not_found_handling values none, 404-page or single-page-application.",
+      "The current manifest declares only static.directory=out; no explicit not_found_handling."
+    ],
+    "notEstablished": [
+      "The installed helper does not document or configure extensionless URL to .html resolution.",
+      "Direct HTTP /rooms and nested guide routes, unknown-path status, extensionless opengraph-image content type, and host security headers require deployed-host verification."
+    ],
+    "artifactShape": "Next generated route.html files plus route.txt and segment-prefetch payloads. Asset checks resolve files locally; this does not prove the private host clean-URL policy."
+  },
+  "cleanup": {
+    "beforeFreeBytes": {
+      "C": 26299314176,
+      "D": 68131885056
+    },
+    "afterFreeBytes": {
+      "C": 26201407488,
+      "D": 68129173504
+    },
+    "removed": [],
+    "reason": "Only required reproducible audit source and report created; no disposable files."
+  }
+}

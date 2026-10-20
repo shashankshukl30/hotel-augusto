@@ -19,6 +19,9 @@ with sync_playwright() as p:
         errors = []
         page.on('pageerror',lambda error: errors.append(str(error)))
         page.goto(args.base_url,wait_until='networkidle')
+        scene = page.get_by_role('button', name='Show guest rooms', exact=True)
+        if scene.count():
+            scene.click()
         page.evaluate("document.documentElement.style.scrollBehavior='auto'")
         for y in range(0,page.evaluate('document.body.scrollHeight'),700):
             page.evaluate('(y)=>window.scrollTo(0,y)',y)

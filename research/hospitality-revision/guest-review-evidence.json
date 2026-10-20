@@ -1,0 +1,29 @@
+{
+  "reviewedAt": "2026-10-20",
+  "method": "Read existing rendered Google profile evidence; no new research or direct Tripadvisor revisit.",
+  "supportedExcerpts": [
+    {
+      "platform": "Tripadvisor",
+      "authorDisplayName": "Flyer47905230766",
+      "displayedDate": "4 months ago in the 19 October 2026 Google profile capture",
+      "individualReviewUrl": "https://www.tripadvisor.com/ShowUserReviews-g297685-d6540696-r1063977750",
+      "exactCapturedText": "Best hotel and very fast service food also very good thank you hotel augusto and aroma of kashi restaurant",
+      "suggestedExactExcerpt": "very fast service food also very good",
+      "excerptWordCount": 7,
+      "evidenceFiles": [
+        "research/requested-source-verification/google-profile.txt",
+        "research/requested-source-verification/google-profile.json",
+        "research/requested-source-verification/google-profile.png"
+      ],
+      "limitations": [
+        "Review was displayed through Google's Tripadvisor syndication; do not attribute it as a Google-authored review.",
+        "Relative date was captured, not a verified exact review date.",
+        "This is one guest's view and does not establish a universal service guarantee.",
+        "The restaurant name in the full review does not prove ownership or an official hotel restaurant brand.",
+        "An ellipsis may indicate the excerpt; preserve exact words and reviewer attribution."
+      ]
+    }
+  ],
+  "unsupported": "No second attributable exact guest excerpt was found in the retained evidence.",
+  "messagesSent": 0
+}

@@ -4,21 +4,27 @@ import { useEffect, useState } from "react";
 import { ArrowUpRight, Check } from "lucide-react";
 import { hotel, rooms } from "@/content/hotel";
 import { buildWhatsAppUrl, localToday, nextDate, validateEnquiry, type Enquiry, type EnquiryErrors } from "@/lib/booking";
+import { readStayQuery } from "@/lib/stay-query";
 import { WhatsAppIcon } from "./whatsapp-icon";
 import "./booking-form.css";
 
 export function BookingForm({ room = "" }: { room?: string }) {
   const [errors, setErrors] = useState<EnquiryErrors>({});
-  const [arrival, setArrival] = useState("");
   const [draft, setDraft] = useState<string | null>(null);
   const [today, setToday] = useState("");
   useEffect(() => {
     const date = document.querySelector<HTMLInputElement>("#arrival");
     if (date) date.min = localToday();
-    const queryRoom = new URLSearchParams(window.location.search).get("room");
-    const selected = rooms.find(item => item.slug === queryRoom);
+    const stay = readStayQuery(new URLSearchParams(window.location.search), rooms.map(item => item.slug));
+    const selected = rooms.find(item => item.slug === stay.room);
     const select = document.querySelector<HTMLSelectElement>("#room");
     if (selected && select) select.value = selected.name;
+    for (const name of ["arrival", "departure", "adults", "children"] as const) {
+      const field = document.getElementById(name) as HTMLInputElement | HTMLSelectElement | null;
+      if (field && stay[name]) field.value = stay[name];
+    }
+    const departure = document.querySelector<HTMLInputElement>("#departure");
+    if (departure && stay.arrival) departure.min = nextDate(stay.arrival);
   }, []);
   const error = (field: keyof Enquiry) => errors[field] ? <span className="field-error" id={`${field}-error`}>{errors[field]}</span> : null;
   return <form className="booking-form" noValidate onChange={() => { if (draft) setDraft(null); }} onSubmit={(event) => {
@@ -37,8 +43,8 @@ export function BookingForm({ room = "" }: { room?: string }) {
   }}>
     <div className="form-heading"><h3>Plan your stay.</h3><p>Share a few details. We’ll prepare your enquiry to send directly to the hotel on WhatsApp.</p></div>
     <div className="booking-fields">
-      <div className="form-field"><label htmlFor="arrival">Arrival <span>*</span></label><input type="date" id="arrival" name="arrival" required value={arrival} min={today || undefined} onFocus={() => setToday(localToday())} onChange={event => setArrival(event.target.value)} aria-invalid={!!errors.arrival} aria-describedby={errors.arrival ? "arrival-error" : undefined}/>{error("arrival")}</div>
-      <div className="form-field"><label htmlFor="departure">Departure <span>*</span></label><input type="date" id="departure" name="departure" required min={arrival ? nextDate(arrival) : today || undefined} onFocus={() => setToday(localToday())} aria-invalid={!!errors.departure} aria-describedby={errors.departure ? "departure-error" : undefined}/>{error("departure")}</div>
+      <div className="form-field"><label htmlFor="arrival">Arrival <span>*</span></label><input type="date" id="arrival" name="arrival" required min={today || undefined} onFocus={() => setToday(localToday())} onChange={event => { const departure = document.querySelector<HTMLInputElement>("#departure"); if(departure) departure.min = nextDate(event.target.value); }} aria-invalid={!!errors.arrival} aria-describedby={errors.arrival ? "arrival-error" : undefined}/>{error("arrival")}</div>
+      <div className="form-field"><label htmlFor="departure">Departure <span>*</span></label><input type="date" id="departure" name="departure" required onFocus={() => setToday(localToday())} aria-invalid={!!errors.departure} aria-describedby={errors.departure ? "departure-error" : undefined}/>{error("departure")}</div>
       <div className="form-field"><label htmlFor="adults">Adults <span>*</span></label><select id="adults" name="adults" defaultValue="2" aria-invalid={!!errors.adults}>{Array.from({length:8},(_,i)=>i+1).map(n=><option value={n} key={n}>{n} adult{n===1?"":"s"}</option>)}</select>{error("adults")}</div>
       <div className="form-field"><label htmlFor="children">Children</label><select id="children" name="children" defaultValue="0" aria-invalid={!!errors.children}>{Array.from({length:7},(_,i)=>i).map(n=><option value={n} key={n}>{n===0?"No children":`${n} ${n===1?"child":"children"}`}</option>)}</select>{error("children")}</div>
       <div className="form-field full-field"><label htmlFor="room">Your room preference</label><select id="room" name="room" defaultValue={room}><option value="">Help me choose</option>{rooms.map(item=><option key={item.slug} value={item.name}>{item.name}</option>)}</select></div>

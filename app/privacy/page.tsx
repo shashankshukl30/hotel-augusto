@@ -44,7 +44,7 @@ export default function PrivacyPage() {
             How this website handles your information, with credits for
             the photographs that bring Varanasi to these pages.
           </p>
-          <p className="privacy-updated">Last updated: 19 October 2026</p>
+          <p className="privacy-updated">Last updated: 20 October 2026</p>
         </Reveal>
       </section>
 
@@ -78,14 +78,15 @@ export default function PrivacyPage() {
                 reservations. Availability, rates and booking terms are agreed
                 directly with the hotel.
               </p>
+              <p>The date and guest selector carries your travel dates, party size and room preference to the enquiry page in its URL. These preferences may remain in your browser history. Your name and personal notes are not included in that link.</p>
             </section>
 
             <section className="privacy-section" id="technical-information">
               <h2>Browsing the website</h2>
               <p>
                 No advertising pixels or visitor analytics are installed on this
-                website. Fonts and photographs are served as website assets;
-                there is no embedded map or social-media feed.
+                website. Fonts and photographs are served as website assets.
+                There is no embedded social-media feed.
               </p>
               <p>
                 The hosting service may process basic technical information,
@@ -96,6 +97,7 @@ export default function PrivacyPage() {
 
             <section className="privacy-section" id="external-services">
               <h2>When you follow a link</h2>
+              <p>The arrival guide offers an optional Google map. It loads only after you select “Load Google map”. At that point, your browser connects to Google, which may receive technical information such as your IP address and apply its own privacy policy.</p>
               <p>
                 WhatsApp, Google Maps and other websites linked from these pages
                 are operated separately. When you open them, their terms and

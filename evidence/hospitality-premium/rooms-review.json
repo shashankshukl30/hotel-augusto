@@ -1,0 +1,1096 @@
+{
+  "started": "2026-10-20T05:45:13.218148+00:00",
+  "base": "http://127.0.0.1:3082",
+  "layouts": [
+    {
+      "route": "/rooms/compare",
+      "width": 360,
+      "passed": true,
+      "inner": 360,
+      "client": 360,
+      "body": 360,
+      "h1": [
+        "Which roomfeels like yours?"
+      ],
+      "title": "Compare Rooms at Hotel Augusto Varanasi | Find Your Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "48px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    },
+    {
+      "route": "/rooms",
+      "width": 390,
+      "passed": true,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "h1": [
+        "A place tosettle in."
+      ],
+      "title": "Rooms at Hotel Augusto Varanasi | Find Your Kashi Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "56.16px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 390,
+      "passed": true,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "title": "Deluxe Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "53.04px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 296,
+          "h": 44,
+          "font": "16px"
+        },
+        {
+          "name": "departure",
+          "w": 296,
+          "h": 44,
+          "font": "16px"
+        },
+        {
+          "name": "adults",
+          "w": 139,
+          "h": 30,
+          "font": "15px"
+        },
+        {
+          "name": "children",
+          "w": 139,
+          "h": 30,
+          "font": "15px"
+        },
+        {
+          "name": "room",
+          "w": 139,
+          "h": 44,
+          "font": "16px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 390,
+      "passed": true,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "53.04px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 296,
+          "h": 44,
+          "font": "16px"
+        },
+        {
+          "name": "departure",
+          "w": 296,
+          "h": 44,
+          "font": "16px"
+        },
+        {
+          "name": "adults",
+          "w": 139,
+          "h": 30,
+          "font": "15px"
+        },
+        {
+          "name": "children",
+          "w": 139,
+          "h": 30,
+          "font": "15px"
+        },
+        {
+          "name": "room",
+          "w": 139,
+          "h": 44,
+          "font": "16px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 390,
+      "passed": true,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "h1": [
+        "Family Room"
+      ],
+      "title": "Family Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "53.04px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 296,
+          "h": 44,
+          "font": "16px"
+        },
+        {
+          "name": "departure",
+          "w": 296,
+          "h": 44,
+          "font": "16px"
+        },
+        {
+          "name": "adults",
+          "w": 139,
+          "h": 30,
+          "font": "15px"
+        },
+        {
+          "name": "children",
+          "w": 139,
+          "h": 30,
+          "font": "15px"
+        },
+        {
+          "name": "room",
+          "w": 139,
+          "h": 44,
+          "font": "16px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 390,
+      "passed": true,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "h1": [
+        "Which roomfeels like yours?"
+      ],
+      "title": "Compare Rooms at Hotel Augusto Varanasi | Find Your Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "50.7px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    },
+    {
+      "route": "/rooms",
+      "width": 768,
+      "passed": true,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "h1": [
+        "A place tosettle in."
+      ],
+      "title": "Rooms at Hotel Augusto Varanasi | Find Your Kashi Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "70px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 768,
+      "passed": true,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "title": "Deluxe Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "76px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 290,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 290,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 290,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 290,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 600,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 768,
+      "passed": true,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "76px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 290,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 290,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 290,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 290,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 600,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 768,
+      "passed": true,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "h1": [
+        "Family Room"
+      ],
+      "title": "Family Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "76px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 290,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 290,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 290,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 290,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 600,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 768,
+      "passed": true,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "h1": [
+        "Which roomfeels like yours?"
+      ],
+      "title": "Compare Rooms at Hotel Augusto Varanasi | Find Your Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "76px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    },
+    {
+      "route": "/rooms",
+      "width": 1024,
+      "passed": true,
+      "inner": 1024,
+      "client": 1024,
+      "body": 1024,
+      "h1": [
+        "A place tosettle in."
+      ],
+      "title": "Rooms at Hotel Augusto Varanasi | Find Your Kashi Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "82px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 1024,
+      "passed": true,
+      "inner": 1024,
+      "client": 1024,
+      "body": 1024,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "title": "Deluxe Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "76px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 175.484375,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 175.484375,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 1024,
+      "passed": true,
+      "inner": 1024,
+      "client": 1024,
+      "body": 1024,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "76px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 175.484375,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 175.484375,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 1024,
+      "passed": true,
+      "inner": 1024,
+      "client": 1024,
+      "body": 1024,
+      "h1": [
+        "Family Room"
+      ],
+      "title": "Family Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "76px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 175.484375,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 175.484375,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 370.984375,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 1024,
+      "passed": true,
+      "inner": 1024,
+      "client": 1024,
+      "body": 1024,
+      "h1": [
+        "Which roomfeels like yours?"
+      ],
+      "title": "Compare Rooms at Hotel Augusto Varanasi | Find Your Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "76px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    },
+    {
+      "route": "/rooms",
+      "width": 1440,
+      "passed": true,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "h1": [
+        "A place tosettle in."
+      ],
+      "title": "Rooms at Hotel Augusto Varanasi | Find Your Kashi Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "103.68px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 1440,
+      "passed": true,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "title": "Deluxe Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "100px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 239.96875,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 239.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 239.96875,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 239.96875,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 239.984375,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 1440,
+      "passed": true,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "title": "Deluxe Twin Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "100px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 239.96875,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 239.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 239.96875,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 239.96875,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 239.984375,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 1440,
+      "passed": true,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "h1": [
+        "Family Room"
+      ],
+      "title": "Family Room | Hotel Augusto, Varanasi â€” Book Direct",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "100px",
+          "weight": "400"
+        }
+      ],
+      "controls": [
+        {
+          "name": "arrival",
+          "w": 239.96875,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "departure",
+          "w": 239.984375,
+          "h": 44,
+          "font": "15px"
+        },
+        {
+          "name": "adults",
+          "w": 239.96875,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "children",
+          "w": 239.96875,
+          "h": 24,
+          "font": "14px"
+        },
+        {
+          "name": "room",
+          "w": 239.984375,
+          "h": 44,
+          "font": "15px"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 1440,
+      "passed": true,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "h1": [
+        "Which roomfeels like yours?"
+      ],
+      "title": "Compare Rooms at Hotel Augusto Varanasi | Find Your Stay",
+      "imageFailures": [],
+      "type": [
+        {
+          "font": "bodoni, \"bodoni Fallback\", serif",
+          "size": "103.68px",
+          "weight": "400"
+        }
+      ],
+      "controls": []
+    }
+  ],
+  "axe": [
+    {
+      "route": "/rooms",
+      "width": 390,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 390,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 390,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 390,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 390,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms",
+      "width": 1440,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 1440,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 1440,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 1440,
+      "passed": true,
+      "violations": []
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 1440,
+      "passed": true,
+      "violations": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "Mobile compare changes first room",
+      "passed": true,
+      "evidence": [
+        "Family Room",
+        "Deluxe Twin Room"
+      ]
+    },
+    {
+      "name": "Choosing the same comparison room swaps the other selection",
+      "passed": true,
+      "evidence": [
+        "Deluxe Twin Room",
+        "Family Room"
+      ]
+    },
+    {
+      "name": "Comparison choice preselects enquiry",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-room next photograph changes caption",
+      "passed": true,
+      "evidence": "An alternative double-room layout at Augusto."
+    },
+    {
+      "name": "/rooms/deluxe-room thumbnail selection",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-room opens larger photograph",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-room enlarged viewer arrow wraps",
+      "passed": true,
+      "evidence": "A double bed, cushioned headboard and wood finishes."
+    },
+    {
+      "name": "/rooms/deluxe-room dialog contains keyboard focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-room Escape closes and restores focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-room selected room reaches stay bar",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-twin-room next photograph changes caption",
+      "passed": true,
+      "evidence": "A private bathroom photographed at the hotel."
+    },
+    {
+      "name": "/rooms/deluxe-twin-room thumbnail selection",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-twin-room opens larger photograph",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-twin-room enlarged viewer arrow wraps",
+      "passed": true,
+      "evidence": "Two separate single beds in the Deluxe Twin Room."
+    },
+    {
+      "name": "/rooms/deluxe-twin-room dialog contains keyboard focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-twin-room Escape closes and restores focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/deluxe-twin-room selected room reaches stay bar",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/family-room next photograph changes caption",
+      "passed": true,
+      "evidence": "An alternative family-room layout at Augusto."
+    },
+    {
+      "name": "/rooms/family-room thumbnail selection",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/family-room opens larger photograph",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/family-room enlarged viewer arrow wraps",
+      "passed": true,
+      "evidence": "Two beds and a sitting area in the Family Room."
+    },
+    {
+      "name": "/rooms/family-room dialog contains keyboard focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/family-room Escape closes and restores focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "/rooms/family-room selected room reaches stay bar",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Room stay bar rejects empty dates",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Room stay bar rejects same-day departure",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Room dates guests and preference reach contact",
+      "passed": true,
+      "evidence": {
+        "arrival": "2026-10-31",
+        "departure": "2026-11-03",
+        "adults": "3",
+        "children": "1",
+        "room": "Family Room"
+      }
+    },
+    {
+      "name": "Contact prepares encoded WhatsApp draft without sending",
+      "passed": true,
+      "evidence": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AArrival%3A%2031%20Oct%202026%0ADeparture%3A%203%20Nov%202026%0AGuests%3A%203%20adults%2C%201%20child%0ARoom%20preference%3A%20Family%20Room%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!"
+    },
+    {
+      "name": "Reduced motion keeps photo selection immediate",
+      "passed": true,
+      "evidence": {
+        "opacity": "1",
+        "transition": "1e-05s"
+      }
+    }
+  ],
+  "runtimeErrors": [],
+  "externalMessagesSent": 0,
+  "completed": "2026-10-20T05:46:31.192611+00:00",
+  "summary": {
+    "layouts": 21,
+    "axeAudits": 10,
+    "interactions": 29,
+    "failed": 0,
+    "runtimeErrors": 0
+  },
+  "browserClosed": true,
+  "staticVerification": {
+    "ownedEslint": "passed",
+    "projectTypecheck": "passed",
+    "all22PublicAssetHashesUnchanged": true,
+    "qaScriptSyntax": "passed"
+  },
+  "visualReview": {
+    "reviewed": [
+      "rooms-rooms-390.png",
+      "rooms-deluxe-twin-room-1440.png",
+      "rooms-deluxe-twin-room-390.png",
+      "rooms-compare-390.png"
+    ],
+    "findings": [
+      "Room pages follow the hospitality typography and warm material palette. Both twin beds remain visible. Comparison has full room headings below native selects.",
+      "Shared compact StayBar room select slightly truncates Deluxe Twin Room at390px; reported to root for a full-width compact room field. No room source change required."
+    ],
+    "pendingSharedRefinement": "Shared StayBar room-select width at390px"
+  },
+  "cleanup": {
+    "checkedAt": "2026-10-20T05:47:38.845103+00:00",
+    "freeBeforeBytes": {
+      "C": 26543345664,
+      "D": 68234817536
+    },
+    "freeAfterBytes": {
+      "C": 26316541952,
+      "D": 67996831744
+    },
+    "removed": [],
+    "note": "No disposable task files found. Retained source, small QA runner, six necessary final-route screenshots and structured evidence. No browser contexts remain open. Drive changes include concurrent builds and other agents; no unsupported attribution."
+  },
+  "ownedSourceHashes": {
+    "app\\rooms\\page.tsx": "d884ab610096ffc2d3db675846c5333aec771b3e861164ddd4cb29bf609ee24f",
+    "app\\rooms\\room-photographs.tsx": "bb1eb1afe8f361683df6fe83e419fef14c65b51b7d587ebbe49c8640c294e850",
+    "app\\rooms\\compare\\page.tsx": "687c62cab70bcdcea33b2ac25f9b5900352a5c77c0efce217d1f4747abb59dac",
+    "app\\rooms\\[slug]\\page.tsx": "9a479956e628247ddb2ddac82c31360e5d4f57841d2a863c3721900200c6b3f2",
+    "app\\rooms\\rooms.css": "6bf39f401793fdcb36763efab449a629dae35858ce9deb219314464da593d0b2",
+    "components\\room-comparison.tsx": "edf10484de65026c5e8d8b7ca1f1b8ab7e4ba0ce5e9ae85b723ac75314481799",
+    "components\\room-comparison.css": "883dedd52e2eb440f1d4657d157bf58ce106d47c0c8eef7e29e6483830e25042",
+    "content\\room-images.ts": "8fd869a5e861055e4cb1abdcff22ecc28caecfc9478d3f1d0ba6c12ca3e2b097"
+  }
+}

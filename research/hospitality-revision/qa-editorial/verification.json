@@ -1,0 +1,844 @@
+{
+  "layouts": [
+    {
+      "route": "gallery",
+      "width": 360,
+      "inner": 360,
+      "client": 360,
+      "body": 360,
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ftwin-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdining-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-lounge.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fgoogle-family-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=384&q=75"
+        }
+      ]
+    },
+    {
+      "route": "gallery",
+      "width": 390,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ftwin-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdining-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-lounge.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fgoogle-family-room.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=384&q=75"
+        }
+      ]
+    },
+    {
+      "route": "gallery",
+      "width": 768,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ftwin-room.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdining-room.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-lounge.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fgoogle-family-room.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=640&q=75"
+        }
+      ]
+    },
+    {
+      "route": "gallery",
+      "width": 1440,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-lobby.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdeluxe-room.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ftwin-room.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdining-room.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-reception.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-lounge.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fdining-room-wide.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fgoogle-family-room.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Froom-bathroom.webp&w=750&q=75"
+        }
+      ]
+    },
+    {
+      "route": "varanasi",
+      "width": 360,
+      "inner": 360,
+      "client": 360,
+      "body": 360,
+      "title": "Explore Varanasi: Ghats and Temple Walks | Hotel Augusto",
+      "titleLength": 56,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fvaranasi-hero.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-boats.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-boats.webp&w=384&q=75"
+        }
+      ]
+    },
+    {
+      "route": "varanasi",
+      "width": 390,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "title": "Explore Varanasi: Ghats and Temple Walks | Hotel Augusto",
+      "titleLength": 56,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fvaranasi-hero.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-boats.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-boats.webp&w=384&q=75"
+        }
+      ]
+    },
+    {
+      "route": "varanasi",
+      "width": 768,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "title": "Explore Varanasi: Ghats and Temple Walks | Hotel Augusto",
+      "titleLength": 56,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fvaranasi-hero.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-boats.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-boats.webp&w=384&q=75"
+        }
+      ]
+    },
+    {
+      "route": "varanasi",
+      "width": 1440,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "title": "Explore Varanasi: Ghats and Temple Walks | Hotel Augusto",
+      "titleLength": 56,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fvaranasi-hero.webp&w=1920&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-boats.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-dawn.webp&w=750&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fganges-boats.webp&w=750&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides",
+      "width": 360,
+      "inner": 360,
+      "client": 360,
+      "body": 360,
+      "title": "Practical Travel Guides for Varanasi | Hotel Augusto",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=384&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides",
+      "width": 390,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "title": "Practical Travel Guides for Varanasi | Hotel Augusto",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=384&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides",
+      "width": 768,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "title": "Practical Travel Guides for Varanasi | Hotel Augusto",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=384&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides",
+      "width": 1440,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "title": "Practical Travel Guides for Varanasi | Hotel Augusto",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=640&q=75"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=640&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/first-visit-to-kashi",
+      "width": 360,
+      "inner": 360,
+      "client": 360,
+      "body": 360,
+      "title": "First Visit to Kashi Vishwanath | Hotel Augusto Guide",
+      "titleLength": 53,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=640&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/first-visit-to-kashi",
+      "width": 390,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "title": "First Visit to Kashi Vishwanath | Hotel Augusto Guide",
+      "titleLength": 53,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=640&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/first-visit-to-kashi",
+      "width": 768,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "title": "First Visit to Kashi Vishwanath | Hotel Augusto Guide",
+      "titleLength": 53,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=750&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/first-visit-to-kashi",
+      "width": 1440,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "title": "First Visit to Kashi Vishwanath | Hotel Augusto Guide",
+      "titleLength": 53,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fkashi-vishwanath.webp&w=1920&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/arriving-in-godowlia",
+      "width": 360,
+      "inner": 360,
+      "client": 360,
+      "body": 360,
+      "title": "Arriving in Godowlia, Varanasi | Hotel Augusto Guide",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=640&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/arriving-in-godowlia",
+      "width": 390,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "title": "Arriving in Godowlia, Varanasi | Hotel Augusto Guide",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=640&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/arriving-in-godowlia",
+      "width": 768,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "title": "Arriving in Godowlia, Varanasi | Hotel Augusto Guide",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=750&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/arriving-in-godowlia",
+      "width": 1440,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "title": "Arriving in Godowlia, Varanasi | Hotel Augusto Guide",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=1920&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/choosing-your-room",
+      "width": 360,
+      "inner": 360,
+      "client": 360,
+      "body": 360,
+      "title": "Choosing Your Room in Varanasi | Hotel Augusto Guide",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=640&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/choosing-your-room",
+      "width": 390,
+      "inner": 390,
+      "client": 390,
+      "body": 390,
+      "title": "Choosing Your Room in Varanasi | Hotel Augusto Guide",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=640&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/choosing-your-room",
+      "width": 768,
+      "inner": 768,
+      "client": 768,
+      "body": 768,
+      "title": "Choosing Your Room in Varanasi | Hotel Augusto Guide",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=750&q=75"
+        }
+      ]
+    },
+    {
+      "route": "guides/choosing-your-room",
+      "width": 1440,
+      "inner": 1440,
+      "client": 1440,
+      "body": 1440,
+      "title": "Choosing Your Room in Varanasi | Hotel Augusto Guide",
+      "titleLength": 52,
+      "h1s": 1,
+      "h1Font": "bodoni, \"bodoni Fallback\", serif",
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:3082/_next/image?url=%2Fimages%2Ffamily-room.webp&w=1920&q=75"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    "Gallery: 4 filters/counts, native dialog, focus trap, arrow navigation, swipe, Escape and focus return passed.",
+    {
+      "itinerary": "reduce",
+      "width": 390,
+      "keyboard": "ArrowRight/End/Home",
+      "allFourTabs": true,
+      "panelHeights": [
+        899.859375,
+        899.859375,
+        899.859375,
+        899.859375
+      ],
+      "inactivePanelsInert": true
+    },
+    {
+      "itinerary": "reduce",
+      "width": 1440,
+      "keyboard": "ArrowRight/End/Home",
+      "allFourTabs": true,
+      "panelHeights": [
+        576,
+        576,
+        576,
+        576
+      ],
+      "inactivePanelsInert": true
+    },
+    {
+      "itinerary": "no-preference",
+      "width": 390,
+      "keyboard": "ArrowRight/End/Home",
+      "allFourTabs": true,
+      "panelHeights": [
+        899.859375,
+        899.859375,
+        899.859375,
+        899.859375
+      ],
+      "inactivePanelsInert": true
+    },
+    {
+      "itinerary": "no-preference",
+      "width": 1440,
+      "keyboard": "ArrowRight/End/Home",
+      "allFourTabs": true,
+      "panelHeights": [
+        576,
+        576,
+        576,
+        576
+      ],
+      "inactivePanelsInert": true
+    },
+    "City: river/temple/aarti anchors retain clear header offset.",
+    {
+      "guide": "guides/first-visit-to-kashi",
+      "faqCount": 3,
+      "toc": "#make-time-for-the-river",
+      "relatedGuides": 2
+    },
+    {
+      "guide": "guides/arriving-in-godowlia",
+      "faqCount": 3,
+      "toc": "#last-part-of-the-journey",
+      "relatedGuides": 2
+    },
+    {
+      "guide": "guides/choosing-your-room",
+      "faqCount": 3,
+      "toc": "#confirm-the-comforts",
+      "relatedGuides": 2
+    },
+    {
+      "normalMotionRoute": "gallery",
+      "overflow": false
+    },
+    {
+      "normalMotionRoute": "guides",
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "gallery",
+      "violations": []
+    },
+    {
+      "route": "varanasi",
+      "violations": []
+    },
+    {
+      "route": "guides",
+      "violations": []
+    },
+    {
+      "route": "guides/first-visit-to-kashi",
+      "violations": []
+    },
+    {
+      "route": "guides/arriving-in-godowlia",
+      "violations": []
+    },
+    {
+      "route": "guides/choosing-your-room",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "step": "guide interactions guides/choosing-your-room",
+  "passed": true
+}

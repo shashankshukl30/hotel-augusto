@@ -1,0 +1,651 @@
+{
+  "reviewed": "2026-10-20",
+  "scope": "Local visual and source review; no browser, external messaging, application changes or sibling edits",
+  "decision": {
+    "lead": "Make the real hotel the first subject. Use Varanasi as the reason to visit, then make room choice and enquiry the obvious next steps.",
+    "primaryHero": "/images/deluxe-room-blue.webp",
+    "secondaryHero": "/images/hotel-lounge.webp",
+    "avoidAsPrimaryHero": [
+      "/images/hotel-exterior.webp",
+      "/images/hotel-exterior-day.webp",
+      "/images/google-double-room.webp",
+      "/images/google-family-room.webp"
+    ],
+    "rationale": "The blue double room has the strongest combination of a clear bed, warm material, identifiable upholstery and usable composition. The lounge supplies a more personal arrival atmosphere. Exterior photos are useful location proof but have tilted street perspectives, adjacent shops and clutter. The Google photographs are valuable corroboration, but the double is only 1024px wide and the family image is visibly wide-angle and darker.",
+    "composition": "Prefer a property photograph occupying the majority of the opening with a compact hotel identity and a date/guest enquiry bar. Use a separate text zone or a restrained edge scrim rather than burying the bed beneath a giant headline. Keep the hotel name and Godowlia location immediately visible.",
+    "mobile": "Use a deliberate mobile image ratio and put substantial copy outside the photograph. Do not force every landscape room photograph into a full-height portrait crop.",
+    "cropStatus": "Exact object-position recommendations below are art-direction starting values from full-size source inspection, not browser-verified final crops."
+  },
+  "heroCandidates": [
+    {
+      "rank": 1,
+      "file": "/images/deluxe-room-blue.webp",
+      "sourceOriginal": "research/assets/originals/1687586860.jpg",
+      "originalDimensions": [
+        1920,
+        1080
+      ],
+      "publicDimensions": [
+        1600,
+        900
+      ],
+      "desktop": {
+        "ratio": "16:9 or 3:2",
+        "objectPosition": "50% 58%",
+        "focalPoint": [
+          0.49,
+          0.66
+        ]
+      },
+      "mobile": {
+        "ratio": "4:5",
+        "objectPosition": "48% 55%",
+        "preserve": "Blue headboard, bed and part of sofa; use separate heading space"
+      },
+      "strength": "A believable stay, a warm palette, clear upholstery and a comfortable visual balance.",
+      "limits": "Ceiling fan, strong warm colour cast and red chair in the bottom-left corner. Do not remove or invent furnishings. A tight portrait crop loses most of the sofa and wardrobe.",
+      "truthfulCaption": "A double-bed room at Hotel Augusto.",
+      "storyUse": "Home property hero or rooms introduction; avoid promising this exact layout for every Deluxe booking."
+    },
+    {
+      "rank": 2,
+      "file": "/images/hotel-lounge.webp",
+      "sourceOriginal": "research/assets/originals/1687586880.jpg",
+      "originalDimensions": [
+        1920,
+        1080
+      ],
+      "publicDimensions": [
+        1600,
+        900
+      ],
+      "desktop": {
+        "ratio": "16:9",
+        "objectPosition": "50% 52%",
+        "focalPoint": [
+          0.52,
+          0.61
+        ]
+      },
+      "mobile": {
+        "ratio": "4:5 or 1:1",
+        "objectPosition": "58% 55%",
+        "preserve": "Seating, carved wall panel and warm lift surround"
+      },
+      "strength": "Distinctive stone, carved panel, wood and patterned seating give the hotel a recognisable material character.",
+      "limits": "A modest actual entrance lounge, not a grand lobby. Do not imply step-free access from this photo; visible steps lead toward the lift.",
+      "truthfulCaption": "The guest lounge at Augusto.",
+      "storyUse": "Arrival story, hotel introduction, alternate hero if the identity should lead with welcome."
+    },
+    {
+      "rank": 3,
+      "file": "/images/deluxe-room.webp",
+      "sourceOriginal": "research/assets/originals/1687586875.jpg",
+      "originalDimensions": [
+        1920,
+        1080
+      ],
+      "publicDimensions": [
+        1600,
+        900
+      ],
+      "desktop": {
+        "ratio": "3:2",
+        "objectPosition": "55% 60%",
+        "focalPoint": [
+          0.61,
+          0.68
+        ]
+      },
+      "mobile": {
+        "ratio": "4:3 or 4:5",
+        "objectPosition": "58% 60%",
+        "preserve": "Complete pillow arrangement, cushioned headboard and most of the bed"
+      },
+      "strength": "Straightforward, warm, legible double-room photograph with strong room-category continuity.",
+      "limits": "Large bright ceiling and a blown wall light make this less atmospheric than the blue room. Keep text outside the brightest part.",
+      "truthfulCaption": "The Deluxe Room.",
+      "storyUse": "Deluxe detail hero and room comparison."
+    }
+  ],
+  "assetStories": [
+    {
+      "file": "/images/deluxe-room-blue.webp",
+      "kind": "property",
+      "priority": "hero",
+      "role": "Warm property opening and alternate double-room layout",
+      "crop": "Desktop 50% 58%; mobile 48% 55% at 4:5",
+      "caution": "Do not imply all double rooms use this exact decor."
+    },
+    {
+      "file": "/images/deluxe-room.webp",
+      "kind": "property",
+      "priority": "core",
+      "role": "Deluxe room choice and detail page",
+      "crop": "55% 60%; prefer 3:2 or 4:3",
+      "caution": "No rate, area or occupancy can be inferred."
+    },
+    {
+      "file": "/images/twin-room.webp",
+      "kind": "property",
+      "priority": "core",
+      "role": "Prove the two separate single beds",
+      "crop": "50% 58%; keep 4:3 or 3:2 even on mobile",
+      "caution": "Tall portrait cropping can hide the distinction between the beds."
+    },
+    {
+      "file": "/images/family-room.webp",
+      "kind": "property",
+      "priority": "core",
+      "role": "Show the two-bed family arrangement",
+      "crop": "50% 58%; 3:2 or 4:3",
+      "caution": "Keep both beds visible; do not translate bed count into an unverified guest capacity."
+    },
+    {
+      "file": "/images/family-room-alternate.webp",
+      "kind": "property",
+      "priority": "support",
+      "role": "Another two-bed family-room layout",
+      "crop": "55% 60%; 3:2",
+      "caution": "Different headboards, floor and layout from family-room.webp. Current 'another view' caption should become 'another family-room layout'."
+    },
+    {
+      "file": "/images/google-double-room.webp",
+      "kind": "property",
+      "priority": "support",
+      "role": "Google profile corroboration and guest-room gallery",
+      "crop": "Native 4:3; 58% 58% if constrained",
+      "caution": "1024x768; avoid full-bleed desktop or assigning an unverified exact room category."
+    },
+    {
+      "file": "/images/google-family-room.webp",
+      "kind": "property",
+      "priority": "support",
+      "role": "Alternative two-bed guest-room gallery image",
+      "crop": "Native 4:3, 50% 50%",
+      "caution": "January 2022 uploader date; do not claim current decor or category. Wide-angle distortion becomes obvious at giant size."
+    },
+    {
+      "file": "/images/hotel-lounge.webp",
+      "kind": "property",
+      "priority": "core",
+      "role": "Arrival, seating, warm materials and local identity",
+      "crop": "Desktop 50% 52%; mobile 58% 55%",
+      "caution": "Visible steps; no accessibility claim."
+    },
+    {
+      "file": "/images/hotel-lobby.webp",
+      "kind": "property",
+      "priority": "support",
+      "role": "Show reception in spatial context",
+      "crop": "Native 16:9 or 3:2; 58% 55%",
+      "caution": "Central pillar splits the composition; a tight crop can lose reception or the lounge."
+    },
+    {
+      "file": "/images/hotel-reception.webp",
+      "kind": "property",
+      "priority": "support",
+      "role": "Front desk, arrival guidance and human service story",
+      "crop": "50% 55%; 4:3",
+      "caution": "Do not invent staff portraits or promises about response time."
+    },
+    {
+      "file": "/images/hotel-exterior-day.webp",
+      "kind": "property",
+      "priority": "proof",
+      "role": "Find the hotel; arrival context and address",
+      "crop": "45% 58%; 3:2",
+      "caution": "Keep the hotel sign and entrance visible. Adjacent shops are real context, not hotel facilities."
+    },
+    {
+      "file": "/images/hotel-exterior.webp",
+      "kind": "property",
+      "priority": "proof",
+      "role": "Recognise the illuminated entrance after dark",
+      "crop": "Desktop 40% 58%; mobile 34% 58% at 4:3",
+      "caution": "Tilted/noisy low-light photo; not the first premium impression. Signage alone does not verify current gym/banquet availability."
+    },
+    {
+      "file": "/images/dining-room.webp",
+      "kind": "property",
+      "priority": "core",
+      "role": "On-site vegetarian dining setting",
+      "crop": "50% 62%; 3:2",
+      "caution": "Empty dining room proves a space, not menus, meal inclusions or a breakfast spread."
+    },
+    {
+      "file": "/images/dining-room-wide.webp",
+      "kind": "property",
+      "priority": "support",
+      "role": "Dining space breadth and a second actual angle",
+      "crop": "50% 60%; 16:9",
+      "caution": "Avoid repeating alongside almost identical room views without a narrative purpose."
+    },
+    {
+      "file": "/images/google-dining-room.webp",
+      "kind": "property",
+      "priority": "support",
+      "role": "Dining detail with counter and foreground tables",
+      "crop": "50% 60%; native 3:2",
+      "caution": "Only 1000px wide; use a supporting panel rather than full-width desktop hero."
+    },
+    {
+      "file": "/images/room-tea.webp",
+      "kind": "property",
+      "priority": "detail",
+      "role": "A tactile room-detail inset or photo walkthrough",
+      "crop": "50% 50%; 4:3 or 1:1",
+      "caution": "Shared hotel detail, not verified in every photographed room. Do not call items complimentary."
+    },
+    {
+      "file": "/images/room-bathroom.webp",
+      "kind": "property",
+      "priority": "detail",
+      "role": "Practical bathroom proof within the photo gallery",
+      "crop": "50% 55%; native ratio or 4:5",
+      "caution": "A hotel bathroom; cannot be asserted to belong to a particular room photograph."
+    },
+    {
+      "file": "/images/varanasi-hero.webp",
+      "kind": "destination",
+      "priority": "core",
+      "role": "Varanasi destination chapter after hotel identity is established",
+      "crop": "Desktop 50% 55%; mobile 63% 55%",
+      "caution": "Not Hotel Augusto, a room view, or evidence of riverfront location. Credit Martijn Vonk / Unsplash."
+    },
+    {
+      "file": "/images/varanasi-ghats.webp",
+      "kind": "destination",
+      "priority": "support",
+      "role": "Riverfront and boat context in the city guide",
+      "crop": "50% 55%; 3:2",
+      "caution": "Generic Varanasi ghats; do not identify a specific ghat from hotel proximity alone."
+    },
+    {
+      "file": "/images/ganges-dawn.webp",
+      "kind": "destination",
+      "priority": "support",
+      "role": "Quiet dawn chapter and city itinerary suggestion",
+      "crop": "50% 55%; 16:9",
+      "caution": "Destination scene, no implication that the hotel operates boat tours."
+    },
+    {
+      "file": "/images/ganges-boats.webp",
+      "kind": "destination",
+      "priority": "support",
+      "role": "Warm-light river moment",
+      "crop": "50% 55%; 3:2",
+      "caution": "Source description and automated source slug disagree on sunrise/sunset. Prefer time-neutral caption, or use ganges-dawn.webp for a verified dawn narrative."
+    },
+    {
+      "file": "/images/kashi-vishwanath.webp",
+      "kind": "destination",
+      "priority": "core",
+      "role": "Actual temple context for guest planning",
+      "crop": "50% 60%; 4:5 with complete spire visible",
+      "caution": "Preserve Pradum Shukla / CC BY 4.0 credit and cropping disclosure. Do not imply guaranteed darshan arrangements."
+    }
+  ],
+  "narrativeSequence": [
+    {
+      "chapter": "The hotel",
+      "images": [
+        "deluxe-room-blue.webp"
+      ],
+      "guestQuestion": "Where would I actually be staying?",
+      "action": "Enter dates or explore rooms"
+    },
+    {
+      "chapter": "Your arrival",
+      "images": [
+        "hotel-lounge.webp",
+        "hotel-reception.webp"
+      ],
+      "guestQuestion": "What does arriving feel like?",
+      "action": "Meet the hotel"
+    },
+    {
+      "chapter": "Your room",
+      "images": [
+        "deluxe-room.webp",
+        "twin-room.webp",
+        "family-room.webp"
+      ],
+      "guestQuestion": "Which bed arrangement works for my party?",
+      "action": "Compare, view photographs, enquire with room preselected"
+    },
+    {
+      "chapter": "Meals at the hotel",
+      "images": [
+        "dining-room.webp",
+        "room-tea.webp"
+      ],
+      "guestQuestion": "Can I eat here before or after heading out?",
+      "action": "Read dining details; ask about meal inclusions"
+    },
+    {
+      "chapter": "Godowlia and Kashi",
+      "images": [
+        "varanasi-hero.webp",
+        "kashi-vishwanath.webp"
+      ],
+      "guestQuestion": "Why choose this part of Varanasi?",
+      "action": "Explore the city and approach guidance"
+    },
+    {
+      "chapter": "Plan the stay",
+      "images": [
+        "hotel-exterior-day.webp"
+      ],
+      "guestQuestion": "How do I contact and reach the actual hotel?",
+      "action": "Review enquiry, open WhatsApp, call or get directions"
+    }
+  ],
+  "assetLimitations": [
+    "No genuine professional video is available in the current curated set. Use intentional still-image motion; do not fabricate a cinematic hotel film.",
+    "Most property originals are 1920x1080 and public derivatives 1600x900. Avoid excessive zoom and full-width high-DPR crops that imply detail the source does not contain.",
+    "Property lighting is warm and some photographs are heavily processed. Prefer a restrained UI that accommodates the actual rooms rather than trying to simulate a palace or resort.",
+    "No useful first-party logo file has been recovered. The current wordmark is an original typographic treatment, not a claimed recovered client asset.",
+    "No usable food plating, breakfast, staff hospitality, current exterior twilight, or accessible-arrival sequence exists in the curated files. Do not illustrate these with unrelated hotels or claim them through generated photos.",
+    "Current room photos show alternate layouts. A photo walkthrough must distinguish a room category's examples from a continuous tour of one exact room.",
+    "Public OTA/Google photo provenance is documented but client reuse rights still need confirmation. Uploader display names alone do not prove copyright ownership.",
+    "Do not copy Shree Ganesha Palace's heritage story, courtyard/architecture imagery, named restaurant or services; its design strength comes from facts unique to that property."
+  ],
+  "verification": {
+    "publicWebpCount": 22,
+    "propertyCount": 17,
+    "destinationCount": 5,
+    "method": "Viewed four original contact sheets, Google property contact sheet, 13 full-size curated photographs and the full-size temple photograph; read all published-image provenance entries.",
+    "originalContactSheets": [
+      "research/assets/contact-sheet-1.jpg",
+      "research/assets/contact-sheet-2.jpg",
+      "research/assets/contact-sheet-3.jpg",
+      "research/assets/contact-sheet-4.jpg",
+      "research/ota-revision/google-property-contact-sheet.jpg"
+    ],
+    "provenanceLedgers": [
+      "research/assets/asset-manifest.json",
+      "research/ota-revision/asset-candidates.json",
+      "research/awwwards-revision/hero-asset.json"
+    ],
+    "browserVerification": "Not performed during this research pass; browser slot belongs to the reference-review agent."
+  },
+  "inventory": [
+    {
+      "publicPath": "/images/deluxe-room-blue.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 125406,
+      "sha256": "c0695691d518a4ffb6146c9443960de4cf1f16d10a2e060ec87cc9c3bef44973",
+      "sourceId": "1687586860",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/deluxe-room.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 112082,
+      "sha256": "cdcd62eba49d74ab0fe7b16716a31887e7a23bba5c0acc4b54deebf05470ef40",
+      "sourceId": "1687586875",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/dining-room-wide.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 126042,
+      "sha256": "bdeda159d554ed11e39a52647d0d5f51e1e62c687586419f91af74ddbbd7ee6f",
+      "sourceId": "1687586884",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/dining-room.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 107542,
+      "sha256": "eedec88a4e6db77d3770ece8bddf6f2015a88a9a8b5407a2ca50ba934a2680bf",
+      "sourceId": "1687586868",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/family-room-alternate.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 109450,
+      "sha256": "d3a765c81575bbcf96de925dbab81945a73c967929accc5adac4481f18612a87",
+      "sourceId": "1687586838",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/family-room.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 122752,
+      "sha256": "25412c2ab58f2e872fafecd29957594277ae49e8c50a233a125e6cd9d0566ff8",
+      "sourceId": "1687586850",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/ganges-boats.webp",
+      "dimensions": [
+        2400,
+        1600
+      ],
+      "bytes": 86706,
+      "sha256": "803e057045094cde4cc0afee6bb6a33b515a3b3cc996dbe3889d25f8689ab01e",
+      "sourceId": "ganges-boats",
+      "sourcePage": "https://unsplash.com/photos/two-people-in-a-small-boat-on-the-water-at-sunset-y4oZkoD6RYY",
+      "rights": "Unsplash License"
+    },
+    {
+      "publicPath": "/images/ganges-dawn.webp",
+      "dimensions": [
+        2400,
+        1350
+      ],
+      "bytes": 94818,
+      "sha256": "a9a05dd324d6ad9e37fa564a2937272558f1d04f71fd0185c16bdb37c87fb1e6",
+      "sourceId": "ganges-dawn",
+      "sourcePage": "https://unsplash.com/photos/two-boats-on-a-wide-river-at-sunrise-Sj6zqvbuykY",
+      "rights": "Unsplash License"
+    },
+    {
+      "publicPath": "/images/google-dining-room.webp",
+      "dimensions": [
+        1000,
+        667
+      ],
+      "bytes": 87948,
+      "sha256": "389254f437a53a916010067e11091879c6e49575be7c2803de1c69b2a541dd34",
+      "sourceId": "google-photo-10",
+      "sourcePage": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,85.3y,90t/data=!3m8!1e2!3m6!1shttps:%2F%2Fimages.trvl-media.com%2Flodging%2F46000000%2F45850000%2F45841100%2F45841007%2F5036d456_z.jpg!2e7!3e27!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-proxy%2FALd4DhEssjW5B_IGR5rhoAQpZVTyXmxhFg2gFZ0fDw8yIGOZvctqBkzarDSxFShj6ie4AgkenXc8nXiVdn06YeIFmGaJvy-EWl0h-N37BEi6ux2Cn9-UuQPvqpwvLh7m5trPjIxHmGvp_bIKQvIUq38Ku-AoWTG7_W09I2b-fREDFy-rCvOxgzfMjrpg_w%3Dw203-h135-k-no!7i1000!8i666!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights."
+    },
+    {
+      "publicPath": "/images/google-double-room.webp",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "bytes": 100296,
+      "sha256": "8eff419f89de3d571cbba94fb277dc2215bc2136cd5772b038857bd783d9cdde",
+      "sourceId": "google-photo-3",
+      "sourcePage": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,83.9y,90t/data=!3m8!1e2!3m6!1sCIABIhAsyAhWUsk0j56e58t9-Ke9!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9TUBf5-eHVIm6sH6RgBN_vRWUEnoazcvRpfF1yKPmdQUfa-YAYKF8OkIcFV2CLVOZ5Nzp1QCpe2tNCv-WMi3ciPhCPiWRiCX2DRuEvXgOrzZGRd5NZKqHZ6kHb5AEXSRZ2f80spHWTwLOY%3Dw203-h152-k-no!7i1024!8i768!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights; uploader display name alone does not prove copyright ownership."
+    },
+    {
+      "publicPath": "/images/google-family-room.webp",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "bytes": 349310,
+      "sha256": "78a1e57034d202cd0fc4d096864efb2e6e4dac8311fee014cf603a32b6fa4131",
+      "sourceId": "google-photo-5",
+      "sourcePage": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDm-pnCRg!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9RvAJi2dZqsYKmYDCqkMlr4Xjp01s11Etr0viigML6hplcJIIedCXxB8_V4ykgewOnpIFz1vprPZjNXake-JIC_z1aN__yObA9aLp7SN_Wxkx44Q1CTzVbRkQ0n0EBi6p4FaP2S%3Dw203-h152-k-no!7i4032!8i3024!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights; uploader display name alone does not prove copyright ownership."
+    },
+    {
+      "publicPath": "/images/hotel-exterior-day.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 233820,
+      "sha256": "308eb4bb29bf392cf3ffd589bdd11ebf75e2a98279892420f32ef65ffb96694b",
+      "sourceId": "1687586848",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/hotel-exterior.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 209346,
+      "sha256": "3cfbf73d1c337f22f2cca5a95eee4c9613a0193ecba60a571ae22f81b48781ba",
+      "sourceId": "1687586892",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/hotel-lobby.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 223808,
+      "sha256": "acb7348f17994fc1b3452c04c67991d796e7c82988424da688fb531a93e3ad00",
+      "sourceId": "1687586877",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/hotel-lounge.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 211606,
+      "sha256": "8ad298bfc8762b9edfb33e86cc4dd54601f0d8fa87b8e7eeb20b1fc847a17ef9",
+      "sourceId": "1687586880",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/hotel-reception.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 194606,
+      "sha256": "51b6d90005902738b9afecbc4f6e29c355d21be6102ab77537d76b8cb7762b9e",
+      "sourceId": "1687586879",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/kashi-vishwanath.webp",
+      "dimensions": [
+        1153,
+        2048
+      ],
+      "bytes": 204844,
+      "sha256": "65ae060e6a0f6dd561f77ed05daf372fcecd51ee5dffe6ac2905e82dbd01e24b",
+      "sourceId": "kashi-vishwanath-2025",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg",
+      "rights": "CC BY 4.0"
+    },
+    {
+      "publicPath": "/images/room-bathroom.webp",
+      "dimensions": [
+        1333,
+        1080
+      ],
+      "bytes": 158788,
+      "sha256": "f5e381a1e21aeef93712b56f0c11fd14732a0af849272361b78537b71de74f32",
+      "sourceId": "1687586855",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/room-tea.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 145740,
+      "sha256": "c0ce739b9a418fc4f6ff814bb1b05e93036ac1cdca0dabe532e95359b971903d",
+      "sourceId": "1687586828",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/twin-room.webp",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 136568,
+      "sha256": "cff41440bb5706fa64cd3f97dd3a7500f460b7afbcd91443c8ba94a52055f578",
+      "sourceId": "1687586846",
+      "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+      "rights": "Hotel listing photography; ownership and client reuse rights require confirmation."
+    },
+    {
+      "publicPath": "/images/varanasi-ghats.webp",
+      "dimensions": [
+        2400,
+        1600
+      ],
+      "bytes": 352434,
+      "sha256": "b33a7af12bd70aae2b6261fc93272adf451c674fe6cf137f8cff5aaec5b97b8d",
+      "sourceId": "varanasi-ghats",
+      "sourcePage": "https://unsplash.com/photos/boats-on-a-river-with-city-buildings-in-background-_IdOI0J_doY",
+      "rights": "Unsplash License"
+    },
+    {
+      "publicPath": "/images/varanasi-hero.webp",
+      "dimensions": [
+        2800,
+        1867
+      ],
+      "bytes": 888608,
+      "sha256": "788ee583a8da163127ac056450d48a5d400e7794fdb78c51c6e50b8b59d11ccf",
+      "sourceId": "varanasi-hero",
+      "sourcePage": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-river-wloNuC7qKf8",
+      "rights": "Unsplash License"
+    }
+  ],
+  "cleanup": {
+    "freeBeforeBytes": {
+      "C": 26372947968,
+      "D": 68246777856
+    },
+    "removed": [],
+    "note": "No downloads, image derivatives, application changes or disposable temporary files were created. Existing originals, manifests and all 22 public WebP assets retained.",
+    "freeAfterBytes": {
+      "C": 26518630400,
+      "D": 68234829824
+    }
+  }
+}

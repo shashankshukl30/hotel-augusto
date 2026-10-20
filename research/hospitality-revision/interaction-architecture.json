@@ -1,0 +1,153 @@
+{
+  "reviewed": "2026-10-20",
+  "brief": "Adopt most useful Hotel Vagmi elements in an Augusto-specific premium hospitality UI; retain truthful booking semantics and existing accessible foundations.",
+  "readOnlyReferences": [
+    "D:/Digiocular/Websites/Hotel Vagmi/site/components/sections/HeroSection.tsx",
+    "D:/Digiocular/Websites/Hotel Vagmi/site/components/sections/RoomsSection.tsx",
+    "D:/Digiocular/Websites/Hotel Vagmi/site/components/sections/RoomSpread.tsx",
+    "D:/Digiocular/Websites/Hotel Vagmi/site/components/pages/RoomPageBody.tsx",
+    "D:/Digiocular/Websites/Hotel Vagmi/site/components/booking/BookingBar.tsx",
+    "D:/Digiocular/Websites/Hotel Vagmi/site/lib/booking.ts",
+    "D:/Digiocular/Websites/shree-ganesha-palace/app/page.tsx",
+    "D:/Digiocular/Websites/shree-ganesha-palace/app/rooms/page.tsx",
+    "D:/Digiocular/Websites/shree-ganesha-palace/components/slideshow.tsx",
+    "D:/Digiocular/Websites/shree-ganesha-palace/components/book-ctas.tsx"
+  ],
+  "currentAugustoObservations": [
+    {
+      "issue": "The existing homepage opens with city photography and a very large abstract headline; the hotel is a small inset.",
+      "impact": "Guests can read the experience as a destination or lifestyle brand before they understand the hotel.",
+      "recommendation": "Make property photography, Hotel Augusto, Godowlia and a useful stay enquiry bar the opening hierarchy."
+    },
+    {
+      "issue": "Room pages offer separate links to contact, but dates and party are only entered at the final contact form.",
+      "impact": "Browsing and booking are separate tasks; guests cannot carry an initial stay choice through the room journey.",
+      "recommendation": "Introduce a small shared validated stay-query adapter for arrival, departure, adults, children and room slug. Preserve these across room and contact links."
+    },
+    {
+      "issue": "The three room stories repeat identical amenities but the decisive bed arrangements are separated by long scrolling.",
+      "impact": "Room comparison requires memory and can look more editorial than useful.",
+      "recommendation": "Add an explicit compare anchor and a compact comparison surface where all three arrangements are visible, with shared comforts once and direct selection."
+    },
+    {
+      "issue": "Detail photographs are static decorative panels; the fuller gallery lives elsewhere.",
+      "impact": "Guests cannot inspect the most decision-relevant images without leaving the room.",
+      "recommendation": "Add a room photo walkthrough with a large contained view, clear image count, caption, previous/next controls and accessible full-size dialog."
+    },
+    {
+      "issue": "Family alternate image is described as another view of the Family Room although its layout differs.",
+      "impact": "A sequence could falsely imply one continuous physical room.",
+      "recommendation": "Use captions that explicitly say alternate layout, and label shared bathroom/tea photographs as hotel details."
+    },
+    {
+      "issue": "The booking form already validates dates, focuses errors, creates an encoded WhatsApp draft and invalidates it on changes.",
+      "impact": "This is a strong tested foundation.",
+      "recommendation": "Retain those behaviors while making the stay summary, selected room and handoff clearer. Do not replace it with decorative availability UI."
+    }
+  ],
+  "priorityFeatures": [
+    {
+      "priority": 1,
+      "name": "Stay bar with real handoff",
+      "vagmiEquivalent": "Hero/panel BookingBar carries dates, party and selected room into the booking channel.",
+      "augustoBehavior": "Arrival, departure, adults and children lead to the enquiry with all details retained. CTA should read 'Plan your stay' or 'Enquire for these dates'; a small line explains that the hotel confirms availability.",
+      "technicalBoundary": "A pure parser validates whitelisted query keys and valid calendar dates. Do not put guest names or notes into query strings. Reuse the existing validation/buildWhatsAppUrl adapter.",
+      "acceptance": [
+        "Date/party values remain exact on contact and selected room detail.",
+        "Past, invalid, same-day departure and reversed dates cannot prepare a draft.",
+        "Query tampering produces safe defaults or visible validation, not unverified room names.",
+        "No availability request, inventory or rate is simulated.",
+        "Form still works with touch, keyboard and browser-native date entry."
+      ]
+    },
+    {
+      "priority": 2,
+      "name": "Room comparison and choice",
+      "vagmiEquivalent": "Room spreads combine genuine photos, bed facts, amenity chips and explicit room links.",
+      "augustoBehavior": "A visible compare section shows Deluxe: double bed; Deluxe Twin: two single beds; Family: two beds. Common air conditioning, private bathroom, TV and Wi-Fi are stated once. A choose link sets the exact room preference and retains dates.",
+      "technicalBoundary": "Use semantic comparison markup on desktop and reflow to labeled room summaries on mobile. Do not hide all options behind a horizontal carousel or modal.",
+      "acceptance": [
+        "All three arrangements readable at 390px without horizontal page overflow.",
+        "Each selection resolves to its own room route or preselected enquiry.",
+        "No capacity, dimensions, floor plan, balcony or rate inferred from a photograph.",
+        "If users ask for advice, let them submit party details for hotel confirmation rather than algorithmically guaranteeing a fit."
+      ]
+    },
+    {
+      "priority": 3,
+      "name": "Room photography walkthrough",
+      "vagmiEquivalent": "Main and detail photography make each room tangible.",
+      "augustoBehavior": "A dominant genuine room image with thumbnail or previous/next selection, a visible '1 of 3' count and accurate captions. Open an accessible larger viewer on demand. Manual interaction controls the sequence.",
+      "technicalBoundary": "Use current roomImages and caption mappings; preserve native dialog Escape, focus restoration and keyboard arrows. Avoid auto-advancing the hero or making a guessed continuous virtual tour.",
+      "acceptance": [
+        "All images decode and have truthful alternative text.",
+        "Alternate layouts are explicitly identified.",
+        "Reduced motion removes displacement while preserving controls.",
+        "The selected image and caption remain in sync.",
+        "Dialog focus is contained and returned to the opener after closing."
+      ]
+    },
+    {
+      "priority": 4,
+      "name": "Room-specific enquiry panel",
+      "vagmiEquivalent": "RoomPageBody includes booking, amenities, policies, call fallback and other-room discovery.",
+      "augustoBehavior": "Place a clear selected-room summary, bed arrangement, dates action and WhatsApp/call route near the practical facts. A desktop sticky panel may stay within its section; mobile uses an inline panel or one concise bottom CTA.",
+      "technicalBoundary": "Any sticky panel must stop before the footer and avoid obscuring focus, gallery controls or date fields. Unknown rates and policies are requests for hotel confirmation, not empty pricing cards.",
+      "acceptance": [
+        "No duplicate sticky/floating CTAs compete on mobile.",
+        "Selected room appears in the final WhatsApp draft.",
+        "Call link uses the centralized hotel contact.",
+        "Facts remain visible without animation or JavaScript."
+      ]
+    },
+    {
+      "priority": 5,
+      "name": "Arrival and neighbourhood tools",
+      "vagmiEquivalent": "Location and city guides connect the hotel to real travel needs.",
+      "augustoBehavior": "Use the real exterior, complete address, directions link and a call-ahead note for Godowlia approach/drop-off. Destination cards explain walking-distance context without invented minutes or services.",
+      "technicalBoundary": "Google Maps link remains a user action. No speculative transit ETA, live route or parking guarantee.",
+      "acceptance": [
+        "Hotel and destination photos are unmistakably distinguished.",
+        "Directions resolve to the centralized property address.",
+        "Relevant arrival questions can be included in the enquiry notes.",
+        "No claim of hotel-operated tours or guaranteed temple access."
+      ]
+    }
+  ],
+  "doNotTransferWithoutEvidence": [
+    "Vagmi live STAAH rates, discounted price badges, 'best direct rate' promises and tonight deals.",
+    "Vagmi room capacity algorithms, automatic room allocation and verified room sizes.",
+    "Vagmi meal plans, EP/CP/MAP rates, reply-within-hour promise and booking policies.",
+    "Shree Ganesha Palace's 1916 heritage, family history, named cafe, tour arrangements and review metrics.",
+    "Reference hero videos or photographs.",
+    "Decorative testimonials, random review numbers, fake booking activity or scarcity."
+  ],
+  "motionArchitecture": {
+    "purpose": "Reveal the place and support selection rather than decorate every section.",
+    "hero": "A single deliberate image reveal and headline entrance, with the enquiry bar readable promptly. Never gate entry behind a loading animation.",
+    "roomSpreads": "Photo reveal followed by supporting detail and copy, staggered once. Keep a static readable baseline and use the existing hydration-safe motion preference hook.",
+    "photoWalkthrough": "Short manual crossfade, no auto-advance; reduce to immediate changes under reduced motion.",
+    "comparison": "Clear hover/focus emphasis and selected-state feedback, no moving columns or shifting control positions.",
+    "nativeScroll": "Do not intercept wheel/touch scrolling or add scroll smoothing that changes keyboard behavior."
+  },
+  "implementationSequencing": [
+    "Agree the shared visual tokens and booking-query contract.",
+    "Implement property-led hero and stay bar.",
+    "Implement room index comparison and stronger photographic spreads.",
+    "Implement room detail walkthrough and selected-room enquiry panel.",
+    "Wire stay values into existing contact draft validation.",
+    "Verify the full journey, accessible dialogs, mobile layouts and reduced motion using the existing QA baseline."
+  ],
+  "filesReviewed": [
+    "app/rooms/page.tsx",
+    "app/rooms/[slug]/page.tsx",
+    "components/booking-form.tsx",
+    "components/gallery.tsx",
+    "components/home-hero.tsx",
+    "content/hotel.ts",
+    "content/room-images.ts",
+    "lib/booking.ts",
+    "app/contact/page.tsx"
+  ],
+  "status": "Recommendations only; no application or sibling project source changed."
+}

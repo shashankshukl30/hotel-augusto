@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T05:25:14.199519+00:00",
+  "generated": "2026-10-20T06:00:16.943938+00:00",
   "base_url": "http://127.0.0.1:3080",
   "scope": "Local synthetic samples, not field Core Web Vitals or a Lighthouse score.",
   "headers": {
@@ -14,10 +14,10 @@
     "x-nextjs-prerender": "1",
     "x-nextjs-stale-time": "300",
     "Cache-Control": "s-maxage=31536000",
-    "ETag": "\"g29mogv52u15eq\"",
+    "ETag": "\"5i6unj0l6d2ny8\"",
     "Content-Type": "text/html; charset=utf-8",
-    "Content-Length": "53705",
-    "Date": "Tue, 20 Oct 2026 05:25:14 GMT",
+    "Content-Length": "124427",
+    "Date": "Tue, 20 Oct 2026 06:00:17 GMT",
     "Connection": "close"
   },
   "og": {
@@ -25,7 +25,7 @@
       1200,
       630
     ],
-    "bytes": 803356,
+    "bytes": 808896,
     "format": "PNG"
   },
   "robots": "User-Agent: *\nDisallow: /\n\n",
@@ -33,16 +33,24 @@
     "method": "Cold browser cache; mobile: 1.6 Mbps downstream, 150ms latency, 4x CPU slowdown. Local server and machine affect timings.",
     "samples": [
       {
-        "lcp": 184,
+        "lcp": 304,
         "cls": 0,
-        "longTasks": [],
-        "fcp": 184,
+        "longTasks": [
+          169
+        ],
+        "fcp": 304,
         "resources": [
           {
-            "name": "inter_latin_wght_normal-s.p.0gsaq8ukbf34m.woff2",
+            "name": "bodoni_moda_latin_wght_italic-s.p.2ebojhi24cjg8.woff2",
             "type": "link",
-            "encodedBytes": 48256,
-            "transferBytes": 48556
+            "encodedBytes": 30328,
+            "transferBytes": 30628
+          },
+          {
+            "name": "bodoni_moda_latin_wght_normal-s.p.328xhr0-_klet.woff2",
+            "type": "link",
+            "encodedBytes": 25884,
+            "transferBytes": 26184
           },
           {
             "name": "manrope_latin_wght_normal-s.p.1p_a2k8qd5zhp.woff2",
@@ -51,22 +59,52 @@
             "transferBytes": 25136
           },
           {
-            "name": "23pzn7auesutt.css",
+            "name": "image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=1920&q=85",
             "type": "link",
-            "encodedBytes": 7572,
-            "transferBytes": 7872
+            "encodedBytes": 58596,
+            "transferBytes": 58896
           },
           {
-            "name": "image?url=%2Fimages%2Fvaranasi-hero.webp&w=1920&q=85",
+            "name": "image?url=%2Fimages%2Fhotel-lounge.webp&w=1920&q=85",
             "type": "link",
-            "encodedBytes": 168015,
-            "transferBytes": 168315
+            "encodedBytes": 90784,
+            "transferBytes": 91084
           },
           {
-            "name": "1wwrgquz0s6c9.css",
+            "name": "0uwvldcvfjihu.css",
             "type": "link",
-            "encodedBytes": 3282,
-            "transferBytes": 3582
+            "encodedBytes": 7892,
+            "transferBytes": 8192
+          },
+          {
+            "name": "image?url=%2Fimages%2Fdining-room-wide.webp&w=1920&q=85",
+            "type": "link",
+            "encodedBytes": 62436,
+            "transferBytes": 62736
+          },
+          {
+            "name": "10ndguidpimqo.css",
+            "type": "link",
+            "encodedBytes": 970,
+            "transferBytes": 1270
+          },
+          {
+            "name": "2xxh0u7uuv28x.css",
+            "type": "link",
+            "encodedBytes": 1277,
+            "transferBytes": 1577
+          },
+          {
+            "name": "3j9irz7d6lmje.css",
+            "type": "link",
+            "encodedBytes": 1455,
+            "transferBytes": 1755
+          },
+          {
+            "name": "02co_o4n0c2ek.css",
+            "type": "link",
+            "encodedBytes": 4110,
+            "transferBytes": 4410
           },
           {
             "name": "1ckvzn7sfprko.js",
@@ -87,22 +125,22 @@
             "transferBytes": 72197
           },
           {
+            "name": "2d_4a77it__kx.js",
+            "type": "script",
+            "encodedBytes": 45063,
+            "transferBytes": 45363
+          },
+          {
             "name": "turbopack-2c3mg3r-05n1w.js",
             "type": "script",
             "encodedBytes": 4390,
             "transferBytes": 4690
           },
           {
-            "name": "21um0xqr0whfi.js",
+            "name": "02ui2ohtw57rg.js",
             "type": "script",
-            "encodedBytes": 8449,
-            "transferBytes": 8749
-          },
-          {
-            "name": "2d_4a77it__kx.js",
-            "type": "script",
-            "encodedBytes": 45063,
-            "transferBytes": 45363
+            "encodedBytes": 9661,
+            "transferBytes": 9961
           },
           {
             "name": "3q45jf57qxvi9.js",
@@ -111,10 +149,10 @@
             "transferBytes": 3814
           },
           {
-            "name": "0hjf8tlf-i98z.js",
+            "name": "1r9iu14ae-bc7.js",
             "type": "script",
-            "encodedBytes": 12544,
-            "transferBytes": 12844
+            "encodedBytes": 16453,
+            "transferBytes": 16753
           },
           {
             "name": "1nvvea00hqd4e.js",
@@ -123,130 +161,154 @@
             "transferBytes": 44320
           },
           {
-            "name": "image?url=%2Fimages%2Fgoogle-double-room.webp&w=256&q=85",
+            "name": "image?url=%2Fimages%2Fhotel-lounge.webp&w=750&q=85",
             "type": "img",
-            "encodedBytes": 4711,
-            "transferBytes": 5011
+            "encodedBytes": 25298,
+            "transferBytes": 25598
           },
           {
-            "name": "image?url=%2Fimages%2Fhotel-lobby.webp&w=750&q=85",
+            "name": "image?url=%2Fimages%2Fhotel-reception.webp&w=384&q=75",
             "type": "img",
-            "encodedBytes": 24729,
-            "transferBytes": 25029
+            "encodedBytes": 6641,
+            "transferBytes": 6941
           },
           {
-            "name": "icon.svg?icon.1b4_2k8ccqre5.svg",
+            "name": "icon.svg?icon.3qy4u8j0cpmzt.svg",
             "type": "other",
-            "encodedBytes": 247,
-            "transferBytes": 547
+            "encodedBytes": 695,
+            "transferBytes": 995
           },
           {
             "name": "?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 280,
-            "transferBytes": 580
+            "encodedBytes": 342,
+            "transferBytes": 642
           },
           {
             "name": "hotel?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 294,
-            "transferBytes": 594
+            "encodedBytes": 336,
+            "transferBytes": 636
           },
           {
             "name": "rooms?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 295,
-            "transferBytes": 595
+            "encodedBytes": 321,
+            "transferBytes": 621
           },
           {
             "name": "dining?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 295,
-            "transferBytes": 595
+            "encodedBytes": 321,
+            "transferBytes": 621
+          },
+          {
+            "name": "1c_mgu0p290td.css",
+            "type": "link",
+            "encodedBytes": 2599,
+            "transferBytes": 2899
           },
           {
             "name": "varanasi?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 297,
-            "transferBytes": 597
-          },
-          {
-            "name": "1btp1tslks_e0.css",
-            "type": "link",
-            "encodedBytes": 3100,
-            "transferBytes": 3400
+            "encodedBytes": 338,
+            "transferBytes": 638
           },
           {
             "name": "gallery?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 296,
-            "transferBytes": 596
+            "encodedBytes": 322,
+            "transferBytes": 622
+          },
+          {
+            "name": "3lvduguby5y-0.css",
+            "type": "link",
+            "encodedBytes": 3984,
+            "transferBytes": 4284
+          },
+          {
+            "name": "guides?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "encodedBytes": 334,
+            "transferBytes": 634
           },
           {
             "name": "contact?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 312,
-            "transferBytes": 612
+            "encodedBytes": 350,
+            "transferBytes": 650
           },
           {
-            "name": "0ra33_gx7k-4l.css",
+            "name": "07fkrj9i8ou7b.css",
             "type": "link",
-            "encodedBytes": 3178,
-            "transferBytes": 3478
+            "encodedBytes": 3315,
+            "transferBytes": 3615
           },
           {
             "name": "?_rsc=yIp22O3xgPPxC28X",
             "type": "fetch",
-            "encodedBytes": 2289,
-            "transferBytes": 2589
-          },
-          {
-            "name": "24y6f80cex5cw.css",
-            "type": "link",
-            "encodedBytes": 3133,
-            "transferBytes": 3433
+            "encodedBytes": 2331,
+            "transferBytes": 2631
           },
           {
             "name": "?_rsc=8nTjltbQWvg6NcbE",
             "type": "fetch",
-            "encodedBytes": 2617,
-            "transferBytes": 2917
+            "encodedBytes": 7110,
+            "transferBytes": 7410
+          },
+          {
+            "name": "21r_t2p43pnmh.css",
+            "type": "link",
+            "encodedBytes": 1223,
+            "transferBytes": 1523
+          },
+          {
+            "name": "0vpc65mss17fz.css",
+            "type": "link",
+            "encodedBytes": 2105,
+            "transferBytes": 2405
           },
           {
             "name": "hotel?_rsc=MCur7xmYHnDW3nCF",
             "type": "fetch",
-            "encodedBytes": 3407,
-            "transferBytes": 3707
+            "encodedBytes": 4048,
+            "transferBytes": 4348
           },
           {
-            "name": "457_dw6dw-fcr.css",
+            "name": "0tjad1d22l9sg.css",
             "type": "link",
-            "encodedBytes": 1320,
-            "transferBytes": 1620
-          },
-          {
-            "name": "05bls7x5qrwuc.css",
-            "type": "link",
-            "encodedBytes": 1972,
-            "transferBytes": 2272
+            "encodedBytes": 1745,
+            "transferBytes": 2045
           },
           {
             "name": "rooms?_rsc=fz2dyb1obUopobmp",
             "type": "fetch",
-            "encodedBytes": 2868,
-            "transferBytes": 3168
+            "encodedBytes": 3508,
+            "transferBytes": 3808
           },
           {
             "name": "dining?_rsc=0CBK1YaZNXJfNJDX",
             "type": "fetch",
-            "encodedBytes": 3232,
-            "transferBytes": 3532
+            "encodedBytes": 3701,
+            "transferBytes": 4001
           },
           {
             "name": "varanasi?_rsc=Rl9sPfA3_E5XlVDF",
             "type": "fetch",
-            "encodedBytes": 3306,
-            "transferBytes": 3606
+            "encodedBytes": 3693,
+            "transferBytes": 3993
+          },
+          {
+            "name": "2qcsln-w6ac1w.js",
+            "type": "script",
+            "encodedBytes": 8057,
+            "transferBytes": 8357
+          },
+          {
+            "name": "gallery?_rsc=Ms9RZ1ulVGHZx9cA",
+            "type": "fetch",
+            "encodedBytes": 2310,
+            "transferBytes": 2610
           },
           {
             "name": "3olmqk75e_50w.js",
@@ -255,28 +317,40 @@
             "transferBytes": 6123
           },
           {
-            "name": "gallery?_rsc=Ms9RZ1ulVGHZx9cA",
+            "name": "guides?_rsc=gYCxHVIPHgSY50lU",
             "type": "fetch",
-            "encodedBytes": 2297,
-            "transferBytes": 2597
+            "encodedBytes": 2317,
+            "transferBytes": 2617
           },
           {
             "name": "contact?_rsc=BiuOixuigeBXVJn7",
             "type": "fetch",
-            "encodedBytes": 4034,
-            "transferBytes": 4334
+            "encodedBytes": 3685,
+            "transferBytes": 3985
           },
           {
-            "name": "2vkng9qx_x9ut.js",
+            "name": "23_kdt600xbtw.js",
             "type": "script",
-            "encodedBytes": 7436,
-            "transferBytes": 7736
+            "encodedBytes": 7987,
+            "transferBytes": 8287
           },
           {
-            "name": "0-5o1xatpncjk.js",
+            "name": "2y4w433ns4tan.js",
             "type": "script",
-            "encodedBytes": 8948,
-            "transferBytes": 9248
+            "encodedBytes": 7443,
+            "transferBytes": 7743
+          },
+          {
+            "name": "25n9ie5vf048f.js",
+            "type": "script",
+            "encodedBytes": 1875,
+            "transferBytes": 2175
+          },
+          {
+            "name": "2329vloaupfhw.js",
+            "type": "script",
+            "encodedBytes": 9018,
+            "transferBytes": 9318
           }
         ],
         "fontsReady": "loaded",
@@ -286,19 +360,25 @@
         "errors": []
       },
       {
-        "lcp": 2076,
-        "cls": 0.0032133649188311594,
+        "lcp": 1780,
+        "cls": 0,
         "longTasks": [
-          134,
-          126
+          699,
+          130
         ],
-        "fcp": 1068,
+        "fcp": 1780,
         "resources": [
           {
-            "name": "inter_latin_wght_normal-s.p.0gsaq8ukbf34m.woff2",
+            "name": "bodoni_moda_latin_wght_italic-s.p.2ebojhi24cjg8.woff2",
             "type": "link",
-            "encodedBytes": 48256,
-            "transferBytes": 48556
+            "encodedBytes": 30328,
+            "transferBytes": 30628
+          },
+          {
+            "name": "bodoni_moda_latin_wght_normal-s.p.328xhr0-_klet.woff2",
+            "type": "link",
+            "encodedBytes": 25884,
+            "transferBytes": 26184
           },
           {
             "name": "manrope_latin_wght_normal-s.p.1p_a2k8qd5zhp.woff2",
@@ -307,22 +387,52 @@
             "transferBytes": 25136
           },
           {
-            "name": "image?url=%2Fimages%2Fvaranasi-hero.webp&w=1080&q=85",
+            "name": "image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=640&q=85",
             "type": "link",
-            "encodedBytes": 65563,
-            "transferBytes": 65863
+            "encodedBytes": 14738,
+            "transferBytes": 15038
           },
           {
-            "name": "23pzn7auesutt.css",
+            "name": "image?url=%2Fimages%2Fhotel-lounge.webp&w=640&q=85",
             "type": "link",
-            "encodedBytes": 7572,
-            "transferBytes": 7872
+            "encodedBytes": 19590,
+            "transferBytes": 19890
           },
           {
-            "name": "1wwrgquz0s6c9.css",
+            "name": "image?url=%2Fimages%2Fdining-room-wide.webp&w=640&q=85",
             "type": "link",
-            "encodedBytes": 3282,
-            "transferBytes": 3582
+            "encodedBytes": 15367,
+            "transferBytes": 15667
+          },
+          {
+            "name": "0uwvldcvfjihu.css",
+            "type": "link",
+            "encodedBytes": 7892,
+            "transferBytes": 8192
+          },
+          {
+            "name": "10ndguidpimqo.css",
+            "type": "link",
+            "encodedBytes": 970,
+            "transferBytes": 1270
+          },
+          {
+            "name": "2xxh0u7uuv28x.css",
+            "type": "link",
+            "encodedBytes": 1277,
+            "transferBytes": 1577
+          },
+          {
+            "name": "3j9irz7d6lmje.css",
+            "type": "link",
+            "encodedBytes": 1455,
+            "transferBytes": 1755
+          },
+          {
+            "name": "02co_o4n0c2ek.css",
+            "type": "link",
+            "encodedBytes": 4110,
+            "transferBytes": 4410
           },
           {
             "name": "1ckvzn7sfprko.js",
@@ -355,10 +465,10 @@
             "transferBytes": 4690
           },
           {
-            "name": "21um0xqr0whfi.js",
+            "name": "02ui2ohtw57rg.js",
             "type": "script",
-            "encodedBytes": 8449,
-            "transferBytes": 8749
+            "encodedBytes": 9661,
+            "transferBytes": 9961
           },
           {
             "name": "1nvvea00hqd4e.js",
@@ -373,112 +483,88 @@
             "transferBytes": 3814
           },
           {
-            "name": "0hjf8tlf-i98z.js",
+            "name": "1r9iu14ae-bc7.js",
             "type": "script",
-            "encodedBytes": 12544,
-            "transferBytes": 12844
+            "encodedBytes": 16453,
+            "transferBytes": 16753
           },
           {
-            "name": "image?url=%2Fimages%2Fgoogle-double-room.webp&w=128&q=85",
-            "type": "img",
-            "encodedBytes": 1799,
-            "transferBytes": 2099
-          },
-          {
-            "name": "image?url=%2Fimages%2Fhotel-lobby.webp&w=640&q=85",
-            "type": "img",
-            "encodedBytes": 19236,
-            "transferBytes": 19536
-          },
-          {
-            "name": "icon.svg?icon.1b4_2k8ccqre5.svg",
+            "name": "icon.svg?icon.3qy4u8j0cpmzt.svg",
             "type": "other",
-            "encodedBytes": 247,
-            "transferBytes": 547
+            "encodedBytes": 695,
+            "transferBytes": 995
           },
           {
             "name": "?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 280,
-            "transferBytes": 580
+            "encodedBytes": 342,
+            "transferBytes": 642
           },
           {
             "name": "contact?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 312,
-            "transferBytes": 612
+            "encodedBytes": 350,
+            "transferBytes": 650
           },
           {
             "name": "rooms?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 295,
-            "transferBytes": 595
-          },
-          {
-            "name": "hotel?_rsc=5CB68i4pnAekjehf",
-            "type": "fetch",
-            "encodedBytes": 294,
-            "transferBytes": 594
+            "encodedBytes": 321,
+            "transferBytes": 621
           },
           {
             "name": "?_rsc=yIp22O3xgPPxC28X",
             "type": "fetch",
-            "encodedBytes": 2289,
-            "transferBytes": 2589
-          },
-          {
-            "name": "457_dw6dw-fcr.css",
-            "type": "link",
-            "encodedBytes": 1320,
-            "transferBytes": 1620
-          },
-          {
-            "name": "05bls7x5qrwuc.css",
-            "type": "link",
-            "encodedBytes": 1972,
-            "transferBytes": 2272
+            "encodedBytes": 2331,
+            "transferBytes": 2631
           },
           {
             "name": "?_rsc=8nTjltbQWvg6NcbE",
             "type": "fetch",
-            "encodedBytes": 2617,
-            "transferBytes": 2917
+            "encodedBytes": 7110,
+            "transferBytes": 7410
           },
           {
-            "name": "0ra33_gx7k-4l.css",
+            "name": "21r_t2p43pnmh.css",
             "type": "link",
-            "encodedBytes": 3178,
-            "transferBytes": 3478
+            "encodedBytes": 1223,
+            "transferBytes": 1523
+          },
+          {
+            "name": "0vpc65mss17fz.css",
+            "type": "link",
+            "encodedBytes": 2105,
+            "transferBytes": 2405
           },
           {
             "name": "contact?_rsc=BiuOixuigeBXVJn7",
             "type": "fetch",
-            "encodedBytes": 4034,
-            "transferBytes": 4334
+            "encodedBytes": 3685,
+            "transferBytes": 3985
           },
           {
-            "name": "1btp1tslks_e0.css",
+            "name": "3lvduguby5y-0.css",
             "type": "link",
-            "encodedBytes": 3100,
-            "transferBytes": 3400
+            "encodedBytes": 3984,
+            "transferBytes": 4284
           },
           {
             "name": "rooms?_rsc=fz2dyb1obUopobmp",
             "type": "fetch",
-            "encodedBytes": 2868,
-            "transferBytes": 3168
+            "encodedBytes": 3508,
+            "transferBytes": 3808
           },
           {
-            "name": "hotel?_rsc=MCur7xmYHnDW3nCF",
-            "type": "fetch",
-            "encodedBytes": 3407,
-            "transferBytes": 3707
-          },
-          {
-            "name": "0-5o1xatpncjk.js",
+            "name": "25n9ie5vf048f.js",
             "type": "script",
-            "encodedBytes": 8948,
-            "transferBytes": 9248
+            "encodedBytes": 1875,
+            "transferBytes": 2175
+          },
+          {
+            "name": "2329vloaupfhw.js",
+            "type": "script",
+            "encodedBytes": 9018,
+            "transferBytes": 9318
           },
           {
             "name": "3olmqk75e_50w.js",
@@ -494,19 +580,25 @@
         "errors": []
       },
       {
-        "lcp": 2064,
-        "cls": 0.0032133649188311594,
+        "lcp": 1728,
+        "cls": 0,
         "longTasks": [
-          163,
-          132
+          677,
+          153
         ],
-        "fcp": 1128,
+        "fcp": 1728,
         "resources": [
           {
-            "name": "inter_latin_wght_normal-s.p.0gsaq8ukbf34m.woff2",
+            "name": "bodoni_moda_latin_wght_italic-s.p.2ebojhi24cjg8.woff2",
             "type": "link",
-            "encodedBytes": 48256,
-            "transferBytes": 48556
+            "encodedBytes": 30328,
+            "transferBytes": 30628
+          },
+          {
+            "name": "bodoni_moda_latin_wght_normal-s.p.328xhr0-_klet.woff2",
+            "type": "link",
+            "encodedBytes": 25884,
+            "transferBytes": 26184
           },
           {
             "name": "manrope_latin_wght_normal-s.p.1p_a2k8qd5zhp.woff2",
@@ -515,22 +607,52 @@
             "transferBytes": 25136
           },
           {
-            "name": "image?url=%2Fimages%2Fvaranasi-hero.webp&w=1080&q=85",
+            "name": "image?url=%2Fimages%2Fdeluxe-room-blue.webp&w=640&q=85",
             "type": "link",
-            "encodedBytes": 65563,
-            "transferBytes": 65863
+            "encodedBytes": 14738,
+            "transferBytes": 15038
           },
           {
-            "name": "23pzn7auesutt.css",
+            "name": "image?url=%2Fimages%2Fhotel-lounge.webp&w=640&q=85",
             "type": "link",
-            "encodedBytes": 7572,
-            "transferBytes": 7872
+            "encodedBytes": 19590,
+            "transferBytes": 19890
           },
           {
-            "name": "1wwrgquz0s6c9.css",
+            "name": "image?url=%2Fimages%2Fdining-room-wide.webp&w=640&q=85",
             "type": "link",
-            "encodedBytes": 3282,
-            "transferBytes": 3582
+            "encodedBytes": 15367,
+            "transferBytes": 15667
+          },
+          {
+            "name": "0uwvldcvfjihu.css",
+            "type": "link",
+            "encodedBytes": 7892,
+            "transferBytes": 8192
+          },
+          {
+            "name": "10ndguidpimqo.css",
+            "type": "link",
+            "encodedBytes": 970,
+            "transferBytes": 1270
+          },
+          {
+            "name": "2xxh0u7uuv28x.css",
+            "type": "link",
+            "encodedBytes": 1277,
+            "transferBytes": 1577
+          },
+          {
+            "name": "3j9irz7d6lmje.css",
+            "type": "link",
+            "encodedBytes": 1455,
+            "transferBytes": 1755
+          },
+          {
+            "name": "02co_o4n0c2ek.css",
+            "type": "link",
+            "encodedBytes": 4110,
+            "transferBytes": 4410
           },
           {
             "name": "1ckvzn7sfprko.js",
@@ -563,10 +685,10 @@
             "transferBytes": 4690
           },
           {
-            "name": "21um0xqr0whfi.js",
+            "name": "02ui2ohtw57rg.js",
             "type": "script",
-            "encodedBytes": 8449,
-            "transferBytes": 8749
+            "encodedBytes": 9661,
+            "transferBytes": 9961
           },
           {
             "name": "1nvvea00hqd4e.js",
@@ -581,112 +703,88 @@
             "transferBytes": 3814
           },
           {
-            "name": "0hjf8tlf-i98z.js",
+            "name": "1r9iu14ae-bc7.js",
             "type": "script",
-            "encodedBytes": 12544,
-            "transferBytes": 12844
+            "encodedBytes": 16453,
+            "transferBytes": 16753
           },
           {
-            "name": "image?url=%2Fimages%2Fgoogle-double-room.webp&w=128&q=85",
-            "type": "img",
-            "encodedBytes": 1799,
-            "transferBytes": 2099
-          },
-          {
-            "name": "image?url=%2Fimages%2Fhotel-lobby.webp&w=640&q=85",
-            "type": "img",
-            "encodedBytes": 19236,
-            "transferBytes": 19536
-          },
-          {
-            "name": "icon.svg?icon.1b4_2k8ccqre5.svg",
+            "name": "icon.svg?icon.3qy4u8j0cpmzt.svg",
             "type": "other",
-            "encodedBytes": 247,
-            "transferBytes": 547
+            "encodedBytes": 695,
+            "transferBytes": 995
           },
           {
             "name": "?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 280,
-            "transferBytes": 580
+            "encodedBytes": 342,
+            "transferBytes": 642
           },
           {
             "name": "contact?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 312,
-            "transferBytes": 612
+            "encodedBytes": 350,
+            "transferBytes": 650
           },
           {
             "name": "rooms?_rsc=5CB68i4pnAekjehf",
             "type": "fetch",
-            "encodedBytes": 295,
-            "transferBytes": 595
-          },
-          {
-            "name": "hotel?_rsc=5CB68i4pnAekjehf",
-            "type": "fetch",
-            "encodedBytes": 294,
-            "transferBytes": 594
+            "encodedBytes": 321,
+            "transferBytes": 621
           },
           {
             "name": "?_rsc=yIp22O3xgPPxC28X",
             "type": "fetch",
-            "encodedBytes": 2289,
-            "transferBytes": 2589
-          },
-          {
-            "name": "457_dw6dw-fcr.css",
-            "type": "link",
-            "encodedBytes": 1320,
-            "transferBytes": 1620
-          },
-          {
-            "name": "05bls7x5qrwuc.css",
-            "type": "link",
-            "encodedBytes": 1972,
-            "transferBytes": 2272
+            "encodedBytes": 2331,
+            "transferBytes": 2631
           },
           {
             "name": "?_rsc=8nTjltbQWvg6NcbE",
             "type": "fetch",
-            "encodedBytes": 2617,
-            "transferBytes": 2917
+            "encodedBytes": 7110,
+            "transferBytes": 7410
           },
           {
-            "name": "0ra33_gx7k-4l.css",
+            "name": "21r_t2p43pnmh.css",
             "type": "link",
-            "encodedBytes": 3178,
-            "transferBytes": 3478
+            "encodedBytes": 1223,
+            "transferBytes": 1523
+          },
+          {
+            "name": "0vpc65mss17fz.css",
+            "type": "link",
+            "encodedBytes": 2105,
+            "transferBytes": 2405
           },
           {
             "name": "contact?_rsc=BiuOixuigeBXVJn7",
             "type": "fetch",
-            "encodedBytes": 4034,
-            "transferBytes": 4334
+            "encodedBytes": 3685,
+            "transferBytes": 3985
           },
           {
-            "name": "1btp1tslks_e0.css",
+            "name": "3lvduguby5y-0.css",
             "type": "link",
-            "encodedBytes": 3100,
-            "transferBytes": 3400
+            "encodedBytes": 3984,
+            "transferBytes": 4284
           },
           {
             "name": "rooms?_rsc=fz2dyb1obUopobmp",
             "type": "fetch",
-            "encodedBytes": 2868,
-            "transferBytes": 3168
+            "encodedBytes": 3508,
+            "transferBytes": 3808
           },
           {
-            "name": "hotel?_rsc=MCur7xmYHnDW3nCF",
-            "type": "fetch",
-            "encodedBytes": 3407,
-            "transferBytes": 3707
-          },
-          {
-            "name": "0-5o1xatpncjk.js",
+            "name": "25n9ie5vf048f.js",
             "type": "script",
-            "encodedBytes": 8948,
-            "transferBytes": 9248
+            "encodedBytes": 1875,
+            "transferBytes": 2175
+          },
+          {
+            "name": "2329vloaupfhw.js",
+            "type": "script",
+            "encodedBytes": 9018,
+            "transferBytes": 9318
           },
           {
             "name": "3olmqk75e_50w.js",

@@ -1,0 +1,427 @@
+{
+  "revision": "Hospitality substance and Vagmi feature adaptation",
+  "createdAt": "2026-10-20",
+  "status": "Implementation authorized by parent; visual contract owned by parent",
+  "scope": "Hotel Augusto only. Reference projects inspected read-only.",
+  "positioning": {
+    "headline": "Stay in Godowlia. Step into Kashi.",
+    "proof": [
+      "Walking distance to Shri Kashi Vishwanath Temple and Dashashwamedh Ghat",
+      "Three verified room categories with distinct bed arrangements",
+      "Vegetarian dining at the hotel",
+      "Reception, room service and practical guest facilities"
+    ],
+    "avoid": [
+      "Invented heritage or founding story",
+      "River-view or riverfront room claims",
+      "Unsupported luxury, awards or star count"
+    ]
+  },
+  "evidence": [
+    {
+      "id": "S01-S22",
+      "path": "research/source-ledger.json",
+      "date": "2026-10-19",
+      "status": "Existing corroborated hotel/destination ledger; conflicts retained"
+    },
+    {
+      "id": "GOOGLE-LIVE",
+      "path": "research/ota-revision/source-to-page-mapping.json",
+      "date": "2026-10-19",
+      "status": "Rendered correct property identity, address, phone and genuine photographs"
+    },
+    {
+      "id": "HR-MMT",
+      "url": "https://www.makemytrip.com/hotels/amenities-of-hotel_augusto-details-varanasi.html",
+      "date": "2026-10-20",
+      "method": "Agent Reach via Exa public indexed content",
+      "snapshot": "research/hospitality-revision/augusto-mmt-amenities-exa.txt",
+      "facts": [
+        "Elevator/lift",
+        "Laundry service",
+        "Luggage assistance",
+        "Luggage storage",
+        "Lounge",
+        "Wi-Fi",
+        "Air conditioning",
+        "Housekeeping",
+        "24-hour room service"
+      ],
+      "limit": "Indexed amenities do not prove current operating hours, prices, availability, full accessibility or owner-final policies."
+    },
+    {
+      "id": "HR-VAGMI",
+      "url": "https://hotelvagmi.com/",
+      "date": "2026-10-20",
+      "method": "Agent Reach via Jina Reader plus design agent browser/source study",
+      "snapshot": "research/hospitality-revision/vagmi-home-jina.txt",
+      "localSource": "D:/Digiocular/Websites/Hotel Vagmi/site/app/(en)/page.tsx",
+      "limit": "Reference architecture only. No Vagmi facts, photographs or claims transfer to Augusto."
+    },
+    {
+      "id": "HR-KASHI",
+      "url": "https://kashi.gov.in/listing-details/dashashwamedh-ghat",
+      "date": "2026-10-20",
+      "method": "Agent Reach via Jina Reader",
+      "facts": [
+        "Evening Ganga Aarti",
+        "Boat rides around the ghat",
+        "Near Shri Kashi Vishwanath Temple"
+      ],
+      "limit": "No fixed schedule, hotel tour service or reserved seating is established."
+    }
+  ],
+  "vagmiElementMap": [
+    {
+      "element": "Hero and dated booking bar",
+      "decision": "adapt",
+      "augusto": "Real Augusto property photograph, location and date/guest enquiry. Explicit availability request; no live prices or instant confirmation."
+    },
+    {
+      "element": "PriceFrom / crossed-out price / direct discount",
+      "decision": "exclude",
+      "reason": "No verified Augusto rate, promotion or direct-rate advantage."
+    },
+    {
+      "element": "Welcome with practical fact list and two photographs",
+      "decision": "adapt",
+      "augusto": "Godowlia address, three room categories, vegetarian restaurant, 24-hour reception; real lobby/exterior images. No name etymology or invented founding story."
+    },
+    {
+      "element": "Amenity strip",
+      "decision": "adapt",
+      "augusto": "Wi-Fi, air-conditioned rooms, vegetarian dining, room service, lift and housekeeping. Service details are available nearby."
+    },
+    {
+      "element": "Rooms editorial spreads",
+      "decision": "adapt",
+      "augusto": "Deluxe double, Deluxe Twin two singles, Family two beds; category-matched image sets and enquiry links."
+    },
+    {
+      "element": "Room comparison matrix",
+      "decision": "new_augusto_utility",
+      "augusto": "Confirmed bed arrangement and shared essentials. This is not an exact existing Vagmi module; capacities and room areas remain omitted."
+    },
+    {
+      "element": "Flavour restaurant feature",
+      "decision": "adapt",
+      "augusto": "Unbranded vegetarian restaurant, genuine restaurant photographs, breakfast/menu/room-service enquiry choices. No Flavours name, invented dishes or food-stock photography."
+    },
+    {
+      "element": "City six-stop timeline",
+      "decision": "adapt",
+      "augusto": "Self-directed dawn/temple/lanes/evening itinerary. No hotel-arranged tours, boat bookings, guaranteed aarti seating or exact travel times."
+    },
+    {
+      "element": "Witness quotations and OTA rating strip",
+      "decision": "adapt_to_source_links",
+      "augusto": "Google, MakeMyTrip and Tripadvisor review-source links; no unverified rating numbers or fabricated/composite testimonials."
+    },
+    {
+      "element": "GettingHere map and air/rail/road instructions",
+      "decision": "adapt",
+      "augusto": "Copyable verified address, arrival-mode tabs, current drop-off/parking questions, click-to-load Google map and external directions."
+    },
+    {
+      "element": "GoodToKnow services and policies",
+      "decision": "adapt",
+      "augusto": "Detailed verified services and practical FAQs; disputed policies become specific questions to confirm with hotel."
+    },
+    {
+      "element": "Reserve + WhatsApp/phone/email",
+      "decision": "adapt",
+      "augusto": "Date/guest/room WhatsApp handoff and telephone. No unverified email or response-time promise."
+    },
+    {
+      "element": "Corporate rate, OTA booking offers, tour promises",
+      "decision": "exclude",
+      "reason": "No Augusto owner-confirmed offers, corporate arrangement, live engine or tour service."
+    },
+    {
+      "element": "Guide-detail FAQs",
+      "decision": "adapt",
+      "augusto": "First visit, arrival and choosing a room guides with source-backed answers. Do not describe a homepage FAQ as an exact Vagmi feature."
+    }
+  ],
+  "features": [
+    {
+      "id": "hotel-services",
+      "priority": 1,
+      "routes": [
+        "/",
+        "/hotel"
+      ],
+      "guestNeed": "Understand what is actually available during the stay.",
+      "heading": "Inside Augusto. Around your day.",
+      "content": [
+        "Air-conditioned rooms, Wi-Fi, private bathrooms and televisions",
+        "Vegetarian restaurant and room service",
+        "24-hour reception, housekeeping, luggage assistance/storage, lift, laundry and lobby seating"
+      ],
+      "interaction": "Expandable grouped service details; actual hotel photographs linked to the gallery.",
+      "images": [
+        "/images/hotel-lobby.webp",
+        "/images/hotel-reception.webp",
+        "/images/hotel-lounge.webp",
+        "/images/hotel-exterior-day.webp"
+      ],
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04",
+        "S05",
+        "S10",
+        "HR-MMT"
+      ],
+      "restrictions": [
+        "Lift does not establish step-free access",
+        "Do not promise complimentary laundry or storage",
+        "Room service wording does not imply a full 24-hour menu"
+      ]
+    },
+    {
+      "id": "room-choice",
+      "priority": 1,
+      "routes": [
+        "/",
+        "/rooms",
+        "/rooms/[slug]"
+      ],
+      "guestNeed": "Choose a bed arrangement before asking for availability.",
+      "heading": "Three rooms. Find your arrangement.",
+      "data": [
+        {
+          "name": "Deluxe Room",
+          "bed": "Double bed",
+          "slug": "deluxe-room"
+        },
+        {
+          "name": "Deluxe Twin Room",
+          "bed": "Two single beds",
+          "slug": "deluxe-twin-room"
+        },
+        {
+          "name": "Family Room",
+          "bed": "Two beds",
+          "slug": "family-room"
+        }
+      ],
+      "sharedEssentials": [
+        "Air conditioning",
+        "Private bathroom",
+        "Television",
+        "Wi-Fi"
+      ],
+      "interaction": "Room selector, photograph viewer, practical comparison and selected-room WhatsApp enquiry.",
+      "sourceIds": [
+        "S02",
+        "S07"
+      ],
+      "restrictions": [
+        "No room areas or maximum occupancy",
+        "No automatic capacity recommendation",
+        "No largest/quietest/river-view claim"
+      ]
+    },
+    {
+      "id": "dining",
+      "priority": 1,
+      "routes": [
+        "/",
+        "/dining"
+      ],
+      "guestNeed": "Know whether dining fits an early start or family stay.",
+      "heading": "Vegetarian dining, at your hotel.",
+      "content": "Sit down at the restaurant or ask about room service. Check the current menu, serving times and breakfast inclusion for your dates.",
+      "interaction": "Three clear WhatsApp enquiries: current menu; breakfast inclusion; room-service options.",
+      "images": [
+        "/images/google-dining-room.webp",
+        "/images/dining-room-wide.webp",
+        "/images/dining-room.webp"
+      ],
+      "sourceIds": [
+        "S02",
+        "S05",
+        "S10",
+        "HR-MMT"
+      ],
+      "restrictions": [
+        "Restaurant brand remains unconfirmed",
+        "No invented food menu, food images, opening hours or complimentary breakfast"
+      ]
+    },
+    {
+      "id": "arrival",
+      "priority": 1,
+      "routes": [
+        "/",
+        "/contact",
+        "/hotel"
+      ],
+      "guestNeed": "Reach the correct property and clarify the final approach.",
+      "heading": "Find your way to Augusto.",
+      "interaction": [
+        "Air / Rail / Road keyboard-accessible tabs",
+        "Copy verified address with visible status",
+        "Load Google map only after explicit click",
+        "Open directions and prepare mode-specific WhatsApp enquiry"
+      ],
+      "address": "D 36/1, August Kunda Road, Godowlia, Jangambari, Varanasi, Uttar Pradesh 221001",
+      "landmark": "Opposite State Bank of India",
+      "dataFields": [
+        "arrivalMode",
+        "arrivalDate",
+        "arrivalTime",
+        "stationOrFlightDetails",
+        "vehicleAndLuggageNotes"
+      ],
+      "sourceIds": [
+        "GOOGLE-LIVE",
+        "S10",
+        "S11"
+      ],
+      "restrictions": [
+        "No fixed airport/station distance or travel time",
+        "No airport transfer or parking guarantee",
+        "No enquiry storage",
+        "Google map requests occur only after map activation"
+      ]
+    },
+    {
+      "id": "city-day",
+      "priority": 2,
+      "routes": [
+        "/",
+        "/varanasi"
+      ],
+      "guestNeed": "Turn the hotel's location into a practical first-day plan.",
+      "heading": "A day in Kashi, at your pace.",
+      "stages": [
+        {
+          "label": "First light",
+          "copy": "Head towards the riverfront. If you choose a boat ride, agree the route and fare locally.",
+          "sources": [
+            "HR-KASHI",
+            "S20"
+          ]
+        },
+        {
+          "label": "Temple visit",
+          "copy": "Leave time for Shri Kashi Vishwanath Temple. Check current entry arrangements before setting out.",
+          "sources": [
+            "S19"
+          ]
+        },
+        {
+          "label": "An unhurried afternoon",
+          "copy": "Explore the nearby lanes, then return to the hotel for a break or a vegetarian meal.",
+          "sources": [
+            "S01",
+            "S02"
+          ]
+        },
+        {
+          "label": "Evening by the Ganga",
+          "copy": "Make time for Ganga Aarti at Dashashwamedh Ghat. Check current arrangements and allow time to find a place.",
+          "sources": [
+            "HR-KASHI"
+          ]
+        }
+      ],
+      "interaction": "Selectable itinerary stages, links to detailed guides and source-specific map directions.",
+      "restrictions": [
+        "Suggested sequence only, not a tour product",
+        "No promised timings, transport or reserved access"
+      ]
+    },
+    {
+      "id": "practical-help",
+      "priority": 2,
+      "routes": [
+        "/",
+        "/contact",
+        "/guides"
+      ],
+      "guestNeed": "Resolve common uncertainty before sending an enquiry.",
+      "heading": "A few things to know before you come.",
+      "interaction": "Topic-led FAQs, direct review-source links and contextual stay-planning prompts.",
+      "topics": [
+        "Room arrangement",
+        "Meals",
+        "Arrival and parking",
+        "Early/late arrival",
+        "Luggage",
+        "Lift and access needs",
+        "Current policies",
+        "How WhatsApp enquiries work"
+      ],
+      "reviewPolicy": "Fresh indexed ratings differ from prior snapshots and are inconsistent within MMT content. Use independent source links without aggregate numbers. No exact review with stable individual permalink and date has been approved for display.",
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S04",
+        "S05",
+        "S06",
+        "GOOGLE-LIVE"
+      ],
+      "restrictions": [
+        "No invented reviews, rating counts or star classification",
+        "No universal cancellation, pet, ID or couple policy"
+      ]
+    }
+  ],
+  "routePlan": {
+    "retain": [
+      "/",
+      "/hotel",
+      "/dining",
+      "/rooms",
+      "/rooms/deluxe-room",
+      "/rooms/deluxe-twin-room",
+      "/rooms/family-room",
+      "/varanasi",
+      "/gallery",
+      "/contact",
+      "/privacy"
+    ],
+    "expand": "Parent assigned three substantive guides to design_references: first visit to Kashi, arrival in Godowlia, choosing a room. Final route slugs owned by that agent.",
+    "doNotDuplicate": "No additional /plan-your-stay page is needed if arrival utility and guides provide the journey."
+  },
+  "referenceArchitecture": {
+    "shreeGaneshaPalace": {
+      "files": [
+        "D:/Digiocular/Websites/shree-ganesha-palace/lib/site.ts",
+        "D:/Digiocular/Websites/shree-ganesha-palace/app/page.tsx",
+        "D:/Digiocular/Websites/shree-ganesha-palace/app/experiences/page.tsx"
+      ],
+      "lesson": "Named room inventory, dedicated dining and experiences, consistent cross-links and contextual booking actions make the property concrete.",
+      "notTransferred": "Its 1916 story, family ownership, 1916 Cafe, seven categories, sizes, rates, tours and policies are exclusive to that property. Local SGP reference itself has version conflicts; not factual evidence for Augusto."
+    },
+    "vagmi": {
+      "files": [
+        "D:/Digiocular/Websites/Hotel Vagmi/site/app/(en)/page.tsx",
+        "D:/Digiocular/Websites/Hotel Vagmi/site/components/sections",
+        "D:/Digiocular/Websites/Hotel Vagmi/collateral/_src/brochure.html",
+        "D:/Digiocular/Websites/Hotel Vagmi/collateral/_src/in-room-directory.html"
+      ],
+      "lesson": "The visitor can inspect rooms, understand daily services, plan the city and arrive before opening a booking conversation."
+    }
+  },
+  "openConfirmations": [
+    "Active WhatsApp ownership for +918081709146",
+    "Current timings, guest eligibility, ID rules, meal inclusions, cancellation/payment terms",
+    "Parking/drop-off and complete step-free route",
+    "Property-photo reuse rights",
+    "Any official restaurant name, menu or owner-supplied story"
+  ],
+  "implementationExports": {
+    "file": "content/hospitality.ts",
+    "names": [
+      "services",
+      "reviewSources",
+      "arrivalModes",
+      "practicalFaqs"
+    ],
+    "component": "components/arrival-guide.tsx exports ArrivalGuide"
+  }
+}

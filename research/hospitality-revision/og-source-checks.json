@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-10-20T05:52:33.884470+00:00",
+  "status": "Source frozen; ESLint and tsc passed. Final ImageResponse rendering delegated to parent production audit.",
+  "checks": [
+    {
+      "name": "Original public property photo hash unchanged",
+      "passed": true
+    },
+    {
+      "name": "JPEG derivative matches manifest",
+      "passed": true
+    },
+    {
+      "name": "Native JPEG is valid and 1200x675",
+      "passed": true
+    },
+    {
+      "name": "Augusto OG Display static TTF readable",
+      "passed": true
+    },
+    {
+      "name": "Augusto OG Display hash/license matches",
+      "passed": true
+    },
+    {
+      "name": "Augusto OG Body static TTF readable",
+      "passed": true
+    },
+    {
+      "name": "Augusto OG Body hash/license matches",
+      "passed": true
+    },
+    {
+      "name": "Favicon valid SVG64x64",
+      "passed": true
+    },
+    {
+      "name": "Runtime dependency bytes below 500KB",
+      "passed": true
+    },
+    {
+      "name": "All runtime dependencies permitted by Git ignore rules",
+      "passed": true
+    },
+    {
+      "name": "Source property photo is already tracked",
+      "passed": true
+    }
+  ],
+  "passed": 11,
+  "runtimeDependencyBytes": 191748,
+  "sourceHashes": {
+    "app/opengraph-image.tsx": "8186c27f8063e347f9a24376009175eeedcf7aa65583b4db06377ba67c3eb88c",
+    "app/icon.svg": "e43ba31b0a64ead8aef2f201d6d139c79cf383dbb88109783e9c15bdaa54f37d",
+    "public/images/augusto-og-room-v1.jpg": "c9fc904f7ddb10d3366b40131b04ded0124d8e214364de5ffc55d12921a63df3",
+    "public/fonts/augusto-og-bodoni-400-v1.ttf": "10969a6292514b9fe8710d343a46f335b247ceca8cc8ca61c1f9759164f8398d",
+    "public/fonts/bodoni-moda-OFL.txt": "6c64f717433eadd29b058d6254fe25c1ee2d249ce3772f843bb21f73285779c2",
+    "public/fonts/augusto-og-manrope-500-v1.ttf": "523c5cfb42a1c68a152e9b845cdb8469f5ae134d542f4c4394b7750488bf2f1f",
+    "public/fonts/manrope-OFL.txt": "d826ab6583b12c26807d8716a545bdbbb672df04f48608a364ba9efdbe501c30"
+  },
+  "cleanup": {
+    "scope": "OG image, favicon and their task-owned source dependencies only",
+    "beforeFreeBytes": {
+      "C": 26316648448,
+      "D": 67996827648
+    },
+    "afterFreeBytes": {
+      "C": 26298331136,
+      "D": 67909832704
+    },
+    "removed": [],
+    "reason": "No disposable task-owned files were created. Generated image/font assets, OFL licenses, source generator, provenance and verification records are required deliverables."
+  }
+}

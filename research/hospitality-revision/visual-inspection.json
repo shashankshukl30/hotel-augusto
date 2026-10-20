@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-20",
+  "inspectedDecodedScreenshots": [
+    "gallery-1440-top.png",
+    "gallery-390-top.png",
+    "gallery-1440-full.png",
+    "varanasi-390-top.png",
+    "varanasi-1440-full.png",
+    "guides-1440-top.png",
+    "guides-first-visit-to-kashi-390-top.png",
+    "guides-arriving-in-godowlia-1440-top.png",
+    "guides-choosing-your-room-390-top.png",
+    "itinerary-1440-no-preference.png",
+    "itinerary-390-no-preference.png",
+    "guide-body-390.png",
+    "guide-body-1440.png",
+    "guide-faq-390.png"
+  ],
+  "findings": [
+    "Asymmetric gallery photo grid retains captions and clear filter controls.",
+    "Mobile layouts reflow with readable serif headings and body text.",
+    "City itinerary has deliberate desktop composition and a two-row mobile control layout.",
+    "Removed the repeated dawn image from the follow-on river block after visual review.",
+    "Guide body, contents navigation and native FAQ layout remain readable at390 and1440."
+  ],
+  "finalSourceState": "Frozen after native inert wrapper fix and concise river block",
+  "qaReports": [
+    "qa-editorial/verification.json",
+    "qa-editorial/final-visual-verification.json"
+  ],
+  "researchCoverageLimit": "DDD live page remained a preloader and was excluded as a successful live visual reference.",
+  "docxValidation": "ZIP integrity, reopened text and section presence verified; no Word visual renderer available in this environment."
+}

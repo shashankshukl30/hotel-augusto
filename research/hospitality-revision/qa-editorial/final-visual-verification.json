@@ -1,0 +1,42 @@
+{
+  "layouts": [
+    {
+      "route": "varanasi",
+      "width": 360,
+      "overflow": false,
+      "anchors": true
+    },
+    {
+      "route": "varanasi",
+      "width": 390,
+      "overflow": false,
+      "anchors": true
+    },
+    {
+      "route": "varanasi",
+      "width": 768,
+      "overflow": false,
+      "anchors": true
+    },
+    {
+      "route": "varanasi",
+      "width": 1440,
+      "overflow": false,
+      "anchors": true
+    },
+    {
+      "route": "guide-body",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "guide-body",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "cityAxeViolations": [],
+  "passed": true
+}

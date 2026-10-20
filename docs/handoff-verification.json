@@ -1,157 +1,85 @@
 {
-  "verified": "2026-10-20T05:26:55.349375+00:00",
+  "verified": "2026-10-20T06:07:13.872495+00:00",
   "rendered_snapshot_sha256": {
-    "HANDOFF.md": "e1c8276f9140ffce3b765ecbb37d5e3c83553bc34df83c899832817c216d7076",
-    "HANDOFF.docx": "145df197ab0bfcc7c9ba1502c08529a5ddfa3a2feadbd2f11451d14a926ee452"
+    "HANDOFF.md": "f89d215bc0d9a7232e64c7968989df909b71fbc6fc269f6f861b442441ae2c6b",
+    "HANDOFF.docx": "7fd31be993c3da1524c060bfdf571497f12a284e11690eea335339fe3da0f8f8"
   },
   "word_render_pages": 3,
   "page_text_out_of_bounds": [],
   "all_pages_visually_inspected": true,
   "docx_reopened": true,
   "zip_integrity": true,
-  "qa_report": "evidence/qa-apple-premium-production.json",
-  "qa_report_sha256": "d95f3353e0c2b9612d8a6c6c7ff41d37eb9538970513a07828ef5fcdc68033d4",
+  "renderer": "Microsoft Word direct PDF export via win32com without explicit repagination; PyMuPDF page images. All three final pages visually inspected; task-owned Word process closed.",
+  "qa_report": "evidence/hospitality-revision/production-qa.json",
+  "qa_report_sha256": "cc00b8f00b05fc23ed516c4d7f2a25a02c79eeefcc191609da31ffdbdb8d843d",
   "qa_summary": {
-    "viewportChecks": 72,
-    "axeAudits": 24,
-    "interactionChecks": 76,
+    "viewportChecks": 102,
+    "axeAudits": 34,
+    "interactionChecks": 40,
     "failures": 0,
-    "passed": true,
-    "retestedInteractionChecks": 3
+    "passed": true
   },
-  "qa_completed": "2026-10-20T05:23:43.863633+00:00",
-  "initial_qa_summary": {
-    "viewportChecks": 72,
-    "axeAudits": 24,
-    "interactionChecks": 76,
-    "failures": 1,
-    "passed": false
-  },
-  "qa_retest_note": "One initial outer-edge rounding measurement was resolved by three targeted keyboard retests with 1px tolerance plus fully visible label bounds; original run preserved, no app change between runs.",
+  "qa_completed": "2026-10-20T05:58:42.349172+00:00",
+  "production_audit": "evidence/production-audit.json",
+  "production_audit_sha256": "fd02802cd2b00953fb1510d3fa14fc93021695a0fa23064052ed9b37d73e57ad",
+  "production_audit_generated": "2026-10-20T06:00:16.943938+00:00",
+  "publication_status": "Owner-private Sites preview configured; current publication status is recorded in evidence/hospitality-revision/private-deployment.json. The public hotel launch remains separate.",
   "cleanup": {
-    "removed": [],
-    "removed_bytes": 0,
+    "record": "evidence/hospitality-revision/handoff-render-cleanup.json",
+    "removed_bytes": 636259,
     "retained_render_evidence": [
       {
-        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\HANDOFF.pdf",
-        "bytes": 278092,
-        "sha256": "5759c66b0da0ac74b409366edbd861cec46499cdad45d4fa2e9728efc9a50714",
-        "reason": "Final rendered document evidence, retained as instructed."
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\HANDOFF.pdf",
+        "bytes": 283308,
+        "sha256": "4ca01f88141974ac0e1f36b30e45cefedd538fdf622922ab754170e24c2e7257",
+        "reason": "Final visually inspected handoff render evidence."
       },
       {
-        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-1.png",
-        "bytes": 138412,
-        "sha256": "e309fff64126eebb4b46a234e37ebdfd8d8dede9314959972abe0ac3f03b39b6",
-        "reason": "Final rendered document evidence, retained as instructed."
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-1.png",
+        "bytes": 188773,
+        "sha256": "7fec581e6a86fe90666110759834636455ec6a54b8b19cd04e967eb7c2e3a6c3",
+        "reason": "Final visually inspected handoff render evidence."
       },
       {
-        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-2.png",
-        "bytes": 163345,
-        "sha256": "9d7da430d81a60663d9ddce8552bdd7da853611842129011eadbaf51449dfd9c",
-        "reason": "Final rendered document evidence, retained as instructed."
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-2.png",
+        "bytes": 199269,
+        "sha256": "83e6bf4a74c103c125b1b2d28386a04142839933e1c1095291a3041f6c346b09",
+        "reason": "Final visually inspected handoff render evidence."
       },
       {
-        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-3.png",
-        "bytes": 173653,
-        "sha256": "bd753af6a75149b60ce5b9734a2620e9a77f961e5f524ff3b391c7d199054c05",
-        "reason": "Final rendered document evidence, retained as instructed."
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-3.png",
+        "bytes": 218443,
+        "sha256": "b4ab8d779b7d9ea2720bc92af55ca4654dca9dc340efb19aba1eaa97627e6476",
+        "reason": "Final visually inspected handoff render evidence."
       }
     ],
-    "retained_bytes": 753502,
-    "bytecode_cleanup_record": "evidence/apple-premium/document-bytecode-cleanup.json",
-    "note": "Automatic approval review rejected deletion of the exact 29539-byte generated handoff bytecode with 'blocked by policy'; no retry. All render evidence retained."
+    "prior_blocked_artifacts_untouched": true,
+    "final_refinement": {
+      "removed": [],
+      "removedBytes": 0,
+      "newDisposableFiles": false,
+      "retained": "Refreshed current final PDF and three page images; no extra scratch was created. Prior blocked files untouched.",
+      "freeBytes": {
+        "C": 26294427648,
+        "D": 68127993856
+      }
+    }
   },
-  "previous_doc_cleanup": [
-    {
-      "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review",
-      "removed": [
-        {
-          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\HANDOFF.pdf",
-          "bytes": 272676,
-          "sha256": "8ad92c8dfcfeeeeeb133f5705f2f978c2168634a07241061188f0ccc30a10851",
-          "reason": "Task-owned DOCX rendering scratch; editable DOCX and Markdown source retained and verified."
-        },
-        {
-          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-1.png",
-          "bytes": 117298,
-          "sha256": "eea519f6247d15a0c868ca8812c44de20d73d75b547e6186ce12f3a2e935d93b",
-          "reason": "Task-owned DOCX rendering scratch; editable DOCX and Markdown source retained and verified."
-        },
-        {
-          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-2.png",
-          "bytes": 134703,
-          "sha256": "f4ee8965913ea38a8b4ed46b12795ad9d6b79450bdaadad3b3acf0e286c7bb79",
-          "reason": "Task-owned DOCX rendering scratch; editable DOCX and Markdown source retained and verified."
-        },
-        {
-          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-3.png",
-          "bytes": 129152,
-          "sha256": "479328e2afe75e1b32f03dd06aafe2c95658302147ba38af86f113cdf985234b",
-          "reason": "Task-owned DOCX rendering scratch; editable DOCX and Markdown source retained and verified."
-        }
-      ],
-      "removed_bytes": 653829,
-      "free_before": {
-        "C": 29321932800,
-        "D": 68477472768
-      },
-      "free_after": {
-        "C": 29321932800,
-        "D": 68478132224
-      }
-    },
-    {
-      "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review",
-      "removed": [
-        {
-          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\HANDOFF.pdf",
-          "bytes": 272999,
-          "sha256": "2bc9c8043f768fdd7fdee8e8e78b13312d7e2b7f75332aea27fdb95d187388bc",
-          "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
-        },
-        {
-          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-1.png",
-          "bytes": 117315,
-          "sha256": "cee479c4973d1e0a60605e96f1787e717b286982a6f935dbd59108b34eb16a00",
-          "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
-        },
-        {
-          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-2.png",
-          "bytes": 134703,
-          "sha256": "f4ee8965913ea38a8b4ed46b12795ad9d6b79450bdaadad3b3acf0e286c7bb79",
-          "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
-        },
-        {
-          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-3.png",
-          "bytes": 131491,
-          "sha256": "9e6980e9c49026f0a7fdbd5edf7141112131874052ec30dfabc9231d50e0c08c",
-          "reason": "Disposable final DOCX rendering scratch; editable source twins retained and SHA256-verified."
-        }
-      ],
-      "removed_bytes": 656508,
-      "free_before": {
-        "C": 29320814592,
-        "D": 68748906496
-      },
-      "free_after": {
-        "C": 29320814592,
-        "D": 68749570048
-      }
-    }
-  ],
   "previous_verification": {
-    "verified": "2026-10-19T17:14:00.586704+00:00",
+    "verified": "2026-10-20T05:26:55.349375+00:00",
     "rendered_snapshot_sha256": {
-      "HANDOFF.md": "1eba09224d833a9bf04665b576f6956c5996d7fe0e75746a1f6a9f43113e1bbb",
-      "HANDOFF.docx": "408903204cf8d707091b357e66aefc1fc3390589976a41d630d8d54f33189a48"
+      "HANDOFF.md": "e1c8276f9140ffce3b765ecbb37d5e3c83553bc34df83c899832817c216d7076",
+      "HANDOFF.docx": "145df197ab0bfcc7c9ba1502c08529a5ddfa3a2feadbd2f11451d14a926ee452"
     },
-    "qa_report": "evidence/qa-hospitality-production.json",
+    "qa_report": "evidence/qa-apple-premium-production.json",
     "qa_summary": {
-      "viewportChecks": 24,
+      "viewportChecks": 72,
       "axeAudits": 24,
-      "interactionChecks": 66,
+      "interactionChecks": 76,
       "failures": 0,
-      "passed": true
+      "passed": true,
+      "retestedInteractionChecks": 3
     }
-  }
+  },
+  "publication_status_record": "evidence/hospitality-revision/private-deployment.json"
 }

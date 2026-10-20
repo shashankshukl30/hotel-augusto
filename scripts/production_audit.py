@@ -62,7 +62,7 @@ with sync_playwright() as p:
           fcp:performance.getEntriesByName('first-contentful-paint')[0]?.startTime,
           resources:performance.getEntriesByType('resource').map(r=>({name:r.name.split('/').pop(),type:r.initiatorType,encodedBytes:r.encodedBodySize,transferBytes:r.transferSize})),
           fontsReady:document.fonts.status,
-          imageLoaded:document.querySelector('.hero-scene-image img').complete && document.querySelector('.hero-scene-image img').naturalWidth>0
+          imageLoaded:document.querySelector('.hero-photo img').complete && document.querySelector('.hero-photo img').naturalWidth>0
         })""")
         sample.update({'width':width,'throttled':throttled,'errors':errors})
         assert not errors and sample['imageLoaded']

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-20",
+  "project": "Hotel Augusto, Varanasi",
+  "scope": "Full hospitality revision based on Hotel Vagmi's guest journey, with Augusto's own factual content, photographs and visual identity.",
+  "contentRoutes": 16,
+  "visualDirection": ["Bodoni Moda display", "Manrope body", "warm ivory", "deep ink blue", "bronze", "genuine property hero"],
+  "features": [
+    "Three-scene property hero with pause and manual controls",
+    "Date, party and room enquiry bars",
+    "Hotel welcome and verified facilities",
+    "All three rooms visible on the homepage",
+    "Dedicated room walkthroughs and accessible photo viewers",
+    "Room comparison, including a separate mobile layout",
+    "Vegetarian dining and contextual meal enquiries",
+    "Four-stage city itinerary",
+    "Attributed guest-review excerpt and independent review links",
+    "Filterable property gallery",
+    "Arrival modes, copyable address, opt-in map and directions",
+    "Practical hotel FAQs",
+    "Three substantial stay guides",
+    "WhatsApp enquiry handoff with validation and editable draft",
+    "Reduced-motion support and native scrolling"
+  ],
+  "checks": {
+    "eslint": "passed",
+    "typescript": "passed",
+    "bookingUnitTests": "4 passed",
+    "normalProductionBuild": "passed",
+    "staticExportBuild": "passed",
+    "productionViewportChecks": 102,
+    "productionAxeAudits": 34,
+    "productionInteractionChecks": 40,
+    "productionQaFailures": 0,
+    "finalMobileHeaderRefinement": "79 assertions across six widths and two additional axe audits passed after enlarging the mobile Enquire control to12px with a44px target. Both builds and static artifact audit rerun successfully.",
+    "staticArtifactChecks": "60 passed",
+    "shareImage": "1200x630 PNG rendered and visually inspected",
+    "responseHeaders": "All six configured headers present on the Next production preview",
+    "localPerformance": "Cold local samples: desktop LCP 304ms; 1.6Mbps/150ms/4xCPU mobile LCP1780ms and1728ms. CLS0 in all samples. These are synthetic local measurements, not field Core Web Vitals.",
+    "visualReview": "Desktop and mobile home, room, hotel, dining, city, gallery and guide captures inspected. Desktop wordmark also confirmed in fresh and scroll-return captures."
+  },
+  "scopeLimits": [
+    "WhatsApp remains an enquiry channel; no reservation or payment is processed.",
+    "Public launch requires the hotel to confirm the active booking contact, photo permissions, final domain and current policies.",
+    "Private preview static hosting is separate from the default Next/Vercel production configuration."
+  ],
+  "sourceEvidence": [
+    "research/hospitality-revision/reference-findings.json",
+    "research/hospitality-revision/content-journey-plan.json",
+    "research/hospitality-revision/guest-review-evidence.json",
+    "research/hospitality-revision/og-assets-manifest.json",
+    "evidence/hospitality-revision/production-qa.json",
+    "evidence/hospitality-revision/static-export-audit.json",
+    "evidence/production-audit.json"
+  ]
+}

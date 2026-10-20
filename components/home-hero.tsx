@@ -2,43 +2,55 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowDown, ArrowUpRight, ChevronRight } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { ArrowDown, ArrowUpRight, Pause, Play } from "lucide-react";
 import { useMotionPreference } from "./use-motion-preference";
-import { useRef } from "react";
-import { hotel } from "@/content/hotel";
+
+const scenes = [
+  { src:"/images/deluxe-room-blue.webp", alt:"A double-bed room at Hotel Augusto with warm wood finishes and blue upholstery", detail:"Guest rooms", position:"50% 58%" },
+  { src:"/images/hotel-lounge.webp", alt:"Hotel Augusto's lounge with carved stone panels, seating and a lift entrance", detail:"The hotel lounge", position:"50% 55%" },
+  { src:"/images/dining-room-wide.webp", alt:"The vegetarian restaurant at Hotel Augusto, Varanasi", detail:"Vegetarian dining", position:"50% 50%" },
+];
 
 export function HomeHero() {
+  const [selected, setSelected] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const [hovered, setHovered] = useState(false);
   const reduced = useMotionPreference();
-  const scene = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: scene, offset: ["start end", "start start"] });
-  const scale = useTransform(scrollYProgress, [0, 1], [.94, 1]);
-  const imageY = useTransform(scrollYProgress, [0, 1], ["-3%", "3%"]);
-  const radius = useTransform(scrollYProgress, [0, 1], [40, 20]);
-  const whatsapp = `https://wa.me/${hotel.whatsappNumber}?text=${encodeURIComponent(hotel.bookingMessage)}`;
-  const enter = { duration: 1.05, ease: [.22, 1, .36, 1] as [number, number, number, number] };
-  return <section className="home-hero" aria-labelledby="hero-title">
-    <div className="hero-copy">
-      <motion.p className="hero-location" initial={false} animate={reduced ? {} : { y: [18, 0] }} transition={enter}>Hotel Augusto · Godowlia, Varanasi</motion.p>
-      <h1 id="hero-title">
-        <motion.span className="hero-title-line" initial={false} animate={reduced ? {} : { y: [34, 0] }} transition={enter}>Augusto.</motion.span>
-        <motion.span className="hero-title-line hero-title-secondary" initial={false} animate={reduced ? {} : { y: [44, 0] }} transition={{ ...enter, duration: 1.25 }}>Varanasi, up close.</motion.span>
-      </h1>
-      <motion.div className="hero-actions" initial={false} animate={reduced ? {} : { y: [24, 0] }} transition={{ ...enter, duration: 1.35 }}>
-        <Link href="/rooms" className="button" style={{ color: "var(--paper)" }}>Find your room <ArrowUpRight size={20}/></Link>
-        <a href={whatsapp} target="_blank" rel="noopener noreferrer" className="hero-whatsapp">Book on WhatsApp <ChevronRight size={20}/></a>
-      </motion.div>
+  const scene = useRef<HTMLElement>(null);
+  const {scrollYProgress} = useScroll({target:scene,offset:["start start","end start"]});
+  const y = useTransform(scrollYProgress,[0,1],["0%","12%"]);
+  useEffect(()=>{
+    if(reduced || paused || hovered) return;
+    const interval = window.setInterval(()=>setSelected(index=>(index+1)%scenes.length),6500);
+    return ()=>window.clearInterval(interval);
+  },[reduced,paused,hovered]);
+  const enter = {duration:1.15,ease:[.22,1,.36,1] as [number,number,number,number]};
+  return <section ref={scene} className="home-hero" aria-roledescription="carousel" aria-label="Welcome to Hotel Augusto" onMouseEnter={()=>setHovered(true)} onMouseLeave={()=>setHovered(false)} onFocusCapture={()=>setHovered(true)} onBlurCapture={event=>{if(!event.currentTarget.contains(event.relatedTarget))setHovered(false);}}>
+    <motion.div className="hero-photographs" style={{y:reduced?0:y}}>
+      {scenes.map((photo,index)=><motion.div className="hero-photo" key={photo.src}
+        aria-hidden={selected!==index} initial={false}
+        animate={{opacity:selected===index?1:0,scale:reduced?1:selected===index?1.04:1}}
+        transition={{opacity:{duration:reduced?0:1.2},scale:{duration:6.5,ease:"linear"}}}>
+        <Image src={photo.src} alt={selected===index?photo.alt:""} fill
+          preload={index===0} loading={index===0?undefined:"eager"} sizes="100vw"
+          quality={85} style={{objectPosition:photo.position}}/>
+      </motion.div>)}
+    </motion.div>
+    <div className="hero-veil"/>
+    <div className="hero-content container">
+      <motion.p className="hero-location eyebrow" initial={false} animate={reduced?{}:{y:[20,0]}} transition={enter}>Hotel Augusto · Godowlia, Varanasi</motion.p>
+      <h1><motion.span initial={false} animate={reduced?{}:{y:[38,0]}} transition={enter}>Your place</motion.span><motion.em initial={false} animate={reduced?{}:{y:[48,0]}} transition={{...enter,duration:1.35}}>in Kashi.</motion.em></h1>
+      <div className="hero-bottom">
+        <div><p className="hero-description">Comfortable rooms. Vegetarian dining.<br/>The old city, right on your doorstep.</p><Link href="/rooms" className="hero-room-link">Discover your stay <ArrowUpRight size={20}/></Link></div>
+        <div className="hero-scene-controls">
+          <p><span>{String(selected+1).padStart(2,"0")} / 03</span><span>{scenes[selected].detail}</span></p>
+          <div className="hero-scene-buttons">{scenes.map((photo,index)=><button key={photo.src} className={selected===index?"is-selected":""} aria-label={`Show ${photo.detail.toLowerCase()}`} aria-pressed={selected===index} onClick={()=>{setSelected(index);setPaused(true);}}><span aria-hidden="true"/></button>)}<button className="hero-pause" onClick={()=>setPaused(!paused)} aria-label={paused?"Play hotel slideshow":"Pause hotel slideshow"} aria-pressed={paused} disabled={reduced}>{paused?<Play size={16}/>:<Pause size={16}/>}</button></div>
+          <Link href="/gallery">Explore the gallery <ArrowUpRight size={16}/></Link>
+        </div>
+      </div>
     </div>
-    <div ref={scene} className="hero-scene-anchor">
-      <motion.div className="hero-scene" style={{ scale: reduced ? 1 : scale, borderRadius: reduced ? 28 : radius }}>
-        <motion.div className="hero-scene-image" style={{ y: reduced ? 0 : imageY }}>
-          <Image src="/images/varanasi-hero.webp" alt="Golden riverfront buildings and boats along the ghats of Varanasi" fill preload sizes="(max-width:600px) 1000px, 100vw" quality={85}/>
-        </motion.div>
-        <div className="hero-scene-shade"/>
-        <div className="hero-scene-caption"><p>A city like no other.<br/>A place to call your own.</p><span>Along the Ganges · Varanasi</span></div>
-        <Link href="/hotel" className="hero-stay-link"><div className="hero-stay-image"><Image src="/images/google-double-room.webp" alt="A double-bed guest room shared on Hotel Augusto’s Google profile" fill sizes="(max-width:600px) 120px, 180px" quality={85}/></div><div className="hero-stay-copy"><span>Inside Augusto</span><strong>Make yourself<br/>at home.</strong><span className="hero-stay-action">Meet the hotel <ArrowUpRight size={18}/></span></div></Link>
-      </motion.div>
-    </div>
-    <a href="#discover" className="hero-scroll"><span>There’s more to your stay</span><span className="hero-scroll-icon"><ArrowDown size={20}/></span></a>
+    <a className="hero-scroll" href="#discover"><ArrowDown size={18}/><span>Step inside</span></a>
   </section>;
 }

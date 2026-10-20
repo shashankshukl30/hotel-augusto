@@ -1,0 +1,31 @@
+﻿{
+    "checkedAt":  "2026-10-20T05:53:00.4896261Z",
+    "phase":  "Content implementation and handoff generator preparation; final document rendering pending production QA",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto",
+    "freeBytesBefore":  {
+                            "D":  67909763072,
+                            "C":  26284109824
+                        },
+    "freeBytesAfter":  {
+                           "D":  67909758976,
+                           "C":  26284322816
+                       },
+    "removed":  [
+
+                ],
+    "removedBytes":  0,
+    "disposableNewFilesFound":  false,
+    "retained":  [
+                     {
+                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\scripts\\__pycache__\\generate_handoff.cpython-313.pyc",
+                         "bytes":  29539,
+                         "sha256":  "BEE62BE913104B260DC04CFACA7FFB878E3D2E2EFF4B9F03D0F0C0876C8EAE7E",
+                         "reason":  "Previously rejected by automatic approval review; explicitly retained, no retry attempted."
+                     }
+                 ],
+    "notes":  [
+                  "New files are purposeful source, research evidence and browser verification screenshots.",
+                  "Generator was validated using python -B without writing additional bytecode or final documents.",
+                  "No sibling projects, dependencies, licensed photographs or review artifacts were removed."
+              ]
+}

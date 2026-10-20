@@ -1,0 +1,74 @@
+{
+  "generated": "2026-10-20T05:52:10.543131+00:00",
+  "purpose": "Hotel Augusto Open Graph image and favicon in the hospitality visual system",
+  "generator": "research/hospitality-revision/generate-og-assets.py",
+  "palette": {
+    "paper": "#f8f3e9",
+    "ink": "#18232e",
+    "bronze": "#745332",
+    "muted": "#665c50"
+  },
+  "paletteNote": "sRGB equivalents of shared OKLCH theme tokens for ImageResponse/SVG compatibility.",
+  "photo": {
+    "source": "public/images/deluxe-room-blue.webp",
+    "sourceSha256": "c0695691d518a4ffb6146c9443960de4cf1f16d10a2e060ec87cc9c3bef44973",
+    "output": "public/images/augusto-og-room-v1.jpg",
+    "outputSha256": "c9fc904f7ddb10d3366b40131b04ded0124d8e214364de5ffc55d12921a63df3",
+    "dimensions": [
+      1200,
+      675
+    ],
+    "bytes": 125196,
+    "changes": "Downsampled from tracked 1600x900 WebP to 1200x675 JPEG for ImageResponse. No visual content added, removed or retouched. OG composition applies a responsive crop.",
+    "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+    "originalSourceUrl": "https://www.varanasihotels.org/data/Photos/1920x1080/16875/1687586/1687586860.JPEG",
+    "sourceLedger": "research/assets/asset-manifest.json",
+    "rights": "Genuine Hotel Augusto public listing photograph. Client reuse rights remain subject to hotel confirmation."
+  },
+  "fonts": [
+    {
+      "sourcePackage": "@fontsource-variable/bodoni-moda",
+      "source": "node_modules/@fontsource-variable/bodoni-moda/files/bodoni-moda-latin-wght-normal.woff2",
+      "sourceSha256": "192ae876c21d9258d096a526dad5bddf37f0daa69cfe943cae5f6be5a52adda2",
+      "output": "public/fonts/augusto-og-bodoni-400-v1.ttf",
+      "outputSha256": "10969a6292514b9fe8710d343a46f335b247ceca8cc8ca61c1f9759164f8398d",
+      "bytes": 30840,
+      "weight": 400,
+      "internalFamily": "Augusto OG Display",
+      "changes": "Static weight instantiation, WOFF2 to TTF conversion, renamed internal font family for this derived asset. All copyright/license name records retained.",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "public/fonts/bodoni-moda-OFL.txt",
+      "licenseSha256": "6c64f717433eadd29b058d6254fe25c1ee2d249ce3772f843bb21f73285779c2"
+    },
+    {
+      "sourcePackage": "@fontsource-variable/manrope",
+      "source": "node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2",
+      "sourceSha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972",
+      "output": "public/fonts/augusto-og-manrope-500-v1.ttf",
+      "outputSha256": "523c5cfb42a1c68a152e9b845cdb8469f5ae134d542f4c4394b7750488bf2f1f",
+      "bytes": 35712,
+      "weight": 500,
+      "internalFamily": "Augusto OG Body",
+      "changes": "Static weight instantiation, WOFF2 to TTF conversion, renamed internal font family for this derived asset. All copyright/license name records retained.",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "public/fonts/manrope-OFL.txt",
+      "licenseSha256": "d826ab6583b12c26807d8716a545bdbbb672df04f48608a364ba9efdbe501c30"
+    }
+  ],
+  "favicon": {
+    "file": "app/icon.svg",
+    "sha256": "e43ba31b0a64ead8aef2f201d6d139c79cf383dbb88109783e9c15bdaa54f37d",
+    "glyphSource": "Static OFL Bodoni Moda-derived A outline",
+    "viewBox": [
+      0,
+      0,
+      64,
+      64
+    ]
+  },
+  "headlineWidthCheck": {
+    "Your place": 435.0,
+    "in Kashi.": 338.0
+  },
+  "totalRuntimeDependencyBytes": 191748
+}

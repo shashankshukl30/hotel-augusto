@@ -1,0 +1,290 @@
+﻿{
+    "completed":  "2026-10-20T05:49:33.112684+00:00",
+    "base_url":  "http://127.0.0.1:3082",
+    "pages":  [
+                  {
+                      "route":  "hotel",
+                      "viewport":  390,
+                      "status":  200,
+                      "width":  390,
+                      "scrollWidth":  390,
+                      "title":  "Hotel Augusto, Varanasi | Our Hotel \u0026 Guest Facilities",
+                      "h1":  "Your address\nin Godowlia.",
+                      "headline":  {
+                                       "font":  "bodoni, \"bodoni Fallback\", serif",
+                                       "size":  "50.7px"
+                                   },
+                      "images":  [
+                                     {
+                                         "alt":  "Hotel Augusto’s street entrance and sign on August Kunda Road, Varanasi",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "Hotel Augusto’s lobby with guest seating, reception and the lift entrance",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "The reception counter and seating at Hotel Augusto",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "Hotel Augusto’s entrance and sign on August Kunda Road",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "Two separate beds in a Deluxe Twin Room at Hotel Augusto",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "The tables and serving area in Hotel Augusto’s restaurant",
+                                         "loaded":  true
+                                     }
+                                 ],
+                      "duplicateIds":  [
+
+                                       ],
+                      "errors":  [
+
+                                 ],
+                      "consoleErrors":  [
+
+                                        ]
+                  },
+                  {
+                      "route":  "dining",
+                      "viewport":  390,
+                      "status":  200,
+                      "width":  390,
+                      "scrollWidth":  390,
+                      "title":  "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+                      "h1":  "Vegetarian\ndining, at\nAugusto.",
+                      "headline":  {
+                                       "font":  "bodoni, \"bodoni Fallback\", serif",
+                                       "size":  "50.7px"
+                                   },
+                      "images":  [
+                                     {
+                                         "alt":  "The restaurant at Hotel Augusto, with tables arranged for guests",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "Marble-topped tables and the serving counter in Hotel Augusto’s vegetarian restaurant",
+                                         "loaded":  true
+                                     }
+                                 ],
+                      "duplicateIds":  [
+
+                                       ],
+                      "errors":  [
+
+                                 ],
+                      "consoleErrors":  [
+
+                                        ]
+                  },
+                  {
+                      "route":  "hotel",
+                      "viewport":  1440,
+                      "status":  200,
+                      "width":  1440,
+                      "scrollWidth":  1440,
+                      "title":  "Hotel Augusto, Varanasi | Our Hotel \u0026 Guest Facilities",
+                      "h1":  "Your address\nin Godowlia.",
+                      "headline":  {
+                                       "font":  "bodoni, \"bodoni Fallback\", serif",
+                                       "size":  "95.04px"
+                                   },
+                      "images":  [
+                                     {
+                                         "alt":  "Hotel Augusto’s street entrance and sign on August Kunda Road, Varanasi",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "Hotel Augusto’s lobby with guest seating, reception and the lift entrance",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "The reception counter and seating at Hotel Augusto",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "Hotel Augusto’s entrance and sign on August Kunda Road",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "Two separate beds in a Deluxe Twin Room at Hotel Augusto",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "The tables and serving area in Hotel Augusto’s restaurant",
+                                         "loaded":  true
+                                     }
+                                 ],
+                      "duplicateIds":  [
+
+                                       ],
+                      "errors":  [
+
+                                 ],
+                      "consoleErrors":  [
+
+                                        ]
+                  },
+                  {
+                      "route":  "dining",
+                      "viewport":  1440,
+                      "status":  200,
+                      "width":  1440,
+                      "scrollWidth":  1440,
+                      "title":  "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+                      "h1":  "Vegetarian\ndining, at\nAugusto.",
+                      "headline":  {
+                                       "font":  "bodoni, \"bodoni Fallback\", serif",
+                                       "size":  "95.04px"
+                                   },
+                      "images":  [
+                                     {
+                                         "alt":  "The restaurant at Hotel Augusto, with tables arranged for guests",
+                                         "loaded":  true
+                                     },
+                                     {
+                                         "alt":  "Marble-topped tables and the serving counter in Hotel Augusto’s vegetarian restaurant",
+                                         "loaded":  true
+                                     }
+                                 ],
+                      "duplicateIds":  [
+
+                                       ],
+                      "errors":  [
+
+                                 ],
+                      "consoleErrors":  [
+
+                                        ]
+                  }
+              ],
+    "interactions":  [
+                         {
+                             "test":  "hotel disclosure keyboard at 390",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "arrival keyboard and rail enquiry at 390",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "arrival End key at 390",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "copy address at 390",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "no map before activation at 390",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "map activation at 390",
+                             "passed":  true,
+                             "mapRequests":  [
+                                                 "https://www.google.com/maps?q=Hotel%20Augusto%2C%20D%2036%2F1%2C%20August%20Kunda%20Road%2C%20Godowlia%2C%20Jangambari%2C%20Varanasi%2C%20Uttar%20Pradesh%20221001\u0026z=17\u0026output=embed",
+                                                 "https://www.google.com/maps/embed?origin=mfe\u0026pb=!1m3!2m1!1sHotel+Augusto,+D+36/1,+August+Kunda+Road,+Godowlia,+Jangambari,+Varanasi,+Uttar+Pradesh+221001!6i17",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95758!3i56006!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=4370",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95757!3i56006!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=4120",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95757!3i56005!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=96137",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95758!3i56005!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=96387",
+                                                 "https://www.google.com/maps/vt?pb=!1m4!1m3!1i17!2i95757!3i56005!1m4!1m3!1i17!2i95757!3i56006!1m4!1m3!1i17!2i95758!3i56005!1m4!1m3!1i17!2i95758!3i56006!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e3!12m2!5b1!6b1!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=71796",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i14!2i11969!3i7000!4i256!2m1!1e1!3m12!2sen-US!3sUS!5e289!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy5lOmx8cC52Om9mZg!4e0!5m1!1e3!23i47083502\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=26313"
+                                             ],
+                             "visibleMapText":  "Keyboard shortcuts\nMap data ©2026\nTerms\nReport a map error"
+                         },
+                         {
+                             "test":  "dining disclosure keyboard at 390",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "three distinct meal enquiries at 390",
+                             "passed":  true,
+                             "links":  [
+                                           {
+                                               "text":  "Ask for the menu",
+                                               "href":  "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20could%20you%20share%20the%20current%20vegetarian%20restaurant%20menu%2C%20prices%20and%20serving%20times%3F%20I%20am%20planning%20a%20stay."
+                                           },
+                                           {
+                                               "text":  "Ask about breakfast",
+                                               "href":  "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20check%20breakfast%20serving%20times%20and%20whether%20breakfast%20is%20included%20in%20the%20room%20plan%20for%20my%20stay.%20I%20can%20share%20my%20dates%20and%20guest%20details."
+                                           },
+                                           {
+                                               "text":  "Ask about room service",
+                                               "href":  "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20could%20you%20share%20the%20current%20room-service%20menu%2C%20availability%20and%20any%20applicable%20charges%20for%20my%20stay%3F"
+                                           }
+                                       ]
+                         },
+                         {
+                             "test":  "hotel disclosure keyboard at 1440",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "arrival keyboard and rail enquiry at 1440",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "arrival End key at 1440",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "copy address at 1440",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "no map before activation at 1440",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "map activation at 1440",
+                             "passed":  true,
+                             "mapRequests":  [
+                                                 "https://www.google.com/maps?q=Hotel%20Augusto%2C%20D%2036%2F1%2C%20August%20Kunda%20Road%2C%20Godowlia%2C%20Jangambari%2C%20Varanasi%2C%20Uttar%20Pradesh%20221001\u0026z=17\u0026output=embed",
+                                                 "https://www.google.com/maps/embed?origin=mfe\u0026pb=!1m3!2m1!1sHotel+Augusto,+D+36/1,+August+Kunda+Road,+Godowlia,+Jangambari,+Varanasi,+Uttar+Pradesh+221001!6i17",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95758!3i56006!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=4370",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95757!3i56006!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=4120",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95757!3i56005!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=96137",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95758!3i56005!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=96387",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95759!3i56005!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=96637",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95759!3i56006!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=4620",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95756!3i56006!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=3870",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i17!2i95756!3i56005!4i256!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i47083502!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=95887",
+                                                 "https://www.google.com/maps/vt?pb=!1m4!1m3!1i17!2i95756!3i56005!1m4!1m3!1i17!2i95757!3i56005!1m4!1m3!1i17!2i95756!3i56006!1m4!1m3!1i17!2i95757!3i56006!1m4!1m3!1i17!2i95758!3i56005!1m4!1m3!1i17!2i95759!3i56005!1m4!1m3!1i17!2i95758!3i56006!1m4!1m3!1i17!2i95759!3i56006!2m3!1e0!2sm!3i800566066!2m3!1e2!2sspotlit!5i1!3m13!2sen-US!3sUS!5e289!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e3!12m2!5b1!6b1!27m15!299174093m14!14m13!1m8!1m2!1y4147303010947941427!2y7722653380942184948!2s%2Fg%2F11b6dg6mk3!4m2!1x253084409!2x830065447!15sgcid%3Ahotel!2b0!6b0!8b0!9b0\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=57035",
+                                                 "https://www.google.com/maps/vt?pb=!1m5!1m4!1i14!2i11969!3i7000!4i256!2m1!1e1!3m12!2sen-US!3sUS!5e289!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy5lOmx8cC52Om9mZg!4e0!5m1!1e3!23i47083502\u0026key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y\u0026token=26313"
+                                             ],
+                             "visibleMapText":  "Keyboard shortcuts\nMap data ©2026\nTerms\nReport a map error"
+                         },
+                         {
+                             "test":  "dining disclosure keyboard at 1440",
+                             "passed":  true
+                         },
+                         {
+                             "test":  "three distinct meal enquiries at 1440",
+                             "passed":  true,
+                             "links":  [
+                                           {
+                                               "text":  "Ask for the menu",
+                                               "href":  "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20could%20you%20share%20the%20current%20vegetarian%20restaurant%20menu%2C%20prices%20and%20serving%20times%3F%20I%20am%20planning%20a%20stay."
+                                           },
+                                           {
+                                               "text":  "Ask about breakfast",
+                                               "href":  "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20check%20breakfast%20serving%20times%20and%20whether%20breakfast%20is%20included%20in%20the%20room%20plan%20for%20my%20stay.%20I%20can%20share%20my%20dates%20and%20guest%20details."
+                                           },
+                                           {
+                                               "text":  "Ask about room service",
+                                               "href":  "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20could%20you%20share%20the%20current%20room-service%20menu%2C%20availability%20and%20any%20applicable%20charges%20for%20my%20stay%3F"
+                                           }
+                                       ]
+                         }
+                     ],
+    "passed":  true,
+    "messagesSent":  0,
+    "visuallyInspected":  true,
+    "visualReview":  "Inspected full-page hotel and dining screenshots at 390px and 1440px, arrival controls, and activated Google map. All genuine photographs loaded; Hotel Augusto map pin and label visible at the verified location."
+}

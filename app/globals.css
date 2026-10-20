@@ -2,16 +2,16 @@
 @import "./shell.css";
 
 :root {
-  --paper: oklch(.985 .002 90);
-  --paper-deep: oklch(.955 .004 260);
-  --surface: oklch(.997 .001 90);
-  --ink: oklch(.22 .009 260);
-  --muted: oklch(.47 .012 260);
-  --accent: oklch(.49 .17 255);
-  --accent-hover: oklch(.42 .16 255);
-  --line: oklch(.86 .006 260);
-  --font-display: var(--font-manrope);
-  --font-body: var(--font-inter);
+  --paper: oklch(.965 .014 80);
+  --paper-deep: oklch(.925 .018 80);
+  --surface: oklch(.986 .009 80);
+  --ink: oklch(.25 .026 250);
+  --muted: oklch(.48 .023 70);
+  --accent: oklch(.47 .065 65);
+  --accent-hover: oklch(.38 .055 65);
+  --line: oklch(.84 .018 80);
+  --font-display: var(--font-bodoni);
+  --font-body: var(--font-manrope);
 }
 @theme inline {
   --color-paper: var(--paper);
@@ -23,7 +23,7 @@
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 88px; }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif; font-size: 18px; font-weight: 400; -webkit-font-smoothing: antialiased; font-optical-sizing: auto; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-body), -apple-system, BlinkMacSystemFont, sans-serif; font-size: 17px; font-weight: 400; -webkit-font-smoothing: antialiased; font-optical-sizing: auto; }
 body:has(dialog[open]) { overflow: hidden; }
 ::selection { background: var(--accent); color: var(--paper); }
 button, input, select, textarea { font: inherit; }
@@ -37,30 +37,30 @@ button, a { touch-action: manipulation; }
 button:active, .button:active { transform: scale(.98); }
 p { line-height: 1.6; max-width: 70ch; letter-spacing: -.015em; }
 h1, h2, h3, p { margin-top: 0; }
-h1, h2, h3 { font-family: var(--font-display), sans-serif; font-weight: 650; text-wrap: balance; }
-em { font-style: normal; }
+h1, h2, h3 { font-family: var(--font-display), Georgia, serif; font-weight: 400; text-wrap: balance; }
+em { font-style: italic; }
 svg { flex-shrink: 0; }
-.container { width: 100%; max-width: 1600px; padding-inline: 80px; margin-inline: auto; }
-.section-space { padding-block: 144px; }
-.eyebrow { display: block; font-size: 17px; font-weight: 600; letter-spacing: -.02em; line-height: 1.45; text-transform: none; }
-.display { font-family: var(--font-display), sans-serif; font-weight: 650; letter-spacing: -.055em; line-height: 1.06; }
-.display em, h2 em { font-weight: inherit; font-style: normal; }
-.button { display: inline-flex; align-items: center; justify-content: center; gap: 14px; min-height: 56px; padding: 16px 28px; font-size: 17px; line-height: 1.4; font-weight: 500; letter-spacing: -.015em; background: var(--accent); border: 1px solid var(--accent); border-radius: 999px; transition: background 200ms, color 200ms, transform 200ms; white-space: nowrap; }
+.container { width: 100%; max-width: 1540px; padding-inline: 72px; margin-inline: auto; }
+.section-space { padding-block: 120px; }
+.eyebrow { display: block; font-family:var(--font-body); font-size: 12px; font-weight: 600; letter-spacing: .16em; line-height: 1.5; text-transform: uppercase; }
+.display { font-family: var(--font-display), Georgia, serif; font-weight: 400; letter-spacing: -.035em; line-height: 1.08; }
+.display em, h2 em { font-weight: inherit; font-style: italic; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 18px; min-height: 54px; padding: 16px 28px; font-size: 14px; line-height: 1.4; font-weight: 600; letter-spacing: .015em; background: var(--accent); border: 1px solid var(--accent); border-radius: 3px; transition: background 200ms, color 200ms, transform 200ms; white-space: nowrap; }
 .button:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
 .button svg { width: 20px; }
 .button-light { background: var(--paper); border-color: var(--paper); }
 .button-light:hover { background: var(--paper-deep); border-color: var(--paper-deep); }
 .button-outline { background: transparent; color: var(--accent); border-color: var(--accent); }
 .button-outline:hover { background: var(--paper-deep); }
-.text-link { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding-block: 10px; font-size: 18px; font-weight: 500; letter-spacing: -.02em; line-height: 1.5; color: var(--accent); transition: color 180ms; }
+.text-link { display: inline-flex; align-items: center; gap: 22px; min-height: 48px; padding-block: 10px; font-size: 14px; font-weight: 600; letter-spacing: .015em; line-height: 1.5; color: var(--accent); transition: color 180ms; }
 .text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 .text-link svg { width: 17px; }
 .icon-button { width: 48px; height: 48px; display: inline-flex; align-items: center; justify-content: center; background: var(--paper-deep); border: 0; border-radius: 50%; transition: background 180ms,transform 180ms; }
 .icon-button:hover { background: oklch(.9 .004 260); }
 .page-intro { padding-top: 100px; padding-bottom: 80px; }
-.page-intro h1 { font-family: var(--font-display), sans-serif; font-size: clamp(64px,7vw,104px); font-weight: 650; letter-spacing: -.06em; line-height: 1.06; margin-block: 24px 32px; }
+.page-intro h1 { font-family: var(--font-display), Georgia, serif; font-size: clamp(64px,7vw,104px); font-weight: 400; letter-spacing: -.035em; line-height: 1.06; margin-block: 24px 32px; }
 .page-intro p { color: var(--muted); font-size: 21px; }
-.image-wrap { position: relative; overflow: hidden; background: var(--paper-deep); border-radius: 28px; }
+.image-wrap { position: relative; overflow: hidden; background: var(--paper-deep); border-radius: 4px; }
 .image-wrap img { object-fit: cover; transition: transform 800ms cubic-bezier(.22,1,.36,1); }
 a:hover .image-wrap img { transform: scale(1.025); }
 .photo-caption { font-size: 14px; line-height: 1.5; color: var(--muted); margin-top: 16px; }
@@ -80,13 +80,13 @@ a:hover .image-wrap img { transform: scale(1.025); }
   body { font-size: 17px; }
   .container { padding-inline: 24px; }
   .section-space { padding-block: 88px; }
-  .eyebrow { font-size: 14px; }
+  .eyebrow { font-size: 11px; }
   .page-intro { padding-top: 52px; }
   .page-intro h1 { font-size: clamp(48px,13vw,64px); margin-top: 20px; }
   .page-intro p { font-size: 17px; }
-  .button { min-height: 50px; padding-inline: 24px; font-size: 16px; }
-  .text-link { font-size: 17px; }
-  .image-wrap { border-radius: 22px; }
+  .button { min-height: 52px; padding-inline: 24px; font-size: 14px; }
+  .text-link { font-size: 14px; }
+  .image-wrap { border-radius: 4px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

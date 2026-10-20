@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "html": "<div class=\"itinerary-copy\" aria-hidden=\"true\" style=\"visibility: hidden;\" inert=\"\"><div class=\"itinerary-copy-motion\" style=\"opacity: 0; transform: none;\"><p class=\"itinerary-moment\">At first light</p><h3>Begin with the Ganga.</h3><p>Meet Varanasi from the riverfront. The early light brings the ghats, boats and steps into view as the city begins its day.</p><p class=\"itinerary-practical\">Boat rides are available around Dashashwamedh Ghat. Agree the route and fare locally before setting out.</p><a class=\"itinerary-link\" tabindex=\"-1\" href=\"/varanasi#river\">Explore the riverfront<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" vi",
+      "inert": true,
+      "hidden": "true",
+      "visibility": "hidden"
+    },
+    {
+      "html": "<div class=\"itinerary-copy\" aria-hidden=\"false\" style=\"visibility: visible;\"><div class=\"itinerary-copy-motion\" style=\"opacity: 1; transform: none;\"><p class=\"itinerary-moment\">A visit to Kashi</p><h3>A place of devotion.</h3><p>Shri Kashi Vishwanath Temple is dedicated to Lord Shiva and is one of the twelve Jyotirlingas. It lies within walking distance of Augusto.</p><p class=\"itinerary-practical\">Check the temple\u2019s current visitor instructions before you leave. Give this part of the day its own space.</p><a class=\"itinerary-link\" tabindex=\"0\" href=\"/guides/first-visit-to-kashi\">Plan your first visit<svg xmlns=\"http://www.w3.org/2000/svg\" wi",
+      "inert": false,
+      "hidden": "false",
+      "visibility": "visible"
+    },
+    {
+      "html": "<div class=\"itinerary-copy\" inert=\"\" aria-hidden=\"true\" style=\"visibility:hidden\"><div class=\"itinerary-copy-motion\" style=\"opacity:0;transform:none\"><p class=\"itinerary-moment\">Between visits</p><h3>Leave room for a pause.</h3><p>Make your way through the old city at your own pace. Godowlia is your base, with a room and vegetarian dining to return to at Augusto.</p><p class=\"itinerary-practical\">Keep the hotel\u2019s map pin handy and speak with the team if you need help planning your arrival or return.</p><a class=\"itinerary-link\" tabindex=\"-1\" href=\"/dining\">Dining at Augusto<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" viewBox",
+      "inert": true,
+      "hidden": "true",
+      "visibility": "hidden"
+    },
+    {
+      "html": "<div class=\"itinerary-copy\" inert=\"\" aria-hidden=\"true\" style=\"visibility:hidden\"><div class=\"itinerary-copy-motion\" style=\"opacity:0;transform:none\"><p class=\"itinerary-moment\">Back by the ghats</p><h3>An evening at the aarti.</h3><p>Dashashwamedh Ghat comes together for the evening Ganga Aarti. Lamps, chants and bells are part of the experience by the river.</p><p class=\"itinerary-practical\">Leave time to reach the ghat and find a place to take it in. Confirm the day\u2019s arrangements locally.</p><a class=\"itinerary-link\" tabindex=\"-1\" href=\"/varanasi#aarti\">Discover the evening aarti<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"1",
+      "inert": true,
+      "hidden": "true",
+      "visibility": "hidden"
+    }
+  ],
+  "console": []
+}

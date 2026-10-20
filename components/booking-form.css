@@ -2,16 +2,16 @@
   min-width: 0;
   padding: 48px;
   border: 1px solid color-mix(in oklch, var(--ink) 9%, transparent);
-  border-radius: 32px;
-  background: oklch(.995 .001 260);
-  box-shadow: 0 16px 64px oklch(.22 .009 260 / .04);
+  border-radius: 4px;
+  background: var(--surface);
+  box-shadow: none;
 }
 .form-heading { margin-bottom: 32px; }
 .form-heading .eyebrow { display: none; }
 .form-heading h3 {
   font-family: var(--font-display), sans-serif;
   font-size: 38px;
-  font-weight: 650;
+  font-weight: 400;
   line-height: 1.15;
   letter-spacing: -.035em;
   margin: 0 0 14px;
@@ -34,13 +34,13 @@
   width: 100%;
   height: 56px;
   margin: 0;
-  border: 1px solid oklch(.76 .006 260);
-  border-radius: 12px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
   padding: 15px 16px;
-  background: oklch(.995 .001 260);
+  background: var(--surface);
   color: var(--ink);
   font-family: var(--font-body), sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   transition: border-color 160ms, box-shadow 160ms;
@@ -71,8 +71,8 @@
   padding: 16px 24px;
   justify-content: center;
   gap: 12px;
-  border-radius: 999px;
-  font-size: 18px;
+  border-radius: 3px;
+  font-size: 15px;
   line-height: 22px;
   font-weight: 500;
 }
@@ -88,7 +88,7 @@
 .draft-note { font-size: 14px; line-height: 1.5; color: var(--muted); margin: 16px 0 0; }
 @media (max-width: 1000px) { .booking-form { padding: 32px; } }
 @media (max-width: 600px) {
-  .booking-form { padding: 30px 20px; border-radius: 24px; }
+  .booking-form { padding: 30px 20px; border-radius: 4px; }
   .form-heading h3 { font-size: 32px; }
   .form-heading p { font-size: 17px; }
   .form-field label { font-size: 15px; }
@@ -99,7 +99,7 @@
   .form-field textarea { font-size: 17px; height: 50px; padding: 12px 10px; }
   .form-field textarea { height: auto; }
   .booking-submit,
-  .booking-draft .button { min-height: 50px; padding: 13px 16px; font-size: 17px; }
+  .booking-draft .button { min-height: 50px; padding: 13px 16px; font-size: 14px; }
 }
 @media (max-width: 420px) {
   .booking-fields .form-field:has(input[type="date"]) { grid-column: 1 / -1; }

@@ -1,7 +1,7 @@
 ﻿{
     "removed":  [
                     {
-                        "bytes":  10697,
+                        "bytes":  3473,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\build-manifest.json"
                     },
                     {
@@ -13,7 +13,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\package.json"
                     },
                     {
-                        "bytes":  340,
+                        "bytes":  366,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\prerender-manifest.json"
                     },
                     {
@@ -21,7 +21,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\routes-manifest.json"
                     },
                     {
-                        "bytes":  153979,
+                        "bytes":  25428,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\trace"
                     },
                     {
@@ -86,458 +86,666 @@
                     },
                     {
                         "bytes":  10556,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\-fBuexP3z1Waxd65LPccc9cPJRnzwZkwiLTozchBP9w\\14400.1792487484482.u76ygWHWCtWY5rWEqrs6gjzKfHxO_E6TYtr8CcAgVhA.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\-fBuexP3z1Waxd65LPccc9cPJRnzwZkwiLTozchBP9w\\14400.1792489808431.u76ygWHWCtWY5rWEqrs6gjzKfHxO_E6TYtr8CcAgVhA.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                    },
+                    {
+                        "bytes":  31632,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\-VWC9NhZxq4AIpP3Q1lNRLnhzeTX35v_E1sT_Hq3xeI\\14400.1792489626723.UlSW7_NfjziRoEqazMZGHyMeiOwr4iNeWEHP5YLhNAw.Vy8iMzkxNWMtMWExNTRiZTBjZDYi.avif"
                     },
                     {
                         "bytes":  20407,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\07nbaad8lx1x7zwfcqMkTOk6RFbfREHnUpz6FHx8Mz8\\14400.1792487485527.7oNwJcCp7ZAO5ilyjvYbZ9nNiupiTe8DRgROyWat47A.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\07nbaad8lx1x7zwfcqMkTOk6RFbfREHnUpz6FHx8Mz8\\14400.1792489809312.7oNwJcCp7ZAO5ilyjvYbZ9nNiupiTe8DRgROyWat47A.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                    },
+                    {
+                        "bytes":  13815,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\4Ja0XwmukXJpYkGx0TQD-0qIRBT01NT0p94awYv6QFA\\14400.1792489530303.yPWSrtmQoirSn5NV3dkEWBik27hqWbFqfq-2UcQ0eBs.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                    },
+                    {
+                        "bytes":  1412,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\4tSvfwSxC7cS9ChNcouiawW3QT6iWpeKv-g2LcJeehU\\14400.1792489526718.8VFLjWlUaknVU2RbcR2Ly6tbscO3m5nVwywDAg6ha-0.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
                     },
                     {
                         "bytes":  15822,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\5Jq-7I759bfvV1eyyjqqCv2s-vH9TbngKSHM3NpC2zI\\14400.1792487484494.I48Xl7OkV-1TqjvU_PKkVtq7U4CJiMFe_vbud41PDys.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\5Jq-7I759bfvV1eyyjqqCv2s-vH9TbngKSHM3NpC2zI\\14400.1792489440882.I48Xl7OkV-1TqjvU_PKkVtq7U4CJiMFe_vbud41PDys.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                    },
+                    {
+                        "bytes":  36907,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\5n7cG6E5J9cgUU9xZbRIzyDpXbFxKfVub1S14qAtY3o\\14400.1792489570853.V6m6y73y40R3ex2uoOmALQAoizzKCjLz2vnEe0Zdogo.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
                     },
                     {
                         "bytes":  6371,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\6-ISxsrb9WbISEtlVbQdm46F5pGrljafsahOgQrQlgU\\14400.1792487610603.g5mSpP76SVQEtBZAewmHWsoYDvg0eVxvJ-HhBrS4h1E.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\6-ISxsrb9WbISEtlVbQdm46F5pGrljafsahOgQrQlgU\\14400.1792489412792.g5mSpP76SVQEtBZAewmHWsoYDvg0eVxvJ-HhBrS4h1E.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                    },
+                    {
+                        "bytes":  52807,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\6-VDNDcMBjeSUwn8Dn5VgVdBJtMQxHT_8LXwgXAcL5A\\14400.1792489574038._Pyhr7Y-BmP9A5c8ldYNzGFx8BMuAI9c6HTaeB2jdFE.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                    },
+                    {
+                        "bytes":  37756,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\629g7-6BdtEfgz5sp9e7cqQuEW60e0oL3Jw_LqPIXEQ\\14400.1792489440804.dPICIrax10Fah-KpbK9iwbeVU4pALCriGCxZHMzSyP8.Vy8iMzIwMmMtMWExNTRjMDJmODMi.avif"
                     },
                     {
                         "bytes":  15995,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\7eoHpyeUlRUV8F0ZG6XuOkHe02zpV1UiBCQdkxGm6JE\\14400.1792487484656.W8EkDCVLKszOucmnwn91V_-YT-Ef0epg7vE-nO673OE.Vy8iMzMxYzItMWExNTRiZTBiNTgi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\7eoHpyeUlRUV8F0ZG6XuOkHe02zpV1UiBCQdkxGm6JE\\14400.1792489808515.W8EkDCVLKszOucmnwn91V_-YT-Ef0epg7vE-nO673OE.Vy8iMzMxYzItMWExNTRiZTBiNTgi.avif"
                     },
                     {
                         "bytes":  13474,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\7gPV9iios5LU-vvqb3x2Q-ezhuHPKAZchjjMtYVwvjk\\14400.1792487485435.JTazXetf7srJ7Cy_zSOqT1pkEC_cgv3IYh9yH77FKMM.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\7gPV9iios5LU-vvqb3x2Q-ezhuHPKAZchjjMtYVwvjk\\14400.1792489809224.JTazXetf7srJ7Cy_zSOqT1pkEC_cgv3IYh9yH77FKMM.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
                     },
                     {
-                        "bytes":  24449,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\8-0TIItZt2irEQozMyJZGRvHbAoR-AwaNhCgyiHhDIc\\14400.1792487510272.I0B0ZxyD_7uugiO_2FUi861aB26ZX7Yh3TUZoXJn_4g.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                        "bytes":  6982,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\7ypYE3L5mIBF5_XCVSGD4aTKNdTFFGkQHV60PywV-yw\\14400.1792489628020.nQYlWFIuUbynwqgjOq7GfXR9L9oEzldQKDX4o5ijB3k.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
                     },
                     {
                         "bytes":  6985,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\85f315tUKAjNJgGSWCT4HN0BabM6Z9SWs0kCllCYeMs\\14400.1792487482411.NcNGKsSFKnQH--GpuV6rjk29m8QOnP35bu2FObR9eNA.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\85f315tUKAjNJgGSWCT4HN0BabM6Z9SWs0kCllCYeMs\\14400.1792489413370.NcNGKsSFKnQH--GpuV6rjk29m8QOnP35bu2FObR9eNA.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
                     },
                     {
                         "bytes":  12291,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\8AF5Ht0ekAmmTZJgFklvDjCD96YYftlXs4rvsrD5gZo\\14400.1792487484487.LnEuNNu3K4dL41BpUqfijQvCLd8cleg4in1k1_w8iBE.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\8AF5Ht0ekAmmTZJgFklvDjCD96YYftlXs4rvsrD5gZo\\14400.1792489623002.LnEuNNu3K4dL41BpUqfijQvCLd8cleg4in1k1_w8iBE.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
                     },
                     {
-                        "bytes":  167377,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\9H8cU82Mx_-iSskhEaeSUqWG3O8YuPGvefLY8RPLB94\\14400.1792487510622.Hx92S5-6hwoxTU0ZyvNpkNhVsjAqPdysfVOYiUQhZJg.Vy8iZDhmMjAtMWExNTUxOTk4MjIi.avif"
+                        "bytes":  2847,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\9oDKk0YX3EGkdLRNVmOmlK0jw_7Ip6WVP9qHGa3Nb60\\14400.1792489519504.LAh_0jJ6ACJpoX867wdgtovGtj8_kZX15bbhWhvGPfU.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
+                    },
+                    {
+                        "bytes":  15179,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\abdXZscWUlIJQm0Tf6G9M4X2CzLabocpFydpxpSMehw\\14400.1792489623005.HrxaPn1nbT7musntG_XPEVkRQM0HBp3ZInCHxHt1_FE.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
                     },
                     {
                         "bytes":  30966,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\AkFOpZnmCwkPAD-oWCpwHhs6c1uDDOTtqlqtHT0-B-E\\14400.1792487625250.SnTlTpERN0truF0Z74uejiuZP1bD5MXuU538SFL_f8E.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\AkFOpZnmCwkPAD-oWCpwHhs6c1uDDOTtqlqtHT0-B-E\\14400.1792489577582.SnTlTpERN0truF0Z74uejiuZP1bD5MXuU538SFL_f8E.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
                     },
                     {
                         "bytes":  7013,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\aq2kyGPkWTSmFtyMvQUvQ6_hzWCF3TbR7iA2LsVsvzs\\14400.1792487483133.bMeuZkDKBVvYtEbmvIesgPYW9IjLueMG1McskxlE14g.Vy8iMzMxYzItMWExNTRiZTBiNTgi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\aq2kyGPkWTSmFtyMvQUvQ6_hzWCF3TbR7iA2LsVsvzs\\14400.1792489806820.bMeuZkDKBVvYtEbmvIesgPYW9IjLueMG1McskxlE14g.Vy8iMzMxYzItMWExNTRiZTBiNTgi.avif"
                     },
                     {
                         "bytes":  27746,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\aU5AyT5u2wYMqc8Y8w7cdVPUkOd2k6GJdnlWQOEC26A\\14400.1792487624432.j55-_vt5_la1WLDtKUyeqAYoHbrnIlU_bS2c98vA9yo.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\aU5AyT5u2wYMqc8Y8w7cdVPUkOd2k6GJdnlWQOEC26A\\14400.1792489570791.j55-_vt5_la1WLDtKUyeqAYoHbrnIlU_bS2c98vA9yo.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
                     },
                     {
                         "bytes":  19664,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\AV86cHQlzqsIXV7QCyat1SnThjB0iVZ6mZz9jP63ELI\\14400.1792487486278.f0eFSBGeplPFvoAC0v1qwrCQOlTF8mLrcoJb-DSOQh8.Vy8iNTU0N2UtMWExNTUyMjFiNDQi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\AV86cHQlzqsIXV7QCyat1SnThjB0iVZ6mZz9jP63ELI\\14400.1792489810014.f0eFSBGeplPFvoAC0v1qwrCQOlTF8mLrcoJb-DSOQh8.Vy8iNTU0N2UtMWExNTUyMjFiNDQi.avif"
+                    },
+                    {
+                        "bytes":  5450,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\AVVnC5jWN6--u06dvTsS3Ucla5aStDI2fb_DC6v4CtA\\14400.1792489813890.lb591k9VAqTLQI20PCKohcAvOnrZA3EHGfP9qVTCrlc.Vy8iMTUyYjItMWExNTRiZDk5ZTki.avif"
+                    },
+                    {
+                        "bytes":  47923,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\B6_3QiwBliWAaJB5fKJWGvyO8tCdlDodjOhT-YCApm4\\14400.1792489829541.oNQTRqAaaqfOMVuaoETQza7ScGlLuhd7N6f4FAZfPR8.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
                     },
                     {
                         "bytes":  5455,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BCtzCfOM1wwkxHssD_xivJX9-G3V3swSL4HQMdHpyM8\\14400.1792487483117.sqeP7Ze9EfxLcT30CmUW6wQ01Xu0qApqIF-Iukf1EOs.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BCtzCfOM1wwkxHssD_xivJX9-G3V3swSL4HQMdHpyM8\\14400.1792489577523.sqeP7Ze9EfxLcT30CmUW6wQ01Xu0qApqIF-Iukf1EOs.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
                     },
                     {
                         "bytes":  4465,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BeK2k2jGinatmcbcr8DeerqTCKbgK-2xdJ2thOt1jnA\\14400.1792487490365.oGMNHaE2Q5n60nWxoFuyizwmaCeAyeF91TBWwh2lwhg.Vy8iMTcyNjItMWExNTRiZDk1NTMi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BeK2k2jGinatmcbcr8DeerqTCKbgK-2xdJ2thOt1jnA\\14400.1792489440661.oGMNHaE2Q5n60nWxoFuyizwmaCeAyeF91TBWwh2lwhg.Vy8iMTcyNjItMWExNTRiZDk1NTMi.avif"
                     },
                     {
                         "bytes":  6039,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BkqCO3opuLB9hbFPrgKek46otC--cvbiEorbxpY9y0A\\14400.1792487621389.qB3s_JUPQAGTdxe-Xk9HbA_dVv28li_aeCeowMOuDOk.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BkqCO3opuLB9hbFPrgKek46otC--cvbiEorbxpY9y0A\\14400.1792489440371.qB3s_JUPQAGTdxe-Xk9HbA_dVv28li_aeCeowMOuDOk.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
                     },
                     {
                         "bytes":  16758,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\bnpeDguQXdnvlS8Hj21HxLVnpF-11_e2HD-nCih4iM0\\14400.1792487705647.QmqrgaqUtD19kGo3KbXNM84vIS1Hk1EsxkizEMu4VrM.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\bnpeDguQXdnvlS8Hj21HxLVnpF-11_e2HD-nCih4iM0\\14400.1792489523237.QmqrgaqUtD19kGo3KbXNM84vIS1Hk1EsxkizEMu4VrM.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
                     },
                     {
                         "bytes":  24816,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BtpbZEJ6IQW_J0Q4-CDsTlLcO0u0flFDGqkvLmM5iaw\\14400.1792487627804.EbJ2mZDLVC3t5N96aI2jPqTVgj7SEn0oIHlLd7G2g0o.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BtpbZEJ6IQW_J0Q4-CDsTlLcO0u0flFDGqkvLmM5iaw\\14400.1792489555296.EbJ2mZDLVC3t5N96aI2jPqTVgj7SEn0oIHlLd7G2g0o.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
                     },
                     {
                         "bytes":  35573,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BuZ4oWCzQ_AMW10PQa-OLih6N1Gka5E5l6pb7mihRzc\\14400.1792487630542.MQg6FG0wcKA7c1kTB7Z0-I5cva0OxMeJQ_aS7msvULI.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\BuZ4oWCzQ_AMW10PQa-OLih6N1Gka5E5l6pb7mihRzc\\14400.1792489558257.MQg6FG0wcKA7c1kTB7Z0-I5cva0OxMeJQ_aS7msvULI.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
                     },
                     {
                         "bytes":  5789,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\bUzPIN2OUSHI_vL3YEn9b9bL35WwRBd_Y-GAcTKE6iA\\14400.1792487609645.c3uHO3VC8bhPdTWMgwr0ExycUzGrb9N6nC2SqgSff-c.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\bUzPIN2OUSHI_vL3YEn9b9bL35WwRBd_Y-GAcTKE6iA\\14400.1792489412515.c3uHO3VC8bhPdTWMgwr0ExycUzGrb9N6nC2SqgSff-c.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                    },
+                    {
+                        "bytes":  5813,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\b_FAXTY32DVu_vAZ5eWQq_7l4enw_Cxsr7C1U33I-wQ\\14400.1792489566881.b8rc_VCFo-ngE3R2bzbIb0BIfu0wFhXxTJFf_KmpSN0.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
                     },
                     {
                         "bytes":  17668,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\C51fNibhlFepGg_0iCUB3aU4tzur1CuEOkAiCSYZ-Zs\\14400.1792487515662.GcAq2uOs59q4EMDWwGjGBF1Bg7_kkSvrCJOlYL5DTx4.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\C51fNibhlFepGg_0iCUB3aU4tzur1CuEOkAiCSYZ-Zs\\14400.1792489440405.GcAq2uOs59q4EMDWwGjGBF1Bg7_kkSvrCJOlYL5DTx4.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
                     },
                     {
                         "bytes":  7879,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\CgcYk7pVZCZmTEjoulKuaFNkrBMQmWsellBOUxeFH6g\\14400.1792487697330.gXSpMgjnAAXJ-DbVrtQIROhxrGzLCYZQPqxAy2iGnsE.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\CgcYk7pVZCZmTEjoulKuaFNkrBMQmWsellBOUxeFH6g\\14400.1792489622939.gXSpMgjnAAXJ-DbVrtQIROhxrGzLCYZQPqxAy2iGnsE.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
+                    },
+                    {
+                        "bytes":  79640,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\ChZYaXWlDRAZd-MN2IjnAtixps3ck-Lr2MMZ0E1n-lM\\14400.1792489823289.GpQd9vXYQsKai57KHbOTZlWXeX8l2yoQ9V57lCgnEzg.Vy8iMzIwMmMtMWExNTRjMDJmODMi.avif"
+                    },
+                    {
+                        "bytes":  8398,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\CQvP9FoP4zWUfc4WG-kWXFRkJC-AUwxZWujeYL9nSG4\\14400.1792489411669.IMVVq8pnDjnLFlVh8HXHdUGuCal-GFtF4scHKDbSwfM.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
+                    },
+                    {
+                        "bytes":  7239,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\CtebfhIrYhBtWP4lAUMpHVT6r5xjgljj5YQEbkU70pg\\14400.1792489413090.ZBOJIJ3F4Ww-v58T_G5MAJ3GqnYVclwcHSvGOqYWfNk.Vy8iMzkxNWMtMWExNTRiZTBjZDYi.avif"
                     },
                     {
                         "bytes":  5775,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\dFfkfBav6q0l8Mej5cDRb4Yig4gUtESZ_BaDgWhKOuo\\14400.1792487482464.7uAxNBAerpTRGepxABwSQmmmpy58x1088YS4LIbiCAU.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\dFfkfBav6q0l8Mej5cDRb4Yig4gUtESZ_BaDgWhKOuo\\14400.1792489573930.7uAxNBAerpTRGepxABwSQmmmpy58x1088YS4LIbiCAU.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                    },
+                    {
+                        "bytes":  3538,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\DlmVrcnf9G70zy8zJMJLyzc2gagjV3HaAlJGv995iUc\\14400.1792489412433.2Hsmi8k2BuehB2tivu5-sQyFk-KDXOLywknzBEXuiJU.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
+                    },
+                    {
+                        "bytes":  3590,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\DzVCqEG8DOF993vn7ssttwMavh1PCxA-seznD6ZWfuA\\14400.1792489412513.UAdS_ocGA9h7hxDcV-5lYpa4aLOAnWEcatDF7HMDmkA.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
                     },
                     {
                         "bytes":  16132,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\E1mVKWfcz7Ec7QOWhySnUIZITs8FbaUAJCa4VUOIXk0\\14400.1792487515652.6jS42jYdtcVTMcFvfjq4sjKqNSq2lcPeeN-46CFSXEI.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\E1mVKWfcz7Ec7QOWhySnUIZITs8FbaUAJCa4VUOIXk0\\14400.1792489440234.6jS42jYdtcVTMcFvfjq4sjKqNSq2lcPeeN-46CFSXEI.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
                     },
                     {
-                        "bytes":  57143,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\e9lh2oMKs_PPSXt2goqrH2RQnKnCsX-_pf3Kr0ZAfMI\\14400.1792487511664.lwGtNV13-924J0NmrsP4SG4e_YBS66T832ZAY4eKt_s.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                        "bytes":  1115,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\e2jMHs9Q7e_atkB4xcg2zrWUP3sQKiZR5kJ1I8bsJNY\\14400.1792489530301.A1RUl3OiZB7nuyz1k8xbwN0G8X3VIM11M-0RnLhIjK0.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
+                    },
+                    {
+                        "bytes":  21812,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\E9Y74kwsc0x1R7eunU48JL_7MeQ3NL2q6ZTWL94PGvU\\14400.1792489558213.Hm4oluw2Y44DoQDQjbjoS4rua0MqRCGzCjn0qmKEevk.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                    },
+                    {
+                        "bytes":  82849,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\eXCfi_YS6P_HhE1xN_3tQJ51EbKbTAIQreF0lomexf4\\14400.1792489826413.7VRpKZnCVnY7OL2gh1QMNj6fkKO-FljbNFgzG5sqU1s.Vy8iMzkxNWMtMWExNTRiZTBjZDYi.avif"
                     },
                     {
                         "bytes":  7040,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\EXVnK4D_6tsT0LDsFjPtzJ3VhlyJU1DnMbKV-Zjt0Pc\\14400.1792487490434.piU38GYq_bcY0970RD14ITV_Y-X14J1PSjC2S9qAo3s.Vy8iMTUyYjItMWExNTRiZDk5ZTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\EXVnK4D_6tsT0LDsFjPtzJ3VhlyJU1DnMbKV-Zjt0Pc\\14400.1792489440691.piU38GYq_bcY0970RD14ITV_Y-X14J1PSjC2S9qAo3s.Vy8iMTUyYjItMWExNTRiZDk5ZTki.avif"
                     },
                     {
                         "bytes":  21992,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\f8GeZFAYVyubX24-EmKiuuJ1GU-4ZzBulUpRKtjVFJ0\\14400.1792487627797.HkortVKWa5xKOb135UKuluWbbhqQ61ncV2H9O4vZ80w.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\f8GeZFAYVyubX24-EmKiuuJ1GU-4ZzBulUpRKtjVFJ0\\14400.1792489555286.HkortVKWa5xKOb135UKuluWbbhqQ61ncV2H9O4vZ80w.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
                     },
                     {
                         "bytes":  18775,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\fCEpM2O4NCMvik7dW9Prk6SiuvQpg4iHzKGLio3nmC4\\14400.1792487485293.LDK5T7kJ-ghftJzYa4FsYqpBxTXYDJ1pcAW8yg4G7_4.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\fCEpM2O4NCMvik7dW9Prk6SiuvQpg4iHzKGLio3nmC4\\14400.1792489808538.LDK5T7kJ-ghftJzYa4FsYqpBxTXYDJ1pcAW8yg4G7_4.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
                     },
                     {
                         "bytes":  29691,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\FUU23GsRCE6jSXgASnRFSOo-0ios3p5WPnFIIHO2Fv4\\14400.1792487489698.vQ8V2YZD6hHdf-06IJhQR91r8QSfPmFY6tflQQ_hnMc.Vy8iZDhmMjAtMWExNTUxOTk4MjIi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\FUU23GsRCE6jSXgASnRFSOo-0ios3p5WPnFIIHO2Fv4\\14400.1792489814054.vQ8V2YZD6hHdf-06IJhQR91r8QSfPmFY6tflQQ_hnMc.Vy8iZDhmMjAtMWExNTUxOTk4MjIi.avif"
                     },
                     {
                         "bytes":  62052,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\G39ZvtpwKQfQx0w5UJbYm45I7mWj4aP5aFI63HmcBrM\\14400.1792487704998.HmRnq9529d_Iz60cCYe5KPrLE634SX9vSeXCM24PhNY.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\G39ZvtpwKQfQx0w5UJbYm45I7mWj4aP5aFI63HmcBrM\\14400.1792489411481.HmRnq9529d_Iz60cCYe5KPrLE634SX9vSeXCM24PhNY.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
                     },
                     {
                         "bytes":  24799,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\gJsUWTjKPtVFUd2Ibc7Yg86SR0sja_MIi8HKykdqfOk\\14400.1792487486272.Mt6S_RkGs4KokPBnchTkMFUh7P_olNq-OcoddQPnLPU.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\gJsUWTjKPtVFUd2Ibc7Yg86SR0sja_MIi8HKykdqfOk\\14400.1792489809413.Mt6S_RkGs4KokPBnchTkMFUh7P_olNq-OcoddQPnLPU.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                    },
+                    {
+                        "bytes":  5185,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\gl9tEmEs-WWwhAkyzOuzYCxUeGP06Inc4Sl7PAOm_oQ\\14400.1792489567755.T2OGNYmyf2dy4VXqUckCagZ9SKip0KY1cRjycosgJIY.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
                     },
                     {
                         "bytes":  10015,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\HH7E7rwq1qooYllRyBvBixHfetOEPRWQV-1xwOBeZME\\14400.1792487618384.TN_KZwIouxEmFxpud7gwp85anZC_RlGB5H6_N7oucY4.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\HH7E7rwq1qooYllRyBvBixHfetOEPRWQV-1xwOBeZME\\14400.1792489440296.TN_KZwIouxEmFxpud7gwp85anZC_RlGB5H6_N7oucY4.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
                     },
                     {
                         "bytes":  8264,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\HrDJ2vuhXF228EVuqwcCjP4M2Ro1QG6sFwiGSFKdWps\\14400.1792487698879.iGmm-E5ZrFp1J6x8YBPxQ5cQN6pXNU-6PWz8chSEaeQ.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\HrDJ2vuhXF228EVuqwcCjP4M2Ro1QG6sFwiGSFKdWps\\14400.1792489412979.iGmm-E5ZrFp1J6x8YBPxQ5cQN6pXNU-6PWz8chSEaeQ.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
                     },
                     {
                         "bytes":  16021,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\HVaudnhpiq1egT9kAkrCi0JBgcwAuTqVDWSzwVQXYPw\\14400.1792487485650.xBj0GCiZ5vjUs39_fkfyrccSJh1mh8LwChpDVWoLAy4.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\HVaudnhpiq1egT9kAkrCi0JBgcwAuTqVDWSzwVQXYPw\\14400.1792489809421.xBj0GCiZ5vjUs39_fkfyrccSJh1mh8LwChpDVWoLAy4.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
                     },
                     {
                         "bytes":  12672,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\HwrGu7yLZLnDLdyLLdNU1cWxPu6JEdaTprcQw2-JQxM\\14400.1792487488681.PbFsBtEu18QxD_XREpkE5GSA3Eg_v1q79QHoP-nZpmE.Vy8iMzIwMmMtMWExNTRjMDJmODMi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\HwrGu7yLZLnDLdyLLdNU1cWxPu6JEdaTprcQw2-JQxM\\14400.1792489413107.PbFsBtEu18QxD_XREpkE5GSA3Eg_v1q79QHoP-nZpmE.Vy8iMzIwMmMtMWExNTRjMDJmODMi.avif"
+                    },
+                    {
+                        "bytes":  38197,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\hz-PG9MPzTyCRrA29LenvxPtwvd65n44PYWfnPrOESg\\14400.1792489440524.1KYr4StBZ1njKbRdRTOVB5HITDehiWYYPEi6gLyka2o.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
+                    },
+                    {
+                        "bytes":  3408,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\I5T-0Yk-Z3sRDpSL0OYhAjVkQwWhe89uhTW7Ibz81VY\\14400.1792489813890.8bxbIRsK6Y4zOeKvwABVaIX4SIRQlGoGt6P9eHi8Q-s.Vy8iMTcyNjItMWExNTRiZDk1NTMi.avif"
+                    },
+                    {
+                        "bytes":  3031,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\iHqk2rdkGlLwQq_8l1_UMvD1DOpoIWH0Oy7Ax_UBVwE\\14400.1792489543276.QcGP3UMXuD25BDMMsR9jIjpPfyFEu8g2K5bY4_owEps.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                    },
+                    {
+                        "bytes":  28971,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\iig6UBuj9Dxn3GbeoS3oTMtHCHA2rupsLtiOJ2m9CR0\\14400.1792489577618.VPi_dZA0F23NgWRejLAapHXFK8G63FA7smVupFHoOZk.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
+                    },
+                    {
+                        "bytes":  18679,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\J8r9OX_H5dzhjuVmhTk75MruTQnSxbzbLYL6zHyFgRs\\14400.1792489555244.v3GfzZ8saVTiSHyzlyERa_l2-0Qtg_MtNRA6gEYMc64.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                    },
+                    {
+                        "bytes":  90653,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\jKrcFIO-CqIzGzPDGLO86JiNbFuDPNe3U_F9g6VHGmU\\14400.1792489411485.bS8_H4pjRHC16dPJZ-LYuK5UjMuau_-PAMlRxr6DKyk.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
                     },
                     {
                         "bytes":  6921,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\jL0Tqr3ZzVz4xDQYCgiB2XNnBzXUxFPxwce9Njiy0Uo\\14400.1792487615563.8oOvEz6XYlhDcrlWDOD9csgLIc27zpI3ivpUvvEL3BE.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\jL0Tqr3ZzVz4xDQYCgiB2XNnBzXUxFPxwce9Njiy0Uo\\14400.1792489440202.8oOvEz6XYlhDcrlWDOD9csgLIc27zpI3ivpUvvEL3BE.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
                     },
                     {
                         "bytes":  138264,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\jM7W-kyuOVvjizMLCzRKP5xUFWe3xwOG65au4SbzNbE\\14400.1792487490840.lhMdoUKVZPZjx26vBn-WyEv8JjV0Ht93YAUouBhTZpc.Vy8iZDhmMjAtMWExNTUxOTk4MjIi.avif"
-                    },
-                    {
-                        "bytes":  7724,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\kE8wCAjHG0StX-0E75vjZJHG8DWnicDQYsAjcj8jEkQ\\14400.1792487616293.xfIXny5SveQbnvQT42riqKhrOYGdIOVvM1P_wI1RloI.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\jM7W-kyuOVvjizMLCzRKP5xUFWe3xwOG65au4SbzNbE\\14400.1792489815246.lhMdoUKVZPZjx26vBn-WyEv8JjV0Ht93YAUouBhTZpc.Vy8iZDhmMjAtMWExNTUxOTk4MjIi.avif"
                     },
                     {
                         "bytes":  12803,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\KHISqpABCsPFroSLyjQzHO5hMiiffJfSN3fGrBzICP8\\14400.1792487484677.tsaU3Ygq0EjthmwF2CpOLCfJwPDPgFMYNq1RxTXdIH0.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\KHISqpABCsPFroSLyjQzHO5hMiiffJfSN3fGrBzICP8\\14400.1792489440864.tsaU3Ygq0EjthmwF2CpOLCfJwPDPgFMYNq1RxTXdIH0.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
+                    },
+                    {
+                        "bytes":  1202,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\krWOk_DO-gVRskSMqtRFCj9v1q5Gy_S9cyGbkg-ZfnA\\14400.1792489523162.EORb8-aCo75cf4d-VP_TU0zyLzrIx3CboR8mAPwABPs.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
                     },
                     {
                         "bytes":  1803,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\kVOrYbx-qKRORFdCa8SkdCjsO8v-x9zEwMt8LqB7g7E\\14400.1792487488025.bSvGc59LRP_TPQbAPcn-hCVzL2sbLHWBhg0TGcjY3Gg.Vy8iMTcyNjItMWExNTRiZDk1NTMi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\kVOrYbx-qKRORFdCa8SkdCjsO8v-x9zEwMt8LqB7g7E\\14400.1792489413066.bSvGc59LRP_TPQbAPcn-hCVzL2sbLHWBhg0TGcjY3Gg.Vy8iMTcyNjItMWExNTRiZDk1NTMi.avif"
                     },
                     {
-                        "bytes":  27213,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\lmAzTsJO9iBOCFNXbEEtv9FjRdxU4rem35-bEfyUWtk\\14400.1792487697308.RrrQh5QnsBEieDR--RZsZCNBafWE9P9iWFaTkTgI-JU.Vy8iMzkxNWMtMWExNTRiZTBjZDYi.avif"
+                        "bytes":  3543,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\kyEPtSD3kYuMho88S8GoBaCRrVdNz8Tk_W0OPudySnU\\14400.1792489533710.XuWsEXJ0s-J92EXsOxJ6BLwXDWLBRplv0hbB7kN_Tus.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                    },
+                    {
+                        "bytes":  8899,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\l9WP3kkh-oweLJV9iQudeM8Jw-XhTNnueB4pYHSEcFY\\14400.1792489584762.33LHCICj3PWcSD09YQFVzWu5LZ5XwIuzL5ynCzLSJGw.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
+                    },
+                    {
+                        "bytes":  32883,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\lic6A3DyZ2iQ0e-W7YclR4C2PdthCIMBviAeVt0Qq9U\\14400.1792489630318.ErI4M2cHVwb5H5pTAIevrhYmSX_JZbKakgN1SZZ6JO0.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
                     },
                     {
                         "bytes":  43935,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\LU1NHHXU1hQQrcHLgaeNd6WQKCmLYnfVb-TWt5V3uhU\\14400.1792487703382.GPMccD4E1lkGBU-1nmkojic_9whqejxnu-5HMb6EiVw.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\LU1NHHXU1hQQrcHLgaeNd6WQKCmLYnfVb-TWt5V3uhU\\14400.1792489626844.GPMccD4E1lkGBU-1nmkojic_9whqejxnu-5HMb6EiVw.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
                     },
                     {
                         "bytes":  17927,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\LzVc9V-Z0-imrWOuNUIXx87PSMKMVd5TystxI5-wAOA\\14400.1792487703301.WDDrkbP4rN5PcNCKhQI-5ZD2ExU9WJiPGOdCDli6rvo.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\LzVc9V-Z0-imrWOuNUIXx87PSMKMVd5TystxI5-wAOA\\14400.1792489626768.WDDrkbP4rN5PcNCKhQI-5ZD2ExU9WJiPGOdCDli6rvo.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
+                    },
+                    {
+                        "bytes":  17316,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\MdlmAW1do4C_Va2APOt0kY9xuFGM47L2u25-2RDXO8Y\\14400.1792489413565.3cBLpi6Xe5v6ePFV8TiHaA-KOCksN6IeP3uwSmoUuyA.Vy8iMzkxNWMtMWExNTRiZTBjZDYi.avif"
                     },
                     {
                         "bytes":  8301,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\mdzQ5nFYd61hgn5rVd58gV56_ZQJ_nFFBLcAWbZCFf4\\14400.1792487483190.74SWxWdLls6zSHpujlgRbRbBU8VCuuziw679Zc8djMw.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\mdzQ5nFYd61hgn5rVd58gV56_ZQJ_nFFBLcAWbZCFf4\\14400.1792489567660.74SWxWdLls6zSHpujlgRbRbBU8VCuuziw679Zc8djMw.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
                     },
                     {
-                        "bytes":  63491,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\MetumFQtpPwqcbO9ZWlkf1y_wUjxsIMec0Wtd2Vb4h8\\14400.1792487511726.TDUYj2hOwHiwFEcqWZOKzNCHaOxWDpu_92pJOE6jWGI.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                        "bytes":  3320,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\mhoN3VvosHLm2ns7K0uFACOrphyfevO5V0qUPVx_3R4\\14400.1792489412791.sbWxmc0qwM1Je5gPzfd-0nPHIfkMq9FWVOwvFWja7fY.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
+                    },
+                    {
+                        "bytes":  1194,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\N0dlgBf_UzuMKlXhU4gjPEErJ_98MkhJif4bhhlSzOM\\14400.1792489526705.RCWfAnrpz5RRYdX9RiBwNcpMQQfvjtOCBAn8kuf1aUA.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                    },
+                    {
+                        "bytes":  20816,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\nH6Sbfa6vvQ2DhX98_a63D3j60O9D2fMMkn5OSJWxpk\\14400.1792489621874.duQRQC2gm96uTy7BhhkEmGClRlBJttievKnM11HVco8.Vy8iMzkxNWMtMWExNTRiZTBjZDYi.avif"
                     },
                     {
                         "bytes":  20230,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\nKscq058OO2Mzde7zHvJUBvLMjPV-7T2vwqWwRsyPXA\\14400.1792487485482.ZITYUe_AjAKp86SfKBm_47NZc2KKjfDdou-Us0gCuoQ.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\nKscq058OO2Mzde7zHvJUBvLMjPV-7T2vwqWwRsyPXA\\14400.1792489809246.ZITYUe_AjAKp86SfKBm_47NZc2KKjfDdou-Us0gCuoQ.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
                     },
                     {
                         "bytes":  6641,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\nnK4pVM0A0sBFapW-z2PAEC_JeBfd0JolsVsMhX2118\\14400.1792487483130.gYKPtleLCmzTsaWdPlH_rhrBFtqFvgrjGCKu6wb-E7E.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\nnK4pVM0A0sBFapW-z2PAEC_JeBfd0JolsVsMhX2118\\14400.1792489439441.gYKPtleLCmzTsaWdPlH_rhrBFtqFvgrjGCKu6wb-E7E.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
+                    },
+                    {
+                        "bytes":  1256,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\nSS7hvzfKDGvNqvP6abu8DyIw73uRmFfi5BI72ft0Jg\\14400.1792489523178.diDM3-u-WBQ2iowimOvPJFhNIm5bNz_t6Egl8eFX-GQ.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
                     },
                     {
                         "bytes":  11025,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\NXW6Jn6tW5rDnv6pqObcZbElppxN1ylyoBOe9j3wosY\\14400.1792487484563.AuSfabje1hO3rTKhZ-ZWPrvMkFwnwBY5d7wMwX3AfCo.Vy8iMWE0MTYtMWExNTRiZTBmZGEi.avif"
-                    },
-                    {
-                        "bytes":  53471,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\o9-0bFYtgSaPspQCtpkufChrnB8LDVBNZJelVMoW1p4\\14400.1792487511664.0o_3gHaUcmkGyXfjp6rkAAryXftM0G1LlMUIti9HpIM.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\NXW6Jn6tW5rDnv6pqObcZbElppxN1ylyoBOe9j3wosY\\14400.1792489808431.AuSfabje1hO3rTKhZ-ZWPrvMkFwnwBY5d7wMwX3AfCo.Vy8iMWE0MTYtMWExNTRiZTBmZGEi.avif"
                     },
                     {
                         "bytes":  11439,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\Ob7ZQY7zMSk7BgdPVToatTiWXm-rodkIg1Bkw_mYlMg\\14400.1792487484631.32izktlnNcdh9MJX1ekaEIqohdYpPL_v6MpVkjbKpw0.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\Ob7ZQY7zMSk7BgdPVToatTiWXm-rodkIg1Bkw_mYlMg\\14400.1792489808493.32izktlnNcdh9MJX1ekaEIqohdYpPL_v6MpVkjbKpw0.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
                     },
                     {
                         "bytes":  19685,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\obTUORhii-ji_0-AOMPV3JpWM5gVTAkmT1PRdo-PFl8\\14400.1792487485527.K_Q8wY0-0QwgP74K1tUJcmqu7WM-FI83xgDZUNiDXrE.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\obTUORhii-ji_0-AOMPV3JpWM5gVTAkmT1PRdo-PFl8\\14400.1792489809245.K_Q8wY0-0QwgP74K1tUJcmqu7WM-FI83xgDZUNiDXrE.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
                     },
                     {
                         "bytes":  32066,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\OJE0TLm74_FAa92U7tDAXqOKDLNsTw7l-gSrjelyVPk\\14400.1792487609651.gqHBJbv9hZ02iop20HLs3Xgg7lFRH08RfPSNPxWRLxQ.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\OJE0TLm74_FAa92U7tDAXqOKDLNsTw7l-gSrjelyVPk\\14400.1792489566883.gqHBJbv9hZ02iop20HLs3Xgg7lFRH08RfPSNPxWRLxQ.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
                     },
                     {
                         "bytes":  6983,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\OqKPWOZNOfWZmUlpEW9qMe6LF2uaTpZz9c_eOFh5xO0\\14400.1792487483129.Y4qPxlCAldY6laOGfTI3O3lh_DyR7Mvdsif4ZUcMzTE.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\OqKPWOZNOfWZmUlpEW9qMe6LF2uaTpZz9c_eOFh5xO0\\14400.1792489806819.Y4qPxlCAldY6laOGfTI3O3lh_DyR7Mvdsif4ZUcMzTE.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
                     },
                     {
                         "bytes":  19585,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\P7tcIRMyEYNP-fYzww_78UIQCPcKLsZD5QGWfPBICu0\\14400.1792487633981.tWPHPwnZ_XxjRIpkGJvCm3XdWqbgOR9GDkBExaoAHaY.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\P7tcIRMyEYNP-fYzww_78UIQCPcKLsZD5QGWfPBICu0\\14400.1792489561195.tWPHPwnZ_XxjRIpkGJvCm3XdWqbgOR9GDkBExaoAHaY.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
                     },
                     {
                         "bytes":  6683,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\pBvjJUgxKqELlrCJNbxhNiqqF-sd9-8_ulFT78Fb-3o\\14400.1792487609647.37d5Fs5O1cqR3mPYFsCLm04Ru1REmOS8qj2Vxk0M90s.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\pBvjJUgxKqELlrCJNbxhNiqqF-sd9-8_ulFT78Fb-3o\\14400.1792489412603.37d5Fs5O1cqR3mPYFsCLm04Ru1REmOS8qj2Vxk0M90s.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
                     },
                     {
-                        "bytes":  22719,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\PHpCB9oDxtPsng3VYc-nuPiRFpqZeKd60WHIQXDyYjE\\14400.1792487515739.s2vUcSkeDlNmsmZH1T7Ux5A2TDNmVRJVa6z11l_cg78.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
+                        "bytes":  22896,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\PfdfG3_EhYGhzUEi5_f_zOfpSi0lI_x25BwwUlE6qW0\\14400.1792489526773.REYLm4aH8Qh7IKuCQkD6sTxJyCxu8Z9qymW3dxgE6xU.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                    },
+                    {
+                        "bytes":  15190,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\piXYW3WrF8jKW5OcVNLUkXmQMg01bF4vGBNp2R2Ff8c\\14400.1792489411604.WJRUnwu7dt6cGXtn07xAkWflPfydl6UfTDeBWeuElrs.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
+                    },
+                    {
+                        "bytes":  19526,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\PtFqgevh8RPFR1hLgjrOz2rDJ0r8YkG6Z0pcl8UOPWs\\14400.1792489411618.yjqcfc69q6z4wSD_-Hsn2vDtSpkqsqziVdBhQaXQBmA.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
                     },
                     {
                         "bytes":  14303,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\pulb9kUbVkMot1w3h5uSzKnaUb5aL2FJCTqwMYhki1c\\14400.1792487485424.MZd_tZ8Poh-IFcrkR3R0g9WT__IKBzqLzEA3sx8r2n4.Vy8iMWE0MTYtMWExNTRiZTBmZGEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\pulb9kUbVkMot1w3h5uSzKnaUb5aL2FJCTqwMYhki1c\\14400.1792489809225.MZd_tZ8Poh-IFcrkR3R0g9WT__IKBzqLzEA3sx8r2n4.Vy8iMWE0MTYtMWExNTRiZTBmZGEi.avif"
                     },
                     {
                         "bytes":  15727,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\QDfaTJbBhBiIhrqrXBncBLTwYcG-j6lUevpsv0eDKAU\\14400.1792487484498.IKZcOvMP2XJqENurVBu5t4gLyviclsdhGpMf8JNoOks.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\QDfaTJbBhBiIhrqrXBncBLTwYcG-j6lUevpsv0eDKAU\\14400.1792489440871.IKZcOvMP2XJqENurVBu5t4gLyviclsdhGpMf8JNoOks.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
                     },
                     {
-                        "bytes":  32646,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\Qz1yUZc0CrKYHIz1RN814CKBmxHCey0EasqWYKMG9CY\\14400.1792487511845.phfjDvWYA3icMzS8NkF2dV4pwYxP1dB0624uf04QsIE.Vy8iMTUyYjItMWExNTRiZDk5ZTki.avif"
+                        "bytes":  3082,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\qJZv9TAmeemgiyBK3dfJaI-w6yLa_O0BE0i2IwH9tzg\\14400.1792489518511.JmExzW6259LHRsWAEzZhcZBeFc9PqXd1wv7_LUJoRfs.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
+                    },
+                    {
+                        "bytes":  12579,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\QX1LwnFHvdQw6UjVthugbOekd05rzjlqg5spCZ0OW-w\\14400.1792489523181.kb1YygnMJCQ2T3KD7r-N7Ypc0fQ-qGu7sHIlj0SaI4g.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
                     },
                     {
                         "bytes":  6961,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\r8mrc4X0feHrcwtgkL740ys5GiTqKXexBUKJzbOjOR8\\14400.1792487483186.-F2lDUUTXSt_1Z8YqnoVOFZKiLlJMWZ-RV8pt5mGluE.Vy8iNTU0N2UtMWExNTUyMjFiNDQi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\r8mrc4X0feHrcwtgkL740ys5GiTqKXexBUKJzbOjOR8\\14400.1792489806837.-F2lDUUTXSt_1Z8YqnoVOFZKiLlJMWZ-RV8pt5mGluE.Vy8iNTU0N2UtMWExNTUyMjFiNDQi.avif"
+                    },
+                    {
+                        "bytes":  14585,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\r9RowNmT92LNZuCHD80Frt0T1oa5t_emblo18yU4KbY\\14400.1792489526718.ZwgnZRgb_xe4EFNwM3FdGgtUw9mHmqISijg_UH4v4TM.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
                     },
                     {
                         "bytes":  5319,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\RQUjThPqBgMv0l203nAKaN5u64Mpqk0QAOARTBp5-gw\\14400.1792487482465.YF6VgkrxoGtxJRXE2QI7BauJQ-_3tQbuJ47m1LZBaUE.Vy8iMWE0MTYtMWExNTRiZTBmZGEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\RQUjThPqBgMv0l203nAKaN5u64Mpqk0QAOARTBp5-gw\\14400.1792489806160.YF6VgkrxoGtxJRXE2QI7BauJQ-_3tQbuJ47m1LZBaUE.Vy8iMWE0MTYtMWExNTRiZTBmZGEi.avif"
                     },
                     {
-                        "bytes":  4711,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\rXQIdhxm4MNl1Clo7nSIww8oBKEx9DFPSb55aHiRSjk\\14400.1792487510201.arG1dK3HMtUrq-ZCthpI3fjKD1mp3DDwg6pHwWjVA7w.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
+                        "bytes":  1186,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\SFW_wyBIjBqhUIRGVtR2QrVjfPVZsgtjM3A2In_3e3E\\14400.1792489523169.8PBQB2olN2DFtehMtOL-jgxoYKg0V-7Rl8Vp4Gu9s4c.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
                     },
                     {
                         "bytes":  20877,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\smGz3JhA0fvRlC3t8hIUZ2sJR7Cq7cCD75qaXaGU42A\\14400.1792487485639.vC-1QPHLx0Zn8jqVxj58PqR65exGIkbtPMObwxLZ0HA.Vy8iMzMxYzItMWExNTRiZTBiNTgi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\smGz3JhA0fvRlC3t8hIUZ2sJR7Cq7cCD75qaXaGU42A\\14400.1792489809354.vC-1QPHLx0Zn8jqVxj58PqR65exGIkbtPMObwxLZ0HA.Vy8iMzMxYzItMWExNTRiZTBiNTgi.avif"
                     },
                     {
                         "bytes":  7566,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\sPH3DbRodmCwBjGfSq9N_xKZkefg4r0fNd8UXxMJtUM\\14400.1792487482476.Y2JLkga1qWeQDwJY9s7XvSiQZ5zRj5lVw2sAOKZ5lBU.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\sPH3DbRodmCwBjGfSq9N_xKZkefg4r0fNd8UXxMJtUM\\14400.1792489413367.Y2JLkga1qWeQDwJY9s7XvSiQZ5zRj5lVw2sAOKZ5lBU.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
                     },
                     {
                         "bytes":  6102,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\sTJy2MACAd67wragMZaP1neOCCpwABbtOnTRH-0IQJs\\14400.1792487483158.s96U2T-9T6ouxIJzvFfzWMowggLnoF3kpsgtFKYIHI0.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\sTJy2MACAd67wragMZaP1neOCCpwABbtOnTRH-0IQJs\\14400.1792489413456.s96U2T-9T6ouxIJzvFfzWMowggLnoF3kpsgtFKYIHI0.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
                     },
                     {
                         "bytes":  32522,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\t1oFx-JIJw-P7tGAAw2fLwuP7qOFm3lbrzHT7y9183s\\14400.1792487624440.myVx3EIFxmFNs9rVyn1sEFA3U44MuTfTZlYax6zL8Ks.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\t1oFx-JIJw-P7tGAAw2fLwuP7qOFm3lbrzHT7y9183s\\14400.1792489573981.myVx3EIFxmFNs9rVyn1sEFA3U44MuTfTZlYax6zL8Ks.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
                     },
                     {
-                        "bytes":  38010,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\tmWVbeGCN-wCyiELsQSFd-3t9vxBlXA52O8r4byLACQ\\14400.1792487698919.4q3ChCzbhTuILr2QTCWkG_3ifA0lt2nmbNpiD6IMFIc.Vy8iMWVjNWEtMWExNTRiZTEyZjEi.avif"
+                        "bytes":  13208,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\t5lN3DjdyzZcZfn1ZF-O8WFb4GBLCQL8dFYF-IcHZ1o\\14400.1792489530342.CEvGoArayPzhy-aashHzBSRI2dEU-0ulUehT3U478AY.Vy8iMWFiOGEtMWExNTRiZTFkMTMi.avif"
+                    },
+                    {
+                        "bytes":  19272,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\Tc43Loja_87ib5HsAexJiBe-JEZlquR055vQhk_IwAg\\14400.1792489627976.1gZb4_DChE7NLm54XfxqREmIIoJnsEoZCis5k8e33Jw.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
                     },
                     {
                         "bytes":  19028,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\TnCI6XpTGmRpv3RhB58cpEqAHIw8Rpwu4bopEaVp6AM\\14400.1792487514797.e1eMgOqRUzNc7DZisLkPiSNhMmOnSZ3wD8Yip_0yOtQ.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\TnCI6XpTGmRpv3RhB58cpEqAHIw8Rpwu4bopEaVp6AM\\14400.1792489621944.e1eMgOqRUzNc7DZisLkPiSNhMmOnSZ3wD8Yip_0yOtQ.Vy8iMzZhNDAtMWExNTRiZTA2Zjci.avif"
+                    },
+                    {
+                        "bytes":  6607,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\tqDorUfwTjpB4dVz8cZccRF-JEFzFcLQlvo1PRfRRIk\\14400.1792489570749.xcja1xTs_Bl9tUp6Ou3YJdi0WHlM5G3yoYnVPRtdjNk.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
+                    },
+                    {
+                        "bytes":  2806,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\Tqo8rwsDdhpDCl8sOIp7NKMsOswXUfi9agcbDDP0kkA\\14400.1792489540211.6IGUPZLIWxv71lMYawn8TAmmDdSYx-Hsvg6Cjy70XZM.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                    },
+                    {
+                        "bytes":  4216,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\TSZDUqtDj5J1mQdjCqpXoHfB_Ovj6XZJbiQULM6rv5M\\14400.1792489519290.ukQrxWDN5SjBP-elX92oh7lXeLr95FDQJEElUaAUHic.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
                     },
                     {
                         "bytes":  14656,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\U8_JtMxLeW5AAbrUlV5vNCxS0L0IHouACygexdGgbAA\\14400.1792487485619.6AIvr3T6N7bmGdyQEzzEhmbu2bNfyLhy7U_Z7oQDsQ8.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\U8_JtMxLeW5AAbrUlV5vNCxS0L0IHouACygexdGgbAA\\14400.1792489809345.6AIvr3T6N7bmGdyQEzzEhmbu2bNfyLhy7U_Z7oQDsQ8.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                    },
+                    {
+                        "bytes":  3279,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\UkjYboGDo9cB1t51UdLkSg-nmiLskfct3NhOZrKnNHc\\14400.1792489533706.ZKzUq9lFsnEmEX-6EBm_62bbdjTiVbQCUh4kVsVIab0.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                    },
+                    {
+                        "bytes":  5056,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\unZDxOPMn2sNqcZRfn6XxUuBkSxvM81L4s_AZMxgHys\\14400.1792489412701.7P23GhuGGI8RliQot4luIpLlNUglBNQV-RZjw0wx-hA.Vy8iMjZjNDQtMWExNTRiZTIwYzEi.avif"
+                    },
+                    {
+                        "bytes":  20830,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\U_wrSK-Y_F8mMY0KNlOqI85HapBmAKtIeuvv0SxyPEY\\14400.1792489561165.zHjLVg6wQzS3s86gHuhN2sMmwvRQq9-3G2uwIMYXhc4.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
                     },
                     {
                         "bytes":  22373,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\v03GmUjiKhWkDISBsgj07Dyz-UYKf_8LUiO2WEJy_Bg\\14400.1792487488093.HkZz7VKjUL7u6GiPWFMXEIWElwWMGCu4BzMLShfbwsU.Vy8iZDhmMjAtMWExNTUxOTk4MjIi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\v03GmUjiKhWkDISBsgj07Dyz-UYKf_8LUiO2WEJy_Bg\\14400.1792489811821.HkZz7VKjUL7u6GiPWFMXEIWElwWMGCu4BzMLShfbwsU.Vy8iZDhmMjAtMWExNTUxOTk4MjIi.avif"
+                    },
+                    {
+                        "bytes":  3506,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\V7Ze0OEAO27cMooX55cgh8OEXq84BxoYYhlmyvs0s0Q\\14400.1792489540216.zzj_OPDDio-EjFjKIEh_Qok3ASjpw4_eAhwvyvpxePs.Vy8iMjM5NGMtMWExNTRiZTE2OTci.avif"
+                    },
+                    {
+                        "bytes":  2863,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\vDLJ4ib6QHUUHtxnQqdi0bRTBGmfRCJ8uA93rDWAhFE\\14400.1792489546296.1lWmLZtlnEzdEiITv-1pxD9BudnBSAF-LfUcYgIR9yc.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
                     },
                     {
                         "bytes":  4908,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\VISYvXqUfWF16Hv7OKuQWDYAyvyKzPFi-6SgJpINQGE\\14400.1792487482458.9Hq1CasNZdnS4S7Bc1_aiIhTffufMhgLJUpc8urlP34.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\VISYvXqUfWF16Hv7OKuQWDYAyvyKzPFi-6SgJpINQGE\\14400.1792489570740.9Hq1CasNZdnS4S7Bc1_aiIhTffufMhgLJUpc8urlP34.Vy8iMWI1ZDItMWExNTRiZTAzMTki.avif"
                     },
                     {
                         "bytes":  15132,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\VkoUa9fMJpdTIkDMNiTWce220aVJyDlXAiE6dVD5QmA\\14400.1792487484563.Ph9-EDYib89BpUUahWTsI4CJO2WoGl8xgorzp33Ngao.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
-                    },
-                    {
-                        "bytes":  98982,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\vv0VFewqs1eIafC-VmGPHf6sUYlfsLvZE6vMJW0NWQc\\14400.1792487703400.QXX64L0PJPDGAsHc3N7I9jwsAt6ke7_nORMWNlOQhEw.Vy8iMzkxNWMtMWExNTRiZTBjZDYi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\VkoUa9fMJpdTIkDMNiTWce220aVJyDlXAiE6dVD5QmA\\14400.1792489808431.Ph9-EDYib89BpUUahWTsI4CJO2WoGl8xgorzp33Ngao.Vy8iMmY4MmUtMWExNTRiZTA5ZTEi.avif"
                     },
                     {
                         "bytes":  15290,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\w7ObsZXtLKmeuTgT34ok2SVhV3H6RckSnRrGq1o_AHI\\14400.1792487485435.tSGZwTtSTDfeFFAk-_cptH2kn7l_AVw3xrkUoj8Bq-4.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\w7ObsZXtLKmeuTgT34ok2SVhV3H6RckSnRrGq1o_AHI\\14400.1792489627976.tSGZwTtSTDfeFFAk-_cptH2kn7l_AVw3xrkUoj8Bq-4.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
                     },
                     {
-                        "bytes":  1799,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\wXqD46VoYYBuW6NqmLKMlp9FH4HQxNcsr9narGRpwU0\\14400.1792487514742.q8TKU7_z9q3vIHxGTHqMsc6Q6QHNgcyyNHMxY968_H4.Vy8iMTg3YzgtMWExNTUyMjE5MGYi.avif"
+                        "bytes":  17999,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\Wq-ivvL3mVIYyzOD8xeLACHQUmvqK0h3uyK2AA1O7D0\\14400.1792489625569.lvodD_YQq-OkIIdST1hB5lIa-4CzCWgNWD1-gK0Ft-M.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
+                    },
+                    {
+                        "bytes":  3390,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\WYoCgWQLmbAz9aWv8-XH6bgMiaolJ7bf0Up2SS9cdto\\14400.1792489533714.g7CSPWrpNbIEl08FXeXs7cFvbPmFa1rSh3eBtnWWwtc.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
+                    },
+                    {
+                        "bytes":  14624,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\wYPZJC1OQq_bqze2YRNZ0kU33Pj3nSVCobhm-tJUPnA\\14400.1792489411593.80P3gDNF639eApNzxV_y2Ui3P3yeutQ1JYWkL0aJIl0.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
                     },
                     {
                         "bytes":  15942,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\x48mKYMHMD53-clYnnLMSqQt3eWE6OxelrxpgZ9qTUk\\14400.1792487484677.r3d2778RkxkP4g243Brgg7iZAHHPhzmxF54YW51Vtpg.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\x48mKYMHMD53-clYnnLMSqQt3eWE6OxelrxpgZ9qTUk\\14400.1792489808546.r3d2778RkxkP4g243Brgg7iZAHHPhzmxF54YW51Vtpg.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
                     },
                     {
                         "bytes":  20502,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\X4EwlnLwvofsUT8TsZQ3RSF3JXYliHOqROig9oTefAA\\14400.1792487485671.st2IZfxJTLMLP7RvxxXEt3wwJu58k--peAOImlfR4aI.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\X4EwlnLwvofsUT8TsZQ3RSF3JXYliHOqROig9oTefAA\\14400.1792489809373.st2IZfxJTLMLP7RvxxXEt3wwJu58k--peAOImlfR4aI.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
+                    },
+                    {
+                        "bytes":  58232,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\x5C0W3BfWtzIbHsavn8_LFlWxHOJp2e6Mqykr3CUGYs\\14400.1792489411491.XmycBz3caswxzFXlwNfxicSlHUaBF9Fkwge-NV_pQFU.Vy8iMWU5ZGUtMWExNTRiZTE5ZWUi.avif"
                     },
                     {
                         "bytes":  15153,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\XFepKKQeB40V1tHim3fEGyHOTzG9P8ky33iZmJJjpOo\\14400.1792487484729.7M1hAtbytsL6QHH-p1ikV9DHROtx3xpEmr432Xl56F8.Vy8iNTU0N2UtMWExNTUyMjFiNDQi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\XFepKKQeB40V1tHim3fEGyHOTzG9P8ky33iZmJJjpOo\\14400.1792489808580.7M1hAtbytsL6QHH-p1ikV9DHROtx3xpEmr432Xl56F8.Vy8iNTU0N2UtMWExNTUyMjFiNDQi.avif"
                     },
                     {
                         "bytes":  29299,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\XwdQ-8k7fYk6vCRv0YjsrrYqg0id4N6r38wIkAg4qsU\\14400.1792487490547.9dnFNKmJb4r6T7rUAUcXEs1pR2mD-lNuhvyM-WCV8Rs.Vy8iMzIwMmMtMWExNTRjMDJmODMi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\XwdQ-8k7fYk6vCRv0YjsrrYqg0id4N6r38wIkAg4qsU\\14400.1792489814073.9dnFNKmJb4r6T7rUAUcXEs1pR2mD-lNuhvyM-WCV8Rs.Vy8iMzIwMmMtMWExNTRjMDJmODMi.avif"
                     },
                     {
                         "bytes":  25653,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\XzGjuVAW0LWRgLrvaz4GHkSuqKzw97psf9yxY9CuClE\\14400.1792487511592.js__NWOxgI1HPIjAkQlyk2COlODza2X6kGy41HVFaHo.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\XzGjuVAW0LWRgLrvaz4GHkSuqKzw97psf9yxY9CuClE\\14400.1792489630357.js__NWOxgI1HPIjAkQlyk2COlODza2X6kGy41HVFaHo.Vy8iMTU3OGMtMWExNTUyMjIxOTYi.avif"
                     },
                     {
                         "bytes":  2618,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\y6aYy62K2MeS-MMsSBZH-cTNgsSSwwkj-nP4iaOpvXo\\14400.1792487488653.Tj2lXa5lrHZUucxYfnfSx0OQl_mCMpVEP0sHEk4L2S4.Vy8iMTUyYjItMWExNTRiZDk5ZTki.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\y6aYy62K2MeS-MMsSBZH-cTNgsSSwwkj-nP4iaOpvXo\\14400.1792489413074.Tj2lXa5lrHZUucxYfnfSx0OQl_mCMpVEP0sHEk4L2S4.Vy8iMTUyYjItMWExNTRiZDk5ZTki.avif"
                     },
                     {
-                        "bytes":  6256,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\y6J8G7NCRH_CcKA5ETyngQccWuq7C39KcmuYzHP8G1I\\14400.1792487515885.YeXVdSCZlqtDANUHNEpN6RBjeqbsU_iVwgW0n96n6uM.Vy8iMTUyYjItMWExNTRiZDk5ZTki.avif"
+                        "bytes":  25102,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\ynszCxqriPXUfz9WIxTwU6k8pNxY5CTdbaLmxCsMfQw\\14400.1792489439500.-oCQequnN23Ej_R5XAgQVj7LwIsCsSQX0EZSfoX9G4w.Vy8iMzNhOTYtMWExNTRiZTA4Nzki.avif"
                     },
                     {
-                        "bytes":  65378,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\ZmlqQmeU_K566xjQOAmpl3rLzvZC78q6c0Aos8RIfIY\\14400.1792487514819.LS4Vz-HOPAEed8jgZtXBNd-uvEhwLJsL2gbutC2IEtE.Vy8iZDhmMjAtMWExNTUxOTk4MjIi.avif"
+                        "bytes":  22686,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\ZVcLDKctAgX0LaMCwC2dcrmuY-7xJnZl79XzOUPGoto\\14400.1792489440710.3pd4P8TmjeZ6KciwT-tLUTTcs5hBNciBuhmJeUEZ24s.Vy8iMzkxNWMtMWExNTRiZTBjZDYi.avif"
                     },
                     {
                         "bytes":  18293,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\zXoQukj7B-ka3fRt3I2rZ62vRsVpsjueseHWjTcNqEc\\14400.1792487515666.wRJpCg8Pfvm8QMqN4hIB0sJLQHbOT5-9elEOopt6R1U.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\zXoQukj7B-ka3fRt3I2rZ62vRsVpsjueseHWjTcNqEc\\14400.1792489440319.wRJpCg8Pfvm8QMqN4hIB0sJLQHbOT5-9elEOopt6R1U.Vy8iMjE1NzgtMWExNTRiZTA0NGUi.avif"
                     },
                     {
-                        "bytes":  38,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000014.sst"
+                        "bytes":  1149,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\images\\ZzJ3xg-rgEjT4RRx7cSk8ytF3bCKHbVDMI7zSmVhDQ0\\14400.1792489530306.vaYXnfi9GHiHWAZv04fVtPhipswKwt6rBJ7j1RKYQJk.Vy8iMWRmODAtMWExNTRiZTA1N2Ei.avif"
                     },
                     {
-                        "bytes":  394,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000015.meta"
-                    },
-                    {
-                        "bytes":  60,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000024.del"
-                    },
-                    {
-                        "bytes":  38,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000028.sst"
-                    },
-                    {
-                        "bytes":  394,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000029.meta"
-                    },
-                    {
-                        "bytes":  16,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000036.del"
-                    },
-                    {
-                        "bytes":  38,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000041.sst"
-                    },
-                    {
-                        "bytes":  394,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000042.meta"
-                    },
-                    {
-                        "bytes":  48,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000052.del"
-                    },
-                    {
-                        "bytes":  38,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000056.sst"
-                    },
-                    {
-                        "bytes":  394,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000057.meta"
-                    },
-                    {
-                        "bytes":  38,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000067.sst"
-                    },
-                    {
-                        "bytes":  394,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000068.meta"
-                    },
-                    {
-                        "bytes":  38,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000075.sst"
-                    },
-                    {
-                        "bytes":  394,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000076.meta"
-                    },
-                    {
-                        "bytes":  3022697,
+                        "bytes":  3113385,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000080.sst"
                     },
                     {
-                        "bytes":  398621,
+                        "bytes":  186281,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000081.sst"
                     },
                     {
-                        "bytes":  135268852,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000082.sst"
+                        "bytes":  616875,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000082.meta"
                     },
                     {
-                        "bytes":  24156613,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000083.sst"
+                        "bytes":  876109,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000089.sst"
                     },
                     {
-                        "bytes":  9326697,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000084.sst"
+                        "bytes":  190822,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000093.meta"
                     },
                     {
-                        "bytes":  10774027,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000085.sst"
+                        "bytes":  38,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000098.sst"
                     },
                     {
-                        "bytes":  672940,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000086.meta"
+                        "bytes":  182,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000099.meta"
                     },
                     {
-                        "bytes":  448680,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000087.meta"
+                        "bytes":  15966831,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000100.sst"
                     },
                     {
-                        "bytes":  448692,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000088.meta"
+                        "bytes":  177299964,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000101.sst"
                     },
                     {
-                        "bytes":  132,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000089.del"
+                        "bytes":  672952,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000103.meta"
                     },
                     {
-                        "bytes":  72,
+                        "bytes":  717,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000105.sst"
+                    },
+                    {
+                        "bytes":  851377,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000106.sst"
+                    },
+                    {
+                        "bytes":  38,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000108.sst"
+                    },
+                    {
+                        "bytes":  394,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000109.meta"
+                    },
+                    {
+                        "bytes":  1006,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000110.meta"
+                    },
+                    {
+                        "bytes":  42484,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000111.meta"
+                    },
+                    {
+                        "bytes":  712035,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000113.sst"
+                    },
+                    {
+                        "bytes":  1701,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000114.sst"
+                    },
+                    {
+                        "bytes":  38,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000116.sst"
+                    },
+                    {
+                        "bytes":  394,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000117.meta"
+                    },
+                    {
+                        "bytes":  1227,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000118.meta"
+                    },
+                    {
+                        "bytes":  42484,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000120.meta"
+                    },
+                    {
+                        "bytes":  3129,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000121.sst"
+                    },
+                    {
+                        "bytes":  3758628,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000122.sst"
+                    },
+                    {
+                        "bytes":  38,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000124.sst"
+                    },
+                    {
+                        "bytes":  394,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000125.meta"
+                    },
+                    {
+                        "bytes":  6603,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000126.meta"
+                    },
+                    {
+                        "bytes":  83109,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000127.meta"
+                    },
+                    {
+                        "bytes":  7988535,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000129.sst"
+                    },
+                    {
+                        "bytes":  16016876,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000130.sst"
+                    },
+                    {
+                        "bytes":  672936,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000131.meta"
+                    },
+                    {
+                        "bytes":  36,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\00000132.del"
+                    },
+                    {
+                        "bytes":  73,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\CURRENT"
                     },
                     {
-                        "bytes":  25331,
+                        "bytes":  35839,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\cache\\turbopack\\v16.4.2-2864b177\\LOG"
                     },
                     {
-                        "bytes":  127186,
+                        "bytes":  1142,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\logs\\next-development.log"
                     },
                     {
-                        "bytes":  366,
+                        "bytes":  100,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app-paths-manifest.json"
                     },
                     {
@@ -545,7 +753,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\interception-route-rewrite-manifest.js"
                     },
                     {
-                        "bytes":  10729,
+                        "bytes":  3505,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\middleware-build-manifest.js"
                     },
                     {
@@ -553,11 +761,11 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\middleware-manifest.json"
                     },
                     {
-                        "bytes":  1876,
+                        "bytes":  702,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\next-font-manifest.js"
                     },
                     {
-                        "bytes":  1744,
+                        "bytes":  634,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\next-font-manifest.json"
                     },
                     {
@@ -585,7 +793,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\page.js.map"
                     },
                     {
-                        "bytes":  23555,
+                        "bytes":  24484,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\page_client-reference-manifest.js"
                     },
                     {
@@ -597,7 +805,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\contact\\page.js.map"
                     },
                     {
-                        "bytes":  20168,
+                        "bytes":  21175,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\contact\\page_client-reference-manifest.js"
                     },
                     {
@@ -613,7 +821,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\contact\\page\\client-components-ssr.js"
                     },
                     {
-                        "bytes":  279,
+                        "bytes":  361,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\contact\\page\\next-font-manifest.json"
                     },
                     {
@@ -633,7 +841,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\dining\\page.js.map"
                     },
                     {
-                        "bytes":  19042,
+                        "bytes":  18932,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\dining\\page_client-reference-manifest.js"
                     },
                     {
@@ -649,7 +857,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\dining\\page\\client-components-ssr.js"
                     },
                     {
-                        "bytes":  278,
+                        "bytes":  360,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\dining\\page\\next-font-manifest.json"
                     },
                     {
@@ -669,7 +877,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\gallery\\page.js.map"
                     },
                     {
-                        "bytes":  18948,
+                        "bytes":  18838,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\gallery\\page_client-reference-manifest.js"
                     },
                     {
@@ -685,7 +893,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\gallery\\page\\client-components-ssr.js"
                     },
                     {
-                        "bytes":  279,
+                        "bytes":  361,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\gallery\\page\\next-font-manifest.json"
                     },
                     {
@@ -697,6 +905,78 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\gallery\\page\\server-reference-manifest.json"
                     },
                     {
+                        "bytes":  3686,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page.js"
+                    },
+                    {
+                        "bytes":  53,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page.js.map"
+                    },
+                    {
+                        "bytes":  18916,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page_client-reference-manifest.js"
+                    },
+                    {
+                        "bytes":  42,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page\\app-paths-manifest.json"
+                    },
+                    {
+                        "bytes":  2313,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page\\build-manifest.json"
+                    },
+                    {
+                        "bytes":  0,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page\\client-components-ssr.js"
+                    },
+                    {
+                        "bytes":  360,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page\\next-font-manifest.json"
+                    },
+                    {
+                        "bytes":  2,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page\\react-loadable-manifest.json"
+                    },
+                    {
+                        "bytes":  30,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\page\\server-reference-manifest.json"
+                    },
+                    {
+                        "bytes":  3721,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page.js"
+                    },
+                    {
+                        "bytes":  53,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page.js.map"
+                    },
+                    {
+                        "bytes":  17764,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page_client-reference-manifest.js"
+                    },
+                    {
+                        "bytes":  56,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page\\app-paths-manifest.json"
+                    },
+                    {
+                        "bytes":  2320,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page\\build-manifest.json"
+                    },
+                    {
+                        "bytes":  0,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page\\client-components-ssr.js"
+                    },
+                    {
+                        "bytes":  367,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page\\next-font-manifest.json"
+                    },
+                    {
+                        "bytes":  2,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page\\react-loadable-manifest.json"
+                    },
+                    {
+                        "bytes":  30,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\guides\\[slug]\\page\\server-reference-manifest.json"
+                    },
+                    {
                         "bytes":  3670,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\hotel\\page.js"
                     },
@@ -705,7 +985,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\hotel\\page.js.map"
                     },
                     {
-                        "bytes":  19039,
+                        "bytes":  20048,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\hotel\\page_client-reference-manifest.js"
                     },
                     {
@@ -721,7 +1001,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\hotel\\page\\client-components-ssr.js"
                     },
                     {
-                        "bytes":  277,
+                        "bytes":  359,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\hotel\\page\\next-font-manifest.json"
                     },
                     {
@@ -745,7 +1025,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\page\\client-components-ssr.js"
                     },
                     {
-                        "bytes":  271,
+                        "bytes":  353,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\page\\next-font-manifest.json"
                     },
                     {
@@ -757,42 +1037,6 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\page\\server-reference-manifest.json"
                     },
                     {
-                        "bytes":  3692,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page.js"
-                    },
-                    {
-                        "bytes":  53,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page.js.map"
-                    },
-                    {
-                        "bytes":  17705,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page_client-reference-manifest.js"
-                    },
-                    {
-                        "bytes":  44,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page\\app-paths-manifest.json"
-                    },
-                    {
-                        "bytes":  2314,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page\\build-manifest.json"
-                    },
-                    {
-                        "bytes":  0,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page\\client-components-ssr.js"
-                    },
-                    {
-                        "bytes":  279,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page\\next-font-manifest.json"
-                    },
-                    {
-                        "bytes":  2,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page\\react-loadable-manifest.json"
-                    },
-                    {
-                        "bytes":  30,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\privacy\\page\\server-reference-manifest.json"
-                    },
-                    {
                         "bytes":  3670,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\page.js"
                     },
@@ -801,8 +1045,44 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\page.js.map"
                     },
                     {
-                        "bytes":  19033,
+                        "bytes":  18923,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\page_client-reference-manifest.js"
+                    },
+                    {
+                        "bytes":  3721,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page.js"
+                    },
+                    {
+                        "bytes":  53,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page.js.map"
+                    },
+                    {
+                        "bytes":  17842,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page_client-reference-manifest.js"
+                    },
+                    {
+                        "bytes":  56,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page\\app-paths-manifest.json"
+                    },
+                    {
+                        "bytes":  2320,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page\\build-manifest.json"
+                    },
+                    {
+                        "bytes":  0,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page\\client-components-ssr.js"
+                    },
+                    {
+                        "bytes":  367,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page\\next-font-manifest.json"
+                    },
+                    {
+                        "bytes":  2,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page\\react-loadable-manifest.json"
+                    },
+                    {
+                        "bytes":  30,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\compare\\page\\server-reference-manifest.json"
                     },
                     {
                         "bytes":  40,
@@ -817,7 +1097,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\page\\client-components-ssr.js"
                     },
                     {
-                        "bytes":  277,
+                        "bytes":  359,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\page\\next-font-manifest.json"
                     },
                     {
@@ -837,7 +1117,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\[slug]\\page.js.map"
                     },
                     {
-                        "bytes":  19054,
+                        "bytes":  21178,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\[slug]\\page_client-reference-manifest.js"
                     },
                     {
@@ -853,7 +1133,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\[slug]\\page\\client-components-ssr.js"
                     },
                     {
-                        "bytes":  284,
+                        "bytes":  366,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\rooms\\[slug]\\page\\next-font-manifest.json"
                     },
                     {
@@ -873,7 +1153,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\varanasi\\page.js.map"
                     },
                     {
-                        "bytes":  19046,
+                        "bytes":  20173,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\varanasi\\page_client-reference-manifest.js"
                     },
                     {
@@ -889,7 +1169,7 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\varanasi\\page\\client-components-ssr.js"
                     },
                     {
-                        "bytes":  280,
+                        "bytes":  362,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\app\\varanasi\\page\\next-font-manifest.json"
                     },
                     {
@@ -917,60 +1197,28 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\components_0mmgvww_tth52._.js.map"
                     },
                     {
-                        "bytes":  2694,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\components_reveal_tsx_0hari7vuelg9_._.js"
+                        "bytes":  37683,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\components_0weow8l01_n60._.js"
                     },
                     {
-                        "bytes":  1653,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\components_reveal_tsx_0hari7vuelg9_._.js.map"
+                        "bytes":  13723,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\components_0weow8l01_n60._.js.map"
                     },
                     {
-                        "bytes":  1101378,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_051482u3-xag3._.js"
+                        "bytes":  51131,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\components_room-comparison_tsx_1ihloaly9vu12._.js"
                     },
                     {
-                        "bytes":  1255148,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_051482u3-xag3._.js.map"
+                        "bytes":  7820,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\components_room-comparison_tsx_1ihloaly9vu12._.js.map"
                     },
                     {
-                        "bytes":  130777,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0734lye071rr0._.js"
+                        "bytes":  128980,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0ep478fw-_197._.js"
                     },
                     {
-                        "bytes":  173756,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0734lye071rr0._.js.map"
-                    },
-                    {
-                        "bytes":  194286,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_07dpna2uil8g-._.js"
-                    },
-                    {
-                        "bytes":  177792,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_07dpna2uil8g-._.js.map"
-                    },
-                    {
-                        "bytes":  198370,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_08stu0_e4vch8._.js"
-                    },
-                    {
-                        "bytes":  184826,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_08stu0_e4vch8._.js.map"
-                    },
-                    {
-                        "bytes":  1032529,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0923hm2jpst-o._.js"
-                    },
-                    {
-                        "bytes":  1176757,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0923hm2jpst-o._.js.map"
-                    },
-                    {
-                        "bytes":  203325,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0gjdz7qly4dpd._.js"
-                    },
-                    {
-                        "bytes":  258552,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0gjdz7qly4dpd._.js.map"
+                        "bytes":  171568,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0ep478fw-_197._.js.map"
                     },
                     {
                         "bytes":  13095,
@@ -981,20 +1229,44 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0h91jdk0pr40d._.js.map"
                     },
                     {
-                        "bytes":  196245,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0lugk7qzhm5u3._.js"
+                        "bytes":  203304,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0llus_spjuhje._.js"
                     },
                     {
-                        "bytes":  180431,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0lugk7qzhm5u3._.js.map"
+                        "bytes":  255840,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0llus_spjuhje._.js.map"
                     },
                     {
-                        "bytes":  198568,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0vkhfte98t6_u._.js"
+                        "bytes":  373252,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0luqm5e23zo2e._.js"
                     },
                     {
-                        "bytes":  178133,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0vkhfte98t6_u._.js.map"
+                        "bytes":  534551,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0luqm5e23zo2e._.js.map"
+                    },
+                    {
+                        "bytes":  196289,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0mggi9kuo-zxo._.js"
+                    },
+                    {
+                        "bytes":  181531,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0mggi9kuo-zxo._.js.map"
+                    },
+                    {
+                        "bytes":  198155,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0ra63994acu4c._.js"
+                    },
+                    {
+                        "bytes":  182931,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0ra63994acu4c._.js.map"
+                    },
+                    {
+                        "bytes":  373326,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0znrziaqsg7ww._.js"
+                    },
+                    {
+                        "bytes":  428999,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_0znrziaqsg7ww._.js.map"
                     },
                     {
                         "bytes":  194485,
@@ -1005,6 +1277,14 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1-2qyirkjdiw3._.js.map"
                     },
                     {
+                        "bytes":  198152,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_12ykr-5-54ivh._.js"
+                    },
+                    {
+                        "bytes":  182957,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_12ykr-5-54ivh._.js.map"
+                    },
+                    {
                         "bytes":  175475,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_12_cb6mzr1jia._.js"
                     },
@@ -1013,36 +1293,84 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_12_cb6mzr1jia._.js.map"
                     },
                     {
-                        "bytes":  55646,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1573snl0t5k8f._.js"
+                        "bytes":  196196,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1c7z5k15wf-ld._.js"
                     },
                     {
-                        "bytes":  74116,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1573snl0t5k8f._.js.map"
+                        "bytes":  180292,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1c7z5k15wf-ld._.js.map"
                     },
                     {
-                        "bytes":  903717,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_17glsa6609owu._.js"
+                        "bytes":  129632,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1e4fykpqehmqg._.js"
                     },
                     {
-                        "bytes":  1429742,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_17glsa6609owu._.js.map"
+                        "bytes":  171568,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1e4fykpqehmqg._.js.map"
                     },
                     {
-                        "bytes":  1025192,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1pw1d-rqw_z49._.js"
+                        "bytes":  133512,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1g8kaw_eb9owt._.js"
                     },
                     {
-                        "bytes":  1167155,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1pw1d-rqw_z49._.js.map"
+                        "bytes":  176873,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1g8kaw_eb9owt._.js.map"
                     },
                     {
-                        "bytes":  369479,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1qz3fua0vfo2x._.js"
+                        "bytes":  133512,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1hw85i6fapx_f._.js"
                     },
                     {
-                        "bytes":  423053,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1qz3fua0vfo2x._.js.map"
+                        "bytes":  176873,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1hw85i6fapx_f._.js.map"
+                    },
+                    {
+                        "bytes":  205338,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1hz09f4fmi4wz._.js"
+                    },
+                    {
+                        "bytes":  262061,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1hz09f4fmi4wz._.js.map"
+                    },
+                    {
+                        "bytes":  131429,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1is9yqkmswwf1._.js"
+                    },
+                    {
+                        "bytes":  173756,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1is9yqkmswwf1._.js.map"
+                    },
+                    {
+                        "bytes":  209257,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1j9tna22nz0mc._.js"
+                    },
+                    {
+                        "bytes":  264279,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1j9tna22nz0mc._.js.map"
+                    },
+                    {
+                        "bytes":  219633,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1knwanv917y9y._.js"
+                    },
+                    {
+                        "bytes":  213632,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1knwanv917y9y._.js.map"
+                    },
+                    {
+                        "bytes":  193044,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1m4xlr3b022qd._.js"
+                    },
+                    {
+                        "bytes":  161471,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1m4xlr3b022qd._.js.map"
+                    },
+                    {
+                        "bytes":  59722,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1w3ht0_4p0el4._.js"
+                    },
+                    {
+                        "bytes":  81175,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1w3ht0_4p0el4._.js.map"
                     },
                     {
                         "bytes":  136317,
@@ -1053,12 +1381,20 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1xhj-fr58siwt._.js.map"
                     },
                     {
-                        "bytes":  196355,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1xx70wdcrmlw3._.js"
+                        "bytes":  185076,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1_aarlguu9pcd._.js"
                     },
                     {
-                        "bytes":  180768,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1xx70wdcrmlw3._.js.map"
+                        "bytes":  264238,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1_aarlguu9pcd._.js.map"
+                    },
+                    {
+                        "bytes":  369421,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1_kmpuczu75i1._.js"
+                    },
+                    {
+                        "bytes":  422907,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_1_kmpuczu75i1._.js.map"
                     },
                     {
                         "bytes":  164195,
@@ -1067,14 +1403,6 @@
                     {
                         "bytes":  138262,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_framer-motion_dist_es_0is7db8amiruz._.js.map"
-                    },
-                    {
-                        "bytes":  168114,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_framer-motion_dist_es_1lo_nmuz1y9a_._.js"
-                    },
-                    {
-                        "bytes":  140480,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_framer-motion_dist_es_1lo_nmuz1y9a_._.js.map"
                     },
                     {
                         "bytes":  741589,
@@ -1093,6 +1421,22 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_0z4num-lpnv-x._.js.map"
                     },
                     {
+                        "bytes":  2240,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_1_o5zxs01k1z6._.js"
+                    },
+                    {
+                        "bytes":  2382,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_1_o5zxs01k1z6._.js.map"
+                    },
+                    {
+                        "bytes":  192419,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_00ay80_0n0cm3._.js"
+                    },
+                    {
+                        "bytes":  175483,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_00ay80_0n0cm3._.js.map"
+                    },
+                    {
                         "bytes":  190621,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_0dkwqnthabl2u._.js"
                     },
@@ -1107,14 +1451,6 @@
                     {
                         "bytes":  29311,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_0ene0k835u0hh._.js.map"
-                    },
-                    {
-                        "bytes":  190621,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_20_nmdorfvsmf._.js"
-                    },
-                    {
-                        "bytes":  158848,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_20_nmdorfvsmf._.js.map"
                     },
                     {
                         "bytes":  6379,
@@ -1245,68 +1581,92 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[externals]__1-fe4qw03dr98._.js.map"
                     },
                     {
-                        "bytes":  60135,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__03fx6120cokkp._.js"
+                        "bytes":  793,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[externals]__10y2j2aka8e1v._.js"
                     },
                     {
-                        "bytes":  12590,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__03fx6120cokkp._.js.map"
+                        "bytes":  53,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[externals]__10y2j2aka8e1v._.js.map"
                     },
                     {
-                        "bytes":  44381,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__086g6-4hx6548._.js"
+                        "bytes":  1341,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[externals]__1vp7etusa_gny._.js"
                     },
                     {
-                        "bytes":  14046,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__086g6-4hx6548._.js.map"
+                        "bytes":  53,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[externals]__1vp7etusa_gny._.js.map"
                     },
                     {
-                        "bytes":  45248,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0esk4tn3m7l-3._.js"
+                        "bytes":  91857,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0-oy_hlywbwdw._.js"
                     },
                     {
-                        "bytes":  15626,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0esk4tn3m7l-3._.js.map"
+                        "bytes":  25966,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0-oy_hlywbwdw._.js.map"
                     },
                     {
-                        "bytes":  47528,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0mxoon55wck-w._.js"
+                        "bytes":  160653,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0kz4b8p45j94p._.js"
                     },
                     {
-                        "bytes":  10606,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0mxoon55wck-w._.js.map"
+                        "bytes":  35704,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0kz4b8p45j94p._.js.map"
                     },
                     {
-                        "bytes":  90565,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0n0x7pds08q5m._.js"
+                        "bytes":  56957,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0rjwf5ewi0szd._.js"
                     },
                     {
-                        "bytes":  57210,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0n0x7pds08q5m._.js.map"
+                        "bytes":  24861,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0rjwf5ewi0szd._.js.map"
                     },
                     {
-                        "bytes":  52123,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0nq7hbu1cih7r._.js"
+                        "bytes":  167746,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0tnl7aq2vgi0l._.js"
                     },
                     {
-                        "bytes":  12610,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0nq7hbu1cih7r._.js.map"
+                        "bytes":  38048,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0tnl7aq2vgi0l._.js.map"
                     },
                     {
-                        "bytes":  55569,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0t3qmh1bcg74i._.js"
-                    },
-                    {
-                        "bytes":  10523,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0t3qmh1bcg74i._.js.map"
-                    },
-                    {
-                        "bytes":  12428,
+                        "bytes":  15456,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0tw1u_si37vc8._.js"
                     },
                     {
-                        "bytes":  5148,
+                        "bytes":  7163,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0tw1u_si37vc8._.js.map"
+                    },
+                    {
+                        "bytes":  9140,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0y0_snuizx-rh._.js"
+                    },
+                    {
+                        "bytes":  19843,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0y0_snuizx-rh._.js.map"
+                    },
+                    {
+                        "bytes":  46345,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0z6d2bvkwfx1f._.js"
+                    },
+                    {
+                        "bytes":  27059,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__0z6d2bvkwfx1f._.js.map"
+                    },
+                    {
+                        "bytes":  68572,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__11p-v9h7wo8pk._.js"
+                    },
+                    {
+                        "bytes":  14017,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__11p-v9h7wo8pk._.js.map"
+                    },
+                    {
+                        "bytes":  113243,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__160t6gtd301qr._.js"
+                    },
+                    {
+                        "bytes":  36456,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__160t6gtd301qr._.js.map"
                     },
                     {
                         "bytes":  24445,
@@ -1317,28 +1677,44 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1exzfhxbu7g08._.js.map"
                     },
                     {
-                        "bytes":  45786,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1ha_v8wag13d1._.js"
+                        "bytes":  73147,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1j5bhyts15wnw._.js"
                     },
                     {
-                        "bytes":  8667,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1ha_v8wag13d1._.js.map"
+                        "bytes":  16292,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1j5bhyts15wnw._.js.map"
                     },
                     {
-                        "bytes":  73552,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1i_0bt5xibiyr._.js"
+                        "bytes":  18077,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1p4009l8t_ery._.js"
                     },
                     {
-                        "bytes":  12263,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1i_0bt5xibiyr._.js.map"
+                        "bytes":  4181,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1p4009l8t_ery._.js.map"
                     },
                     {
-                        "bytes":  84357,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__20-i0we58iqg2._.js"
+                        "bytes":  77950,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1vxwy0bh1uj8m._.js"
                     },
                     {
-                        "bytes":  12897,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__20-i0we58iqg2._.js.map"
+                        "bytes":  24126,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1vxwy0bh1uj8m._.js.map"
+                    },
+                    {
+                        "bytes":  38596,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1w4yqygkw1_l6._.js"
+                    },
+                    {
+                        "bytes":  9786,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__1w4yqygkw1_l6._.js.map"
+                    },
+                    {
+                        "bytes":  71393,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__20zb4kve8__au._.js"
+                    },
+                    {
+                        "bytes":  30777,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__20zb4kve8__au._.js.map"
                     },
                     {
                         "bytes":  80884,
@@ -1349,22 +1725,6 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\[turbopack]_runtime.js.map"
                     },
                     {
-                        "bytes":  53137,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_056btwj2b_srm._.js"
-                    },
-                    {
-                        "bytes":  26610,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_056btwj2b_srm._.js.map"
-                    },
-                    {
-                        "bytes":  80918,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_06y7f5rep-vwd._.js"
-                    },
-                    {
-                        "bytes":  28498,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_06y7f5rep-vwd._.js.map"
-                    },
-                    {
                         "bytes":  131574,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_0d52nwquqiqi0._.js"
                     },
@@ -1373,12 +1733,60 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_0d52nwquqiqi0._.js.map"
                     },
                     {
-                        "bytes":  81085,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_1hagjt-kn6q7l._.js"
+                        "bytes":  118663,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_0lixekzn-h5io._.js"
                     },
                     {
-                        "bytes":  74114,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_1hagjt-kn6q7l._.js.map"
+                        "bytes":  52122,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_0lixekzn-h5io._.js.map"
+                    },
+                    {
+                        "bytes":  50818,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_0wlpiapottfab._.js"
+                    },
+                    {
+                        "bytes":  23650,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_0wlpiapottfab._.js.map"
+                    },
+                    {
+                        "bytes":  84720,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_12hrrqtmhw18s._.js"
+                    },
+                    {
+                        "bytes":  76357,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_12hrrqtmhw18s._.js.map"
+                    },
+                    {
+                        "bytes":  96663,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_16scjq5d8myy4._.js"
+                    },
+                    {
+                        "bytes":  43297,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_16scjq5d8myy4._.js.map"
+                    },
+                    {
+                        "bytes":  64619,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_1adnfmcuc_lz7._.js"
+                    },
+                    {
+                        "bytes":  26662,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_1adnfmcuc_lz7._.js.map"
+                    },
+                    {
+                        "bytes":  83049,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_1bvh5b-95y1xe._.js"
+                    },
+                    {
+                        "bytes":  74674,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_1bvh5b-95y1xe._.js.map"
+                    },
+                    {
+                        "bytes":  153997,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_1g428zy3qu-ur._.js"
+                    },
+                    {
+                        "bytes":  61614,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_1g428zy3qu-ur._.js.map"
                     },
                     {
                         "bytes":  298,
@@ -1405,6 +1813,22 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_gallery_page_actions_1ci3vpy-hug0q.js.map"
                     },
                     {
+                        "bytes":  296,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_guides_page_actions_0vqxbaja-da9f.js"
+                    },
+                    {
+                        "bytes":  154,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_guides_page_actions_0vqxbaja-da9f.js.map"
+                    },
+                    {
+                        "bytes":  314,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_guides_[slug]_page_actions_07fmjslzw8j9n.js"
+                    },
+                    {
+                        "bytes":  154,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_guides_[slug]_page_actions_07fmjslzw8j9n.js.map"
+                    },
+                    {
                         "bytes":  294,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_hotel_page_actions_1mrnfrqegg7tw.js"
                     },
@@ -1421,12 +1845,12 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_page_actions_0hhsz1jew5ls7.js.map"
                     },
                     {
-                        "bytes":  298,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_privacy_page_actions_0_hxzrkksgwdo.js"
+                        "bytes":  310,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_rooms_compare_page_actions_0gt5xt35_ghys.js"
                     },
                     {
                         "bytes":  154,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_privacy_page_actions_0_hxzrkksgwdo.js.map"
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_rooms_compare_page_actions_0gt5xt35_ghys.js.map"
                     },
                     {
                         "bytes":  294,
@@ -1453,6 +1877,82 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_varanasi_page_actions_1w2ag_ts8a-4h.js.map"
                     },
                     {
+                        "bytes":  289,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_app.js"
+                    },
+                    {
+                        "bytes":  53,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_app.js.map"
+                    },
+                    {
+                        "bytes":  352,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_document.js"
+                    },
+                    {
+                        "bytes":  53,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_document.js.map"
+                    },
+                    {
+                        "bytes":  1057,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_error.js"
+                    },
+                    {
+                        "bytes":  53,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_error.js.map"
+                    },
+                    {
+                        "bytes":  1182,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_app\\build-manifest.json"
+                    },
+                    {
+                        "bytes":  54,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_app\\client-build-manifest.json"
+                    },
+                    {
+                        "bytes":  94,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_app\\next-font-manifest.json"
+                    },
+                    {
+                        "bytes":  30,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_app\\pages-manifest.json"
+                    },
+                    {
+                        "bytes":  2,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_app\\react-loadable-manifest.json"
+                    },
+                    {
+                        "bytes":  94,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_document\\next-font-manifest.json"
+                    },
+                    {
+                        "bytes":  40,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_document\\pages-manifest.json"
+                    },
+                    {
+                        "bytes":  2,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_document\\react-loadable-manifest.json"
+                    },
+                    {
+                        "bytes":  1126,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_error\\build-manifest.json"
+                    },
+                    {
+                        "bytes":  58,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_error\\client-build-manifest.json"
+                    },
+                    {
+                        "bytes":  94,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_error\\next-font-manifest.json"
+                    },
+                    {
+                        "bytes":  34,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_error\\pages-manifest.json"
+                    },
+                    {
+                        "bytes":  2,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\server\\pages\\_error\\react-loadable-manifest.json"
+                    },
+                    {
                         "bytes":  1051902,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\1daa_next_dist_compiled_react-dom_cjs_react-dom-client_development_0mp0cp_t-ezj9.js"
                     },
@@ -1469,60 +1969,100 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\1q96_modules_next_dist_compiled_react-dom_cjs_react-dom_development_1sqry0_53krp4.js.map"
                     },
                     {
-                        "bytes":  41369,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_1dsaa_-v2p5m9._.css"
+                        "bytes":  43464,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_05bfwj972a1_1._.css"
                     },
                     {
-                        "bytes":  46213,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_1dsaa_-v2p5m9._.css.map"
+                        "bytes":  48487,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_05bfwj972a1_1._.css.map"
                     },
                     {
-                        "bytes":  10853,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_contact_contact_193h5vizyq_1m.css"
+                        "bytes":  28987,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_0db_3_2598bgq._.css"
                     },
                     {
-                        "bytes":  11368,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_contact_contact_193h5vizyq_1m.css.map"
+                        "bytes":  27389,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_0db_3_2598bgq._.css.map"
                     },
                     {
-                        "bytes":  10866,
+                        "bytes":  42879,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_0dpt3w-2gcg2p._.css"
+                    },
+                    {
+                        "bytes":  47596,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_0dpt3w-2gcg2p._.css.map"
+                    },
+                    {
+                        "bytes":  908,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_bodoni_a38e8ac7_module_css_1igg3k2-ikub5._.single.css"
+                    },
+                    {
+                        "bytes":  1333,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_bodoni_a38e8ac7_module_css_1igg3k2-ikub5._.single.css.map"
+                    },
+                    {
+                        "bytes":  11479,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_contact_contact_css_1igg3k2-ikub5._.single.css"
                     },
                     {
-                        "bytes":  11344,
+                        "bytes":  11937,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_contact_contact_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
-                        "bytes":  17880,
+                        "bytes":  19775,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_editorial-pages_17pico5bdf6rh.css"
                     },
                     {
-                        "bytes":  16497,
+                        "bytes":  18688,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_editorial-pages_17pico5bdf6rh.css.map"
                     },
                     {
-                        "bytes":  40195,
+                        "bytes":  19608,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_editorial-pages_css_1igg3k2-ikub5._.single.css"
+                    },
+                    {
+                        "bytes":  18479,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_editorial-pages_css_1igg3k2-ikub5._.single.css.map"
+                    },
+                    {
+                        "bytes":  41466,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_globals_css_1igg3k2-ikub5._.single.css"
                     },
                     {
-                        "bytes":  44386,
+                        "bytes":  45354,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_globals_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
-                        "bytes":  18082,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_home_1mvaywxcrl9uf.css"
+                        "bytes":  9481,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_guides_guides_css_1igg3k2-ikub5._.single.css"
                     },
                     {
-                        "bytes":  17312,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_home_1mvaywxcrl9uf.css.map"
+                        "bytes":  8911,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_guides_guides_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
-                        "bytes":  18734,
+                        "bytes":  24502,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_home_css_1igg3k2-ikub5._.single.css"
+                    },
+                    {
+                        "bytes":  23326,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_home_css_1igg3k2-ikub5._.single.css.map"
+                    },
+                    {
+                        "bytes":  16041,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_hospitality-pages_0ps07jjd6x6j4.css"
                     },
                     {
-                        "bytes":  19167,
+                        "bytes":  16578,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_hospitality-pages_0ps07jjd6x6j4.css.map"
+                    },
+                    {
+                        "bytes":  16054,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_hospitality-pages_css_1igg3k2-ikub5._.single.css"
+                    },
+                    {
+                        "bytes":  16554,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_hospitality-pages_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
                         "bytes":  668,
@@ -1541,12 +2081,20 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_manrope_5c068e44_module_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
-                        "bytes":  19323,
+                        "bytes":  24772,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_rooms_rooms_1a2hhyqdhi-_j.css"
                     },
                     {
-                        "bytes":  19472,
+                        "bytes":  25356,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_rooms_rooms_1a2hhyqdhi-_j.css.map"
+                    },
+                    {
+                        "bytes":  24785,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_rooms_rooms_css_1igg3k2-ikub5._.single.css"
+                    },
+                    {
+                        "bytes":  25332,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\app_rooms_rooms_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
                         "bytes":  33740,
@@ -1557,28 +2105,36 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_007cracakpdk_._.js.map"
                     },
                     {
-                        "bytes":  43830,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_05qq7i2aw_nsp._.js"
+                        "bytes":  37211,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_1yj2du3j80nzc._.js"
                     },
                     {
-                        "bytes":  14322,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_05qq7i2aw_nsp._.js.map"
+                        "bytes":  13798,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_1yj2du3j80nzc._.js.map"
                     },
                     {
-                        "bytes":  45014,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_1a5w-gs7sga96._.js"
+                        "bytes":  6927,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_arrival-guide_css_1igg3k2-ikub5._.single.css"
                     },
                     {
-                        "bytes":  15925,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_1a5w-gs7sga96._.js.map"
+                        "bytes":  7211,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_arrival-guide_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
-                        "bytes":  40219,
+                        "bytes":  4909,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_booking-form_css_1igg3k2-ikub5._.single.css"
                     },
                     {
-                        "bytes":  44398,
+                        "bytes":  5208,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_booking-form_css_1igg3k2-ikub5._.single.css.map"
+                    },
+                    {
+                        "bytes":  5802,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_city-itinerary_css_1igg3k2-ikub5._.single.css"
+                    },
+                    {
+                        "bytes":  5480,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_city-itinerary_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
                         "bytes":  3280,
@@ -1589,44 +2145,76 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_reveal_tsx_10u0ahb4ngpdn._.js.map"
                     },
                     {
-                        "bytes":  1033974,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0842cti5-m0m2._.js"
+                        "bytes":  5914,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_room-comparison_css_1igg3k2-ikub5._.single.css"
                     },
                     {
-                        "bytes":  1169467,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0842cti5-m0m2._.js.map"
+                        "bytes":  6028,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_room-comparison_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
-                        "bytes":  1065956,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0apg1o_35_66p._.js"
+                        "bytes":  48675,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_room-comparison_tsx_1g-0_8oxlo2sa._.js"
                     },
                     {
-                        "bytes":  1191124,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0apg1o_35_66p._.js.map"
+                        "bytes":  7836,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_room-comparison_tsx_1g-0_8oxlo2sa._.js.map"
                     },
                     {
-                        "bytes":  1058535,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0gx266a5ggqck._.js"
+                        "bytes":  3888,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_stay-bar_css_1igg3k2-ikub5._.single.css"
                     },
                     {
-                        "bytes":  1181526,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0gx266a5ggqck._.js.map"
+                        "bytes":  3783,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\components_stay-bar_css_1igg3k2-ikub5._.single.css.map"
                     },
                     {
-                        "bytes":  1038116,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0nisoq2z53_18._.js"
+                        "bytes":  214189,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0o10-1mq8urch._.js"
                     },
                     {
-                        "bytes":  1171686,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0nisoq2z53_18._.js.map"
+                        "bytes":  256291,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0o10-1mq8urch._.js.map"
                     },
                     {
-                        "bytes":  214035,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0rnzz_932lp0k._.js"
+                        "bytes":  139335,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0yo51iv2__-zq._.js"
                     },
                     {
-                        "bytes":  259003,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0rnzz_932lp0k._.js.map"
+                        "bytes":  177185,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_0yo51iv2__-zq._.js.map"
+                    },
+                    {
+                        "bytes":  74686,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_10e2-xouig913._.js"
+                    },
+                    {
+                        "bytes":  129988,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_10e2-xouig913._.js.map"
+                    },
+                    {
+                        "bytes":  1038098,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_10r90tr25vobe._.js"
+                    },
+                    {
+                        "bytes":  1176521,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_10r90tr25vobe._.js.map"
+                    },
+                    {
+                        "bytes":  220214,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1btr4knqq50vl._.js"
+                    },
+                    {
+                        "bytes":  264730,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1btr4knqq50vl._.js.map"
+                    },
+                    {
+                        "bytes":  137228,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1chmwlobplncv._.js"
+                    },
+                    {
+                        "bytes":  174068,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1chmwlobplncv._.js.map"
                     },
                     {
                         "bytes":  142164,
@@ -1637,20 +2225,28 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1dwayyq2h6oly._.js.map"
                     },
                     {
-                        "bytes":  136564,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1qtg2z0lwyup1._.js"
+                        "bytes":  216072,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1h6624icmbln9._.js"
                     },
                     {
-                        "bytes":  174068,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1qtg2z0lwyup1._.js.map"
+                        "bytes":  262512,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1h6624icmbln9._.js.map"
                     },
                     {
-                        "bytes":  1137827,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1tsizu-yvae-t._.js"
+                        "bytes":  74374,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1u_-h1v56pkhg._.js"
                     },
                     {
-                        "bytes":  1268662,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1tsizu-yvae-t._.js.map"
+                        "bytes":  129398,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_1u_-h1v56pkhg._.js.map"
+                    },
+                    {
+                        "bytes":  139335,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_200ce7cbtr6ml._.js"
+                    },
+                    {
+                        "bytes":  177185,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_200ce7cbtr6ml._.js.map"
                     },
                     {
                         "bytes":  2013,
@@ -1659,6 +2255,14 @@
                     {
                         "bytes":  3498,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_@swc_helpers_cjs_1r9vbqwj2323d._.js.map"
+                    },
+                    {
+                        "bytes":  427,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_app_0yrdk3r5ni6li.js"
+                    },
+                    {
+                        "bytes":  347,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_app_0yrdk3r5ni6li.js.map"
                     },
                     {
                         "bytes":  169068,
@@ -1677,6 +2281,30 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_10u1298ibh-40._.js.map"
                     },
                     {
+                        "bytes":  135417,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_1aa47hljo-d43._.js"
+                    },
+                    {
+                        "bytes":  171880,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_1aa47hljo-d43._.js.map"
+                    },
+                    {
+                        "bytes":  87853,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_1atto1n9flxez._.js"
+                    },
+                    {
+                        "bytes":  131938,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_1atto1n9flxez._.js.map"
+                    },
+                    {
+                        "bytes":  81603,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_1gdrd03q-xsfc._.js"
+                    },
+                    {
+                        "bytes":  111617,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_1gdrd03q-xsfc._.js.map"
+                    },
+                    {
                         "bytes":  61888,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_20wefz_f1k6jn._.js"
                     },
@@ -1693,6 +2321,22 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_build_polyfills_polyfill-nomodule.js.map"
                     },
                     {
+                        "bytes":  181882,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_client_0tk8-26rtzlym._.js"
+                    },
+                    {
+                        "bytes":  243681,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_client_0tk8-26rtzlym._.js.map"
+                    },
+                    {
+                        "bytes":  182690,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_client_16lnmlosr3ca7._.js"
+                    },
+                    {
+                        "bytes":  244239,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_client_16lnmlosr3ca7._.js.map"
+                    },
+                    {
                         "bytes":  897953,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_client_1wygxxh5rwq0t._.js"
                     },
@@ -1701,12 +2345,28 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_client_1wygxxh5rwq0t._.js.map"
                     },
                     {
+                        "bytes":  984103,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_14ibvnakj0v0q._.js"
+                    },
+                    {
+                        "bytes":  3140084,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_14ibvnakj0v0q._.js.map"
+                    },
+                    {
                         "bytes":  144384,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_1amofcmz--cdp._.js"
                     },
                     {
                         "bytes":  200412,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_1amofcmz--cdp._.js.map"
+                    },
+                    {
+                        "bytes":  948131,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_1rva-8xykwpb-._.js"
+                    },
+                    {
+                        "bytes":  3100409,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_1rva-8xykwpb-._.js.map"
                     },
                     {
                         "bytes":  886633,
@@ -1733,8 +2393,104 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-67asdr9._.js.map"
                     },
                     {
+                        "bytes":  276493,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_shared_lib_196_nl_l493zz._.js"
+                    },
+                    {
+                        "bytes":  404332,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_shared_lib_196_nl_l493zz._.js.map"
+                    },
+                    {
+                        "bytes":  278272,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_shared_lib_1pjif-zr9-ese._.js"
+                    },
+                    {
+                        "bytes":  398294,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_next_dist_shared_lib_1pjif-zr9-ese._.js.map"
+                    },
+                    {
+                        "bytes":  3659,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_react-dom_13voigl36lis-._.js"
+                    },
+                    {
+                        "bytes":  4290,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_react-dom_13voigl36lis-._.js.map"
+                    },
+                    {
+                        "bytes":  1050718,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js"
+                    },
+                    {
+                        "bytes":  1856092,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js.map"
+                    },
+                    {
+                        "bytes":  16584,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_react-dom_cjs_react-dom_development_0d3scg3xnfy6h.js"
+                    },
+                    {
+                        "bytes":  28438,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\node_modules_react-dom_cjs_react-dom_development_0d3scg3xnfy6h.js.map"
+                    },
+                    {
+                        "bytes":  920,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\pages__app_0du2_q-cjzmdk._.js"
+                    },
+                    {
+                        "bytes":  185117,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\pages__app_1vrma7lqc30ul._.js.map"
+                    },
+                    {
+                        "bytes":  865,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\pages__error_1gb68scai-n28._.js"
+                    },
+                    {
+                        "bytes":  185117,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\pages__error_1pgzq42osfznh._.js.map"
+                    },
+                    {
+                        "bytes":  111991,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\turbopack-pages__app_1vrma7lqc30ul._.js"
+                    },
+                    {
+                        "bytes":  111940,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\turbopack-pages__error_1pgzq42osfznh._.js"
+                    },
+                    {
                         "bytes":  112009,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\turbopack-_06rkbud3pyrlm._.js"
+                    },
+                    {
+                        "bytes":  835,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[next]_entry_page-loader_ts_0z3haqkb6-d3h._.js"
+                    },
+                    {
+                        "bytes":  1133,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[next]_entry_page-loader_ts_0z3haqkb6-d3h._.js.map"
+                    },
+                    {
+                        "bytes":  865,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[next]_entry_page-loader_ts_1aoli7mnyw1hs._.js"
+                    },
+                    {
+                        "bytes":  1135,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[next]_entry_page-loader_ts_1aoli7mnyw1hs._.js.map"
+                    },
+                    {
+                        "bytes":  16581,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[root-of-the-server]__02sxxpho_3e87._.js"
+                    },
+                    {
+                        "bytes":  28778,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[root-of-the-server]__02sxxpho_3e87._.js.map"
+                    },
+                    {
+                        "bytes":  16565,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[root-of-the-server]__0l4r13lr2xywy._.js"
+                    },
+                    {
+                        "bytes":  28778,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[root-of-the-server]__0l4r13lr2xywy._.js.map"
                     },
                     {
                         "bytes":  600,
@@ -1749,80 +2505,160 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\[turbopack]_browser_dev_hmr-client_hmr-client_ts_1mojsayzyj2p6._.js.map"
                     },
                     {
-                        "bytes":  572,
+                        "bytes":  562,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0-ad97g14ykv5._.js"
                     },
                     {
-                        "bytes":  566,
+                        "bytes":  512,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_04g2rlfyd40k7._.js"
+                    },
+                    {
+                        "bytes":  50103,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_065-qutcjh-rr._.js"
+                    },
+                    {
+                        "bytes":  23711,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_065-qutcjh-rr._.js.map"
                     },
                     {
                         "bytes":  185117,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_06rkbud3pyrlm._.js.map"
                     },
                     {
-                        "bytes":  82377,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0cbz8eoqkxpxs._.js"
+                        "bytes":  28570,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0d5dwzewh6jka._.css"
                     },
                     {
-                        "bytes":  28762,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0cbz8eoqkxpxs._.js.map"
+                        "bytes":  29113,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0d5dwzewh6jka._.css.map"
                     },
                     {
-                        "bytes":  522,
+                        "bytes":  542,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0ktcvy7g9vfes._.js"
+                    },
+                    {
+                        "bytes":  512,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0rwev8y-21h_i._.js"
                     },
                     {
-                        "bytes":  570,
+                        "bytes":  56745,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0r_5vkwuj13g1._.js"
+                    },
+                    {
+                        "bytes":  25160,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0r_5vkwuj13g1._.js.map"
+                    },
+                    {
+                        "bytes":  532,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0t76culqm2159._.js"
                     },
                     {
-                        "bytes":  52073,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1-0fcaa6bab-8._.js"
+                        "bytes":  25297,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0w89vg5z9awy5._.css"
                     },
                     {
-                        "bytes":  26662,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1-0fcaa6bab-8._.js.map"
+                        "bytes":  23957,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0w89vg5z9awy5._.css.map"
+                    },
+                    {
+                        "bytes":  23122,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0yjlbyf59d1og._.css"
+                    },
+                    {
+                        "bytes":  24328,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_0yjlbyf59d1og._.css.map"
+                    },
+                    {
+                        "bytes":  152134,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_10dhp59djvvv8._.js"
+                    },
+                    {
+                        "bytes":  61876,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_10dhp59djvvv8._.js.map"
+                    },
+                    {
+                        "bytes":  30589,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_13k_0ud28l2eu._.css"
+                    },
+                    {
+                        "bytes":  31358,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_13k_0ud28l2eu._.css.map"
+                    },
+                    {
+                        "bytes":  94501,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_146h_wgqx3acu._.js"
+                    },
+                    {
+                        "bytes":  43388,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_146h_wgqx3acu._.js.map"
+                    },
+                    {
+                        "bytes":  117324,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_183ru-dgi1rs3._.js"
+                    },
+                    {
+                        "bytes":  52320,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_183ru-dgi1rs3._.js.map"
                     },
                     {
                         "bytes":  1089,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1anvha4rlo79g._.js"
                     },
                     {
-                        "bytes":  549,
+                        "bytes":  539,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1cyqy0hmkl0mr._.js"
                     },
                     {
-                        "bytes":  512,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1hzctm7jf33-y._.js"
+                        "bytes":  40858,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1e93jfm6_pnmy._.css"
                     },
                     {
-                        "bytes":  566,
+                        "bytes":  39746,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1e93jfm6_pnmy._.css.map"
+                    },
+                    {
+                        "bytes":  546,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1npw5tqftdwol._.js"
+                    },
+                    {
+                        "bytes":  63254,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1q-s1_qmv2arh._.js"
+                    },
+                    {
+                        "bytes":  26751,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1q-s1_qmv2arh._.js.map"
+                    },
+                    {
+                        "bytes":  22867,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1r05gd34ec26r._.css"
+                    },
+                    {
+                        "bytes":  23763,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1r05gd34ec26r._.css.map"
+                    },
+                    {
+                        "bytes":  556,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1tle95a6j8n10._.js"
                     },
                     {
-                        "bytes":  572,
+                        "bytes":  512,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1v48udygu0_jr._.js"
                     },
                     {
-                        "bytes":  115228,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1w2pfcshb2-ki._.js"
+                        "bytes":  489,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1_udtiqe4nk37._.js"
                     },
                     {
-                        "bytes":  144555,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1w2pfcshb2-ki._.js.map"
-                    },
-                    {
-                        "bytes":  50974,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1xvtyq7cn9777._.css"
-                    },
-                    {
-                        "bytes":  55741,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_1xvtyq7cn9777._.css.map"
-                    },
-                    {
-                        "bytes":  528,
+                        "bytes":  512,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\_219uq1sj0q91c._.js"
+                    },
+                    {
+                        "bytes":  896,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\pages\\_app.js"
+                    },
+                    {
+                        "bytes":  844,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\chunks\\pages\\_error.js"
                     },
                     {
                         "bytes":  219,
@@ -1837,12 +2673,20 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\development\\_ssgManifest.js"
                     },
                     {
-                        "bytes":  246,
-                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\media\\icon.0mli9hb62bxfu.svg"
+                        "bytes":  30328,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\media\\bodoni_moda_latin_wght_italic-s.p.2ebojhi24cjg8.woff2"
+                    },
+                    {
+                        "bytes":  25884,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\media\\bodoni_moda_latin_wght_normal-s.p.328xhr0-_klet.woff2"
                     },
                     {
                         "bytes":  247,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\media\\icon.1b4_2k8ccqre5.svg"
+                    },
+                    {
+                        "bytes":  695,
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\static\\media\\icon.3qy4u8j0cpmzt.svg"
                     },
                     {
                         "bytes":  48256,
@@ -1861,25 +2705,25 @@
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\types\\root-params.d.ts"
                     },
                     {
-                        "bytes":  2299,
+                        "bytes":  2428,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\types\\routes.d.ts"
                     },
                     {
-                        "bytes":  10483,
+                        "bytes":  13050,
                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev\\types\\validator.ts"
                     }
                 ],
-    "completed":  "2026-10-20T05:20:28.2046686Z",
-    "removedBytes":  240653234,
+    "completed":  "2026-10-20T05:59:53.3663193Z",
+    "removedBytes":  290643233,
     "freeAfterBytes":  {
-                           "D":  68268969984,
-                           "C":  26655940608
+                           "D":  68135047168,
+                           "C":  26305761280
                        },
     "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev",
     "productionVerifiedAfter":  true,
-    "reason":  "Stopped task-owned next dev session 18379. Production preview uses .next/server and .next/static; .next/dev is generated, inactive, fully rebuildable development output.",
+    "reason":  "Stopped task-owned next dev session 1374. Production preview uses .next/server and .next/static; .next/dev is generated, inactive, fully rebuildable development output.",
     "freeBeforeBytes":  {
-                            "D":  68027596800,
-                            "C":  26655940608
+                            "D":  67843108864,
+                            "C":  26305761280
                         }
 }
