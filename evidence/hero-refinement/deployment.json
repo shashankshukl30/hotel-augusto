@@ -1,0 +1,32 @@
+﻿{
+    "date":  "2026-10-20T08:23:51.3466766Z",
+    "source_commit":  "9c3ad164659926f14d777ef56732ceb89ce17fa1",
+    "repository":  "https://github.com/shashankshukl30/hotel-augusto",
+    "branch":  "preview/vercel",
+    "deployment_id":  "dpl_E1pY8gkepz9KdzU2Aufpfc8iXsyH",
+    "url":  "https://hotel-augusto-1kcxgilki-omvitys-projects.vercel.app",
+    "alias":  "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+    "state":  "READY",
+    "environment":  "preview",
+    "changes":  [
+                    "Hero uses viewport minus shared header and measured booking dock, with separate grid rows for copy and controls.",
+                    "Calm pan/zoom and crossfades; interactive hover, keyboard, explicit, offscreen and hidden-document pause; reduced-motion alternative.",
+                    "KASHI raised slightly and sized to fit mobile width while remaining partly behind the photograph.",
+                    "Compact narrow-landscape booking dock; border-box observer responds to safe-area and padding changes."
+                ],
+    "verification":  {
+                         "viewports":  17,
+                         "browser_errors":  0,
+                         "unit_tests":  18,
+                         "qa_credential_revoked":  true,
+                         "lint":  "passed",
+                         "hosted_passed":  true,
+                         "missing_resources":  0,
+                         "test_report":  "vercel-qa.json",
+                         "typecheck":  "passed",
+                         "production_build":  "passed",
+                         "content_routes":  17,
+                         "hosted_checks":  172
+                     },
+    "note":  "Receipt-only commits after this source do not change the verified website."
+}
