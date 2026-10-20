@@ -1,0 +1,15 @@
+﻿{
+    "date":  "2026-10-20T13:04:52.9959169Z",
+    "alias":  "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+    "project_id":  "prj_ZByZ1DzWr16QlNp9wG0Woo3JbBmU",
+    "alias_id":  "ab114f9f76ee9f3c2f448465b88d09dd5b3de5341e2404fe0e54a41fa6a724764201e8cb0a5e4e8d088aa750fde7da2019fc40751c9d644ef4db5d7702c9274a",
+    "cause":  "Anonymous browser redirected to Vercel login. Previous QA used temporary automation credentials.",
+    "change":  "Alias-scoped alias-protection-override created for the existing client preview URL",
+    "project_sso_protection":  "all_except_custom_domains",
+    "production_branch":  "main",
+    "preview_indexable":  false,
+    "credentials_used_in_anonymous_checks":  false,
+    "anonymous_checks":  58,
+    "anonymous_passed":  true,
+    "api_reference":  "https://vercel.com/docs/rest-api/aliases/update-the-protection-bypass-for-a-url"
+}

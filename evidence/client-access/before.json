@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20T13:02:53.542992+00:00",
+  "base_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+  "bypass_credentials_used": false,
+  "custom_request_headers": false,
+  "checks": [],
+  "runtime_errors": [],
+  "external_messages_sent": 0,
+  "initial_cookie_count": 0,
+  "initial_page": {
+    "http": 200,
+    "landed_url": "https://vercel.com/login?next=%2Fsso-api%3Furl%3Dhttps%253A%252F%252Fhotel-augusto-git-preview-vercel-omvitys-projects.vercel.app%252F%26nonce%3Dcdb17b85d8773c7ebdc6f2aab201097f3db1c3d58c19ed5b6ef0a75c4c5c1f03",
+    "title": "Login \u2013 Vercel",
+    "headings": [
+      "Log in to Vercel"
+    ]
+  },
+  "passed": true
+}
