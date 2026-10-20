@@ -1,0 +1,1333 @@
+{
+  "checks": [
+    {
+      "name": "Hero clears booking dock 1876x771",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 87,
+          "bottom": 670,
+          "left": 16,
+          "right": 1860
+        },
+        "title": {
+          "top": 188.609375,
+          "bottom": 422.296875,
+          "left": 80,
+          "right": 1796
+        },
+        "intro": {
+          "top": 188.609375,
+          "bottom": 560.390625,
+          "left": 80,
+          "right": 1796
+        },
+        "actions": {
+          "top": 508.390625,
+          "bottom": 560.390625,
+          "left": 80,
+          "right": 1796
+        },
+        "controls": {
+          "top": 594,
+          "bottom": 646,
+          "left": 1487.3125,
+          "right": 1796
+        },
+        "dock": {
+          "top": 684,
+          "bottom": 771,
+          "left": 0,
+          "right": 1876
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 1876x771",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 1876x771",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 1876x771",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 1876x771",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 1920x1080",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 87,
+          "bottom": 979,
+          "left": 16,
+          "right": 1904
+        },
+        "title": {
+          "top": 297.8125,
+          "bottom": 603.5625,
+          "left": 80,
+          "right": 1840
+        },
+        "intro": {
+          "top": 297.8125,
+          "bottom": 760.1875,
+          "left": 80,
+          "right": 1840
+        },
+        "actions": {
+          "top": 708.1875,
+          "bottom": 760.1875,
+          "left": 80,
+          "right": 1840
+        },
+        "controls": {
+          "top": 903,
+          "bottom": 955,
+          "left": 1531.3125,
+          "right": 1840
+        },
+        "dock": {
+          "top": 993,
+          "bottom": 1080,
+          "left": 0,
+          "right": 1920
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 1920x1080",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 1920x1080",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 1920x1080",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 1920x1080",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 1440x900",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 87,
+          "bottom": 799,
+          "left": 16,
+          "right": 1424
+        },
+        "title": {
+          "top": 241.609375,
+          "bottom": 490.578125,
+          "left": 64,
+          "right": 1376
+        },
+        "intro": {
+          "top": 241.609375,
+          "bottom": 636.390625,
+          "left": 64,
+          "right": 1376
+        },
+        "actions": {
+          "top": 584.390625,
+          "bottom": 636.390625,
+          "left": 64,
+          "right": 1376
+        },
+        "controls": {
+          "top": 723,
+          "bottom": 775,
+          "left": 1067.3125,
+          "right": 1376
+        },
+        "dock": {
+          "top": 813,
+          "bottom": 900,
+          "left": 0,
+          "right": 1440
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 1366x768",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 87,
+          "bottom": 667,
+          "left": 16,
+          "right": 1350
+        },
+        "title": {
+          "top": 187.859375,
+          "bottom": 420.234375,
+          "left": 64,
+          "right": 1302
+        },
+        "intro": {
+          "top": 187.859375,
+          "bottom": 558.140625,
+          "left": 64,
+          "right": 1302
+        },
+        "actions": {
+          "top": 506.140625,
+          "bottom": 558.140625,
+          "left": 64,
+          "right": 1302
+        },
+        "controls": {
+          "top": 591,
+          "bottom": 643,
+          "left": 993.3125,
+          "right": 1302
+        },
+        "dock": {
+          "top": 681,
+          "bottom": 768,
+          "left": 0,
+          "right": 1366
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 1366x768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 1366x768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 1366x768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 1366x768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 1280x720",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 87,
+          "bottom": 619,
+          "left": 16,
+          "right": 1264
+        },
+        "title": {
+          "top": 175.796875,
+          "bottom": 387.171875,
+          "left": 64,
+          "right": 1216
+        },
+        "intro": {
+          "top": 175.796875,
+          "bottom": 522.203125,
+          "left": 64,
+          "right": 1216
+        },
+        "actions": {
+          "top": 470.203125,
+          "bottom": 522.203125,
+          "left": 64,
+          "right": 1216
+        },
+        "controls": {
+          "top": 543,
+          "bottom": 595,
+          "left": 907.3125,
+          "right": 1216
+        },
+        "dock": {
+          "top": 633,
+          "bottom": 720,
+          "left": 0,
+          "right": 1280
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 1280x720",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 1280x720",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 1280x720",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 1280x720",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 1536x616",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 87,
+          "bottom": 515,
+          "left": 16,
+          "right": 1520
+        },
+        "title": {
+          "top": 168.546875,
+          "bottom": 312.671875,
+          "left": 64,
+          "right": 1472
+        },
+        "intro": {
+          "top": 168.546875,
+          "bottom": 425.453125,
+          "left": 64,
+          "right": 1472
+        },
+        "actions": {
+          "top": 381.453125,
+          "bottom": 425.453125,
+          "left": 64,
+          "right": 1472
+        },
+        "controls": {
+          "top": 447,
+          "bottom": 499,
+          "left": 1163.3125,
+          "right": 1472
+        },
+        "dock": {
+          "top": 529,
+          "bottom": 616,
+          "left": 0,
+          "right": 1536
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 1536x616",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 1536x616",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 1536x616",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 1536x616",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 1280x600",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 87,
+          "bottom": 499,
+          "left": 16,
+          "right": 1264
+        },
+        "title": {
+          "top": 163.453125,
+          "bottom": 301.765625,
+          "left": 64,
+          "right": 1216
+        },
+        "intro": {
+          "top": 163.453125,
+          "bottom": 414.546875,
+          "left": 64,
+          "right": 1216
+        },
+        "actions": {
+          "top": 370.546875,
+          "bottom": 414.546875,
+          "left": 64,
+          "right": 1216
+        },
+        "controls": {
+          "top": 431,
+          "bottom": 483,
+          "left": 907.3125,
+          "right": 1216
+        },
+        "dock": {
+          "top": 513,
+          "bottom": 600,
+          "left": 0,
+          "right": 1280
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 1280x600",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 1280x600",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 1280x600",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 1280x600",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 1024x768",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 83,
+          "bottom": 667,
+          "left": 16,
+          "right": 1008
+        },
+        "title": {
+          "top": 201.828125,
+          "bottom": 402.015625,
+          "left": 48,
+          "right": 976
+        },
+        "intro": {
+          "top": 201.828125,
+          "bottom": 540.171875,
+          "left": 48,
+          "right": 976
+        },
+        "actions": {
+          "top": 488.171875,
+          "bottom": 540.171875,
+          "left": 48,
+          "right": 976
+        },
+        "controls": {
+          "top": 591,
+          "bottom": 643,
+          "left": 667.3125,
+          "right": 976
+        },
+        "dock": {
+          "top": 681,
+          "bottom": 768,
+          "left": 0,
+          "right": 1024
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 1024x768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 1024x768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 1024x768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 1024x768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 768x1024",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 83,
+          "bottom": 923,
+          "left": 16,
+          "right": 752
+        },
+        "title": {
+          "top": 345.375,
+          "bottom": 499.125,
+          "left": 48,
+          "right": 720
+        },
+        "intro": {
+          "top": 345.375,
+          "bottom": 652.625,
+          "left": 48,
+          "right": 720
+        },
+        "actions": {
+          "top": 600.625,
+          "bottom": 652.625,
+          "left": 48,
+          "right": 720
+        },
+        "controls": {
+          "top": 847,
+          "bottom": 899,
+          "left": 411.3125,
+          "right": 720
+        },
+        "dock": {
+          "top": 937,
+          "bottom": 1024,
+          "left": 0,
+          "right": 768
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 390x844",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 77,
+          "bottom": 699,
+          "left": 10,
+          "right": 380
+        },
+        "title": {
+          "top": 156.953125,
+          "bottom": 274.265625,
+          "left": 32,
+          "right": 358
+        },
+        "intro": {
+          "top": 156.953125,
+          "bottom": 398.140625,
+          "left": 32,
+          "right": 358
+        },
+        "actions": {
+          "top": 352.140625,
+          "bottom": 398.140625,
+          "left": 32,
+          "right": 358
+        },
+        "controls": {
+          "top": 635,
+          "bottom": 687,
+          "left": 44.84375,
+          "right": 345.15625
+        },
+        "dock": {
+          "top": 711,
+          "bottom": 844,
+          "left": 0,
+          "right": 390
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 375x667",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 77,
+          "bottom": 522,
+          "left": 10,
+          "right": 365
+        },
+        "title": {
+          "top": 153.40625,
+          "bottom": 266.1875,
+          "left": 32,
+          "right": 343
+        },
+        "intro": {
+          "top": 153.40625,
+          "bottom": 379.4375,
+          "left": 32,
+          "right": 343
+        },
+        "actions": {
+          "top": 333.4375,
+          "bottom": 379.4375,
+          "left": 32,
+          "right": 343
+        },
+        "controls": {
+          "top": 458,
+          "bottom": 510,
+          "left": 39.40625,
+          "right": 335.59375
+        },
+        "dock": {
+          "top": 534,
+          "bottom": 667,
+          "left": 0,
+          "right": 375
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 375x667",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 375x667",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 375x667",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 375x667",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 360x640",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 77,
+          "bottom": 495,
+          "left": 10,
+          "right": 350
+        },
+        "title": {
+          "top": 137,
+          "bottom": 245.25,
+          "left": 26,
+          "right": 334
+        },
+        "intro": {
+          "top": 137,
+          "bottom": 357.34375,
+          "left": 26,
+          "right": 334
+        },
+        "actions": {
+          "top": 311.34375,
+          "bottom": 357.34375,
+          "left": 26,
+          "right": 334
+        },
+        "controls": {
+          "top": 435,
+          "bottom": 487,
+          "left": 34.015625,
+          "right": 325.984375
+        },
+        "dock": {
+          "top": 507,
+          "bottom": 640,
+          "left": 0,
+          "right": 360
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 360x640",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 360x640",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 360x640",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 360x640",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 320x568",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 77,
+          "bottom": 423,
+          "left": 10,
+          "right": 310
+        },
+        "title": {
+          "top": 137,
+          "bottom": 233.25,
+          "left": 26,
+          "right": 294
+        },
+        "intro": {
+          "top": 137,
+          "bottom": 343.25,
+          "left": 26,
+          "right": 294
+        },
+        "actions": {
+          "top": 297.25,
+          "bottom": 343.25,
+          "left": 26,
+          "right": 294
+        },
+        "controls": {
+          "top": 363,
+          "bottom": 415,
+          "left": 19.5,
+          "right": 300.5
+        },
+        "dock": {
+          "top": 435,
+          "bottom": 568,
+          "left": 0,
+          "right": 320
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 844x390",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 83,
+          "bottom": 289,
+          "left": 16,
+          "right": 828
+        },
+        "title": {
+          "top": 112.953125,
+          "bottom": 199.046875,
+          "left": 40,
+          "right": 410
+        },
+        "intro": {
+          "top": 110.5,
+          "bottom": 201.5,
+          "left": 40,
+          "right": 804
+        },
+        "actions": {
+          "top": 157.5,
+          "bottom": 201.5,
+          "left": 434,
+          "right": 804
+        },
+        "controls": {
+          "top": 225,
+          "bottom": 277,
+          "left": 495.3125,
+          "right": 804
+        },
+        "dock": {
+          "top": 303,
+          "bottom": 390,
+          "left": 0,
+          "right": 844
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 667x375",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 83,
+          "bottom": 274,
+          "left": 16,
+          "right": 651
+        },
+        "title": {
+          "top": 109,
+          "bottom": 188,
+          "left": 40,
+          "right": 321.5
+        },
+        "intro": {
+          "top": 103,
+          "bottom": 194,
+          "left": 40,
+          "right": 627
+        },
+        "actions": {
+          "top": 150,
+          "bottom": 194,
+          "left": 345.5,
+          "right": 627
+        },
+        "controls": {
+          "top": 210,
+          "bottom": 262,
+          "left": 318.3125,
+          "right": 627
+        },
+        "dock": {
+          "top": 288,
+          "bottom": 375,
+          "left": 0,
+          "right": 667
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 667x375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 667x375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 667x375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 667x375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 568x320",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 77,
+          "bottom": 235,
+          "left": 10,
+          "right": 558
+        },
+        "title": {
+          "top": 89.703125,
+          "bottom": 162.296875,
+          "left": 26,
+          "right": 199.515625
+        },
+        "intro": {
+          "top": 89.703125,
+          "bottom": 162.296875,
+          "left": 26,
+          "right": 542
+        },
+        "actions": {
+          "top": 104,
+          "bottom": 148,
+          "left": 333.375,
+          "right": 542
+        },
+        "controls": {
+          "top": 175,
+          "bottom": 227,
+          "left": 241.3125,
+          "right": 542
+        },
+        "dock": {
+          "top": 247,
+          "bottom": 320,
+          "left": 0,
+          "right": 568
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero clears booking dock 480x320",
+      "passed": true,
+      "detail": {
+        "hero": {
+          "top": 77,
+          "bottom": 235,
+          "left": 10,
+          "right": 470
+        },
+        "title": {
+          "top": 95.328125,
+          "bottom": 156.671875,
+          "left": 26,
+          "right": 172.65625
+        },
+        "intro": {
+          "top": 95.328125,
+          "bottom": 156.671875,
+          "left": 26,
+          "right": 454
+        },
+        "actions": {
+          "top": 104,
+          "bottom": 148,
+          "left": 245.375,
+          "right": 454
+        },
+        "controls": {
+          "top": 175,
+          "bottom": 227,
+          "left": 153.3125,
+          "right": 454
+        },
+        "dock": {
+          "top": 247,
+          "bottom": 320,
+          "left": 0,
+          "right": 480
+        },
+        "overflow": false
+      }
+    },
+    {
+      "name": "Hero actions and scene controls stay separate 480x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero content stays inside photograph 480x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No horizontal overflow 480x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking action text fits 480x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hero follows a taller measured booking dock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "KASHI is raised and remains partly behind photograph 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "KASHI word fits horizontally 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "KASHI is raised and remains partly behind photograph 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "KASHI word fits horizontally 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Photographs animate while pointer rests on image",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Ready photographs crossfade automatically",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Pause freezes automatic photograph animation",
+      "passed": true,
+      "detail": {
+        "before": 1.08186,
+        "after": 1.08186
+      }
+    },
+    {
+      "name": "Play resumes photograph animation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Manual scene selection pauses rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mouse Play resumes after keyboard focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Keyboard focus independently pauses photo motion",
+      "passed": true,
+      "detail": {
+        "before": 1.09623,
+        "after": 1.09623
+      }
+    },
+    {
+      "name": "Reduced motion keeps photographs static",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced motion disables automatic-play control",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced motion retains manual scene selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route renders /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile route has no overflow /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No browser runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

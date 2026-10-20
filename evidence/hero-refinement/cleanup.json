@@ -1,0 +1,18 @@
+﻿{
+    "date":  "2026-10-20T08:20:23.9999240Z",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto",
+    "free_space_before_bytes":  {
+                                    "D":  67997106176,
+                                    "C":  20272562176
+                                },
+    "free_space_after_bytes":  {
+                                   "D":  67887529984,
+                                   "C":  20238434304
+                               },
+    "removed_paths":  [
+
+                      ],
+    "removed_bytes":  0,
+    "retained_cache":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next\\dev",
+    "reason":  "Automatic approval review rejected deletion of the task-generated Next development cache: blocked by policy. No alternate deletion attempted. Source, active production build, dependencies and verification evidence retained."
+}

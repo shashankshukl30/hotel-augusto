@@ -131,7 +131,7 @@
 .itinerary-city-name {
   position: absolute;
   z-index: -1;
-  top: 0;
+  top: clamp(-32px, -1.8vw, -12px);
   left: 50%;
   transform: translateX(-50%);
   width: max-content;
@@ -191,8 +191,8 @@
   .itinerary-moment { font-size: 14px; margin-bottom: 12px; }
   .itinerary-copy-detail > p { font-size: 17px; line-height: 1.55; margin-bottom: 16px; }
   .itinerary-copy-detail .itinerary-practical { font-size: 15px; }
-  .itinerary-stage { padding-top: 72px; margin-top: 24px; }
-  .itinerary-city-name { font-size: 43vw; line-height: .85; }
+  .itinerary-stage { padding-top: clamp(56px, 18.5vw, 112px); margin-top: 24px; }
+  .itinerary-city-name { top: -10px; font-size: 31vw; line-height: .85; }
   .itinerary-image { height: 380px; border-radius: 20px; }
   .itinerary-figure figcaption { min-height: 46px; padding-top: 12px; }
   .itinerary-more { justify-content: flex-start; margin-top: 12px; }

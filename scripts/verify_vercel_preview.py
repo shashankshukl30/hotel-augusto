@@ -14,6 +14,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from playwright.sync_api import sync_playwright
+from hero_ux_checks import verify_hero
 
 ROOT = Path(__file__).resolve().parents[1]
 ROUTES = [
@@ -185,6 +186,7 @@ try:
               response.headers.get("x-content-type-options") == "nosniff"
               and response.headers.get("x-frame-options") == "DENY")
         page.screenshot(path=str(output.parent / "desktop-home.png"))
+        verify_hero(page, base, check, output.parent)
         check("No missing page resources", not report["failed_responses"], report["failed_responses"])
         check("No browser errors", not report["errors"], report["errors"])
         context.close()

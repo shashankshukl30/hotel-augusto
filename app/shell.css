@@ -1,4 +1,7 @@
 ﻿.site-header { position:sticky; top:0; z-index:40; background:var(--paper); color:var(--ink); border-bottom:1px solid transparent; transition:border-color 250ms; }
+:root { --site-header-height:77px; }
+@media(max-width:1050px) { :root { --site-header-height:73px; } }
+@media(max-width:600px) { :root { --site-header-height:69px; } }
 .site-header.is-scrolled { border-bottom-color:var(--line); }
 .header-inner { height:76px; max-width:1540px; margin:auto; padding-inline:52px; display:flex; align-items:center; justify-content:space-between; gap:28px; }
 .brand { display:inline-flex; align-items:center; gap:9px; }

@@ -24,7 +24,7 @@ export function BookingDock() {
     const observer = new ResizeObserver(([entry]) => {
       document.documentElement.style.setProperty("--booking-dock-height", `${Math.ceil(entry.borderBoxSize[0]?.blockSize || element.offsetHeight)}px`);
     });
-    observer.observe(element);
+    observer.observe(element, { box: "border-box" });
     return () => observer.disconnect();
   }, []);
 
