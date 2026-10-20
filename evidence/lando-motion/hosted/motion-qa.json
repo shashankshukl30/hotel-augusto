@@ -1,0 +1,1571 @@
+{
+  "date": "2026-10-20T13:24:33.609909+00:00",
+  "base_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+  "checks": [
+    {
+      "name": "Hero title moves and settles",
+      "passed": true,
+      "detail": [
+        {
+          "t": 1305.8,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 1382.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 1507.2,
+          "y": 149.381,
+          "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 149.381)"
+        },
+        {
+          "t": 1555.9,
+          "y": 149.381,
+          "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 149.381)"
+        },
+        {
+          "t": 1597.6,
+          "y": 143.494,
+          "transform": "matrix(0.999438, 0.0335247, -0.0335247, 0.999438, 0, 143.494)"
+        },
+        {
+          "t": 1639.2,
+          "y": 110.388,
+          "transform": "matrix(0.999667, 0.0257919, -0.0257919, 0.999667, 0, 110.388)"
+        },
+        {
+          "t": 1680.9,
+          "y": 83.6163,
+          "transform": "matrix(0.999809, 0.0195378, -0.0195378, 0.999809, 0, 83.6163)"
+        },
+        {
+          "t": 1722.4,
+          "y": 63.0538,
+          "transform": "matrix(0.999891, 0.0147335, -0.0147335, 0.999891, 0, 63.0538)"
+        },
+        {
+          "t": 1764.2,
+          "y": 47.4454,
+          "transform": "matrix(0.999939, 0.0110866, -0.0110866, 0.999939, 0, 47.4454)"
+        },
+        {
+          "t": 1805.8,
+          "y": 35.8274,
+          "transform": "matrix(0.999965, 0.00837184, -0.00837184, 0.999965, 0, 35.8274)"
+        },
+        {
+          "t": 1847.5,
+          "y": 27.0957,
+          "transform": "matrix(0.99998, 0.00633152, -0.00633152, 0.99998, 0, 27.0957)"
+        },
+        {
+          "t": 1889.1,
+          "y": 20.5268,
+          "transform": "matrix(0.999988, 0.00479657, -0.00479657, 0.999988, 0, 20.5268)"
+        },
+        {
+          "t": 1930.8,
+          "y": 15.5289,
+          "transform": "matrix(0.999993, 0.00362871, -0.00362871, 0.999993, 0, 15.5289)"
+        },
+        {
+          "t": 1972.5,
+          "y": 11.7158,
+          "transform": "matrix(0.999996, 0.00273769, -0.00273769, 0.999996, 0, 11.7158)"
+        },
+        {
+          "t": 2014.2,
+          "y": 8.79543,
+          "transform": "matrix(0.999998, 0.00205527, -0.00205527, 0.999998, 0, 8.79543)"
+        },
+        {
+          "t": 2055.8,
+          "y": 6.55942,
+          "transform": "matrix(0.999999, 0.00153277, -0.00153277, 0.999999, 0, 6.55942)"
+        },
+        {
+          "t": 2097.5,
+          "y": 4.8399,
+          "transform": "matrix(0.999999, 0.00113096, -0.00113096, 0.999999, 0, 4.8399)"
+        },
+        {
+          "t": 2139.2,
+          "y": 3.52496,
+          "transform": "matrix(1, 0.000823694, -0.000823694, 1, 0, 3.52496)"
+        },
+        {
+          "t": 2180.8,
+          "y": 2.5271,
+          "transform": "matrix(1, 0.000590519, -0.000590519, 1, 0, 2.5271)"
+        },
+        {
+          "t": 2222.5,
+          "y": 1.77273,
+          "transform": "matrix(1, 0.000414241, -0.000414241, 1, 0, 1.77273)"
+        },
+        {
+          "t": 2264.1,
+          "y": 1.21211,
+          "transform": "matrix(1, 0.000283239, -0.000283239, 1, 0, 1.21211)"
+        },
+        {
+          "t": 2305.8,
+          "y": 0.800454,
+          "transform": "matrix(1, 0.000187046, -0.000187046, 1, 0, 0.800454)"
+        },
+        {
+          "t": 2347.5,
+          "y": 0.505835,
+          "transform": "matrix(1, 0.000118201, -0.000118201, 1, 0, 0.505835)"
+        },
+        {
+          "t": 2389.2,
+          "y": 0.301439,
+          "transform": "matrix(1, 7.04387e-05, -7.04387e-05, 1, 0, 0.301439)"
+        },
+        {
+          "t": 2430.9,
+          "y": 0.165631,
+          "transform": "matrix(1, 3.87038e-05, -3.87038e-05, 1, 0, 0.165631)"
+        },
+        {
+          "t": 2472.5,
+          "y": 0.0809896,
+          "transform": "matrix(1, 1.89252e-05, -1.89252e-05, 1, 0, 0.0809896)"
+        },
+        {
+          "t": 2514.1,
+          "y": 0.0328499,
+          "transform": "matrix(1, 7.67618e-06, -7.67618e-06, 1, 0, 0.0328499)"
+        },
+        {
+          "t": 2555.8,
+          "y": 0.009451,
+          "transform": "matrix(1, 2.20846e-06, -2.20846e-06, 1, 0, 0.009451)"
+        },
+        {
+          "t": 2597.5,
+          "y": 0.00119511,
+          "transform": "matrix(1, 2.79267e-07, -2.79267e-07, 1, 0, 0.00119511)"
+        },
+        {
+          "t": 2639.2,
+          "y": 6.85829e-08,
+          "transform": "matrix(1, 1.60261e-11, -1.60261e-11, 1, 0, 6.85829e-08)"
+        },
+        {
+          "t": 2680.8,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 2722.6,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 2764.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 2805.8,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 2847.6,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 2889.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 2930.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 2972.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3014.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3055.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3097.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3139.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3180.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3222.4,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3264.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3305.8,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3347.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3389.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3430.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3472.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3514.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3555.8,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3597.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3639.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3680.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3722.6,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3764.3,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3805.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3847.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3889.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3931.1,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 3972.6,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4014.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4055.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4097.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4139.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4180.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4222.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4264.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4305.8,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4347.6,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4389.2,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4430.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4472.5,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4514.3,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4555.9,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4597.6,
+          "y": 0,
+          "transform": "none"
+        },
+        {
+          "t": 4639.2,
+          "y": 0,
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "name": "Native scroll opens photograph crop",
+      "passed": true,
+      "detail": {
+        "before": {
+          "x": 0,
+          "y": 0,
+          "sx": 1,
+          "sy": 1,
+          "transform": "none",
+          "clip": "inset(0% 9.84216% round 24px)",
+          "opacity": 1
+        },
+        "after": {
+          "x": 0,
+          "y": 0,
+          "sx": 1,
+          "sy": 1,
+          "transform": "none",
+          "clip": "inset(0% round 24px)",
+          "opacity": 1
+        }
+      }
+    },
+    {
+      "name": "Gallery cards drift at different rates",
+      "passed": true,
+      "detail": {
+        "before": [
+          45.0299,
+          -23.3488,
+          65.0432
+        ],
+        "after": [
+          -8.60305,
+          8.60305,
+          -12.9046
+        ]
+      }
+    },
+    {
+      "name": "Room alternate photograph is decoded before reveal",
+      "passed": true,
+      "detail": {
+        "early_clip": "inset(94.82% 0% 0%)",
+        "settled": {
+          "x": 0,
+          "y": 0,
+          "sx": 1,
+          "sy": 1,
+          "transform": "none",
+          "clip": "inset(0%)",
+          "opacity": 1
+        },
+        "frames": [
+          {
+            "inset": 99.1807,
+            "decoded": true
+          },
+          {
+            "inset": 94.82,
+            "decoded": true
+          },
+          {
+            "inset": 74.6877,
+            "decoded": true
+          },
+          {
+            "inset": 70.9902,
+            "decoded": true
+          },
+          {
+            "inset": 67.3568,
+            "decoded": true
+          },
+          {
+            "inset": 48.2652,
+            "decoded": true
+          },
+          {
+            "inset": 40.4562,
+            "decoded": true
+          },
+          {
+            "inset": 38.1067,
+            "decoded": true
+          },
+          {
+            "inset": 35.8416,
+            "decoded": true
+          },
+          {
+            "inset": 33.7523,
+            "decoded": true
+          },
+          {
+            "inset": 31.6841,
+            "decoded": true
+          },
+          {
+            "inset": 29.7813,
+            "decoded": true
+          },
+          {
+            "inset": 27.9802,
+            "decoded": true
+          },
+          {
+            "inset": 26.2529,
+            "decoded": true
+          },
+          {
+            "inset": 24.6445,
+            "decoded": true
+          },
+          {
+            "inset": 23.1043,
+            "decoded": true
+          },
+          {
+            "inset": 21.652,
+            "decoded": true
+          },
+          {
+            "inset": 20.3212,
+            "decoded": true
+          },
+          {
+            "inset": 19.0298,
+            "decoded": true
+          },
+          {
+            "inset": 17.8307,
+            "decoded": true
+          },
+          {
+            "inset": 16.6853,
+            "decoded": true
+          },
+          {
+            "inset": 15.6227,
+            "decoded": true
+          },
+          {
+            "inset": 14.6224,
+            "decoded": true
+          },
+          {
+            "inset": 13.6547,
+            "decoded": true
+          },
+          {
+            "inset": 12.7582,
+            "decoded": true
+          },
+          {
+            "inset": 11.9392,
+            "decoded": true
+          },
+          {
+            "inset": 11.1354,
+            "decoded": true
+          },
+          {
+            "inset": 10.4222,
+            "decoded": true
+          },
+          {
+            "inset": 9.71192,
+            "decoded": true
+          },
+          {
+            "inset": 9.06379,
+            "decoded": true
+          },
+          {
+            "inset": 8.45483,
+            "decoded": true
+          },
+          {
+            "inset": 7.87476,
+            "decoded": true
+          },
+          {
+            "inset": 7.30042,
+            "decoded": true
+          },
+          {
+            "inset": 6.83404,
+            "decoded": true
+          },
+          {
+            "inset": 6.34105,
+            "decoded": true
+          },
+          {
+            "inset": 5.9045,
+            "decoded": true
+          },
+          {
+            "inset": 5.48869,
+            "decoded": true
+          },
+          {
+            "inset": 5.08773,
+            "decoded": true
+          },
+          {
+            "inset": 4.71757,
+            "decoded": true
+          },
+          {
+            "inset": 4.3853,
+            "decoded": true
+          },
+          {
+            "inset": 4.05985,
+            "decoded": true
+          },
+          {
+            "inset": 3.74689,
+            "decoded": true
+          },
+          {
+            "inset": 3.4704,
+            "decoded": true
+          },
+          {
+            "inset": 3.20402,
+            "decoded": true
+          },
+          {
+            "inset": 2.96195,
+            "decoded": true
+          },
+          {
+            "inset": 2.73218,
+            "decoded": true
+          },
+          {
+            "inset": 2.51446,
+            "decoded": true
+          },
+          {
+            "inset": 2.30852,
+            "decoded": true
+          },
+          {
+            "inset": 2.12191,
+            "decoded": true
+          },
+          {
+            "inset": 1.94543,
+            "decoded": true
+          },
+          {
+            "inset": 1.78565,
+            "decoded": true
+          },
+          {
+            "inset": 1.63246,
+            "decoded": true
+          },
+          {
+            "inset": 1.49007,
+            "decoded": true
+          },
+          {
+            "inset": 1.35783,
+            "decoded": true
+          },
+          {
+            "inset": 1.23851,
+            "decoded": true
+          },
+          {
+            "inset": 1.12769,
+            "decoded": true
+          },
+          {
+            "inset": 1.02195,
+            "decoded": true
+          },
+          {
+            "inset": 0.925517,
+            "decoded": true
+          },
+          {
+            "inset": 0.836357,
+            "decoded": true
+          },
+          {
+            "inset": 0.752891,
+            "decoded": true
+          },
+          {
+            "inset": 0.677083,
+            "decoded": true
+          },
+          {
+            "inset": 0.606331,
+            "decoded": true
+          },
+          {
+            "inset": 0.541394,
+            "decoded": true
+          },
+          {
+            "inset": 0.482718,
+            "decoded": true
+          },
+          {
+            "inset": 0.42826,
+            "decoded": true
+          },
+          {
+            "inset": 0.377901,
+            "decoded": true
+          },
+          {
+            "inset": 0.333361,
+            "decoded": true
+          },
+          {
+            "inset": 0.292871,
+            "decoded": true
+          },
+          {
+            "inset": 0.256162,
+            "decoded": true
+          },
+          {
+            "inset": 0.223437,
+            "decoded": true
+          },
+          {
+            "inset": 0.192673,
+            "decoded": true
+          },
+          {
+            "inset": 0.165872,
+            "decoded": true
+          },
+          {
+            "inset": 0.141904,
+            "decoded": true
+          },
+          {
+            "inset": 0.12027,
+            "decoded": true
+          },
+          {
+            "inset": 0.10113,
+            "decoded": true
+          },
+          {
+            "inset": 0.0842906,
+            "decoded": true
+          },
+          {
+            "inset": 0.0697605,
+            "decoded": true
+          },
+          {
+            "inset": 0.0571142,
+            "decoded": true
+          },
+          {
+            "inset": 0.0460439,
+            "decoded": true
+          },
+          {
+            "inset": 0.0367106,
+            "decoded": true
+          },
+          {
+            "inset": 0.028693,
+            "decoded": true
+          },
+          {
+            "inset": 0.0220794,
+            "decoded": true
+          },
+          {
+            "inset": 0.0166128,
+            "decoded": true
+          },
+          {
+            "inset": 0.0121672,
+            "decoded": true
+          },
+          {
+            "inset": 0.00853178,
+            "decoded": true
+          },
+          {
+            "inset": 0.00582874,
+            "decoded": true
+          },
+          {
+            "inset": 0.00375593,
+            "decoded": true
+          },
+          {
+            "inset": 0.00221846,
+            "decoded": true
+          },
+          {
+            "inset": 0.00117797,
+            "decoded": true
+          },
+          {
+            "inset": 0.000538436,
+            "decoded": true
+          },
+          {
+            "inset": 0.000201884,
+            "decoded": true
+          },
+          {
+            "inset": 3.96774e-05,
+            "decoded": true
+          },
+          {
+            "inset": 1.36792e-06,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          },
+          {
+            "inset": 0,
+            "decoded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Room preview animates a clipped reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Room link stays stationary while invitation follows pointer",
+      "passed": true,
+      "detail": {
+        "before": {
+          "x": 80,
+          "y": 207.265625,
+          "width": 410.65625,
+          "height": 348
+        },
+        "after": {
+          "x": 80,
+          "y": 207.265625,
+          "width": 410.65625,
+          "height": 348
+        },
+        "invitation": {
+          "x": 4.52872,
+          "y": 2.97942,
+          "sx": 1,
+          "sy": 1,
+          "transform": "matrix(1, 0, 0, 1, 4.52872, 2.97942)",
+          "clip": "none",
+          "opacity": 1
+        }
+      }
+    },
+    {
+      "name": "City photograph visibly reveals and settles",
+      "passed": true,
+      "detail": {
+        "early": {
+          "x": 0,
+          "y": 0,
+          "sx": 1,
+          "sy": 1,
+          "transform": "none",
+          "clip": "inset(0% 0% 63.5894%)",
+          "opacity": 1
+        },
+        "early_zoom": {
+          "x": 0,
+          "y": 0,
+          "sx": 1.08054,
+          "sy": 1.08054,
+          "transform": "matrix(1.08054, 0, 0, 1.08054, 0, 0)",
+          "clip": "none",
+          "opacity": 1
+        },
+        "settled": {
+          "x": 0,
+          "y": 0,
+          "sx": 1,
+          "sy": 1,
+          "transform": "none",
+          "clip": "inset(0%)",
+          "opacity": 1
+        }
+      }
+    },
+    {
+      "name": "City keyboard selection updates pill, caption and ready photograph",
+      "passed": true,
+      "detail": {
+        "pill": {
+          "x": 207.5625,
+          "y": 232.046875,
+          "width": 133.953125,
+          "height": 48
+        },
+        "tab": {
+          "x": 207.5625,
+          "y": 232.046875,
+          "width": 133.953125,
+          "height": 48
+        }
+      }
+    },
+    {
+      "name": "City End key selects final stop",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Failed destination image preserves last ready image and its attribution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile gallery removes differential drift",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Menu entrance replays and settles on opening 1",
+      "passed": true,
+      "detail": {
+        "early": {
+          "x": 0,
+          "y": 20.6445,
+          "sx": 1,
+          "sy": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 20.6445)",
+          "clip": "none",
+          "opacity": 1
+        },
+        "settled": {
+          "x": 0,
+          "y": 0,
+          "sx": 1,
+          "sy": 1,
+          "transform": "none",
+          "clip": "none",
+          "opacity": 1
+        }
+      }
+    },
+    {
+      "name": "Escape closes menu and restores focus 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Menu entrance replays and settles on opening 2",
+      "passed": true,
+      "detail": {
+        "early": {
+          "x": 0,
+          "y": 25.4815,
+          "sx": 1,
+          "sy": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 25.4815)",
+          "clip": "none",
+          "opacity": 1
+        },
+        "settled": {
+          "x": 0,
+          "y": 0,
+          "sx": 1,
+          "sy": 1,
+          "transform": "none",
+          "clip": "none",
+          "opacity": 1
+        }
+      }
+    },
+    {
+      "name": "Escape closes menu and restores focus 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "First touch on room photograph navigates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile width fits /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced motion remains still after scrolling .scroll-photo-window",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced motion remains still after scrolling .itinerary-stage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced motion remains still after scrolling .home-gallery-motion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced-motion city copy and selection remain usable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced-motion menu is immediately readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Server hero text is visible without JavaScript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Server primary links remain usable without JavaScript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No JavaScript runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "screenshots": [
+    {
+      "path": "evidence\\lando-motion\\hosted\\hero-entrance-early.png",
+      "page_time_ms": 2165
+    },
+    {
+      "path": "evidence\\lando-motion\\hosted\\hero-entrance-middle.png",
+      "page_time_ms": 3093
+    },
+    {
+      "path": "evidence\\lando-motion\\hosted\\hero-entrance-settled.png",
+      "page_time_ms": 5414
+    },
+    {
+      "path": "evidence\\lando-motion\\hosted\\room-preview-reveal.png",
+      "page_time_ms": 7275
+    },
+    {
+      "path": "evidence\\lando-motion\\hosted\\city-photo-reveal.png",
+      "page_time_ms": 9284
+    },
+    {
+      "path": "evidence\\lando-motion\\hosted\\mobile-welcome-type.png",
+      "page_time_ms": 2641
+    },
+    {
+      "path": "evidence\\lando-motion\\hosted\\mobile-gallery.png",
+      "page_time_ms": 3213
+    },
+    {
+      "path": "evidence\\lando-motion\\hosted\\mobile-menu-opening.png",
+      "page_time_ms": 3524
+    }
+  ],
+  "external_messages_sent": 0,
+  "passed": true
+}

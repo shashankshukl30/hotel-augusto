@@ -1,0 +1,33 @@
+﻿{
+    "project":  "D:\\Digiocular\\Websites\\Hotel Augusto",
+    "free_space_before_bytes":  {
+                                    "D":  66864095232,
+                                    "C":  22419972096
+                                },
+    "free_space_after_bytes":  {
+                                   "D":  65632628736,
+                                   "C":  14512873472
+                               },
+    "removed_paths":  [
+
+                      ],
+    "removed_bytes":  0,
+    "retained":  [
+                     {
+                         "path":  "C:\\Users\\Shashank Shukla\\AppData\\Local\\Temp\\lando-motion-reference-20261020",
+                         "bytes":  2517586,
+                         "reason":  "Automatic approval review rejected deletion: blocked by policy. Retained without retry."
+                     },
+                     {
+                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\lando-motion",
+                         "reason":  "Retained browser captures and verification reports for the delivered revision."
+                     },
+                     {
+                         "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.next",
+                         "reason":  "Build output retained; the subtree includes previously cleanup-blocked paths. No deletion retried. This task verification server on port 3082 has been stopped."
+                     }
+                 ],
+    "cleanup_result":  "No additional task-owned files positively identified as disposable. Source, dependencies, user assets, earlier recovery material and all previously cleanup-blocked paths preserved.",
+    "notes":  "Other active projects share both drives; free-space changes are not attributed to this task.",
+    "checked_at_utc":  "2026-10-20T13:26:08.7714883Z"
+}

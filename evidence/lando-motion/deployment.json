@@ -1,0 +1,31 @@
+﻿{
+    "checked_at_utc":  "2026-10-20T13:26:08.8344803Z",
+    "application_commit":  "5a62798d4a571a43bc26ad70b852ddc6fb4aeaf0",
+    "branch":  "preview/vercel",
+    "repository":  "https://github.com/shashankshukl30/hotel-augusto",
+    "repository_visibility":  "PRIVATE",
+    "project":  "prj_ZByZ1DzWr16QlNp9wG0Woo3JbBmU",
+    "deployment_id":  "dpl_AgJomiV4jFA3LzZPg1AGHmwhJ715",
+    "deployment_url":  "https://hotel-augusto-le4fehtl2-omvitys-projects.vercel.app",
+    "status":  "READY",
+    "target":  "preview",
+    "client_url":  "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+    "region":  "sin1",
+    "hosted_motion_checks":  41,
+    "anonymous_access_checks":  58,
+    "local_hero_responsive_checks":  135,
+    "accessibility_audits":  38,
+    "runtime_errors":  0,
+    "bypass_credentials_used_for_hosted_checks":  false,
+    "preview_noindex":  true,
+    "external_messages_sent":  0,
+    "reports":  [
+                    "hosted/motion-qa.json",
+                    "hosted/anonymous-qa.json",
+                    "motion-qa.json",
+                    "hero-qa.json",
+                    "colour-accessibility/colour-qa.json",
+                    "cleanup-final.json"
+                ],
+    "note":  "A follow-up commit will store these release receipts without changing application source."
+}
