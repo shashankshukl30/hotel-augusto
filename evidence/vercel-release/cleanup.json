@@ -1,0 +1,39 @@
+﻿{
+    "date":  "2026-10-20T07:52:33.4003617Z",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto",
+    "free_space_before_bytes":  {
+                                    "D":  68000124928,
+                                    "C":  20497502208
+                                },
+    "free_space_after_bytes":  {
+                                   "D":  67998220288,
+                                   "C":  20252258304
+                               },
+    "removed_paths":  [
+
+                      ],
+    "removed_bytes":  0,
+    "reviewed_and_retained":  [
+                                  {
+                                      "path":  ".vercel/project.json",
+                                      "retained":  true,
+                                      "reason":  "Required deployment configuration, verification source, or release evidence"
+                                  },
+                                  {
+                                      "path":  ".env.local",
+                                      "retained":  true,
+                                      "reason":  "Required deployment configuration, verification source, or release evidence"
+                                  },
+                                  {
+                                      "path":  "scripts/verify_vercel_preview.py",
+                                      "retained":  true,
+                                      "reason":  "Required deployment configuration, verification source, or release evidence"
+                                  },
+                                  {
+                                      "path":  "evidence/vercel-release",
+                                      "retained":  true,
+                                      "reason":  "Required deployment configuration, verification source, or release evidence"
+                                  }
+                              ],
+    "result":  "No task-owned files were positively verified as disposable. Active dependencies, source, deployment configuration, and review evidence retained."
+}

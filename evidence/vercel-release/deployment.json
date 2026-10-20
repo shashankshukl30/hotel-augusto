@@ -1,0 +1,43 @@
+﻿{
+    "date":  "2026-10-20T07:52:33.5740404Z",
+    "project":  "hotel-augusto",
+    "project_id":  "prj_ZByZ1DzWr16QlNp9wG0Woo3JbBmU",
+    "team":  "omvitys-projects",
+    "repository":  "https://github.com/shashankshukl30/hotel-augusto",
+    "repository_visibility":  "PRIVATE",
+    "branch":  "preview/vercel",
+    "verified_source_commit":  "ac1bc9afcbae046b8f3e12fbef9b091059fd2fae",
+    "deployment_id":  "dpl_Cd3o428CYebz4Bnaic4i2aeWBqhv",
+    "deployment_url":  "https://hotel-augusto-n2j8fsz9x-omvitys-projects.vercel.app",
+    "branch_alias":  "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+    "status":  "READY",
+    "environment":  "preview",
+    "source":  "git",
+    "automatic_git_deployments":  true,
+    "framework":  "nextjs",
+    "node_version":  "24.x",
+    "install_command":  "npm ci",
+    "build_command":  "npm run build",
+    "region":  "sin1",
+    "output_directory_override":  null,
+    "static_export":  false,
+    "search_indexing":  false,
+    "protection":  "all_except_custom_domains",
+    "browser_qa":  {
+                       "desktop_width":  1440,
+                       "external_messages_sent":  0,
+                       "passed":  72,
+                       "temporary_qa_credential_revoked":  true,
+                       "failed":  0,
+                       "content_routes":  17,
+                       "report":  "browser-qa.json",
+                       "mobile_width":  390
+                   },
+    "packaging_audit":  {
+                            "missing_or_ignored":  0,
+                            "required_paths":  204,
+                            "responsive_images":  110
+                        },
+    "initial_build_failure":  "Excluded runtime photo-credit manifests. Fixed .vercelignore to include both and retain public logo.",
+    "receipt_note":  "Subsequent verification-only commits may produce a new preview URL. This receipt identifies the exact deployment exercised by browser QA."
+}

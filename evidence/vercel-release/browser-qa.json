@@ -1,0 +1,423 @@
+{
+  "date": "2026-10-20T07:51:32.969637+00:00",
+  "base_url": "https://hotel-augusto-n2j8fsz9x-omvitys-projects.vercel.app",
+  "checks": [
+    {
+      "name": "GitHub integration uses the intended repository",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Your place\n\nin Kashi."
+      }
+    },
+    {
+      "name": "Mobile width /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /hotel",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Welcome to\nHotel Augusto."
+      }
+    },
+    {
+      "name": "Mobile width /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Find your room."
+      }
+    },
+    {
+      "name": "Mobile width /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms/compare",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Which room is\nright for you?"
+      }
+    },
+    {
+      "name": "Mobile width /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms/deluxe-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Deluxe Room"
+      }
+    },
+    {
+      "name": "Mobile width /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Deluxe Twin Room"
+      }
+    },
+    {
+      "name": "Mobile width /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms/family-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Family Room"
+      }
+    },
+    {
+      "name": "Mobile width /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /dining",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Vegetarian dining.\nRight here."
+      }
+    },
+    {
+      "name": "Mobile width /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /varanasi",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Explore\nVaranasi."
+      }
+    },
+    {
+      "name": "Mobile width /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /gallery",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Inside\nAugusto."
+      }
+    },
+    {
+      "name": "Mobile width /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /guides",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Before\nyou arrive."
+      }
+    },
+    {
+      "name": "Mobile width /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "A first visit to Kashi."
+      }
+    },
+    {
+      "name": "Mobile width /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Arriving in Godowlia."
+      }
+    },
+    {
+      "name": "Mobile width /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /guides/choosing-your-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Choose the room for your stay."
+      }
+    },
+    {
+      "name": "Mobile width /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /group-stays",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "A stay.\nFor everyone."
+      }
+    },
+    {
+      "name": "Mobile width /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /contact",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Let\u2019s plan\nyour stay."
+      }
+    },
+    {
+      "name": "Mobile width /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /privacy",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "heading": "Privacy.\nIn plain language."
+      }
+    },
+    {
+      "name": "Mobile width /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Booking dock available /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Unknown route returns 404",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "name": "Share image resolves as PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview remains noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Client navigation reaches guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Client navigation preserves the document",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel preferences hydrate on contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Enquiry prepares correct WhatsApp destination",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Dock preserves unfinished contact details",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Personal text stays out of URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Published asset matches source /brand/logo.jpeg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Published asset matches source /downloads/hotel-augusto-dining-guide.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop has no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop property hero is present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop hero image loaded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current sans typography",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hosted security headers active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No missing page resources",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No browser errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Deployment protection retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Temporary QA credential revoked",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "failed_responses": [],
+  "external_messages_sent": 0,
+  "temporary_qa_credential_created": true,
+  "temporary_qa_credential_revoked": true,
+  "passed": true
+}
