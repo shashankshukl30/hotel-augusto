@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-20T07:02:27.642874+00:00",
+  "scope": [
+    "research/apple-dominant-revision/conversion-evidence",
+    "evidence/apple-dominant-revision/dining-guide"
+  ],
+  "freeSpaceBytes": {
+    "C:": 28627492864,
+    "D:": 67934425088
+  },
+  "removedFiles": [],
+  "removedBytes": 0,
+  "reason": "No disposable task files identified. Source captures support the displayed review snapshot; final PDF/Word renders and hashes provide verification. Generator was run with -B and created no task bytecode.",
+  "retained": [
+    "Editable generator and DOCX",
+    "Public one-page PDF",
+    "Source evidence and provenance",
+    "Final native Word export and both visual review PNGs"
+  ],
+  "knownBlockedArtifacts": "Pre-existing blocked handoff bytecode and OTA render scratch were not touched or retried.",
+  "verification": "PDF reopened, four external links inspected, DOCX ZIP/reopen passed, native Word PDF is one page, final renders visually checked."
+}

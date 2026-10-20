@@ -1,0 +1,74 @@
+{
+  "generated": "2026-10-20T07:06:50.952314+00:00",
+  "generator": "research/apple-dominant-revision/generate-og-assets.py",
+  "palette": {
+    "paper": "#fcfcfd",
+    "ink": "#1a1c1f",
+    "muted": "#5d6166",
+    "accent": "#0063d0"
+  },
+  "paletteNote": "sRGB equivalents of the current shared OKLCH tokens.",
+  "font": {
+    "source": "node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2",
+    "sourceSha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+    "output": "public/fonts/augusto-og-inter-600-v1.ttf",
+    "outputSha256": "db58616f6df41adaaf1ed18816c7f4639b954b167f531a41abba3fad9f31ad43",
+    "bytes": 66660,
+    "weight": 600,
+    "family": "Augusto OG Sans",
+    "changes": "Static weight600 instantiation, WOFF2 to TTF conversion and renamed family. Copyright and license records preserved.",
+    "license": "SIL Open Font License 1.1",
+    "licenseFile": "public/fonts/inter-OFL.txt",
+    "licenseSha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+  },
+  "photo": {
+    "source": "public/images/deluxe-room-blue.webp",
+    "sourceSha256": "c0695691d518a4ffb6146c9443960de4cf1f16d10a2e060ec87cc9c3bef44973",
+    "output": "public/images/augusto-og-room-v1.jpg",
+    "outputSha256": "c9fc904f7ddb10d3366b40131b04ded0124d8e214364de5ffc55d12921a63df3",
+    "dimensions": [
+      1200,
+      675
+    ],
+    "bytes": 125196,
+    "changes": "Downsampled from tracked 1600x900 WebP to 1200x675 JPEG for ImageResponse. No visual content added, removed or retouched. OG composition applies a responsive crop.",
+    "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+    "originalSourceUrl": "https://www.varanasihotels.org/data/Photos/1920x1080/16875/1687586/1687586860.JPEG",
+    "sourceLedger": "research/assets/asset-manifest.json",
+    "rights": "Genuine Hotel Augusto public listing photograph. Client reuse rights remain subject to hotel confirmation.",
+    "reusedWithoutModification": true
+  },
+  "brand": {
+    "source": "logo.jpeg",
+    "output": "public/brand/logo.jpeg",
+    "sourceSha256": "849f6b9670939eb5b2cd9285b912a998a96863d97338b8119cf2c98d3488cef2",
+    "outputSha256": "849f6b9670939eb5b2cd9285b912a998a96863d97338b8119cf2c98d3488cef2",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 61341,
+    "provenance": "Hotel Augusto logo supplied by the user in the project folder.",
+    "changes": "None. Public JPEG is byte-identical to the supplied source.",
+    "presentation": "The website and OG composition crop surrounding whitespace in their layout. Source pixels are unchanged."
+  },
+  "favicon": {
+    "file": "public/brand/logo.jpeg",
+    "sha256": "849f6b9670939eb5b2cd9285b912a998a96863d97338b8119cf2c98d3488cef2",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "JPEG",
+    "routes": [
+      "metadata.icons.icon",
+      "metadata.icons.apple"
+    ],
+    "replaces": "The invented app/icon.svg was removed by the parent and is no longer used."
+  },
+  "headlineWidthsAt82px": {
+    "Your place": 432.0,
+    "in Kashi.": 344.0
+  },
+  "runtimeDependencyBytes": 253197
+}

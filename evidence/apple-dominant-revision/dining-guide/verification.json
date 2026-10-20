@@ -1,0 +1,41 @@
+{
+  "generated": "2026-10-20T07:01:47.220597+00:00",
+  "pdf": "public/downloads/hotel-augusto-dining-guide.pdf",
+  "docx": "docs/hotel-augusto-dining-guide.docx",
+  "pdfPages": 1,
+  "pdfBoundsPass": true,
+  "docxReopened": true,
+  "visualReview": "PASS: final compressed PDF and regenerated native Word export visually inspected. Both are one page, photographs are not distorted, and no clipping or overlap was observed.",
+  "sourceEvidence": "research/apple-dominant-revision/conversion-evidence/findings.json",
+  "brand": "User-supplied logo.jpeg, copied to public/brand/logo.jpeg",
+  "photo": "public/images/dining-room-wide.webp; provenance in research/assets/asset-manifest.json",
+  "pdfLinkTargets": [
+    "tel:+918081709146",
+    "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20dining.%20Could%20you%20share%20the%20current%20menu%2C%20serving%20times%20and%20meal%20inclusions%3F",
+    "https://www.google.co.in/travel/hotels/entity/ChkI9IOdtNaKmJZrGg0vZy8xMWI2ZGc2bWszEAE",
+    "https://www.makemytrip.com/hotels/hotel_augusto-details-varanasi.html"
+  ],
+  "verifiedAt": "2026-10-20T07:02:27.642543+00:00",
+  "nativeWordExport": "evidence/apple-dominant-revision/dining-guide/dining-guide-word.pdf",
+  "wordPages": 1,
+  "nativeWordTextBoundsPass": true,
+  "docxZipIntegrity": true,
+  "browserReview": "Assigned to root; no browser session launched by this task.",
+  "files": [
+    {
+      "path": "public/downloads/hotel-augusto-dining-guide.pdf",
+      "bytes": 355874,
+      "sha256": "b7e34ec7e9058bde33f1c33de4512e846246d229016cea5b0c7abde8aafe2e0a"
+    },
+    {
+      "path": "docs/hotel-augusto-dining-guide.docx",
+      "bytes": 320289,
+      "sha256": "f9ca96244276706a8614967efe2947c485af03c20796b022ed4dc6b023b22c30"
+    },
+    {
+      "path": "evidence/apple-dominant-revision/dining-guide/dining-guide-word.pdf",
+      "bytes": 225607,
+      "sha256": "fc6ba137796a4a36b5b3b4f38f72ca5c1986f3e0ef529b39120cec05b0cf8bfa"
+    }
+  ]
+}

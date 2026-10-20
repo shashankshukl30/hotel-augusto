@@ -4,6 +4,7 @@ export type Enquiry = {
   adults: string;
   children: string;
   room: string;
+  roomCount?: string;
   name: string;
   notes: string;
 };
@@ -24,6 +25,10 @@ export function nextDate(value: string) {
   date.setUTCDate(date.getUTCDate() + 1);
   return date.toISOString().slice(0,10);
 }
+export function stayNights(arrival: string, departure: string) {
+  if (!validDate(arrival) || !validDate(departure)) return 0;
+  return Math.max(0, Math.round((Date.parse(`${departure}T12:00:00Z`) - Date.parse(`${arrival}T12:00:00Z`)) / 86400000));
+}
 export function validateEnquiry(data: Enquiry, today: string): EnquiryErrors {
   const errors: EnquiryErrors = {};
   if (!validDate(data.arrival)) errors.arrival = "Choose a valid arrival date.";
@@ -32,6 +37,7 @@ export function validateEnquiry(data: Enquiry, today: string): EnquiryErrors {
   else if (validDate(data.arrival) && data.departure <= data.arrival) errors.departure = "Departure must be after your arrival.";
   if (!/^[1-8]$/.test(data.adults)) errors.adults = "Choose between 1 and 8 adults.";
   if (!/^[0-6]$/.test(data.children)) errors.children = "Choose between 0 and 6 children.";
+  if (data.roomCount !== undefined && !/^[1-8]$/.test(data.roomCount)) errors.roomCount = "Choose between 1 and 8 rooms to request.";
   if (data.name.length > 80) errors.name = "Please keep your name to 80 characters.";
   if (data.notes.length > 600) errors.notes = "Please keep your note to 600 characters.";
   return errors;
@@ -49,6 +55,7 @@ export function buildWhatsAppUrl(number: string, data: Enquiry) {
     `Departure: ${prettyDate(data.departure)}`,
     `Guests: ${data.adults} adult${data.adults === "1" ? "" : "s"}${data.children !== "0" ? `, ${data.children} child${data.children === "1" ? "" : "ren"}` : ""}`,
     `Room preference: ${data.room || "Please recommend a room"}`,
+    `Rooms requested: ${data.roomCount || "1"}`,
     data.notes.trim() ? `Note: ${data.notes.trim()}` : "",
     "Please share availability, room rates and booking conditions. Thank you!",
   ];

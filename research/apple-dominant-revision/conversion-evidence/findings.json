@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-20T06:55:42Z",
+  "method": "Agent Reach: Exa web search and Jina public-page reading; no browser session or message sent.",
+  "scope": "Review badges, guest-photo permissions, dining and events, proximity, dining enquiry and planning guide.",
+  "google": {
+    "sourceUrl": "https://www.google.co.in/travel/hotels/entity/ChkI9IOdtNaKmJZrGg0vZy8xMWI2ZGc2bWszEAE",
+    "capture": "google-profile-2026-10-20.md",
+    "score": 3.7,
+    "scale": 5,
+    "reviewCount": 1628,
+    "finding": "Fresh public page repeats 3.7 and 1,628 in the Google-only review summary. Consistent with retained 19 October rendered profile.",
+    "displayDecision": "Display source-specific score, count, checked date and direct profile link. No live-feed claim or combined score."
+  },
+  "makemytrip": {
+    "sourceUrl": "https://www.makemytrip.com/hotels/review-of-hotel_augusto-details-varanasi.html",
+    "capture": "mmt-reviews-index-2026-10-20.txt",
+    "readerResponse": "mmt-review-reader-response.txt",
+    "reviewPage": { "score": 3.2, "ratings": 431, "writtenReviews": 225 },
+    "otherObservedIndexValues": [
+      { "page": "Canonical property page", "score": 3.3, "ratings": 430, "writtenReviews": 225 },
+      { "page": "Canonical property's stale FAQ", "score": 3.1, "ratings": 256 }
+    ],
+    "displayDecision": "Keep platform review link without a numerical badge; snapshot disagreement is material. Distinguish ratings from written reviews.",
+    "accessLimitation": "Jina reader for the review page returned only 200-OK; Exa returned the primary review-page index. No current browser claim. Earlier exact dated MMT browser transport failure remains historical evidence."
+  },
+  "guestEvidence": {
+    "quote": "very fast service food also very good",
+    "author": "Flyer47905230766",
+    "platform": "Tripadvisor",
+    "sourceUrl": "https://www.tripadvisor.com/ShowUserReviews-g297685-d6540696-r1063977750",
+    "sourceEvidence": "research/hospitality-revision/guest-review-evidence.json",
+    "refreshedVia": "Google's third-party Tripadvisor syndication",
+    "guestPhotos": "Guest photos exist on Google/MMT, but retained evidence contains no guest-photo reuse licence or consent. Google gallery capture explicitly states images may be subject to copyright.",
+    "displayDecision": "Keep exact attributed excerpt and source link. Do not download new guest portraits or relabel property photos as guest-contributed photographs."
+  },
+  "servicePages": {
+    "supported": ["On-site vegetarian restaurant", "Room service", "Breakfast available; inclusion varies by room plan"],
+    "sources": [
+      "https://www.makemytrip.com/hotels/hotel_augusto-details-varanasi.html",
+      "https://www.booking.com/hotel/in/augusto-varanasi1.html",
+      "research/hospitality-revision/augusto-mmt-amenities-exa.txt"
+    ],
+    "unsupported": ["Wedding venue", "Banquet hall", "Conference venue capacity", "Event catering packages", "Fixed menu or prices", "Guaranteed dining hours"],
+    "decision": "Improve existing standalone dining page with a specific enquiry form and one-page planning guide. Do not create event or wedding landing pages from weak affiliate amenities.",
+    "restaurantNaming": "Booking's index says AUGUSTO KITCHEN; one guest says Aroma of Kashi. No owner-confirmed restaurant brand, so retain Hotel Augusto restaurant."
+  },
+  "proximity": {
+    "verified": ["Temple walking proximity", "Dashashwamedh Ghat walking proximity", "Godowlia/August Kunda Road address"],
+    "conflictingEstimates": [
+      "MMT labels temple 7 minutes walk.",
+      "Google prose labels temple 8 minutes walk, while nearby sights labels 11 mins without a reliable mode in the extracted text.",
+      "Google nearby sights labels Dashashwamedh Ghat 8 mins; no new rendered route was inspected.",
+      "Airport taxi estimate in Google reader is 1 hr 6 mins; this is dynamic, not a guarantee."
+    ],
+    "decision": "Use qualitative walking proximity plus Google walking-direction links. Publish no measured distances or fixed travel times.",
+    "mapsUrlSyntaxSource": "https://developers.google.com/maps/documentation/urls/get-started"
+  },
+  "implementation": {
+    "data": "content/social-proof.ts",
+    "diningForm": "Name optional, desired date, meal interest, party size and optional notes; validate locally and prepare an explicit WhatsApp draft. No enquiry storage or automatic message.",
+    "brochure": "One-page Dining Planning Guide using supplied logo.jpeg and a real restaurant image. Include useful planning questions and hotel address/phone, no menu or package inventions.",
+    "ownerConfirmationsRemain": ["Active WhatsApp account", "Property-photo reuse permission", "Current dining menu/hours/inclusions/charges", "Approved public domain"]
+  }
+}

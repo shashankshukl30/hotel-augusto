@@ -10,13 +10,14 @@ from playwright.async_api import async_playwright
 ROOT = Path(__file__).resolve().parents[1]
 ROUTES = ["/", "/hotel", "/rooms", "/rooms/compare", "/rooms/deluxe-room", "/rooms/deluxe-twin-room", "/rooms/family-room",
           "/dining", "/varanasi", "/gallery", "/guides", "/guides/first-visit-to-kashi", "/guides/arriving-in-godowlia",
-          "/guides/choosing-your-room", "/contact", "/privacy", "/does-not-exist"]
+          "/guides/choosing-your-room", "/group-stays", "/contact", "/privacy", "/does-not-exist"]
 parser = argparse.ArgumentParser()
 parser.add_argument("--base-url", default="http://127.0.0.1:3080")
 parser.add_argument("--smoke", action="store_true")
+parser.add_argument("--output", default="evidence/hospitality-revision")
 args = parser.parse_args()
 BASE = args.base_url.rstrip("/")
-OUT = ROOT / "evidence/hospitality-revision"
+OUT = ROOT / args.output
 OUT.mkdir(exist_ok=True, parents=True)
 report = {"started": datetime.now(timezone.utc).isoformat(), "base_url": BASE,
           "browser": "Fresh Microsoft Edge contexts", "external_messages_sent": 0,
@@ -66,7 +67,7 @@ async def sweep(browser, width):
                 clientWidth:document.documentElement.clientWidth,bodyWidth:document.body.scrollWidth,
                 title:document.title,titleLength:document.title.length,
                 headings:[...document.querySelectorAll('h1')].map(e=>e.innerText),
-                titleSize:s?.fontSize,titleFont:s?.fontFamily,
+                titleSize:s?.fontSize,titleFont:s?.fontFamily,titleWeight:s?.fontWeight,
                 schema:[...document.head.querySelectorAll('script[type="application/ld+json"]')].map(e=>JSON.parse(e.textContent)),
                 missingImages:[...document.images].filter(e=>!e.complete||!e.naturalWidth).map(e=>e.currentSrc),
                 missingAlt:[...document.images].filter(e=>!e.hasAttribute('alt')).map(e=>e.src),
@@ -82,6 +83,10 @@ async def sweep(browser, width):
             if response.status!=expected: issues.append(f"HTTP {response.status}")
             if state["clientWidth"]!=width or state["bodyWidth"]!=width: issues.append("Horizontal overflow")
             if len(state["headings"])!=1: issues.append("Requires exactly one h1")
+            if "apple-dominant" in args.output and ("Inter" not in state["titleFont"] and "inter" not in state["titleFont"]):
+                issues.append("Heading does not use the selected sans family")
+            if "apple-dominant" in args.output and float(state["titleWeight"]) < 550:
+                issues.append("Heading is lighter than the selected design hierarchy")
             if not state["schema"]: issues.append("Missing head JSON-LD")
             if state["missingImages"] or state["missingAlt"]: issues.append("Broken/unlabelled image")
             if len(state["ids"])!=len(set(state["ids"])): issues.append("Duplicate IDs")
@@ -92,7 +97,7 @@ async def sweep(browser, width):
             for href in state["links"]:
                 if not href or not href.startswith("/") or href.startswith("//"): continue
                 target = urlsplit(href).path
-                if target not in ROUTES and not target.startswith(("/images/","/opengraph","/icon")):
+                if target not in ROUTES and not target.startswith(("/images/","/opengraph","/icon","/downloads/","/brand/")):
                     bad_links.append(href)
             if bad_links: issues.append("Unknown internal route")
             # The intentional not-found fetch produces a browser's 404 console entry.
@@ -126,8 +131,8 @@ async def interactions(browser):
     await page.get_by_role("button",name="Show the hotel lounge",exact=True).click()
     check("Hero manual scene selection and pause",await page.get_by_role("button",name="Show the hotel lounge",exact=True).get_attribute("aria-pressed")=="true" and await page.get_by_role("button",name="Play hotel slideshow",exact=True).count()==1)
     await page.get_by_role("button",name="Show guest rooms",exact=True).click()
-    check("All three rooms are immediately discoverable",await page.locator(".home-room-spread").count()==3)
-    bar = page.locator(".home-reservation .stay-bar")
+    check("All three rooms are immediately discoverable",await page.locator(".home-room-card, .home-room-spread").count()==3)
+    bar = page.locator(".home-reserve .stay-bar")
     await bar.get_by_role("button",name="Plan my stay",exact=True).click()
     check("Stay bar rejects missing dates",await bar.locator("[role=alert]").count()==1 and "/contact" not in page.url)
     arrival=(date.today()+timedelta(days=45)).isoformat()

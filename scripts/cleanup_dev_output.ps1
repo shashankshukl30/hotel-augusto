@@ -1,8 +1,19 @@
-param([Parameter(Mandatory=$true)][ValidatePattern('^\d+$')][string]$StoppedSession)
+param(
+  [Parameter(Mandatory=$true)][ValidatePattern('^\d+$')][string]$StoppedSession,
+  [string]$ReportPath = 'evidence\dev-output-cleanup.json'
+)
 $ErrorActionPreference = 'Stop'
 $taskRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $expectedRoot = 'D:\Digiocular\Websites\Hotel Augusto'
 if ($taskRoot -ne $expectedRoot) { throw 'Unexpected project root' }
+$taskReportPath = [IO.Path]::GetFullPath((Join-Path $taskRoot $ReportPath))
+if (-not $taskReportPath.StartsWith("$expectedRoot\evidence\", [StringComparison]::OrdinalIgnoreCase)) { throw 'Report escapes evidence scope' }
+if ([IO.Path]::GetExtension($taskReportPath) -ne '.json') { throw 'JSON report required' }
+$taskReportParent = Split-Path -Parent $taskReportPath
+if (-not (Test-Path -LiteralPath $taskReportParent -PathType Container)) { throw 'Report folder must already exist' }
+for ($taskParent = Get-Item -LiteralPath $taskReportParent; $taskParent.FullName -ne $taskRoot; $taskParent = $taskParent.Parent) {
+  if ($taskParent.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Report reparse point refused' }
+}
 $taskTarget = [IO.Path]::GetFullPath((Join-Path $taskRoot '.next\dev'))
 if ($taskTarget -ne "$expectedRoot\.next\dev") { throw 'Unexpected cleanup target' }
 if (-not (Test-Path -LiteralPath "$taskRoot\.next\BUILD_ID")) { throw 'Production build missing' }
@@ -32,5 +43,5 @@ if ($taskResponse.StatusCode -ne 200 -or $taskResponse.Content -notmatch 'Your p
 $taskReport.freeAfterBytes = @{ C = (Get-PSDrive C).Free; D = (Get-PSDrive D).Free }
 $taskReport.productionVerifiedAfter = $true
 $taskReport.completed = (Get-Date).ToUniversalTime().ToString('o')
-$taskReport | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath "$taskRoot\evidence\dev-output-cleanup.json" -Encoding UTF8
+$taskReport | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $taskReportPath -Encoding UTF8
 @{ removedFiles = $taskFiles.Count; removedBytes = $taskReport.removedBytes; freeAfterBytes = $taskReport.freeAfterBytes; productionVerifiedAfter = $true } | ConvertTo-Json

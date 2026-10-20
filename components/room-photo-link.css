@@ -1,0 +1,7 @@
+.room-photo-link { isolation:isolate; }
+.room-photo-preview { position:absolute; inset:0; }
+.room-photo-invitation { position:absolute; right:20px; bottom:20px; display:flex; align-items:center; gap:10px; height:44px; padding:12px; border-radius:999px; color:var(--ink); background:var(--paper); box-shadow:0 2px 8px oklch(.2 .005 260 / .08); transition:padding 250ms,background 200ms,color 200ms; }
+.room-photo-invitation>span { max-width:0; overflow:hidden; white-space:nowrap; font-size:13px; opacity:0; transition:max-width 300ms,opacity 200ms; }
+.room-photo-link:is(:hover,:focus-visible) .room-photo-invitation { padding-inline:17px; background:var(--accent); color:var(--paper); }
+.room-photo-link:is(:hover,:focus-visible) .room-photo-invitation>span { max-width:150px; opacity:1; }
+@media(hover:none) { .room-photo-invitation { right:16px; bottom:16px; } }

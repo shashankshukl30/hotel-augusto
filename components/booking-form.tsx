@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ArrowUpRight, Check } from "lucide-react";
 import { hotel, rooms } from "@/content/hotel";
 import { buildWhatsAppUrl, localToday, nextDate, validateEnquiry, type Enquiry, type EnquiryErrors } from "@/lib/booking";
@@ -8,26 +8,38 @@ import { readStayQuery } from "@/lib/stay-query";
 import { WhatsAppIcon } from "./whatsapp-icon";
 import "./booking-form.css";
 
-export function BookingForm({ room = "" }: { room?: string }) {
+export function BookingForm({ room = "", query }: { room?: string; query?: string }) {
+  const form = useRef<HTMLFormElement>(null);
   const [errors, setErrors] = useState<EnquiryErrors>({});
   const [draft, setDraft] = useState<string | null>(null);
   const [today, setToday] = useState("");
+  const queryKey = `${room}\0${query ?? ""}`;
+  const [previousQuery, setPreviousQuery] = useState(queryKey);
+  // Reset derived feedback before rendering a new selection. The form remains
+  // mounted, preserving private, uncontrolled name and notes fields.
+  if (previousQuery !== queryKey) {
+    setPreviousQuery(queryKey);
+    setErrors({});
+    setDraft(null);
+  }
   useEffect(() => {
-    const date = document.querySelector<HTMLInputElement>("#arrival");
+    const element = form.current;
+    if (!element) return;
+    const date = element.querySelector<HTMLInputElement>("#arrival");
     if (date) date.min = localToday();
-    const stay = readStayQuery(new URLSearchParams(window.location.search), rooms.map(item => item.slug));
+    const stay = readStayQuery(new URLSearchParams(query ?? window.location.search), rooms.map(item => item.slug));
     const selected = rooms.find(item => item.slug === stay.room);
-    const select = document.querySelector<HTMLSelectElement>("#room");
-    if (selected && select) select.value = selected.name;
-    for (const name of ["arrival", "departure", "adults", "children"] as const) {
-      const field = document.getElementById(name) as HTMLInputElement | HTMLSelectElement | null;
-      if (field && stay[name]) field.value = stay[name];
+    const select = element.querySelector<HTMLSelectElement>("#room");
+    if (select) select.value = selected?.name || room;
+    for (const name of ["arrival", "departure", "adults", "children", "roomCount"] as const) {
+      const field = element.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement | null;
+      if (field) field.value = stay[name] || "";
     }
-    const departure = document.querySelector<HTMLInputElement>("#departure");
-    if (departure && stay.arrival) departure.min = nextDate(stay.arrival);
-  }, []);
+    const departure = element.querySelector<HTMLInputElement>("#departure");
+    if (departure) departure.min = stay.arrival ? nextDate(stay.arrival) : "";
+  }, [query, room]);
   const error = (field: keyof Enquiry) => errors[field] ? <span className="field-error" id={`${field}-error`}>{errors[field]}</span> : null;
-  return <form className="booking-form" noValidate onChange={() => { if (draft) setDraft(null); }} onSubmit={(event) => {
+  return <form ref={form} className="booking-form" noValidate onChange={() => { if (draft) setDraft(null); }} onSubmit={(event) => {
     event.preventDefault();
     const fields = new FormData(event.currentTarget);
     const data = Object.fromEntries(fields) as Enquiry;
@@ -35,11 +47,11 @@ export function BookingForm({ room = "" }: { room?: string }) {
     setErrors(validation);
     if (Object.keys(validation).length) {
       const key = Object.keys(validation)[0];
-      document.getElementById(key)?.focus();
+      (event.currentTarget.elements.namedItem(key) as HTMLElement | null)?.focus();
       return;
     }
     setDraft(buildWhatsAppUrl(hotel.whatsappNumber, data));
-    window.requestAnimationFrame(() => document.getElementById("whatsapp-draft")?.focus());
+    window.requestAnimationFrame(() => form.current?.querySelector<HTMLElement>("#whatsapp-draft")?.focus());
   }}>
     <div className="form-heading"><h3>Plan your stay.</h3><p>Share a few details. We’ll prepare your enquiry to send directly to the hotel on WhatsApp.</p></div>
     <div className="booking-fields">
@@ -48,6 +60,7 @@ export function BookingForm({ room = "" }: { room?: string }) {
       <div className="form-field"><label htmlFor="adults">Adults <span>*</span></label><select id="adults" name="adults" defaultValue="2" aria-invalid={!!errors.adults}>{Array.from({length:8},(_,i)=>i+1).map(n=><option value={n} key={n}>{n} adult{n===1?"":"s"}</option>)}</select>{error("adults")}</div>
       <div className="form-field"><label htmlFor="children">Children</label><select id="children" name="children" defaultValue="0" aria-invalid={!!errors.children}>{Array.from({length:7},(_,i)=>i).map(n=><option value={n} key={n}>{n===0?"No children":`${n} ${n===1?"child":"children"}`}</option>)}</select>{error("children")}</div>
       <div className="form-field full-field"><label htmlFor="room">Your room preference</label><select id="room" name="room" defaultValue={room}><option value="">Help me choose</option>{rooms.map(item=><option key={item.slug} value={item.name}>{item.name}</option>)}</select></div>
+      <div className="form-field full-field"><label htmlFor="roomCount">Rooms requested</label><select id="roomCount" name="roomCount" defaultValue="1" aria-invalid={!!errors.roomCount}>{Array.from({length:8},(_,index)=><option key={index} value={index+1}>{index+1} room{index ? "s" : ""}</option>)}</select>{error("roomCount")}</div>
       <div className="form-field full-field"><label htmlFor="name">Your name <span className="optional">optional</span></label><input type="text" id="name" name="name" autoComplete="name" maxLength={80} placeholder="How should we address you?"/>{error("name")}</div>
       <div className="form-field full-field"><label htmlFor="notes">Anything else? <span className="optional">optional</span></label><textarea id="notes" name="notes" rows={3} maxLength={600} placeholder="Arrival time, children’s ages, or a special request…"/>{error("notes")}</div>
     </div>

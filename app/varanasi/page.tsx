@@ -30,9 +30,9 @@ export default function VaranasiPage() {
 
       <section className="destination-experiences" aria-labelledby="experiences-heading">
         <div className="container">
-          <Reveal className="destination-section-heading"><p className="feature-context">Get to know the neighbourhood</p><h2 id="experiences-heading">Places worth<br />making time for.</h2></Reveal>
+          <Reveal className="destination-section-heading"><p className="feature-context">The river and the old city</p><h2 id="experiences-heading">Plan your visit.</h2></Reveal>
           <article className="river-feature" id="river" aria-labelledby="river-heading">
-            <Reveal><p className="feature-context">On the water</p><h3 id="river-heading">Make a morning<br />for the river.</h3></Reveal>
+            <Reveal><p className="feature-context">On the water</p><h3 id="river-heading">A morning<br />on the Ganga.</h3></Reveal>
             <Reveal className="river-feature-copy"><p>Start at the ghats and decide how you want to explore: a walk along the steps or a boat outing from around Dashashwamedh. Give the river its own morning, with time to pause before the next part of your day.</p><p>Before boarding a boat, agree the route, duration, total fare and return point with the operator. Keep the hotel’s map pin handy for the walk back to Godowlia.</p><a className="editorial-link" href="https://varanasi.nic.in/gallery/places-of-tourist-attraction/" target="_blank" rel="noreferrer">Explore the riverfront <ArrowUpRight size={16} aria-hidden="true" /></a></Reveal>
           </article>
           <div className="destination-card-grid">
@@ -49,7 +49,7 @@ export default function VaranasiPage() {
       </section>
 
       <section className="container destination-guides" aria-labelledby="destination-guides-heading">
-        <Reveal className="destination-guides-heading"><div><p className="feature-context">A little preparation</p><h2 id="destination-guides-heading">Notes for<br />your visit.</h2></div><Link href="/guides" className="editorial-link">All travel notes <ArrowUpRight size={18} aria-hidden="true" /></Link></Reveal>
+        <Reveal className="destination-guides-heading"><div><p className="feature-context">Useful before you travel</p><h2 id="destination-guides-heading">Your stay guide.</h2></div><Link href="/guides" className="editorial-link">All travel notes <ArrowUpRight size={18} aria-hidden="true" /></Link></Reveal>
         <div className="destination-guide-list">{guides.map((guide) => <Link key={guide.slug} href={`/guides/${guide.slug}`}><span>{guide.category}</span><h3>{guide.title}</h3><ArrowUpRight size={24} aria-hidden="true" /></Link>)}</div>
       </section>
 

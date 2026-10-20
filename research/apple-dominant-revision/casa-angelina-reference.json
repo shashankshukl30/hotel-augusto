@@ -1,0 +1,59 @@
+{
+  "reviewedAt": "2026-10-20",
+  "scope": "Read-only reference study for Augusto's Apple-dominant presentation and persistent booking access.",
+  "methods": ["Agent Reach Jina Reader", "Direct public HTML, CSS and JavaScript inspection"],
+  "sources": [
+    {"url": "https://www.casangelina.com/", "access": "Read successfully through Jina and direct HTML."},
+    {"url": "https://www.casangelina.com/the-hotel/concept/", "access": "Read successfully through Jina."},
+    {"url": "https://www.casangelina.com/suites/angelina-suite/", "access": "Read successfully through Jina."},
+    {"url": "https://www.casangelina.com/wp-content/themes/casangelina/style.css?ver=7.1.3", "access": "Read relevant public style declarations."},
+    {"url": "https://www.casangelina.com/wp-content/themes/casangelina/assets/script/commons.js?ver=1.10.7", "access": "Read booking/header-related source fragments."}
+  ],
+  "observed": [
+    {
+      "pattern": "Property-led storytelling",
+      "evidence": "Homepage markup supplies a looping property video, a landscape property photograph, interiors, accommodation, service and dining chapters, then experience links.",
+      "augustoApplication": "Use real Augusto rooms, lobby and dining images as the main narrative. Put destination photography in clearly labelled city sections."
+    },
+    {
+      "pattern": "Dedicated hospitality navigation",
+      "evidence": "The source separates hotel, suites, rooms, dining, services, experiences and photography, with practical information and policies accessible separately.",
+      "augustoApplication": "Retain meaningful separate hotel, rooms, dining, Varanasi, gallery, guide and contact routes. Add group enquiries as a concrete guest task."
+    },
+    {
+      "pattern": "Reservation access remains distinct from storytelling",
+      "evidence": "A book-now trigger controls an aside#bookOverlay containing arrival, departure and guest inputs. Its handoff targets booking.casangelina.com. Room-detail booking also carries a room identifier.",
+      "augustoApplication": "Use the user's explicitly requested universal date dock, preserve dates and room preference across routes, and prepare a WhatsApp enquiry. The dock is an Augusto requirement; this source does not establish that Casa Angelina displays persistent date fields."
+    },
+    {
+      "pattern": "Accommodation has substantive detail",
+      "evidence": "The inspected suite page combines genuine photography, a property-specific description, room facts, services, a room-specific reservation action and related accommodation.",
+      "augustoApplication": "Keep the actual Augusto category galleries, verified bed arrangements, shared amenities, room-prefilled enquiry and related categories. Omit unsupported sizes, capacity and views."
+    },
+    {
+      "pattern": "The environment supplies the colour",
+      "evidence": "The concept page describes restrained white interiors framed by the real coastal setting. The stylesheet uses a white background with muted brown text and several display families including LM Roman and Geometria.",
+      "augustoApplication": "Take the restrained interface and large photographic emphasis. Keep Augusto's approved Inter, cool neutrals and cobalt actions; do not reintroduce the rejected serif/brown system."
+    }
+  ],
+  "interactionRecommendations": [
+    "Keep the global date dock visually separate from main content and reserve its exact height, including mobile safe-area space.",
+    "Use clearly labelled arrival and departure fields and one Check availability action. Explain that the hotel confirms availability on WhatsApp.",
+    "Retain native scrolling and a keyboard-accessible mobile menu. Avoid copying the reference's elaborate scroll machinery.",
+    "Use short photo crossfades, restrained hover/focus feedback and once-only reveals. Keep booking access immediate with reduced motion.",
+    "Preserve selections when following a room link or returning from the enquiry form; avoid duplicated independent date states."
+  ],
+  "doNotTransfer": [
+    "Casa Angelina branding, photographs, written marketing copy or visual artwork.",
+    "Its awards, affiliations, room count, adult-only rules, terrace sizes, private experiences, cuisine, direct-rate guarantees or other hotel-specific claims.",
+    "Its serif typography, brown accent, letter-spaced slogans, long transition delays or scroll-hijacking conventions.",
+    "A live-availability or completed-booking claim while Augusto has only a WhatsApp enquiry handoff."
+  ],
+  "accessLimits": [
+    "No browser was launched because the root agent owned the active QA slot.",
+    "No fresh screenshot, responsive rendering, keyboard behaviour, scroll performance or booking submission was tested.",
+    "CSS and HTML establish structure and declared treatments; final rendered composition and transition quality remain unverified for this reference.",
+    "The reference booking engine was not opened or submitted."
+  ],
+  "changesMade": "Research JSON only. No Augusto application or sibling-project files changed for this study."
+}

@@ -8,7 +8,12 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
     qualities: [75, 85],
-    ...(staticExport ? { unoptimized: true } : {}),
+    ...(staticExport ? {
+      loader: "custom" as const,
+      loaderFile: "./lib/static-image-loader.ts",
+      deviceSizes: [480, 960, 1600],
+      imageSizes: [96, 192],
+    } : {}),
   },
   turbopack: { root: process.cwd() },
   // Static hosting supplies response headers; Next's headers() needs a server.

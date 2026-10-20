@@ -1,0 +1,32 @@
+{
+  "created": "2026-10-20T07:32:13.676548+00:00",
+  "docx_sha256": "b572a5a2377819398d7f56003bc97b69ddea088b3988292e871096950c000986",
+  "renderer": "Microsoft Word direct ExportAsFixedFormat, no explicit repagination; dedicated hidden Word instance closed.",
+  "pages": [
+    {
+      "number": 1,
+      "image": "evidence/apple-dominant-revision/handoff-review/page-1.png",
+      "characters": 3374,
+      "outOfBounds": []
+    },
+    {
+      "number": 2,
+      "image": "evidence/apple-dominant-revision/handoff-review/page-2.png",
+      "characters": 3440,
+      "outOfBounds": []
+    },
+    {
+      "number": 3,
+      "image": "evidence/apple-dominant-revision/handoff-review/page-3.png",
+      "characters": 4378,
+      "outOfBounds": []
+    },
+    {
+      "number": 4,
+      "image": "evidence/apple-dominant-revision/handoff-review/page-4.png",
+      "characters": 1339,
+      "outOfBounds": []
+    }
+  ],
+  "page_count": 4
+}

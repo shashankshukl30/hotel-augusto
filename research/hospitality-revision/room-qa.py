@@ -145,9 +145,14 @@ async def main(base):
     report["browserClosed"] = True
     (OUT / "rooms-review.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(report["summary"]))
+    if report["summary"]["failed"] or report["summary"]["runtimeErrors"]:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--base", default="http://127.0.0.1:3082")
-    asyncio.run(main(parser.parse_args().base))
+    parser.add_argument("--output", default="evidence/hospitality-premium")
+    args = parser.parse_args()
+    OUT = ROOT / args.output
+    asyncio.run(main(args.base))

@@ -14,6 +14,7 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument("--base-url", required=True)
+parser.add_argument("--output", default="evidence/hospitality-revision/private-preview-qa.json")
 args = parser.parse_args()
 base = args.base_url.rstrip("/")
 origin = urlsplit(base).netloc
@@ -22,7 +23,7 @@ headers = {"OAI-Sites-Authorization": "Bearer " + token}
 routes = ["/", "/hotel", "/rooms", "/rooms/compare", "/rooms/deluxe-room",
           "/rooms/deluxe-twin-room", "/rooms/family-room", "/dining", "/varanasi",
           "/gallery", "/guides", "/guides/first-visit-to-kashi",
-          "/guides/arriving-in-godowlia", "/guides/choosing-your-room", "/contact", "/privacy"]
+          "/guides/arriving-in-godowlia", "/guides/choosing-your-room", "/group-stays", "/contact", "/privacy"]
 report = {"date": datetime.now(timezone.utc).isoformat(), "base_url": base,
           "checks": [], "errors": [], "failed_responses": [], "external_messages_sent": 0}
 
@@ -79,12 +80,15 @@ with sync_playwright() as p:
     page.wait_for_timeout(500)
     check("Desktop has no overflow", page.evaluate("document.body.scrollWidth === 1440"))
     check("Desktop property hero is present", page.locator(".hero-photo img").count() == 3)
+    if "apple-dominant" in args.output:
+        check("Published hero uses the current sans typography",
+              page.locator("main h1").evaluate("e=>{const s=getComputedStyle(e);return s.fontFamily.toLowerCase().includes('inter') && Number(s.fontWeight)>=600;}"))
     check("No missing page resources", not report["failed_responses"], report["failed_responses"])
     check("No browser errors", not report["errors"], report["errors"])
     context.close()
     browser.close()
 report["passed"] = all(item["passed"] for item in report["checks"])
-output = ROOT / "evidence/hospitality-revision/private-preview-qa.json"
+output = ROOT / args.output
 output.write_text(json.dumps(report, indent=2), encoding="utf-8")
 print(json.dumps({"passed":report["passed"],"checks":len(report["checks"]),
                   "failures":[item for item in report["checks"] if not item["passed"]]}))

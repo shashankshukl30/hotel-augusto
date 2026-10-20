@@ -7,6 +7,8 @@ import { ArrowUpRight, Check } from "lucide-react";
 import { rooms } from "@/content/hotel";
 import "./room-comparison.css";
 
+const comparisonLabels: Record<string, string> = { "deluxe-room": "Deluxe", "deluxe-twin-room": "Twin", "family-room": "Family" };
+
 export function RoomComparison() {
   const [first, setFirst] = useState(rooms[0].slug);
   const [second, setSecond] = useState(rooms[1].slug);
@@ -18,12 +20,12 @@ export function RoomComparison() {
       <thead><tr><td/>{rooms.map(room => <th key={room.slug} scope="col"><Link href={`/rooms/${room.slug}`}><span className="comparison-image"><Image src={room.image} alt={room.alt} fill sizes="28vw" quality={85}/></span><span className="comparison-name">{room.name}</span></Link></th>)}</tr></thead>
       <tbody><tr><th scope="row">Bed arrangement</th>{rooms.map(room => <td key={room.slug} className="comparison-bed">{room.bedLabel}</td>)}</tr>
         {essentials.map(feature => <tr key={feature}><th scope="row">{feature}</th>{rooms.map(room => <td key={room.slug}><Check size={18} aria-hidden="true"/><span className="comparison-sr-only">Included</span></td>)}</tr>)}
-        <tr className="comparison-actions"><th scope="row"><span className="comparison-sr-only">Explore or enquire</span></th>{rooms.map(room => <td key={room.slug}><Link href={`/rooms/${room.slug}`} className="comparison-detail-link">Explore room <ArrowUpRight size={16}/></Link><Link href={`/contact?room=${room.slug}#enquire`} className="room-action" style={{ color: "var(--paper)" }}>Choose this room <ArrowUpRight size={16}/></Link></td>)}</tr>
+        <tr className="comparison-actions"><th scope="row"><span className="comparison-sr-only">Explore or enquire</span></th>{rooms.map(room => <td key={room.slug}><Link href={`/rooms/${room.slug}`} className="comparison-detail-link">Explore room <ArrowUpRight size={16}/></Link><Link href={`/contact?room=${room.slug}#enquire`} className="room-action" style={{ color: "var(--paper)" }}>Choose room <ArrowUpRight size={16}/></Link></td>)}</tr>
       </tbody>
     </table></div>
     <div className="comparison-mobile"><div className="comparison-selectors">
-      <div><label htmlFor="compare-first">First room</label><select id="compare-first" value={first} onChange={event => { const value = event.target.value; setFirst(value); if (value === second) setSecond(first); }}>{rooms.map(room => <option value={room.slug} key={room.slug}>{room.name}</option>)}</select></div>
-      <div><label htmlFor="compare-second">Compare with</label><select id="compare-second" value={second} onChange={event => { const value = event.target.value; setSecond(value); if (value === first) setFirst(second); }}>{rooms.map(room => <option value={room.slug} key={room.slug}>{room.name}</option>)}</select></div>
+      <div><label htmlFor="compare-first">First room</label><select id="compare-first" value={first} onChange={event => { const value = event.target.value; setFirst(value); if (value === second) setSecond(first); }}>{rooms.map(room => <option value={room.slug} key={room.slug}>{comparisonLabels[room.slug]}</option>)}</select></div>
+      <div><label htmlFor="compare-second">Compare with</label><select id="compare-second" value={second} onChange={event => { const value = event.target.value; setSecond(value); if (value === first) setFirst(second); }}>{rooms.map(room => <option value={room.slug} key={room.slug}>{comparisonLabels[room.slug]}</option>)}</select></div>
     </div><div className="comparison-mobile-grid" aria-live="polite">{mobile.map((room, index) => <article className="comparison-mobile-room" key={`${index}-${room.slug}`}>
       <Link href={`/rooms/${room.slug}`} className="comparison-image"><Image src={room.image} alt={room.alt} fill sizes="45vw" quality={85}/></Link><h2>{room.name}</h2><dl><div><dt>Bed arrangement</dt><dd>{room.bedLabel}</dd></div></dl>
       <Link href={`/rooms/${room.slug}`} className="comparison-detail-link">Explore room <ArrowUpRight size={16}/></Link><Link href={`/contact?room=${room.slug}#enquire`} className="room-action" style={{ color: "var(--paper)" }}>Choose room <ArrowUpRight size={16}/></Link>

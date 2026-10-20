@@ -1,0 +1,1317 @@
+{
+  "generated": "2026-10-20T06:56:31.604573+00:00",
+  "generator": "scripts/generate-responsive-images.py",
+  "pillowVersion": "12.1.1",
+  "method": {
+    "widths": [
+      96,
+      192,
+      480,
+      960,
+      1600
+    ],
+    "quality": 85,
+    "encoder": "WebP method6",
+    "resize": "Lanczos, original aspect ratio, nearest whole-pixel height",
+    "maxWidth": 1600,
+    "upscale": false,
+    "crop": false,
+    "retouch": false,
+    "syntheticContent": false,
+    "nativeSize": "Reuse the existing source when its width is 1600px or smaller."
+  },
+  "delivery": {
+    "staticExport": "Next custom loader selects pre-generated local WebP variants.",
+    "normalNext": "Default Next optimizer remains enabled, with AVIF/WebP negotiation.",
+    "quality": "Static preview uses one quality85 profile; normal Next keeps quality75/85.",
+    "untouched": "Brand assets, metadata JPEG, source photos and original rights ledgers."
+  },
+  "summary": {
+    "sources": 22,
+    "originalBytes": 4382520,
+    "generatedFiles": 92,
+    "generatedBytes": 2790272,
+    "responsiveTotals": {
+      "480": {
+        "bytesAcrossAllImages": 521332,
+        "reductionFromOriginalPercent": 88.1
+      },
+      "960": {
+        "bytesAcrossAllImages": 1560802,
+        "reductionFromOriginalPercent": 64.39
+      },
+      "1600": {
+        "bytesAcrossAllImages": 3505716,
+        "reductionFromOriginalPercent": 20.01
+      }
+    }
+  },
+  "assets": [
+    {
+      "source": "/images/deluxe-room-blue.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 125406,
+      "sourceSha256": "c0695691d518a4ffb6146c9443960de4cf1f16d10a2e060ec87cc9c3bef44973",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/deluxe-room-blue-96w.webp",
+          "bytes": 1920,
+          "sha256": "d12418288f1c73d3e0b2f0d9e685e29e4f87142314abfcd5fef78f2b5ba60113",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/deluxe-room-blue-192w.webp",
+          "bytes": 5008,
+          "sha256": "cc9b9f03c770bef8e4804eb8c1b46673071038f1e1a26590c615a275949294fd",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/deluxe-room-blue-480w.webp",
+          "bytes": 19564,
+          "sha256": "b066ffc9e77fc2a2977e0a3d989979affdcf0a4ad64d2a8e0bda927ed7d13a26",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/deluxe-room-blue-960w.webp",
+          "bytes": 52292,
+          "sha256": "9fda3cb66f8bd814fa306bc0505011becd21ea9cda8e3174c6530119792c20ce",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/deluxe-room-blue.webp",
+          "bytes": 125406,
+          "sha256": "c0695691d518a4ffb6146c9443960de4cf1f16d10a2e060ec87cc9c3bef44973",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/deluxe-room.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 112082,
+      "sourceSha256": "cdcd62eba49d74ab0fe7b16716a31887e7a23bba5c0acc4b54deebf05470ef40",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/deluxe-room-96w.webp",
+          "bytes": 1772,
+          "sha256": "b5a57b294b114e0a2ff8e040b1a9a1a99a0900e99a55b6bbf81eaee24dfb58e5",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/deluxe-room-192w.webp",
+          "bytes": 4448,
+          "sha256": "133549786c1da7fb809c454173218487ad27d3b1eda74d0ec15c6f2c1f3b8e61",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/deluxe-room-480w.webp",
+          "bytes": 17740,
+          "sha256": "340478221df0d490e699cc4dfbd3b0e35ca6e5d87f67d5faee7966b079c9b7a3",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/deluxe-room-960w.webp",
+          "bytes": 46574,
+          "sha256": "ea7bacd1a9b58460c4d194f2170a52e21b287cf963814d7be63bccdaf0728ffd",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/deluxe-room.webp",
+          "bytes": 112082,
+          "sha256": "cdcd62eba49d74ab0fe7b16716a31887e7a23bba5c0acc4b54deebf05470ef40",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/dining-room-wide.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 126042,
+      "sourceSha256": "bdeda159d554ed11e39a52647d0d5f51e1e62c687586419f91af74ddbbd7ee6f",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/dining-room-wide-96w.webp",
+          "bytes": 1932,
+          "sha256": "0e80e6e604cf02ad697c43eaae3769e81af3af56622d1f2a2750787fc059fc72",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/dining-room-wide-192w.webp",
+          "bytes": 5292,
+          "sha256": "e14c1b3f2204328b3c753954cafc0fe112cfe33132c6878577b62d287c364ea9",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/dining-room-wide-480w.webp",
+          "bytes": 19896,
+          "sha256": "b3c1207869e6c4d364a65645a10f0b51d03dbab3cf0e9892d7dc5ceabca98acc",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/dining-room-wide-960w.webp",
+          "bytes": 54602,
+          "sha256": "9ab854ea7ace2a111ff33f692e3d87d6652d1a5156493f5be4bca9ef60466bea",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/dining-room-wide.webp",
+          "bytes": 126042,
+          "sha256": "bdeda159d554ed11e39a52647d0d5f51e1e62c687586419f91af74ddbbd7ee6f",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/dining-room.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 107542,
+      "sourceSha256": "eedec88a4e6db77d3770ece8bddf6f2015a88a9a8b5407a2ca50ba934a2680bf",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/dining-room-96w.webp",
+          "bytes": 1724,
+          "sha256": "481a65d64ce0df9c84ba7be2e4360bc6970578c2a02d0154e933d178670dc5d5",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/dining-room-192w.webp",
+          "bytes": 4478,
+          "sha256": "091fcac513d23de18d78c59f22147bddb4d87afb05b1f2c246fc8ade0c66d116",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/dining-room-480w.webp",
+          "bytes": 16900,
+          "sha256": "06c2aabbbb0239c4017b6686aac79a781ade989d5b665f90a8faac45543de545",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/dining-room-960w.webp",
+          "bytes": 45942,
+          "sha256": "e255ed9105602dcb5e68a367464b41210e525a12ec7fb780813506da40455398",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/dining-room.webp",
+          "bytes": 107542,
+          "sha256": "eedec88a4e6db77d3770ece8bddf6f2015a88a9a8b5407a2ca50ba934a2680bf",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/family-room-alternate.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 109450,
+      "sourceSha256": "d3a765c81575bbcf96de925dbab81945a73c967929accc5adac4481f18612a87",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/family-room-alternate-96w.webp",
+          "bytes": 1846,
+          "sha256": "9586c8f0f9c11400fa19b4d90ee380c547cac124d380d1ba443d234543580750",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/family-room-alternate-192w.webp",
+          "bytes": 4812,
+          "sha256": "3cfd1b18784e563569c43cc6089dd9e9184589bd31f379923791559579cc2e74",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/family-room-alternate-480w.webp",
+          "bytes": 17738,
+          "sha256": "f644cf97878c3ddc3eff9cc7256a5ed9ff82d68960d25a06cc3e5d5af532c0a8",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/family-room-alternate-960w.webp",
+          "bytes": 47730,
+          "sha256": "38472ca39df3342855719381f09a5123a719558d01b83832f223069c686818d9",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/family-room-alternate.webp",
+          "bytes": 109450,
+          "sha256": "d3a765c81575bbcf96de925dbab81945a73c967929accc5adac4481f18612a87",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/family-room.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 122752,
+      "sourceSha256": "25412c2ab58f2e872fafecd29957594277ae49e8c50a233a125e6cd9d0566ff8",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/family-room-96w.webp",
+          "bytes": 1810,
+          "sha256": "3c9b6f4eab9a9fc8cb24756fdefcd76835d43db953625da1cbf608cf2e2f1b80",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/family-room-192w.webp",
+          "bytes": 4838,
+          "sha256": "f83329b24202f5064669a2a35a18fbf396f1eb30d5b0bfc8564733c027d94f28",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/family-room-480w.webp",
+          "bytes": 18658,
+          "sha256": "598ef1d235d200c18c122887a7d562cf6f991a64fe2060fc1c7784622f1c6324",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/family-room-960w.webp",
+          "bytes": 50984,
+          "sha256": "52747a4a8588e4b53377346652996db34070f5ca045b802a0d7ab4d93a34005a",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/family-room.webp",
+          "bytes": 122752,
+          "sha256": "25412c2ab58f2e872fafecd29957594277ae49e8c50a233a125e6cd9d0566ff8",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/ganges-boats.webp",
+      "sourceDimensions": [
+        2400,
+        1600
+      ],
+      "sourceBytes": 86706,
+      "sourceSha256": "803e057045094cde4cc0afee6bb6a33b515a3b3cc996dbe3889d25f8689ab01e",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://unsplash.com/photos/two-people-in-a-small-boat-on-the-water-at-sunset-y4oZkoD6RYY",
+        "rights": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license"
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 64,
+          "src": "/images/responsive/ganges-boats-96w.webp",
+          "bytes": 718,
+          "sha256": "610334963f857d71829448516a4df68d922f6bb00f9d963f61ae7f76e854995c",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 128,
+          "src": "/images/responsive/ganges-boats-192w.webp",
+          "bytes": 1930,
+          "sha256": "5db51985dfc40ed036f31489f1cd329d60bc5b3f0bb3e7eaf481238c6846d015",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 320,
+          "src": "/images/responsive/ganges-boats-480w.webp",
+          "bytes": 7468,
+          "sha256": "f06945c97452ca692d1f7353668af356860ba649c20318744ab46216fa2ee998",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "/images/responsive/ganges-boats-960w.webp",
+          "bytes": 19792,
+          "sha256": "65251fdefe94f25848bff0129417e6db9950af8648760c83bf38294e30e54ac0",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "src": "/images/responsive/ganges-boats-1600w.webp",
+          "bytes": 41818,
+          "sha256": "791b5f4d535bb0327a412bb4a6b04557df08d2ddc17f59604a73d9cd5792e10e",
+          "retainedOriginal": false
+        }
+      ]
+    },
+    {
+      "source": "/images/ganges-dawn.webp",
+      "sourceDimensions": [
+        2400,
+        1350
+      ],
+      "sourceBytes": 94818,
+      "sourceSha256": "a9a05dd324d6ad9e37fa564a2937272558f1d04f71fd0185c16bdb37c87fb1e6",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://unsplash.com/photos/two-boats-on-a-wide-river-at-sunrise-Sj6zqvbuykY",
+        "rights": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license"
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/ganges-dawn-96w.webp",
+          "bytes": 426,
+          "sha256": "491783e032d218cc071f19fc4e3e9704ee141e4e8da01b40b78dc374ab9bddc5",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/ganges-dawn-192w.webp",
+          "bytes": 976,
+          "sha256": "6c514f02d30a92770d0c775d7c0f24547bd2de031a0f511a5a8e7365cec693da",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/ganges-dawn-480w.webp",
+          "bytes": 3674,
+          "sha256": "0db92580658f371bc97bb74fc7b3a6697e0c6dd18f2cb32a474174c11fdf9b7e",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/ganges-dawn-960w.webp",
+          "bytes": 12010,
+          "sha256": "5bac3cf8e95c4dca04db951802d8097105f58354af494c5f25f4f7e2f122e342",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/responsive/ganges-dawn-1600w.webp",
+          "bytes": 29840,
+          "sha256": "9f6ef7035f10388610f55b637e3f4bc5ce4091a51da8fabc8e3f1a7e89d79e48",
+          "retainedOriginal": false
+        }
+      ]
+    },
+    {
+      "source": "/images/google-dining-room.webp",
+      "sourceDimensions": [
+        1000,
+        667
+      ],
+      "sourceBytes": 87948,
+      "sourceSha256": "389254f437a53a916010067e11091879c6e49575be7c2803de1c69b2a541dd34",
+      "provenance": {
+        "ledger": "research/ota-revision/asset-candidates.json",
+        "sourcePage": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,85.3y,90t/data=!3m8!1e2!3m6!1shttps:%2F%2Fimages.trvl-media.com%2Flodging%2F46000000%2F45850000%2F45841100%2F45841007%2F5036d456_z.jpg!2e7!3e27!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-proxy%2FALd4DhEssjW5B_IGR5rhoAQpZVTyXmxhFg2gFZ0fDw8yIGOZvctqBkzarDSxFShj6ie4AgkenXc8nXiVdn06YeIFmGaJvy-EWl0h-N37BEi6ux2Cn9-UuQPvqpwvLh7m5trPjIxHmGvp_bIKQvIUq38Ku-AoWTG7_W09I2b-fREDFy-rCvOxgzfMjrpg_w%3Dw203-h135-k-no!7i1000!8i666!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+        "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 64,
+          "src": "/images/responsive/google-dining-room-96w.webp",
+          "bytes": 2162,
+          "sha256": "cba4d4c13cd76c55db4d23cae3b1f57079b8a2204619296c1b9f41c5bb27bf30",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 128,
+          "src": "/images/responsive/google-dining-room-192w.webp",
+          "bytes": 5974,
+          "sha256": "d4c56a138deecbf855151809dd3efe9f172992f544c93d803f4cfda3e9f4ba1c",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 320,
+          "src": "/images/responsive/google-dining-room-480w.webp",
+          "bytes": 24124,
+          "sha256": "58d7889d7b05c843f5825a52abbcf851c20b33a6c619333488fb42a2690b7f15",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "/images/responsive/google-dining-room-960w.webp",
+          "bytes": 66036,
+          "sha256": "f9f6da636844b3c1cd4707b5bf54a4a56edf0a84600ca9b0675531facd0d10ec",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1000,
+          "height": 667,
+          "src": "/images/google-dining-room.webp",
+          "bytes": 87948,
+          "sha256": "389254f437a53a916010067e11091879c6e49575be7c2803de1c69b2a541dd34",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/google-double-room.webp",
+      "sourceDimensions": [
+        1024,
+        768
+      ],
+      "sourceBytes": 100296,
+      "sourceSha256": "8eff419f89de3d571cbba94fb277dc2215bc2136cd5772b038857bd783d9cdde",
+      "provenance": {
+        "ledger": "research/ota-revision/asset-candidates.json",
+        "sourcePage": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,83.9y,90t/data=!3m8!1e2!3m6!1sCIABIhAsyAhWUsk0j56e58t9-Ke9!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9TUBf5-eHVIm6sH6RgBN_vRWUEnoazcvRpfF1yKPmdQUfa-YAYKF8OkIcFV2CLVOZ5Nzp1QCpe2tNCv-WMi3ciPhCPiWRiCX2DRuEvXgOrzZGRd5NZKqHZ6kHb5AEXSRZ2f80spHWTwLOY%3Dw203-h152-k-no!7i1024!8i768!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+        "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights; uploader display name alone does not prove copyright ownership.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 72,
+          "src": "/images/responsive/google-double-room-96w.webp",
+          "bytes": 2596,
+          "sha256": "ecff3d790d2467e169560efb65873ac269dbbbdd92cfc32bd49dd510c530f1ea",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 144,
+          "src": "/images/responsive/google-double-room-192w.webp",
+          "bytes": 6700,
+          "sha256": "6bc4381a995483bf5f50f5626540077f797c1cc6e66cbfca5e44bf0ebd76d950",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 360,
+          "src": "/images/responsive/google-double-room-480w.webp",
+          "bytes": 26112,
+          "sha256": "80c565d3c197a058aac65e7eda393b18fdfe2b650a21228885993f1143becb47",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "src": "/images/responsive/google-double-room-960w.webp",
+          "bytes": 71844,
+          "sha256": "31b8b2f1e35e168cc2920ef1048a8a874c20c379a387afb59a420b26697da581",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "src": "/images/google-double-room.webp",
+          "bytes": 100296,
+          "sha256": "8eff419f89de3d571cbba94fb277dc2215bc2136cd5772b038857bd783d9cdde",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/google-family-room.webp",
+      "sourceDimensions": [
+        1600,
+        1200
+      ],
+      "sourceBytes": 349310,
+      "sourceSha256": "78a1e57034d202cd0fc4d096864efb2e6e4dac8311fee014cf603a32b6fa4131",
+      "provenance": {
+        "ledger": "research/ota-revision/asset-candidates.json",
+        "sourcePage": "https://www.google.com/maps/place/HOTEL+AUGUSTO+VARANASI/@25.3084712,83.0064817,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDm-pnCRg!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9RvAJi2dZqsYKmYDCqkMlr4Xjp01s11Etr0viigML6hplcJIIedCXxB8_V4ykgewOnpIFz1vprPZjNXake-JIC_z1aN__yObA9aLp7SN_Wxkx44Q1CTzVbRkQ0n0EBi6p4FaP2S%3Dw203-h152-k-no!7i4032!8i3024!4m10!3m9!1s0x398e2e1d7775c433:0x6b2c6055668741f4!5m2!4m1!1i2!8m2!3d25.3084409!4d83.0065447!10e5!16s%2Fg%2F11b6dg6mk3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+        "rights": "Public property-listing photograph. Hotel/client must confirm reuse rights; uploader display name alone does not prove copyright ownership.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 72,
+          "src": "/images/responsive/google-family-room-96w.webp",
+          "bytes": 2424,
+          "sha256": "226d04d94f161d1b67c3b8164db31c567688d3f690714a0ff7e7f094008e5e16",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 144,
+          "src": "/images/responsive/google-family-room-192w.webp",
+          "bytes": 6332,
+          "sha256": "8a5231499e3c3718374bb16924c2426b219245142e5a3ffcb001790b29005e3d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 360,
+          "src": "/images/responsive/google-family-room-480w.webp",
+          "bytes": 25748,
+          "sha256": "90dd5cc20ceeb5a0ad315679bb53b9da1e5e51a4d134c9846281ce3a45b6dee7",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "src": "/images/responsive/google-family-room-960w.webp",
+          "bytes": 87516,
+          "sha256": "2022330fead94b3b022fcccdb19e08bb8450745ce663731a9c7bd7ad06423e56",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1200,
+          "src": "/images/google-family-room.webp",
+          "bytes": 349310,
+          "sha256": "78a1e57034d202cd0fc4d096864efb2e6e4dac8311fee014cf603a32b6fa4131",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/hotel-exterior-day.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 233820,
+      "sourceSha256": "308eb4bb29bf392cf3ffd589bdd11ebf75e2a98279892420f32ef65ffb96694b",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/hotel-exterior-day-96w.webp",
+          "bytes": 2114,
+          "sha256": "2801a5bbe7a482147647a4cec1fb2942eb434ca86b444e8e5ec987e99c27c2b0",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/hotel-exterior-day-192w.webp",
+          "bytes": 6430,
+          "sha256": "a85af699132eef49889eed1c990d6489bce2f4d03a23ff82b68c3142daa31860",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/hotel-exterior-day-480w.webp",
+          "bytes": 30862,
+          "sha256": "d2c3402bdf789141172058b62b7cdd453f957863cd2c17c2bd5f23600bebf17c",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/hotel-exterior-day-960w.webp",
+          "bytes": 98948,
+          "sha256": "8d6138ac6cdc86f34da9e573834f19ff7ec47968426ecefa9ac1bd39cff26c28",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/hotel-exterior-day.webp",
+          "bytes": 233820,
+          "sha256": "308eb4bb29bf392cf3ffd589bdd11ebf75e2a98279892420f32ef65ffb96694b",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/hotel-exterior.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 209346,
+      "sourceSha256": "3cfbf73d1c337f22f2cca5a95eee4c9613a0193ecba60a571ae22f81b48781ba",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/hotel-exterior-96w.webp",
+          "bytes": 1926,
+          "sha256": "2dab2198ccaac48c792399e373dbc1fc67a671968d4092904068e4b5e2180253",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/hotel-exterior-192w.webp",
+          "bytes": 5764,
+          "sha256": "ac6210f311d5b8d34cf0ba42e114798160dd6184dd2b7f3a3fc81c7dc234713f",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/hotel-exterior-480w.webp",
+          "bytes": 27226,
+          "sha256": "135d316ccdfa809ff46923a68b3523404a1c3614b63d77c4c0594df5d443d5fc",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/hotel-exterior-960w.webp",
+          "bytes": 90582,
+          "sha256": "51e0239b8b9fb024d1fc60784198ad1794af4e3d33c858be9d1447df53723027",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/hotel-exterior.webp",
+          "bytes": 209346,
+          "sha256": "3cfbf73d1c337f22f2cca5a95eee4c9613a0193ecba60a571ae22f81b48781ba",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/hotel-lobby.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 223808,
+      "sourceSha256": "acb7348f17994fc1b3452c04c67991d796e7c82988424da688fb531a93e3ad00",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/hotel-lobby-96w.webp",
+          "bytes": 2244,
+          "sha256": "434ad893292603a880308e17358ece80faced2096fdb7d9c60e02faf40257cb7",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/hotel-lobby-192w.webp",
+          "bytes": 6224,
+          "sha256": "a234e422b1ae43bdd7b291b277f5f8d17402e9e72f160376c579cf6e9b3e6ada",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/hotel-lobby-480w.webp",
+          "bytes": 28618,
+          "sha256": "5ee305371958db8905b363cda8ddc7f87fb26a33eb90c88d215de9a20c3811f2",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/hotel-lobby-960w.webp",
+          "bytes": 92738,
+          "sha256": "4bd6f68b85f929e980d6b08253e2be6b736e8c5fdcd7bb3d1eaf12fd1c02c1d6",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/hotel-lobby.webp",
+          "bytes": 223808,
+          "sha256": "acb7348f17994fc1b3452c04c67991d796e7c82988424da688fb531a93e3ad00",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/hotel-lounge.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 211606,
+      "sourceSha256": "8ad298bfc8762b9edfb33e86cc4dd54601f0d8fa87b8e7eeb20b1fc847a17ef9",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/hotel-lounge-96w.webp",
+          "bytes": 1954,
+          "sha256": "2f36933222c4094c629b625b20a04c91311c3fdb7ef58072d519fe00c2a158bc",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/hotel-lounge-192w.webp",
+          "bytes": 6212,
+          "sha256": "9e0e2d0e45ce2de2ad97822c0895cc1b62b74bdb7e34ae10147ad3a2e7c5dabd",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/hotel-lounge-480w.webp",
+          "bytes": 28508,
+          "sha256": "ebb08bb78f23d217b4d5a8524aa16d447698a567a7b9876c69d29d7d751ccc39",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/hotel-lounge-960w.webp",
+          "bytes": 89438,
+          "sha256": "138bcf96d220dafbb623bc18c151881abd31adb87c78d4853ce82e79dc41098d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/hotel-lounge.webp",
+          "bytes": 211606,
+          "sha256": "8ad298bfc8762b9edfb33e86cc4dd54601f0d8fa87b8e7eeb20b1fc847a17ef9",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/hotel-reception.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 194606,
+      "sourceSha256": "51b6d90005902738b9afecbc4f6e29c355d21be6102ab77537d76b8cb7762b9e",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/hotel-reception-96w.webp",
+          "bytes": 1994,
+          "sha256": "b01033f11963ff9ff79c5df7b32a009a85b3c08dda6fdb13d6b162f59da4ef11",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/hotel-reception-192w.webp",
+          "bytes": 5546,
+          "sha256": "af05ebd85628eca9dbf8940e15a9a308a8220df11f0be645c366b04cf325fc0f",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/hotel-reception-480w.webp",
+          "bytes": 25674,
+          "sha256": "c585e623eac6908650a63d35c67082289985c70626dc720c9d04763d8d771fa9",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/hotel-reception-960w.webp",
+          "bytes": 81074,
+          "sha256": "1912f9751d0aa658c3cbd4d537a00b168ff7703f8c77b01565d460ff6a9d82f3",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/hotel-reception.webp",
+          "bytes": 194606,
+          "sha256": "51b6d90005902738b9afecbc4f6e29c355d21be6102ab77537d76b8cb7762b9e",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/kashi-vishwanath.webp",
+      "sourceDimensions": [
+        1153,
+        2048
+      ],
+      "sourceBytes": 204844,
+      "sourceSha256": "65ae060e6a0f6dd561f77ed05daf372fcecd51ee5dffe6ac2905e82dbd01e24b",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kashi_Vishwanath_Temple_in_2025.jpg",
+        "rights": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 171,
+          "src": "/images/responsive/kashi-vishwanath-96w.webp",
+          "bytes": 3042,
+          "sha256": "4821daa257d980be3adb2d0bb7abb6821127c53b7410a40a13ab6fe49ecef139",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 341,
+          "src": "/images/responsive/kashi-vishwanath-192w.webp",
+          "bytes": 9410,
+          "sha256": "0bf9f7d921ef0edbb56004b974b56c899efcca5e4098d76305fa863d4f8b1544",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 853,
+          "src": "/images/responsive/kashi-vishwanath-480w.webp",
+          "bytes": 43368,
+          "sha256": "4124a1e5aeb29c362723e4ed829f4ec1fdccfc54ba79d7ffc86c1df933249e2e",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 1705,
+          "src": "/images/responsive/kashi-vishwanath-960w.webp",
+          "bytes": 130600,
+          "sha256": "983e8cb5c195df44c4632b370ed7b844a3536bb9f6651ed5d683bf45fbf6b4ef",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1153,
+          "height": 2048,
+          "src": "/images/kashi-vishwanath.webp",
+          "bytes": 204844,
+          "sha256": "65ae060e6a0f6dd561f77ed05daf372fcecd51ee5dffe6ac2905e82dbd01e24b",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/room-bathroom.webp",
+      "sourceDimensions": [
+        1333,
+        1080
+      ],
+      "sourceBytes": 158788,
+      "sourceSha256": "f5e381a1e21aeef93712b56f0c11fd14732a0af849272361b78537b71de74f32",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 78,
+          "src": "/images/responsive/room-bathroom-96w.webp",
+          "bytes": 1888,
+          "sha256": "470ab42ac45800bda39b5216067873952ccc2113fe850dc425a360ccee6106f7",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 156,
+          "src": "/images/responsive/room-bathroom-192w.webp",
+          "bytes": 6350,
+          "sha256": "90743a3470dfed66cf13adaf7fc5d3b51dbc7a52b9cf7176ba13504619a2e0d0",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 389,
+          "src": "/images/responsive/room-bathroom-480w.webp",
+          "bytes": 31708,
+          "sha256": "538664d77c3b6113a9e830924756c740cd8bfa01e107badc0a86f18e000cd23d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 778,
+          "src": "/images/responsive/room-bathroom-960w.webp",
+          "bytes": 91488,
+          "sha256": "b10a63ab3230ddbcc65cebaf5c37e899e77caf6ed2b18e7c7db5c4bca5571512",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1333,
+          "height": 1080,
+          "src": "/images/room-bathroom.webp",
+          "bytes": 158788,
+          "sha256": "f5e381a1e21aeef93712b56f0c11fd14732a0af849272361b78537b71de74f32",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/room-tea.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 145740,
+      "sourceSha256": "c0ce739b9a418fc4f6ff814bb1b05e93036ac1cdca0dabe532e95359b971903d",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/room-tea-96w.webp",
+          "bytes": 2138,
+          "sha256": "512aeae549ef3447db94d2b08aac6690b3108f05aa5c233855d7c91b04381ea6",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/room-tea-192w.webp",
+          "bytes": 6314,
+          "sha256": "aedd0791e03e3bfd0c5c17b6f5b61a7388c4a7d2fa36436b6d8ee7b2e1ac1e4d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/room-tea-480w.webp",
+          "bytes": 25742,
+          "sha256": "13c1aeb52c767f0b6ebc8b6b562c894a2dbde26a2e2b267d82c635063f133549",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/room-tea-960w.webp",
+          "bytes": 67154,
+          "sha256": "93998b03127dbd7551dea35bdcca3d1ca011a16327ff7cc194ca24568a9756ee",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/room-tea.webp",
+          "bytes": 145740,
+          "sha256": "c0ce739b9a418fc4f6ff814bb1b05e93036ac1cdca0dabe532e95359b971903d",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/twin-room.webp",
+      "sourceDimensions": [
+        1600,
+        900
+      ],
+      "sourceBytes": 136568,
+      "sourceSha256": "cff41440bb5706fa64cd3f97dd3a7500f460b7afbcd91443c8ba94a52055f578",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
+        "rights": "Hotel listing photography; ownership and client reuse rights require confirmation.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 54,
+          "src": "/images/responsive/twin-room-96w.webp",
+          "bytes": 1822,
+          "sha256": "56a49883c3cfb40ee5b39739715aafb2d4ea93997c7f5124b7902dbcf3e1898d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 108,
+          "src": "/images/responsive/twin-room-192w.webp",
+          "bytes": 4798,
+          "sha256": "39c8504f2d33b70221e03f97639815c4b1fe12d7b366f35c04cd0c0e94c88db9",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 270,
+          "src": "/images/responsive/twin-room-480w.webp",
+          "bytes": 19900,
+          "sha256": "c7c01f3e2b9fad3b67b7e19ec956b91e88c3ba5c17738f52f6249d2dad98a001",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "src": "/images/responsive/twin-room-960w.webp",
+          "bytes": 57894,
+          "sha256": "432e34ac2c360a48c69f83733895b08d31a4b8a336dd335ba746388cfe1c4c11",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "/images/twin-room.webp",
+          "bytes": 136568,
+          "sha256": "cff41440bb5706fa64cd3f97dd3a7500f460b7afbcd91443c8ba94a52055f578",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/varanasi-ghats.webp",
+      "sourceDimensions": [
+        2400,
+        1600
+      ],
+      "sourceBytes": 352434,
+      "sourceSha256": "b33a7af12bd70aae2b6261fc93272adf451c674fe6cf137f8cff5aaec5b97b8d",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "https://unsplash.com/photos/boats-on-a-river-with-city-buildings-in-background-_IdOI0J_doY",
+        "rights": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license"
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 64,
+          "src": "/images/responsive/varanasi-ghats-96w.webp",
+          "bytes": 1530,
+          "sha256": "fdda29a3297f5c0d00299d9ade50d86046b746264d40c88021e8439fbea8e19a",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 128,
+          "src": "/images/responsive/varanasi-ghats-192w.webp",
+          "bytes": 5096,
+          "sha256": "cec525c4c2933bb8f49aa885d3cc44287113862dcc11edd6781528d6e7c54a08",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 320,
+          "src": "/images/responsive/varanasi-ghats-480w.webp",
+          "bytes": 24580,
+          "sha256": "64ed38bc5ed08825a6a5e5cbd2b70086f98a67453519553b4c44313cff7e0144",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "/images/responsive/varanasi-ghats-960w.webp",
+          "bytes": 78324,
+          "sha256": "a467fbb26901e6861f6ae5434e611a070afe8e44431a3b8138a0ed2e6816a6e9",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "src": "/images/responsive/varanasi-ghats-1600w.webp",
+          "bytes": 173400,
+          "sha256": "d0b83210e8b10852c6dbfba236979a0c7d05900d7edd26bf73e2a5df9c0ee25c",
+          "retainedOriginal": false
+        }
+      ]
+    },
+    {
+      "source": "/images/varanasi-hero.webp",
+      "sourceDimensions": [
+        2800,
+        1867
+      ],
+      "sourceBytes": 888608,
+      "sourceSha256": "788ee583a8da163127ac056450d48a5d400e7794fdb78c51c6e50b8b59d11ccf",
+      "provenance": {
+        "ledger": "research/awwwards-revision/hero-asset.json",
+        "sourcePage": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-river-wloNuC7qKf8",
+        "rights": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license"
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 64,
+          "src": "/images/responsive/varanasi-hero-96w.webp",
+          "bytes": 2146,
+          "sha256": "002c1afa893fa35b6e1bdf1df67cb5b73f0abba29e2ce3f8e0ab524a859b634d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 128,
+          "src": "/images/responsive/varanasi-hero-192w.webp",
+          "bytes": 7316,
+          "sha256": "fff7e8de887d85a7b92c84635f377e278e1ead05dd5bbe2b6de5f5c3c55b10cf",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 320,
+          "src": "/images/responsive/varanasi-hero-480w.webp",
+          "bytes": 37524,
+          "sha256": "dabd1bbd96dc55c7895c52cae3ca18a2b286ad9fe6e82cd78cb9ed7a52031ab6",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "/images/responsive/varanasi-hero-960w.webp",
+          "bytes": 127240,
+          "sha256": "44eba0d4576a1263a37976e89c8b4e655cf4347477b06b4618cecef87b7fbd73",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "src": "/images/responsive/varanasi-hero-1600w.webp",
+          "bytes": 300704,
+          "sha256": "eb7de9c3f938799c8a05752082bfdb588e4c2b5def6716e9a0bea0301c6799c2",
+          "retainedOriginal": false
+        }
+      ]
+    }
+  ],
+  "cleanup": {
+    "removed": [],
+    "beforeFreeBytes": {
+      "C": 28668399616,
+      "D": 68058767360
+    },
+    "afterFreeBytes": {
+      "C": 28668461056,
+      "D": 68055740416
+    },
+    "retained": "All originals, responsive runtime files, provenance and generator."
+  }
+}

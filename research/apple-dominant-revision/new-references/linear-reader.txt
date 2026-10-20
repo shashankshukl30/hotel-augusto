@@ -1,0 +1,336 @@
+Title: Linear – The system for product development
+
+URL Source: https://linear.app/
+
+Markdown Content:
+## The product development system for teams and agents
+
+![Image 1](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/6600ca96-e49b-4fd9-c03a-7979faddad00/f=auto,fit=scale-down,metadata=none,width=2560)
+
+![Image 2](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c7fa8f5f-d439-4329-6a65-de549b51e300/f=auto,fit=scale-down,metadata=none,width=2560)
+
+### Faster app launch
+
+Render UI before `vehicle_state` sync when minimum required state is present, instead of blocking on full refresh during iOS startup.
+
+#### Activity
+
+![Image 3: Avatar of Karri](https://webassets.linear.app/images/ornj730p/production/f79251b06e9edeeacbf2875384defe629e000b3c-352x352.png?w=72&q=95&auto=format&dpr=2)
+
+Linear created the issue via Slack on behalf of Karri·2min ago
+
+Triage Intelligence added the labels Performance and iOS·2min ago
+
+![Image 4: Linear](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c2f6447a-d507-43c1-f3ab-3f2c6fbceb00/f=auto,fit=scale-down,metadata=none)
+
+Linear connected by Jori·2 min ago
+
+Changed 2 files Draft PR awaiting your review·2 min ago
+
+Linear moved from Todo to In Progress·just now
+
+Reviews
+
+Revert
+
+Properties
+
+In Progress
+
+Medium
+
+![Image 5: Avatar of Karri](https://webassets.linear.app/images/ornj730p/production/f79251b06e9edeeacbf2875384defe629e000b3c-352x352.png?w=72&q=95&auto=format&dpr=2)
+
+Karri
+
+![Image 6: Linear](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c2f6447a-d507-43c1-f3ab-3f2c6fbceb00/f=auto,fit=scale-down,metadata=none)Linear
+
+Cycle 144
+
+Labels
+
+Releases
+
+Linear App 1.6881...⋅Jun 25
+
+[](https://linear.app/customers)
+Powering the companies building the future
+
+## **A new species of product tool.**Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.
+
+Purpose-built
+
+Linear is shaped by the practices and principles of world-class product teams.
+
+Powered by agents
+
+Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs.
+
+Designed for speed
+
+Reduces noise and restores momentum to help teams ship with high velocity and focus.
+
+Fig 0.1
+
+Purpose-built
+
+Linear is shaped by the practices and principles of world-class product teams.
+
+Fig 0.2
+
+Powered by agents
+Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs.
+
+Fig 0.3
+
+Designed for speed
+
+Reduces noise and restores momentum to help teams ship with high velocity and focus.
+
+Reduce UI flicker during autonomy...
+
+Add buffering for autonomy event streams
+
+Reduce startup delay caused by vehicle sync
+
+Fix delayed route updates during rerouting
+
+Remove UI inconsistencies
+
+Bug Design
+
+TypeError: Cannot read properties
+
+Bug
+
+Upgrade to Claude Opus 5.5
+
+AI
+
+Optimize load times
+
+Performance
+
+Remove contentData from GraphQL API
+
+61039
+
+Launch page assets
+
+Design
+
+Prevent duplicate ride requests on poor...
+
+Bug 62048
+
+Clean up deprecated APIs...
+
+API 61002
+
+Reduce latency in autonomy st...
+
+61005
+
+Reduce ETA fluctuations durin...
+
+61202
+
+Improve fallback messaging
+
+UI 61149
+
+Improve rider visibility into veh...
+
+![Image 7: lena](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/580cd9c0-2770-4fe4-1ad2-95c76fc6f000/f=auto,fit=scale-down,metadata=none)
+
+Anyone else noticing the iOS app feels slow to open if you haven’t used it in a bit?
+
+![Image 8: didier](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c8aeedda-7726-4a4f-226a-f573f85d8d00/f=auto,fit=scale-down,metadata=none)
+
+Yea, we’re still blocking initial render on a full vehicle_state sync every time…
+
+![Image 9: andreas](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/22210a73-581d-42db-d42a-bf2907860300/f=auto,fit=scale-down,metadata=none)
+
+Feels like we could render sooner and load the rest in the background. Probably also worth tracking startup timing so we know how often this happens!
+
+@Linear create issues and assign to me
+
+![Image 10](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/7d7115d9-a0eb-4a92-5900-3ca3ee077d00/f=auto,fit=scale-down,metadata=none)
+
+MAR
+
+APR
+
+MAY
+
+JUN
+
+JUL
+
+AUG
+
+SEP
+
+2
+
+9
+
+16
+
+23
+
+6
+
+13
+
+20
+
+27
+
+4
+
+11
+
+18
+
+25
+
+1
+
+8
+
+15
+
+22
+
+6
+
+13
+
+20
+
+27
+
+3
+
+10
+
+17
+
+24
+
+7
+
+14
+
+21
+
+28
+
+UI Refresh
+
+Core screens
+
+Polish
+
+Split fares
+
+Internal
+
+Public Beta
+
+Autonomy status clarity
+
+Alpha
+
+Autonomy telemetry reliability
+
+Beta
+
+GA
+
+Oct 2025
+
+Nov 2025
+
+Dec 2025
+
+Jan 2026
+
+Feb 2026
+
+![Image 11](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/584d7dbd-ff4a-41bb-4fab-74fd5217a400/f=auto,fit=scale-down,metadata=none)
+
+what are the three most important customer requests around permissions? add them to the Access Controls project
+
+Worked for 8 sec
+
+Three issues ranked by customer impact:
+
+ENG-2298 Add granular project permissions
+
+ENG-2647 Let guests access multiple teams
+
+ENG-2352 Create custom roles with scoped access
+
+I’ve added them to Access Controls
+
+add retry handling for failed image uploads described in this issue
+
+ENG-2844 added to context
+
+Review today’s mobile triage and group the issues by what should happen next
+
+Mobile Triage added to context
+
+review this issue, draft complete offline mode requirements, and break the work into sub-issues
+
+ENG-2521 added to context
+
+Worked for 1 min
+
+Updated the issue with requirements, open product decisions, and acceptance criteria.
+
+ENG-2920 Define offline mode requirements
+
+![Image 12](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c16152f3-a36c-468e-89ae-f87c2f244d00/f=auto,fit=scale-down,metadata=none)
+
+ENG-2076 Reduce ETA jitter
+
+#55423 Performance Working…![Image 13](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/13a0909f-186f-4d83-3fd3-d04883ec2d00/f=auto,fit=scale-down,metadata=none)![Image 14](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/36d030ed-3a7c-48bb-349b-0427c2b60d00/f=auto,fit=scale-down,metadata=none)Oct 6
+
+ENG-2108 Handle GPS dropouts gracefully
+
+#55409 Maps Working…![Image 15](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/13a0909f-186f-4d83-3fd3-d04883ec2d00/f=auto,fit=scale-down,metadata=none)![Image 16](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/36d030ed-3a7c-48bb-349b-0427c2b60d00/f=auto,fit=scale-down,metadata=none)Oct 2
+
+ENG-2143 Optimize map tile loading on initial app open
+
+Maps![Image 17](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/c9d0b44c-78f9-4a9b-0a8e-f06a8187be00/f=auto,fit=scale-down,metadata=none)Oct 7
+
+ENG-2187 Prevent duplicate ride requests on poor networks
+
+Bug Working…![Image 18](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/f9ed2721-1966-4abc-129b-93aaac1a6200/f=auto,fit=scale-down,metadata=none)![Image 19](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/21de8e51-12ad-4d17-e347-f0e038c3a000/f=auto,fit=scale-down,metadata=none)Oct 5
+
+ENG-2254 Reduce unnecessary map re-rendering on home screen
+
+Maps![Image 20](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/f28b59f4-538c-4517-cfd7-510913015200/f=auto,fit=scale-down,metadata=none)Oct 10
+
+ENG-2291 Clean up deprecated APIs used by the rider app
+
+API![Image 21](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/e3bd83aa-9996-412f-0da3-7bf1f4701100/f=auto,fit=scale-down,metadata=none)Oct 9
+
+ENG-2327 Speed up CI pipelines for mobile builds
+
+Performance![Image 22](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/21de8e51-12ad-4d17-e347-f0e038c3a000/f=auto,fit=scale-down,metadata=none)Oct 9
+
+ENG-2358 Reduce flakiness in mobile UI tests
+
+Reliability![Image 23](https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/e0a81846-aac4-488d-743e-cac098b8f700/f=auto,fit=scale-down,metadata=none)Oct 4
+
+`import React from 'react'import { View, ActivityIndicator } from 'react-native'import { useVehicleState } from '@hooks/useVehicleState'import { Dashboard } from '@components/Dashboard'export const HomeScreen = () => {  const { vehicleState, isFullySynced } = useVehicleState()  if (!isFullySynced) {    return <ActivityIndicator size="large" />  }  return (    <View>      <Dashboard state={vehicleState} />    </View>  )}`
+
+`import React from 'react'import { View, ActivityIndicator } from 'react-native'import { useVehicleState, SyncStatus } from '@hooks/useVehicleState'import { Dashboard } from '@components/Dashboard'export const HomeScreen = () => {  const { vehicleState, syncStatus } = useVehicleState()  if (syncStatus === SyncStatus.PENDING) {    return <ActivityIndicator size="large" />  }  return (    <View>      <Dashboard state={vehicleState} syncStatus={syncStatus} />    </View>  )}`
+
+`export const CodeReview = () => {  <Diff.Provider>    <Slow />    <Fragmented />    <HumanOnly />    <Frictionless />    <Integrated />    <AgentReady />  </Diff.Provider>};`
+
+## Changelog

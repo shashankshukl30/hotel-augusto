@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { validateEnquiry, buildWhatsAppUrl, nextDate } from '../lib/booking.ts';
+import { validateEnquiry, buildWhatsAppUrl, nextDate, stayNights } from '../lib/booking.ts';
 
 const valid = { arrival: '2026-12-30', departure: '2027-01-02', adults: '2', children: '1', room: 'Family Room', name: 'Mira & Arun', notes: 'Arriving after 7 pm.' };
 test('enquiry accepts cross-year stays and keeps all travel details in a safe WhatsApp draft', () => {
@@ -27,4 +27,16 @@ test('date increment handles month ends and leap years without browser timezone 
   assert.equal(nextDate('2026-12-31'), '2027-01-01');
   assert.equal(nextDate('2028-02-28'), '2028-02-29');
   assert.equal(nextDate('2026-02-28'), '2026-03-01');
+});
+test('requested room counts validate and survive the WhatsApp enquiry', () => {
+  for (const roomCount of ['0', '9', '-1', '1.5', '']) assert.ok(validateEnquiry({...valid, roomCount}, '2026-10-19').roomCount);
+  assert.deepEqual(validateEnquiry({...valid, roomCount:'3'}, '2026-10-19'), {});
+  assert.ok(new URL(buildWhatsAppUrl('918081709146', {...valid, roomCount:'3'})).searchParams.get('text').includes('Rooms requested: 3'));
+});
+test('night counts handle year boundaries, leap days and invalid ranges', () => {
+  assert.equal(stayNights('2026-12-30', '2027-01-02'), 3);
+  assert.equal(stayNights('2028-02-28', '2028-03-01'), 2);
+  assert.equal(stayNights('2026-03-08', '2026-03-09'), 1);
+  assert.equal(stayNights('', '2026-03-09'), 0);
+  assert.equal(stayNights('2026-03-09', '2026-03-08'), 0);
 });

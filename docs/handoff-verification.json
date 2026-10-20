@@ -1,85 +1,135 @@
 {
-  "verified": "2026-10-20T06:07:13.872495+00:00",
+  "verified": "2026-10-20T07:32:48.400057+00:00",
   "rendered_snapshot_sha256": {
-    "HANDOFF.md": "f89d215bc0d9a7232e64c7968989df909b71fbc6fc269f6f861b442441ae2c6b",
-    "HANDOFF.docx": "7fd31be993c3da1524c060bfdf571497f12a284e11690eea335339fe3da0f8f8"
+    "HANDOFF.md": "0498972ed451a6fe2abe7748d2567bf536f9034d7ed33c69b555885f8047f3f9",
+    "HANDOFF.docx": "b572a5a2377819398d7f56003bc97b69ddea088b3988292e871096950c000986"
   },
-  "word_render_pages": 3,
+  "word_render_pages": 4,
   "page_text_out_of_bounds": [],
   "all_pages_visually_inspected": true,
   "docx_reopened": true,
   "zip_integrity": true,
-  "renderer": "Microsoft Word direct PDF export via win32com without explicit repagination; PyMuPDF page images. All three final pages visually inspected; task-owned Word process closed.",
-  "qa_report": "evidence/hospitality-revision/production-qa.json",
-  "qa_report_sha256": "cc00b8f00b05fc23ed516c4d7f2a25a02c79eeefcc191609da31ffdbdb8d843d",
+  "renderer": "Microsoft Word direct ExportAsFixedFormat, no explicit repagination; dedicated hidden Word instance closed.",
+  "render_evidence": "evidence/apple-dominant-revision/handoff-review/render.json",
+  "qa_report": "evidence/apple-dominant-revision/production-qa.json",
+  "qa_report_sha256": "e9870daa35194657b34aec712a5edfe9bcd1c25ee839892775d7dfa7bdb96261",
   "qa_summary": {
-    "viewportChecks": 102,
-    "axeAudits": 34,
+    "viewportChecks": 108,
+    "axeAudits": 36,
     "interactionChecks": 40,
     "failures": 0,
     "passed": true
   },
-  "qa_completed": "2026-10-20T05:58:42.349172+00:00",
-  "production_audit": "evidence/production-audit.json",
-  "production_audit_sha256": "fd02802cd2b00953fb1510d3fa14fc93021695a0fa23064052ed9b37d73e57ad",
-  "production_audit_generated": "2026-10-20T06:00:16.943938+00:00",
-  "publication_status": "Owner-private Sites preview configured; current publication status is recorded in evidence/hospitality-revision/private-deployment.json. The public hotel launch remains separate.",
-  "cleanup": {
-    "record": "evidence/hospitality-revision/handoff-render-cleanup.json",
-    "removed_bytes": 636259,
-    "retained_render_evidence": [
-      {
-        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\HANDOFF.pdf",
-        "bytes": 283308,
-        "sha256": "4ca01f88141974ac0e1f36b30e45cefedd538fdf622922ab754170e24c2e7257",
-        "reason": "Final visually inspected handoff render evidence."
-      },
-      {
-        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-1.png",
-        "bytes": 188773,
-        "sha256": "7fec581e6a86fe90666110759834636455ec6a54b8b19cd04e967eb7c2e3a6c3",
-        "reason": "Final visually inspected handoff render evidence."
-      },
-      {
-        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-2.png",
-        "bytes": 199269,
-        "sha256": "83e6bf4a74c103c125b1b2d28386a04142839933e1c1095291a3041f6c346b09",
-        "reason": "Final visually inspected handoff render evidence."
-      },
-      {
-        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-3.png",
-        "bytes": 218443,
-        "sha256": "b4ab8d779b7d9ea2720bc92af55ca4654dca9dc340efb19aba1eaa97627e6476",
-        "reason": "Final visually inspected handoff render evidence."
-      }
-    ],
-    "prior_blocked_artifacts_untouched": true,
-    "final_refinement": {
-      "removed": [],
-      "removedBytes": 0,
-      "newDisposableFiles": false,
-      "retained": "Refreshed current final PDF and three page images; no extra scratch was created. Prior blocked files untouched.",
-      "freeBytes": {
-        "C": 26294427648,
-        "D": 68127993856
-      }
+  "qa_completed": "2026-10-20T07:25:36.282700+00:00",
+  "conversion_original": {
+    "path": "evidence/apple-dominant-revision/conversion-upgrade-qa.json",
+    "sha256": "e461ad27174be77d22045182d937008daa2d90fd65d0b86b797b4ba8fccb76b8",
+    "summary": {
+      "checks": 211,
+      "passed": 209,
+      "failed": 2
     }
   },
-  "previous_verification": {
-    "verified": "2026-10-20T05:26:55.349375+00:00",
-    "rendered_snapshot_sha256": {
-      "HANDOFF.md": "e1c8276f9140ffce3b765ecbb37d5e3c83553bc34df83c899832817c216d7076",
-      "HANDOFF.docx": "145df197ab0bfcc7c9ba1502c08529a5ddfa3a2feadbd2f11451d14a926ee452"
+  "conversion_dining_retest": {
+    "path": "evidence/apple-dominant-revision/conversion-dining-retest-20261020T073017878694Z.json",
+    "sha256": "66590370b6795058c924ee8d22e5b055b7ba00f7d7f8bff10872b799c5bc857e",
+    "summary": {
+      "checks": 13,
+      "passed": 13,
+      "failed": 0
     },
-    "qa_report": "evidence/qa-apple-premium-production.json",
-    "qa_summary": {
-      "viewportChecks": 72,
-      "axeAudits": 24,
-      "interactionChecks": 76,
-      "failures": 0,
-      "passed": true,
-      "retestedInteractionChecks": 3
-    }
+    "baseline_preserved": true,
+    "correction": "Original PDF assertions guessed the title; targeted checks use actual text and download/source hash. Original 209/211 retained separately from 13/13 retest."
   },
-  "publication_status_record": "evidence/hospitality-revision/private-deployment.json"
+  "production_audit": "evidence/apple-dominant-revision/production-audit.json",
+  "production_audit_sha256": "2bf7559dd416708c546ea0f9dcd1d2c17c631eb6c11fef49962d1028ca650dc8",
+  "production_audit_generated": "2026-10-20T07:29:12.879370+00:00",
+  "publication_status_record": "evidence/apple-dominant-revision/private-deployment.json",
+  "publication_status": "Owner-private preview configured; current status is recorded in the deployment receipt. Public hotel launch is separate.",
+  "cleanup_review": "evidence/apple-dominant-revision/handoff-review/storage-review.json",
+  "previous_verification": {
+    "verified": "2026-10-20T06:07:13.872495+00:00",
+    "rendered_snapshot_sha256": {
+      "HANDOFF.md": "f89d215bc0d9a7232e64c7968989df909b71fbc6fc269f6f861b442441ae2c6b",
+      "HANDOFF.docx": "7fd31be993c3da1524c060bfdf571497f12a284e11690eea335339fe3da0f8f8"
+    },
+    "word_render_pages": 3,
+    "page_text_out_of_bounds": [],
+    "all_pages_visually_inspected": true,
+    "docx_reopened": true,
+    "zip_integrity": true,
+    "renderer": "Microsoft Word direct PDF export via win32com without explicit repagination; PyMuPDF page images. All three final pages visually inspected; task-owned Word process closed.",
+    "qa_report": "evidence/hospitality-revision/production-qa.json",
+    "qa_report_sha256": "cc00b8f00b05fc23ed516c4d7f2a25a02c79eeefcc191609da31ffdbdb8d843d",
+    "qa_summary": {
+      "viewportChecks": 102,
+      "axeAudits": 34,
+      "interactionChecks": 40,
+      "failures": 0,
+      "passed": true
+    },
+    "qa_completed": "2026-10-20T05:58:42.349172+00:00",
+    "production_audit": "evidence/production-audit.json",
+    "production_audit_sha256": "fd02802cd2b00953fb1510d3fa14fc93021695a0fa23064052ed9b37d73e57ad",
+    "production_audit_generated": "2026-10-20T06:00:16.943938+00:00",
+    "publication_status": "Owner-private Sites preview configured; current publication status is recorded in evidence/hospitality-revision/private-deployment.json. The public hotel launch remains separate.",
+    "cleanup": {
+      "record": "evidence/hospitality-revision/handoff-render-cleanup.json",
+      "removed_bytes": 636259,
+      "retained_render_evidence": [
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\HANDOFF.pdf",
+          "bytes": 283308,
+          "sha256": "4ca01f88141974ac0e1f36b30e45cefedd538fdf622922ab754170e24c2e7257",
+          "reason": "Final visually inspected handoff render evidence."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-1.png",
+          "bytes": 188773,
+          "sha256": "7fec581e6a86fe90666110759834636455ec6a54b8b19cd04e967eb7c2e3a6c3",
+          "reason": "Final visually inspected handoff render evidence."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-2.png",
+          "bytes": 199269,
+          "sha256": "83e6bf4a74c103c125b1b2d28386a04142839933e1c1095291a3041f6c346b09",
+          "reason": "Final visually inspected handoff render evidence."
+        },
+        {
+          "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-hospitality-review\\final-page-3.png",
+          "bytes": 218443,
+          "sha256": "b4ab8d779b7d9ea2720bc92af55ca4654dca9dc340efb19aba1eaa97627e6476",
+          "reason": "Final visually inspected handoff render evidence."
+        }
+      ],
+      "prior_blocked_artifacts_untouched": true,
+      "final_refinement": {
+        "removed": [],
+        "removedBytes": 0,
+        "newDisposableFiles": false,
+        "retained": "Refreshed current final PDF and three page images; no extra scratch was created. Prior blocked files untouched.",
+        "freeBytes": {
+          "C": 26294427648,
+          "D": 68127993856
+        }
+      }
+    },
+    "previous_verification": {
+      "verified": "2026-10-20T05:26:55.349375+00:00",
+      "rendered_snapshot_sha256": {
+        "HANDOFF.md": "e1c8276f9140ffce3b765ecbb37d5e3c83553bc34df83c899832817c216d7076",
+        "HANDOFF.docx": "145df197ab0bfcc7c9ba1502c08529a5ddfa3a2feadbd2f11451d14a926ee452"
+      },
+      "qa_report": "evidence/qa-apple-premium-production.json",
+      "qa_summary": {
+        "viewportChecks": 72,
+        "axeAudits": 24,
+        "interactionChecks": 76,
+        "failures": 0,
+        "passed": true,
+        "retestedInteractionChecks": 3
+      }
+    },
+    "publication_status_record": "evidence/hospitality-revision/private-deployment.json"
+  }
 }

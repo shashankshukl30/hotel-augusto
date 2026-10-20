@@ -39,7 +39,7 @@ export default function PrivacyPage() {
     <main id="main" className="privacy-page">
       <section className="container privacy-intro">
         <Reveal>
-          <h1>Your privacy.<br />In plain language.</h1>
+          <h1>Privacy.<br />In plain language.</h1>
           <p className="privacy-intro-copy">
             How this website handles your information, with credits for
             the photographs that bring Varanasi to these pages.
@@ -78,7 +78,8 @@ export default function PrivacyPage() {
                 reservations. Availability, rates and booking terms are agreed
                 directly with the hotel.
               </p>
-              <p>The date and guest selector carries your travel dates, party size and room preference to the enquiry page in its URL. These preferences may remain in your browser history. Your name and personal notes are not included in that link.</p>
+              <p>The date and guest selector carries your travel dates, party size, requested room count and room preference to the enquiry page in its URL. These preferences may remain in your browser history. Your name and personal notes are not included in that link.</p>
+              <p>Dining and group-stay forms also prepare messages on your device. Optional names, company details and requests are shared with WhatsApp only when you choose the enquiry link. No message is sent automatically.</p>
             </section>
 
             <section className="privacy-section" id="technical-information">

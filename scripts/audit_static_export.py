@@ -1,4 +1,5 @@
 """Read-only checks for the Sites export; hosting behavior needs a live check."""
+import argparse
 import json
 import posixpath
 import re
@@ -12,13 +13,16 @@ from fontTools.ttLib import TTFont
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser()
+parser.add_argument("--output", default="evidence/hospitality-revision/static-export-audit.json")
+args = parser.parse_args()
 OUT = ROOT / "out"
 BASE = "https://hotel-augusto.candy-okapi-4696.chatgpt.site"
 ROUTES = [
     "/", "/hotel", "/rooms", "/rooms/compare", "/rooms/deluxe-room",
     "/rooms/deluxe-twin-room", "/rooms/family-room", "/dining", "/varanasi",
     "/gallery", "/guides", "/guides/arriving-in-godowlia",
-    "/guides/choosing-your-room", "/guides/first-visit-to-kashi", "/contact", "/privacy",
+    "/guides/choosing-your-room", "/guides/first-visit-to-kashi", "/group-stays", "/contact", "/privacy",
 ]
 
 
@@ -82,7 +86,7 @@ def local_path(url, source):
 
 
 def main():
-    report_path = ROOT / "evidence/hospitality-revision/static-export-audit.json"
+    report_path = ROOT / args.output
     previous = json.loads(report_path.read_text()) if report_path.exists() else None
     before = {d: shutil.disk_usage(d + ":/").free for d in ["C", "D"]}
     checks, pages, dependencies, missing_links, metadata_issues, forms, actions = [], [], {}, [], [], [], []

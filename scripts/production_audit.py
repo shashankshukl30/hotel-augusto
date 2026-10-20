@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--base-url', default='http://127.0.0.1:3081')
 parser.add_argument('--output-dir', default='evidence/apple-premium')
+parser.add_argument('--report', default='evidence/production-audit.json')
 args = parser.parse_args()
 base = args.base_url.rstrip('/')
 report = {'generated': datetime.now(timezone.utc).isoformat(), 'base_url': base,
@@ -70,5 +71,5 @@ with sync_playwright() as p:
         context.close()
     browser.close()
 report['performance'] = {'method':'Cold browser cache; mobile: 1.6 Mbps downstream, 150ms latency, 4x CPU slowdown. Local server and machine affect timings.', 'samples': samples}
-(ROOT / 'evidence' / 'production-audit.json').write_text(json.dumps(report, indent=2),encoding='utf-8')
+(ROOT / args.report).write_text(json.dumps(report, indent=2),encoding='utf-8')
 print(json.dumps({'headers':'pass','og':report['og'],'samples':[{'width':s['width'],'lcpMs':round(s['lcp']),'cls':s['cls'],'fcpMs':round(s['fcp']),'errors':s['errors']} for s in samples]}))

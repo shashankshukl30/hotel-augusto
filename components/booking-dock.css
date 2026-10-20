@@ -1,0 +1,17 @@
+:root { --booking-dock-height:92px; }
+html { scroll-padding-bottom:calc(var(--booking-dock-height) + 24px); }
+body { padding-bottom:var(--booking-dock-height); }
+.booking-dock { position:fixed; inset:auto 0 0; z-index:38; background:var(--paper); border-top:1px solid var(--line); padding:15px max(24px,env(safe-area-inset-right)) max(15px,env(safe-area-inset-bottom)); box-shadow:0 -6px 24px oklch(.2 .005 260 / .025); }
+.booking-dock-inner { display:flex; gap:32px; align-items:center; max-width:1320px; margin-inline:auto; position:relative; }
+.booking-dock-copy { margin-right:auto; min-width:190px; }.booking-dock-copy strong { display:block; font-size:18px; font-weight:600; letter-spacing:-.04em; }.booking-dock-copy span { display:block; margin-top:5px; color:var(--muted); font-size:12px; }
+.booking-dock-fields { display:grid; grid-template-columns:160px 160px 112px auto; gap:12px; align-items:center; }
+.dock-date,.dock-guests { position:relative; min-width:0; }.dock-date label,.dock-guests label { position:absolute; top:7px; left:13px; z-index:1; color:var(--muted); font-size:11px; line-height:1.2; pointer-events:none; }
+.dock-date input,.dock-guests select { width:100%; min-width:0; height:56px; border:1px solid var(--line); background:var(--surface); color:var(--ink); border-radius:12px; padding:22px 12px 6px; font-size:15px; color-scheme:light; cursor:pointer; transition:border-color 180ms,background 180ms; }.dock-date input:hover,.dock-guests select:hover { border-color:var(--muted); background:var(--paper-deep); }
+.dock-submit { height:52px; padding-inline:24px; font-size:15px; }.dock-submit svg { transition:transform 200ms; }.dock-submit:hover svg { transform:translateX(3px); }
+.dock-error { position:absolute; bottom:calc(100% + 22px); right:0; margin:0; padding:12px 18px; border:1px solid oklch(.78 .08 25); border-radius:12px; background:var(--paper); color:oklch(.44 .15 25); font-size:14px; box-shadow:0 4px 20px oklch(.2 .005 260 / .05); }
+@media(max-width:1100px) { .booking-dock-copy { display:none; }.booking-dock-fields { width:100%; grid-template-columns:1fr 1fr 112px auto; } }
+@media(max-width:600px) {
+ :root { --booking-dock-height:130px; }
+ .booking-dock { padding:10px 16px max(10px,env(safe-area-inset-bottom)); }.booking-dock-fields { grid-template-columns:repeat(6,minmax(0,1fr)); gap:8px; }.dock-date { grid-column:span 3; }.dock-guests { grid-column:span 2; }.dock-date input { height:54px; font-size:16px; }.dock-date label { font-size:11px; }.dock-guests label { display:none; }.dock-guests select { height:44px; padding:8px 10px; font-size:15px; border-radius:999px; }.dock-submit { grid-column:span 4; height:44px; min-height:44px; font-size:14px; padding:8px 14px; gap:5px; }.dock-error { bottom:calc(100% + 18px); left:0; right:0; font-size:13px; }
+}
+@media(prefers-reduced-motion:reduce) { .dock-submit:hover svg { transform:none; } }

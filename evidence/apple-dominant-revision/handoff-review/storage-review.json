@@ -1,0 +1,57 @@
+{
+  "checked": "2026-10-20T07:32:48.397608+00:00",
+  "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review",
+  "freeBytes": {
+    "C": 20468162560,
+    "D": 68004945920
+  },
+  "removed": [],
+  "removedBytes": 0,
+  "supersededReviewImagesForRootCleanup": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review\\page-5.png",
+      "bytes": 228084,
+      "sha256": "2590b9702062f0b0f73b05df015afbe70c082496ea4488f272d7e91552bd8365",
+      "reason": "Superseded page image from the first six-page pagination check; final four-page render is verified and retained."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review\\page-6.png",
+      "bytes": 42019,
+      "sha256": "ace32b3645a7e6b12854c0c81a69a52a6c60f032a7b18d9ed293630240b4eaa1",
+      "reason": "Superseded page image from the first six-page pagination check; final four-page render is verified and retained."
+    }
+  ],
+  "retained": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review\\HANDOFF.pdf",
+      "bytes": 293431,
+      "sha256": "27398ee89050aa179e57c9ec3e4608a2421209d713fdd5ad9e22a6e88d0cfba3"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review\\render.json",
+      "bytes": 964,
+      "sha256": "1fe92e7dd1c61c7a80f4125ed60040fa436270ed2dd5482c4a55bceee66a46f6"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review\\page-1.png",
+      "bytes": 184806,
+      "sha256": "aee6182dd1695e9e3cf6083aeb1a35f8c6ecb581bbd0c9df77779c8a80d27050"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review\\page-2.png",
+      "bytes": 190304,
+      "sha256": "ca8a583ac6b39f2f7b3b0df1f88818493325c912e48a57d433957c4c600fa9c4"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review\\page-3.png",
+      "bytes": 236016,
+      "sha256": "732d166b1c2c780d89bdb93286fd5cf587ff2617a9e93bf83e8a10ac4b1cab65"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\handoff-review\\page-4.png",
+      "bytes": 74548,
+      "sha256": "f9b28f6841395ceb4b06b35bac9c224654d4830d5d4a77ea8ed143eb43bd2b5f"
+    }
+  ],
+  "priorBlockedArtifactsUntouched": true
+}

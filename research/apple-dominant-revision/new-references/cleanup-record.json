@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-20T07:16:16.101763+00:00",
+  "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\apple-dominant-revision\\new-references",
+  "driveFreeBytesAtStartOfOwnedGroupWork": {
+    "C": 28665868288,
+    "D": 68058939392
+  },
+  "driveFreeBytesAtEndOfReferenceWork": {
+    "C": 20495204352,
+    "D": 67906134016
+  },
+  "removed": [],
+  "retainedReason": "The task created source code, a repeatable group QA script, source-linked research and browser evidence. No task-owned disposable files or verified duplicate survivors were identified; all remain useful evidence. No downloads, caches, sibling folders or application recovery material were purged.",
+  "attributionLimit": "Other agents built and captured concurrently. Drive-space changes cannot be attributed to this bounded subtask.",
+  "verification": "New findings/source JSON parse successfully. Existing images opened in view_image. New city TSX passed scoped ESLint and CSS parsed with PostCSS."
+}

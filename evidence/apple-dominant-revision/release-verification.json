@@ -1,0 +1,71 @@
+﻿{
+    "checked":  "2026-10-20T07:31:05.2057091Z",
+    "status":  "local-verification-passed; private publication pending",
+    "lint":  "pass",
+    "typecheck":  "pass",
+    "unitTests":  {
+                      "passed":  18,
+                      "failed":  0
+                  },
+    "normalBuild":  "pass",
+    "staticBuild":  "pass",
+    "browser":  {
+                    "report":  "production-qa.json",
+                    "viewportChecks":  108,
+                    "interactions":  40,
+                    "axeAudits":  36,
+                    "failures":  0
+                },
+    "roomChecks":  {
+                       "report":  "rooms-review.json",
+                       "interactions":  29,
+                       "layouts":  21,
+                       "axeAudits":  10,
+                       "failures":  0
+                   },
+    "conversion":  {
+                       "initialPassed":  209,
+                       "retest":  "conversion-dining-retest-20261020T073017878694Z.json",
+                       "report":  "conversion-upgrade-qa.json",
+                       "initialFailures":  2,
+                       "reason":  "Both failures were an incorrect expected PDF title in the test. Download signature, one-page count and source SHA were valid.",
+                       "correctedRetestPassed":  13,
+                       "baselinePreserved":  true,
+                       "initialChecks":  211,
+                       "correctedRetestFailures":  0
+                   },
+    "staticExport":  {
+                         "failed":  0,
+                         "checks":  64,
+                         "report":  "static-export-audit.json"
+                     },
+    "visualReview":  {
+                         "captures":  46,
+                         "errors":  0,
+                         "inspected":  [
+                                           "home-1440-hero.png",
+                                           "home-390-hero.png",
+                                           "home-1440-city.png",
+                                           "home-390-city.png",
+                                           "home-1440-city-photo.png",
+                                           "home-390-city-photo.png",
+                                           "rooms-1440-intro.png",
+                                           "rooms-390-intro.png",
+                                           "dining-1440-intro.png",
+                                           "group-stays-390-intro.png",
+                                           "opengraph-image.png"
+                                       ],
+                         "report":  "visual-review-captures.json"
+                     },
+    "finalRefinement":  "After the full layout sweep, only responsive image sizes hints changed to match tall mobile cover crops. Final builds, targeted conversion/image tests, room checks, performance samples and46captures use that final source.",
+    "performance":  {
+                        "scope":  "Local cold-cache synthetic samples:1.6Mbps,150mslatency,4xCPU. Not field data.",
+                        "cls":  0,
+                        "mobileLcpMs":  [
+                                            1624,
+                                            1692
+                                        ],
+                        "report":  "production-audit.json"
+                    },
+    "messagesSent":  0
+}

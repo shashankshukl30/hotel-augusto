@@ -8,9 +8,9 @@ import type { ReactNode } from "react";
 export function Reveal({ children, className, delay = 0 }: { children: ReactNode; className?: string; delay?: number }) {
   const reduced = useMotionPreference();
   return <motion.div className={`motion-reveal${className ? ` ${className}` : ""}`} initial={false}
-    whileInView={reduced ? {} : { y: [32, 0], opacity: [.72, 1] }}
+    whileInView={reduced ? {} : { y: [18, 0], opacity: [.85, 1] }}
     viewport={{ once: true, amount: .18 }}
-    transition={{ duration: reduced ? 0 : .9, delay: reduced ? 0 : delay, ease: [.22, 1, .36, 1] }}>
+    transition={{ duration: reduced ? 0 : .65, delay: reduced ? 0 : delay, ease: [.22, 1, .36, 1] }}>
     {children}
   </motion.div>;
 }

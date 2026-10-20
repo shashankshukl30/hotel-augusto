@@ -1,0 +1,133 @@
+{
+  "started": "2026-10-20T07:30:17.878721+00:00",
+  "baseUrl": "http://127.0.0.1:3080",
+  "browser": "One fresh headless Microsoft Edge process",
+  "runType": "supplemental-retest",
+  "requestedCases": [
+    "dining"
+  ],
+  "externalMessagesSent": 0,
+  "externalNavigationAttempts": [],
+  "checks": [
+    {
+      "name": "390: dining date is required and first error receives focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "390: dining rejects an invalid party count",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "390: dining prepares an encoded, unsent WhatsApp draft",
+      "passed": true,
+      "evidence": {
+        "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20dining.%0AName%3A%20QA%20%26%20dining%20guest%0APreferred%20date%3A%2019%20Nov%202026%0AInterested%20in%3A%20Breakfast%0APeople%20in%20our%20party%3A%205%0ANote%3A%20Please%20confirm%20serving%20times%20%26%20meal%20inclusions.%0APlease%20share%20the%20current%20menu%2C%20serving%20times%2C%20availability%20and%20charges.%20Please%20confirm%20any%20meal%20inclusions%20for%20my%20stay.%20Thank%20you!",
+        "message": "Hello Hotel Augusto, I would like to enquire about dining.\nName: QA & dining guest\nPreferred date: 19 Nov 2026\nInterested in: Breakfast\nPeople in our party: 5\nNote: Please confirm serving times & meal inclusions.\nPlease share the current menu, serving times, availability and charges. Please confirm any meal inclusions for my stay. Thank you!"
+      }
+    },
+    {
+      "name": "390: editing dining details invalidates the previous draft",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "390: dining guide downloads as the valid one-page PDF",
+      "passed": true,
+      "evidence": {
+        "filename": "hotel-augusto-dining-guide.pdf",
+        "bytes": 355874,
+        "pages": 1,
+        "normalizedText": "hotel augusto \u00b7 varanasi dining, around your day. a vegetarian meal at the hotel. a quiet meal in your room. plan what works for your day in varanasi. the restaurant at hotel augusto. at the restaurant vegetarian dining is available on site. ask the team for the current menu, prices and serving times. in your room room service is another option. ask what can be ordered, when it is available and any applicable charges. before you enquire 1. share your preferred date, time and the number of people in your party. 2. check which meals your room plan includes, especially breakfast. 3. tell the hotel about dietary requirements before you order. talk to the hotel +91 80817 09146 enquire on whatsapp \u0000the hotel will confirm your dining arrangements, menu, serving times and charges. d 36/1, august kunda road, godowlia, jangambari, varanasi 221001 \u00b7 opposite state bank of india planning information checked 20 october 2026. sources: google \u00b7 makemytrip",
+        "sha256": "b7e34ec7e9058bde33f1c33de4512e846246d229016cea5b0c7abde8aafe2e0a"
+      }
+    },
+    {
+      "name": "1440: dining date is required and first error receives focus",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "1440: dining rejects an invalid party count",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "1440: dining prepares an encoded, unsent WhatsApp draft",
+      "passed": true,
+      "evidence": {
+        "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20dining.%0AName%3A%20QA%20%26%20dining%20guest%0APreferred%20date%3A%2019%20Nov%202026%0AInterested%20in%3A%20Breakfast%0APeople%20in%20our%20party%3A%205%0ANote%3A%20Please%20confirm%20serving%20times%20%26%20meal%20inclusions.%0APlease%20share%20the%20current%20menu%2C%20serving%20times%2C%20availability%20and%20charges.%20Please%20confirm%20any%20meal%20inclusions%20for%20my%20stay.%20Thank%20you!",
+        "message": "Hello Hotel Augusto, I would like to enquire about dining.\nName: QA & dining guest\nPreferred date: 19 Nov 2026\nInterested in: Breakfast\nPeople in our party: 5\nNote: Please confirm serving times & meal inclusions.\nPlease share the current menu, serving times, availability and charges. Please confirm any meal inclusions for my stay. Thank you!"
+      }
+    },
+    {
+      "name": "1440: editing dining details invalidates the previous draft",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "1440: dining guide downloads as the valid one-page PDF",
+      "passed": true,
+      "evidence": {
+        "filename": "hotel-augusto-dining-guide.pdf",
+        "bytes": 355874,
+        "pages": 1,
+        "normalizedText": "hotel augusto \u00b7 varanasi dining, around your day. a vegetarian meal at the hotel. a quiet meal in your room. plan what works for your day in varanasi. the restaurant at hotel augusto. at the restaurant vegetarian dining is available on site. ask the team for the current menu, prices and serving times. in your room room service is another option. ask what can be ordered, when it is available and any applicable charges. before you enquire 1. share your preferred date, time and the number of people in your party. 2. check which meals your room plan includes, especially breakfast. 3. tell the hotel about dietary requirements before you order. talk to the hotel +91 80817 09146 enquire on whatsapp \u0000the hotel will confirm your dining arrangements, menu, serving times and charges. d 36/1, august kunda road, godowlia, jangambari, varanasi 221001 \u00b7 opposite state bank of india planning information checked 20 october 2026. sources: google \u00b7 makemytrip",
+        "sha256": "b7e34ec7e9058bde33f1c33de4512e846246d229016cea5b0c7abde8aafe2e0a"
+      }
+    },
+    {
+      "name": "No JavaScript, console or unexpected HTTP errors",
+      "passed": true,
+      "evidence": {
+        "runtimeErrors": [],
+        "consoleErrors": [],
+        "failedResponses": []
+      }
+    },
+    {
+      "name": "No WhatsApp link was opened or sent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Original full-run report remains byte-identical",
+      "passed": true,
+      "evidence": {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\conversion-upgrade-qa.json",
+        "sha256": "e461ad27174be77d22045182d937008daa2d90fd65d0b86b797b4ba8fccb76b8",
+        "finished": "2026-10-20T07:27:37.930214+00:00",
+        "summary": {
+          "checks": 211,
+          "passed": 209,
+          "failed": 2
+        },
+        "preservedUnchanged": true
+      }
+    }
+  ],
+  "runtimeErrors": [],
+  "consoleErrors": [],
+  "failedResponses": [],
+  "staticPages": [],
+  "browserClosed": true,
+  "baselineReport": {
+    "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-dominant-revision\\conversion-upgrade-qa.json",
+    "sha256": "e461ad27174be77d22045182d937008daa2d90fd65d0b86b797b4ba8fccb76b8",
+    "finished": "2026-10-20T07:27:37.930214+00:00",
+    "summary": {
+      "checks": 211,
+      "passed": 209,
+      "failed": 2
+    },
+    "preservedUnchanged": true
+  },
+  "summary": {
+    "checks": 13,
+    "passed": 13,
+    "failed": 0
+  },
+  "status": "pass",
+  "finished": "2026-10-20T07:30:21.949581+00:00"
+}

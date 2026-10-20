@@ -1,0 +1,33 @@
+﻿{
+    "completed":  "2026-10-20T07:31:05.0573908Z",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto",
+    "taskStartFreeBytes":  {
+                               "D":  68091105280,
+                               "C":  28931465216
+                           },
+    "finalFreeBytes":  {
+                           "D":  68004937728,
+                           "C":  20478832640
+                       },
+    "removedBytes":  573378324,
+    "removedFiles":  1194,
+    "removalManifests":  [
+                             "dev-output-cleanup.json",
+                             "dev-output-cleanup-final.json"
+                         ],
+    "reason":  "Only generated inactive .next/dev files from stopped task-owned development servers were removed; each manifest records resolved paths, bytes, before/after space and production verification.",
+    "retained":  [
+                     "User logo.jpeg and required byte-identical runtime/export copies",
+                     "Genuine original and responsive runtime photographs plus provenance",
+                     "Editable source, documents, dependencies, current .next production build and out export",
+                     "Distinct reference and verification evidence",
+                     "Earlier cleanup-blocked archive/document scratch files were retained without retry",
+                     "handoff-review/page-5.png and page-6.png: automatic approval review rejected scoped deletion as blocked by policy; no retry was attempted"
+                 ],
+    "verified":  [
+                     "Production HTTP200 after cleanup",
+                     "Original, runtime and export logo SHA256 identical",
+                     "Static export64checks pass with all local dependencies",
+                     "Dining PDF download and source hash match"
+                 ]
+}

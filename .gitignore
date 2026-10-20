@@ -23,8 +23,11 @@ evidence/**/*.png
 !evidence/apple-premium/*.png
 !evidence/hospitality-revision/home-*-top.png
 !evidence/hospitality-revision/opengraph-image.png
+!evidence/apple-dominant-revision/home-*-hero.png
+!evidence/apple-dominant-revision/opengraph-image.png
 research/design-qa/**/*.png
 # Local Word rendering evidence and retained cleanup-blocked scratch.
 docs/.handoff-review/
 docs/.handoff-hospitality-review/
+docs/.handoff-apple-dominant-review/
 research/ota-revision/.document-review/

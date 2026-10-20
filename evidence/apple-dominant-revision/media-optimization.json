@@ -1,0 +1,87 @@
+{
+  "generated": "2026-10-20T06:59:15.683751+00:00",
+  "scope": "Source, unit and local asset verification; parent build and browser delivery checks remain pending.",
+  "summary": {
+    "sources": 22,
+    "originalBytes": 4382520,
+    "generatedFiles": 92,
+    "generatedBytes": 2790272,
+    "responsiveTotals": {
+      "480": {
+        "bytesAcrossAllImages": 521332,
+        "reductionFromOriginalPercent": 88.1
+      },
+      "960": {
+        "bytesAcrossAllImages": 1560802,
+        "reductionFromOriginalPercent": 64.39
+      },
+      "1600": {
+        "bytesAcrossAllImages": 3505716,
+        "reductionFromOriginalPercent": 20.01
+      }
+    }
+  },
+  "checks": {
+    "decodedVariants": 110,
+    "allDecodedAndNoUpscaling": true,
+    "allSourceHashesUnchanged": true,
+    "loaderUnitTestsPassed": 5,
+    "loaderUnitTestsFailed": 0,
+    "scopedEslint": "pass",
+    "projectTypecheck": "pass",
+    "sourceAndNativeSizeReuse": "All22 originals retained byte-identical; native sources reused where already <=1600px."
+  },
+  "visuallyInspected": [
+    "public/images/responsive/deluxe-room-blue-960w.webp",
+    "public/images/responsive/hotel-lobby-480w.webp",
+    "public/images/responsive/varanasi-hero-960w.webp",
+    "public/images/responsive/kashi-vishwanath-480w.webp"
+  ],
+  "visualObservation": "No crop, color treatment, replacement objects or obvious compression artifacts in inspected derivatives. Source composition retained.",
+  "examples": [
+    {
+      "source": "/images/deluxe-room-blue.webp",
+      "originalBytes": 125406,
+      "480Bytes": 19564,
+      "960Bytes": 52292
+    },
+    {
+      "source": "/images/hotel-lobby.webp",
+      "originalBytes": 223808,
+      "480Bytes": 28618,
+      "960Bytes": 92738
+    },
+    {
+      "source": "/images/google-family-room.webp",
+      "originalBytes": 349310,
+      "480Bytes": 25748,
+      "960Bytes": 87516
+    },
+    {
+      "source": "/images/varanasi-hero.webp",
+      "originalBytes": 888608,
+      "480Bytes": 37524,
+      "960Bytes": 127240
+    }
+  ],
+  "docs": [
+    "node_modules/next/dist/docs/01-app/02-guides/static-exports.md",
+    "node_modules/next/dist/docs/01-app/03-api-reference/02-components/image.md",
+    "https://nextjs.org/docs/app/guides/static-exports#image-optimization",
+    "https://nextjs.org/docs/app/api-reference/components/image#loaderfile"
+  ],
+  "context7": "Discovery tool returned unsupported call; exact installed Next16.4.2 docs and official current primary documentation used.",
+  "runtimeManifestBytes": 11149,
+  "cleanup": {
+    "removed": [],
+    "beforeFreeBytes": {
+      "C": 28653490176,
+      "D": 68058882048
+    },
+    "afterFreeBytes": {
+      "C": 28664291328,
+      "D": 68055527424
+    },
+    "reason": "No temporary images created. All92 derivatives are referenced runtime assets; sources, provenance and required evidence retained."
+  }
+}

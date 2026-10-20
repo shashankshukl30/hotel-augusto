@@ -1,0 +1,486 @@
+{
+  "/images/deluxe-room-blue.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/deluxe-room-blue-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/deluxe-room-blue-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/deluxe-room-blue-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/deluxe-room-blue-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/deluxe-room-blue.webp"
+    }
+  ],
+  "/images/deluxe-room.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/deluxe-room-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/deluxe-room-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/deluxe-room-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/deluxe-room-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/deluxe-room.webp"
+    }
+  ],
+  "/images/dining-room-wide.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/dining-room-wide-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/dining-room-wide-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/dining-room-wide-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/dining-room-wide-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/dining-room-wide.webp"
+    }
+  ],
+  "/images/dining-room.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/dining-room-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/dining-room-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/dining-room-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/dining-room-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/dining-room.webp"
+    }
+  ],
+  "/images/family-room-alternate.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/family-room-alternate-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/family-room-alternate-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/family-room-alternate-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/family-room-alternate-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/family-room-alternate.webp"
+    }
+  ],
+  "/images/family-room.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/family-room-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/family-room-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/family-room-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/family-room-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/family-room.webp"
+    }
+  ],
+  "/images/ganges-boats.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/ganges-boats-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/ganges-boats-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/ganges-boats-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/ganges-boats-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/responsive/ganges-boats-1600w.webp"
+    }
+  ],
+  "/images/ganges-dawn.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/ganges-dawn-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/ganges-dawn-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/ganges-dawn-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/ganges-dawn-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/responsive/ganges-dawn-1600w.webp"
+    }
+  ],
+  "/images/google-dining-room.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/google-dining-room-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/google-dining-room-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/google-dining-room-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/google-dining-room-960w.webp"
+    },
+    {
+      "width": 1000,
+      "src": "/images/google-dining-room.webp"
+    }
+  ],
+  "/images/google-double-room.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/google-double-room-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/google-double-room-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/google-double-room-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/google-double-room-960w.webp"
+    },
+    {
+      "width": 1024,
+      "src": "/images/google-double-room.webp"
+    }
+  ],
+  "/images/google-family-room.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/google-family-room-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/google-family-room-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/google-family-room-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/google-family-room-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/google-family-room.webp"
+    }
+  ],
+  "/images/hotel-exterior-day.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/hotel-exterior-day-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/hotel-exterior-day-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/hotel-exterior-day-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/hotel-exterior-day-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/hotel-exterior-day.webp"
+    }
+  ],
+  "/images/hotel-exterior.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/hotel-exterior-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/hotel-exterior-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/hotel-exterior-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/hotel-exterior-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/hotel-exterior.webp"
+    }
+  ],
+  "/images/hotel-lobby.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/hotel-lobby-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/hotel-lobby-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/hotel-lobby-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/hotel-lobby-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/hotel-lobby.webp"
+    }
+  ],
+  "/images/hotel-lounge.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/hotel-lounge-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/hotel-lounge-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/hotel-lounge-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/hotel-lounge-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/hotel-lounge.webp"
+    }
+  ],
+  "/images/hotel-reception.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/hotel-reception-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/hotel-reception-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/hotel-reception-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/hotel-reception-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/hotel-reception.webp"
+    }
+  ],
+  "/images/kashi-vishwanath.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/kashi-vishwanath-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/kashi-vishwanath-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/kashi-vishwanath-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/kashi-vishwanath-960w.webp"
+    },
+    {
+      "width": 1153,
+      "src": "/images/kashi-vishwanath.webp"
+    }
+  ],
+  "/images/room-bathroom.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/room-bathroom-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/room-bathroom-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/room-bathroom-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/room-bathroom-960w.webp"
+    },
+    {
+      "width": 1333,
+      "src": "/images/room-bathroom.webp"
+    }
+  ],
+  "/images/room-tea.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/room-tea-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/room-tea-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/room-tea-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/room-tea-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/room-tea.webp"
+    }
+  ],
+  "/images/twin-room.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/twin-room-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/twin-room-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/twin-room-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/twin-room-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/twin-room.webp"
+    }
+  ],
+  "/images/varanasi-ghats.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/varanasi-ghats-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/varanasi-ghats-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/varanasi-ghats-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/varanasi-ghats-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/responsive/varanasi-ghats-1600w.webp"
+    }
+  ],
+  "/images/varanasi-hero.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/varanasi-hero-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/varanasi-hero-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/varanasi-hero-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/varanasi-hero-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/responsive/varanasi-hero-1600w.webp"
+    }
+  ]
+}

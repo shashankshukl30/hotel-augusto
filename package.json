@@ -10,7 +10,7 @@
     "start": "next start --hostname 127.0.0.1 --port 3080",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/booking.test.mjs tests/static-export.test.mjs",
+    "test": "node --test tests/booking.test.mjs tests/static-export.test.mjs tests/responsive-images.test.mjs tests/dining-enquiry.test.mjs",
     "qa": "python scripts/qa_hospitality_revision.py"
   },
   "dependencies": {

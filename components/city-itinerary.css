@@ -1,52 +1,208 @@
-.city-itinerary{padding-block:112px;background:var(--paper-deep);color:var(--ink)}
-.itinerary-heading{display:flex;justify-content:space-between;align-items:end;gap:64px;margin-bottom:48px}
-.itinerary-kicker,.itinerary-moment{font-family:var(--font-body),sans-serif;font-size:14px;line-height:1.5;color:var(--accent);letter-spacing:.07em}
-.itinerary-kicker{margin:0 0 22px}
-.itinerary-heading h2{font-family:var(--font-display),serif;font-size:80px;font-weight:400;line-height:1.04;letter-spacing:-.025em;margin:0}
-.itinerary-heading>p{max-width:36ch;font-size:18px;line-height:1.65;color:var(--muted);margin:0 0 4px}
-.itinerary-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:48px}
-.itinerary-tabs button{min-height:68px;display:flex;align-items:center;gap:14px;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--muted);font-family:var(--font-body),sans-serif;font-size:17px;padding:18px 10px;text-align:left;transition:color .2s,border-color .2s}
-.itinerary-tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
-.itinerary-tabs button:hover{color:var(--accent)}
-.itinerary-tab-number{font-size:12px;color:var(--accent);font-variant-numeric:tabular-nums}
-.itinerary-panel{display:grid;grid-template-columns:1.1fr .9fr;gap:72px;align-items:center;min-width:0}
-.itinerary-figure{margin:0;min-width:0}
-.itinerary-image{position:relative;height:540px;overflow:hidden;border-radius:5px;background:var(--line)}
-.itinerary-image-layer{position:absolute;inset:0}
-.itinerary-image img{object-fit:cover}
-.itinerary-figure figcaption{font-size:12px;line-height:1.5;color:var(--muted);min-height:36px;padding-top:14px}
-.itinerary-figure figcaption a{text-decoration:underline;text-underline-offset:3px}
-.itinerary-copies{display:grid;min-width:0}
-.itinerary-copy{grid-area:1/1;min-width:0}
-.itinerary-moment{margin:0 0 22px}
-.itinerary-copy h3{font-family:var(--font-display),serif;font-size:56px;font-weight:400;line-height:1.08;letter-spacing:-.025em;margin:0 0 28px;max-width:15ch;min-height:2.16em}
-.itinerary-copy-motion>p:not(.itinerary-moment){font-family:var(--font-body),sans-serif;font-size:18px;line-height:1.7;color:var(--muted);max-width:43ch;margin:0 0 24px}
-.itinerary-copy .itinerary-practical{padding-top:24px;border-top:1px solid var(--line)}
-.itinerary-link{display:inline-flex;gap:12px;align-items:center;min-height:48px;font-size:16px;font-weight:550;line-height:1.4;color:var(--accent);text-decoration:none;text-underline-offset:5px}
-.itinerary-link svg{flex-shrink:0}
-.itinerary-link:hover{text-decoration:underline}
-.itinerary-link:active{opacity:.75}
-.itinerary-more{display:flex;justify-content:flex-end;margin-top:30px}
-.itinerary-tabs button:focus-visible,.itinerary-panel:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
-@media(max-width:1100px){.itinerary-panel{gap:48px}.itinerary-image{height:500px}.itinerary-heading h2{font-size:68px}.itinerary-copy h3{font-size:46px}.itinerary-heading{gap:48px}}
-@media(max-width:760px){
-  .city-itinerary{padding-block:72px}
-  .itinerary-heading{display:block;margin-bottom:32px}
-  .itinerary-heading h2{font-size:52px;margin-bottom:24px}
-  .itinerary-heading>p{font-size:17px;max-width:38ch}
-  .itinerary-kicker{font-size:13px;margin-bottom:18px}
-  .itinerary-tabs{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:32px}
-  .itinerary-tabs button{min-height:58px;font-size:15px;gap:10px;padding:15px 5px}
-  .itinerary-tabs button:nth-child(-n+2){border-bottom-color:var(--line)}
-  .itinerary-tabs button[aria-selected=true]{border-bottom-color:var(--accent)}
-  .itinerary-panel{grid-template-columns:1fr;gap:26px;align-items:start}
-  .itinerary-image{height:360px;border-radius:4px}
-  .itinerary-figure figcaption{font-size:12px;min-height:46px;padding-top:12px}
-  .itinerary-copy h3{font-size:44px;margin-bottom:24px;min-height:2.16em}
-  .itinerary-moment{font-size:13px;margin-bottom:18px}
-  .itinerary-copy-motion>p:not(.itinerary-moment){font-size:17px;line-height:1.65;margin-bottom:22px}
-  .itinerary-copy .itinerary-practical{padding-top:22px}
-  .itinerary-link{font-size:16px}
-  .itinerary-more{justify-content:flex-start;margin-top:8px}
+.city-itinerary {
+  --city-background: oklch(.22 .025 250);
+  --city-surface: oklch(.285 .027 250);
+  --city-text: oklch(.97 .005 250);
+  --city-muted: oklch(.78 .018 250);
+  --city-line: oklch(.43 .025 250);
+  padding-block: 104px 72px;
+  background: var(--city-background);
+  color: var(--city-text);
 }
-@media(prefers-reduced-motion:reduce){.itinerary-tabs button{transition:none}.itinerary-copy-motion{transform:none!important}.itinerary-copy[aria-hidden=false] .itinerary-copy-motion{opacity:1!important}.itinerary-image-layer[aria-hidden=false]{opacity:1!important}.itinerary-image-layer[aria-hidden=true]{opacity:0!important}}
+.itinerary-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 64px;
+  margin-bottom: 40px;
+}
+.itinerary-kicker,
+.itinerary-moment {
+  font-family: var(--font-body), sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--city-muted);
+  letter-spacing: 0;
+}
+.itinerary-kicker { margin: 0 0 20px; }
+.itinerary-heading h2 {
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(56px, 5.6vw, 80px);
+  font-weight: 600;
+  line-height: 1.025;
+  letter-spacing: -.045em;
+  margin: 0;
+}
+.itinerary-heading > p {
+  max-width: 35ch;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--city-muted);
+  margin: 0 0 4px;
+}
+.itinerary-tabs {
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  width: max-content;
+  max-width: 100%;
+  border: 1px solid var(--city-line);
+  border-radius: 999px;
+  background: var(--city-surface);
+  margin-bottom: 44px;
+}
+.itinerary-tabs button {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--city-text);
+  font-family: var(--font-body), sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  text-align: center;
+  transition: background .2s, color .2s;
+}
+.itinerary-tabs button[aria-selected=true] {
+  color: var(--city-background);
+  background: var(--city-text);
+}
+.itinerary-tabs button[aria-selected=false]:hover { background: oklch(.37 .028 250); }
+.itinerary-panel { min-width: 0; }
+.itinerary-copies { display: grid; min-width: 0; }
+.itinerary-copy { grid-area: 1/1; min-width: 0; }
+.itinerary-copy-motion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+.itinerary-moment { margin: 0 0 14px; }
+.itinerary-copy h3 {
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(38px, 3.5vw, 50px);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -.035em;
+  margin: 0;
+  max-width: 16ch;
+}
+.itinerary-copy-detail > p {
+  font-family: var(--font-body), sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+  max-width: 55ch;
+  margin: 0 0 18px;
+}
+.itinerary-copy-detail .itinerary-practical {
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--city-muted);
+  margin-bottom: 12px;
+}
+.itinerary-link {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  min-height: 48px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--city-text);
+  text-decoration: none;
+  text-underline-offset: 5px;
+}
+.itinerary-link svg { flex-shrink: 0; transition: transform .2s; }
+.itinerary-link:hover { text-decoration: underline; }
+.itinerary-link:hover svg { transform: translate(2px, -2px); }
+.itinerary-link:active { opacity: .75; }
+.itinerary-stage {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+  overflow: hidden;
+  padding-top: clamp(112px, 12vw, 178px);
+  margin-top: 28px;
+}
+.itinerary-city-name {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  color: oklch(.37 .034 250);
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(190px, 27vw, 400px);
+  font-weight: 700;
+  line-height: .82;
+  letter-spacing: -.075em;
+  user-select: none;
+  pointer-events: none;
+}
+.itinerary-figure { position: relative; margin: 0; min-width: 0; }
+.itinerary-image {
+  position: relative;
+  height: clamp(460px, 44vw, 600px);
+  overflow: hidden;
+  border-radius: 24px;
+  background: var(--city-surface);
+}
+.itinerary-image-layer { position: absolute; inset: 0; }
+.itinerary-image img { object-fit: cover; }
+.itinerary-figure figcaption {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--city-muted);
+  min-height: 36px;
+  padding-top: 14px;
+}
+.itinerary-figure figcaption a { text-decoration: underline; text-underline-offset: 3px; }
+.itinerary-more { display: flex; justify-content: flex-end; margin-top: 20px; }
+.itinerary-tabs button:focus-visible,
+.itinerary-panel:focus-visible,
+.city-itinerary a:focus-visible { outline: 3px solid var(--city-text); outline-offset: 5px; }
+@media (max-width: 1100px) {
+  .itinerary-heading,
+  .itinerary-copy-motion { gap: 40px; }
+  .itinerary-tabs button { padding-inline: 20px; }
+}
+@media (max-width: 760px) {
+  .city-itinerary { padding-block: 72px 48px; }
+  .itinerary-heading { display: block; margin-bottom: 28px; }
+  .itinerary-heading h2 { font-size: 48px; line-height: 1.04; margin-bottom: 24px; }
+  .itinerary-heading > p { font-size: 18px; max-width: 38ch; }
+  .itinerary-kicker { font-size: 14px; margin-bottom: 16px; }
+  .itinerary-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 32px;
+    gap: 5px;
+  }
+  .itinerary-tabs button { min-height: 48px; font-size: 15px; padding: 12px 8px; }
+  .itinerary-copy-motion { grid-template-columns: 1fr; gap: 22px; }
+  .itinerary-copy h3 { font-size: 34px; line-height: 1.12; }
+  .itinerary-moment { font-size: 14px; margin-bottom: 12px; }
+  .itinerary-copy-detail > p { font-size: 17px; line-height: 1.55; margin-bottom: 16px; }
+  .itinerary-copy-detail .itinerary-practical { font-size: 15px; }
+  .itinerary-stage { padding-top: 72px; margin-top: 24px; }
+  .itinerary-city-name { font-size: 43vw; line-height: .85; }
+  .itinerary-image { height: 380px; border-radius: 20px; }
+  .itinerary-figure figcaption { min-height: 46px; padding-top: 12px; }
+  .itinerary-more { justify-content: flex-start; margin-top: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .itinerary-tabs button,
+  .itinerary-link svg { transition: none; }
+  .itinerary-link:hover svg { transform: none; }
+  .itinerary-copy-motion { transform: none !important; }
+  .itinerary-copy[aria-hidden=false] .itinerary-copy-motion { opacity: 1 !important; }
+  .itinerary-image-layer[aria-hidden=false] { opacity: 1 !important; }
+  .itinerary-image-layer[aria-hidden=true] { opacity: 0 !important; }
+}

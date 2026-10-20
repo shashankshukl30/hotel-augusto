@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-20",
+  "brief": "Apple design dominance, preserving the expanded hotel functions and real photography. The latest user correction supersedes the Bodoni/bronze hospitality system.",
+  "recommendation": "Use an Apple product-page structure for the homepage and feature/detail pages. Use the clear lineup/comparison pattern only where guests choose rooms. Keep the hotel identity in the photographs, room facts, dining, location and booking tasks.",
+  "research": {
+    "route": "agent-reach; Jina Reader for official pages; existing decoded browser captures for visual inspection",
+    "currentOfficialPagesRead": [
+      {
+        "url": "https://www.apple.com/iphone/",
+        "observation": "The page connects a photographic introduction, model selection, discrete feature groups, comparison and direct shopping assistance. Browsing and purchasing have explicit, separate actions."
+      },
+      {
+        "url": "https://www.apple.com/macbook-pro/",
+        "observation": "The product presentation uses a large focused visual, short explanatory chapters and an explicit purchase route. Deeper technical detail follows the central product story."
+      },
+      {
+        "url": "https://developer.apple.com/design/human-interface-guidelines/motion",
+        "observation": "Motion should explain an interaction, remain brief and interruptible, and respect preferences. Important information should not depend on animation."
+      }
+    ],
+    "existingVisualEvidenceInspected": [
+      "../apple-reference/iphone-1440-hero.png",
+      "../apple-reference/iphone-390-hero.png",
+      "../apple-reference/macbook-pro-1440-hero.png",
+      "../apple-reference/macbook-pro-390-section.png"
+    ],
+    "measurementEvidence": "../apple-reference/computed-styles.json",
+    "measurementDate": "2026-10-19",
+    "measurementLimit": "The pixel values below come from the earlier browser captures. Current official page content was refreshed through Jina; no new browser was opened for this task.",
+    "measuredReferenceValues": {
+      "iphoneDesktopCategoryHeading": "80px / 84px, weight600",
+      "iphoneMobileCategoryHeading": "48px / 52px, weight600",
+      "desktopPhotoPanel": "1260px wide at1440 viewport, 28px corner radius",
+      "mobileFeaturePanel": "321.25px by480px with28px corner radius and a visible next-panel hint",
+      "body": "17px / 25px",
+      "primaryAction": "44px height, rounded capsule"
+    },
+    "searchLimitation": "Exa returned a free-tier rate-limit notice. Official known URLs remained readable through the agent-reach Jina route."
+  },
+  "augustoSystem": {
+    "type": "One neutral sans family. Root uses Inter600/650. Page headings80/84desktop and48/52mobile; major section headings64/68desktop and40/44mobile. Body18desktop and17mobile in long feature text. Credits12px; functional metadata14px or larger.",
+    "spacing": "Use104-112px major desktop separation and72px mobile separation;24-32px gaps within related content. Root container max1480px with80px desktop and24px mobile gutters.",
+    "surfaces": "Near-white main surface, cool light gray feature panels, charcoal text and cobalt actions. Root token definitions are authoritative. Rounded photography24-28px, primary action52px tall.",
+    "heroComposition": "A clean hotel introduction and clear enquiry action followed by one large genuine property photograph. Keep the photo visible early on mobile. Use minimal overlay copy; do not darken the entire hotel interior to make a slogan readable.",
+    "photoTreatment": "Real room, restaurant and hotel photographs are the primary identity. Use generous even framing and accurate captions. Place destination photographs in city content with explicit labels and retained credits.",
+    "motion": "Retain the existing reduced-motion-aware reveals and short tab/photo transitions. Keep native scrolling, immediate booking access and visible server-rendered content. Existing native inert wrappers must remain separate from animated copy children.",
+    "conversion": "Keep a persistent booking action, dates/guest enquiry, three visible room choices, room comparison, dining, services, arrival guidance, source-backed reviews, FAQs, gallery and guides. WhatsApp remains an enquiry, not live inventory or a completed reservation.",
+    "copy": "Prefer hotel/place/room names and concrete guest tasks. Remove generic romantic claims, decorative numbered chapters and invented luxury positioning."
+  },
+  "currentDesignAntipatterns": [
+    {
+      "source": "app/globals.css and app/home.css",
+      "issue": "Bodoni display, italic headline offsets, bronze actions and warm paper dominate the identity. A font-only replacement would leave the old composition intact."
+    },
+    {
+      "source": "app/home.css: hero-veil, hero-location, hero-scene-controls",
+      "issue": "Layered dark veils, tracked labels and many competing hero controls make the initial view read as an editorial hotel template instead of a focused product presentation."
+    },
+    {
+      "source": "app/home.css: home-room-photos, home-room-detail, room-number, home-gallery-strip",
+      "issue": "Overlapping inset photos, italic room numbering and staggered gallery tiles are ornamental visual signals. Replace these with clearly framed, large property images and predictable comparison alignment."
+    },
+    {
+      "source": "app/home.css mobile rules",
+      "issue": "Several practical labels and captions fall to10-12px. Keep primary reading and booking information comfortably readable."
+    },
+    {
+      "source": "app/editorial-pages.css and app/guides/guides.css before this revision",
+      "issue": "Serif text, sharp small-corner panels and uneven gallery columns extended the rejected style to the secondary pages."
+    }
+  ],
+  "implementedOwnedScope": {
+    "styles": [
+      "app/editorial-pages.css",
+      "app/guides/guides.css",
+      "components/city-itinerary.css"
+    ],
+    "componentsAndPages": [
+      "components/city-itinerary.tsx",
+      "app/varanasi/page.tsx",
+      "app/guides/[slug]/page.tsx"
+    ],
+    "changes": [
+      "Cleaned the existing styles in place rather than appending an override layer.",
+      "Changed secondary typography to the shared sans family and600weight with the agreed heading scale.",
+      "Changed gallery to an even two-column photographic grid and a rounded segmented filter.",
+      "Kept native gallery dialog, filter counts, keyboard controls, swipe and focus return unchanged.",
+      "Changed city itinerary to a segmented selector and removed decorative chapter numbers.",
+      "Retained native inert wrappers, stable-height panel layout and reduced-motion behavior.",
+      "Replaced ornamental city/guide headings with direct destination and planning language.",
+      "Kept all guide content, facts, source links, photo licensing and city anchors."
+    ]
+  },
+  "verificationBoundary": "No browser, production build, Git operation or deletion was performed by this agent in this revision. Root owns the final responsive and interaction QA."
+}

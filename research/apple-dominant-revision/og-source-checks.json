@@ -1,0 +1,82 @@
+{
+  "generated": "2026-10-20T07:07:33.538720+00:00",
+  "scope": "Current OG/font/photo/supplied-logo source verification. The previous invented favicon has been superseded.",
+  "checks": {
+    "suppliedLogoSourceHash": true,
+    "publicLogoByteIdentical": true,
+    "publicLogoHashMatches": true,
+    "logoDimensions1254Square": true,
+    "ogReadsSuppliedLogo": true,
+    "ogUsesLogoPixels": true,
+    "inventedSvgAbsent": true,
+    "faviconUsesSuppliedArtwork": true,
+    "appleIconUsesSuppliedArtwork": true,
+    "generatorCannotRecreateInventedIcon": true,
+    "fontIsStatic": true,
+    "fontWeight600": true,
+    "fontFamilyRenamed": true,
+    "fontHashMatches": true,
+    "fontLicensePreserved": true,
+    "fullOflTextUnchanged": true,
+    "photoHashUnchanged": true,
+    "photoDimensionsCorrect": true,
+    "dependenciesUnder500KB": true,
+    "headlineWithin456px": true,
+    "dimensionsPreserved": true,
+    "pngTypePreserved": true,
+    "staticExportPreserved": true,
+    "photoRadius28": true
+  },
+  "passed": 24,
+  "failed": 0,
+  "runtimeDependencyBytes": 253197,
+  "sourceSha256": "5d5b2d5b628e42f7ad947980b070bfbe30b4dacace32f6bb27a9772b793bd932",
+  "visualRender": "Pending parent final build; this check does not certify an earlier rendered image.",
+  "supersededEvidence": {
+    "reason": "The19 checks performed before the supplied-logo change certified a former invented favicon and do not apply to the current brand configuration.",
+    "report": {
+      "generated": "2026-10-20T06:43:28.753484+00:00",
+      "checks": {
+        "fontIsStatic": true,
+        "fontWeight600": true,
+        "fontFamilyRenamed": true,
+        "fontHashMatches": true,
+        "licenseHashMatches": true,
+        "licenseUnchanged": true,
+        "fontCopyrightPreserved": true,
+        "fontLicensePreserved": true,
+        "photoHashUnchanged": true,
+        "photoDimensionsCorrect": true,
+        "faviconViewBoxCorrect": true,
+        "faviconHashMatches": true,
+        "dependenciesUnder500KB": true,
+        "headlineWithin456px": true,
+        "dimensionsPreserved": true,
+        "pngTypePreserved": true,
+        "staticExportPreserved": true,
+        "noLegacyFont": true,
+        "photoRadius28": true
+      },
+      "passed": 19,
+      "failed": 0,
+      "runtimeDependencyBytes": 191856,
+      "visualRender": "Pending parent build; no browser or build run in this task.",
+      "cleanup": {
+        "removed": [],
+        "reason": "All new files are required runtime assets, licence, generator or provenance. No disposable scratch created; no deletions authorized.",
+        "beforeBytes": {
+          "C": 28957003776,
+          "D": 68004614144
+        },
+        "afterBytes": {
+          "C": 28951355392,
+          "D": 67800383488
+        }
+      },
+      "fontLicenseCheckNote": "Initial check incorrectly required name record13. The installed source has no record13; its copyright record0 and OFL URL record14 are preserved exactly. The full OFL text also ships unchanged.",
+      "lint": "Passed: node node_modules/eslint/bin/eslint.js app/opengraph-image.tsx",
+      "typecheck": "Passed: node node_modules/typescript/bin/tsc --noEmit"
+    }
+  },
+  "appEdits": "None in this provenance update; root owns the OG/layout/logo presentation."
+}

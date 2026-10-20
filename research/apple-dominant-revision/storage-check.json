@@ -1,0 +1,31 @@
+﻿{
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\apple-dominant-revision",
+    "beforeFreeBytes":  [
+                            {
+                                "Name":  "C",
+                                "Free":  28909088768
+                            },
+                            {
+                                "Name":  "D",
+                                "Free":  68091101184
+                            }
+                        ],
+    "afterFreeBytes":  [
+                           {
+                               "Name":  "C",
+                               "Free":  28909088768
+                           },
+                           {
+                               "Name":  "D",
+                               "Free":  68091101184
+                           }
+                       ],
+    "removed":  [
+
+                ],
+    "retained":  {
+                     "Name":  "reference-contract.json",
+                     "Length":  7067
+                 },
+    "reason":  "No disposable artifacts created. Source and concise research notes retained; parent prohibited deletion during this coordinated revision."
+}

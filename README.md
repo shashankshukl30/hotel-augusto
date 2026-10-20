@@ -2,7 +2,9 @@
 
 An independent Digiocular client website in `D:\Digiocular\Websites\Hotel Augusto`.
 
-The current direction follows the user's latest 20 October brief: bring most Hotel Vagmi elements into Augusto's own hotel identity and experience. Genuine Augusto photographs lead a 16-page hospitality website, with Bodoni Moda display at weight 400, Manrope body, ivory surfaces, ink-blue text and bronze details. All three room categories are visible, alongside restaurant information, city planning, arrival guidance and dated stay enquiries. Motion includes controlled photo transitions and reveals, with reduced-motion support and native scrolling. See the [reference study](research/hospitality-revision/reference-study.md), [feature and fact plan](research/hospitality-revision/content-journey-plan.json) and [implementation plan](docs/plans/2026-10-19-website.md).
+The latest 20 October brief puts Lando Norris first for bold composition and memorable motion, with Apple and Linear informing clear controls and precise interaction. The shared system uses local Inter, near-white/cool-gray surfaces, charcoal and cobalt actions. The site has 17 hospitality routes, three room categories, comparison, vegetarian dining, group accommodation enquiries, city planning, galleries, arrival guidance and persistent date controls. The supplied `logo.jpeg` appears in the header, footer, favicon, OG image and dining guide.
+
+The homepage opens with nearly full-viewport genuine property photography and the large left-aligned “Your place / in Kashi.” headline. Scene and pause controls sit inside the photograph; scene changes wait for image readiness. Spring-driven pointer drift and native scroll scaling provide motion, with independent hover/focus pause and reduced-motion support. The ink-blue city chapter combines oversized decorative KASHI lettering, genuine river imagery and manual tabs. The [implementation plan](docs/plans/2026-10-19-website.md) records this frozen composition; [Linear source notes](research/apple-dominant-revision/linear-reference.json), the [hotel reference study](research/hospitality-revision/reference-study.md) and [Casa Angelina study](research/apple-dominant-revision/casa-angelina-reference.json) retain source context. Release acceptance follows the current source's production evidence.
 
 ## Run locally
 
@@ -26,7 +28,8 @@ Stop the development server before starting production on the same port.
 
 - `/` — property-led hero, dated enquiry, all three room categories, dining, city itinerary, review links, gallery, arrival, FAQs and stay guides
 - `/hotel` — genuine hotel spaces, detailed facilities and arrival planning
-- `/dining` — vegetarian restaurant, room service and three meal-enquiry choices
+- `/dining` — vegetarian restaurant, room service, specific dining enquiry and downloadable planning guide
+- `/group-stays` — family, friends and business accommodation requests; requested rooms, total party size and optional company/billing details
 - `/rooms` — all room categories and real photographic introductions
 - `/rooms/compare` — factual bed-layout and feature comparison, including a two-room mobile selector
 - `/rooms/deluxe-room`, `/rooms/deluxe-twin-room`, `/rooms/family-room`
@@ -39,15 +42,21 @@ Stop the development server before starting production on the same port.
 
 ## Content and booking
 
-`content/hotel.ts` owns core hotel facts, rooms and the booking phone number. `content/hospitality.ts` adds sourced facilities, arrival guidance, practical FAQs and review-profile links; `content/guides.ts` contains the three stay guides. Room image mappings are in `content/room-images.ts`. Photo provenance and retained originals are in `research/assets/` and `research/ota-revision/`; licensed destination photography also has records in `research/awwwards-revision/`. The source ledger includes Google and MakeMyTrip; the supplied MMT hotel ID is `201909301024364424`. Research documents include DOCX twins.
+`content/hotel.ts` owns core hotel facts, rooms and the booking phone number. `content/hospitality.ts` adds sourced facilities, arrival guidance, practical FAQs and review-profile links; `content/guides.ts` contains the three stay guides. `content/social-proof.ts` holds the dated Google snapshot and proximity links. Room image mappings are in `content/room-images.ts`. Photo provenance and retained originals are in `research/assets/` and `research/ota-revision/`; licensed destination photography also has records in `research/awwwards-revision/`. The source ledger includes Google and MakeMyTrip; the supplied MMT hotel ID is `201909301024364424`. Research documents include DOCX twins.
 
 The exact dated MakeMyTrip route returned a browser transport error; its indexed canonical property page corroborated stable facts. Google property photos were opened and mapped to the site. These distinctions and individual asset sources are recorded in `research/ota-revision/`; no live MMT availability was established.
 
 The current WhatsApp destination is the hotel's Google-listed telephone, **+91 80817 09146**. The public WhatsApp link resolves to that number. The hotel must confirm it is the desired, active booking account before public launch. No enquiry was sent during testing.
 
-The dated StayBar validates dates and guest counts, then carries only dates, party size and room preference to the contact page through its URL. Those preferences may remain in browser history. Names and private notes stay off the URL. The enquiry form prepares an encoded message for the visitor to review and explicitly open in WhatsApp. It does not check live inventory, confirm a reservation, process payments or save enquiries to a database. `lib/stay-query.ts` validates the page-to-page preferences; `lib/booking.ts` is the integration point for a future booking engine.
+The universal `BookingDock` keeps dates and “Check availability” accessible across routes. Its measured height reserves bottom space so the footer remains reachable. Dated `StayBar` and enquiry forms support 1–8 requested rooms and night summaries. Validated dates, party size, room count and room preference travel to contact through the URL and may remain in browser history. Names and private notes stay off that URL. `lib/stay-query.ts` validates those preferences; `lib/booking.ts` prepares the explicit WhatsApp handoff. Availability is confirmed by the hotel, not a live inventory engine.
 
-The arrival guide loads its Google Maps iframe only after the visitor selects “Load Google map”. No analytics or social-media feed is installed. Review-profile links and one short, exact Tripadvisor guest excerpt are backed by retained source evidence; no numerical ratings are promoted. The excerpt, attribution and individual review link are recorded in `research/hospitality-revision/guest-review-evidence.json`. Services, meal inclusions, access requirements and policies should be confirmed with the hotel when relevant.
+When the dock is used on `/contact`, it keeps the form's current room preference, room count and children while applying the dock's dates/adults. `ContactEnquiry` updates query preferences in the existing `BookingForm` without remounting it, preserving unfinished name and notes fields. Changed preferences clear stale errors and prepared WhatsApp drafts; the guest prepares a fresh draft before opening WhatsApp.
+
+`/group-stays` requests accommodation, with total adults and children, requested rooms and optional company information. Input limits are enquiry limits, not hotel capacity promises. No weddings, banquet facilities or conference services are advertised. The dining form uses `lib/dining-enquiry.ts` to validate the desired date, meal interest and party size before preparing its own WhatsApp draft. Neither form stores enquiries or sends messages automatically.
+
+The guest-facing [dining planning PDF](public/downloads/hotel-augusto-dining-guide.pdf) and [editable DOCX](docs/hotel-augusto-dining-guide.docx) are generated together by `python -B scripts/generate_dining_guide.py`. They use the supplied logo and genuine dining photograph, with planning information rather than an invented menu. Both one-page outputs were rendered and inspected; see `evidence/apple-dominant-revision/dining-guide/verification.json`.
+
+The arrival guide loads its Google Maps iframe only after the visitor selects “Load Google map”. Temple and ghat proximity use qualitative walking guidance and direct walking-route links, without fixed travel-time promises. No analytics or social-media feed is installed. A source-specific Google badge records **3.7/5 from 1,628 reviews, checked 20 October 2026**. MakeMyTrip scores conflict across indexed pages and are not displayed. The existing exact Tripadvisor excerpt remains attributed. Evidence is in `research/apple-dominant-revision/conversion-evidence/findings.json` and `research/hospitality-revision/guest-review-evidence.json`. No new guest-photo reuse licence was established; property images are not relabelled as guest portraits.
 
 ## Checks
 
@@ -56,12 +65,15 @@ npm run lint
 npm run typecheck
 npm test
 npm run build
-python scripts/qa_hospitality_revision.py --base-url http://127.0.0.1:3080
+npm run qa -- --base-url http://127.0.0.1:3080 --output evidence/apple-dominant-revision
+python -B scripts/qa_conversion_upgrade.py --base-url http://127.0.0.1:3080 --output evidence/apple-dominant-revision
 ```
 
-Browser QA uses a fresh Microsoft Edge context through Python Playwright and axe-core. The completed [production report](evidence/hospitality-revision/production-qa.json) records 102 viewport checks, 34 axe audits and 40 interaction checks with zero failures. Lint, typecheck, four booking unit cases, static export and the normal production build also passed. Current evidence belongs in `evidence/hospitality-revision/`. Earlier Apple and cinematic reports remain historical and do not certify this revision. Tests do not send WhatsApp messages.
+Browser QA uses a fresh Microsoft Edge context through Python Playwright and axe-core. Run the production server separately and browser suites sequentially; the focused conversion suite also inspects the prepared static export in `out/`. This revision's results are recorded in `evidence/apple-dominant-revision/production-qa.json`, `conversion-upgrade-qa.json`, `production-audit.json` and `static-export-audit.json`. Read each report's scope, completion time and subsequent-fix notes before treating it as release evidence. Earlier passes do not certify the expanded 17-route source. Tests do not send WhatsApp messages.
 
-Generate matching Markdown and Word handoffs after final verification with `python scripts/generate_handoff.py`. The generator reads only this revision's final report, creates both files through the same content blocks, and reopens the DOCX.
+The final broad report passed 108 viewport checks, 36 axe audits and 40 interactions. The original conversion report remains 209/211 because two PDF checks expected the wrong title; the separate [dining retest](evidence/apple-dominant-revision/conversion-dining-retest-20261020T073017878694Z.json) passed 13/13 with actual brochure text and download/source hash verification, retaining the original report's SHA256. The handoff keeps these results separate. The room review passed 21 layouts, 10 axe audits and 29 interactions; static-export validation passed 64/64 checks.
+
+Generate matching Markdown and Word handoffs after final verification with `python -B scripts/generate_handoff.py`. The generator reads only this revision's final report, creates both files through the same content blocks, and reopens the DOCX. Final documents must also be rendered and visually checked.
 
 ## Launch settings
 
@@ -75,7 +87,7 @@ No production domain has been changed. Old hotel domains were not assumed to be 
 
 ## Private preview
 
-An owner-private Sites preview is configured for [Hotel Augusto](https://hotel-augusto.candy-okapi-4696.chatgpt.site). Current publication status is recorded in [the deployment record](evidence/hospitality-revision/private-deployment.json); the public hotel launch remains separate. The existing Sites project is recorded in `.openai/hosting.json`.
+An owner-private Sites preview is configured for [Hotel Augusto](https://hotel-augusto.candy-okapi-4696.chatgpt.site). Current publication status is recorded in `evidence/apple-dominant-revision/private-deployment.json`; the public hotel launch remains separate. Earlier deployment records remain historical. The existing Sites project is recorded in `.openai/hosting.json`; reuse it rather than creating a new site.
 
 Normal Next.js/Vercel operation remains the default. To produce the optional static preview bundle:
 
@@ -85,10 +97,12 @@ npm run build
 Remove-Item Env:\SITE_STATIC_EXPORT
 ```
 
-This writes `out/`, disables server image optimization for that export, and leaves HTTP response-header configuration to the static host. Keep preview indexing disabled and verify the deployed host before sharing it. A public launch and domain connection remain separate from this private preview.
+This writes `out/` and uses `lib/static-image-loader.ts` with generated local WebP sizes for responsive static delivery. Normal Next deployments retain AVIF/WebP image optimization. After adding or replacing a photograph, run `python -B scripts/generate-responsive-images.py` to refresh `content/responsive-images.json` and its provenance report; originals are retained and never upscaled. The static host supplies HTTP response headers. Keep preview indexing disabled and verify deployed behavior before sharing. Public launch and domain connection remain separate.
 
 ## Security and maintenance
 
-Production dependencies have no reported npm audit findings as of this build. The development ESLint dependency chain has an upstream `braces` advisory without an available patched release; see `evidence/security-review.json`. Do not force-downgrade Next.js to silence that report.
+The retained 19 October dependency review reported no production vulnerabilities and an unresolved development-only `braces` advisory; see `evidence/security-review.json`. Treat that as a dated review and recheck upstream during release verification. Do not force-downgrade Next.js to silence the report.
 
-Security headers, hotel JSON-LD, a 1200×630 OG image, local fonts and responsive images are included. Keep the lockfile and licensed photograph credits. All source and working dependencies remain in this one project folder.
+Security headers, hotel JSON-LD, a 1200×630 OG image, local fonts and responsive images are implemented. Their recorded release checks are in this revision's verification reports. Keep the lockfile and licensed photograph credits. All source and working dependencies remain in this one project folder. Scoped cleanup is recorded in `evidence/apple-dominant-revision/cleanup-final.json`; preserve historical evidence and known retained artifacts.
+
+Tailwind uses `source(none)` with explicit `@source` paths for app, components and content. Preserve this boundary: a previous broad scan encountered a transient Word file and panicked during hot development. Generated documents and research remain outside the source scan.

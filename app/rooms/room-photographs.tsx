@@ -22,13 +22,13 @@ export function RoomPhotographs({ images, roomName }: { images: RoomPhotograph[]
           if (event.key === "ArrowLeft") { event.preventDefault(); change(-1); }
         }}>
         {images.map((image, index) => <span className="room-photo-layer" key={image.src} aria-hidden={index !== selected} style={{ opacity: index === selected ? 1 : 0 }}>
-          <Image src={image.src} alt={index === selected ? image.alt : ""} fill preload={index === 0} sizes="(max-width: 760px) 100vw, 75vw" quality={85}/>
+          <Image src={image.src} alt={index === selected ? image.alt : ""} fill preload={index === 0} sizes="(max-width: 760px) 100vw, 90vw" quality={85}/>
         </span>)}
         <span className="room-photo-expand"><Expand size={18}/><span>View larger</span></span>
       </button>
       <div className="room-photo-thumbnails" role="group" aria-label="Choose a room photograph">
         {images.map((image, index) => <button type="button" key={image.src} aria-label={`Show photograph ${index + 1}: ${image.caption}`} aria-pressed={index === selected} onClick={() => setSelected(index)}>
-          <Image src={image.src} alt="" fill sizes="(max-width: 760px) 30vw, 20vw" quality={75}/><span aria-hidden="true" className="room-thumbnail-mark"/>
+          <Image src={image.src} alt="" fill sizes="(max-width: 760px) 72px, 86px" quality={75}/><span aria-hidden="true" className="room-thumbnail-mark"/>
         </button>)}
       </div>
     </div>

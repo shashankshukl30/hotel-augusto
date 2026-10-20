@@ -1,0 +1,553 @@
+{
+  "date": "2026-10-20T07:07:41.700139+00:00",
+  "baseUrl": "http://127.0.0.1:3082",
+  "browserClosed": true,
+  "status": "fail",
+  "checks": [
+    {
+      "name": "390-no-preference: no horizontal overflow",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "body": 390,
+        "client": 390,
+        "paddingBottom": 133,
+        "dock": {
+          "x": 0,
+          "y": 711,
+          "right": 390,
+          "bottom": 844,
+          "height": 133
+        },
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "390-no-preference: dock fits viewport and reserves page space",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: photographs and logo decode",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390-no-preference: group page metadata",
+      "passed": true,
+      "details": "Group Stays in Varanasi | Enquire with Hotel Augusto"
+    },
+    {
+      "name": "390-no-preference: empty dates rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: past arrival rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: same-day departure rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: out-of-range party rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: nights summary correct",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: correct reviewed WhatsApp draft",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: draft receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: no external window opened",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: displayed draft matches destination",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: editing clears stale draft",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: group accessibility audit",
+      "passed": false,
+      "details": [
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "nodes": [
+            {
+              "target": [
+                "#dock-adults"
+              ],
+              "summary": "Fix all of the following:\n  Form element has explicit <label> that is hidden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-no-preference: menu has group route",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: menu has no horizontal overflow",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: menu links finish visible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: Escape returns menu focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: same-route menu selection closes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: home has no horizontal overflow",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-no-preference: shared logo decodes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: no horizontal overflow",
+      "passed": true,
+      "details": {
+        "viewport": 390,
+        "body": 390,
+        "client": 390,
+        "paddingBottom": 133,
+        "dock": {
+          "x": 0,
+          "y": 711,
+          "right": 390,
+          "bottom": 844,
+          "height": 133
+        },
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "390-reduce: dock fits viewport and reserves page space",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: photographs and logo decode",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "390-reduce: group page metadata",
+      "passed": true,
+      "details": "Group Stays in Varanasi | Enquire with Hotel Augusto"
+    },
+    {
+      "name": "390-reduce: empty dates rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: past arrival rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: same-day departure rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: out-of-range party rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: nights summary correct",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: correct reviewed WhatsApp draft",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: draft receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: no external window opened",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: displayed draft matches destination",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: editing clears stale draft",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: group accessibility audit",
+      "passed": false,
+      "details": [
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "nodes": [
+            {
+              "target": [
+                "#dock-adults"
+              ],
+              "summary": "Fix all of the following:\n  Form element has explicit <label> that is hidden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390-reduce: menu has group route",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: menu has no horizontal overflow",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: menu links finish visible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: Escape returns menu focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: same-route menu selection closes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: home has no horizontal overflow",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390-reduce: shared logo decodes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: no horizontal overflow",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "body": 1440,
+        "client": 1440,
+        "paddingBottom": 87,
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "right": 1440,
+          "bottom": 1000,
+          "height": 87
+        },
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "1440-no-preference: dock fits viewport and reserves page space",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: photographs and logo decode",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440-no-preference: group page metadata",
+      "passed": true,
+      "details": "Group Stays in Varanasi | Enquire with Hotel Augusto"
+    },
+    {
+      "name": "1440-no-preference: empty dates rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: past arrival rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: same-day departure rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: out-of-range party rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: nights summary correct",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: correct reviewed WhatsApp draft",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: draft receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: no external window opened",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: displayed draft matches destination",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: editing clears stale draft",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: group accessibility audit",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440-no-preference: home has no horizontal overflow",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-no-preference: shared logo decodes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: no horizontal overflow",
+      "passed": true,
+      "details": {
+        "viewport": 1440,
+        "body": 1440,
+        "client": 1440,
+        "paddingBottom": 87,
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "right": 1440,
+          "bottom": 1000,
+          "height": 87
+        },
+        "brokenImages": []
+      }
+    },
+    {
+      "name": "1440-reduce: dock fits viewport and reserves page space",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: photographs and logo decode",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440-reduce: group page metadata",
+      "passed": true,
+      "details": "Group Stays in Varanasi | Enquire with Hotel Augusto"
+    },
+    {
+      "name": "1440-reduce: empty dates rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: past arrival rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: same-day departure rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: out-of-range party rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: nights summary correct",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: correct reviewed WhatsApp draft",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: draft receives focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: no external window opened",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: displayed draft matches destination",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: editing clears stale draft",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: group accessibility audit",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440-reduce: home has no horizontal overflow",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "1440-reduce: shared logo decodes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "No page errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "No console errors",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "audits": [
+    {
+      "context": "390-no-preference",
+      "violations": [
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "nodes": [
+            {
+              "target": [
+                "#dock-adults"
+              ],
+              "summary": "Fix all of the following:\n  Form element has explicit <label> that is hidden"
+            }
+          ]
+        }
+      ],
+      "passes": 45
+    },
+    {
+      "context": "390-reduce",
+      "violations": [
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "nodes": [
+            {
+              "target": [
+                "#dock-adults"
+              ],
+              "summary": "Fix all of the following:\n  Form element has explicit <label> that is hidden"
+            }
+          ]
+        }
+      ],
+      "passes": 45
+    },
+    {
+      "context": "1440-no-preference",
+      "violations": [],
+      "passes": 45
+    },
+    {
+      "context": "1440-reduce",
+      "violations": [],
+      "passes": 45
+    }
+  ],
+  "captures": [
+    "group-390-intro.png",
+    "group-390-form.png",
+    "group-390-draft.png",
+    "mobile-navigation.png",
+    "home-390-hero-dock.png",
+    "group-1440-intro.png",
+    "group-1440-form.png",
+    "group-1440-draft.png",
+    "home-1440-hero-dock.png"
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "summary": {
+    "checks": 80,
+    "failed": 2,
+    "audits": 4,
+    "captures": 9
+  }
+}

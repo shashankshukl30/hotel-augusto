@@ -1,0 +1,54 @@
+{
+  "reviewedAt": "2026-10-20",
+  "referenceHierarchy": "The user's latest favourite, landonorris.com, leads the visual composition. Apple and Linear inform precise controls, hierarchy and interaction. Hospitality references inform useful guest tasks.",
+  "method": "Agent Reach Jina Reader plus direct public HTML inspection. No browser session, interaction playback or screenshot inspection.",
+  "sourceUrls": [
+    "https://linear.app/",
+    "https://r.jina.ai/https://linear.app/"
+  ],
+  "observedPatterns": [
+    {
+      "pattern": "Different headline line breaks for mobile and desktop",
+      "evidence": "The h1 contains separate show-mobile/hide-mobile line spans. Animated visual copies are aria-hidden, with one visually hidden semantic copy.",
+      "augustoApplication": "Give the oversized hotel headline intentional mobile line breaks and one accessible name; avoid accidental duplicate announcements."
+    },
+    {
+      "pattern": "Line-level entrance rather than animating every character",
+      "evidence": "Headline line spans declare opacity 0, blur(10px) and translateY(20%) in initial inline styles.",
+      "augustoApplication": "Use one brief, deliberate entrance for hotel title lines. Keep readable SSR/reduced-motion fallbacks; do not inherit the reference's hidden initial state without recovery.",
+      "limit": "Duration, easing, final state and reduced-motion behavior were not verified through playback."
+    },
+    {
+      "pattern": "The actual product supplies the visual proof",
+      "evidence": "The hero combines its proposition with a large product interface and concrete activity/state examples. Later sections follow distinct product tasks.",
+      "augustoApplication": "Make real Augusto rooms and dining photography the visual proof. Follow the guest journey through rooms, meals, arrival and enquiry instead of decorative dashboard-like cards."
+    },
+    {
+      "pattern": "Progressive navigation with explicit state",
+      "evidence": "The site navigation separates direct links from Product/Resources buttons carrying aria-expanded. A mobile trigger declares aria-haspopup=dialog.",
+      "augustoApplication": "Use a clear hotel navigation hierarchy, accurate expanded states, reliable Escape/focus handling and direct booking access.",
+      "limit": "HTML establishes control semantics; actual focus trapping and menu motion were not tested."
+    },
+    {
+      "pattern": "Feedback is tied to the current task",
+      "evidence": "The demonstration markup includes labelled actions, status changes and selected workflow context.",
+      "augustoApplication": "Make selected room, requested rooms, night count, active image, input errors and ready-to-send enquiry state visibly respond to the guest's action. Use motion to explain those changes."
+    },
+    {
+      "pattern": "Responsive media rather than one oversized file everywhere",
+      "evidence": "The public page uses image delivery URLs with automatic formats, scale-down behavior and explicit width parameters.",
+      "augustoApplication": "Keep Augusto's responsive local WebP variants for static export and Next's image optimizer for server deployment. Preserve genuine assets and their provenance."
+    }
+  ],
+  "doNotTransfer": [
+    "SaaS interface screenshots, workflow terminology, customer logos, statistics or product claims.",
+    "The animated dot-grid and perpetual product-demo sequences merely as decoration.",
+    "Hidden content without a robust visible fallback, elaborate loading gates or scroll hijacking.",
+    "Unverified exact animation durations, contrast values or perceived performance claims."
+  ],
+  "accessLimits": [
+    "Jina and direct HTML both returned substantial public content.",
+    "Requests to discovered static.linear.app CSS files returned HTTP403; no access-control workaround or browser retry was attempted because another agent owned the browser.",
+    "Current CSS colors, typography sizes, hover durations, responsive rendering and motion quality therefore remain unverified by this review."
+  ]
+}

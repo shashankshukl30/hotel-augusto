@@ -1,0 +1,141 @@
+{
+  "reviewedAt": "2026-10-20T07:15:56.471678+00:00",
+  "brief": "Strong visual inspiration from Lando Norris, with Apple/Linear control clarity, adapted to genuine Hotel Augusto photography and a universal booking enquiry dock. Do not clone reference branding, assets or claims.",
+  "method": {
+    "browser": "One headless Microsoft Edge process, sequential1440x1000 and390x844 contexts for each site; loaded fonts and rendered screenshots; browser closed after captures.",
+    "source": "agent-reach web route through Jina Reader plus direct public HTML/CSS fetches.",
+    "viewedImages": [
+      "lando-1440-hero.png",
+      "lando-1440-scroll.png",
+      "lando-390-hero.png",
+      "lando-390-scroll.png",
+      "linear-1440-hero.png",
+      "linear-1440-scroll.png",
+      "linear-390-hero.png",
+      "linear-390-scroll.png"
+    ],
+    "limits": [
+      "Two static scroll positions per viewport do not establish continuous animation smoothness, pointer behavior, complete page performance or accessibility conformance.",
+      "No third-party scripts were copied into Augusto. Public CSS was inspected for design evidence only.",
+      "Lando primary h1/h2 computed measurements are hidden1x1 text and must not be treated as visible display measurements.",
+      "Reference factual claims and date labels are not hotel facts."
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://landonorris.com/",
+      "evidence": [
+        "capture-report.json",
+        "lando-reader.txt",
+        "lando-html.html",
+        "lando-css.css"
+      ],
+      "observed": "Image-dominant portrait hero; mobile controls recomposed; a dark next chapter with photograph and oversized type bands; persistent compact controls."
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/67b5a02dc5d338960b17a7e9/css/lando-offbrand.shared.6e09a725a.css",
+      "observed": "Brier bold and Mona Sans Variable declared; width/weight variation used for visible headings; strong brand-specific dark-green/lime palette. Not proposed for reuse."
+    },
+    {
+      "url": "https://linear.app/",
+      "evidence": [
+        "capture-report.json",
+        "linear-reader.txt",
+        "linear-layout-css.css",
+        "linear-header-css.css"
+      ],
+      "observed": "Left-aligned type, dominant product canvas, precise gutters, quiet borders and utility controls."
+    },
+    {
+      "url": "https://static.linear.app/web/_next/static/css/layout.TfwOB7lY.css",
+      "observed": "Inter Variable regular family, header72px desktop/64px under640px, page padding24px, reduced-motion overrides on view transitions."
+    },
+    {
+      "url": "https://static.linear.app/web/_next/static/css/Header.BNHV4lAU.css",
+      "observed": "Mobile menu opacity entrance/exit0.18s gated by prefers-reduced-motion:no-preference; header link transitions limited to color/background."
+    }
+  ],
+  "patterns": [
+    {
+      "id": "image-first-hero",
+      "reference": "Lando",
+      "evidence": [
+        "lando-1440-hero.png",
+        "lando-390-hero.png"
+      ],
+      "observed": "The hero subject occupies most of the first viewport. The brand and utility controls live around that subject; the next content does not compete for attention.",
+      "augustoAdaptation": "Use one genuine hotel room photograph as a near-viewport canvas. Anchor a short confident heading asymmetrically, retain small location context, and let the fixed dock handle the booking pathway.",
+      "avoid": "Do not copy the portrait cutout, lime palette, race plaque, floating wireframe cap, or tap-to-lock interaction."
+    },
+    {
+      "id": "one-contrasting-chapter",
+      "reference": "Lando",
+      "evidence": [
+        "lando-1440-scroll.png",
+        "lando-390-scroll.png"
+      ],
+      "observed": "A full dark chapter changes the canvas. Oversized horizontal type and a central portrait create a deliberate layered composition. Mobile keeps the photograph prominent.",
+      "augustoAdaptation": "Use a single ink-blue Varanasi chapter with a broad genuine river photograph and oversized decorative KASHI behind it. Keep functional headings and copy readable above the image.",
+      "implementedIn": [
+        "components/city-itinerary.tsx",
+        "components/city-itinerary.css"
+      ],
+      "avoid": "Do not crop meaningful text or introduce racing motifs; only aria-hidden decorative lettering may crop."
+    },
+    {
+      "id": "responsive-recomposition",
+      "reference": "Lando and Linear",
+      "evidence": [
+        "lando-390-hero.png",
+        "linear-390-hero.png"
+      ],
+      "observed": "Lando moves store/menu and wordmark positions on mobile. Linear uses a measured38px/41.8px heading rather than simply shrinking the entire desktop page.",
+      "augustoAdaptation": "Compose room image crops independently at390px; account for header plus booking dock before choosing hero height. Keep major text, room evidence and a clear pathway in the initial usable viewport.",
+      "avoid": "Do not make a tall introductory text block consume the entire mobile viewport or scale a wide room photograph into an unreadable thumbnail."
+    },
+    {
+      "id": "quiet-precise-controls",
+      "reference": "Linear",
+      "evidence": [
+        "linear-1440-hero.png",
+        "linear-390-hero.png",
+        "linear-header-css.css"
+      ],
+      "observed": "Compact fixed header, low-contrast rules and restrained pill control; short menu opacity transitions are disabled for reduced motion.",
+      "measuredHeadline": {
+        "desktop": {
+          "font": "Inter Variable",
+          "sizePx": 64,
+          "lineHeightPx": 64,
+          "weight": 510,
+          "letterSpacingPx": -1.408
+        },
+        "mobile": {
+          "font": "Inter Variable",
+          "sizePx": 38,
+          "lineHeightPx": 41.8,
+          "weight": 510,
+          "letterSpacingPx": -0.836
+        }
+      },
+      "augustoAdaptation": "Keep Inter for forms/navigation. Use stable52px booking controls, visible labels/focus states and short180-250ms feedback. Keep heavy motion away from data entry.",
+      "avoid": "Do not copy13px controls or low-contrast text when the hotel audience needs larger readable inputs."
+    },
+    {
+      "id": "content-led-motion",
+      "reference": "Lando layered chapters plus Linear restrained interaction CSS",
+      "evidence": [
+        "lando-1440-scroll.png",
+        "linear-header-css.css"
+      ],
+      "observed": "Distinctive image/type layers provide a spatial composition; Linear public CSS limits many control transitions to color/background and gates mobile menu animation by preference.",
+      "augustoAdaptation": "A small bounded image offset or scale may reward pointer/native scrolling. Room hover/focus can reveal another genuine photo while the room name/CTA stays stable. Manual city tabs crossfade between real images, with immediate static states under reduced motion.",
+      "avoid": "No scroll hijacking, loading gate, perpetual carousel, forced lock gesture, WebGL dependency or hidden essential content."
+    }
+  ],
+  "currentImplementationCheck": {
+    "city": "Scoped ESLint passed; PostCSS36 top-level rules parsed. No browser launched after city changes because root owns the active browser slot. Root visual/interaction QA pending.",
+    "group": "Focused browser runner80 checks,4 axe audits,9 screenshots.78 passed,2 failures were the shared dock adults select accessible name at390px for both motion settings; sent to root. No group-specific failures or console/page errors. Actual group390/1440 intro,390form,390draft,mobile-navigation images visually inspected.",
+    "scope": "Only city-itinerary TSX/CSS changed during this reference implementation; prior group/header sources frozen."
+  }
+}

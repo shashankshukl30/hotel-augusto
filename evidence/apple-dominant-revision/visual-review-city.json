@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-20T07:20:12.676345+00:00",
+  "base": "http://127.0.0.1:3082",
+  "captures": [
+    {
+      "route": "/",
+      "width": 1440,
+      "selector": ".city-itinerary",
+      "file": "home-1440-city.png",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "headingFont": "inter, \"inter Fallback\", -apple-system, BlinkMacSystemFont, sans-serif",
+      "headingWeight": "650",
+      "scroll": 4369
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "selector": ".itinerary-stage",
+      "file": "home-1440-city-photo.png",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "headingFont": "inter, \"inter Fallback\", -apple-system, BlinkMacSystemFont, sans-serif",
+      "headingWeight": "650",
+      "scroll": 5036
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "selector": ".city-itinerary",
+      "file": "home-390-city.png",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "headingFont": "inter, \"inter Fallback\", -apple-system, BlinkMacSystemFont, sans-serif",
+      "headingWeight": "650",
+      "scroll": 3977
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "selector": ".itinerary-stage",
+      "file": "home-390-city-photo.png",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "headingFont": "inter, \"inter Fallback\", -apple-system, BlinkMacSystemFont, sans-serif",
+      "headingWeight": "650",
+      "scroll": 4834
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

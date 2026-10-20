@@ -1,8 +1,8 @@
 .booking-form {
   min-width: 0;
   padding: 48px;
-  border: 1px solid color-mix(in oklch, var(--ink) 9%, transparent);
-  border-radius: 4px;
+  border: 0;
+  border-radius: 28px;
   background: var(--surface);
   box-shadow: none;
 }
@@ -11,7 +11,7 @@
 .form-heading h3 {
   font-family: var(--font-display), sans-serif;
   font-size: 38px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.15;
   letter-spacing: -.035em;
   margin: 0 0 14px;
@@ -35,7 +35,7 @@
   height: 56px;
   margin: 0;
   border: 1px solid var(--line);
-  border-radius: 3px;
+  border-radius: 12px;
   padding: 15px 16px;
   background: var(--surface);
   color: var(--ink);
@@ -71,7 +71,7 @@
   padding: 16px 24px;
   justify-content: center;
   gap: 12px;
-  border-radius: 3px;
+  border-radius: 999px;
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
@@ -88,7 +88,7 @@
 .draft-note { font-size: 14px; line-height: 1.5; color: var(--muted); margin: 16px 0 0; }
 @media (max-width: 1000px) { .booking-form { padding: 32px; } }
 @media (max-width: 600px) {
-  .booking-form { padding: 30px 20px; border-radius: 4px; }
+  .booking-form { padding: 30px 22px; border-radius: 24px; }
   .form-heading h3 { font-size: 32px; }
   .form-heading p { font-size: 17px; }
   .form-field label { font-size: 15px; }
