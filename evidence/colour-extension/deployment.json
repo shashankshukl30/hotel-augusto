@@ -1,0 +1,32 @@
+﻿{
+    "date":  "2026-10-20T08:58:54.2969827Z",
+    "source_commit":  "32645049d7f22685eac62995406530a821745248",
+    "repository":  "https://github.com/shashankshukl30/hotel-augusto",
+    "branch":  "preview/vercel",
+    "deployment_id":  "dpl_B3YdufHnfZ4MRoBoMmvoFw8FMGUE",
+    "url":  "https://hotel-augusto-gs0t4t0ii-omvitys-projects.vercel.app",
+    "alias":  "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+    "state":  "READY",
+    "environment":  "preview",
+    "changes":  [
+                    "Blue mist room and stay-planning panels",
+                    "Sandstone dining and arrival panels with terracotta dining accents",
+                    "Soft clay guest stories and warm ivory supporting panels",
+                    "Crown-gold Kashi typography, selected tabs, links and keyboard focus",
+                    "Cobalt actions, approved layout, photography and motion preserved"
+                ],
+    "verification":  {
+                         "browser_errors":  0,
+                         "production_build":  "passed",
+                         "qa_credential_revoked":  true,
+                         "lint":  "passed",
+                         "responsive_checks":  34,
+                         "colour_interactions":  6,
+                         "hosted_passed":  true,
+                         "colour_passed":  true,
+                         "visual_review":  "Desktop and mobile captures reviewed; independent palette review passed",
+                         "accessibility_audits":  38,
+                         "hosted_checks":  172
+                     },
+    "note":  "Receipt-only commits after this source do not change the verified website."
+}

@@ -1,0 +1,29 @@
+﻿{
+    "date":  "2026-10-20T08:57:43.5335759Z",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\colour-extension",
+    "free_bytes_before":  {
+                              "D":  67883966464,
+                              "C":  20240039936
+                          },
+    "free_bytes_after":  {
+                             "D":  67871301632,
+                             "C":  20199239680
+                         },
+    "removed_paths":  [
+
+                      ],
+    "removed_bytes":  0,
+    "status":  "No disposable task-owned files identified",
+    "retained":  [
+                     "Editable CSS and project source",
+                     "Current production build and active dependencies",
+                     "Colour and responsive verification evidence",
+                     "Existing recovery and previously policy-blocked cache paths"
+                 ],
+    "notes":  [
+                  "Only task-owned evidence and new build outputs were reviewed.",
+                  "Existing blocked cleanup paths were preserved without retry.",
+                  "The task-owned local server has been stopped. No user assets, dependencies, sibling projects or global caches were removed."
+              ],
+    "retained_evidence_bytes":  8893159
+}
