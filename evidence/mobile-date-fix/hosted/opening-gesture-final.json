@@ -1,0 +1,943 @@
+{
+  "date": "2026-10-20T16:47:43.208588+00:00",
+  "checks": [
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-arrival",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ #dock-departure",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/contact .booking-form #arrival",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-arrival",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ #dock-departure",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/ .stay-bar input[name=arrival]",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/contact .booking-form #arrival",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/group-stays .group-enquiry input[name=arrival]",
+      "name": "No horizontal overflow",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 0 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 0 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Intentional selection 0 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Selection 0 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 1 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 1 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Intentional selection 1 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Selection 1 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 2 keeps the calendar open",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Opening tap 2 never selects a day",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Intentional selection 2 stores its date",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "Selection 2 restores focus",
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "case": "/dining .dining-enquiry-form input[type=date]",
+      "name": "No horizontal overflow",
+      "passed": true
+    }
+  ],
+  "runtime_errors": [],
+  "passed": true
+}

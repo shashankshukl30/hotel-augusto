@@ -1,28 +1,16 @@
 {
-  "recorded_at": "2026-10-20T16:41:02.838869+00:00",
-  "source_commit": "e18a26984993873a94fc95e25417418be57e9567",
+  "recorded_at": "2026-10-20T16:49:15.639790+00:00",
+  "source_commit": "03f40be7580047683954f80d9957df0ba2f129d3",
   "branch": "preview/vercel",
   "public_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
-  "verified_deployment_url": "https://hotel-augusto-racglw0mr-omvitys-projects.vercel.app",
+  "verified_deployment_url": "https://hotel-augusto-32gj5w3qe-omvitys-projects.vercel.app",
   "deployment_state": "READY",
   "changes": [
     "Shared lazy-loaded touch calendar for every date field with visible empty prompts and native ISO form values",
     "Checkout date constraints, keyboard navigation, focus restoration and stale enquiry feedback reset",
-    "Safe deduplicated booking dock ResizeObserver measurement and narrow mobile adults selector sizing"
+    "Safe deduplicated booking dock ResizeObserver measurement and narrow mobile adults selector sizing",
+    "Capture a retargeted opening touch before it can select a loaded calendar day; preserve fresh pointer gestures, keyboard input and zero-detail virtual activation"
   ],
-  "verification": {
-    "production_build": "passed",
-    "lint": "passed",
-    "unit_tests": 18,
-    "local_chromium_date_checks": 264,
-    "hosted_chromium_date_checks": 264,
-    "hosted_webkit_date_checks": 264,
-    "hero_responsive_checks": 135,
-    "accessibility_geometry_checks": 16,
-    "anonymous_access_checks": 58,
-    "final_runtime_errors": [],
-    "final_webkit_failed_network_requests": 0
-  },
   "initial_webkit_diagnostic": {
     "report": "hosted/date-qa.json",
     "count": 7,
@@ -36,5 +24,41 @@
     "Runtime checks cover the recorded routes and interactions and cannot prove absence of every possible defect"
   ],
   "cleanup_report": "cleanup.json",
-  "cleanup_deliverable_verification": "All 17 public routes and genuine logo/download assets passed anonymous verification after cleanup."
+  "cleanup_deliverable_verification": "All 17 public routes and genuine logo/download assets passed anonymous verification after cleanup.",
+  "baseline_source_commit": "e18a26984993873a94fc95e25417418be57e9567",
+  "baseline_verification": {
+    "production_build": "passed",
+    "lint": "passed",
+    "unit_tests": 18,
+    "local_chromium_date_checks": 264,
+    "hosted_chromium_date_checks": 264,
+    "hosted_webkit_date_checks": 264,
+    "hero_responsive_checks": 135,
+    "accessibility_geometry_checks": 16,
+    "anonymous_access_checks": 58,
+    "final_runtime_errors": [],
+    "final_webkit_failed_network_requests": 0
+  },
+  "final_verification": {
+    "production_build": "passed",
+    "typecheck": "passed through Next build",
+    "changed_component_lint": "passed",
+    "local_opening_gesture_checks": 78,
+    "hosted_webkit_and_chromium_opening_gesture_checks": 156,
+    "accessibility_geometry_checks": 16,
+    "anonymous_access_checks": 58,
+    "runtime_errors": [],
+    "reports": [
+      "local/opening-gesture.json",
+      "hosted/opening-gesture-final.json",
+      "accessibility-gesture-final.json",
+      "hosted/anonymous-final.json"
+    ]
+  },
+  "touch_regression": {
+    "before_evidence": "final-smoke-probe.json",
+    "cause": "WebKit retargeted the opening pointer gesture to a loaded day button",
+    "fix": "Consume that click in dialog capture while allowing subsequent intentional gestures and virtual clicks",
+    "regression_script": "scripts/verify_date_opening_gesture.py"
+  }
 }
