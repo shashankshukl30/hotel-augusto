@@ -1,6 +1,6 @@
 ﻿{
     "checked":  "2026-10-20T07:31:05.2057091Z",
-    "status":  "local-verification-passed; private publication pending",
+    "status":  "passed; owner-private publication succeeded and66hostedchecks passed",
     "lint":  "pass",
     "typecheck":  "pass",
     "unitTests":  {
@@ -67,5 +67,13 @@
                                         ],
                         "report":  "production-audit.json"
                     },
-    "messagesSent":  0
+    "messagesSent":  0,
+    "hostedVerification":  {
+                               "passed":  true,
+                               "checks":  66,
+                               "deployment":  "private-deployment.json",
+                               "failures":  0,
+                               "sourceCommit":  "f1d34b56227886330046180ebdbf3cc5b7247edf",
+                               "report":  "private-preview-qa.json"
+                           }
 }

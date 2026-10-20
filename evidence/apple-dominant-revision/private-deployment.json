@@ -1,0 +1,23 @@
+{
+  "publishedAt": "2026-10-20T07:36:36.433507+00:00",
+  "status": "succeeded",
+  "url": "https://hotel-augusto.candy-okapi-4696.chatgpt.site",
+  "projectId": "appgprj_6ad7018ade208191bbdb1b69f9725cd5",
+  "versionId": "appgprj_6ad7018ade208191bbdb1b69f9725cd5~appgver_567e3d9ad52c8191b38aea3e728082c2",
+  "versionNumber": 3,
+  "deploymentId": "appgdep_6ad719eee4bc8191adafa6552f0b1250",
+  "sourceCommit": "f1d34b56227886330046180ebdbf3cc5b7247edf",
+  "sourceRepository": "https://github.com/shashankshukl30/hotel-augusto",
+  "sourcePushedBeforePublication": true,
+  "audience": "owner-private; preserved",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000dbbc82118a3591c4ad8bae6c",
+    "content_hash": "sha256:da1b0399e1dec56538fab3b53b6bc00ea39a074961c1683767f77c5be92f760d",
+    "size_bytes": 12451840,
+    "file_count": 294
+  },
+  "application": "17 content routes plus404; static export; preview indexing disabled",
+  "hostedVerification": "private-preview-qa.json",
+  "localVerification": "release-verification.json"
+}

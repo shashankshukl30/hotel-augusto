@@ -6,8 +6,8 @@
                                "C":  28931465216
                            },
     "finalFreeBytes":  {
-                           "D":  68004937728,
-                           "C":  20478832640
+                           "D":  68001230848,
+                           "C":  20478681088
                        },
     "removedBytes":  573378324,
     "removedFiles":  1194,
@@ -28,6 +28,7 @@
                      "Production HTTP200 after cleanup",
                      "Original, runtime and export logo SHA256 identical",
                      "Static export64checks pass with all local dependencies",
-                     "Dining PDF download and source hash match"
+                     "Dining PDF download and source hash match",
+                     "Published preview66checks pass; logo and dining PDF hosted bytes match verified originals"
                  ]
 }
