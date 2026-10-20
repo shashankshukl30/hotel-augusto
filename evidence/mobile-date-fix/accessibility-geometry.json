@@ -1,0 +1,74 @@
+{
+  "base_url": "http://127.0.0.1:3082",
+  "checks": [
+    {
+      "name": "Selected dates fit at 320",
+      "passed": true
+    },
+    {
+      "name": "Calendar accessibility at 320",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "Tab never reaches background controls at 320",
+      "passed": true
+    },
+    {
+      "name": "Intentional backdrop tap dismisses at 320",
+      "passed": true
+    },
+    {
+      "name": "Selected dates fit at 390",
+      "passed": true
+    },
+    {
+      "name": "Calendar accessibility at 390",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "Tab never reaches background controls at 390",
+      "passed": true
+    },
+    {
+      "name": "Intentional backdrop tap dismisses at 390",
+      "passed": true
+    },
+    {
+      "name": "Selected dates fit at 480",
+      "passed": true
+    },
+    {
+      "name": "Calendar accessibility at 480",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "Tab never reaches background controls at 480",
+      "passed": true
+    },
+    {
+      "name": "Intentional backdrop tap dismisses at 480",
+      "passed": true
+    },
+    {
+      "name": "Selected dates fit at 1440",
+      "passed": true
+    },
+    {
+      "name": "Calendar accessibility at 1440",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "name": "Tab never reaches background controls at 1440",
+      "passed": true
+    },
+    {
+      "name": "Intentional backdrop tap dismisses at 1440",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

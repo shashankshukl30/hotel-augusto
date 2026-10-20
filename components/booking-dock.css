@@ -26,3 +26,4 @@ body { padding-bottom:var(--booking-dock-height); }
  .dock-submit svg { display:none; }
 }
 @media(prefers-reduced-motion:reduce) { .dock-submit:hover svg { transform:none; } }
+@media(max-width:350px) { .dock-guests select { font-size:14px; padding-inline:8px; } }

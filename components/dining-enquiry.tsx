@@ -6,12 +6,13 @@ import { hotel } from "@/content/hotel";
 import { localToday } from "@/lib/booking";
 import { buildDiningWhatsAppUrl, diningInterests, validateDiningEnquiry, type DiningEnquiry as DiningData, type DiningErrors } from "@/lib/dining-enquiry";
 import { WhatsAppIcon } from "./whatsapp-icon";
+import { DateField } from "./date-field";
 import "./dining-enquiry.css";
 
 export function DiningEnquiry() {
   const [errors, setErrors] = useState<DiningErrors>({});
   const [draft, setDraft] = useState<string | null>(null);
-  const [today, setToday] = useState("");
+  const [date, setDate] = useState("");
   const draftLink = useRef<HTMLAnchorElement>(null);
   const error = (field: keyof DiningData) => errors[field] ? <span id={`dining-${field}-error`} className="dining-field-error">{errors[field]}</span> : null;
 
@@ -32,7 +33,7 @@ export function DiningEnquiry() {
   }}>
     <div className="dining-form-fields">
       <div className="dining-field dining-field-wide"><label htmlFor="dining-interest">What are you planning?</label><select id="dining-interest" name="interest" defaultValue={diningInterests[0]} aria-invalid={!!errors.interest} aria-describedby={errors.interest ? "dining-interest-error" : undefined}>{diningInterests.map(interest => <option key={interest}>{interest}</option>)}</select>{error("interest")}</div>
-      <div className="dining-field"><label htmlFor="dining-date">Preferred date <span aria-hidden="true">*</span></label><input id="dining-date" name="date" type="date" required min={today || undefined} onFocus={() => setToday(localToday())} aria-invalid={!!errors.date} aria-describedby={errors.date ? "dining-date-error" : undefined} />{error("date")}</div>
+      <div className="dining-field"><label htmlFor="dining-date">Preferred date <span aria-hidden="true">*</span></label><DateField id="dining-date" name="date" label="Preferred date" required minToday value={date} onValueChange={value => { setDate(value); setDraft(null); setErrors({}); }} aria-invalid={!!errors.date} aria-describedby={errors.date ? "dining-date-error" : undefined} />{error("date")}</div>
       <div className="dining-field"><label htmlFor="dining-guests">People in your party <span aria-hidden="true">*</span></label><input id="dining-guests" name="guests" type="number" inputMode="numeric" min={1} max={99} step={1} required defaultValue={2} aria-invalid={!!errors.guests} aria-describedby={errors.guests ? "dining-guests-error" : undefined} />{error("guests")}</div>
       <div className="dining-field dining-field-wide"><label htmlFor="dining-name">Your name <span>optional</span></label><input id="dining-name" name="name" type="text" autoComplete="name" maxLength={80} aria-invalid={!!errors.name} aria-describedby={errors.name ? "dining-name-error" : undefined} />{error("name")}</div>
       <div className="dining-field dining-field-wide"><label htmlFor="dining-notes">Anything to add? <span>optional</span></label><textarea id="dining-notes" name="notes" rows={3} maxLength={600} placeholder="Preferred time, your room plan, or a dietary request…" aria-invalid={!!errors.notes} aria-describedby={errors.notes ? "dining-notes-error" : undefined} />{error("notes")}</div>

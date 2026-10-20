@@ -6,6 +6,7 @@ import { ChevronRight } from "lucide-react";
 import { rooms } from "@/content/hotel";
 import { localToday, nextDate, validateEnquiry, type EnquiryErrors } from "@/lib/booking";
 import { stayQuery } from "@/lib/stay-query";
+import { DateField } from "./date-field";
 import "./booking-dock.css";
 
 /** Always within reach; the hotel confirms availability through the enquiry. */
@@ -21,8 +22,12 @@ export function BookingDock() {
   useEffect(() => {
     const element = dock.current;
     if (!element) return;
-    const observer = new ResizeObserver(([entry]) => {
-      document.documentElement.style.setProperty("--booking-dock-height", `${Math.ceil(entry.borderBoxSize[0]?.blockSize || element.offsetHeight)}px`);
+    let previousHeight = 0;
+    const observer = new ResizeObserver(() => {
+      const height = Math.ceil(element.getBoundingClientRect().height);
+      if (height === previousHeight) return;
+      previousHeight = height;
+      document.documentElement.style.setProperty("--booking-dock-height", `${height}px`);
     });
     observer.observe(element, { box: "border-box" });
     return () => observer.disconnect();
@@ -57,13 +62,12 @@ export function BookingDock() {
     }}>
       <div className="booking-dock-copy"><strong>Your stay at Augusto.</strong><span>Availability confirmed on WhatsApp.</span></div>
       <div className="booking-dock-fields">
-        <div className="dock-date"><label htmlFor="dock-arrival">Check-in</label><input id="dock-arrival" name="arrival" type="date" required value={arrival} aria-invalid={!!errors.arrival} aria-describedby={errors.arrival ? "dock-error" : undefined} onFocus={event => { event.currentTarget.min = localToday(); }} onChange={event => {
-          const value = event.target.value;
+        <div className="dock-date"><label htmlFor="dock-arrival">Check-in</label><DateField id="dock-arrival" name="arrival" label="Check-in date" minToday required value={arrival} aria-invalid={!!errors.arrival} aria-describedby={errors.arrival ? "dock-error" : undefined} onValueChange={value => {
           setArrival(value);
           if (value && (!departure || departure <= value)) setDeparture(nextDate(value));
           setErrors({});
         }}/></div>
-        <div className="dock-date"><label htmlFor="dock-departure">Check-out</label><input id="dock-departure" name="departure" type="date" required value={departure} min={arrival ? nextDate(arrival) : undefined} aria-invalid={!!errors.departure} aria-describedby={errors.departure ? "dock-error" : undefined} onChange={event => { setDeparture(event.target.value); setErrors({}); }}/></div>
+        <div className="dock-date"><label htmlFor="dock-departure">Check-out</label><DateField id="dock-departure" name="departure" label="Check-out date" required value={departure} min={arrival ? nextDate(arrival) : undefined} aria-invalid={!!errors.departure} aria-describedby={errors.departure ? "dock-error" : undefined} onValueChange={value => { setDeparture(value); setErrors({}); }}/></div>
         <div className="dock-guests"><label htmlFor="dock-adults">Adults</label><select id="dock-adults" name="adults" defaultValue="2" aria-label="Adults">{Array.from({length:8},(_,index)=><option key={index} value={index+1}>{index+1} adult{index ? "s" : ""}</option>)}</select></div>
         <button type="submit" className="button dock-submit" style={{color:"var(--paper)"}}>Check availability <ChevronRight size={18}/></button>
       </div>

@@ -1,0 +1,116 @@
+{
+  "chromium": {
+    "empty": [
+      {
+        "type": "date",
+        "value": "",
+        "box": {
+          "x": 16,
+          "y": 722,
+          "width": 175,
+          "height": 54,
+          "top": 722,
+          "right": 191,
+          "bottom": 776,
+          "left": 16
+        },
+        "font": "16px / 24px inter, \"inter Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+        "lineHeight": "24px",
+        "appearance": "auto",
+        "placeholder": "",
+        "scrollWidth": 173,
+        "clientWidth": 173
+      },
+      {
+        "type": "date",
+        "value": "",
+        "box": {
+          "x": 199,
+          "y": 722,
+          "width": 175,
+          "height": 54,
+          "top": 722,
+          "right": 374,
+          "bottom": 776,
+          "left": 199
+        },
+        "font": "16px / 24px inter, \"inter Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+        "lineHeight": "24px",
+        "appearance": "auto",
+        "placeholder": "",
+        "scrollWidth": 173,
+        "clientWidth": 173
+      }
+    ],
+    "errors": [],
+    "selected": [
+      {
+        "value": "2026-11-19",
+        "scrollWidth": 173,
+        "clientWidth": 173
+      },
+      {
+        "value": "2026-11-21",
+        "scrollWidth": 173,
+        "clientWidth": 173
+      }
+    ]
+  },
+  "webkit": {
+    "empty": [
+      {
+        "type": "text",
+        "value": "",
+        "box": {
+          "x": 16,
+          "y": 722,
+          "width": 175,
+          "height": 54,
+          "top": 722,
+          "right": 191,
+          "bottom": 776,
+          "left": 16
+        },
+        "font": "16px / 24px inter, \"inter Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+        "lineHeight": "24px",
+        "appearance": "auto",
+        "placeholder": "",
+        "scrollWidth": 173,
+        "clientWidth": 173
+      },
+      {
+        "type": "text",
+        "value": "",
+        "box": {
+          "x": 199,
+          "y": 722,
+          "width": 175,
+          "height": 54,
+          "top": 722,
+          "right": 374,
+          "bottom": 776,
+          "left": 199
+        },
+        "font": "16px / 24px inter, \"inter Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+        "lineHeight": "24px",
+        "appearance": "auto",
+        "placeholder": "",
+        "scrollWidth": 173,
+        "clientWidth": 173
+      }
+    ],
+    "errors": [],
+    "selected": [
+      {
+        "value": "2026-11-19",
+        "scrollWidth": 173,
+        "clientWidth": 173
+      },
+      {
+        "value": "2026-11-21",
+        "scrollWidth": 173,
+        "clientWidth": 173
+      }
+    ]
+  }
+}

@@ -1,0 +1,2140 @@
+{
+  "date": "2026-10-20T16:28:09.319287+00:00",
+  "base_url": "http://127.0.0.1:3082",
+  "engines": [
+    "chromium"
+  ],
+  "checks": [
+    {
+      "name": "chromium / Dock at 320px / dock-arrival has a visible empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / dock-departure has a visible empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 320,
+        "top": 409,
+        "bottom": 844,
+        "width": 320,
+        "height": 844,
+        "scroll": 318,
+        "client": 318
+      }
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 39
+      }
+    },
+    {
+      "name": "chromium / Dock at 320px / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Dock at 320px / Checkout minimum follows check-in",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 320,
+        "top": 409,
+        "bottom": 844,
+        "width": 320,
+        "height": 844,
+        "scroll": 318,
+        "client": 318
+      }
+    },
+    {
+      "name": "chromium / Dock at 320px / Checkout disables dates before its minimum",
+      "passed": true,
+      "detail": [
+        {
+          "iso": "2026-11-01",
+          "disabled": true,
+          "outside": false,
+          "label": "Sunday, November 1st, 2026"
+        },
+        {
+          "iso": "2026-11-02",
+          "disabled": true,
+          "outside": false,
+          "label": "Monday, November 2nd, 2026"
+        },
+        {
+          "iso": "2026-11-03",
+          "disabled": true,
+          "outside": false,
+          "label": "Tuesday, November 3rd, 2026"
+        },
+        {
+          "iso": "2026-11-04",
+          "disabled": true,
+          "outside": false,
+          "label": "Wednesday, November 4th, 2026"
+        },
+        {
+          "iso": "2026-11-05",
+          "disabled": true,
+          "outside": false,
+          "label": "Thursday, November 5th, 2026"
+        },
+        {
+          "iso": "2026-11-06",
+          "disabled": true,
+          "outside": false,
+          "label": "Friday, November 6th, 2026"
+        },
+        {
+          "iso": "2026-11-07",
+          "disabled": true,
+          "outside": false,
+          "label": "Saturday, November 7th, 2026"
+        },
+        {
+          "iso": "2026-11-08",
+          "disabled": true,
+          "outside": false,
+          "label": "Sunday, November 8th, 2026"
+        },
+        {
+          "iso": "2026-11-09",
+          "disabled": true,
+          "outside": false,
+          "label": "Monday, November 9th, 2026"
+        },
+        {
+          "iso": "2026-11-10",
+          "disabled": true,
+          "outside": false,
+          "label": "Tuesday, November 10th, 2026"
+        }
+      ]
+    },
+    {
+      "name": "chromium / Dock at 320px / Escape returns focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 320,
+        "top": 409,
+        "bottom": 844,
+        "width": 320,
+        "height": 844,
+        "scroll": 318,
+        "client": 318
+      }
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 36
+      }
+    },
+    {
+      "name": "chromium / Dock at 320px / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-12-10"
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-12-10"
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 320,
+        "top": 409,
+        "bottom": 844,
+        "width": 320,
+        "height": 844,
+        "scroll": 318,
+        "client": 318
+      }
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 320,
+        "top": 409,
+        "bottom": 844,
+        "width": 320,
+        "height": 844,
+        "scroll": 318,
+        "client": 318
+      }
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 320,
+        "top": 409,
+        "bottom": 844,
+        "width": 320,
+        "height": 844,
+        "scroll": 318,
+        "client": 318
+      }
+    },
+    {
+      "name": "chromium / Dock at 320px / Repeated open and close restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 320px / Page fits viewport after calendar interactions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / dock-arrival has a visible empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / dock-departure has a visible empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 39
+      }
+    },
+    {
+      "name": "chromium / Dock at 390px / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Dock at 390px / Checkout minimum follows check-in",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Dock at 390px / Checkout disables dates before its minimum",
+      "passed": true,
+      "detail": [
+        {
+          "iso": "2026-11-01",
+          "disabled": true,
+          "outside": false,
+          "label": "Sunday, November 1st, 2026"
+        },
+        {
+          "iso": "2026-11-02",
+          "disabled": true,
+          "outside": false,
+          "label": "Monday, November 2nd, 2026"
+        },
+        {
+          "iso": "2026-11-03",
+          "disabled": true,
+          "outside": false,
+          "label": "Tuesday, November 3rd, 2026"
+        },
+        {
+          "iso": "2026-11-04",
+          "disabled": true,
+          "outside": false,
+          "label": "Wednesday, November 4th, 2026"
+        },
+        {
+          "iso": "2026-11-05",
+          "disabled": true,
+          "outside": false,
+          "label": "Thursday, November 5th, 2026"
+        },
+        {
+          "iso": "2026-11-06",
+          "disabled": true,
+          "outside": false,
+          "label": "Friday, November 6th, 2026"
+        },
+        {
+          "iso": "2026-11-07",
+          "disabled": true,
+          "outside": false,
+          "label": "Saturday, November 7th, 2026"
+        },
+        {
+          "iso": "2026-11-08",
+          "disabled": true,
+          "outside": false,
+          "label": "Sunday, November 8th, 2026"
+        },
+        {
+          "iso": "2026-11-09",
+          "disabled": true,
+          "outside": false,
+          "label": "Monday, November 9th, 2026"
+        },
+        {
+          "iso": "2026-11-10",
+          "disabled": true,
+          "outside": false,
+          "label": "Tuesday, November 10th, 2026"
+        }
+      ]
+    },
+    {
+      "name": "chromium / Dock at 390px / Escape returns focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 36
+      }
+    },
+    {
+      "name": "chromium / Dock at 390px / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-12-10"
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-12-10"
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Dock at 390px / Repeated open and close restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at 390px / Page fits viewport after calendar interactions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / dock-arrival has a visible empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / dock-departure has a visible empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 530,
+        "right": 910,
+        "top": 228,
+        "bottom": 672,
+        "width": 1440,
+        "height": 900,
+        "scroll": 378,
+        "client": 378
+      }
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 39
+      }
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Checkout minimum follows check-in",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 530,
+        "right": 910,
+        "top": 228,
+        "bottom": 672,
+        "width": 1440,
+        "height": 900,
+        "scroll": 378,
+        "client": 378
+      }
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Checkout disables dates before its minimum",
+      "passed": true,
+      "detail": [
+        {
+          "iso": "2026-11-01",
+          "disabled": true,
+          "outside": false,
+          "label": "Sunday, November 1st, 2026"
+        },
+        {
+          "iso": "2026-11-02",
+          "disabled": true,
+          "outside": false,
+          "label": "Monday, November 2nd, 2026"
+        },
+        {
+          "iso": "2026-11-03",
+          "disabled": true,
+          "outside": false,
+          "label": "Tuesday, November 3rd, 2026"
+        },
+        {
+          "iso": "2026-11-04",
+          "disabled": true,
+          "outside": false,
+          "label": "Wednesday, November 4th, 2026"
+        },
+        {
+          "iso": "2026-11-05",
+          "disabled": true,
+          "outside": false,
+          "label": "Thursday, November 5th, 2026"
+        },
+        {
+          "iso": "2026-11-06",
+          "disabled": true,
+          "outside": false,
+          "label": "Friday, November 6th, 2026"
+        },
+        {
+          "iso": "2026-11-07",
+          "disabled": true,
+          "outside": false,
+          "label": "Saturday, November 7th, 2026"
+        },
+        {
+          "iso": "2026-11-08",
+          "disabled": true,
+          "outside": false,
+          "label": "Sunday, November 8th, 2026"
+        },
+        {
+          "iso": "2026-11-09",
+          "disabled": true,
+          "outside": false,
+          "label": "Monday, November 9th, 2026"
+        },
+        {
+          "iso": "2026-11-10",
+          "disabled": true,
+          "outside": false,
+          "label": "Tuesday, November 10th, 2026"
+        }
+      ]
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Escape returns focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 530,
+        "right": 910,
+        "top": 228,
+        "bottom": 672,
+        "width": 1440,
+        "height": 900,
+        "scroll": 378,
+        "client": 378
+      }
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 36
+      }
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-12-10"
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-12-10"
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 530,
+        "right": 910,
+        "top": 228,
+        "bottom": 672,
+        "width": 1440,
+        "height": 900,
+        "scroll": 378,
+        "client": 378
+      }
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 530,
+        "right": 910,
+        "top": 228,
+        "bottom": 672,
+        "width": 1440,
+        "height": 900,
+        "scroll": 378,
+        "client": 378
+      }
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 530,
+        "right": 910,
+        "top": 228,
+        "bottom": 672,
+        "width": 1440,
+        "height": 900,
+        "scroll": 378,
+        "client": 378
+      }
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Repeated open and close restores focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Dock at desktop 1440px / Page fits viewport after calendar interactions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Keyboard calendar / ArrowRight moves one calendar day",
+      "passed": true,
+      "detail": {
+        "before": "2026-11-06",
+        "after": "2026-11-07"
+      }
+    },
+    {
+      "name": "chromium / Keyboard calendar / Keyboard selection updates input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Keyboard calendar / Keyboard selection returns focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Query hydrates controlled dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Prefilled date has no blank prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 1 preserves travel and private fields",
+      "passed": true,
+      "detail": {
+        "arrival": "2026-12-11",
+        "departure": "2026-12-13",
+        "adults": "4",
+        "children": "2",
+        "room": "Deluxe Twin Room",
+        "roomCount": "4",
+        "name": "Calendar QA",
+        "notes": "Keep this unfinished note private."
+      }
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 1 invalidates stale feedback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 1 keeps private fields out of URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Invalid date is reported",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 2 preserves travel and private fields",
+      "passed": true,
+      "detail": {
+        "arrival": "2026-12-18",
+        "departure": "2026-12-20",
+        "adults": "4",
+        "children": "2",
+        "room": "Deluxe Twin Room",
+        "roomCount": "4",
+        "name": "Calendar QA",
+        "notes": "Keep this unfinished note private."
+      }
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 2 invalidates stale feedback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 2 keeps private fields out of URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 3 preserves travel and private fields",
+      "passed": true,
+      "detail": {
+        "arrival": "2026-12-25",
+        "departure": "2026-12-27",
+        "adults": "4",
+        "children": "2",
+        "room": "Deluxe Twin Room",
+        "roomCount": "4",
+        "name": "Calendar QA",
+        "notes": "Keep this unfinished note private."
+      }
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 3 invalidates stale feedback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 3 keeps private fields out of URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 4 preserves travel and private fields",
+      "passed": true,
+      "detail": {
+        "arrival": "2027-01-01",
+        "departure": "2027-01-03",
+        "adults": "4",
+        "children": "2",
+        "room": "Deluxe Twin Room",
+        "roomCount": "4",
+        "name": "Calendar QA",
+        "notes": "Keep this unfinished note private."
+      }
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 4 invalidates stale feedback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Contact hydration and repeated handoff / Dock handoff 4 keeps private fields out of URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Shared empty prompt is visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 281,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 39
+      }
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar / arrival / Shared form fits viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Shared empty prompt is visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 42
+      }
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar /rooms/deluxe-room departure / Shared form fits viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Shared empty prompt is visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 39
+      }
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar /contact arrival / Shared form fits viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Shared empty prompt is visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 409,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 39
+      }
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar /group-stays arrival / Shared form fits viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Shared empty prompt is visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Calendar has its field heading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Calendar stays inside the viewport",
+      "passed": true,
+      "detail": {
+        "left": 0,
+        "right": 390,
+        "top": 385,
+        "bottom": 844,
+        "width": 390,
+        "height": 844,
+        "scroll": 388,
+        "client": 388
+      }
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Calendar contains actual day buttons",
+      "passed": true,
+      "detail": {
+        "days": 39
+      }
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Next month changes the available dates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Selection stores ISO date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Calendar returns focus to opener",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Selected date hides empty prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / FormData contains the selected date",
+      "passed": true,
+      "detail": "2026-11-10"
+    },
+    {
+      "name": "chromium / Shared calendar /dining date / Shared form fits viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route / at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route / at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route / at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /hotel at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /hotel at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /hotel at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms/compare at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/compare at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/compare at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-room at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-room at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-room at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-twin-room at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-twin-room at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-twin-room at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms/family-room at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/family-room at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/family-room at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /dining at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /dining at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /dining at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /varanasi at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /varanasi at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /varanasi at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /gallery at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /gallery at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /gallery at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /guides at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /guides/first-visit-to-kashi at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/first-visit-to-kashi at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/first-visit-to-kashi at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /guides/arriving-in-godowlia at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/arriving-in-godowlia at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/arriving-in-godowlia at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /guides/choosing-your-room at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/choosing-your-room at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/choosing-your-room at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /group-stays at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /group-stays at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /group-stays at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /contact at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /contact at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /contact at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /privacy at 320px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /privacy at 320px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "viewport": 320,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /privacy at 320px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route / at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route / at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route / at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /hotel at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /hotel at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /hotel at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms/compare at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/compare at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/compare at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-room at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-room at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-room at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-twin-room at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-twin-room at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/deluxe-twin-room at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /rooms/family-room at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/family-room at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /rooms/family-room at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /dining at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /dining at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /dining at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /varanasi at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /varanasi at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /varanasi at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /gallery at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /gallery at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /gallery at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /guides at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /guides/first-visit-to-kashi at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/first-visit-to-kashi at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/first-visit-to-kashi at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /guides/arriving-in-godowlia at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/arriving-in-godowlia at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/arriving-in-godowlia at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /guides/choosing-your-room at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/choosing-your-room at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /guides/choosing-your-room at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /group-stays at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /group-stays at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /group-stays at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /contact at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /contact at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /contact at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / Route /privacy at 390px / No horizontal layout overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /privacy at 390px / Dock reservation matches its height",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390,
+        "dock": 133,
+        "reserved": 133
+      }
+    },
+    {
+      "name": "chromium / Route /privacy at 390px / No unexpected open calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chromium / runtime / No runtime, recursion or resize-observer errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "console_errors": [],
+  "screenshots": [
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-dock-empty-320.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-checkin-calendar-320.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-checkout-calendar-320.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-dock-empty-390.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-checkin-calendar-390.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-checkout-calendar-390.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-dock-empty-1440.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-checkin-calendar-1440.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-checkout-calendar-1440.png",
+    "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\chromium-contact-dates.png"
+  ],
+  "external_messages_sent": 0,
+  "limitations": [
+    "WebKit on Windows is browser-engine coverage, not a physical iPhone test.",
+    "Windows WebKit may expose native date inputs as text controls; the shared calendar is tested through rendered dialog, day buttons and submitted ISO values."
+  ],
+  "passed": true
+}

@@ -1,0 +1,29 @@
+.date-picker-dialog .rdp-root {
+  --rdp-accent-color:var(--accent);
+  --rdp-accent-background-color:var(--blue-mist);
+  --rdp-day-height:44px;
+  --rdp-day-width:44px;
+  --rdp-day_button-height:44px;
+  --rdp-day_button-width:44px;
+  --rdp-nav_button-height:44px;
+  --rdp-nav_button-width:44px;
+  --rdp-today-color:var(--accent);
+  --rdp-disabled-opacity:.4;
+  --rdp-outside-opacity:1;
+  width:100%; font-size:16px;
+}
+.date-picker-dialog .rdp-months,
+.date-picker-dialog .rdp-month { width:100%; max-width:none; }
+.date-picker-dialog .rdp-month_grid { width:100%; table-layout:fixed; border-collapse:collapse; }
+.date-picker-dialog .rdp-day { padding:0; }
+.date-picker-dialog .rdp-day_button { margin-inline:auto; font-size:16px; }
+.date-picker-dialog .rdp-outside:not(.rdp-selected) .rdp-day_button { color:var(--muted); }
+.date-picker-dialog .rdp-caption_label { font-size:17px; font-weight:600; }
+.date-picker-dialog .rdp-weekday { font-size:12px; color:var(--muted); opacity:1; }
+.date-picker-dialog .rdp-selected .rdp-day_button {
+  background:var(--accent); color:var(--paper); font-weight:600;
+}
+.date-picker-dialog .rdp-day_button:not(:disabled):hover { background:var(--blue-mist); color:var(--ink); }
+.date-picker-dialog .rdp-selected .rdp-day_button:not(:disabled):hover { background:var(--accent-hover); color:var(--paper); }
+.date-picker-dialog .rdp-day_button:focus-visible { outline-offset:-3px; }
+.date-picker-dialog .rdp-selected .rdp-day_button:focus-visible { outline-color:var(--paper); }

@@ -8,6 +8,7 @@ import {
   type Enquiry, type EnquiryErrors,
 } from "@/lib/booking";
 import { WhatsAppIcon } from "./whatsapp-icon";
+import { DateField } from "./date-field";
 
 type GroupErrors = EnquiryErrors & { company?: string };
 type Draft = { href: string; message: string };
@@ -71,15 +72,14 @@ export function GroupEnquiry() {
       <legend>When are you travelling?</legend>
       <div className="group-fields group-date-fields">
         <div className="group-field"><label htmlFor={fieldId("arrival")}>Arrival</label>
-          <input id={fieldId("arrival")} name="arrival" type="date" required value={arrival}
-            onFocus={event => { event.currentTarget.min = localToday(); }}
-            onChange={event => setArrival(event.target.value)}
+          <DateField id={fieldId("arrival")} name="arrival" label="Arrival date" minToday required value={arrival}
+            onValueChange={value => { setArrival(value); setDraft(null); setErrors({}); }}
             aria-invalid={!!errors.arrival} aria-describedby={description("arrival")}/>
           {error("arrival")}
         </div>
         <div className="group-field"><label htmlFor={fieldId("departure")}>Departure</label>
-          <input id={fieldId("departure")} name="departure" type="date" required value={departure}
-            min={arrival ? nextDate(arrival) : undefined} onChange={event => setDeparture(event.target.value)}
+          <DateField id={fieldId("departure")} name="departure" label="Departure date" required value={departure}
+            min={arrival ? nextDate(arrival) : undefined} onValueChange={value => { setDeparture(value); setDraft(null); setErrors({}); }}
             aria-invalid={!!errors.departure} aria-describedby={description("departure")}/>
           {error("departure")}
         </div>

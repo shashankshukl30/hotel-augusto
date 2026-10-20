@@ -1,0 +1,6 @@
+{
+  "empty_date_has_visible_prompt": false,
+  "tapping_date_opens_calendar": false,
+  "passed": false,
+  "limitation": "Windows WebKit uses text fallback for date inputs; this is not an iOS device test."
+}
