@@ -32,7 +32,7 @@ main .home-dining {
 }
 
 .home-dining .home-section-heading .eyebrow,
-.home-dining .home-section-heading h2 span,
+.home-dining .home-section-heading h2 .heading-secondary,
 .dining-page .hospitality-context,
 .dining-page .hospitality-dining-service h2 {
   color: var(--clay-ink);

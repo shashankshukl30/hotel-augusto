@@ -52,6 +52,8 @@
   margin-bottom: 44px;
 }
 .itinerary-tabs button {
+  position: relative;
+  isolation: isolate;
   min-height: 48px;
   display: flex;
   align-items: center;
@@ -67,6 +69,14 @@
   text-align: center;
   transition: background .2s, color .2s;
 }
+.itinerary-tab-pill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--marigold);
+  pointer-events: none;
+}
+.itinerary-tab-label { position: relative; z-index: 1; }
 .itinerary-tabs button[aria-selected=true] {
   color: var(--city-background);
   background: var(--city-text);
@@ -144,6 +154,7 @@
   user-select: none;
   pointer-events: none;
 }
+.itinerary-city-name-motion { display: block; }
 .itinerary-figure { position: relative; margin: 0; min-width: 0; }
 .itinerary-image {
   position: relative;
@@ -152,8 +163,21 @@
   border-radius: 24px;
   background: var(--city-surface);
 }
-.itinerary-image-layer { position: absolute; inset: 0; }
+.itinerary-image-parallax { position: absolute; inset: -4%; }
+.itinerary-image-layer,
+.itinerary-image-zoom { position: absolute; inset: 0; }
+.itinerary-image-layer { overflow: hidden; }
 .itinerary-image img { object-fit: cover; }
+.itinerary-image-status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
 .itinerary-figure figcaption {
   font-size: 12px;
   line-height: 1.6;
@@ -201,8 +225,13 @@
   .itinerary-tabs button,
   .itinerary-link svg { transition: none; }
   .itinerary-link:hover svg { transform: none; }
-  .itinerary-copy-motion { transform: none !important; }
+  .itinerary-copy-motion,
+  .itinerary-city-name-motion,
+  .itinerary-image-parallax,
+  .itinerary-image-zoom,
+  .itinerary-tab-pill { transform: none !important; }
   .itinerary-copy[aria-hidden=false] .itinerary-copy-motion { opacity: 1 !important; }
-  .itinerary-image-layer[aria-hidden=false] { opacity: 1 !important; }
+  .itinerary-image-layer[aria-hidden=false] { opacity: 1 !important; clip-path: none !important; }
   .itinerary-image-layer[aria-hidden=true] { opacity: 0 !important; }
+  .itinerary-tab-pill { opacity: 1 !important; }
 }

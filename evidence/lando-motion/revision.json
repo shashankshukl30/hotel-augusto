@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "project": "Hotel Augusto",
+  "reference": {
+    "url": "https://landonorris.com/",
+    "method": "Independent desktop and mobile browser inspection, plus component and input review.",
+    "observations": [
+      "Masked display typography",
+      "Offset photographic composition",
+      "Large photographic transitions tied to scrolling",
+      "Staggered navigation entrances"
+    ],
+    "limitation": "The reference foreground WebGL hero did not render in the isolated browser. No claim of replicating that effect."
+  },
+  "implementation": [
+    "Scoped first-load headline masks and photographic frame opening",
+    "Once-only word reveals with readable server markup",
+    "Native-scroll photo expansion and overscanned movement",
+    "Different desktop gallery offsets with ordinary horizontal swipe on mobile",
+    "Decoded-image room preview wipes and bounded invitation movement",
+    "Kashi lettering and photograph movement with ready-image transition guards",
+    "Native-dialog navigation with staggered labels and keyboard focus preservation"
+  ],
+  "preserved": [
+    "Approved layout, palette, typography and genuine hotel photographs",
+    "Measured hero and booking-dock dimensions",
+    "17 content routes and WhatsApp enquiry behavior",
+    "Native scrolling, link navigation and reduced-motion opt-out",
+    "Public client preview alias and private repository"
+  ],
+  "quality": {
+    "production_build": "passed",
+    "lint": "passed without warnings",
+    "existing_tests": "18 passed",
+    "motion": "motion-qa.json",
+    "hero_and_responsive": "hero-qa.json",
+    "accessibility_and_colour": "colour-accessibility/colour-qa.json",
+    "review": "Independent read-only reviews of motion initialization, room and menu input handling, SSR, mobile wrapping and reduced motion."
+  }
+}

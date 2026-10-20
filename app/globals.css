@@ -1,6 +1,7 @@
 @import "tailwindcss" source(none);
 @import "./shell.css";
 @import "./color-theme.css";
+@import "../components/motion-language.css";
 @source "./";
 @source "../components";
 @source "../content";

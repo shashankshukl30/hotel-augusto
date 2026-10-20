@@ -1,0 +1,637 @@
+{
+  "date": "2026-10-20T13:14:57.831589+00:00",
+  "base_url": "http://127.0.0.1:3082",
+  "viewports": [
+    {
+      "route": "/",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/hotel",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/dining",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/varanasi",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/guides",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/guides/first-visit-to-kashi",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/guides/arriving-in-godowlia",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/guides/choosing-your-room",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/group-stays",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "width": 1440,
+      "http": 200,
+      "bodyWidth": 1440,
+      "viewportWidth": 1440,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/hotel",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/dining",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/varanasi",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/gallery",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/guides",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/guides/first-visit-to-kashi",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/guides/arriving-in-godowlia",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/guides/choosing-your-room",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/group-stays",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "http": 200,
+      "bodyWidth": 390,
+      "viewportWidth": 390,
+      "missingImages": [],
+      "h1Count": 1,
+      "passed": true
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "state": "city keyboard selection",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "state": "travel guide hover",
+      "violations": []
+    },
+    {
+      "route": "/hotel",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/dining",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/varanasi",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/gallery",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/guides",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/guides/first-visit-to-kashi",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/guides/arriving-in-godowlia",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/guides/choosing-your-room",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/group-stays",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/privacy",
+      "width": 1440,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "state": "city keyboard selection",
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "state": "travel guide hover",
+      "violations": []
+    },
+    {
+      "route": "/hotel",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms/compare",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/rooms/family-room",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/dining",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/varanasi",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/gallery",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/guides",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/guides/first-visit-to-kashi",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/guides/arriving-in-godowlia",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/guides/choosing-your-room",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/group-stays",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "state": "page",
+      "violations": []
+    }
+  ],
+  "interaction_checks": [
+    {
+      "name": "City tabs keep keyboard selection and focus at 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "City keyboard focus remains visible at 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel guide hover feedback remains visible at 1440",
+      "passed": true,
+      "detail": {
+        "normal": "lab(93.4482 2.19029 10.9913)",
+        "hover": "lab(90.3297 3.07581 14.8863)"
+      }
+    },
+    {
+      "name": "City tabs keep keyboard selection and focus at 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "City keyboard focus remains visible at 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel guide hover feedback remains visible at 390",
+      "passed": true,
+      "detail": {
+        "normal": "lab(93.4482 2.19029 10.9913)",
+        "hover": "lab(90.3297 3.07581 14.8863)"
+      }
+    }
+  ],
+  "runtime_errors": [],
+  "screenshots": [
+    "home-1440-rooms.png",
+    "home-1440-dining.png",
+    "home-1440-kashi.png",
+    "home-1440-reviews.png",
+    "home-1440-footer.png",
+    "dining-1440-service.png",
+    "home-390-rooms.png",
+    "home-390-dining.png",
+    "home-390-kashi.png",
+    "home-390-reviews.png",
+    "home-390-footer.png",
+    "dining-390-service.png"
+  ],
+  "passed": true,
+  "summary": {
+    "passed": true,
+    "viewport_checks": 34,
+    "accessibility_audits": 38,
+    "interaction_checks": 6,
+    "runtime_errors": 0
+  }
+}

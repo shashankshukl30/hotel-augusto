@@ -25,6 +25,7 @@ const mobileLinks = [
   { href: "/group-stays", label: "Group stays" },
   links[6],
 ];
+const menuEase = [.22, 1, .36, 1] as const;
 
 const subscribeScroll = (callback: () => void) => {
   window.addEventListener("scroll", callback, { passive: true });
@@ -54,19 +55,29 @@ export function SiteHeader() {
       </div>
     </header>
     <dialog className="navigation-dialog" ref={dialog} onClose={() => { setMenuOpen(false); trigger.current?.focus(); }} aria-label="Hotel Augusto navigation" onClick={(event) => { if (event.target === dialog.current) close(); }}>
-      <motion.div className="navigation-content" initial={false} animate={menuOpen && !reduced ? { opacity:[.92,1] } : { opacity:1 }} transition={{duration:reduced?0:.25,ease:[.22,1,.36,1]}}>
+      <motion.div className="navigation-content" initial={false}
+        animate={menuOpen && !reduced ? { y:[20,0], opacity:[.96,1] } : { y:0, opacity:1 }}
+        transition={{duration:reduced ? 0 : .48,ease:menuEase}}>
         <div className="navigation-top"><Brand /><button className="icon-button" aria-label="Close navigation" onClick={close}><X size={26} /></button></div>
         <p className="eyebrow">Hotel Augusto</p>
         <nav aria-label="Mobile navigation">
-          {mobileLinks.map((link, index) => <motion.div key={link.href} className="navigation-menu-entry"
-            initial={false}
-            animate={menuOpen && !reduced ? { y:[12,0], opacity:[0,1] } : { y:0, opacity:1 }}
-            transition={{ duration:reduced?0:.38, delay:reduced?0:index*.028, ease:[.22,1,.36,1] }}>
+          {mobileLinks.map((link, index) => <div key={link.href} className="navigation-menu-entry">
             <Link href={link.href} onClick={close}
               aria-current={pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href + "/")) ? "page" : undefined}>
-              <span>{link.label}</span><ArrowUpRight size={22} aria-hidden="true"/>
+              <span className="navigation-menu-mask">
+                <motion.span className="navigation-menu-label" initial={false}
+                  animate={menuOpen && !reduced ? { y:["112%","0%"] } : { y:"0%" }}
+                  transition={{ duration:reduced ? 0 : .6, delay:reduced ? 0 : .07+index*.035, ease:menuEase }}>
+                  {link.label}
+                </motion.span>
+              </span>
+              <motion.span className="navigation-menu-arrow" aria-hidden="true" initial={false}
+                animate={menuOpen && !reduced ? { x:[-10,0], opacity:[0,1] } : { x:0, opacity:1 }}
+                transition={{ duration:reduced ? 0 : .45, delay:reduced ? 0 : .16+index*.035, ease:menuEase }}>
+                <ArrowUpRight size={22}/>
+              </motion.span>
             </Link>
-          </motion.div>)}
+          </div>)}
         </nav>
         <Link href="/contact#enquire" className="button" style={{ color: "var(--paper)" }} onClick={close}>Plan your stay <ArrowUpRight size={19} /></Link>
         <div className="navigation-contact"><a href={hotel.phoneHref}><Phone size={16}/> Call the hotel</a><a href={hotel.mapsUrl} target="_blank" rel="noopener noreferrer"><MapPin size={16}/> Directions</a></div>
