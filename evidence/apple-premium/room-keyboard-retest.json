@@ -1,0 +1,62 @@
+{
+  "started": "2026-10-20T05:23:40.249101+00:00",
+  "scope": "Three keyboard room-directory links;1 CSS pixel outer-edge rounding tolerance plus fully visible text bounds",
+  "checks": [
+    {
+      "test": "Keyboard room directory opens Deluxe Room",
+      "passed": true,
+      "evidence": {
+        "focus": {
+          "focused": true,
+          "left": 24,
+          "right": 366,
+          "top": 746.828125,
+          "bottom": 844.21875,
+          "labelTop": 768.828125,
+          "labelBottom": 821.21875,
+          "visible": true
+        },
+        "url": "http://127.0.0.1:3080/rooms/deluxe-room",
+        "heading": "Deluxe Room"
+      }
+    },
+    {
+      "test": "Keyboard room directory opens Deluxe Twin Room",
+      "passed": true,
+      "evidence": {
+        "focus": {
+          "focused": true,
+          "left": 24,
+          "right": 366,
+          "top": 414.21875,
+          "bottom": 511.609375,
+          "labelTop": 436.21875,
+          "labelBottom": 488.609375,
+          "visible": true
+        },
+        "url": "http://127.0.0.1:3080/rooms/deluxe-twin-room",
+        "heading": "Deluxe Twin Room"
+      }
+    },
+    {
+      "test": "Keyboard room directory opens Family Room",
+      "passed": true,
+      "evidence": {
+        "focus": {
+          "focused": true,
+          "left": 24,
+          "right": 366,
+          "top": 414.609375,
+          "bottom": 512,
+          "labelTop": 436.609375,
+          "labelBottom": 489,
+          "visible": true
+        },
+        "url": "http://127.0.0.1:3080/rooms/family-room",
+        "heading": "Family Room"
+      }
+    }
+  ],
+  "completed": "2026-10-20T05:23:43.863633+00:00",
+  "passed": true
+}

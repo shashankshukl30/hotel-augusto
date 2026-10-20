@@ -1,0 +1,94 @@
+{
+  "completed": "2026-10-20T05:15:13.546750+00:00",
+  "interactions": [
+    {
+      "viewport": 390,
+      "dateFields": [
+        {
+          "id": "arrival",
+          "font": "17px",
+          "height": 50,
+          "x": 45,
+          "y": 145.09375,
+          "width": 300
+        },
+        {
+          "id": "departure",
+          "font": "17px",
+          "height": 50,
+          "x": 45,
+          "y": 251.09375,
+          "width": 300
+        }
+      ],
+      "dateFieldsAligned": true,
+      "invalidFocus": true,
+      "draftPhoneCorrect": true,
+      "draftDatesIncluded": true,
+      "faqKeyboardOpens": true,
+      "focusRing": {
+        "shadow": "oklch(0.489991 0.169986 254.996 / 0.24) 0px 0px 0px 3px",
+        "outline": "lab(9.48648 -0.383094 -3.31944) none 0px",
+        "focusVisible": true
+      },
+      "messagesSent": 0,
+      "dateLayout": "stacked",
+      "dateLayoutRechecked": "2026-10-20T05:20:36.406529+00:00"
+    },
+    {
+      "viewport": 1440,
+      "dateFields": [
+        {
+          "id": "arrival",
+          "font": "18px",
+          "height": 56,
+          "y": 963.265625,
+          "width": 379
+        },
+        {
+          "id": "departure",
+          "font": "18px",
+          "height": 56,
+          "y": 963.265625,
+          "width": 379
+        }
+      ],
+      "dateFieldsAligned": true,
+      "invalidFocus": true,
+      "draftPhoneCorrect": true,
+      "draftDatesIncluded": true,
+      "faqKeyboardOpens": true,
+      "focusRing": {
+        "shadow": "oklch(0.489991 0.169986 254.996 / 0.24) 0px 0px 0px 3px",
+        "outline": "lab(9.48648 -0.383094 -3.31944) none 0px",
+        "focusVisible": true
+      },
+      "messagesSent": 0
+    }
+  ],
+  "motion": [
+    {
+      "preference": "no-preference",
+      "start": {
+        "transform": "matrix(1, 0, 0, 1, 0, 17.8227)",
+        "opacity": "0.844051"
+      },
+      "end": {
+        "transform": "none",
+        "opacity": "1"
+      }
+    },
+    {
+      "preference": "reduce",
+      "start": {
+        "transform": "none",
+        "opacity": "1"
+      },
+      "end": {
+        "transform": "none",
+        "opacity": "1"
+      }
+    }
+  ],
+  "messagesSent": 0
+}

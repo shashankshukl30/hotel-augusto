@@ -2,7 +2,7 @@
 
 An independent Digiocular client website in `D:\Digiocular\Websites\Hotel Augusto`.
 
-The current design combines Apple-like clarity with an original hospitality direction informed by live Awwwards references: Manrope display typography, Inter body text, bone/ink/verdigris surfaces, a full-screen photographic Varanasi hero and asymmetric layouts. The site is multi-page. Earlier serif/terracotta and literal Apple directions are superseded.
+The current direction follows the user's 20 October correction: they loved the Apple-inspired design and wanted it larger, more premium and more animated. Manrope display at weight 650, Inter body text, pearl surfaces, charcoal text and a restrained blue accent create a clear hierarchy. Larger titles, generous real photography, rounded panels and substantial pill controls restore that foundation. Composed entrance and scroll motion respect reduced-motion preferences. All 11 content pages and the improved real Varanasi hero remain. See [the current design contract](research/apple-premium-direction.md).
 
 ## Run locally
 
@@ -38,6 +38,8 @@ Stop the development server before starting production on the same port.
 
 `content/hotel.ts` is the single source of hotel facts and the booking phone number. Room image mappings are in `content/room-images.ts`. Photo provenance and retained originals are in `research/assets/`, with the new hero licence and original in `research/awwwards-revision/`. The source ledger includes Google and MakeMyTrip; the supplied MMT hotel ID is `201909301024364424`. Research documents include DOCX twins.
 
+The exact dated MakeMyTrip route returned a browser transport error; its indexed canonical property page corroborated stable facts. Google property photos were opened and mapped to the site. These distinctions and individual asset sources are recorded in `research/ota-revision/`; no live MMT availability was established.
+
 The current WhatsApp destination is the hotel's Google-listed telephone, **+91 80817 09146**. The public WhatsApp link resolves to that number. The hotel must confirm it is the desired, active booking account before public launch. No enquiry was sent during testing.
 
 The form validates dates and guest counts, prepares an encoded message, and lets the visitor explicitly open and send it in WhatsApp. It does not check live inventory, confirm a reservation, process payments, or store personal data. `lib/booking.ts` is the integration point for a future booking engine.
@@ -52,7 +54,7 @@ npm run build
 python scripts/browser_qa.py --base-url http://127.0.0.1:3080
 ```
 
-Browser QA uses a fresh Microsoft Edge context through Python Playwright and axe-core. Reports are in `evidence/`. Tests do not send WhatsApp messages.
+Browser QA uses a fresh Microsoft Edge context through Python Playwright and axe-core. Current revision evidence belongs in `evidence/apple-premium/`, with the final release report at `evidence/qa-apple-premium-production.json` when completed. Earlier reports are retained as history and do not certify later edits. Tests do not send WhatsApp messages.
 
 ## Launch settings
 

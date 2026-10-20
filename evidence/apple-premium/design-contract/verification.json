@@ -1,0 +1,27 @@
+{
+  "verified": "2026-10-20T05:26:55.349375+00:00",
+  "pages": 1,
+  "bounds_errors": [],
+  "docx_reopened": true,
+  "zip_integrity": true,
+  "visually_inspected": true,
+  "source_sha256": "f470444f132749c511a661cea77c4631308f65d0dc3b04bbee545d3495e7bab6",
+  "markdown_sha256": "11539fa82723949e28f3a0ad38076127a91c21ee247022bc4c643e093ac8fa52",
+  "pdf_sha256": "60f0f54f9ec0af1a4afc958289da7eaf0f0d4f9eea2f879d48058c337d992438",
+  "qa_report": "evidence/qa-apple-premium-production.json",
+  "qa_report_sha256": "d95f3353e0c2b9612d8a6c6c7ff41d37eb9538970513a07828ef5fcdc68033d4",
+  "qa_summary": {
+    "viewportChecks": 72,
+    "axeAudits": 24,
+    "interactionChecks": 76,
+    "failures": 0,
+    "passed": true,
+    "retestedInteractionChecks": 3
+  },
+  "superseded_render_retained": {
+    "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-premium\\design-contract\\page-2.png",
+    "bytes": 15460,
+    "sha256": "0e12c568d652a85767d6d4c4ce3d5da98f8cb547ae6ff0f0e64806d8acd34c12",
+    "reason": "Intermediate two-page draft footer evidence retained per parent instruction; not a page of the final one-page PDF."
+  }
+}

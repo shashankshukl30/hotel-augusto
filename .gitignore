@@ -15,6 +15,7 @@ __pycache__/
 evidence/**/*.png
 !evidence/apple-design/*.png
 !evidence/cinematic-revision/*.png
+!evidence/apple-premium/*.png
 research/design-qa/**/*.png
 # Local Word rendering evidence and retained cleanup-blocked scratch.
 docs/.handoff-review/

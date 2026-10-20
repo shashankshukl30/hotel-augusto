@@ -49,7 +49,7 @@ export default function DiningPage() {
 
     <section className="hospitality-meal-enquiry" aria-labelledby="meal-enquiry-title">
       <div className="hospitality-shell hospitality-meal-enquiry-grid">
-        <figure><div className="hospitality-photo"><Image src="/images/room-tea.webp" alt="A kettle, tea and coffee supplies photographed in a guest room at Hotel Augusto" fill sizes="(max-width: 760px) 80vw, 35vw" quality={85} /></div><figcaption>A tea and coffee setup in a guest room.</figcaption></figure>
+        <Reveal><figure><div className="hospitality-photo"><Image src="/images/room-tea.webp" alt="A kettle, tea and coffee supplies photographed in a guest room at Hotel Augusto" fill sizes="(max-width: 760px) 80vw, 35vw" quality={85} /></div><figcaption>A tea and coffee setup in a guest room.</figcaption></figure></Reveal>
         <Reveal><p className="hospitality-context">Let’s talk about your stay</p><h2 id="meal-enquiry-title">Your dates.<br />Your meal plans.</h2><p>Share when you’re visiting and what you’d like to know. The hotel can confirm the current menu, service hours and meal inclusions before you book.</p><a href={whatsapp} target="_blank" rel="noopener noreferrer" className="hospitality-solid-link" style={{ color: "var(--paper)" }}><WhatsAppIcon size={20} /> Ask about dining <ArrowUpRight size={18} aria-hidden="true" /></a><Link href="/contact#enquire" className="hospitality-link">Or plan your whole stay <ArrowUpRight size={18} aria-hidden="true" /></Link></Reveal>
       </div>
     </section>

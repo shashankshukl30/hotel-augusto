@@ -1,0 +1,29 @@
+﻿{
+    "removed":  [
+                    {
+                        "retainedSourceSHA256":  "5C5CE30BEC218A64EDABF5125D4805C3B853D0E9DAD173371C6546E43559D93B",
+                        "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\scripts\\__pycache__\\qa_visual.cpython-313.pyc",
+                        "retainedSource":  "D:\\Digiocular\\Websites\\Hotel Augusto\\scripts\\qa_visual.py",
+                        "bytes":  13262,
+                        "reason":  "Regenerable Python bytecode produced by this QA run; editable source retained and parsed successfully"
+                    }
+                ],
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto",
+    "completed":  "2026-10-20T05:25:22.4895277+00:00",
+    "note":  "Only explicitly identified QA bytecode removed. No browser contexts remain open.",
+    "freeAfterBytes":  {
+                           "D":  68264755200,
+                           "C":  26344329216
+                       },
+    "freeBeforeBytes":  {
+                            "D":  68264738816,
+                            "C":  26344329216
+                        },
+    "retained":  [
+                     "Editable QA scripts",
+                     "All original and final QA reports",
+                     "Screenshots",
+                     "Application source and dependencies",
+                     "Other agent handoff generator bytecode"
+                 ]
+}

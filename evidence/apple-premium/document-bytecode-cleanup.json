@@ -1,0 +1,27 @@
+{
+  "completed": "2026-10-20T05:26:55.349375+00:00",
+  "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\scripts\\__pycache__",
+  "removed": [],
+  "removedBytes": 0,
+  "attemptedAction": "PowerShell Remove-Item -LiteralPath for the one resolved bytecode file, after explicit scope and reparse-point checks",
+  "status": "blocked_by_automatic_approval_review",
+  "reason": "blocked by policy",
+  "retained": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\scripts\\__pycache__\\generate_handoff.cpython-313.pyc",
+      "bytes": 29539,
+      "sha256": "bee62be913104b260dc04cfaca7ffb878e3d2e2eff4b9f03d0f0c0876c8eae7e",
+      "reason": "Generated Python bytecode; deletion rejected before execution."
+    }
+  ],
+  "retainedSource": {
+    "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\scripts\\generate_handoff.py",
+    "bytes": 20114,
+    "sha256": "ce7be27fa7d795c1c823e3c1a6c9398c996124403524a6bfa28bc099924b9da0"
+  },
+  "freeSpaceBytes": {
+    "C": 26365116416,
+    "D": 68263776256
+  },
+  "note": "No cleanup command executed; no retry attempted. No before/after deletion delta applies. All editable sources and review artifacts preserved."
+}

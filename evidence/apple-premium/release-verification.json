@@ -1,0 +1,247 @@
+﻿{
+    "completed":  "2026-10-20T05:26:50.8617972Z",
+    "scope":  "Local production preview of the larger Apple-inspired Hotel Augusto revision",
+    "preview":  "http://localhost:3080",
+    "buildId":  "sY9WkxMBTwha3BkFWjiiy",
+    "checks":  {
+                   "productionBuild":  "PASS",
+                   "motionEvidence":  "evidence/apple-premium/motion-regression.json",
+                   "bookingUnitTests":  4,
+                   "finalCaptures":  "evidence/apple-premium/capture.json",
+                   "lint":  "PASS",
+                   "browserQaEvidence":  "evidence/qa-apple-premium-production.json",
+                   "typecheck":  "PASS",
+                   "headers":  "PASS",
+                   "browserQa":  {
+                                     "viewportChecks":  72,
+                                     "axeAudits":  24,
+                                     "interactionChecks":  76,
+                                     "failures":  0,
+                                     "passed":  true,
+                                     "retestedInteractionChecks":  3
+                                 },
+                   "visualInspection":  [
+                                            "home-1440-top.png",
+                                            "home-1440-full.png",
+                                            "home-390-top.png",
+                                            "contact-form-390.png"
+                                        ],
+                   "productionAuditEvidence":  "evidence/production-audit.json",
+                   "ogDimensions":  [
+                                        1200,
+                                        630
+                                    ]
+               },
+    "note":  "Full browser run had one 0.21875px keyboard-boundary measurement failure. Three targeted checks passed after a 1px outer-edge tolerance correction plus strict text-visibility checks. Original report and timestamps are retained; no application edits occurred between runs.",
+    "cleanup":  {
+                    "developmentBytesRemoved":  240653234,
+                    "preserved":  "Editable sources, source photographs and provenance, dependencies, current production build, and verification evidence",
+                    "qaBytecodeEvidence":  "evidence/apple-premium/qa-cleanup.json",
+                    "developmentEvidence":  "evidence/dev-output-cleanup.json",
+                    "documentBytecodeEvidence":  "evidence/apple-premium/document-bytecode-cleanup.json",
+                    "blockedFile":  {
+                                        "path":  "scripts/__pycache__/generate_handoff.cpython-313.pyc",
+                                        "bytes":  29539,
+                                        "reason":  "Automatic approval review rejected deletion: blocked by policy. Retained without retry."
+                                    }
+                },
+    "taskStartFreeBytes":  {
+                               "D":  68301119488,
+                               "C":  26771640320
+                           },
+    "currentFreeBytes":  {
+                             "D":  68263768064,
+                             "C":  26365054976
+                         },
+    "limits":  [
+                   "Local synthetic performance, not field measurements",
+                   "No public domain change",
+                   "Existing hotel-owner contact, photo permission and policy confirmations remain in the handoff"
+               ],
+    "sourceFiles":  [
+                        {
+                            "sha256":  "8c01a2c2a76f3b7ce6a53eca84a2e3bc89de82ff572f7dbe37744ee2266a5bf3",
+                            "path":  "app\\contact\\contact.css"
+                        },
+                        {
+                            "sha256":  "8f7a5351f6fb5d934bbae70a7cfdf1a0ee0f577e7f307adf4668e4ca7289db01",
+                            "path":  "app\\contact\\page.tsx"
+                        },
+                        {
+                            "sha256":  "3cc0a1885a612da549c772d79d178021e61adba796bdaba59f6d8c7b2b038769",
+                            "path":  "app\\dining\\page.tsx"
+                        },
+                        {
+                            "sha256":  "b8610ebefbd41be7bd073919337609c65da8dd29393a901802a78709f2b347ee",
+                            "path":  "app\\editorial-pages.css"
+                        },
+                        {
+                            "sha256":  "0278f713c476077cc046d2d47b6c307aa9569f502f9344b03f91367043c7a729",
+                            "path":  "app\\gallery\\page.tsx"
+                        },
+                        {
+                            "sha256":  "d153dce69c945a20d219cf504f02b94b6bc63b36ae1ed7d48e12e9c902544916",
+                            "path":  "app\\globals.css"
+                        },
+                        {
+                            "sha256":  "c40b88b93239fc3c287b00daa2840514cc38905f9de580f2db0d4db9794a0905",
+                            "path":  "app\\home.css"
+                        },
+                        {
+                            "sha256":  "11d06fbf8427eff5477faa337270b3dde33ce4820fb79b9cbf5a3c34072e35bf",
+                            "path":  "app\\hospitality-pages.css"
+                        },
+                        {
+                            "sha256":  "bea6b9f79bece469efb2b8668d62cccc39f1c43118545cf3ed8f3264160ce67a",
+                            "path":  "app\\hotel\\page.tsx"
+                        },
+                        {
+                            "sha256":  "6fc4fecca3e294d841e808a900451b1cdfaafa399f615107e4a08d835a7515b5",
+                            "path":  "app\\icon.svg"
+                        },
+                        {
+                            "sha256":  "3754757e6239591972c23d46fb3748c9d9ee9af778beb9c3fdc89a497ffbab4b",
+                            "path":  "app\\layout.tsx"
+                        },
+                        {
+                            "sha256":  "2d5126d091c75664e2d3fc477efb5d646f0a71ea0696f4f19a91347ff51e3bf3",
+                            "path":  "app\\not-found.tsx"
+                        },
+                        {
+                            "sha256":  "39fa30664f9549114e6c4b683b496591c86d2686f1482b336815cf430931b543",
+                            "path":  "app\\opengraph-image.tsx"
+                        },
+                        {
+                            "sha256":  "96ef17331db3e4d341388486fce23d6fb46aac9ccbc0f37ba3563707e17e0b29",
+                            "path":  "app\\page.tsx"
+                        },
+                        {
+                            "sha256":  "2a12cbea9b85fbdaae42bac267d660733c92a96e07fd461b84a60b9c3b031e54",
+                            "path":  "app\\privacy\\page.tsx"
+                        },
+                        {
+                            "sha256":  "10acc0bed98cdac8dd293aa9fbc5a2c8b2a1dc48b7b8774db504e982dc0d0f80",
+                            "path":  "app\\robots.ts"
+                        },
+                        {
+                            "sha256":  "b1e4a7d3bd8af72677d00d4bb7a22fe9842dcb949f1419c62bdc874f6b7cd1cf",
+                            "path":  "app\\rooms\\[slug]\\page.tsx"
+                        },
+                        {
+                            "sha256":  "3cb37b8cf62e7662eebe948334a5d8460575270314e262e495a2972cff38a6f5",
+                            "path":  "app\\rooms\\page.tsx"
+                        },
+                        {
+                            "sha256":  "4f14b3704988660abc2dd7a3f7207de6046de26ea7c08209a009179903ee88f0",
+                            "path":  "app\\rooms\\rooms.css"
+                        },
+                        {
+                            "sha256":  "2ee2142420c104fa5ce25bff70d1f2a6a7e08da71fb9c962bd5c17f42a85e0fe",
+                            "path":  "app\\shell.css"
+                        },
+                        {
+                            "sha256":  "e51e44cc4495d9fea2037b741bc817a2006acebe79f79816a30bdada288d6dcc",
+                            "path":  "app\\sitemap.ts"
+                        },
+                        {
+                            "sha256":  "e341a08c1d362f710041246445db9ae8f57a3271ca9c669a32bda2f97d37f266",
+                            "path":  "app\\varanasi\\page.tsx"
+                        },
+                        {
+                            "sha256":  "71e27d70e30e19a154b5834eeb298942c0e49df342462e3bf0bb7fcff054a1d3",
+                            "path":  "components\\booking-form.css"
+                        },
+                        {
+                            "sha256":  "fe0aee9de49c638500833a2f30f1097216641ff729c24758d750f165b9eb8102",
+                            "path":  "components\\booking-form.tsx"
+                        },
+                        {
+                            "sha256":  "2d1fbb2d3e062d622e60d676c61dfd2b70fe9ffbc0d67006e933748db5d91ec9",
+                            "path":  "components\\brand.tsx"
+                        },
+                        {
+                            "sha256":  "ad7a95a33987448008f137959c5d9d86a700d2044c9ed4bb33984f8c9fd03f90",
+                            "path":  "components\\floating-whatsapp.tsx"
+                        },
+                        {
+                            "sha256":  "061674c279d3f78dfdcce5c387f434685fe0247face5fda67b1c9346ed183b33",
+                            "path":  "components\\gallery.tsx"
+                        },
+                        {
+                            "sha256":  "e9d950c1d034f41b164c83cd0d852bc766e0c2a6497ba6fb085abdd346dd780b",
+                            "path":  "components\\home-hero.tsx"
+                        },
+                        {
+                            "sha256":  "9b8ad442eaa4704c67e05ade827503c2acf46001ac05ddba32a0d102043f5c1d",
+                            "path":  "components\\reveal.tsx"
+                        },
+                        {
+                            "sha256":  "cc37e6fee645606a799b95f17aa481cf6c85d22de07e35b76d0dc8e12991ae72",
+                            "path":  "components\\room-showcase.tsx"
+                        },
+                        {
+                            "sha256":  "4964e9369f9671831f179582cda8ef7731130db94587cb381dd18d12a304ba30",
+                            "path":  "components\\scroll-photo.tsx"
+                        },
+                        {
+                            "sha256":  "4d120c385dbec48e40d2733903d079f785148a7c478b1427966353032a186344",
+                            "path":  "components\\scroll-reset.tsx"
+                        },
+                        {
+                            "sha256":  "a691fa879e18c8a51d393b345dc423865402c71e3f2524ff15b657adb5e58e6c",
+                            "path":  "components\\scroll-statement.tsx"
+                        },
+                        {
+                            "sha256":  "2b4f21e0d44bfc68a81305a0dc0a6d4cc10bca075d659dbb36f04ded1bc6982f",
+                            "path":  "components\\site-footer.tsx"
+                        },
+                        {
+                            "sha256":  "39b9448ee22d8653c81f446c47eb4655efefc4bc2329bcf758f28e0ebad6e751",
+                            "path":  "components\\site-header.tsx"
+                        },
+                        {
+                            "sha256":  "22fc11cab74fab26b6c4a138e9b6bc30a6bd0a2051e52012011a8f04e2dc17a2",
+                            "path":  "components\\use-motion-preference.ts"
+                        },
+                        {
+                            "sha256":  "3451803a149d9ead4cf6d23faa20860dcc8579a1e4293e44fc4f5478f02f6767",
+                            "path":  "components\\whatsapp-icon.tsx"
+                        },
+                        {
+                            "sha256":  "abdd355e68512b9fbd6ea9cff32dde045c9a220cd1fde430c24e83d9db7b6b06",
+                            "path":  "content\\hotel.ts"
+                        },
+                        {
+                            "sha256":  "e9d268d7c221ebe28aabc2bd415ff0dfd3f4551770f8f8b4a48d812d37991043",
+                            "path":  "content\\room-images.ts"
+                        },
+                        {
+                            "sha256":  "cb1ec50c19a7ed877bc5311572b5c3b03b8282f09eb29729185ec3809967d909",
+                            "path":  "lib\\booking.ts"
+                        },
+                        {
+                            "sha256":  "64fc84c1be627f0d586fb4ba64d824a1604f44282381f5bae68cdf86e10bb6ec",
+                            "path":  "lib\\cn.ts"
+                        },
+                        {
+                            "sha256":  "bb9695ee795cff073ae527eb47b9a1e6b33be664898019f75d3930e3bdad75ea",
+                            "path":  "next.config.ts"
+                        },
+                        {
+                            "sha256":  "15c2d081c4e0cd0ee1d477fc48cb2aa6d549a819e4636ea090913f254f0e3ffd",
+                            "path":  "package.json"
+                        },
+                        {
+                            "sha256":  "e0c26c63dfa559c2ac13087b31a5c7d4c0a98b361f74347bdbfe8c2b94216323",
+                            "path":  "package-lock.json"
+                        },
+                        {
+                            "sha256":  "0e3d89e6f5bda2b6bc60e6e67174faba8336b087bae9cee271c57943547ea5d9",
+                            "path":  "tsconfig.json"
+                        },
+                        {
+                            "sha256":  "910d16a3ee60dd2f6471a0f15c518a81660f9ff5c57b769481a419fb268a691a",
+                            "path":  "vercel.json"
+                        }
+                    ]
+}

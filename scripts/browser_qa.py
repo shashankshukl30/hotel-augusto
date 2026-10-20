@@ -4,6 +4,7 @@ from datetime import datetime, timezone, date, timedelta
 from urllib.parse import urlsplit, parse_qs, unquote
 import argparse, asyncio, json, shutil, time
 from playwright.async_api import async_playwright
+from qa_visual import type_scale, type_scale_failures, normal_motion_checks, reduced_motion_checks, mobile_room_stability
 
 ROOT=Path(__file__).resolve().parents[1]
 ROUTES=['/','/hotel','/rooms','/rooms/deluxe-room','/rooms/deluxe-twin-room','/rooms/family-room','/dining','/varanasi','/gallery','/contact','/privacy','/does-not-exist']
@@ -85,7 +86,8 @@ async def sweep_width(browser,width,semaphore):
                   overflows:[...document.querySelectorAll('body *:not(nextjs-portal)')].filter(e=>{const r=e.getBoundingClientRect();let left=r.left,right=r.right;for(let a=e.parentElement;a&&a!==document.body;a=a.parentElement){if(['hidden','clip','auto','scroll'].includes(getComputedStyle(a).overflowX)){const clip=a.getBoundingClientRect();left=Math.max(left,clip.left);right=Math.min(right,clip.right)}}return r.width>0&&(left < -1||right>innerWidth+1)&&getComputedStyle(e).position!=='fixed'}).slice(0,10).map(e=>({tag:e.tagName,class:String(e.className),left:e.getBoundingClientRect().left,right:e.getBoundingClientRect().right,text:e.textContent?.slice(0,60)}))
                 })''')
                 state.update(route=route,width=width,status=response.status if response else None,pageErrors=list(page_errors),consoleErrors=list(console_errors))
-                state['failures']=[]
+                state['typeScale']=await type_scale(page)
+                state['failures']=type_scale_failures(state['typeScale'],width,route)
                 expected=404 if route=='/does-not-exist' else 200
                 if state['status']!=expected: state['failures'].append(f'HTTP {state["status"]}, expected {expected}')
                 if state['innerWidth']!=width or state['clientWidth']!=width: state['failures'].append('CSS viewport mismatch')
@@ -129,14 +131,9 @@ async def interaction_checks(browser):
     # All outbound actions are deliberately left unclicked. No messages are sent.
     await ready(page,'/')
     headline=await page.locator('#hero-title').inner_text()
-    add_check('Final homepage headline is current',' '.join(headline.split())=='Varanasi. Stay closer.',headline)
+    add_check('Final homepage headline is current',' '.join(headline.split())=='Augusto. Varanasi, up close.',headline)
     await page.wait_for_timeout(300)
-    before_parallax=await page.locator('.hero-scene-image').evaluate('e=>getComputedStyle(e).transform')
-    await page.locator('.home-hero').evaluate('e=>scrollTo(0,e.offsetTop+150)')
-    await page.wait_for_timeout(300)
-    after_parallax=await page.locator('.hero-scene-image').evaluate('e=>getComputedStyle(e).transform')
-    add_check('Hero image parallax responds to scroll',before_parallax!=after_parallax,{'before':before_parallax,'after':after_parallax})
-    await page.evaluate('scrollTo(0,0)')
+    await normal_motion_checks(page,add_check)
     menu=page.get_by_role('button',name='Open navigation',exact=True)
     await menu.click()
     focused=await page.evaluate('document.activeElement.getAttribute("aria-label")')
@@ -195,11 +192,18 @@ async def interaction_checks(browser):
     add_check('Previous room control wraps to last room',await page.locator('[role=tab][aria-selected=true]').get_attribute('id')=='room-tab-2')
     for index,slug in enumerate(['deluxe-room','deluxe-twin-room','family-room']):
         await tabs.nth(index).click()
-        add_check('Room panel matches selected '+slug,await page.locator('#room-panel').get_attribute('aria-labelledby')=='room-tab-'+str(index) and await page.locator('#room-panel a').first.get_attribute('href')=='/rooms/'+slug)
+        active=page.locator('.room-showcase-info[aria-hidden="false"]')
+        inactive=await page.locator('.room-showcase-info[aria-hidden="true"]').evaluate_all('items=>items.map(e=>({inert:e.inert,hidden:getComputedStyle(e).visibility==="hidden"}))')
+        add_check('Room panel matches selected '+slug,await page.locator('#room-panel').get_attribute('aria-labelledby')=='room-tab-'+str(index)
+            and await page.locator('.room-showcase-image').get_attribute('href')=='/rooms/'+slug and await active.count()==1
+            and await active.locator('a').get_attribute('href')=='/rooms/'+slug
+            and await active.locator('h3').inner_text()==['Deluxe Room','Deluxe Twin Room','Family Room'][index]
+            and len(inactive)==2 and all(item['inert'] and item['hidden'] for item in inactive),{'inactivePanels':inactive})
         await page.wait_for_timeout(550)
         layers=await page.locator('.room-showcase-image>div').evaluate_all('items=>items.map(e=>({hidden:e.getAttribute("aria-hidden"),opacity:parseFloat(getComputedStyle(e).opacity),alt:e.querySelector("img").alt,decoded:e.querySelector("img").complete&&e.querySelector("img").naturalWidth>0}))')
         add_check('Room image crossfade settles correctly for '+slug,len(layers)==3 and all((v['opacity']>=.99 and v['alt'] and v['decoded']) if i==index else (v['opacity']<=.01 and v['hidden']=='true') for i,v in enumerate(layers)),layers)
     await page.set_viewport_size({'width':390,'height':844})
+    await mobile_room_stability(page,add_check)
     await page.evaluate('scrollTo(0,1600)')
     await page.reload(wait_until='networkidle')
     add_check('Reload without hash returns to top',await page.evaluate('scrollY')<2,await page.evaluate('scrollY'))
@@ -207,6 +211,20 @@ async def interaction_checks(browser):
     await page.locator('header .brand-link').click()
     await page.wait_for_timeout(900)
     add_check('Same-route navbar brand scrolls to top',await page.evaluate('scrollY')<2,await page.evaluate('scrollY'))
+    await page.evaluate('scrollTo({top:1600,behavior:"instant"})')
+    original_scroll=await page.evaluate('scrollY')
+    brand_box=await page.locator('header .brand-link').bounding_box()
+    await page.keyboard.down('Control')
+    async with context.expect_page() as opened:
+        await page.mouse.click(brand_box['x']+brand_box['width']/2,brand_box['y']+brand_box['height']/2)
+    await page.keyboard.up('Control')
+    new_tab=await opened.value
+    await new_tab.wait_for_url(BASE+'/')
+    await new_tab.wait_for_load_state('domcontentloaded')
+    add_check('Modified brand click opens home in a new tab without moving the current page',
+        urlsplit(new_tab.url).path=='/' and abs(await page.evaluate('scrollY')-original_scroll)<2,
+        {'newTab':new_tab.url,'beforeScroll':original_scroll,'afterScroll':await page.evaluate('scrollY')})
+    await new_tab.close()
     await ready(page,'/contact#enquire')
     await page.wait_for_timeout(350)
     anchor=await anchor_alignment(page,'#enquire')
@@ -278,7 +296,8 @@ async def interaction_checks(browser):
         await ready(page,'/rooms')
         link=page.locator('.rooms-directory a').nth(index)
         await link.focus()
-        focus_state=await link.evaluate('e=>{const r=e.getBoundingClientRect();return {focused:e===document.activeElement,left:r.left,right:r.right,top:r.top,bottom:r.bottom,visible:r.left>=0&&r.right<=innerWidth&&r.top>=0&&r.bottom<=innerHeight}}')
+        # Browser focus scrolling rounds to physical pixels; the actual text must remain fully visible.
+        focus_state=await link.evaluate('e=>{const r=e.getBoundingClientRect(),t=e.querySelector("span").getBoundingClientRect();return {focused:e===document.activeElement,left:r.left,right:r.right,top:r.top,bottom:r.bottom,labelTop:t.top,labelBottom:t.bottom,visible:r.left>=-1&&r.right<=innerWidth+1&&r.top>=-1&&r.bottom<=innerHeight+1&&t.top>=0&&t.bottom<=innerHeight}}')
         await page.keyboard.press('Enter')
         await page.wait_for_url(BASE+'/rooms/'+slug)
         add_check('Keyboard room directory opens '+name,focus_state['focused'] and focus_state['visible'] and ' '.join((await page.locator('h1').inner_text()).split())==name,{'focus':focus_state,'url':page.url})
@@ -296,12 +315,13 @@ async def interaction_checks(browser):
     await context.close()
     reduced=await browser.new_context(viewport={'width':390,'height':844},reduced_motion='reduce')
     page=await reduced.new_page()
+    reduced_errors=[]
+    page.on('pageerror',lambda e:reduced_errors.append({'type':'runtime','message':str(e)}))
+    page.on('console',lambda m:reduced_errors.append({'type':'console','message':m.text}) if m.type=='error' else None)
     await ready(page,'/')
     add_check('Reduced motion preference honored',await page.evaluate('matchMedia("(prefers-reduced-motion: reduce)").matches') and await page.locator('#hero-title').evaluate('e=>getComputedStyle(e).opacity')=='1')
-    await page.locator('.home-hero').evaluate('e=>scrollTo(0,e.offsetTop+150)')
-    await page.wait_for_timeout(100)
-    transform=await page.locator('.hero-scene-image').evaluate('e=>getComputedStyle(e).transform')
-    add_check('Reduced motion disables hero parallax',transform in ['none','matrix(1, 0, 0, 1, 0, 0)'],transform)
+    await reduced_motion_checks(page,add_check)
+    add_check('Reduced-motion render and scrolling produce no hydration or runtime errors',not reduced_errors,reduced_errors)
     await reduced.close()
 
 async def main():

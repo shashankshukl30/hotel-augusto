@@ -17,9 +17,9 @@ from docx.opc.constants import RELATIONSHIP_TYPE as RT
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-BLUE = "174D47"
-INK = "162A27"
-MUTED = "596762"
+BLUE = "0066CC"
+INK = "23252B"
+MUTED = "565B65"
 Block = tuple[str, str]
 
 
@@ -59,7 +59,7 @@ def build_blocks() -> list[Block]:
     image_count = len(list((ROOT / "public/images").glob("*.webp")))
     origin = git_origin()
     qa_path, qa = latest_qa()
-    hospitality = read_json("evidence/hospitality-review/results.json") or []
+    hospitality = read_json("evidence/apple-premium/hospitality-review.json") or []
     security = read_json("evidence/security-review.json") or {}
     dev_cleanup = read_json("evidence/dev-output-cleanup.json") or {}
     dependency = security.get("dependency_review", {})
@@ -72,8 +72,8 @@ def build_blocks() -> list[Block]:
         ("p", "No production domain has been changed. This handoff records the local implementation and the available evidence; it does not assert a public launch."),
         ("p", f"Git origin at generation: `{origin}`." if origin else "Git is initialized locally; no `origin` remote is configured at this snapshot. Create and push the project's private GitHub repository before any Vercel deployment."),
         ("h", "Visual system"),
-        ("p", "The current direction combines Apple's clarity with original Awwwards-inspired hospitality composition. Local Manrope display and Inter body fonts, bone surfaces, deep green-black ink and a restrained verdigris accent support an immersive Varanasi photograph, asymmetric property stories and visibly separate pages. Photographs are genuine and destinations are never presented as room views. Mobile uses deliberate crops and vertical room comparisons; motion respects reduced-motion preferences."),
-        ("p", "The hotel and dining routes have different openings: a street-facing editorial hotel introduction and a full-width restaurant photograph. Contact keeps a focused enquiry panel, 48px controls and 16px input text. See [current cinematic direction](../research/awwwards-revision/direction.md) and [implementation plan](plans/2026-10-19-website.md). Earlier literal Apple and serif/terracotta directions are historical."),
+        ("p", "The 20 October correction restores the Apple-inspired foundation the user explicitly liked, now larger and more animated. Local Manrope display at weight 650 and Inter body, pearl surfaces, charcoal text and a restrained blue accent support large real photographs, generous spacing and rounded panels. Interior titles reach roughly 80–104px on desktop and 52–64px on mobile, with 18px desktop / 17px mobile body copy and readable labels. All 11 pages and the improved Varanasi hero remain."),
+        ("p", "Hotel and dining retain their distinct compositions. Photography and form panels use soft 24–32px corners; primary actions and enquiry controls are approximately 56px desktop / 50px mobile. Contact fields stay at 17px or larger on mobile. Visible entrance and scroll motion respect reduced-motion preferences and native scrolling. See [current Apple premium contract](../research/apple-premium-direction.md) and [implementation plan](plans/2026-10-19-website.md). The previous verdigris and smaller Apple revisions remain historical references."),
         ("h", "Pages and editing locations"),
         ("bullet", "`/` — hotel introduction, room selection, dining and Varanasi photography."),
         ("bullet", "`/hotel` — the property, reception, facilities and arrival guidance; `/dining` — vegetarian restaurant, room service and meal-plan enquiries."),
@@ -105,6 +105,9 @@ def build_blocks() -> list[Block]:
         state = "PASS" if summary.get("passed") else "HAS FAILURES — review before release"
         failure_count = summary.get('failures', len(qa.get('failures', [])))
         blocks.append(("p", f"Latest completed shared report: [{relative}](../{relative}), completed {qa['completed']} against `{qa.get('base_url', 'unspecified')}`. Status: {state}. It records {summary.get('viewportChecks', 0)} viewport checks, {summary.get('axeAudits', 0)} axe audits, {summary.get('interactionChecks', 0)} interaction checks and {failure_count} {'failure' if failure_count == 1 else 'failures'}. These are report counts, not a claim that an unrecorded final run passed."))
+        if qa.get("retests"):
+            retest_count = sum(len(retest.get("checks", [])) for retest in qa["retests"])
+            blocks.append(("p", f"The initial report recorded {qa.get('initialSummary', {}).get('failures', 'unrecorded')} failed automated check. The final report includes {retest_count} targeted keyboard-link retests using a 1px outer-edge rounding tolerance and fully visible text bounds. The original run, retest evidence and timestamps remain preserved in that report; no application change was required between those runs."))
         if not summary.get("passed"):
             names = [item.get("test") or item.get("error") or str(item.get("failures", "See report")) for item in qa.get("failures", [])]
             blocks.append(("p", "Recorded items requiring review: " + "; ".join(str(name).splitlines()[0][:180] for name in names[:3]) + "."))
@@ -113,9 +116,9 @@ def build_blocks() -> list[Block]:
     if hospitality:
         passed = all(item.get("scrollWidth") == item.get("clientWidth") and not item.get("errors") and all(image.get("loaded") for image in item.get("images", [])) for item in hospitality)
         widths = ", ".join(str(width) for width in sorted({item['viewport'] for item in hospitality}))
-        blocks.append(("p", f"Dedicated hotel/dining review: {len(hospitality)} route/viewport records at {widths}px; layout/image/runtime checks {'pass' if passed else 'require review'}. All four full-page screenshots were inspected; the later Google dining photograph also passed both widths. Evidence: [page review](../evidence/hospitality-review/results.json) and [final photo check](../evidence/hospitality-review/final-photo-check.json)."))
+        blocks.append(("p", f"Focused hotel, dining, contact and privacy review: {len(hospitality)} route/viewport records at {widths}px; layout/image/runtime checks {'pass' if passed else 'require review'}. The rendered screenshots were inspected for type scale, image framing and control alignment. Evidence: [page review](../evidence/apple-premium/hospitality-review.json)."))
     blocks += [
-        ("p", "Current visual evidence: `research/awwwards-revision/live-inspection.json`, `research/design-qa/cinematic-redesign/verification.json` and `evidence/hospitality-review/`. Earlier Apple QA files are investigation history; use the latest completed report and its remaining failures. Browser checks do not establish hotel policy accuracy or photo rights."),
+        ("p", "Current revision evidence is in `evidence/apple-premium/`; the intended final report is `evidence/qa-apple-premium-production.json`. Earlier Apple/cinematic reports and `research/awwwards-revision/` remain reference history. Use the latest completed report and its remaining failures; earlier passes do not certify later edits. Browser checks do not establish hotel policy accuracy or photo rights."),
         ("p", "Release evidence: [production audit](../evidence/production-audit.json), [scoped storage cleanup](../evidence/storage-cleanup.json), and [inactive development output cleanup](../evidence/dev-output-cleanup.json). " + (f"The development cleanup records {dev_cleanup['removedBytes']:,} bytes removed after stopping the dev session; production was verified afterwards. " if dev_cleanup.get("productionVerifiedAfter") and "removedBytes" in dev_cleanup else "") + "The local preview remains noindex. An approved public domain and route canonical configuration still require launch verification."),
         ("p", "Render-cleanup limitation: automatic approval review rejected removal of the verified OTA-document render scratch with the reason 'blocked by policy'. Its 447,116 bytes remain under `research/ota-revision/.document-review/`; no further removal was attempted. The retained source twins and scratch hashes are recorded in `research/ota-revision/source-review-verification.json`. Final handoff render evidence is retained with `docs/handoff-verification.json`."),
         ("h", "Security and maintenance"),
@@ -219,7 +222,7 @@ def write_docx(blocks: list[Block], destination: Path) -> None:
                 run.font.color.rgb = RGBColor.from_string(MUTED)
     doc.core_properties.title = "Hotel Augusto — Website Handoff"
     doc.core_properties.author = "Digiocular"
-    doc.core_properties.subject = "Cinematic multipage hotel website, source evidence and launch instructions"
+    doc.core_properties.subject = "Enlarged Apple-inspired hotel website, motion, source evidence and launch instructions"
     doc.save(destination)
 
 

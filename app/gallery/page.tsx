@@ -37,7 +37,7 @@ export default function GalleryPage() {
       </section>
       <section className="container gallery-collection" aria-label="Hotel photographs">
         <Gallery images={photographs} />
-        <div className="gallery-afterword"><div><p className="feature-context">Your stay at Augusto</p><h2>Choose your room.</h2><p>Have a preferred layout? Speak with the hotel before you book.</p></div><Link href="/rooms" className="button" style={{ color: "var(--paper)" }}>Explore rooms <ArrowUpRight size={17} aria-hidden="true" /></Link></div>
+        <Reveal><div className="gallery-afterword"><div><p className="feature-context">Your stay at Augusto</p><h2>Choose your room.</h2><p>Have a preferred layout? Speak with the hotel before you book.</p></div><Link href="/rooms" className="button" style={{ color: "var(--paper)" }}>Explore rooms <ArrowUpRight size={20} aria-hidden="true" /></Link></div></Reveal>
       </section>
     </main>
   );

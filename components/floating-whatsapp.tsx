@@ -2,6 +2,8 @@
 
 import { usePathname } from "next/navigation";
 import { useSyncExternalStore } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { useMotionPreference } from "./use-motion-preference";
 import { WhatsAppIcon } from "./whatsapp-icon";
 
 function subscribe(callback: () => void) {
@@ -13,7 +15,10 @@ function initialScroll() { return false; }
 
 export function FloatingWhatsApp({ href }: { href: string }) {
   const pathname = usePathname();
+  const reduced = useMotionPreference();
   const show = useSyncExternalStore(subscribe, pastHero, initialScroll);
-  if (pathname === "/" && !show) return null;
-  return <aside aria-label="Booking assistance"><a className="whatsapp-float" href={href} target="_blank" rel="noopener noreferrer" aria-label="Let’s plan your stay on WhatsApp" style={{ color: "var(--paper)" }}><WhatsAppIcon size={22}/><span>Let’s plan your stay</span></a></aside>;
+  return <AnimatePresence initial={false}>{(pathname !== "/" || show) && <motion.aside key="booking-assistance" aria-label="Booking assistance"
+    initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:reduced?0:.25}}>
+    <a className="whatsapp-float" href={href} target="_blank" rel="noopener noreferrer" aria-label="Let’s plan your stay on WhatsApp" style={{ color: "var(--paper)" }}><WhatsAppIcon size={22}/><span>Let’s plan your stay</span></a>
+  </motion.aside>}</AnimatePresence>;
 }

@@ -1,0 +1,272 @@
+{
+  "started": "2026-10-20T05:17:38.152980+00:00",
+  "checks": [
+    {
+      "name": "Hero image parallax responds to scroll",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "scale": 0.962962,
+          "radius": 32.346,
+          "imageY": -4.49018,
+          "imageHeight": 614.369873046875,
+          "documentHeight": 7477,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 20,
+          "imageY": 19.14,
+          "imageHeight": 638,
+          "documentHeight": 7477,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Hero photograph expands with scroll and softens its corners",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "scale": 0.962962,
+          "radius": 32.346,
+          "imageY": -4.49018,
+          "imageHeight": 614.369873046875,
+          "documentHeight": 7477,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 20,
+          "imageY": 19.14,
+          "imageHeight": 638,
+          "documentHeight": 7477,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Hero motion preserves native scrolling and stable page geometry",
+      "passed": true,
+      "evidence": {
+        "requestedScroll": 520.875,
+        "before": {
+          "scale": 0.962962,
+          "radius": 32.346,
+          "imageY": -4.49018,
+          "imageHeight": 614.369873046875,
+          "documentHeight": 7477,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 20,
+          "imageY": 19.14,
+          "imageHeight": 638,
+          "documentHeight": 7477,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Scroll statement progressively reaches full legibility",
+      "passed": true,
+      "evidence": {
+        "before": [
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65
+        ],
+        "after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Hotel photograph has bounded parallax without exposed image edges",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "y": -16.8269,
+          "height": 484,
+          "covered": true
+        },
+        "after": {
+          "y": 16.7967,
+          "height": 484,
+          "covered": true
+        }
+      }
+    },
+    {
+      "name": "Mobile room selection preserves panel and tab positions across all room types",
+      "passed": true,
+      "evidence": [
+        {
+          "panelHeight": 706.640625,
+          "panelTop": 3004.625,
+          "tabsTop": 3711.265625,
+          "tabsLeft": 44,
+          "heading": "Deluxe Room"
+        },
+        {
+          "panelHeight": 706.640625,
+          "panelTop": 3004.625,
+          "tabsTop": 3711.265625,
+          "tabsLeft": 44,
+          "heading": "Deluxe Twin Room"
+        },
+        {
+          "panelHeight": 706.640625,
+          "panelTop": 3004.625,
+          "tabsTop": 3711.265625,
+          "tabsLeft": 44,
+          "heading": "Family Room"
+        }
+      ]
+    },
+    {
+      "name": "Exactly one accessible room-information panel",
+      "passed": true,
+      "evidence": [
+        {
+          "hidden": "true",
+          "inert": true,
+          "visibility": "hidden",
+          "heading": ""
+        },
+        {
+          "hidden": "true",
+          "inert": true,
+          "visibility": "hidden",
+          "heading": ""
+        },
+        {
+          "hidden": "false",
+          "inert": false,
+          "visibility": "visible",
+          "heading": "Family Room"
+        }
+      ]
+    },
+    {
+      "name": "Ctrl brand opens home without moving original page",
+      "passed": true,
+      "evidence": {
+        "beforeScroll": 1600,
+        "afterScroll": 1600,
+        "newTab": "http://127.0.0.1:3082/",
+        "method": "Physical pointer click with Control held, avoiding Playwright locator auto-scroll for a sticky target"
+      },
+      "initialAutomationObservation": {
+        "url": "http://127.0.0.1:3082/",
+        "originalScroll": 1176
+      }
+    },
+    {
+      "name": "Normal motion has no console or hydration errors",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "Reduced motion disables hero parallax",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "scale": 1,
+          "radius": 28,
+          "imageY": 0,
+          "imageHeight": 638,
+          "documentHeight": 7477,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 28,
+          "imageY": 0,
+          "imageHeight": 638,
+          "documentHeight": 7477,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Reduced motion keeps hero scale and corners static",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "scale": 1,
+          "radius": 28,
+          "imageY": 0,
+          "imageHeight": 638,
+          "documentHeight": 7477,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 28,
+          "imageY": 0,
+          "imageHeight": 638,
+          "documentHeight": 7477,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Reduced motion presents every statement word at full opacity",
+      "passed": true,
+      "evidence": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Reduced motion disables secondary photograph parallax",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "y": 0,
+          "height": 484,
+          "covered": true
+        },
+        "after": {
+          "y": 0,
+          "height": 484,
+          "covered": true
+        }
+      }
+    },
+    {
+      "name": "Reduced motion has no console or hydration errors",
+      "passed": true,
+      "evidence": []
+    }
+  ],
+  "completed": "2026-10-20T05:17:47.010000+00:00",
+  "passed": true,
+  "cleanup": "All browser contexts closed. No temporary files generated.",
+  "testCorrections": [
+    "Initial locator.click moved the sticky header target before the native click event; capture-phase event confirmed scroll1176 before the application handler. Real pointer rerun preserved scroll1600 and opened home in a new tab."
+  ]
+}

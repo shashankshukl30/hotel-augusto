@@ -22,12 +22,12 @@ export default function HotelPage() {
           <p className="hospitality-context">August Kunda Road · Godowlia</p>
           <h1 id="hotel-title">Get to know<br />Augusto.</h1>
         </Reveal>
-        <figure className="hospitality-hotel-exterior">
+        <Reveal delay={0.08} className="hospitality-hotel-exterior"><figure>
           <div className="hospitality-photo hospitality-exterior-frame">
             <Image src="/images/hotel-exterior-day.webp" alt="Hotel Augusto's street entrance and sign on August Kunda Road, Varanasi" fill preload sizes="(max-width: 760px) 750px, 90vw" quality={85} />
           </div>
           <figcaption><span>The hotel, from the street.</span><span>Varanasi, India</span></figcaption>
-        </figure>
+        </figure></Reveal>
         <Reveal delay={0.1} className="hospitality-hotel-intro">
           <p>A stay in Godowlia, within walking distance of Shri Kashi Vishwanath Temple and Dashashwamedh Ghat. Come for the city. Make Augusto your base.</p>
           <Link href="/rooms" className="hospitality-link">Find your room <ArrowUpRight size={19} aria-hidden="true" /></Link>
@@ -50,9 +50,9 @@ export default function HotelPage() {
     <section className="hospitality-essentials" aria-labelledby="essentials-title">
       <div className="hospitality-shell hospitality-essentials-grid">
         <Reveal><p className="hospitality-context">The essentials</p><h2 id="essentials-title">Good to<br />come back to.</h2><p>Practical comforts for the time between temple visits, walks through the lanes and evenings by the river.</p></Reveal>
-        <ul className="hospitality-amenity-list">
+        <Reveal delay={0.1}><ul className="hospitality-amenity-list">
           {hotel.amenities.map((amenity, index) => <li key={amenity}><span aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>{amenity}</li>)}
-        </ul>
+        </ul></Reveal>
       </div>
     </section>
 

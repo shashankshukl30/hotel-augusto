@@ -1,0 +1,24 @@
+{
+  "scope": "D:\\Digiocular\\Websites\\Hotel Augusto\\research\\design-qa\\apple-large",
+  "date": "2026-10-20",
+  "beforeFreeBytes": {
+    "C": 26760863744,
+    "D": 68301127680
+  },
+  "afterFreeBytes": {
+    "C": 26705203200,
+    "D": 68183199744
+  },
+  "removed": [],
+  "reason": "No verified disposable files were created in this bounded task. Screenshots, the verification report and the reusable test script are required evidence. Existing source photographs, prior design evidence and project dependencies were preserved.",
+  "notes": "Other agents were working concurrently; free-space changes are not attributable solely to these pages. All browser contexts were closed after verification.",
+  "verified": [
+    "Gallery and Varanasi at 360, 390, 768 and 1440 pixels with zero horizontal overflow",
+    "All loaded images decoded successfully",
+    "Gallery filters, keyboard navigation, swipe, focus trap and focus return",
+    "River, temple and aarti anchor links",
+    "Normal motion transitions from a translated translucent state to its settled state",
+    "Reduced-motion layouts and readable type sizes",
+    "Desktop and mobile screenshots visually inspected"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "handoff": {
+    "pages": 3,
+    "bounds_errors": [],
+    "docx_reopened": true,
+    "zip_integrity": true,
+    "visually_inspected": true,
+    "source_sha256": "145df197ab0bfcc7c9ba1502c08529a5ddfa3a2feadbd2f11451d14a926ee452",
+    "render_folder": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review",
+    "prior_page_snapshots": [
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-1.png",
+        "bytes": 139055,
+        "sha256": "00994993adc6889a25609b43175c4a030e87db82d76e9a172e9a0f49c2692f33"
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-2.png",
+        "bytes": 174129,
+        "sha256": "345c0c959a67e3226dd9a1565750dc8c142c81dc8a467cb3f03fb7cf4e52115e"
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\docs\\.handoff-review\\page-3.png",
+        "bytes": 166184,
+        "sha256": "17663519abd256602044ae45981e2c1e615eeebbfee214c1a7677d49f6f9e31a"
+      }
+    ],
+    "verified": "2026-10-20T05:26:55.349375+00:00"
+  },
+  "design-contract": {
+    "pages": 1,
+    "bounds_errors": [],
+    "docx_reopened": true,
+    "zip_integrity": true,
+    "visually_inspected": true,
+    "source_sha256": "f470444f132749c511a661cea77c4631308f65d0dc3b04bbee545d3495e7bab6",
+    "render_folder": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-premium\\design-contract",
+    "prior_page_snapshots": [
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-premium\\design-contract\\page-1.png",
+        "bytes": 168969,
+        "sha256": "d1fb5160c5efe96b953701b856ec6e2dd05ea7ac12417e33f651519b19b45df0"
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\apple-premium\\design-contract\\page-2.png",
+        "bytes": 15460,
+        "sha256": "0e12c568d652a85767d6d4c4ce3d5da98f8cb547ae6ff0f0e64806d8acd34c12"
+      }
+    ],
+    "verified": "2026-10-20T05:26:55.349375+00:00"
+  }
+}

@@ -1,0 +1,225 @@
+[
+  {
+    "h1": "Get to know\nAugusto.",
+    "title": "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "headline": {
+      "size": "57.72px",
+      "weight": "650"
+    },
+    "images": [
+      {
+        "alt": "Hotel Augusto's street entrance and sign on August Kunda Road, Varanasi",
+        "loaded": true
+      },
+      {
+        "alt": "Hotel Augusto's lobby with seating, reception desk and lift entrance",
+        "loaded": true
+      },
+      {
+        "alt": "The reception counter and guest seating at Hotel Augusto",
+        "loaded": true
+      },
+      {
+        "alt": "Tables and chairs in Hotel Augusto's vegetarian restaurant",
+        "loaded": true
+      }
+    ],
+    "smallText": [],
+    "route": "hotel",
+    "viewport": 390,
+    "status": 200,
+    "errors": [],
+    "screenshot": "evidence/apple-premium/hotel-390.png",
+    "visuallyInspected": true,
+    "visualReviewPassed": true
+  },
+  {
+    "h1": "Take a seat.",
+    "title": "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "headline": {
+      "size": "54.6px",
+      "weight": "650"
+    },
+    "images": [
+      {
+        "alt": "A wide view of the dining room at Hotel Augusto, with tables arranged for guests",
+        "loaded": true
+      },
+      {
+        "alt": "Marble-topped tables and the serving counter inside Hotel Augusto's restaurant",
+        "loaded": true
+      },
+      {
+        "alt": "A kettle, tea and coffee supplies photographed in a guest room at Hotel Augusto",
+        "loaded": true
+      }
+    ],
+    "smallText": [],
+    "route": "dining",
+    "viewport": 390,
+    "status": 200,
+    "errors": [],
+    "screenshot": "evidence/apple-premium/dining-390.png",
+    "visuallyInspected": true,
+    "visualReviewPassed": true
+  },
+  {
+    "h1": "Let\u2019s plan your stay.",
+    "title": "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "headline": {
+      "size": "55.38px",
+      "weight": "650"
+    },
+    "images": [
+      {
+        "alt": "The illuminated Hotel Augusto entrance and sign on August Kunda Road in Varanasi",
+        "loaded": true
+      }
+    ],
+    "smallText": [],
+    "route": "contact",
+    "viewport": 390,
+    "status": 200,
+    "errors": [],
+    "screenshot": "evidence/apple-premium/contact-390.png",
+    "visuallyInspected": true,
+    "visualReviewPassed": true,
+    "dateLayoutRechecked": "2026-10-20T05:20:36.406529+00:00"
+  },
+  {
+    "h1": "Your privacy.\nIn plain language.",
+    "title": "Privacy & Photo Credits | Hotel Augusto in Varanasi",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "headline": {
+      "size": "55.38px",
+      "weight": "650"
+    },
+    "images": [],
+    "smallText": [],
+    "route": "privacy",
+    "viewport": 390,
+    "status": 200,
+    "errors": [],
+    "screenshot": "evidence/apple-premium/privacy-390.png",
+    "visuallyInspected": true,
+    "visualReviewPassed": true
+  },
+  {
+    "h1": "Get to know\nAugusto.",
+    "title": "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "headline": {
+      "size": "103.68px",
+      "weight": "650"
+    },
+    "images": [
+      {
+        "alt": "Hotel Augusto's street entrance and sign on August Kunda Road, Varanasi",
+        "loaded": true
+      },
+      {
+        "alt": "Hotel Augusto's lobby with seating, reception desk and lift entrance",
+        "loaded": true
+      },
+      {
+        "alt": "The reception counter and guest seating at Hotel Augusto",
+        "loaded": true
+      },
+      {
+        "alt": "Tables and chairs in Hotel Augusto's vegetarian restaurant",
+        "loaded": true
+      }
+    ],
+    "smallText": [],
+    "route": "hotel",
+    "viewport": 1440,
+    "status": 200,
+    "errors": [],
+    "screenshot": "evidence/apple-premium/hotel-1440.png",
+    "visuallyInspected": true,
+    "visualReviewPassed": true
+  },
+  {
+    "h1": "Take a seat.",
+    "title": "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "headline": {
+      "size": "103.68px",
+      "weight": "650"
+    },
+    "images": [
+      {
+        "alt": "A wide view of the dining room at Hotel Augusto, with tables arranged for guests",
+        "loaded": true
+      },
+      {
+        "alt": "Marble-topped tables and the serving counter inside Hotel Augusto's restaurant",
+        "loaded": true
+      },
+      {
+        "alt": "A kettle, tea and coffee supplies photographed in a guest room at Hotel Augusto",
+        "loaded": true
+      }
+    ],
+    "smallText": [],
+    "route": "dining",
+    "viewport": 1440,
+    "status": 200,
+    "errors": [],
+    "screenshot": "evidence/apple-premium/dining-1440.png",
+    "visuallyInspected": true,
+    "visualReviewPassed": true
+  },
+  {
+    "h1": "Let\u2019s plan your stay.",
+    "title": "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "headline": {
+      "size": "93.6px",
+      "weight": "650"
+    },
+    "images": [
+      {
+        "alt": "The illuminated Hotel Augusto entrance and sign on August Kunda Road in Varanasi",
+        "loaded": true
+      }
+    ],
+    "smallText": [],
+    "route": "contact",
+    "viewport": 1440,
+    "status": 200,
+    "errors": [],
+    "screenshot": "evidence/apple-premium/contact-1440.png",
+    "visuallyInspected": true,
+    "visualReviewPassed": true
+  },
+  {
+    "h1": "Your privacy.\nIn plain language.",
+    "title": "Privacy & Photo Credits | Hotel Augusto in Varanasi",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "headline": {
+      "size": "93.6px",
+      "weight": "650"
+    },
+    "images": [],
+    "smallText": [],
+    "route": "privacy",
+    "viewport": 1440,
+    "status": 200,
+    "errors": [],
+    "screenshot": "evidence/apple-premium/privacy-1440.png",
+    "visuallyInspected": true,
+    "visualReviewPassed": true
+  }
+]

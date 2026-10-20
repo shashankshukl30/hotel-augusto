@@ -1,0 +1,815 @@
+{
+  "started": "2026-10-20T05:13:28.195635+00:00",
+  "base": "http://127.0.0.1:3082",
+  "routes": [
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390,
+      "h1": [
+        "Rooms at\nAugusto."
+      ],
+      "images": [
+        {
+          "alt": "A double-bed room at Hotel Augusto with a blue upholstered headboard and seating",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "enquiry": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms",
+      "width": 390,
+      "status": 200,
+      "typeScale": {
+        "heading": {
+          "text": "Rooms at\nAugusto.",
+          "size": 63.96,
+          "weight": 650,
+          "height": 130.4375
+        },
+        "controls": [
+          {
+            "text": "View room",
+            "size": 15,
+            "weight": 550,
+            "height": 52.25
+          },
+          {
+            "text": "View room",
+            "size": 15,
+            "weight": 550,
+            "height": 52.25
+          },
+          {
+            "text": "View room",
+            "size": 15,
+            "weight": 550,
+            "height": 52.25
+          }
+        ],
+        "body": [
+          {
+            "text": "A double bed, separate singles, or a room for the family. Find your place in Var",
+            "size": 18,
+            "weight": 400,
+            "height": 89.0625
+          },
+          {
+            "text": "A double bed and a room of your own in Godowlia. Settle in between early temple ",
+            "size": 17,
+            "weight": 400,
+            "height": 86.671875
+          },
+          {
+            "text": "Two separate single beds for a shared stay. An easy arrangement for travelling c",
+            "size": 17,
+            "weight": 400,
+            "height": 86.671875
+          },
+          {
+            "text": "Stay together in a two-bed room. Tell us how many adults and children are coming",
+            "size": 17,
+            "weight": 400,
+            "height": 115.5625
+          }
+        ]
+      },
+      "runtimeErrors": [],
+      "failures": [],
+      "axe": []
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "enquiry": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire"
+      ],
+      "route": "/rooms/deluxe-room",
+      "width": 390,
+      "status": 200,
+      "typeScale": {
+        "heading": {
+          "text": "Deluxe Room",
+          "size": 56.16,
+          "weight": 650,
+          "height": 116.78125
+        },
+        "controls": [
+          {
+            "text": "Enquire about this room",
+            "size": 14,
+            "weight": 550,
+            "height": 50.890625
+          },
+          {
+            "text": "Plan your stay",
+            "size": 15,
+            "weight": 550,
+            "height": 52.25
+          }
+        ],
+        "body": [
+          {
+            "text": "A double bed and your own space to settle into. With air conditioning and a priv",
+            "size": 17,
+            "weight": 400,
+            "height": 119
+          }
+        ]
+      },
+      "runtimeErrors": [],
+      "failures": [],
+      "axe": []
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "enquiry": [
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire"
+      ],
+      "route": "/rooms/deluxe-twin-room",
+      "width": 390,
+      "status": 200,
+      "typeScale": {
+        "heading": {
+          "text": "Deluxe Twin Room",
+          "size": 56.16,
+          "weight": 650,
+          "height": 116.78125
+        },
+        "controls": [
+          {
+            "text": "Enquire about this room",
+            "size": 14,
+            "weight": 550,
+            "height": 50.890625
+          },
+          {
+            "text": "Plan your stay",
+            "size": 15,
+            "weight": 550,
+            "height": 52.25
+          }
+        ],
+        "body": [
+          {
+            "text": "A shared room with a bed of your own. Two separate single beds, air conditioning",
+            "size": 17,
+            "weight": 400,
+            "height": 148.75
+          }
+        ]
+      },
+      "runtimeErrors": [],
+      "failures": [],
+      "axe": []
+    },
+    {
+      "innerWidth": 390,
+      "clientWidth": 390,
+      "bodyWidth": 390,
+      "h1": [
+        "Family Room"
+      ],
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "enquiry": [
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms/family-room",
+      "width": 390,
+      "status": 200,
+      "typeScale": {
+        "heading": {
+          "text": "Family Room",
+          "size": 56.16,
+          "weight": 650,
+          "height": 58.390625
+        },
+        "controls": [
+          {
+            "text": "Enquire about this room",
+            "size": 14,
+            "weight": 550,
+            "height": 50.890625
+          },
+          {
+            "text": "Plan your stay",
+            "size": 15,
+            "weight": 550,
+            "height": 52.25
+          }
+        ],
+        "body": [
+          {
+            "text": "A two-bed room for a shared family stay. There\u2019s air conditioning and a private ",
+            "size": 17,
+            "weight": 400,
+            "height": 148.75
+          }
+        ]
+      },
+      "runtimeErrors": [],
+      "failures": [],
+      "axe": []
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyWidth": 1440,
+      "h1": [
+        "Rooms at\nAugusto."
+      ],
+      "images": [
+        {
+          "alt": "A double-bed room at Hotel Augusto with a blue upholstered headboard and seating",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "enquiry": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms",
+      "width": 1440,
+      "status": 200,
+      "typeScale": {
+        "heading": {
+          "text": "Rooms at\nAugusto.",
+          "size": 103.68,
+          "weight": 650,
+          "height": 211.5
+        },
+        "controls": [
+          {
+            "text": "View room",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          },
+          {
+            "text": "View room",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          },
+          {
+            "text": "View room",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          }
+        ],
+        "body": [
+          {
+            "text": "A double bed, separate singles, or a room for the family. Find your place in Var",
+            "size": 20,
+            "weight": 400,
+            "height": 66
+          },
+          {
+            "text": "A double bed and a room of your own in Godowlia. Settle in between early temple ",
+            "size": 18,
+            "weight": 400,
+            "height": 94.5
+          },
+          {
+            "text": "Two separate single beds for a shared stay. An easy arrangement for travelling c",
+            "size": 18,
+            "weight": 400,
+            "height": 94.5
+          },
+          {
+            "text": "Stay together in a two-bed room. Tell us how many adults and children are coming",
+            "size": 18,
+            "weight": 400,
+            "height": 94.5
+          }
+        ]
+      },
+      "runtimeErrors": [],
+      "failures": [],
+      "axe": []
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyWidth": 1440,
+      "h1": [
+        "Deluxe Room"
+      ],
+      "images": [
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another double room at Augusto, with a blue upholstered headboard",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup photographed in an Augusto guest room",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "enquiry": [
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire",
+        "/contact?room=deluxe-room#enquire"
+      ],
+      "route": "/rooms/deluxe-room",
+      "width": 1440,
+      "status": 200,
+      "typeScale": {
+        "heading": {
+          "text": "Deluxe Room",
+          "size": 103.68,
+          "weight": 650,
+          "height": 106.796875
+        },
+        "controls": [
+          {
+            "text": "Enquire about this room",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          },
+          {
+            "text": "Plan your stay",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          }
+        ],
+        "body": [
+          {
+            "text": "A double bed and your own space to settle into. With air conditioning and a priv",
+            "size": 20,
+            "weight": 400,
+            "height": 140
+          }
+        ]
+      },
+      "runtimeErrors": [],
+      "failures": [],
+      "axe": []
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyWidth": 1440,
+      "h1": [
+        "Deluxe Twin Room"
+      ],
+      "images": [
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "A bathroom photographed at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "In-room tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "enquiry": [
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire",
+        "/contact?room=deluxe-twin-room#enquire"
+      ],
+      "route": "/rooms/deluxe-twin-room",
+      "width": 1440,
+      "status": 200,
+      "typeScale": {
+        "heading": {
+          "text": "Deluxe Twin Room",
+          "size": 103.68,
+          "weight": 650,
+          "height": 213.59375
+        },
+        "controls": [
+          {
+            "text": "Enquire about this room",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          },
+          {
+            "text": "Plan your stay",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          }
+        ],
+        "body": [
+          {
+            "text": "A shared room with a bed of your own. Two separate single beds, air conditioning",
+            "size": 20,
+            "weight": 400,
+            "height": 140
+          }
+        ]
+      },
+      "runtimeErrors": [],
+      "failures": [],
+      "axe": []
+    },
+    {
+      "innerWidth": 1440,
+      "clientWidth": 1440,
+      "bodyWidth": 1440,
+      "h1": [
+        "Family Room"
+      ],
+      "images": [
+        {
+          "alt": "Family guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Another angle of a Family Room at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Tea and coffee setup at Hotel Augusto",
+          "decoded": true
+        },
+        {
+          "alt": "Double-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        },
+        {
+          "alt": "Twin-bed guest room at Hotel Augusto, Varanasi",
+          "decoded": true
+        }
+      ],
+      "enquiry": [
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire",
+        "/contact?room=family-room#enquire"
+      ],
+      "route": "/rooms/family-room",
+      "width": 1440,
+      "status": 200,
+      "typeScale": {
+        "heading": {
+          "text": "Family Room",
+          "size": 103.68,
+          "weight": 650,
+          "height": 106.796875
+        },
+        "controls": [
+          {
+            "text": "Enquire about this room",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          },
+          {
+            "text": "Plan your stay",
+            "size": 16,
+            "weight": 550,
+            "height": 57.59375
+          }
+        ],
+        "body": [
+          {
+            "text": "A two-bed room for a shared family stay. There\u2019s air conditioning and a private ",
+            "size": 20,
+            "weight": 400,
+            "height": 140
+          }
+        ]
+      },
+      "runtimeErrors": [],
+      "failures": [],
+      "axe": []
+    }
+  ],
+  "motion": [
+    {
+      "name": "Hero image parallax responds to scroll",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "scale": 0.962962,
+          "radius": 32.346,
+          "imageY": -4.49018,
+          "imageHeight": 614.369873046875,
+          "documentHeight": 7464,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 20,
+          "imageY": 19.14,
+          "imageHeight": 638,
+          "documentHeight": 7464,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Hero photograph expands with scroll and softens its corners",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "scale": 0.962962,
+          "radius": 32.346,
+          "imageY": -4.49018,
+          "imageHeight": 614.369873046875,
+          "documentHeight": 7464,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 20,
+          "imageY": 19.14,
+          "imageHeight": 638,
+          "documentHeight": 7464,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Hero motion preserves native scrolling and stable page geometry",
+      "passed": true,
+      "evidence": {
+        "requestedScroll": 520.875,
+        "before": {
+          "scale": 0.962962,
+          "radius": 32.346,
+          "imageY": -4.49018,
+          "imageHeight": 614.369873046875,
+          "documentHeight": 7464,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 20,
+          "imageY": 19.14,
+          "imageHeight": 638,
+          "documentHeight": 7464,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Scroll statement progressively reaches full legibility",
+      "passed": true,
+      "evidence": {
+        "before": [
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65,
+          0.65
+        ],
+        "after": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Hotel photograph has bounded parallax without exposed image edges",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "y": -16.8269,
+          "height": 484,
+          "covered": true
+        },
+        "after": {
+          "y": 16.7967,
+          "height": 484,
+          "covered": true
+        }
+      }
+    },
+    {
+      "name": "Reduced motion disables hero parallax",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "scale": 1,
+          "radius": 40,
+          "imageY": 0,
+          "imageHeight": 638,
+          "documentHeight": 7464,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 40,
+          "imageY": 0,
+          "imageHeight": 638,
+          "documentHeight": 7464,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Reduced motion keeps hero scale and corners static",
+      "passed": false,
+      "evidence": {
+        "before": {
+          "scale": 1,
+          "radius": 40,
+          "imageY": 0,
+          "imageHeight": 638,
+          "documentHeight": 7464,
+          "scrollY": 0
+        },
+        "after": {
+          "scale": 1,
+          "radius": 40,
+          "imageY": 0,
+          "imageHeight": 638,
+          "documentHeight": 7464,
+          "scrollY": 521
+        }
+      }
+    },
+    {
+      "name": "Reduced motion presents every statement word at full opacity",
+      "passed": false,
+      "evidence": [
+        0.65,
+        0.65,
+        0.65,
+        0.65,
+        0.65,
+        0.65,
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    {
+      "name": "Reduced motion disables secondary photograph parallax",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "y": 0,
+          "height": 484,
+          "covered": true
+        },
+        "after": {
+          "y": 0,
+          "height": 484,
+          "covered": true
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "freeBeforeBytes": {
+    "C": 26679603200,
+    "D": 68162191360
+  },
+  "completed": "2026-10-20T05:14:00.937332+00:00",
+  "freeAfterBytes": {
+    "C": 26686590976,
+    "D": 68104409088
+  },
+  "cleanup": "All contexts closed; no temporary files created; evidence retained.",
+  "motionSupersededBy": "evidence/apple-premium/motion-regression.json",
+  "motionFollowup": "Shared motion preference hydration fix passed all normal/reduced assertions. Static-radius assertion now correctly checks unchanged geometry instead of a design-specific constant."
+}

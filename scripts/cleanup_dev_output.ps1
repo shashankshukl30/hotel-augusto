@@ -28,7 +28,7 @@ $taskReport = @{
 Remove-Item -LiteralPath $taskTarget -Recurse -Force
 if ((Get-Content -LiteralPath "$taskRoot\.next\BUILD_ID" -Raw) -ne $taskProductionId) { throw 'Production identity changed' }
 $taskResponse = Invoke-WebRequest -Uri 'http://127.0.0.1:3080' -UseBasicParsing
-if ($taskResponse.StatusCode -ne 200 -or $taskResponse.Content -notmatch 'Stay closer') { throw 'Production preview verification failed' }
+if ($taskResponse.StatusCode -ne 200 -or $taskResponse.Content -notmatch 'Varanasi, up close') { throw 'Production preview verification failed' }
 $taskReport.freeAfterBytes = @{ C = (Get-PSDrive C).Free; D = (Get-PSDrive D).Free }
 $taskReport.productionVerifiedAfter = $true
 $taskReport.completed = (Get-Date).ToUniversalTime().ToString('o')

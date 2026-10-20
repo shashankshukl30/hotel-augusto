@@ -1,0 +1,46 @@
+{
+  "completed": "2026-10-20T05:20:36.406529+00:00",
+  "base_url": "http://127.0.0.1:3080",
+  "viewport": 390,
+  "status": 200,
+  "dates": [
+    {
+      "id": "arrival",
+      "font": "17px",
+      "height": 50,
+      "x": 45,
+      "y": 145.09375,
+      "width": 300
+    },
+    {
+      "id": "departure",
+      "font": "17px",
+      "height": 50,
+      "x": 45,
+      "y": 251.09375,
+      "width": 300
+    }
+  ],
+  "dateFieldsAligned": true,
+  "dateLayout": "stacked",
+  "guests": [
+    {
+      "id": "adults",
+      "x": 45,
+      "y": 357.09375,
+      "width": 143
+    },
+    {
+      "id": "children",
+      "x": 202,
+      "y": 357.09375,
+      "width": 143
+    }
+  ],
+  "guestFieldsPaired": true,
+  "overflow": false,
+  "errors": [],
+  "visuallyInspected": true,
+  "visualReviewPassed": true,
+  "notes": "Full-width date rows have clear separation between native date text and calendar icons. Guest selectors remain paired."
+}

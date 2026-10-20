@@ -2,7 +2,7 @@
 
 Website handoff · Digiocular · Varanasi
 
-Generated 19 October 2026, 17:13 UTC. Regenerate after final verification or deployment changes.
+Generated 20 October 2026, 05:25 UTC. Regenerate after final verification or deployment changes.
 
 ## Current delivery
 
@@ -14,9 +14,9 @@ Git origin at generation: `https://github.com/shashankshukl30/hotel-augusto.git`
 
 ## Visual system
 
-The current direction combines Apple's clarity with original Awwwards-inspired hospitality composition. Local Manrope display and Inter body fonts, bone surfaces, deep green-black ink and a restrained verdigris accent support an immersive Varanasi photograph, asymmetric property stories and visibly separate pages. Photographs are genuine and destinations are never presented as room views. Mobile uses deliberate crops and vertical room comparisons; motion respects reduced-motion preferences.
+The 20 October correction restores the Apple-inspired foundation the user explicitly liked, now larger and more animated. Local Manrope display at weight 650 and Inter body, pearl surfaces, charcoal text and a restrained blue accent support large real photographs, generous spacing and rounded panels. Interior titles reach roughly 80–104px on desktop and 52–64px on mobile, with 18px desktop / 17px mobile body copy and readable labels. All 11 pages and the improved Varanasi hero remain.
 
-The hotel and dining routes have different openings: a street-facing editorial hotel introduction and a full-width restaurant photograph. Contact keeps a focused enquiry panel, 48px controls and 16px input text. See [current cinematic direction](../research/awwwards-revision/direction.md) and [implementation plan](plans/2026-10-19-website.md). Earlier literal Apple and serif/terracotta directions are historical.
+Hotel and dining retain their distinct compositions. Photography and form panels use soft 24–32px corners; primary actions and enquiry controls are approximately 56px desktop / 50px mobile. Contact fields stay at 17px or larger on mobile. Visible entrance and scroll motion respect reduced-motion preferences and native scrolling. See [current Apple premium contract](../research/apple-premium-direction.md) and [implementation plan](plans/2026-10-19-website.md). The previous verdigris and smaller Apple revisions remain historical references.
 
 ## Pages and editing locations
 
@@ -76,13 +76,15 @@ python scripts/browser_qa.py --base-url http://127.0.0.1:3080
 
 ## Verification snapshot
 
-Latest completed shared report: [evidence/qa-hospitality-production.json](../evidence/qa-hospitality-production.json), completed 2026-10-19T17:12:30.784614+00:00 against `http://127.0.0.1:3080`. Status: PASS. It records 24 viewport checks, 24 axe audits, 66 interaction checks and 0 failures. These are report counts, not a claim that an unrecorded final run passed.
+Latest completed shared report: [evidence/qa-apple-premium-production.json](../evidence/qa-apple-premium-production.json), completed 2026-10-20T05:23:43.863633+00:00 against `http://127.0.0.1:3080`. Status: PASS. It records 72 viewport checks, 24 axe audits, 76 interaction checks and 0 failures. These are report counts, not a claim that an unrecorded final run passed.
 
-Dedicated hotel/dining review: 4 route/viewport records at 390, 1440px; layout/image/runtime checks pass. All four full-page screenshots were inspected; the later Google dining photograph also passed both widths. Evidence: [page review](../evidence/hospitality-review/results.json) and [final photo check](../evidence/hospitality-review/final-photo-check.json).
+The initial report recorded 1 failed automated check. The final report includes 3 targeted keyboard-link retests using a 1px outer-edge rounding tolerance and fully visible text bounds. The original run, retest evidence and timestamps remain preserved in that report; no application change was required between those runs.
 
-Current visual evidence: `research/awwwards-revision/live-inspection.json`, `research/design-qa/cinematic-redesign/verification.json` and `evidence/hospitality-review/`. Earlier Apple QA files are investigation history; use the latest completed report and its remaining failures. Browser checks do not establish hotel policy accuracy or photo rights.
+Focused hotel, dining, contact and privacy review: 8 route/viewport records at 390, 1440px; layout/image/runtime checks pass. The rendered screenshots were inspected for type scale, image framing and control alignment. Evidence: [page review](../evidence/apple-premium/hospitality-review.json).
 
-Release evidence: [production audit](../evidence/production-audit.json), [scoped storage cleanup](../evidence/storage-cleanup.json), and [inactive development output cleanup](../evidence/dev-output-cleanup.json). The development cleanup records 246,218,803 bytes removed after stopping the dev session; production was verified afterwards. The local preview remains noindex. An approved public domain and route canonical configuration still require launch verification.
+Current revision evidence is in `evidence/apple-premium/`; the intended final report is `evidence/qa-apple-premium-production.json`. Earlier Apple/cinematic reports and `research/awwwards-revision/` remain reference history. Use the latest completed report and its remaining failures; earlier passes do not certify later edits. Browser checks do not establish hotel policy accuracy or photo rights.
+
+Release evidence: [production audit](../evidence/production-audit.json), [scoped storage cleanup](../evidence/storage-cleanup.json), and [inactive development output cleanup](../evidence/dev-output-cleanup.json). The development cleanup records 240,653,234 bytes removed after stopping the dev session; production was verified afterwards. The local preview remains noindex. An approved public domain and route canonical configuration still require launch verification.
 
 Render-cleanup limitation: automatic approval review rejected removal of the verified OTA-document render scratch with the reason 'blocked by policy'. Its 447,116 bytes remain under `research/ota-revision/.document-review/`; no further removal was attempted. The retained source twins and scratch hashes are recorded in `research/ota-revision/source-review-verification.json`. Final handoff render evidence is retained with `docs/handoff-verification.json`.
 

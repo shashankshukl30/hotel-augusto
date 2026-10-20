@@ -11,6 +11,7 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--base-url', default='http://127.0.0.1:3081')
+parser.add_argument('--output-dir', default='evidence/apple-premium')
 args = parser.parse_args()
 base = args.base_url.rstrip('/')
 report = {'generated': datetime.now(timezone.utc).isoformat(), 'base_url': base,
@@ -28,7 +29,9 @@ with Image.open(BytesIO(og)) as photo:
     photo.load()
     report['og'] = {'size': list(photo.size), 'bytes': len(og), 'format': photo.format}
     assert photo.size == (1200, 630)
-(ROOT / 'evidence' / 'cinematic-revision' / 'opengraph-image.png').write_bytes(og)
+output_dir = ROOT / args.output_dir
+output_dir.mkdir(parents=True, exist_ok=True)
+(output_dir / 'opengraph-image.png').write_bytes(og)
 with urllib.request.urlopen(base + '/robots.txt') as response:
     report['robots'] = response.read().decode()
 assert 'Disallow: /' in report['robots']
