@@ -1,0 +1,14 @@
+# Deployment uploads contain the application, not local review material.
+.agent/
+.openai/
+.next/
+out/
+node_modules/
+research/
+evidence/
+docs/
+tests/
+logo.jpeg
+*.tsbuildinfo
+.env*
+!.env.example

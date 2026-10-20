@@ -31,3 +31,6 @@ docs/.handoff-review/
 docs/.handoff-hospitality-review/
 docs/.handoff-apple-dominant-review/
 research/ota-revision/.document-review/
+
+.vercel
+.env*
