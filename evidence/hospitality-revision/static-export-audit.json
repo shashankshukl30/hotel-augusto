@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-20T06:06:49.033331+00:00",
-  "scope": "Read-only static artifact audit after mobile header refinement; no browser or network requests.",
+  "timestamp": "2026-10-20T06:20:14.899926+00:00",
+  "scope": "Read-only static artifact audit including Windows RSC navigation payloads; no browser or network requests.",
   "expectedBaseUrl": "https://hotel-augusto.candy-okapi-4696.chatgpt.site",
   "status": "pass",
   "previousAudit": {
-    "timestamp": "2026-10-20T05:58:05.809173+00:00",
+    "timestamp": "2026-10-20T06:06:49.033331+00:00",
     "summary": {
       "contentRoutes": 16,
       "notFoundArtifact": true,
@@ -21,8 +21,8 @@
   "summary": {
     "contentRoutes": 16,
     "notFoundArtifact": true,
-    "checks": 60,
-    "passed": 60,
+    "checks": 61,
+    "passed": 61,
     "failed": 0,
     "localDependencies": 57,
     "dependencyReferences": 413,
@@ -290,6 +290,92 @@
       "name": "All canonical and OG URLs use expected private preview base",
       "passed": true,
       "detail": []
+    },
+    {
+      "name": "Windows RSC segment aliases match browser URLs and original bytes",
+      "passed": true,
+      "detail": [
+        {
+          "source": "_not-found/__next._not-found/__PAGE__.txt",
+          "destination": "_not-found/__next._not-found.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "varanasi/__next.varanasi/__PAGE__.txt",
+          "destination": "varanasi/__next.varanasi.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "rooms/__next.rooms/__PAGE__.txt",
+          "destination": "rooms/__next.rooms.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "rooms/family-room/__next.rooms/$d$slug/__PAGE__.txt",
+          "destination": "rooms/family-room/__next.rooms.$d$slug.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "rooms/deluxe-twin-room/__next.rooms/$d$slug/__PAGE__.txt",
+          "destination": "rooms/deluxe-twin-room/__next.rooms.$d$slug.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "rooms/deluxe-room/__next.rooms/$d$slug/__PAGE__.txt",
+          "destination": "rooms/deluxe-room/__next.rooms.$d$slug.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "rooms/compare/__next.rooms/compare/__PAGE__.txt",
+          "destination": "rooms/compare/__next.rooms.compare.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "privacy/__next.privacy/__PAGE__.txt",
+          "destination": "privacy/__next.privacy.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "hotel/__next.hotel/__PAGE__.txt",
+          "destination": "hotel/__next.hotel.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "guides/__next.guides/__PAGE__.txt",
+          "destination": "guides/__next.guides.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "guides/first-visit-to-kashi/__next.guides/$d$slug/__PAGE__.txt",
+          "destination": "guides/first-visit-to-kashi/__next.guides.$d$slug.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "guides/choosing-your-room/__next.guides/$d$slug/__PAGE__.txt",
+          "destination": "guides/choosing-your-room/__next.guides.$d$slug.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "guides/arriving-in-godowlia/__next.guides/$d$slug/__PAGE__.txt",
+          "destination": "guides/arriving-in-godowlia/__next.guides.$d$slug.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "gallery/__next.gallery/__PAGE__.txt",
+          "destination": "gallery/__next.gallery.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "dining/__next.dining/__PAGE__.txt",
+          "destination": "dining/__next.dining.__PAGE__.txt",
+          "matches": true
+        },
+        {
+          "source": "contact/__next.contact/__PAGE__.txt",
+          "destination": "contact/__next.contact.__PAGE__.txt",
+          "matches": true
+        }
+      ]
     },
     {
       "name": "Every exported property/destination photo and OG image decodes",
@@ -784,6 +870,88 @@
       }
     }
   ],
+  "rscPayloadAliases": [
+    {
+      "source": "_not-found/__next._not-found/__PAGE__.txt",
+      "destination": "_not-found/__next._not-found.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "varanasi/__next.varanasi/__PAGE__.txt",
+      "destination": "varanasi/__next.varanasi.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "rooms/__next.rooms/__PAGE__.txt",
+      "destination": "rooms/__next.rooms.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "rooms/family-room/__next.rooms/$d$slug/__PAGE__.txt",
+      "destination": "rooms/family-room/__next.rooms.$d$slug.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "rooms/deluxe-twin-room/__next.rooms/$d$slug/__PAGE__.txt",
+      "destination": "rooms/deluxe-twin-room/__next.rooms.$d$slug.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "rooms/deluxe-room/__next.rooms/$d$slug/__PAGE__.txt",
+      "destination": "rooms/deluxe-room/__next.rooms.$d$slug.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "rooms/compare/__next.rooms/compare/__PAGE__.txt",
+      "destination": "rooms/compare/__next.rooms.compare.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "privacy/__next.privacy/__PAGE__.txt",
+      "destination": "privacy/__next.privacy.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "hotel/__next.hotel/__PAGE__.txt",
+      "destination": "hotel/__next.hotel.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "guides/__next.guides/__PAGE__.txt",
+      "destination": "guides/__next.guides.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "guides/first-visit-to-kashi/__next.guides/$d$slug/__PAGE__.txt",
+      "destination": "guides/first-visit-to-kashi/__next.guides.$d$slug.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "guides/choosing-your-room/__next.guides/$d$slug/__PAGE__.txt",
+      "destination": "guides/choosing-your-room/__next.guides.$d$slug.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "guides/arriving-in-godowlia/__next.guides/$d$slug/__PAGE__.txt",
+      "destination": "guides/arriving-in-godowlia/__next.guides.$d$slug.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "gallery/__next.gallery/__PAGE__.txt",
+      "destination": "gallery/__next.gallery.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "dining/__next.dining/__PAGE__.txt",
+      "destination": "dining/__next.dining.__PAGE__.txt",
+      "matches": true
+    },
+    {
+      "source": "contact/__next.contact/__PAGE__.txt",
+      "destination": "contact/__next.contact.__PAGE__.txt",
+      "matches": true
+    }
+  ],
   "dependencies": [
     {
       "file": "out/_next/static/media/bodoni_moda_latin_wght_italic-s.p.2ebojhi24cjg8.woff2",
@@ -1216,12 +1384,12 @@
   },
   "cleanup": {
     "beforeFreeBytes": {
-      "C": 26299314176,
-      "D": 68131885056
+      "C": 26249293824,
+      "D": 68103548928
     },
     "afterFreeBytes": {
-      "C": 26201407488,
-      "D": 68129173504
+      "C": 26248814592,
+      "D": 68093906944
     },
     "removed": [],
     "reason": "Only required reproducible audit source and report created; no disposable files."

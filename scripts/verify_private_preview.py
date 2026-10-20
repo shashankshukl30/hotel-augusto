@@ -24,7 +24,7 @@ routes = ["/", "/hotel", "/rooms", "/rooms/compare", "/rooms/deluxe-room",
           "/gallery", "/guides", "/guides/first-visit-to-kashi",
           "/guides/arriving-in-godowlia", "/guides/choosing-your-room", "/contact", "/privacy"]
 report = {"date": datetime.now(timezone.utc).isoformat(), "base_url": base,
-          "checks": [], "errors": [], "external_messages_sent": 0}
+          "checks": [], "errors": [], "failed_responses": [], "external_messages_sent": 0}
 
 def check(name, passed, detail=None):
     report["checks"].append({"name": name, "passed": bool(passed), "detail": detail})
@@ -42,7 +42,8 @@ with sync_playwright() as p:
     context.route("**/*", authorize)
     page = context.new_page()
     page.on("pageerror", lambda error: report["errors"].append(str(error)))
-    page.on("console", lambda message: report["errors"].append(message.text) if message.type == "error" else None)
+    page.on("console", lambda message: report["errors"].append({"text": message.text, "location": message.location}) if message.type == "error" else None)
+    page.on("response", lambda response: report["failed_responses"].append({"url":response.url,"status":response.status,"resource_type":response.request.resource_type}) if response.status >= 400 else None)
     for path in routes:
         response = page.goto(base + path, wait_until="networkidle", timeout=60000)
         check("Clean URL renders " + path, response.status == 200 and page.locator("main h1").count() == 1,
@@ -54,10 +55,13 @@ with sync_playwright() as p:
     check("Share image resolves as PNG", og.status == 200 and og.body().startswith(b"\x89PNG"),
           {"status":og.status, "content_type":og.headers.get("content-type")})
     page.goto(base + "/", wait_until="networkidle")
+    page.evaluate("window.__augustoNavigationCheck = 'same-document'")
     page.get_by_role("button", name="Open navigation", exact=True).click()
     page.locator(".navigation-content").get_by_role("link", name="Stay guide", exact=False).click()
     page.wait_for_url("**/guides")
     check("Client navigation reaches guides", page.locator("main h1").count() == 1)
+    check("Client navigation preserves the document",
+          page.evaluate("window.__augustoNavigationCheck === 'same-document'"))
     arrival = (date.today() + timedelta(days=45)).isoformat()
     departure = (date.today() + timedelta(days=48)).isoformat()
     page.goto(base + f"/contact?arrival={arrival}&departure={departure}&adults=3&children=1&room=family-room#enquire", wait_until="networkidle")
@@ -75,6 +79,7 @@ with sync_playwright() as p:
     page.wait_for_timeout(500)
     check("Desktop has no overflow", page.evaluate("document.body.scrollWidth === 1440"))
     check("Desktop property hero is present", page.locator(".hero-photo img").count() == 3)
+    check("No missing page resources", not report["failed_responses"], report["failed_responses"])
     check("No browser errors", not report["errors"], report["errors"])
     context.close()
     browser.close()

@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 3080",
     "build": "next build",
+    "postbuild": "node scripts/normalize-static-export.mjs",
     "start": "next start --hostname 127.0.0.1 --port 3080",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/booking.test.mjs",
+    "test": "node --test tests/booking.test.mjs tests/static-export.test.mjs",
     "qa": "python scripts/qa_hospitality_revision.py"
   },
   "dependencies": {

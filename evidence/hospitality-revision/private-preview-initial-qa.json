@@ -1,0 +1,360 @@
+{
+  "date": "2026-10-20T06:15:24.494833+00:00",
+  "base_url": "https://hotel-augusto.candy-okapi-4696.chatgpt.site",
+  "checks": [
+    {
+      "name": "Clean URL renders /",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Hotel Augusto Varanasi | A Stay in the Heart of Kashi"
+      }
+    },
+    {
+      "name": "Mobile width /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /hotel",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities"
+      }
+    },
+    {
+      "name": "Mobile width /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Rooms at Hotel Augusto Varanasi | Find Your Kashi Stay"
+      }
+    },
+    {
+      "name": "Mobile width /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms/compare",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Compare Rooms at Hotel Augusto Varanasi | Find Your Stay"
+      }
+    },
+    {
+      "name": "Mobile width /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms/deluxe-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Deluxe Room | Hotel Augusto, Varanasi \u2014 Book Direct"
+      }
+    },
+    {
+      "name": "Mobile width /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Deluxe Twin Room | Hotel Augusto, Varanasi \u2014 Book Direct"
+      }
+    },
+    {
+      "name": "Mobile width /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /rooms/family-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Family Room | Hotel Augusto, Varanasi \u2014 Book Direct"
+      }
+    },
+    {
+      "name": "Mobile width /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /dining",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Vegetarian Dining at Hotel Augusto | Varanasi Hotel"
+      }
+    },
+    {
+      "name": "Mobile width /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /varanasi",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Explore Varanasi: Ghats and Temple Walks | Hotel Augusto"
+      }
+    },
+    {
+      "name": "Mobile width /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /gallery",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Hotel Augusto Gallery | Rooms and Spaces in Varanasi"
+      }
+    },
+    {
+      "name": "Mobile width /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /guides",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Practical Travel Guides for Varanasi | Hotel Augusto"
+      }
+    },
+    {
+      "name": "Mobile width /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "First Visit to Kashi Vishwanath | Hotel Augusto Guide"
+      }
+    },
+    {
+      "name": "Mobile width /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Arriving in Godowlia, Varanasi | Hotel Augusto Guide"
+      }
+    },
+    {
+      "name": "Mobile width /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /guides/choosing-your-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Choosing Your Room in Varanasi | Hotel Augusto Guide"
+      }
+    },
+    {
+      "name": "Mobile width /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /contact",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay"
+      }
+    },
+    {
+      "name": "Mobile width /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Clean URL renders /privacy",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "title": "Privacy & Photo Credits | Hotel Augusto in Varanasi"
+      }
+    },
+    {
+      "name": "Mobile width /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Unknown route returns 404",
+      "passed": true,
+      "detail": 404
+    },
+    {
+      "name": "Share image resolves as PNG",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "content_type": "application/octet-stream"
+      }
+    },
+    {
+      "name": "Client navigation reaches guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel preferences hydrate on static contact page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Static enquiry prepares the correct WhatsApp destination",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop has no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop property hero is present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No browser errors",
+      "passed": false,
+      "detail": [
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ]
+    }
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()"
+  ],
+  "external_messages_sent": 0,
+  "passed": false
+}

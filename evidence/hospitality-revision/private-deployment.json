@@ -1,7 +1,21 @@
 {
   "project_id": "appgprj_6ad7018ade208191bbdb1b69f9725cd5",
-  "status": "prepared",
+  "status": "succeeded",
   "audience": "owner-private",
-  "expected_url": "https://hotel-augusto.candy-okapi-4696.chatgpt.site",
-  "public_hotel_domain_changed": false
+  "url": "https://hotel-augusto.candy-okapi-4696.chatgpt.site",
+  "deployment_id": "appgdep_6ad706d88dac8191b708a8731ca76cd5",
+  "version_id": "appgprj_6ad7018ade208191bbdb1b69f9725cd5~appgver_b7156019196c81918846d218d5faf9f0",
+  "source_commit_sha": "1d33121066f00dfca3f6bd64620b84aefec66205",
+  "updated_at": "2026-10-20T06:15:06.191634+00:00",
+  "public_hotel_domain_changed": false,
+  "archive_sha256": "682D077C917A90368FF0612451D85BC17E16A8DFC8250541F7276476C4BF4B0B",
+  "archive_bytes": 6051224,
+  "hosting_mode": "Static export; default Next/Vercel configuration retained",
+  "windows_packaging": {
+    "bash": "C:/Program Files/Git/bin/bash.exe",
+    "task_scoped_environment": {
+      "TAR_OPTIONS": "--force-local"
+    },
+    "archive_path_format": "Forward-slash absolute Windows path"
+  }
 }

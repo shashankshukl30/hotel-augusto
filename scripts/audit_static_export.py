@@ -136,6 +136,21 @@ def main():
     check("Referenced image/font/script/stylesheet files resolve", not missing, missing)
     check("Local navigation targets have corresponding artifacts", not missing_links, missing_links)
     check("All canonical and OG URLs use expected private preview base", not metadata_issues, metadata_issues)
+    payload_aliases = []
+    for source in OUT.rglob("*.txt"):
+        parts = source.relative_to(OUT).parts
+        segment_index = next((index for index, part in enumerate(parts)
+                              if part.startswith("__next.")), None)
+        if segment_index is None or segment_index == len(parts) - 1:
+            continue
+        destination = OUT.joinpath(*parts[:segment_index], ".".join(parts[segment_index:]))
+        payload_aliases.append({
+            "source": source.relative_to(OUT).as_posix(),
+            "destination": destination.relative_to(OUT).as_posix(),
+            "matches": destination.is_file() and destination.read_bytes() == source.read_bytes(),
+        })
+    check("Windows RSC segment aliases match browser URLs and original bytes",
+          all(item["matches"] for item in payload_aliases), payload_aliases)
 
     images = []
     for path in list((OUT / "images").glob("*")) + [OUT / "opengraph-image"]:
@@ -175,7 +190,7 @@ def main():
     failed = [item for item in checks if not item["passed"]]
     report = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
-        "scope": "Read-only static artifact audit after mobile header refinement; no browser or network requests.",
+        "scope": "Read-only static artifact audit including Windows RSC navigation payloads; no browser or network requests.",
         "expectedBaseUrl": BASE, "status": "fail" if failed else "pass",
         "previousAudit": {"timestamp": previous["timestamp"], "summary": previous["summary"]} if previous else None,
         "summary": {"contentRoutes": len(ROUTES), "notFoundArtifact": (OUT / "404.html").is_file(),
@@ -183,6 +198,7 @@ def main():
                     "localDependencies": len(dependencies), "dependencyReferences": sum(v["references"] for v in dependencies.values()),
                     "imagesDecoded": len(images), "fontsParsed": len(fonts), "formsInspected": len(forms)},
         "checks": checks, "pages": pages, "images": images, "fonts": fonts, "forms": forms,
+        "rscPayloadAliases": payload_aliases,
         "dependencies": [dict(item, types=sorted(item["types"])) for item in dependencies.values()],
         "hostingBehavior": previous.get("hostingBehavior") if previous else {
             "notEstablished": ["Installed Sites helper does not specify clean-URL .html resolution. Deployed route and OG content-type checks remain necessary."]},

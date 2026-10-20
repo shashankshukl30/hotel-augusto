@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-10-20T06:20:22.232156+00:00",
+  "scope": "Read-only16-payload verification AFTER parent fresh static build and export postbuild completed; earlier existing-out run is not treated as this build snapshot.",
+  "exportBuildId": "H-hbx6wGpvK0ZRpcp_MRX",
+  "cause": "Next16.4.2 Windows path.relative backslashes are not normalized before slash-only static segment filename encoding.",
+  "status": "pass",
+  "aliasesVerified": 16,
+  "aliasBytes": 209937,
+  "originalSourcesPresent": true,
+  "observedFailedRequests": 49,
+  "distinctFailedPaths": 11,
+  "missingAfterNormalization": [],
+  "payloads": [
+    {
+      "source": "_not-found/__next._not-found/__PAGE__.txt",
+      "destination": "_not-found/__next._not-found.__PAGE__.txt",
+      "bytes": 4370,
+      "sha256": "358155f97d7b1a393b8e017becf2d4c0c7ee919f28a72bf145b96badb0ad9cb6",
+      "equal": true
+    },
+    {
+      "source": "varanasi/__next.varanasi/__PAGE__.txt",
+      "destination": "varanasi/__next.varanasi.__PAGE__.txt",
+      "bytes": 14512,
+      "sha256": "c0e49edaf50537387266208050933324d70109fdbb90f8bb041296ac1a694115",
+      "equal": true
+    },
+    {
+      "source": "rooms/__next.rooms/__PAGE__.txt",
+      "destination": "rooms/__next.rooms.__PAGE__.txt",
+      "bytes": 17242,
+      "sha256": "8c27e442edaa54ed8d2f96474f489e2b47b488190f5661b5908b0f20ff2e1dc4",
+      "equal": true
+    },
+    {
+      "source": "rooms/family-room/__next.rooms/$d$slug/__PAGE__.txt",
+      "destination": "rooms/family-room/__next.rooms.$d$slug.__PAGE__.txt",
+      "bytes": 12676,
+      "sha256": "002a7c39b41590ad330bffb0cf87bfd8c37ff9188b0cb58af11929dac3b10538",
+      "equal": true
+    },
+    {
+      "source": "rooms/deluxe-twin-room/__next.rooms/$d$slug/__PAGE__.txt",
+      "destination": "rooms/deluxe-twin-room/__next.rooms.$d$slug.__PAGE__.txt",
+      "bytes": 12648,
+      "sha256": "4cc0104cec427bf4794d434a12b521071d18e78284842d571f6c968551ae7a99",
+      "equal": true
+    },
+    {
+      "source": "rooms/deluxe-room/__next.rooms/$d$slug/__PAGE__.txt",
+      "destination": "rooms/deluxe-room/__next.rooms.$d$slug.__PAGE__.txt",
+      "bytes": 12681,
+      "sha256": "6e97d9d287f4ad9f6bd600dd03d37363553c2ff0a3df5cad03cf8cf6a6f96d64",
+      "equal": true
+    },
+    {
+      "source": "rooms/compare/__next.rooms/compare/__PAGE__.txt",
+      "destination": "rooms/compare/__next.rooms.compare.__PAGE__.txt",
+      "bytes": 5636,
+      "sha256": "8ea0ff49112ba5bfc0d853e4a710a60857f137448ec9b1a46fa7bd7cc8abc4f5",
+      "equal": true
+    },
+    {
+      "source": "privacy/__next.privacy/__PAGE__.txt",
+      "destination": "privacy/__next.privacy.__PAGE__.txt",
+      "bytes": 11646,
+      "sha256": "d4d18db6e44b60dc5b30b71c746bbc027abac12927b603a648698a940916bf3e",
+      "equal": true
+    },
+    {
+      "source": "hotel/__next.hotel/__PAGE__.txt",
+      "destination": "hotel/__next.hotel.__PAGE__.txt",
+      "bytes": 17718,
+      "sha256": "0704766ddab1a6f703e55f5b017c6e35d3d0c11cb771a3e6b966e027dec9aa00",
+      "equal": true
+    },
+    {
+      "source": "guides/__next.guides/__PAGE__.txt",
+      "destination": "guides/__next.guides.__PAGE__.txt",
+      "bytes": 8701,
+      "sha256": "714bd1f339e6b8ebcf005373fe039b445e0d890ff87bd17e6fec3a06131a0b86",
+      "equal": true
+    },
+    {
+      "source": "guides/first-visit-to-kashi/__next.guides/$d$slug/__PAGE__.txt",
+      "destination": "guides/first-visit-to-kashi/__next.guides.$d$slug.__PAGE__.txt",
+      "bytes": 19655,
+      "sha256": "6289e49d96caa42f2822c8557e37051ac7ec2e79d8e0c15cf7fa1893baeaa229",
+      "equal": true
+    },
+    {
+      "source": "guides/choosing-your-room/__next.guides/$d$slug/__PAGE__.txt",
+      "destination": "guides/choosing-your-room/__next.guides.$d$slug.__PAGE__.txt",
+      "bytes": 18567,
+      "sha256": "7255d55f11471d4edb9c6dde8c21e986c3d26d80f47d46c390a18287ac85ea28",
+      "equal": true
+    },
+    {
+      "source": "guides/arriving-in-godowlia/__next.guides/$d$slug/__PAGE__.txt",
+      "destination": "guides/arriving-in-godowlia/__next.guides.$d$slug.__PAGE__.txt",
+      "bytes": 18457,
+      "sha256": "82d2b9700c25b22c8b88032542aece5812f019c1fb1e1ade5964ce8eebfd5ecb",
+      "equal": true
+    },
+    {
+      "source": "gallery/__next.gallery/__PAGE__.txt",
+      "destination": "gallery/__next.gallery.__PAGE__.txt",
+      "bytes": 7180,
+      "sha256": "3af4a9929ccf49195fd4d1c481720a38a2869742d91aceaa4cea9e13e0392075",
+      "equal": true
+    },
+    {
+      "source": "dining/__next.dining/__PAGE__.txt",
+      "destination": "dining/__next.dining.__PAGE__.txt",
+      "bytes": 14823,
+      "sha256": "b16ad51fcca97331d0b7e234d08b04b451ab77365b9ee7e91da88913e5d1f76b",
+      "equal": true
+    },
+    {
+      "source": "contact/__next.contact/__PAGE__.txt",
+      "destination": "contact/__next.contact.__PAGE__.txt",
+      "bytes": 13425,
+      "sha256": "9d0f5b4dca685719539ac908c0b5ea795337d1ed5a7edb560826a209e9f49675",
+      "equal": true
+    }
+  ],
+  "buildHook": "npm postbuild runs scripts/normalize-static-export.mjs; normal builds exit without filesystem changes unless SITE_STATIC_EXPORT===true.",
+  "tests": {
+    "focused": 5,
+    "fullNpmTest": 9,
+    "allPassed": true,
+    "eslintPassed": true
+  },
+  "cleanup": {
+    "remainingTestFixtures": [],
+    "freeBytes": {
+      "C": 26248732672,
+      "D": 68093902848
+    },
+    "retained": "All16 required aliases and original payloads retained. Tests removed only their own validated temporary fixture directories."
+  }
+}
