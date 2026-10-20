@@ -182,6 +182,11 @@ def dock_case(page, width):
     chosen = pick_next_month(page, arrival, "Check-in date", by_input=True,
                              screenshot=f"checkin-calendar-{width}")
     departure = page.locator("#dock-departure")
+    before_open = departure.input_value()
+    dialog, _ = open_calendar(page, departure, "Check-out date", by_input=True)
+    check("Opening a loaded calendar never selects a day", departure.input_value() == before_open)
+    dialog.get_by_role("button", name="Close calendar", exact=True).click()
+    dialog.wait_for(state="hidden")
     minimum = (datetime.fromisoformat(chosen) + timedelta(days=1)).date().isoformat()
     check("Checkout minimum follows check-in", departure.get_attribute("min") == minimum)
     dialog, opener = open_calendar(page, departure, "Check-out date")

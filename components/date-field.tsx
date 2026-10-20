@@ -20,6 +20,7 @@ export function DateField({ label, value, onValueChange, minToday = false, min,
   const dialog = useRef<HTMLDialogElement>(null);
   const opener = useRef<HTMLElement | null>(null);
   const backdropPress = useRef(false);
+  const openingPress = useRef(false);
   const [open, setOpen] = useState(false);
   const [calendarMin, setCalendarMin] = useState("");
   const calendarId = `${id}-calendar`;
@@ -32,9 +33,10 @@ export function DateField({ label, value, onValueChange, minToday = false, min,
     else if (!open && element.open) element.close();
   }, [open]);
 
-  function showCalendar(target: HTMLElement) {
+  function showCalendar(target: HTMLElement, duringPointerDown = false) {
     opener.current = target;
     backdropPress.current = false;
+    openingPress.current = duringPointerDown;
     const earliest = minToday ? localToday() : String(min || "");
     setCalendarMin(earliest);
     if (input.current) input.current.min = earliest;
@@ -55,7 +57,7 @@ export function DateField({ label, value, onValueChange, minToday = false, min,
         // Own the primary pointer gesture before the OS control handles it.
         if (event.button === 0) {
           event.preventDefault();
-          showCalendar(event.currentTarget);
+          showCalendar(event.currentTarget, true);
         }
       }}
       onClick={event => { event.preventDefault(); showCalendar(event.currentTarget); }}
@@ -77,10 +79,23 @@ export function DateField({ label, value, onValueChange, minToday = false, min,
         opener.current?.focus({ preventScroll: true });
       }}
       onPointerDown={event => {
+        // A fresh gesture inside the calendar is intentional. The gesture
+        // that opened it started on the input, outside this dialog.
+        openingPress.current = false;
         const box = event.currentTarget.getBoundingClientRect();
         backdropPress.current = event.target === event.currentTarget &&
           (event.clientX < box.left || event.clientX > box.right ||
             event.clientY < box.top || event.clientY > box.bottom);
+      }}
+      onKeyDownCapture={() => { openingPress.current = false; }}
+      onClickCapture={event => {
+        // WebKit can retarget the opening touch to a loaded day button.
+        // Consume that click before it reaches any calendar action.
+        if (openingPress.current && event.detail > 0) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        openingPress.current = false;
       }}
       onClick={event => {
         // An opening touch can finish on the newly shown backdrop. Only a

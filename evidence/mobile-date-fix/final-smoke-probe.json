@@ -1,0 +1,173 @@
+{
+  "trace": [
+    {
+      "type": "pointerdown",
+      "time": 2207,
+      "tag": "INPUT",
+      "id": "dock-arrival",
+      "cls": "date-input ",
+      "dialogs": []
+    },
+    {
+      "type": "focusin",
+      "time": 2214,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "date-picker-close",
+      "dialogs": [
+        "dock-arrival-calendar"
+      ]
+    },
+    {
+      "type": "pointerup",
+      "time": 2231,
+      "tag": "HTML",
+      "id": "",
+      "cls": "hRSI0a_variable",
+      "dialogs": [
+        "dock-arrival-calendar"
+      ]
+    },
+    {
+      "type": "focusin",
+      "time": 2542.0000000000005,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "rdp-day_button",
+      "dialogs": [
+        "dock-arrival-calendar"
+      ]
+    },
+    {
+      "type": "pointerdown",
+      "time": 2774,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "rdp-day_button",
+      "dialogs": [
+        "dock-arrival-calendar"
+      ]
+    },
+    {
+      "type": "pointerup",
+      "time": 2775,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "rdp-day_button",
+      "dialogs": [
+        "dock-arrival-calendar"
+      ]
+    },
+    {
+      "type": "click",
+      "time": 2778,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "rdp-day_button",
+      "dialogs": [
+        "dock-arrival-calendar"
+      ]
+    },
+    {
+      "type": "close",
+      "time": 2782,
+      "tag": "DIALOG",
+      "id": "dock-arrival-calendar",
+      "cls": "date-picker-dialog",
+      "dialogs": []
+    },
+    {
+      "type": "focusin",
+      "time": 2800.0000000000005,
+      "tag": "INPUT",
+      "id": "dock-arrival",
+      "cls": "date-input ",
+      "dialogs": []
+    },
+    {
+      "type": "pointerdown",
+      "time": 2958,
+      "tag": "INPUT",
+      "id": "dock-departure",
+      "cls": "date-input ",
+      "dialogs": []
+    },
+    {
+      "type": "focusin",
+      "time": 2993,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "date-picker-close",
+      "dialogs": [
+        "dock-departure-calendar"
+      ]
+    },
+    {
+      "type": "pointerup",
+      "time": 3046.0000000000005,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "rdp-day_button",
+      "dialogs": [
+        "dock-departure-calendar"
+      ]
+    },
+    {
+      "type": "focusin",
+      "time": 3053,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "rdp-day_button",
+      "dialogs": [
+        "dock-departure-calendar"
+      ]
+    },
+    {
+      "type": "click",
+      "time": 3060,
+      "tag": "BUTTON",
+      "id": "",
+      "cls": "rdp-day_button",
+      "dialogs": [
+        "dock-departure-calendar"
+      ]
+    },
+    {
+      "type": "focusin",
+      "time": 3111,
+      "tag": "INPUT",
+      "id": "dock-arrival",
+      "cls": "date-input ",
+      "dialogs": []
+    },
+    {
+      "type": "close",
+      "time": 3118,
+      "tag": "DIALOG",
+      "id": "dock-departure-calendar",
+      "cls": "date-picker-dialog",
+      "dialogs": []
+    },
+    {
+      "type": "focusin",
+      "time": 3120,
+      "tag": "INPUT",
+      "id": "dock-departure",
+      "cls": "date-input ",
+      "dialogs": []
+    }
+  ],
+  "active": "<input required=\"\" aria-invalid=\"false\" id=\"dock-departure\" class=\"date-input \" type=\"date\" placeholder=\"YYYY-MM-DD\" aria-haspopup=\"dialog\" aria-controls=\"dock-departure-calendar\" name=\"departure\" value=\"2026-10-31\" min=\"2026-10-21\" style=\"\">",
+  "dialogs": [
+    {
+      "id": "dock-arrival-calendar",
+      "open": false,
+      "html": "<div class=\"date-picker-heading\"><h2 id=\"dock-arrival-calendar-title\">Check-in date</h2><button type=\"button\" class=\"date-picker-close\" aria-label=\"Close calendar\" style=\"color:var(--ink)\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-x\" aria-hidden=\"true\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg></button></div>"
+    },
+    {
+      "id": "dock-departure-calendar",
+      "open": false,
+      "html": "<div class=\"date-picker-heading\"><h2 id=\"dock-departure-calendar-title\">Check-out date</h2><button type=\"button\" class=\"date-picker-close\" aria-label=\"Close calendar\" style=\"color:var(--ink)\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-x\" aria-hidden=\"true\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg></button></div>"
+    }
+  ]
+}
