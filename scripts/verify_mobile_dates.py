@@ -27,7 +27,7 @@ output.parent.mkdir(parents=True, exist_ok=True)
 report = {
     "date": datetime.now(timezone.utc).isoformat(), "base_url": base,
     "engines": engines, "checks": [], "runtime_errors": [], "console_errors": [],
-    "screenshots": [], "external_messages_sent": 0,
+    "screenshots": [], "external_messages_sent": 0, "network_events": [],
     "limitations": [
         "WebKit on Windows is browser-engine coverage, not a physical iPhone test.",
         "Windows WebKit may expose native date inputs as text controls; the shared "
@@ -60,7 +60,21 @@ def watch(page):
     page.set_default_timeout(10000)
     page.set_default_navigation_timeout(60000)
     page.on("pageerror", lambda error: report["runtime_errors"].append({
-        **scope, "url": page.url, "message": str(error)}))
+        **scope, "url": page.url, "message": str(error), "name": error.name,
+        "stack": error.stack, "time": datetime.now(timezone.utc).isoformat()}))
+
+    def network(kind, request, **detail):
+        if "_rsc=" in request.url or kind == "failed":
+            report["network_events"].append({
+                **scope, "kind": kind, "url": request.url,
+                "frame_url": page.url, "resource": request.resource_type,
+                "time": datetime.now(timezone.utc).isoformat(), **detail})
+
+    page.on("request", lambda request: network("start", request))
+    page.on("response", lambda response: network(
+        "response", response.request, status=response.status))
+    page.on("requestfailed", lambda request: network(
+        "failed", request, failure=request.failure))
 
     def console(message):
         if message.type == "error":
@@ -72,10 +86,16 @@ def watch(page):
 
 
 def goto(page, route="/"):
+    report["network_events"].append({
+        **scope, "kind": "navigation-start", "from": page.url, "to": base + route,
+        "time": datetime.now(timezone.utc).isoformat()})
     response = page.goto(base + route, wait_until="networkidle")
     if not response or response.status != 200:
         raise AssertionError(f"Route failed: {route}, status {response.status if response else None}")
     page.locator("main").wait_for()
+    report["network_events"].append({
+        **scope, "kind": "navigation-end", "url": page.url,
+        "time": datetime.now(timezone.utc).isoformat()})
 
 
 def shot(page, name):

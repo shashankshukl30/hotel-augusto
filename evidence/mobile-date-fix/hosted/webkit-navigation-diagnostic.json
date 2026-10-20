@@ -1,0 +1,364 @@
+{
+  "events": [
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=BiuOixuigeBXVJn7",
+      "status": 200
+    },
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=yIp22O3xgPPxC28X",
+      "status": 200
+    },
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=fz2dyb1obUopobmp",
+      "status": 200
+    },
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=8nTjltbQWvg6NcbE",
+      "status": 200
+    },
+    {
+      "phase": "home-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=Ms9RZ1ulVGHZx9cA",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=691jfsAaIqtYviwW",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=chO_eE5vEuufRJCr",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=Hu42BDNTluYjhIUX",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-0",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=deWkJsERPvU40J3E",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=yIp22O3xgPPxC28X",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=8nTjltbQWvg6NcbE",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=BiuOixuigeBXVJn7",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=fz2dyb1obUopobmp",
+      "status": 200
+    },
+    {
+      "phase": "home-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=Ms9RZ1ulVGHZx9cA",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=691jfsAaIqtYviwW",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=deWkJsERPvU40J3E",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=Hu42BDNTluYjhIUX",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-1",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=chO_eE5vEuufRJCr",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=8nTjltbQWvg6NcbE",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=BiuOixuigeBXVJn7",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=fz2dyb1obUopobmp",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=yIp22O3xgPPxC28X",
+      "status": 200
+    },
+    {
+      "phase": "home-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=Ms9RZ1ulVGHZx9cA",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=cLw5LAk4FwYruFPq",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=691jfsAaIqtYviwW",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=chO_eE5vEuufRJCr",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=Hu42BDNTluYjhIUX",
+      "status": 200
+    },
+    {
+      "phase": "hard-navigation-2",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=deWkJsERPvU40J3E",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=5CB68i4pnAekjehf",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=8nTjltbQWvg6NcbE",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=BiuOixuigeBXVJn7",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=yIp22O3xgPPxC28X",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=fz2dyb1obUopobmp",
+      "status": 200
+    },
+    {
+      "phase": "guest-navigation",
+      "kind": "response",
+      "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=Ms9RZ1ulVGHZx9cA",
+      "status": 200
+    }
+  ],
+  "checks": [
+    {
+      "name": "hard-navigation-0",
+      "passed": true
+    },
+    {
+      "name": "hard-navigation-1",
+      "passed": true
+    },
+    {
+      "name": "hard-navigation-2",
+      "passed": true
+    },
+    {
+      "name": "guest-navigation",
+      "passed": true
+    }
+  ]
+}

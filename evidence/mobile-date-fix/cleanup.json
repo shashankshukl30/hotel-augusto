@@ -1,0 +1,56 @@
+{
+  "recordedAt": "2026-10-20T16:36:24.4849472Z",
+  "taskStartFreeBytes": {
+    "D": 65645326336,
+    "C": 21362409472
+  },
+  "beforeCleanup": [
+    {
+      "drive": "C",
+      "freeBytes": 20796153856
+    },
+    {
+      "drive": "D",
+      "freeBytes": 65522798592
+    }
+  ],
+  "removed": [
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\webkit-dock-empty-320.png",
+      "bytes": 4815,
+      "reason": "Task-owned unhydrated local HTTP WebKit diagnostic screenshot; HTTPS browser verification now supplies valid coverage",
+      "retainedCoverage": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\hosted\\webkit-dock-empty-320.png"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\webkit-dock-empty-390.png",
+      "bytes": 4827,
+      "reason": "Task-owned unhydrated local HTTP WebKit diagnostic screenshot; HTTPS browser verification now supplies valid coverage",
+      "retainedCoverage": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\hosted\\webkit-dock-empty-390.png"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\local\\webkit-dock-empty-1440.png",
+      "bytes": 9901,
+      "reason": "Task-owned unhydrated local HTTP WebKit diagnostic screenshot; HTTPS browser verification now supplies valid coverage",
+      "retainedCoverage": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\mobile-date-fix\\hosted\\webkit-dock-empty-1440.png"
+    }
+  ],
+  "bytesRemoved": 19543,
+  "afterCleanup": [
+    {
+      "drive": "C",
+      "freeBytes": 20796166144
+    },
+    {
+      "drive": "D",
+      "freeBytes": 65522827264
+    }
+  ],
+  "retained": "Editable source, dependencies, genuine assets, QA reports, hosted screenshots and WebKit test installation retained",
+  "notes": "Drive space changes also include unrelated activity. Removed images were disposable diagnostics, not byte-identical duplicates.",
+  "post_cleanup_verification": {
+    "anonymous_access_report": "hosted/anonymous-qa.json",
+    "passed": true,
+    "checks": 58,
+    "server_3082_stopped": true
+  }
+}

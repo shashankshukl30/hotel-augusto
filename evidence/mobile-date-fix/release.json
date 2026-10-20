@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-20T16:41:02.838869+00:00",
+  "source_commit": "e18a26984993873a94fc95e25417418be57e9567",
+  "branch": "preview/vercel",
+  "public_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+  "verified_deployment_url": "https://hotel-augusto-racglw0mr-omvitys-projects.vercel.app",
+  "deployment_state": "READY",
+  "changes": [
+    "Shared lazy-loaded touch calendar for every date field with visible empty prompts and native ISO form values",
+    "Checkout date constraints, keyboard navigation, focus restoration and stale enquiry feedback reset",
+    "Safe deduplicated booking dock ResizeObserver measurement and narrow mobile adults selector sizing"
+  ],
+  "verification": {
+    "production_build": "passed",
+    "lint": "passed",
+    "unit_tests": 18,
+    "local_chromium_date_checks": 264,
+    "hosted_chromium_date_checks": 264,
+    "hosted_webkit_date_checks": 264,
+    "hero_responsive_checks": 135,
+    "accessibility_geometry_checks": 16,
+    "anonymous_access_checks": 58,
+    "final_runtime_errors": [],
+    "final_webkit_failed_network_requests": 0
+  },
+  "initial_webkit_diagnostic": {
+    "report": "hosted/date-qa.json",
+    "count": 7,
+    "message": "Fetch access-control diagnostics during automated hard navigation; no recursion errors. The initial report remains unchanged. A separate network diagnostic and complete unfiltered WebKit rerun passed against the same deployment, with equivalent RSC requests returning 200 and zero failed requests. No production security settings were changed.",
+    "diagnostic_report": "hosted/webkit-navigation-diagnostic.json",
+    "rerun_report": "hosted/webkit-recheck.json"
+  },
+  "limits": [
+    "Windows WebKit engine emulation, not physical iPhone testing",
+    "WhatsApp enquiry handoff only; no guest messages sent",
+    "Runtime checks cover the recorded routes and interactions and cannot prove absence of every possible defect"
+  ],
+  "cleanup_report": "cleanup.json",
+  "cleanup_deliverable_verification": "All 17 public routes and genuine logo/download assets passed anonymous verification after cleanup."
+}
