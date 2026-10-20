@@ -35,6 +35,7 @@
     "finalMobileHeaderRefinement": "79 assertions across six widths and two additional axe audits passed after enlarging the mobile Enquire control to12px with a44px target. Both builds and static artifact audit rerun successfully.",
     "staticArtifactChecks": "61 passed, including 16 byte-verified Windows RSC payload aliases",
     "hostedNavigationRepair": "Confirmed Next 16.4.2 Windows export separator defect. Guarded postbuild normalization adds browser-expected filenames, preserves original payloads, rejects conflicts and is idempotent. Both final builds and lint passed after the repair.",
+    "privateHostedPreview": "42/42 checks passed across all 16 page URLs; no browser errors or missing resources. Client navigation preserves the document. Contact preferences hydrate and WhatsApp draft resolves to the configured hotel number. No messages sent.",
     "shareImage": "1200x630 PNG rendered and visually inspected",
     "responseHeaders": "All six configured headers present on the Next production preview",
     "localPerformance": "Cold local samples: desktop LCP 304ms; 1.6Mbps/150ms/4xCPU mobile LCP1780ms and1728ms. CLS0 in all samples. These are synthetic local measurements, not field Core Web Vitals.",

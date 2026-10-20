@@ -1,0 +1,49 @@
+﻿{
+    "taskStartFreeBytes":  {
+                               "D":  68246777856,
+                               "C":  26376126464
+                           },
+    "completed":  "2026-10-20T06:24:19.2865208Z",
+    "localProductionStatus":  200,
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.openai",
+    "freeAfterBytes":  {
+                           "D":  68093493248,
+                           "C":  26253639680
+                       },
+    "removedBytes":  0,
+    "totalTaskRemovedBytes":  291301216,
+    "hostedQaChecks":  42,
+    "currentBlockedDeletionRetried":  false,
+    "retainedDisposable":  [
+                               {
+                                   "sha256":  "B9553BCE3874737EEFF9E85ACC7A9F92762E74676B189C4927659735B9CCF0E5",
+                                   "bytes":  6059676,
+                                   "retainedSavedVersion":  "appgprj_6ad7018ade208191bbdb1b69f9725cd5~appgver_68fa4001a23c8191aae9a2e39e41cbd5",
+                                   "path":  "D:\\Digiocular\\Websites\\Hotel Augusto\\.openai\\hotel-augusto-preview.tar.gz",
+                                   "reason":  "Temporary upload archive is recoverable from retained source and build output, but automatic approval review rejected removal with: blocked by policy. No retry attempted.",
+                                   "retainedSourceCommit":  "10df3cd2f131d9a8431dbc80ff235abab6ce41dd"
+                               }
+                           ],
+    "retained":  [
+                     "Editable source and documentation",
+                     "Genuine photos and licensed fonts",
+                     "Active dependencies, production .next, final static out",
+                     "Distinct browser and Word verification evidence",
+                     ".openai/local-tools/npm.cmd: 104-byte Windows build adapter for the official Sites workflow"
+                 ],
+    "earlierCleanupRecords":  [
+                                  "evidence/dev-output-cleanup.json",
+                                  "evidence/hospitality-revision/handoff-render-cleanup.json",
+                                  "research/hospitality-revision/design-cleanup.json"
+                              ],
+    "freeBeforeBytes":  {
+                            "D":  68093747200,
+                            "C":  26253639680
+                        },
+    "previousBlockedDeletionsRetried":  false,
+    "deliverablesResolveAfterCleanup":  true,
+    "status":  "completed with policy-blocked disposable artifact retained",
+    "removed":  [
+
+                ]
+}
