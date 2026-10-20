@@ -1,5 +1,6 @@
 @import "tailwindcss" source(none);
 @import "./shell.css";
+@import "./color-theme.css";
 @source "./";
 @source "../components";
 @source "../content";
@@ -13,6 +14,14 @@
   --accent: oklch(.515 .19 255);
   --accent-hover: oklch(.455 .18 255);
   --line: oklch(.855 .005 260);
+  --ivory: oklch(.977 .012 85);
+  --sand: oklch(.943 .029 78);
+  --sand-hover: oklch(.916 .039 78);
+  --clay: oklch(.941 .027 45);
+  --clay-ink: oklch(.47 .115 35);
+  --blue-mist: oklch(.963 .014 250);
+  --marigold: oklch(.81 .15 84);
+  --city-gold: oklch(.54 .065 82);
   --font-display: var(--font-inter);
   --font-body: var(--font-inter);
 }

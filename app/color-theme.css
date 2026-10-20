@@ -1,0 +1,88 @@
+/*
+ * Augusto's extended palette.
+ * Cobalt continues to mean "take action". Warm stone, clay and crown-gold
+ * give the hospitality chapters their own character without changing layout.
+ * Scope surface tokens to the relevant panels; keep inputs and photo chrome
+ * on their original neutral surfaces.
+ */
+
+/* Rooms and reservation planning retain the familiar cool-blue character. */
+.home-rooms,
+.home-reserve,
+.room-story,
+.room-facts,
+.room-compare-invitation,
+.guide-stay-enquiry {
+  --paper-deep: var(--blue-mist);
+}
+
+/* Sandstone connects dining, arrival information and practical travel notes. */
+main .home-dining {
+  background: var(--sand);
+}
+
+.hospitality-dining-facts,
+.hospitality-dining-service,
+.hospitality-stay-facts,
+.arrival-guide-planning,
+.guide-checklist,
+.home-guide-links a,
+.arrival-layout {
+  --paper-deep: var(--sand);
+}
+
+.home-dining .home-section-heading .eyebrow,
+.home-dining .home-section-heading h2 span,
+.dining-page .hospitality-context,
+.dining-page .hospitality-dining-service h2 {
+  color: var(--clay-ink);
+}
+
+main .home-guide-links a:hover {
+  background: var(--sand-hover);
+}
+
+/* A quieter clay chapter for guest stories; review badges stay neutral. */
+.home-reviews {
+  --paper-deep: var(--clay);
+}
+
+.home-reviews .review-heading .eyebrow {
+  color: var(--clay-ink);
+}
+
+/* Warm ivory links supporting information and the closing invitation. */
+.home-practical,
+.hospitality-services,
+.hospitality-next-story,
+.hospitality-related a,
+.group-planning,
+.gallery-afterword,
+.site-footer {
+  --paper-deep: var(--ivory);
+}
+
+.river-feature {
+  --paper-deep: var(--blue-mist);
+}
+
+/* Gold belongs to the Kashi chapter, drawn from the supplied crown artwork. */
+.city-itinerary .itinerary-kicker,
+.city-itinerary .itinerary-link {
+  color: var(--marigold);
+}
+
+.city-itinerary .itinerary-city-name {
+  color: var(--city-gold);
+}
+
+.city-itinerary .itinerary-tabs button[aria-selected="true"] {
+  background: var(--marigold);
+  color: var(--city-background);
+}
+
+.city-itinerary .itinerary-tabs button:focus-visible,
+.city-itinerary .itinerary-panel:focus-visible,
+.city-itinerary a[href]:focus-visible {
+  outline-color: var(--marigold);
+}
