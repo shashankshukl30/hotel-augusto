@@ -53,7 +53,7 @@ class Audit:
                        "engines": args.engines, "widths": WIDTHS,
                        "home_compact_widths": [601, 640, 768, 1024], "room_widths": [901, 1024, 1100],
                        "checks": [], "runtime_errors": [],
-                       "console_errors": [], "screenshots": [], "blocked_external_requests": [],
+                       "console_errors": [], "screenshots": [], "blocked_external_requests": [], "network": [],
                        "external_messages_sent": 0,
                        "limitations": ["WebKit engine coverage is not physical iPhone verification.",
                                         "Enquiry links are inspected only; WhatsApp is never opened."]}
@@ -69,6 +69,15 @@ class Audit:
         self.output.write_text(json.dumps(self.report, indent=2), encoding="utf-8")
 
     def watch(self, context, page):
+        network = {**self.scope, "events": []}
+        self.report["network"].append(network)
+        def record(event, request, **detail):
+            if len(network["events"]) < 160:
+                network["events"].append({"event": event, "url": request.url,
+                                          "resource_type": request.resource_type, **detail})
+        page.on("request", lambda request: record("request", request))
+        page.on("response", lambda response: record("response", response.request, status=response.status))
+        page.on("requestfailed", lambda request: record("failed", request, failure=request.failure))
         def block(route):
             self.report["blocked_external_requests"].append({**self.scope, "url": route.request.url})
             route.abort()
@@ -305,7 +314,7 @@ def main():
                         try:
                             page = context.new_page()
                             audit.watch(context, page)
-                            response = page.goto(audit.args.base_url + route, wait_until="networkidle")
+                            response = page.goto(audit.args.base_url + route, wait_until="domcontentloaded")
                             audit.check("Route responds successfully", bool(response and response.ok))
                             page.locator("main").wait_for()
                             page.evaluate("document.fonts.ready")

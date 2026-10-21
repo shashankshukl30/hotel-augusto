@@ -1,0 +1,48 @@
+﻿{
+    "recorded_at_utc":  "2026-10-21T15:29:28.0222858Z",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021",
+    "scope_validated":  true,
+    "reparse_points":  0,
+    "task_start_free_bytes":  {
+                                  "D":  57934041088,
+                                  "C":  23378132992
+                              },
+    "cleanup_before_free_bytes":  [
+                                      {
+                                          "Name":  "C",
+                                          "Free":  11364737024
+                                      },
+                                      {
+                                          "Name":  "D",
+                                          "Free":  43131543552
+                                      }
+                                  ],
+    "removed_paths":  [
+
+                      ],
+    "deleted_bytes":  0,
+    "reason":  "No positively disposable task-owned files were identified. Screenshots, review sheets and logs are retained as reproducible QA evidence; no broad caches or other project paths were touched.",
+    "retained_evidence":  {
+                              "bytes":  155252715,
+                              "files":  234
+                          },
+    "retained_categories":  [
+                                "Editable website source",
+                                "Active dependencies and build output",
+                                "Original client and licensed imagery",
+                                "Before/after screenshots and browser reports",
+                                "Deployment and credit-provenance receipts"
+                            ],
+    "cleanup_after_free_bytes":  [
+                                     {
+                                         "Name":  "C",
+                                         "Free":  11364737024
+                                     },
+                                     {
+                                         "Name":  "D",
+                                         "Free":  43131543552
+                                     }
+                                 ],
+    "drive_delta_note":  "Drive free space reflects the shared Windows host and concurrent workloads, not only this task.",
+    "deliverable_verification":  "All 17 public routes and 58 anonymous access checks passed; no dependencies were removed."
+}

@@ -22,6 +22,20 @@ This revision preserves the approved visual direction and fixes the supplied Saf
 - `production-motion.json`: 41 checks passed, including actual photo movement within fixed frames, hero/gallery/city motion, keyboard/touch navigation, all 17 mobile routes, reduced motion, failed image fallback and no-JavaScript content.
 - `calendar-chromium.json`: 78 touch-opening, deliberate selection, dismissal and virtual-click checks passed, with no runtime errors.
 
-No enquiry was sent and no WhatsApp link was opened. Browser engine emulation does not constitute a physical Mac/iPhone test. Hosted WebKit verification and deployment receipts are recorded separately when completed.
+No enquiry was sent and no WhatsApp link was opened. Browser engine emulation does not constitute a physical Mac/iPhone test.
+
+The first hosted sweep (`hosted-webkit.json`) completed all 17 mobile routes without a layout/runtime finding, then timed out on `/hotel` at 1024px while waiting for `networkidle`. A separate HTTP request returned the hotel page with status 200 in 424ms. This did not establish a cause or replace browser verification. The alignment harness now waits for DOM content, the main element and fonts, then performs its existing scroll, geometry and interactive checks. Tablet and desktop are rerun in separate browser processes; `hosted-webkit-tablet.json` completed all 17 routes with 139 passing checks and zero failures/runtime errors. The original timeout report is preserved.
 
 Motion prompt library references reviewed: `cipherwrk-451155` and `deeprajo1-623150`. Existing Framer Motion/native scrolling retained; no reference artwork, copy or external animation engine was added.
+
+## Hosted verification and release
+
+- All 17 routes passed hosted WebKit geometry checks at 390, 1024 and 1440px. The complete tablet and desktop reports each contain 139 passing checks, zero failures, zero suspicious overflow and zero runtime errors. Mobile results are preserved in the initial hosted report described above.
+- `hosted-states-webkit.json`: 234 checks passed. The first 320px contact navigation timed out before form assertions; `hosted-contact-rerun.json` independently repeated the contact route at all five widths with request diagnostics: 67 passed, no failed requests or runtime errors. The initial timeout remains recorded; its cause was not established.
+- `calendar-webkit.json`: all 78 calendar opening, intentional selection, dismissal and virtual-click checks passed. Together with Chromium, the two engines passed 156 calendar checks.
+- `client-access.json`: 58 checks passed in an anonymous browser context, without access-bypass credentials or custom headers. All 17 routes opened publicly; the preview remains noindex.
+- `visual-review.json`: hosted WebKit screenshots were visually reviewed for all 17 mobile routes, 12 desktop routes and three tablet homepage sections. No actionable alignment defects remained in those captures. Local Chromium visual review covered all 17 routes at both 390 and 1440px.
+- Published application source: `01e057ef3acfc23049e0bf102a25d717efaa5dfb`, following alignment commit `f2381541e75adc6190b51b1f8b935472064f8d72`.
+- READY Vercel deployment: `dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT`; runtime region `sin1`. Stable public preview: https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app .
+- The final commit contains verification reports and test-harness diagnostics only; application files are identical to the deployed source above. The deployment receipt and machine-readable release record are retained beside this file.
+- `cleanup.json` records drive measurements and the task-owned evidence inventory. No files were positively identified as disposable; no files were deleted. Source, dependencies, imagery and reproducible QA evidence were retained.

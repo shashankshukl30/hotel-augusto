@@ -300,7 +300,7 @@ def main():
                             for route in ROUTES:
                                 audit.scope = {"engine": engine, "width": width, "route": route}
                                 try:
-                                    response = page.goto(audit.args.base_url + route, wait_until="networkidle")
+                                    response = page.goto(audit.args.base_url + route, wait_until="domcontentloaded")
                                     audit.check("Route responds successfully", bool(response and response.ok))
                                     page.locator("main").wait_for()
                                     page.evaluate("document.fonts.ready")

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-21",
+  "status": "published_and_verified",
+  "public_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+  "repository": "https://github.com/shashankshukl30/hotel-augusto",
+  "branch": "preview/vercel",
+  "application_commit": "01e057ef3acfc23049e0bf102a25d717efaa5dfb",
+  "alignment_commit": "f2381541e75adc6190b51b1f8b935472064f8d72",
+  "deployment": {
+    "id": "dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+    "url": "https://hotel-augusto-m26lchawv-omvitys-projects.vercel.app",
+    "state": "READY",
+    "target": "preview",
+    "region": "sin1",
+    "anonymous_access": true
+  },
+  "verification": {
+    "production_build": "passed",
+    "eslint": "passed",
+    "unit_tests_passed": 18,
+    "routes": 17,
+    "chromium_widths": [320, 390, 768, 1024, 1440, 1920],
+    "hosted_webkit_widths": [390, 1024, 1440],
+    "additional_form_widths": [320, 601, 640, 768, 901, 1024, 1100, 1440],
+    "calendar_checks_per_engine": 78,
+    "calendar_engines": ["chromium", "webkit"],
+    "production_motion_checks_passed": 41,
+    "anonymous_access_checks_passed": 58,
+    "hosted_contact_repeat_checks_passed": 67,
+    "remaining_actionable_alignment_findings": [],
+    "observed_javascript_runtime_errors": [],
+    "physical_mac_or_iphone_tested": false
+  },
+  "retained_failures": [
+    "Initial geometry harness false positives are individually explained in audit-notes.json.",
+    "Narrow homepage form and dining-column regressions failed before correction and passed after correction.",
+    "An initial hosted networkidle navigation timeout and a separate initial contact navigation timeout remain in their original reports. All affected route and width checks passed on repetition; no definitive network-timeout cause was established.",
+    "An earlier CLI deployment failed because excluded research data was imported at build time. Generated application-owned photo credits resolved the packaging issue without changing attribution data."
+  ],
+  "evidence": [
+    "README.md", "audit-notes.json", "visual-review.json", "local-alignment.json",
+    "home-compact-before.json", "home-compact-after.json", "production-states.json",
+    "production-states-rerun.json", "production-motion.json", "calendar-chromium.json",
+    "calendar-webkit.json", "hosted-webkit.json", "hosted-webkit-tablet.json",
+    "hosted-webkit-desktop.json", "hosted-states-webkit.json", "hosted-contact-rerun.json",
+    "client-access.json", "photo-credits-validation.json", "deployment-ready.txt", "cleanup.json"
+  ],
+  "external_messages_sent": 0
+}

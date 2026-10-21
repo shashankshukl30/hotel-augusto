@@ -1,0 +1,6158 @@
+{
+  "date": "2026-10-21T15:19:03.329364+00:00",
+  "base_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+  "engines": [
+    "webkit"
+  ],
+  "widths": [
+    1024
+  ],
+  "routes": [
+    "/",
+    "/hotel",
+    "/rooms",
+    "/rooms/compare",
+    "/rooms/deluxe-room",
+    "/rooms/deluxe-twin-room",
+    "/rooms/family-room",
+    "/dining",
+    "/varanasi",
+    "/gallery",
+    "/guides",
+    "/guides/first-visit-to-kashi",
+    "/guides/arriving-in-godowlia",
+    "/guides/choosing-your-room",
+    "/group-stays",
+    "/contact",
+    "/privacy"
+  ],
+  "checks": [
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4000,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 6400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 7200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 8000,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 8800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 9600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 10400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 10903,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 10903,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": 210.65625,
+          "bottom": 912.65625,
+          "width": 1024,
+          "height": 702
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "div.hero-media-footer.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -10004,
+              "bottom": -9920,
+              "width": 992,
+              "height": 84
+            },
+            "intentional_layout": "Controls follow the inset hero photograph"
+          },
+          {
+            "element": "div.home-reservation.home-location-band.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -9920,
+              "bottom": -9836,
+              "width": 1024,
+              "height": 84
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section#discover.home-welcome.container.section-space",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -9836,
+              "bottom": -8668,
+              "width": 1024,
+              "height": 1168
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -8556,
+              "bottom": -7790.03125,
+              "width": 1024,
+              "height": 765.96875
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -7566.03125,
+              "bottom": -6814.03125,
+              "width": 1024,
+              "height": 752
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -6598.03125,
+              "bottom": -5372.15625,
+              "width": 1024,
+              "height": 1225.875
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.home-gallery.container.section-space",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -5300.15625,
+              "bottom": -4607.15625,
+              "width": 1024,
+              "height": 693
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4519.15625,
+              "bottom": -3983.15625,
+              "width": 1024,
+              "height": 536
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.home-neighbourhood.container.section-space",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3895.15625,
+              "bottom": -2869.15625,
+              "width": 1024,
+              "height": 1026
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.arrival-guide.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2869.15625,
+              "bottom": -1846.34375,
+              "width": 1024,
+              "height": 1022.8125
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.home-practical-grid",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1750.34375,
+              "bottom": -1354.34375,
+              "width": 1024,
+              "height": 396
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.home-guides.container.section-space",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1258.34375,
+              "bottom": -642.34375,
+              "width": 1024,
+              "height": 616
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.home-reserve-grid",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -552.34375,
+              "bottom": 120.65625,
+              "width": 1024,
+              "height": 673
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": 210.65625,
+              "bottom": 912.65625,
+              "width": 1024,
+              "height": 702
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": 210.65625,
+          "width": 1024,
+          "height": 702
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "ScrollPhoto 1 retains its visible side edges at every sampled scroll position",
+      "passed": true,
+      "detail": [
+        {
+          "clip": "none",
+          "width": 928,
+          "scrollY": 598,
+          "side_insets_px": [
+            0,
+            0
+          ]
+        },
+        {
+          "clip": "none",
+          "width": 928,
+          "scrollY": 948,
+          "side_insets_px": [
+            0,
+            0
+          ]
+        },
+        {
+          "clip": "none",
+          "width": 928,
+          "scrollY": 1348,
+          "side_insets_px": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "ScrollPhoto 2 retains its visible side edges at every sampled scroll position",
+      "passed": true,
+      "detail": [
+        {
+          "clip": "none",
+          "width": 928,
+          "scrollY": 2628,
+          "side_insets_px": [
+            0,
+            0
+          ]
+        },
+        {
+          "clip": "none",
+          "width": 928,
+          "scrollY": 2978,
+          "side_insets_px": [
+            0,
+            0
+          ]
+        },
+        {
+          "clip": "none",
+          "width": 928,
+          "scrollY": 3378,
+          "side_insets_px": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Amenity strip contains all six essentials",
+      "passed": true,
+      "detail": {
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": -80,
+          "bottom": 450
+        },
+        "items": [
+          {
+            "box": {
+              "left": 48,
+              "right": 197.828125,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 48,
+              "right": 73,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 48,
+              "right": 197.81491088867188
+            }
+          },
+          {
+            "box": {
+              "left": 260.890625,
+              "right": 296.71875,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 260.890625,
+              "right": 285.890625,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 260.890625,
+              "right": 296.7109375
+            }
+          },
+          {
+            "box": {
+              "left": 359.78125,
+              "right": 477.25,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 359.78125,
+              "right": 384.78125,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 359.78125,
+              "right": 477.24017333984375
+            }
+          },
+          {
+            "box": {
+              "left": 540.3125,
+              "right": 662.328125,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 540.3125,
+              "right": 565.3125,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 540.3125,
+              "right": 662.3244018554688
+            }
+          },
+          {
+            "box": {
+              "left": 725.390625,
+              "right": 816.625,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 725.390625,
+              "right": 750.390625,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 725.390625,
+              "right": 816.6217041015625
+            }
+          },
+          {
+            "box": {
+              "left": 879.6875,
+              "right": 976,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 879.6875,
+              "right": 904.6875,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 879.6875,
+              "right": 975.9921875
+            }
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "First and last amenity content edges align with lounge photograph",
+      "passed": true,
+      "detail": {
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": -80,
+          "bottom": 450
+        },
+        "items": [
+          {
+            "box": {
+              "left": 48,
+              "right": 197.828125,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 48,
+              "right": 73,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 48,
+              "right": 197.81491088867188
+            }
+          },
+          {
+            "box": {
+              "left": 260.890625,
+              "right": 296.71875,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 260.890625,
+              "right": 285.890625,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 260.890625,
+              "right": 296.7109375
+            }
+          },
+          {
+            "box": {
+              "left": 359.78125,
+              "right": 477.25,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 359.78125,
+              "right": 384.78125,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 359.78125,
+              "right": 477.24017333984375
+            }
+          },
+          {
+            "box": {
+              "left": 540.3125,
+              "right": 662.328125,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 540.3125,
+              "right": 565.3125,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 540.3125,
+              "right": 662.3244018554688
+            }
+          },
+          {
+            "box": {
+              "left": 725.390625,
+              "right": 816.625,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 725.390625,
+              "right": 750.390625,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 725.390625,
+              "right": 816.6217041015625
+            }
+          },
+          {
+            "box": {
+              "left": 879.6875,
+              "right": 976,
+              "top": 486,
+              "bottom": 545
+            },
+            "icon": {
+              "left": 879.6875,
+              "right": 904.6875,
+              "top": 486,
+              "bottom": 511
+            },
+            "content": {
+              "left": 879.6875,
+              "right": 975.9921875
+            }
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "All desktop amenity icons share a baseline",
+      "passed": true,
+      "detail": [
+        {
+          "box": {
+            "left": 48,
+            "right": 197.828125,
+            "top": 486,
+            "bottom": 545
+          },
+          "icon": {
+            "left": 48,
+            "right": 73,
+            "top": 486,
+            "bottom": 511
+          },
+          "content": {
+            "left": 48,
+            "right": 197.81491088867188
+          }
+        },
+        {
+          "box": {
+            "left": 260.890625,
+            "right": 296.71875,
+            "top": 486,
+            "bottom": 545
+          },
+          "icon": {
+            "left": 260.890625,
+            "right": 285.890625,
+            "top": 486,
+            "bottom": 511
+          },
+          "content": {
+            "left": 260.890625,
+            "right": 296.7109375
+          }
+        },
+        {
+          "box": {
+            "left": 359.78125,
+            "right": 477.25,
+            "top": 486,
+            "bottom": 545
+          },
+          "icon": {
+            "left": 359.78125,
+            "right": 384.78125,
+            "top": 486,
+            "bottom": 511
+          },
+          "content": {
+            "left": 359.78125,
+            "right": 477.24017333984375
+          }
+        },
+        {
+          "box": {
+            "left": 540.3125,
+            "right": 662.328125,
+            "top": 486,
+            "bottom": 545
+          },
+          "icon": {
+            "left": 540.3125,
+            "right": 565.3125,
+            "top": 486,
+            "bottom": 511
+          },
+          "content": {
+            "left": 540.3125,
+            "right": 662.3244018554688
+          }
+        },
+        {
+          "box": {
+            "left": 725.390625,
+            "right": 816.625,
+            "top": 486,
+            "bottom": 545
+          },
+          "icon": {
+            "left": 725.390625,
+            "right": 750.390625,
+            "top": 486,
+            "bottom": 511
+          },
+          "content": {
+            "left": 725.390625,
+            "right": 816.6217041015625
+          }
+        },
+        {
+          "box": {
+            "left": 879.6875,
+            "right": 976,
+            "top": 486,
+            "bottom": 545
+          },
+          "icon": {
+            "left": 879.6875,
+            "right": 904.6875,
+            "top": 486,
+            "bottom": 511
+          },
+          "content": {
+            "left": 879.6875,
+            "right": 975.9921875
+          }
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Four manual itinerary tabs exist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 1: heading, panel and stage share photograph edges",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 1: tablist starts at photograph gutter and stays inside it",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 1: intro and body share a column start",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 2: heading, panel and stage share photograph edges",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 2: tablist starts at photograph gutter and stays inside it",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 2: intro and body share a column start",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 3: heading, panel and stage share photograph edges",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 3: tablist starts at photograph gutter and stays inside it",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 3: intro and body share a column start",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 4: heading, panel and stage share photograph edges",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 4: tablist starts at photograph gutter and stays inside it",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "Itinerary tab 4: intro and body share a column start",
+      "passed": true,
+      "detail": {
+        "heading": {
+          "left": 48,
+          "right": 976,
+          "top": 2.96875,
+          "bottom": 160.96875
+        },
+        "intro": {
+          "left": 532,
+          "right": 976,
+          "top": 66.96875,
+          "bottom": 156.96875
+        },
+        "tabs": {
+          "left": 48,
+          "right": 572.671875,
+          "top": 200.96875,
+          "bottom": 262.96875
+        },
+        "stage": {
+          "left": 48,
+          "right": 976,
+          "top": 541.96875,
+          "bottom": 1160.84375
+        },
+        "image": {
+          "left": 48,
+          "right": 976,
+          "top": 664.84375,
+          "bottom": 1124.84375
+        },
+        "panel": {
+          "left": 48,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 1160.84375
+        },
+        "lead": {
+          "left": 48,
+          "right": 492,
+          "top": 306.96875,
+          "bottom": 383.96875
+        },
+        "detail": {
+          "left": 532,
+          "right": 976,
+          "top": 306.96875,
+          "bottom": 513.96875
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "All itinerary tabs preserve text-column positions",
+      "passed": true,
+      "detail": [
+        {
+          "heading": {
+            "left": 48,
+            "right": 976,
+            "top": 2.96875,
+            "bottom": 160.96875
+          },
+          "intro": {
+            "left": 532,
+            "right": 976,
+            "top": 66.96875,
+            "bottom": 156.96875
+          },
+          "tabs": {
+            "left": 48,
+            "right": 572.671875,
+            "top": 200.96875,
+            "bottom": 262.96875
+          },
+          "stage": {
+            "left": 48,
+            "right": 976,
+            "top": 541.96875,
+            "bottom": 1160.84375
+          },
+          "image": {
+            "left": 48,
+            "right": 976,
+            "top": 664.84375,
+            "bottom": 1124.84375
+          },
+          "panel": {
+            "left": 48,
+            "right": 976,
+            "top": 306.96875,
+            "bottom": 1160.84375
+          },
+          "lead": {
+            "left": 48,
+            "right": 492,
+            "top": 306.96875,
+            "bottom": 383.96875
+          },
+          "detail": {
+            "left": 532,
+            "right": 976,
+            "top": 306.96875,
+            "bottom": 513.96875
+          }
+        },
+        {
+          "heading": {
+            "left": 48,
+            "right": 976,
+            "top": 2.96875,
+            "bottom": 160.96875
+          },
+          "intro": {
+            "left": 532,
+            "right": 976,
+            "top": 66.96875,
+            "bottom": 156.96875
+          },
+          "tabs": {
+            "left": 48,
+            "right": 572.671875,
+            "top": 200.96875,
+            "bottom": 262.96875
+          },
+          "stage": {
+            "left": 48,
+            "right": 976,
+            "top": 541.96875,
+            "bottom": 1160.84375
+          },
+          "image": {
+            "left": 48,
+            "right": 976,
+            "top": 664.84375,
+            "bottom": 1124.84375
+          },
+          "panel": {
+            "left": 48,
+            "right": 976,
+            "top": 306.96875,
+            "bottom": 1160.84375
+          },
+          "lead": {
+            "left": 48,
+            "right": 492,
+            "top": 306.96875,
+            "bottom": 383.96875
+          },
+          "detail": {
+            "left": 532,
+            "right": 976,
+            "top": 306.96875,
+            "bottom": 513.96875
+          }
+        },
+        {
+          "heading": {
+            "left": 48,
+            "right": 976,
+            "top": 2.96875,
+            "bottom": 160.96875
+          },
+          "intro": {
+            "left": 532,
+            "right": 976,
+            "top": 66.96875,
+            "bottom": 156.96875
+          },
+          "tabs": {
+            "left": 48,
+            "right": 572.671875,
+            "top": 200.96875,
+            "bottom": 262.96875
+          },
+          "stage": {
+            "left": 48,
+            "right": 976,
+            "top": 541.96875,
+            "bottom": 1160.84375
+          },
+          "image": {
+            "left": 48,
+            "right": 976,
+            "top": 664.84375,
+            "bottom": 1124.84375
+          },
+          "panel": {
+            "left": 48,
+            "right": 976,
+            "top": 306.96875,
+            "bottom": 1160.84375
+          },
+          "lead": {
+            "left": 48,
+            "right": 492,
+            "top": 306.96875,
+            "bottom": 383.96875
+          },
+          "detail": {
+            "left": 532,
+            "right": 976,
+            "top": 306.96875,
+            "bottom": 513.96875
+          }
+        },
+        {
+          "heading": {
+            "left": 48,
+            "right": 976,
+            "top": 2.96875,
+            "bottom": 160.96875
+          },
+          "intro": {
+            "left": 532,
+            "right": 976,
+            "top": 66.96875,
+            "bottom": 156.96875
+          },
+          "tabs": {
+            "left": 48,
+            "right": 572.671875,
+            "top": 200.96875,
+            "bottom": 262.96875
+          },
+          "stage": {
+            "left": 48,
+            "right": 976,
+            "top": 541.96875,
+            "bottom": 1160.84375
+          },
+          "image": {
+            "left": 48,
+            "right": 976,
+            "top": 664.84375,
+            "bottom": 1124.84375
+          },
+          "panel": {
+            "left": 48,
+            "right": 976,
+            "top": 306.96875,
+            "bottom": 1160.84375
+          },
+          "lead": {
+            "left": 48,
+            "right": 492,
+            "top": 306.96875,
+            "bottom": 383.96875
+          },
+          "detail": {
+            "left": 532,
+            "right": 976,
+            "top": 306.96875,
+            "bottom": 513.96875
+          }
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/hotel",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/hotel",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4000,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5346,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5346,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/hotel",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/hotel",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/hotel",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -127.859375,
+          "bottom": 913.140625,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "div.hospitality-shell",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -5273,
+              "bottom": -4227.6875,
+              "width": 928,
+              "height": 1045.3125
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section#inside.hospitality-shell.hospitality-welcome",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4227.6875,
+              "bottom": -3307.1875,
+              "width": 928,
+              "height": 920.5
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.hospitality-shell",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3203.1875,
+              "bottom": -1918.1875,
+              "width": 928,
+              "height": 1285
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.hospitality-shell",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1814.1875,
+              "bottom": -791.375,
+              "width": 928,
+              "height": 1022.8125
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.hospitality-shell.hospitality-next-stays",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -791.375,
+              "bottom": -284.859375,
+              "width": 928,
+              "height": 506.515625
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.hospitality-shell.hospitality-booking-line",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -284.859375,
+              "bottom": -127.859375,
+              "width": 928,
+              "height": 157
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -127.859375,
+              "bottom": 913.140625,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/hotel",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/hotel",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -127.859375,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3263,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3263,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -127.6875,
+          "bottom": 913.3125,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "section.rooms-container.rooms-masthead",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3190,
+              "bottom": -2209.375,
+              "width": 1024,
+              "height": 980.625
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section#room-collection.rooms-container.room-stories",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2209.375,
+              "bottom": -635.6875,
+              "width": 1024,
+              "height": 1573.6875
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.rooms-container.room-compare-invitation-inner",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -571.6875,
+              "bottom": -447.6875,
+              "width": 1024,
+              "height": 124
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.rooms-container.room-inclusions",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -383.6875,
+              "bottom": -127.6875,
+              "width": 1024,
+              "height": 256
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -127.6875,
+              "bottom": 913.3125,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -127.6875,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/compare",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/compare",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1724,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1724,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/compare",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/compare",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/compare",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128.25,
+          "bottom": 912.75,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "div.rooms-container.room-detail-breadcrumb",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1651,
+              "bottom": -1589,
+              "width": 1024,
+              "height": 62
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "header.rooms-container.room-compare-heading",
+            "box": {
+              "left": 100,
+              "right": 924,
+              "top": -1589,
+              "bottom": -1224,
+              "width": 920,
+              "height": 365
+            },
+            "intentional_layout": "Comparison title uses a centered 920px reading measure"
+          },
+          {
+            "element": "section.rooms-container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1224,
+              "bottom": -364.25,
+              "width": 1024,
+              "height": 859.75
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.rooms-container.room-compare-help",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -364.25,
+              "bottom": -128.25,
+              "width": 1024,
+              "height": 236
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128.25,
+              "bottom": 912.75,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/compare",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/compare",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128.25,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -127.859375,
+          "bottom": 913.140625,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "div.rooms-container.room-detail-breadcrumb",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3079,
+              "bottom": -3017,
+              "width": 1024,
+              "height": 62
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "header.rooms-container.room-detail-heading",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3017,
+              "bottom": -2839,
+              "width": 1024,
+              "height": 178
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.rooms-container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2839,
+              "bottom": -2207.109375,
+              "width": 1024,
+              "height": 631.890625
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.rooms-container.room-detail-overview",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2207.109375,
+              "bottom": -1752.109375,
+              "width": 1024,
+              "height": 455
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.rooms-container.room-planning-layout",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1680.109375,
+              "bottom": -815.109375,
+              "width": 1024,
+              "height": 865
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.rooms-container.other-rooms",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -743.109375,
+              "bottom": -127.859375,
+              "width": 1024,
+              "height": 615.25
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -127.859375,
+              "bottom": 913.140625,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -127.859375,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -127.859375,
+          "bottom": 913.140625,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "div.rooms-container.room-detail-breadcrumb",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3079,
+              "bottom": -3017,
+              "width": 1024,
+              "height": 62
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "header.rooms-container.room-detail-heading",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3017,
+              "bottom": -2839,
+              "width": 1024,
+              "height": 178
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.rooms-container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2839,
+              "bottom": -2207.109375,
+              "width": 1024,
+              "height": 631.890625
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.rooms-container.room-detail-overview",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2207.109375,
+              "bottom": -1752.109375,
+              "width": 1024,
+              "height": 455
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.rooms-container.room-planning-layout",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1680.109375,
+              "bottom": -815.109375,
+              "width": 1024,
+              "height": 865
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.rooms-container.other-rooms",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -743.109375,
+              "bottom": -127.859375,
+              "width": 1024,
+              "height": 615.25
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -127.859375,
+              "bottom": 913.140625,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -127.859375,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/family-room",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/family-room",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3152,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/family-room",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/family-room",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/family-room",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -127.859375,
+          "bottom": 913.140625,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "div.rooms-container.room-detail-breadcrumb",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3079,
+              "bottom": -3017,
+              "width": 1024,
+              "height": 62
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "header.rooms-container.room-detail-heading",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3017,
+              "bottom": -2839,
+              "width": 1024,
+              "height": 178
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.rooms-container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2839,
+              "bottom": -2207.109375,
+              "width": 1024,
+              "height": 631.890625
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.rooms-container.room-detail-overview",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2207.109375,
+              "bottom": -1752.109375,
+              "width": 1024,
+              "height": 455
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.rooms-container.room-planning-layout",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1680.109375,
+              "bottom": -815.109375,
+              "width": 1024,
+              "height": 865
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.rooms-container.other-rooms",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -743.109375,
+              "bottom": -127.859375,
+              "width": 1024,
+              "height": 615.25
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -127.859375,
+              "bottom": 913.140625,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/family-room",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/rooms/family-room",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -127.859375,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3646,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3646,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128.5,
+          "bottom": 912.5,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "div.hospitality-shell",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3573,
+              "bottom": -2846,
+              "width": 928,
+              "height": 727
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.hospitality-shell.hospitality-dining-introduction",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2846,
+              "bottom": -2376,
+              "width": 928,
+              "height": 470
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.hospitality-shell.hospitality-dining-service-grid",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2272,
+              "bottom": -1752,
+              "width": 928,
+              "height": 520
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section#dining-enquiries.hospitality-shell.hospitality-dining-enquiries",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1648,
+              "bottom": -585.5,
+              "width": 928,
+              "height": 1062.5
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.hospitality-shell.hospitality-dining-questions",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -585.5,
+              "bottom": -351.5,
+              "width": 928,
+              "height": 234
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "nav.hospitality-shell.hospitality-related",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -351.5,
+              "bottom": -128.5,
+              "width": 928,
+              "height": 223
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128.5,
+              "bottom": 912.5,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128.5,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/varanasi",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/varanasi",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4000,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5622,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5622,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/varanasi",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/varanasi",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/varanasi",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128.125,
+          "bottom": 912.875,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "section.container.editorial-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -5549,
+              "bottom": -5201,
+              "width": 1024,
+              "height": 348
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.destination-panorama",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -5201,
+              "bottom": -4591,
+              "width": 1024,
+              "height": 610
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4375,
+              "bottom": -3217.125,
+              "width": 1024,
+              "height": 1157.875
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3033.125,
+              "bottom": -1217.125,
+              "width": 1024,
+              "height": 1816
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.container.destination-guides",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1105.125,
+              "bottom": -505.125,
+              "width": 1024,
+              "height": 600
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -505.125,
+              "bottom": -240.125,
+              "width": 1024,
+              "height": 265
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128.125,
+              "bottom": 912.875,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/varanasi",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/varanasi",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128.125,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/gallery",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/gallery",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3759,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3759,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/gallery",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/gallery",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/gallery",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128.4375,
+          "bottom": 912.5625,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "section.container.editorial-intro.gallery-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3686,
+              "bottom": -3338,
+              "width": 1024,
+              "height": 348
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.container.gallery-collection",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3338,
+              "bottom": -128.4375,
+              "width": 1024,
+              "height": 3209.5625
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128.4375,
+              "bottom": 912.5625,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/gallery",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/gallery",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128.4375,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2337,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2337,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2337,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128,
+          "bottom": 913,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "section.container.editorial-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2264,
+              "bottom": -1916,
+              "width": 1024,
+              "height": 348
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.container.guide-index",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1916,
+              "bottom": -128,
+              "width": 1024,
+              "height": 1788
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128,
+              "bottom": 913,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4000,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5303,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5303,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128,
+          "bottom": 913,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "header.container.guide-article-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -5230,
+              "bottom": -4731,
+              "width": 1024,
+              "height": 499
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4731,
+              "bottom": -4137,
+              "width": 1024,
+              "height": 594
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.guide-body-layout",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4137,
+              "bottom": -667,
+              "width": 1024,
+              "height": 3470
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.container.guide-related",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -667,
+              "bottom": -128,
+              "width": 1024,
+              "height": 539
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128,
+              "bottom": 913,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4000,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5261,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5261,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128,
+          "bottom": 913,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "header.container.guide-article-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -5188,
+              "bottom": -4723,
+              "width": 1024,
+              "height": 465
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4723,
+              "bottom": -4129,
+              "width": 1024,
+              "height": 594
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.guide-body-layout",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4129,
+              "bottom": -667,
+              "width": 1024,
+              "height": 3462
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.container.guide-related",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -667,
+              "bottom": -128,
+              "width": 1024,
+              "height": 539
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128,
+              "bottom": 913,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/choosing-your-room",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/choosing-your-room",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4000,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5394,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 5394,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/choosing-your-room",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/choosing-your-room",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/choosing-your-room",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128,
+          "bottom": 913,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "header.container.guide-article-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -5321,
+              "bottom": -4751,
+              "width": 1024,
+              "height": 570
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4751,
+              "bottom": -4157,
+              "width": 1024,
+              "height": 594
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.guide-body-layout",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -4157,
+              "bottom": -631,
+              "width": 1024,
+              "height": 3526
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.container.guide-related",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -631,
+              "bottom": -128,
+              "width": 1024,
+              "height": 503
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128,
+              "bottom": 913,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/choosing-your-room",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/guides/choosing-your-room",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/group-stays",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/group-stays",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2225,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2225,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2225,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/group-stays",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/group-stays",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/group-stays",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128,
+          "bottom": 913,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "section.container.group-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2152,
+              "bottom": -1545,
+              "width": 1024,
+              "height": 607
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.group-planning-grid",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1449,
+              "bottom": -224,
+              "width": 1024,
+              "height": 1225
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128,
+              "bottom": 913,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/group-stays",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#_R_55fiv5b_-arrival.date-input",
+          "second": "input#_R_55fiv5b_-departure.date-input",
+          "firstBox": {
+            "left": 466.203125,
+            "right": 698.09375,
+            "top": -1168,
+            "bottom": -1116,
+            "width": 231.890625,
+            "height": 52
+          },
+          "secondBox": {
+            "left": 716.09375,
+            "right": 948,
+            "top": -1168,
+            "bottom": -1116,
+            "width": 231.90625,
+            "height": 52
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "select#_R_55fiv5b_-roomCount.",
+          "second": "select#_R_55fiv5b_-room.",
+          "firstBox": {
+            "left": 466.203125,
+            "right": 698.09375,
+            "top": -978,
+            "bottom": -920,
+            "width": 231.890625,
+            "height": 58
+          },
+          "secondBox": {
+            "left": 716.09375,
+            "right": 948,
+            "top": -978,
+            "bottom": -920,
+            "width": 231.90625,
+            "height": 58
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#_R_55fiv5b_-adults.",
+          "second": "input#_R_55fiv5b_-children.",
+          "firstBox": {
+            "left": 466.203125,
+            "right": 698.09375,
+            "top": -869,
+            "bottom": -817,
+            "width": 231.890625,
+            "height": 52
+          },
+          "secondBox": {
+            "left": 716.09375,
+            "right": 948,
+            "top": -869,
+            "bottom": -817,
+            "width": 231.90625,
+            "height": 52
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#_R_55fiv5b_-name.",
+          "second": "input#_R_55fiv5b_-company.",
+          "firstBox": {
+            "left": 466.203125,
+            "right": 698.09375,
+            "top": -640,
+            "bottom": -588,
+            "width": 231.890625,
+            "height": 52
+          },
+          "secondBox": {
+            "left": 716.09375,
+            "right": 948,
+            "top": -640,
+            "bottom": -588,
+            "width": 231.90625,
+            "height": 52
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/group-stays",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4000,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4019,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 4019,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128.1875,
+          "bottom": 912.8125,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "section.container.contact-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3946,
+              "bottom": -3227,
+              "width": 1024,
+              "height": 719
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section#enquire.container.contact-enquiry",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3227,
+              "bottom": -2032,
+              "width": 1024,
+              "height": 1195
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.contact-arrival",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2032,
+              "bottom": -1009.1875,
+              "width": 1024,
+              "height": 1022.8125
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "section.container.contact-faq",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -1009.1875,
+              "bottom": -128.1875,
+              "width": 1024,
+              "height": 881
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128.1875,
+              "bottom": 912.8125,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#arrival.date-input",
+          "second": "input#departure.date-input",
+          "firstBox": {
+            "left": 100,
+            "right": 500,
+            "top": -2978,
+            "bottom": -2922,
+            "width": 400,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 524,
+            "right": 924,
+            "top": -2978,
+            "bottom": -2922,
+            "width": 400,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "select#adults.",
+          "second": "select#children.",
+          "firstBox": {
+            "left": 100,
+            "right": 500,
+            "top": -2862,
+            "bottom": -2806,
+            "width": 400,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 524,
+            "right": 924,
+            "top": -2862,
+            "bottom": -2806,
+            "width": 400,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128.1875,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/privacy",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/privacy",
+      "name": "Body and document stay within viewport through full-page scroll",
+      "passed": true,
+      "detail": [
+        {
+          "y": 0,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 800,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 1600,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 2400,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3200,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3405,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "y": 3405,
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        },
+        {
+          "body": 1024,
+          "document": 1024,
+          "viewport": 1024
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/privacy",
+      "name": "Visible unclipped content stays within viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/privacy",
+      "name": "Shared container reference exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/privacy",
+      "name": "Container and hospitality-shell content gutters agree",
+      "passed": true,
+      "detail": {
+        "reference": {
+          "left": 48,
+          "right": 976,
+          "top": -128,
+          "bottom": 913,
+          "width": 1024,
+          "height": 1041
+        },
+        "mismatches": [],
+        "measured": [
+          {
+            "element": "section.container.privacy-intro",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -3332,
+              "bottom": -2908,
+              "width": 1024,
+              "height": 424
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container.privacy-body",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -2908,
+              "bottom": -128,
+              "width": 1024,
+              "height": 2780
+            },
+            "intentional_layout": null
+          },
+          {
+            "element": "div.container",
+            "box": {
+              "left": 48,
+              "right": 976,
+              "top": -128,
+              "bottom": 913,
+              "width": 1024,
+              "height": 1041
+            },
+            "intentional_layout": null
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/privacy",
+      "name": "Comparable form fields in the same row share top and bottom baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "input#dock-departure.date-input",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-arrival.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 24,
+            "right": 332.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 308.984375,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        },
+        {
+          "first": "input#dock-departure.date-input",
+          "second": "select#dock-adults.",
+          "firstBox": {
+            "left": 344.984375,
+            "right": 653.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 309,
+            "height": 56
+          },
+          "secondBox": {
+            "left": 665.984375,
+            "right": 777.984375,
+            "top": 929,
+            "bottom": 985,
+            "width": 112,
+            "height": 56
+          },
+          "comparableHeight": true,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/privacy",
+      "name": "Footer clears fixed booking dock at document end",
+      "passed": true,
+      "detail": {
+        "footer": {
+          "x": 0,
+          "y": -128,
+          "width": 1024,
+          "height": 1041
+        },
+        "dock": {
+          "x": 0,
+          "y": 913,
+          "width": 1024,
+          "height": 87
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/privacy",
+      "name": "No JavaScript runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "suspicious": [],
+  "runtime_errors": [],
+  "console_errors": [],
+  "screenshots": [
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "welcome",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\alignment-webkit-1024-home-welcome.png"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "itinerary",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\alignment-webkit-1024-home-itinerary.png"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/",
+      "name": "stage",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\alignment-webkit-1024-home-stage.png"
+    }
+  ],
+  "external_messages_sent": 0,
+  "limitations": [
+    "WebKit is engine emulation, not physical iPhone testing.",
+    "Suspicious findings require visual review and do not fail the audit."
+  ],
+  "summary": {
+    "passed": 139,
+    "failed": 0,
+    "suspicious": 0,
+    "runtime_errors": 0
+  }
+}

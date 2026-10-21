@@ -5,12 +5,16 @@ from PIL import Image, ImageDraw, ImageFont
 
 root = Path(__file__).resolve().parent
 font = ImageFont.truetype('C:/Windows/Fonts/arial.ttf', 16)
-for source in sorted(root.glob('alignment-chromium-*-full-page.png')):
+for source in sorted(root.glob('alignment-*-full-page.png')):
+    engine = source.name.split('-')[1]
+    if engine not in ('chromium', 'webkit'):
+        continue
     image = Image.open(source).convert('RGB')
     width, height = image.size
     if width not in (390, 1440):
         continue
-    target = root / ('review-' + source.name.removeprefix('alignment-chromium-'))
+    review_prefix = 'review-' if engine == 'chromium' else 'review-webkit-'
+    target = root / (review_prefix + source.name.removeprefix(f'alignment-{engine}-'))
     if target.exists() and target.stat().st_mtime >= source.stat().st_mtime:
         continue
     strip_height = 960 if width == 390 else 1100

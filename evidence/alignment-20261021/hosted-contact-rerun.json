@@ -1,0 +1,3515 @@
+{
+  "date": "2026-10-21T15:25:55.951459+00:00",
+  "base_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+  "engines": [
+    "webkit"
+  ],
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "home_compact_widths": [
+    601,
+    640,
+    768,
+    1024
+  ],
+  "room_widths": [
+    901,
+    1024,
+    1100
+  ],
+  "checks": [
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 53,
+          "placeholderLeft": 53,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 53,
+          "placeholderLeft": 53,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 29,
+          "placeholderLeft": 29,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 177,
+          "placeholderLeft": 177,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 254
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 42,
+          "right": 278,
+          "top": 211,
+          "bottom": 261,
+          "width": 236,
+          "height": 50
+        },
+        "content": {
+          "left": 59,
+          "right": 261,
+          "top": 225,
+          "bottom": 247
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp & send",
+            "box": {
+              "left": 98.578125,
+              "right": 253.4204559326172,
+              "top": 227,
+              "bottom": 244,
+              "width": 154.8423309326172,
+              "height": 17
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 66.578125,
+              "right": 86.578125,
+              "top": 226,
+              "bottom": 246,
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "normal",
+        "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AArrival%3A%2020%20Nov%202026%0ADeparture%3A%2022%20Nov%202026%0AGuests%3A%202%20adults%0ARoom%20preference%3A%20Please%20recommend%20a%20room%0ARooms%20requested%3A%202%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 57,
+          "placeholderLeft": 57,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 57,
+          "placeholderLeft": 57,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 29,
+          "placeholderLeft": 29,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 212,
+          "placeholderLeft": 212,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 254
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 46,
+          "right": 344,
+          "top": 211,
+          "bottom": 261,
+          "width": 298,
+          "height": 50
+        },
+        "content": {
+          "left": 63,
+          "right": 327,
+          "top": 225,
+          "bottom": 247
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp & send",
+            "box": {
+              "left": 133.578125,
+              "right": 288.42047119140625,
+              "top": 227,
+              "bottom": 244,
+              "width": 154.84234619140625,
+              "height": 17
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 101.578125,
+              "right": 121.578125,
+              "top": 226,
+              "bottom": 246,
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AArrival%3A%2020%20Nov%202026%0ADeparture%3A%2022%20Nov%202026%0AGuests%3A%202%20adults%0ARoom%20preference%3A%20Please%20recommend%20a%20room%0ARooms%20requested%3A%202%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 81,
+          "placeholderLeft": 81,
+          "visible": true,
+          "padding": "16px",
+          "border": "1px"
+        },
+        {
+          "id": "departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 413,
+          "placeholderLeft": 413,
+          "visible": true,
+          "padding": "16px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 229.984375,
+          "placeholderLeft": 229.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 254
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 64,
+          "right": 704,
+          "top": 211,
+          "bottom": 267,
+          "width": 640,
+          "height": 56
+        },
+        "content": {
+          "left": 89,
+          "right": 679,
+          "top": 228,
+          "bottom": 250
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp & send",
+            "box": {
+              "left": 317.046875,
+              "right": 482.9493713378906,
+              "top": 229,
+              "bottom": 248,
+              "width": 165.90249633789062,
+              "height": 19
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 285.046875,
+              "right": 305.046875,
+              "top": 229,
+              "bottom": 249,
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AArrival%3A%2020%20Nov%202026%0ADeparture%3A%2022%20Nov%202026%0AGuests%3A%202%20adults%0ARoom%20preference%3A%20Please%20recommend%20a%20room%0ARooms%20requested%3A%202%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 117,
+          "placeholderLeft": 117,
+          "visible": true,
+          "padding": "16px",
+          "border": "1px"
+        },
+        {
+          "id": "departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 541,
+          "placeholderLeft": 541,
+          "visible": true,
+          "padding": "16px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 357.984375,
+          "placeholderLeft": 357.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 254
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 100,
+          "right": 924,
+          "top": 250,
+          "bottom": 306,
+          "width": 824,
+          "height": 56
+        },
+        "content": {
+          "left": 125,
+          "right": 899,
+          "top": 267,
+          "bottom": 289
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp & send",
+            "box": {
+              "left": 445.046875,
+              "right": 610.9493408203125,
+              "top": 268,
+              "bottom": 287,
+              "width": 165.9024658203125,
+              "height": 19
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 413.046875,
+              "right": 433.046875,
+              "top": 268,
+              "bottom": 288,
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AArrival%3A%2020%20Nov%202026%0ADeparture%3A%2022%20Nov%202026%0AGuests%3A%202%20adults%0ARoom%20preference%3A%20Please%20recommend%20a%20room%0ARooms%20requested%3A%202%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 325,
+          "placeholderLeft": 325,
+          "visible": true,
+          "padding": "16px",
+          "border": "1px"
+        },
+        {
+          "id": "departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 749,
+          "placeholderLeft": 749,
+          "visible": true,
+          "padding": "16px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "text",
+          "expectedLeft": 714.984375,
+          "placeholderLeft": 714.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "text",
+          "expectedLeft": 886.984375,
+          "placeholderLeft": 886.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 254
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 308,
+          "right": 1132,
+          "top": 250,
+          "bottom": 306,
+          "width": 824,
+          "height": 56
+        },
+        "content": {
+          "left": 333,
+          "right": 1107,
+          "top": 267,
+          "bottom": 289
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp & send",
+            "box": {
+              "left": 653.046875,
+              "right": 818.9493408203125,
+              "top": 268,
+              "bottom": 287,
+              "width": 165.9024658203125,
+              "height": 19
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 621.046875,
+              "right": 641.046875,
+              "top": 268,
+              "bottom": 288,
+              "width": 20,
+              "height": 20
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Namaste%20Hotel%20Augusto!%20I%20would%20like%20to%20enquire%20about%20a%20stay.%0AArrival%3A%2020%20Nov%202026%0ADeparture%3A%2022%20Nov%202026%0AGuests%3A%202%20adults%0ARoom%20preference%3A%20Please%20recommend%20a%20room%0ARooms%20requested%3A%202%0APlease%20share%20availability%2C%20room%20rates%20and%20booking%20conditions.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "No JavaScript runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "name": "No WhatsApp navigation attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "console_errors": [],
+  "screenshots": [
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-webkit-320-contact-prepared-form.png"
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-webkit-320-contact-prepared-cta.png"
+    }
+  ],
+  "blocked_external_requests": [],
+  "network": [
+    {
+      "engine": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "events": [
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch",
+          "status": 204
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch",
+          "status": 204
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "events": [
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch",
+          "status": 204
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=640&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=640&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch",
+          "status": 204
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "events": [
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=384&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch",
+          "status": 204
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=384&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch",
+          "status": 204
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "route": "/contact",
+      "events": [
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=640&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=640&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch",
+          "status": 204
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=640&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=640&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch",
+          "status": 204
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "events": [
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=640&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/media/inter_latin_wght_normal-s.p.0rpdhg_4ubdtf.woff2",
+          "resource_type": "font",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1zyp29u3hl_lc.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2lomhr-1tvzj6.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/11_1pmjqzcgx8.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fgoogle-double-room.webp&w=640&q=85&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1et64tw-_lm_e.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3htv0whmu2tqy.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/32y6o_yzx6os4.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2a924f8imlmkt.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/42vfsn26fp5-1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0fqb5ydxvntwg.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/24wqf0a7-s-y9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1tp2ixx-5-g4b.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1eh3xqhqu1is9.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1ddekit4eits3.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0trmzcs53mhrv.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2qxq--hwtxs9l.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/brand/logo.jpeg?dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/hotel?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/dining?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/varanasi?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/_next-live/feedback/feedback.html?dpl=dpl_4oe2CcCAVPpE8a4kLBuzXie8pxsa",
+          "resource_type": "document",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/hotel?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1hk3b315q43og.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1gkqr4shfm820.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/dining?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/guides?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3m30c-r7e0q4l.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/43pdndm-kinuj.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/265yu5okjqlgf.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3il6p58pj1nz2.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/22h5gyi81x-8m.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3sbtetxhrjj1i.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/varanasi?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2fvm74mhkyu3k.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1gkqr4shfm820.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1hk3b315q43og.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/guides?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2jno0uyk-brc-.css",
+          "resource_type": "stylesheet"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3m30c-r7e0q4l.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/.well-known/vercel/jwe",
+          "resource_type": "fetch",
+          "status": 204
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2fvm74mhkyu3k.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=60m9ttaXtJHZmEpN",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/hotel?_rsc=7j_JJjp-TY63bDt7",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=h2vb-LAkAGynSY5z",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=S9iBW5jrEJiI9lcx",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/2jno0uyk-brc-.css",
+          "resource_type": "stylesheet",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/dining?_rsc=ChQJw9RO8gAPsA__",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/?_rsc=00jsNgvC9sZ9uZS6",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/varanasi?_rsc=ECoYxCJM5HOQA8LS",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/1qoy8dssn3660.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0njyplxnfj-do.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/hotel?_rsc=7j_JJjp-TY63bDt7",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3vk-sy0mm1bnn.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms?_rsc=S9iBW5jrEJiI9lcx",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=gTT_BFW2UCts4C_T",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3dkr26_hwzw6w.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=750&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/guides?_rsc=vKvJzEBTpxvt7lL2",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/varanasi?_rsc=ECoYxCJM5HOQA8LS",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/dining?_rsc=ChQJw9RO8gAPsA__",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3vk-sy0mm1bnn.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/04w7etz1-w0qm.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0yghuz8q2zec_.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/3dkr26_hwzw6w.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery?_rsc=gTT_BFW2UCts4C_T",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/image?url=%2Fimages%2Fhotel-exterior-day.webp&w=750&q=75&dpl=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "image",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/40oyn21udpy7h.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/04w7etz1-w0qm.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/0yghuz8q2zec_.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/guides?_rsc=vKvJzEBTpxvt7lL2",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/10bfz80so6qpp.js",
+          "resource_type": "script"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact?_rsc=4zImfXNx2m2kMkKG",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/40oyn21udpy7h.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/_next/static/immutable/chunks/10bfz80so6qpp.js",
+          "resource_type": "script",
+          "status": 200
+        },
+        {
+          "event": "response",
+          "url": "https://vercel.live/login/validate?hostname=hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app&deploymentId=dpl_6wb3TiM77vMpn6s6udQC9VJHE4TT",
+          "resource_type": "fetch",
+          "status": 200
+        },
+        {
+          "event": "request",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch"
+        },
+        {
+          "event": "response",
+          "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+          "resource_type": "fetch",
+          "status": 204
+        }
+      ]
+    }
+  ],
+  "external_messages_sent": 0,
+  "limitations": [
+    "WebKit engine coverage is not physical iPhone verification.",
+    "Enquiry links are inspected only; WhatsApp is never opened."
+  ],
+  "summary": {
+    "passed": 67,
+    "failed": 0,
+    "runtime_errors": 0
+  }
+}

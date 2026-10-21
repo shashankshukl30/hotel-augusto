@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-21T15:26:48.512616+00:00",
+  "base_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app",
+  "bypass_credentials_used": false,
+  "custom_request_headers": false,
+  "checks": [
+    {
+      "name": "Anonymous route /",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+        "heading": [
+          "Your placein Kashi."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /hotel",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/hotel",
+        "heading": [
+          "Welcome toHotel Augusto."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /rooms",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms",
+        "heading": [
+          "Find your room."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /rooms/compare",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms/compare",
+        "heading": [
+          "Which room isright for you?"
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /rooms/deluxe-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms/deluxe-room",
+        "heading": [
+          "Deluxe Room"
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms/deluxe-twin-room",
+        "heading": [
+          "Deluxe Twin Room"
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /rooms/family-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/rooms/family-room",
+        "heading": [
+          "Family Room"
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /dining",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/dining",
+        "heading": [
+          "Vegetarian dining.Right here."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /varanasi",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/varanasi",
+        "heading": [
+          "ExploreVaranasi."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /gallery",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/gallery",
+        "heading": [
+          "InsideAugusto."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /guides",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/guides",
+        "heading": [
+          "Beforeyou arrive."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/guides/first-visit-to-kashi",
+        "heading": [
+          "A first visit to Kashi."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/guides/arriving-in-godowlia",
+        "heading": [
+          "Arriving in Godowlia."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /guides/choosing-your-room",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/guides/choosing-your-room",
+        "heading": [
+          "Choose the room for your stay."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /group-stays",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/group-stays",
+        "heading": [
+          "A stay.For everyone."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /contact",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/contact",
+        "heading": [
+          "Let\u2019s planyour stay."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous route /privacy",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/privacy",
+        "heading": [
+          "Privacy.In plain language."
+        ]
+      }
+    },
+    {
+      "name": "Mobile layout /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preview stays noindex /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Room navigation works without login",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous asset /brand/logo.jpeg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Anonymous asset /downloads/hotel-augusto-dining-guide.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robots blocks indexing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop hero loads without login",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Desktop has no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No site runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "external_messages_sent": 0,
+  "initial_cookie_count": 0,
+  "initial_page": {
+    "http": 200,
+    "landed_url": "https://hotel-augusto-git-preview-vercel-omvitys-projects.vercel.app/",
+    "title": "Hotel Augusto Varanasi | A Stay in the Heart of Kashi",
+    "headings": [
+      "Your placein Kashi."
+    ]
+  },
+  "passed": true
+}

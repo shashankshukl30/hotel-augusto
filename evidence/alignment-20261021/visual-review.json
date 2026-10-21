@@ -461,12 +461,327 @@
     "retained_helper": [
       {
         "path": "make-review-sheets.py",
-        "bytes": 1566,
-        "reason": "Reproduces the annotated contact sheets from retained original screenshots."
+        "bytes": 1739,
+        "reason": "Reproduces annotated Chromium and WebKit contact sheets without changing original screenshots."
       }
     ],
     "disposable_task_scratch": [],
     "deletions_performed": 0,
-    "note": "No unneeded task scratch was positively identified in this agent's artifact set. No files were deleted."
+    "note": "No unneeded task scratch was positively identified in this agent's artifact set. No files were deleted.",
+    "retained_webkit_evidence": {
+      "reason": "Retain derived hosted WebKit QA sheets; actual visually inspected routes are listed separately in webkit_review.",
+      "count": 30,
+      "bytes": 22194998,
+      "files": [
+        {
+          "path": "review-webkit-1440-dining-full-page.png",
+          "bytes": 574502
+        },
+        {
+          "path": "review-webkit-1440-gallery-full-page.png",
+          "bytes": 830912
+        },
+        {
+          "path": "review-webkit-1440-guides-arriving-in-godowlia-full-page.png",
+          "bytes": 727520
+        },
+        {
+          "path": "review-webkit-1440-guides-first-visit-to-kashi-full-page.png",
+          "bytes": 725221
+        },
+        {
+          "path": "review-webkit-1440-guides-full-page.png",
+          "bytes": 481221
+        },
+        {
+          "path": "review-webkit-1440-home-full-page.png",
+          "bytes": 2123459
+        },
+        {
+          "path": "review-webkit-1440-hotel-full-page.png",
+          "bytes": 1130247
+        },
+        {
+          "path": "review-webkit-1440-rooms-compare-full-page.png",
+          "bytes": 256082
+        },
+        {
+          "path": "review-webkit-1440-rooms-deluxe-room-full-page.png",
+          "bytes": 656018
+        },
+        {
+          "path": "review-webkit-1440-rooms-deluxe-twin-room-full-page.png",
+          "bytes": 662113
+        },
+        {
+          "path": "review-webkit-1440-rooms-family-room-full-page.png",
+          "bytes": 657062
+        },
+        {
+          "path": "review-webkit-1440-rooms-full-page.png",
+          "bytes": 798405
+        },
+        {
+          "path": "review-webkit-1440-varanasi-full-page.png",
+          "bytes": 1033470
+        },
+        {
+          "path": "review-webkit-390-contact-full-page.png",
+          "bytes": 556508
+        },
+        {
+          "path": "review-webkit-390-dining-full-page.png",
+          "bytes": 547185
+        },
+        {
+          "path": "review-webkit-390-gallery-full-page.png",
+          "bytes": 1123255
+        },
+        {
+          "path": "review-webkit-390-group-stays-full-page.png",
+          "bytes": 413214
+        },
+        {
+          "path": "review-webkit-390-guides-arriving-in-godowlia-full-page.png",
+          "bytes": 790659
+        },
+        {
+          "path": "review-webkit-390-guides-choosing-your-room-full-page.png",
+          "bytes": 810083
+        },
+        {
+          "path": "review-webkit-390-guides-first-visit-to-kashi-full-page.png",
+          "bytes": 810527
+        },
+        {
+          "path": "review-webkit-390-guides-full-page.png",
+          "bytes": 469315
+        },
+        {
+          "path": "review-webkit-390-home-full-page.png",
+          "bytes": 1428074
+        },
+        {
+          "path": "review-webkit-390-hotel-full-page.png",
+          "bytes": 918705
+        },
+        {
+          "path": "review-webkit-390-privacy-full-page.png",
+          "bytes": 544789
+        },
+        {
+          "path": "review-webkit-390-rooms-compare-full-page.png",
+          "bytes": 243490
+        },
+        {
+          "path": "review-webkit-390-rooms-deluxe-room-full-page.png",
+          "bytes": 506823
+        },
+        {
+          "path": "review-webkit-390-rooms-deluxe-twin-room-full-page.png",
+          "bytes": 508449
+        },
+        {
+          "path": "review-webkit-390-rooms-family-room-full-page.png",
+          "bytes": 505882
+        },
+        {
+          "path": "review-webkit-390-rooms-full-page.png",
+          "bytes": 601362
+        },
+        {
+          "path": "review-webkit-390-varanasi-full-page.png",
+          "bytes": 760446
+        }
+      ]
+    }
+  },
+  "webkit_review": {
+    "date": "2026-10-21",
+    "engine": "Playwright WebKit on Windows",
+    "environment": "Hosted deployment captures supplied by root; no browser launched by this reviewer.",
+    "status": "No actionable alignment findings in the inspected captures.",
+    "full_page_captures_inspected": 29,
+    "inspected": [
+      {
+        "width": 390,
+        "routes": [
+          {
+            "route": "/",
+            "screenshot": "alignment-webkit-390-home-full-page.png",
+            "contact_sheet": "review-webkit-390-home-full-page.png"
+          },
+          {
+            "route": "/hotel",
+            "screenshot": "alignment-webkit-390-hotel-full-page.png",
+            "contact_sheet": "review-webkit-390-hotel-full-page.png"
+          },
+          {
+            "route": "/rooms",
+            "screenshot": "alignment-webkit-390-rooms-full-page.png",
+            "contact_sheet": "review-webkit-390-rooms-full-page.png"
+          },
+          {
+            "route": "/rooms/compare",
+            "screenshot": "alignment-webkit-390-rooms-compare-full-page.png",
+            "contact_sheet": "review-webkit-390-rooms-compare-full-page.png"
+          },
+          {
+            "route": "/rooms/deluxe-room",
+            "screenshot": "alignment-webkit-390-rooms-deluxe-room-full-page.png",
+            "contact_sheet": "review-webkit-390-rooms-deluxe-room-full-page.png"
+          },
+          {
+            "route": "/rooms/deluxe-twin-room",
+            "screenshot": "alignment-webkit-390-rooms-deluxe-twin-room-full-page.png",
+            "contact_sheet": "review-webkit-390-rooms-deluxe-twin-room-full-page.png"
+          },
+          {
+            "route": "/rooms/family-room",
+            "screenshot": "alignment-webkit-390-rooms-family-room-full-page.png",
+            "contact_sheet": "review-webkit-390-rooms-family-room-full-page.png"
+          },
+          {
+            "route": "/dining",
+            "screenshot": "alignment-webkit-390-dining-full-page.png",
+            "contact_sheet": "review-webkit-390-dining-full-page.png"
+          },
+          {
+            "route": "/varanasi",
+            "screenshot": "alignment-webkit-390-varanasi-full-page.png",
+            "contact_sheet": "review-webkit-390-varanasi-full-page.png"
+          },
+          {
+            "route": "/gallery",
+            "screenshot": "alignment-webkit-390-gallery-full-page.png",
+            "contact_sheet": "review-webkit-390-gallery-full-page.png"
+          },
+          {
+            "route": "/guides",
+            "screenshot": "alignment-webkit-390-guides-full-page.png",
+            "contact_sheet": "review-webkit-390-guides-full-page.png"
+          },
+          {
+            "route": "/guides/first-visit-to-kashi",
+            "screenshot": "alignment-webkit-390-guides-first-visit-to-kashi-full-page.png",
+            "contact_sheet": "review-webkit-390-guides-first-visit-to-kashi-full-page.png"
+          },
+          {
+            "route": "/guides/arriving-in-godowlia",
+            "screenshot": "alignment-webkit-390-guides-arriving-in-godowlia-full-page.png",
+            "contact_sheet": "review-webkit-390-guides-arriving-in-godowlia-full-page.png"
+          },
+          {
+            "route": "/guides/choosing-your-room",
+            "screenshot": "alignment-webkit-390-guides-choosing-your-room-full-page.png",
+            "contact_sheet": "review-webkit-390-guides-choosing-your-room-full-page.png"
+          },
+          {
+            "route": "/group-stays",
+            "screenshot": "alignment-webkit-390-group-stays-full-page.png",
+            "contact_sheet": "review-webkit-390-group-stays-full-page.png"
+          },
+          {
+            "route": "/contact",
+            "screenshot": "alignment-webkit-390-contact-full-page.png",
+            "contact_sheet": "review-webkit-390-contact-full-page.png"
+          },
+          {
+            "route": "/privacy",
+            "screenshot": "alignment-webkit-390-privacy-full-page.png",
+            "contact_sheet": "review-webkit-390-privacy-full-page.png"
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "routes": [
+          {
+            "route": "/",
+            "screenshot": "alignment-webkit-1440-home-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/hotel",
+            "screenshot": "alignment-webkit-1440-hotel-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/rooms",
+            "screenshot": "alignment-webkit-1440-rooms-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/rooms/compare",
+            "screenshot": "alignment-webkit-1440-rooms-compare-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/rooms/deluxe-room",
+            "screenshot": "alignment-webkit-1440-rooms-deluxe-room-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/rooms/deluxe-twin-room",
+            "screenshot": "alignment-webkit-1440-rooms-deluxe-twin-room-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/rooms/family-room",
+            "screenshot": "alignment-webkit-1440-rooms-family-room-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/dining",
+            "screenshot": "alignment-webkit-1440-dining-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/varanasi",
+            "screenshot": "alignment-webkit-1440-varanasi-full-page.png",
+            "viewed_via": "Existing contact sheet"
+          },
+          {
+            "route": "/group-stays",
+            "screenshot": "alignment-webkit-1440-group-stays-full-page.png",
+            "viewed_via": "Original full-page screenshot"
+          },
+          {
+            "route": "/contact",
+            "screenshot": "alignment-webkit-1440-contact-full-page.png",
+            "viewed_via": "Original full-page screenshot"
+          },
+          {
+            "route": "/privacy",
+            "screenshot": "alignment-webkit-1440-privacy-full-page.png",
+            "viewed_via": "Original full-page screenshot"
+          }
+        ]
+      }
+    ],
+    "supplemental_homepage_sections": {
+      "width": 1024,
+      "screenshots": [
+        "alignment-webkit-1024-home-itinerary.png",
+        "alignment-webkit-1024-home-stage.png",
+        "alignment-webkit-1024-home-welcome.png"
+      ],
+      "result": "Welcome amenity spacing, city-copy columns and KASHI/photo blend are aligned in these section captures."
+    },
+    "targeted_results": [
+      "Homepage amenities use the shared photo width; KASHI blends into the photograph without an abrupt edge; city-copy columns align.",
+      "Homepage compact form is contained at the reviewed 390px and 1440px widths; empty dates show Choose date.",
+      "Dining introductory copy, enquiry form and FAQ share matching column starts on desktop; the mobile form stacks cleanly.",
+      "All three room-detail forms have contained date fields, room labels, guest controls and full-width main actions.",
+      "Group and contact fields align; optional labels and buttons remain visible.",
+      "Privacy photo-credit names and source/license links align in desktop columns and readable mobile stacks."
+    ],
+    "remaining_actionable_findings": [],
+    "limitations": [
+      "1440px visual review covers the 12 routes listed, not all 17 desktop routes; root separately completed automated geometry checks across all 17.",
+      "The 601-768px homepage compact form remains outside this visual-review scope and is tested separately by root.",
+      "WebKit engine emulation on Windows is not physical Safari/iPhone testing; native control and font rendering can differ by platform.",
+      "Static captures do not verify date selection, motion, navigation timing or prepared enquiry states; root owns those interaction tests."
+    ]
   }
 }
