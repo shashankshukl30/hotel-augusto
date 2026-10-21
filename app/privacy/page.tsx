@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Reveal } from "@/components/reveal";
 import { hotel } from "@/content/hotel";
-import assetManifest from "@/research/assets/asset-manifest.json";
-import heroAsset from "@/research/awwwards-revision/hero-asset.json";
+import credits from "@/content/photo-credits.json";
 import "../contact/contact.css";
 
 export const metadata: Metadata = {
@@ -11,16 +10,6 @@ export const metadata: Metadata = {
   description:
     "How the Hotel Augusto website handles stay enquiries, links to WhatsApp and basic technical information, with credits for destination photography.",
 };
-
-interface CreditAsset {
-  id: string;
-  kind: string;
-  source_page: string;
-  author?: string;
-  rights: string;
-  license_url?: string;
-  public_path?: string;
-}
 
 const photoNames: Record<string, string> = {
   "varanasi-ghats": "The Varanasi riverfront",
@@ -30,10 +19,6 @@ const photoNames: Record<string, string> = {
   "kashi-vishwanath-2025": "Shri Kashi Vishwanath Temple",
   "varanasi-hero": "The sunlit ghats of Varanasi",
 };
-const credits = [...(assetManifest.assets as CreditAsset[]).filter(
-  (asset) => asset.kind === "destination" && Boolean(asset.public_path),
-), { ...heroAsset, kind: "destination", rights: heroAsset.license }];
-
 export default function PrivacyPage() {
   return (
     <main id="main" className="privacy-page">

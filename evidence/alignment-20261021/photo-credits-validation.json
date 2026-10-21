@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "count": 5,
+  "ids": [
+    "varanasi-ghats",
+    "ganges-dawn",
+    "ganges-boats",
+    "kashi-vishwanath-2025",
+    "varanasi-hero"
+  ],
+  "renderedFields": [
+    "id",
+    "author",
+    "source_page",
+    "rights",
+    "license_url"
+  ],
+  "originalProjectionMatches": true,
+  "privacyMarkupAndPhotoNamesUnchanged": true,
+  "sourceManifestsUnchanged": true,
+  "sources": [
+    {
+      "path": "research/assets/asset-manifest.json",
+      "sha256": "bd0dfc8bf03f73281f383e229c8a4598bde5b8e8e39debbd4e106f3a75a9c71d"
+    },
+    {
+      "path": "research/awwwards-revision/hero-asset.json",
+      "sha256": "faa9fafdc41f838a6964ea883dd8ca9e750ae2f6b2d2cc9a689112333abad51d"
+    }
+  ]
+}

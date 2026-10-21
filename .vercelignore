@@ -4,13 +4,7 @@
 .next/
 out/
 node_modules/
-research/*
-!research/assets/
-research/assets/*
-!research/assets/asset-manifest.json
-!research/awwwards-revision/
-research/awwwards-revision/*
-!research/awwwards-revision/hero-asset.json
+research/
 evidence/
 docs/
 tests/

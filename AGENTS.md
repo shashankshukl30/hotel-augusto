@@ -27,6 +27,7 @@ Private client project. Work only within this folder. Parent workspace rules app
 - Read `docs/plans/2026-10-19-website.md` and research notes before revising the design.
 - Browser verification at mobile and desktop sizes is mandatory. Verify keyboard, reduced motion, navigation, image gallery, enquiry validation, and WhatsApp destination.
 - Preserve image provenance, editable source, lockfile, evidence and task-owned cleanup audit.
+- Photo credits are deployed from `content/photo-credits.json`. Run `npm run credits:sync` whenever destination provenance in `research/assets/asset-manifest.json` or `research/awwwards-revision/hero-asset.json` changes, and commit the generated file. Runtime pages must not import excluded research files; `npm run credits:sync -- --check` verifies the generated credits without writing them.
 - Current revision evidence belongs in `evidence/apple-dominant-revision/`: `production-qa.json`, `conversion-upgrade-qa.json`, `production-audit.json`, `static-export-audit.json`, `private-deployment.json` and `cleanup-final.json`. The browser suites must cover all 17 routes and the new enquiry/download/dock flows. Earlier passes remain historical evidence and cannot certify new edits. Run browsers sequentially to avoid memory pressure.
 
 <!-- BEGIN:nextjs-agent-rules -->

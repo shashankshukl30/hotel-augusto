@@ -10,6 +10,7 @@ This revision preserves the approved visual direction and fixes the supplied Saf
 - Matching dining introduction, enquiry and FAQ columns.
 - Compact forms respond to their own available width. The homepage enquiry section becomes one column at 800px; 601-768px date text no longer overlaps calendar triggers.
 - Consistent date prompt/native-value insets and wrapping prepared group enquiry buttons.
+- Deployment-safe photo credits: the privacy page reads generated `content/photo-credits.json`. Research remains outside deployment uploads. `npm run credits:sync` regenerates the five published credits; its `--check` mode detects drift. The previous CLI packaging failure is retained in `deploy-packaging-failure.txt`, and exact field/order/source-hash preservation is verified in `photo-credits-validation.json`.
 
 ## Local verification
 
@@ -19,6 +20,7 @@ This revision preserves the approved visual direction and fixes the supplied Saf
 - `home-compact-before.json` and `home-compact-after.json`: the additional real date-label regression failed 8 checks before the fix and passed all 34 afterwards.
 - `production-states.json`: empty, invalid and prepared contact/group/dining enquiries, compact home forms and tablet room forms. Its 3 dining-column failures led to the final dining alignment fix. Two 1100px room assertions incorrectly assumed the container was below 400px; the harness now tests actual available width. `production-states-rerun.json` reruns both affected routes on the final build: 85 passed, zero failures/runtime errors.
 - `production-motion.json`: 41 checks passed, including actual photo movement within fixed frames, hero/gallery/city motion, keyboard/touch navigation, all 17 mobile routes, reduced motion, failed image fallback and no-JavaScript content.
+- `calendar-chromium.json`: 78 touch-opening, deliberate selection, dismissal and virtual-click checks passed, with no runtime errors.
 
 No enquiry was sent and no WhatsApp link was opened. Browser engine emulation does not constitute a physical Mac/iPhone test. Hosted WebKit verification and deployment receipts are recorded separately when completed.
 
