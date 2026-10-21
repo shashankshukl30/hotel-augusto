@@ -1,0 +1,18 @@
+[
+  {
+    "width": 320,
+    "height": 740,
+    "local_stylesheet_injected_on_current_production": true,
+    "overflow": false,
+    "guest_width": 96,
+    "button_text_fits": true
+  },
+  {
+    "width": 480,
+    "height": 390,
+    "local_stylesheet_injected_on_current_production": true,
+    "overflow": false,
+    "guest_width": 96,
+    "button_text_fits": true
+  }
+]
