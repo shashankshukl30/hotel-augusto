@@ -80,7 +80,7 @@ Generate matching Markdown and Word handoffs after final verification with `pyth
 1. Confirm the WhatsApp booking number, current guest policies and permission to reuse the hotel photographs collected from public listings.
 2. Supply the approved production domain. Set `NEXT_PUBLIC_SITE_URL` to its HTTPS origin.
 3. Keep `SITE_INDEXABLE=false` for previews; set it to `true` only for approved production. This controls robots and sitemap output.
-4. Push this independent private Git repository before any Vercel deployment. The Vercel region is configured as `sin1`.
+4. Push this independent Git repository before any Vercel deployment. The owner authorized public visibility on 21 October 2026 for the client import; `main` contains the current approved application. The Vercel region is configured as `sin1`.
 5. Run the browser checks on the deployed host and verify its canonical/OG URLs before connecting a domain.
 
 No production domain has been changed. Old hotel domains were not assumed to be authoritative: one no longer resolves, and another redirects through an affiliate.

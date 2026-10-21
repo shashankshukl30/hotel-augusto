@@ -1,0 +1,58 @@
+﻿{
+    "recorded_at_utc":  "2026-10-21T15:39:42.0699741Z",
+    "repository":  "https://github.com/shashankshukl30/hotel-augusto",
+    "repository_visibility":  "PUBLIC",
+    "anonymous_repository_http":  200,
+    "github_disabled":  false,
+    "approved_application_commit":  "dfe908bccd5a898556ebc043f1de55561431fb06",
+    "main_fast_forwarded_from":  "fb6eaa1e981f06c63f7cfbba5ec21fe912edf74f",
+    "latest_application_on_main":  true,
+    "credential_review":  {
+                              "commits":  26,
+                              "project_credentials_found":  0,
+                              "unique_text_xml_blobs":  709,
+                              "notes":  "Public third-party browser analytics and map keys in captured research were distinguished from project authentication."
+                          },
+    "client_vercel_team":  "sahil-5aa6",
+    "current_cli_team":  "omvitys-projects",
+    "client_deployment_created":  false,
+    "namecheap_domain":  null,
+    "dns_changes_made":  false,
+    "browser_access":  {
+                           "desktop_bridge_error":  "Computer Use native pipe is unavailable",
+                           "separate_automation_browser":  "No authenticated client sessions",
+                           "user_screenshot":  "Signed-in Brave browser with Vercel and Namecheap tabs",
+                           "reset_and_retry":  "Same missing native pipe error"
+                       },
+    "pending":  [
+                    "Working connection to signed-in client browser or locally configured client API access",
+                    "Exact domain from client Namecheap account",
+                    "Deploy latest source to client Vercel team",
+                    "Configure production origin/indexing and project domain",
+                    "Apply and verify domain DNS and TLS without altering unrelated mail records"
+                ],
+    "cleanup":  {
+                    "removed_bytes":  0,
+                    "removed_paths":  [
+
+                                      ],
+                    "reparse_point":  false,
+                    "reason":  "No task-owned disposable files were created. Retain source and handoff evidence; no user browser profiles or application caches were removed.",
+                    "before_free_bytes":  {
+                                              "D":  43052171264,
+                                              "C":  25071337472
+                                          },
+                    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\client-handoff-20261021",
+                    "scope_validated":  true,
+                    "after_free_bytes":  [
+                                             {
+                                                 "Name":  "C",
+                                                 "Free":  24608931840
+                                             },
+                                             {
+                                                 "Name":  "D",
+                                                 "Free":  43042992128
+                                             }
+                                         ]
+                }
+}
