@@ -5,6 +5,7 @@ import { RoomComparison } from "@/components/room-comparison";
 import "../rooms.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/rooms/compare" },
   title: "Compare Rooms at Hotel Augusto Varanasi | Find Your Stay",
   description: "Compare Deluxe, Twin and Family room arrangements at Hotel Augusto. See genuine room photographs and shared comforts, then enquire directly for your dates.",
 };

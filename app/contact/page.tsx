@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { ChevronDown, Phone } from "lucide-react";
+import { ChevronDown, Mail, Phone } from "lucide-react";
 import { ContactEnquiry } from "@/components/contact-enquiry";
 import { Reveal } from "@/components/reveal";
 import { WhatsAppIcon } from "@/components/whatsapp-icon";
@@ -9,9 +9,10 @@ import { faqs, hotel } from "@/content/hotel";
 import "./contact.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact Hotel Augusto Varanasi | Plan Your Kashi Stay",
   description:
-    "Speak with Hotel Augusto about your Varanasi stay. Find our Godowlia address, call the hotel or send your travel dates and room enquiry on WhatsApp.",
+    "Speak with Hotel Augusto about your Varanasi stay. Find our Godowlia address, call the hotel or send your travel dates by email or WhatsApp.",
 };
 
 export default function ContactPage() {
@@ -36,6 +37,7 @@ export default function ContactPage() {
               <Phone size={18} aria-hidden="true" /> {hotel.phone}
             </a>
           </div>
+          <a className="contact-email" href={`mailto:${hotel.email}`}><Mail size={18} aria-hidden="true"/>{hotel.email}</a>
           <a className="contact-enquiry-jump" href="#enquire">
             Or start with your travel dates <ChevronDown size={16} aria-hidden="true" />
           </a>
@@ -47,8 +49,8 @@ export default function ContactPage() {
         <div className="contact-enquiry-content">
           <Reveal className="contact-section-heading">
             <h2 id="enquiry-title">Tell us your plans.</h2>
-            <p>Choose your dates and room. We’ll prepare a message for you to
-              review and send to the hotel on WhatsApp.</p>
+            <p>Choose your dates and room. Send your enquiry by email, or prepare
+              a message to continue with the hotel on WhatsApp.</p>
           </Reveal>
           <div className="contact-form-panel"><ContactEnquiry /></div>
         </div>

@@ -11,6 +11,9 @@
 .contact-call { color: var(--accent); background: var(--paper-deep); border: 1px solid transparent; transition: background 180ms, transform 180ms; }
 .contact-call:hover { background: color-mix(in oklch, var(--accent) 8%, var(--paper)); }
 .contact-call:active { transform: scale(.98); }
+.contact-email { display: flex; align-items: center; gap: 10px; width: fit-content; max-width: 100%; min-height: 44px; margin-top: 12px; color: var(--accent); font-size: 15px; overflow-wrap: anywhere; }
+.contact-email svg { flex-shrink: 0; }
+.contact-email:hover { text-decoration: underline; text-underline-offset: 4px; }
 .contact-enquiry-jump { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-top: 16px; padding-block: 10px; color: var(--accent); font-size: 15px; line-height: 1.5; }
 .contact-enquiry-jump:hover { text-decoration: underline; text-underline-offset: 4px; }
 .contact-enquiry-jump:active { opacity: .75; }

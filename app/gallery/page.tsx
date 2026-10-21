@@ -6,6 +6,7 @@ import { Reveal } from "@/components/reveal";
 import "../editorial-pages.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/gallery" },
   title: { absolute: "Hotel Augusto Gallery | Rooms and Spaces in Varanasi" },
   description: "Take a closer look at Hotel Augusto, Varanasi. Explore photographs of the guest rooms, reception, restaurant and the hotel before planning your stay.",
 };

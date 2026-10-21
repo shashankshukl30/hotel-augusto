@@ -89,6 +89,6 @@ export const practicalFaqs = [
   { topic: "Rooms", question: "Is there a lift?", answer: "Yes, the hotel has a lift. This does not establish that every part of the property is step-free. Tell the hotel about any mobility or accessibility needs before booking." },
   { topic: "Dining", question: "Does the hotel serve vegetarian food?", answer: "Yes. Hotel Augusto has an on-site vegetarian restaurant and room service. Ask for the current menu and serving times." },
   { topic: "Dining", question: "Is breakfast included?", answer: "Breakfast inclusion depends on the room plan you choose. Confirm the meals included, serving times and any additional charges when asking for your rate." },
-  { topic: "Booking", question: "Does sending an enquiry reserve a room?", answer: "No. The website prepares a WhatsApp enquiry for you to review and send. The hotel must confirm availability, price, payment terms and your reservation." },
+  { topic: "Booking", question: "Does sending an enquiry reserve a room?", answer: "No. You can send an email enquiry or prepare a WhatsApp message through the website. The hotel must confirm availability, price, payment terms and your reservation." },
   { topic: "Booking", question: "What should I confirm before booking?", answer: "Confirm your room arrangement, guest identification requirements, check-in and check-out times, meal inclusions, payment terms and cancellation conditions directly with the hotel." },
 ] as const;

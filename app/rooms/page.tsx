@@ -8,6 +8,7 @@ import { RoomPhotoLink } from "@/components/room-photo-link";
 import "./rooms.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/rooms" },
   title: "Rooms at Hotel Augusto Varanasi | Find Your Kashi Stay",
   description: "Explore Deluxe, Twin and Family rooms at Hotel Augusto in Godowlia, Varanasi. Compare bed arrangements, see real photographs and enquire with the hotel.",
 };

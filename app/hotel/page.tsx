@@ -9,6 +9,7 @@ import { services } from "@/content/hospitality";
 import "../hospitality-pages.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/hotel" },
   title: "Hotel Augusto, Varanasi | Our Hotel & Guest Facilities",
   description: "Step inside Hotel Augusto in Godowlia. Discover the rooms, vegetarian restaurant, reception, luggage support and practical facilities for your Varanasi stay.",
 };

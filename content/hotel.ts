@@ -10,6 +10,7 @@ export const hotel = {
   phone: "+91 80817 09146",
   phoneHref: "tel:+918081709146",
   whatsappNumber: "918081709146",
+  email: "aromaofkashi@gmail.com",
   address: [
     "D 36/1, August Kunda Road",
     "Godowlia, Jangambari",
@@ -88,7 +89,7 @@ export const faqs = [
   {
     question: "How do I book a room?",
     answer:
-      "Send your travel dates, number of guests and preferred room on WhatsApp, or call us. The hotel will confirm availability, the rate and payment details before you book.",
+      "Send your travel dates, number of guests and preferred room through the enquiry form, email us or use WhatsApp. You can also call the hotel. The team will confirm availability, the rate and payment details before you book.",
   },
   {
     question: "Which room types can I choose from?",

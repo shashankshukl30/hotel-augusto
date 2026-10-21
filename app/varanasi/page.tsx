@@ -9,6 +9,7 @@ import { guides } from "@/content/guides";
 import "../editorial-pages.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/varanasi" },
   title: { absolute: "Explore Varanasi: Ghats and Temple Walks | Hotel Augusto" },
   description: "Discover Varanasi from Hotel Augusto in Godowlia. Explore the Ganga, Kashi Vishwanath Temple and the evening aarti at Dashashwamedh Ghat.",
 };

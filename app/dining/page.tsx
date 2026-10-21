@@ -10,6 +10,7 @@ import { practicalFaqs } from "@/content/hospitality";
 import "../hospitality-pages.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/dining" },
   title: "Vegetarian Dining at Hotel Augusto | Varanasi Hotel",
   description: "A table at Hotel Augusto, Varanasi. Explore the vegetarian restaurant and room service, then ask about the menu, breakfast inclusions and your meal plans.",
 };
@@ -44,7 +45,7 @@ export default function DiningPage() {
       <section className="hospitality-shell hospitality-dining-enquiries" id="dining-enquiries" aria-labelledby="meal-enquiry-title">
         <Reveal className="hospitality-dining-enquiry-heading">
           <p className="hospitality-context">Ask the hotel</p><h2 id="meal-enquiry-title">Let’s plan<br />your meals.</h2>
-          <p>Share your date, party size and meal plans. Prepare an enquiry, then send it to the hotel on WhatsApp.</p>
+          <p>Share your date, party size and meal plans. Send an email enquiry to the hotel, or continue on WhatsApp.</p>
           <a className="hospitality-dining-download" href="/downloads/hotel-augusto-dining-guide.pdf" download><FileText size={24} aria-hidden="true" /><span><strong>Your dining planning guide</strong><small>Download PDF · one page</small></span><ArrowDownToLine size={20} aria-hidden="true" /></a>
           <details className="hospitality-dining-quick"><summary>Just have a quick question?<Plus size={18} aria-hidden="true" /></summary><div className="hospitality-dining-enquiry-list">
             {diningEnquiries.map((item) => <div className="hospitality-dining-enquiry" key={item.title}><h3>{item.title}</h3><p>{item.detail}</p><a href={"https://wa.me/" + hotel.whatsappNumber + "?text=" + encodeURIComponent(item.message)} target="_blank" rel="noopener noreferrer" className="hospitality-link"><WhatsAppIcon size={17} />{item.action}<ArrowUpRight size={17} aria-hidden="true" /></a></div>)}

@@ -15,7 +15,11 @@ export function generateStaticParams() { return rooms.map(room => ({ slug: room.
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const room = rooms.find(item => item.slug === slug);
-  return { title: room ? `${room.name} | Hotel Augusto, Varanasi — Book Direct` : "Room Not Found | Hotel Augusto Varanasi", description: room?.description };
+  return {
+    title: room ? `${room.name} | Hotel Augusto, Varanasi — Book Direct` : "Room Not Found | Hotel Augusto Varanasi",
+    description: room?.description,
+    alternates: room ? { canonical: `/rooms/${room.slug}` } : undefined,
+  };
 }
 const summaries: Record<string, string> = {
   "deluxe-room": "A double bed, air conditioning and your own bathroom. The Deluxe Room gives you a comfortable base for exploring Godowlia.",

@@ -1,5 +1,6 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowUpRight, BedDouble, BellRing, ChevronRight, Coffee, ConciergeBell, MapPin, Phone, Plus, Snowflake, Utensils, Wifi } from "lucide-react";
+import { ArrowUpRight, BedDouble, BellRing, ChevronRight, Coffee, ConciergeBell, Mail, MapPin, Phone, Plus, Snowflake, Utensils, Wifi } from "lucide-react";
 import { HomeHero } from "@/components/home-hero";
 import { KineticText } from "@/components/kinetic-text";
 import { HomeGallery } from "@/components/home-gallery";
@@ -14,6 +15,10 @@ import { hotel, rooms } from "@/content/hotel";
 import { guestReviewHighlight, practicalFaqs, reviewSources } from "@/content/hospitality";
 import { googleReviewSnapshot, proximityHighlights } from "@/content/social-proof";
 import "./home.css";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const essentials = [
   {icon:Snowflake,label:"Air-conditioned rooms"},{icon:Wifi,label:"Wi-Fi"},
@@ -58,6 +63,6 @@ export default function Home() {
 
     <section className="home-guides container section-space"><Reveal className="home-section-heading"><div><p className="eyebrow">Your stay guide.</p><h2><KineticText text="A little local knowledge."/></h2></div><Link href="/guides" className="text-link">All guides <ChevronRight size={19}/></Link></Reveal><div className="home-guide-links"><Link href="/guides/first-visit-to-kashi"><span>Explore</span><h3>Your first visit to Kashi.</h3><p>Plan time for the river, the temple and the old city.</p><ChevronRight size={20}/></Link><Link href="/guides/arriving-in-godowlia"><span>Arrive</span><h3>Getting to Godowlia.</h3><p>Address, drop-off details and the hotel contact.</p><ChevronRight size={20}/></Link><Link href="/guides/choosing-your-room"><span>Stay</span><h3>Choose your room.</h3><p>Double, twin or family. Find the right arrangement.</p><ChevronRight size={20}/></Link></div></section>
 
-    <section className="home-reserve" id="reserve"><div className="container home-reserve-grid"><Reveal className="home-reserve-copy"><p className="eyebrow">Your next trip.</p><h2><KineticText text="See you"/><br/><KineticText text="in Varanasi." delay={.1}/></h2><p>Send your dates and guest details. The hotel will confirm room availability and rates directly.</p><div className="home-reserve-contact"><a href={whatsapp} target="_blank" rel="noopener noreferrer"><WhatsAppIcon size={18}/> WhatsApp the hotel</a><a href={hotel.phoneHref}><Phone size={16}/> {hotel.phone}</a></div></Reveal><StayBar compact/></div></section>
+    <section className="home-reserve" id="reserve"><div className="container home-reserve-grid"><Reveal className="home-reserve-copy"><p className="eyebrow">Your next trip.</p><h2><KineticText text="See you"/><br/><KineticText text="in Varanasi." delay={.1}/></h2><p>Send your dates and guest details. The hotel will confirm room availability and rates directly.</p><div className="home-reserve-contact"><a href={whatsapp} target="_blank" rel="noopener noreferrer"><WhatsAppIcon size={18}/> WhatsApp the hotel</a><a href={hotel.phoneHref}><Phone size={16}/> {hotel.phone}</a><a href={`mailto:${hotel.email}`} style={{overflowWrap:"anywhere"}}><Mail size={16}/> {hotel.email}</a></div></Reveal><StayBar compact/></div></section>
   </main>;
 }

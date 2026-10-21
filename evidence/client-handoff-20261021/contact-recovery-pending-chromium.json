@@ -1,0 +1,422 @@
+{
+  "recorded_at_utc": "2026-10-21T16:07:03.599422+00:00",
+  "base": "http://127.0.0.1:3080",
+  "browser": "chromium",
+  "checks": [
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock test starts with disabled preferences and one request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock update preserves mounted form and all private/preferences values",
+      "passed": true,
+      "detail": {
+        "name": "Digiocular verification",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "notes": "QA recovery check - intercepted locally, never delivered.",
+        "room": "Family Room",
+        "roomCount": "3",
+        "children": "2"
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock update applies new dates and adults",
+      "passed": true,
+      "detail": {
+        "arrival": "2026-11-30",
+        "departure": "2026-12-03",
+        "adults": "4",
+        "children": "2",
+        "room": "Family Room",
+        "roomCount": "3",
+        "name": "Digiocular verification",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "notes": "QA recovery check - intercepted locally, never delivered.",
+        "_honey": ""
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Original fetch is aborted and email state resets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock URL preserves curated preferences only",
+      "passed": true,
+      "detail": "http://127.0.0.1:3080/contact?arrival=2026-11-30&departure=2026-12-03&adults=4&children=2&room=family-room&roomCount=3#enquire"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock change never submits a replacement email",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Late response cannot restore stale accepted status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Explicit resubmission sends updated travel values and preserved preferences",
+      "passed": true,
+      "detail": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-30",
+        "Departure": "2026-12-03",
+        "Adults": "4",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Updated explicit enquiry reaches accepted state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock query synchronization: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock test starts with disabled preferences and one request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock update preserves mounted form and all private/preferences values",
+      "passed": true,
+      "detail": {
+        "name": "Digiocular verification",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "notes": "QA recovery check - intercepted locally, never delivered.",
+        "room": "Family Room",
+        "roomCount": "3",
+        "children": "2"
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock update applies new dates and adults",
+      "passed": true,
+      "detail": {
+        "arrival": "2026-11-30",
+        "departure": "2026-12-03",
+        "adults": "4",
+        "children": "2",
+        "room": "Family Room",
+        "roomCount": "3",
+        "name": "Digiocular verification",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "notes": "QA recovery check - intercepted locally, never delivered.",
+        "_honey": ""
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Original fetch is aborted and email state resets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock URL preserves curated preferences only",
+      "passed": true,
+      "detail": "http://127.0.0.1:3080/contact?arrival=2026-11-30&departure=2026-12-03&adults=4&children=2&room=family-room&roomCount=3#enquire"
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock change never submits a replacement email",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Late response cannot restore stale accepted status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Explicit resubmission sends updated travel values and preserved preferences",
+      "passed": true,
+      "detail": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-30",
+        "Departure": "2026-12-03",
+        "Adults": "4",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Updated explicit enquiry reaches accepted state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Pending dock query synchronization: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "No runtime or recursion errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "No WhatsApp navigation attempted",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "No unexpected external write attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "console_errors": [],
+  "requests": [
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-20",
+        "Departure": "2026-11-22",
+        "Adults": "2",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-30",
+        "Departure": "2026-12-03",
+        "Adults": "4",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-20",
+        "Departure": "2026-11-22",
+        "Adults": "2",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-30",
+        "Departure": "2026-12-03",
+        "Adults": "4",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    }
+  ],
+  "blocked_external_writes": [],
+  "blocked_whatsapp": [],
+  "screenshots": [
+    "evidence\\client-handoff-20261021\\contact-chromium-recovery-pending-query-sync-390.png",
+    "evidence\\client-handoff-20261021\\contact-chromium-recovery-pending-query-sync-1440.png"
+  ],
+  "external_emails_sent": 0,
+  "limitations": [
+    "FormSubmit responses are mocked. This does not prove mailbox activation or delivery.",
+    "WebKit emulation is not a physical iPhone test."
+  ],
+  "timeout_clock": "Real elapsed time; each held request exercises the application's 20000ms abort timer.",
+  "summary": {
+    "passed": 25,
+    "failed": 0,
+    "runtime_errors": 0,
+    "mocked_posts": 4
+  }
+}

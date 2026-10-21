@@ -1,0 +1,55 @@
+.header-book.header-whatsapp > svg { display:block; }
+.navigation-contact { flex-wrap:wrap; gap:8px 24px; }
+.navigation-contact a:hover { color:var(--accent); }
+.navigation-contact a:active { opacity:.75; }
+
+.whatsapp-chat {
+  position:fixed;
+  right:max(22px,env(safe-area-inset-right));
+  bottom:calc(var(--booking-dock-height,130px) + 16px);
+  z-index:37;
+  width:56px;
+  height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid oklch(.99 0 0 / .4);
+  border-radius:50%;
+  background:oklch(.47 .12 154);
+  box-shadow:0 3px 14px oklch(.2 .02 155 / .18);
+  transition:background-color 180ms,box-shadow 180ms;
+}
+.whatsapp-chat:hover { background:oklch(.405 .105 154); box-shadow:0 5px 18px oklch(.2 .02 155 / .25); }
+.whatsapp-chat:active { background:oklch(.36 .09 154); }
+.whatsapp-chat:focus-visible { outline:3px solid var(--paper); outline-offset:3px; box-shadow:0 0 0 7px var(--accent); }
+/* The homepage scene controls sit directly above the booking dock. */
+.whatsapp-chat-home { bottom:calc(var(--booking-dock-height,130px) + 88px); }
+/* Taller desktop heroes have 24px padding beneath their 52px scene row. */
+@media(min-width:601px) and (min-height:561px) {
+  .whatsapp-chat-home { bottom:calc(var(--booking-dock-height,130px) + 104px); }
+}
+.whatsapp-chat-label {
+  position:absolute;
+  right:calc(100% + 12px);
+  padding:9px 13px;
+  color:var(--ink);
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:10px;
+  font-size:13px;
+  font-weight:500;
+  line-height:1.4;
+  white-space:nowrap;
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+}
+.whatsapp-chat:hover .whatsapp-chat-label,.whatsapp-chat:focus-visible .whatsapp-chat-label { opacity:1; visibility:visible; }
+body:has(dialog[open]) .whatsapp-chat { visibility:hidden; }
+@media(max-width:600px) {
+  .header-book.header-whatsapp { padding-inline:12px; }
+  .site-header .menu-trigger { width:44px; flex-shrink:0; }
+  .whatsapp-chat { width:52px; height:52px; right:max(16px,env(safe-area-inset-right)); }
+  .whatsapp-chat-label { display:none; }
+}
+@media(prefers-reduced-motion:reduce) { .whatsapp-chat { transition:none; } }

@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "credits:sync": "node scripts/sync-photo-credits.mjs",
-    "test": "node --test tests/booking.test.mjs tests/static-export.test.mjs tests/responsive-images.test.mjs tests/dining-enquiry.test.mjs",
+    "test": "node --test tests/booking.test.mjs tests/static-export.test.mjs tests/responsive-images.test.mjs tests/dining-enquiry.test.mjs tests/enquiry-email.test.mjs",
     "qa": "python scripts/qa_hospitality_revision.py"
   },
   "dependencies": {

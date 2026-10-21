@@ -38,6 +38,6 @@ export function StayBar({ compact = false, room = "" }: { compact?: boolean; roo
       <button className="button stay-submit" type="submit" style={{color:"var(--paper)"}}>Plan my stay <ArrowUpRight size={20}/></button>
     </div>
     {Object.keys(errors).length>0 && <p id={`${id}-error`} className="stay-error" role="alert">{Object.values(errors).join(" ")}</p>}
-    <p className="stay-footnote">{nights > 0 && <strong>{nights} night{nights === 1 ? "" : "s"}. </strong>}Enquire directly with the hotel. Availability and rates confirmed on WhatsApp.</p>
+    <p className="stay-footnote">{nights > 0 && <strong>{nights} night{nights === 1 ? "" : "s"}. </strong>}Enquire by email or WhatsApp. The hotel will confirm availability and rates.</p>
   </form>;
 }

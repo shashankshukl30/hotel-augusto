@@ -1,0 +1,37 @@
+﻿{
+    "typecheck":  "passed",
+    "lint":  "passed",
+    "recorded_at_utc":  "2026-10-21T16:07:21.3802424Z",
+    "unit_tests":  {
+                       "passed":  23,
+                       "failed":  0
+                   },
+    "pending":  [
+                    "Hosted WebKit and calendar regression checks",
+                    "Namecheap DNS change and HTTPS verification",
+                    "FormSubmit recipient activation and real inbox verification"
+                ],
+    "browser":  {
+                    "all_17_routes_mobile_overflow":  "passed",
+                    "pending_recovery":  "contact-recovery-pending-chromium.json",
+                    "recovery":  "contact-recovery-chromium.json",
+                    "resolved_findings":  [
+                                              "Desktop scene control overlap fixed with increased chat clearance; retest passed",
+                                              "Landscape empty flex wrapper excluded from collisions; actual interactive targets verified"
+                                          ],
+                    "chat_retest":  "chat-layout-retest-chromium.json",
+                    "initial_report":  "contact-chromium.json",
+                    "real_emails_sent":  0,
+                    "runtime_errors":  0,
+                    "initial_checks":  {
+                                           "passed":  497,
+                                           "failed":  2
+                                       }
+                },
+    "build":  "passed",
+    "production_metadata":  {
+                                "pages":  17,
+                                "canonical_origin":  "https://hotelaugusto.in",
+                                "robots":  "index, follow"
+                            }
+}

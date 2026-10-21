@@ -8,6 +8,7 @@ import { hotel } from "@/content/hotel";
 import "./group-stays.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/group-stays" },
   title: "Group Stays in Varanasi | Enquire with Hotel Augusto",
   description: "Planning a family, friends or business stay in Varanasi? Share your dates, requested rooms and guest details with Hotel Augusto in Godowlia.",
 };

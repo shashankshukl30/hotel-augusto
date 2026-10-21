@@ -1,0 +1,722 @@
+{
+  "recorded_at_utc": "2026-10-21T16:05:29.067148+00:00",
+  "base": "http://127.0.0.1:3080",
+  "browser": "chromium",
+  "checks": [
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Timeout test holds exactly one intercepted request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Twenty-second timeout produces recovery guidance",
+      "passed": true,
+      "detail": {
+        "elapsed_seconds": 20.17,
+        "text": "We could not confirm the submission in time. Your details are still here. Check with the hotel before retrying, or use WhatsApp. Email the hotel"
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Timeout retains all fields and releases disabled state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Timeout offers exact hotel email fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Timeout recovery: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Explicit retry after timeout sends one unchanged enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Timeout retry reaches accepted state without clearing fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "name": "Timeout test holds exactly one intercepted request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "name": "Twenty-second timeout produces recovery guidance",
+      "passed": true,
+      "detail": {
+        "elapsed_seconds": 20.17,
+        "text": "We could not confirm the submission in time. Your details are still here. Check with the hotel before retrying, or use WhatsApp. Email the hotel"
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "name": "Timeout retains all fields and releases disabled state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "name": "Timeout offers exact hotel email fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "name": "Timeout recovery: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "name": "Explicit retry after timeout sends one unchanged enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "name": "Timeout retry reaches accepted state without clearing fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "name": "Timeout test holds exactly one intercepted request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "name": "Twenty-second timeout produces recovery guidance",
+      "passed": true,
+      "detail": {
+        "elapsed_seconds": 20.58,
+        "text": "We could not confirm the submission in time. Your details are still here. Check with the hotel before retrying, or use WhatsApp. Email the hotel"
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "name": "Timeout retains all fields and releases disabled state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "name": "Timeout offers exact hotel email fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "name": "Timeout recovery: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "name": "Explicit retry after timeout sends one unchanged enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "name": "Timeout retry reaches accepted state without clearing fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock query navigation preserves the mounted contact form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock updates dates and adults",
+      "passed": true,
+      "detail": {
+        "arrival": "2026-11-30",
+        "departure": "2026-12-03",
+        "adults": "4",
+        "children": "2",
+        "room": "Family Room",
+        "roomCount": "3",
+        "name": "Digiocular verification",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "notes": "QA recovery check - intercepted locally, never delivered.",
+        "_honey": ""
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock preserves private fields and newer room preferences",
+      "passed": true,
+      "detail": {
+        "name": "Digiocular verification",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "notes": "QA recovery check - intercepted locally, never delivered.",
+        "room": "Family Room",
+        "roomCount": "3",
+        "children": "2"
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Only travel preferences enter the URL",
+      "passed": true,
+      "detail": "http://127.0.0.1:3080/contact?arrival=2026-11-30&departure=2026-12-03&adults=4&children=2&room=family-room&roomCount=3#enquire"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "No private field value leaks into query",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock clears stale WhatsApp and email feedback without sending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock invalidates accepted email status and preserves private fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock never sends another email automatically",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock query synchronization: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock query navigation preserves the mounted contact form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock updates dates and adults",
+      "passed": true,
+      "detail": {
+        "arrival": "2026-11-30",
+        "departure": "2026-12-03",
+        "adults": "4",
+        "children": "2",
+        "room": "Family Room",
+        "roomCount": "3",
+        "name": "Digiocular verification",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "notes": "QA recovery check - intercepted locally, never delivered.",
+        "_honey": ""
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock preserves private fields and newer room preferences",
+      "passed": true,
+      "detail": {
+        "name": "Digiocular verification",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "notes": "QA recovery check - intercepted locally, never delivered.",
+        "room": "Family Room",
+        "roomCount": "3",
+        "children": "2"
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Only travel preferences enter the URL",
+      "passed": true,
+      "detail": "http://127.0.0.1:3080/contact?arrival=2026-11-30&departure=2026-12-03&adults=4&children=2&room=family-room&roomCount=3#enquire"
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "No private field value leaks into query",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock clears stale WhatsApp and email feedback without sending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock invalidates accepted email status and preserves private fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock never sends another email automatically",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "Dock query synchronization: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "No runtime or recursion errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "No WhatsApp navigation attempted",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "name": "No unexpected external write attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "console_errors": [],
+  "requests": [
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-20",
+        "Departure": "2026-11-22",
+        "Adults": "2",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-20",
+        "Departure": "2026-11-22",
+        "Adults": "2",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Preferred date": "2026-11-20",
+        "Interest": "Restaurant meal",
+        "Guests": "2",
+        "Notes": "QA timeout check - no delivery.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Dining enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/dining",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Preferred date": "2026-11-20",
+        "Interest": "Restaurant meal",
+        "Guests": "2",
+        "Notes": "QA timeout check - no delivery.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Dining enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Company or group": "",
+        "Arrival": "2026-11-20",
+        "Departure": "2026-11-22",
+        "Adults": "2",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Group stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/group-stays",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Company or group": "",
+        "Arrival": "2026-11-20",
+        "Departure": "2026-11-22",
+        "Adults": "2",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Group stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-30",
+        "Departure": "2026-12-03",
+        "Adults": "4",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "reduced_motion": false,
+      "route": "/contact?arrival=2026-11-20&departure=2026-11-22&adults=2&children=0&room=deluxe-room&roomCount=1",
+      "url": "https://formsubmit.co/ajax/aromaofkashi@gmail.com",
+      "payload": {
+        "Name": "Digiocular verification",
+        "Arrival": "2026-11-30",
+        "Departure": "2026-12-03",
+        "Adults": "4",
+        "Children": "2",
+        "Rooms requested": "3",
+        "Room preference": "Family Room",
+        "Notes": "QA recovery check - intercepted locally, never delivered.",
+        "email": "digiocular@gmail.com",
+        "phone": "+91 9999991234",
+        "_subject": "Hotel Augusto \u2014 Stay enquiry",
+        "_template": "table",
+        "_honey": ""
+      },
+      "mocked": true
+    }
+  ],
+  "blocked_external_writes": [],
+  "blocked_whatsapp": [],
+  "screenshots": [
+    "evidence\\client-handoff-20261021\\contact-chromium-recovery-contact-timeout-390.png",
+    "evidence\\client-handoff-20261021\\contact-chromium-recovery-dining-timeout-390.png",
+    "evidence\\client-handoff-20261021\\contact-chromium-recovery-group-stays-timeout-390.png",
+    "evidence\\client-handoff-20261021\\contact-chromium-recovery-query-sync-390.png",
+    "evidence\\client-handoff-20261021\\contact-chromium-recovery-query-sync-1440.png"
+  ],
+  "external_emails_sent": 0,
+  "limitations": [
+    "FormSubmit responses are mocked. This does not prove mailbox activation or delivery.",
+    "WebKit emulation is not a physical iPhone test."
+  ],
+  "timeout_clock": "Real elapsed time; each held request exercises the application's 20000ms abort timer.",
+  "summary": {
+    "passed": 49,
+    "failed": 0,
+    "runtime_errors": 0,
+    "mocked_posts": 8
+  }
+}

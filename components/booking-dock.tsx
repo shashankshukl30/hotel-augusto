@@ -42,14 +42,20 @@ export function BookingDock() {
       const enquiry = pathname === "/contact"
         ? document.querySelector<HTMLFormElement>(".booking-form")
         : null;
-      const current = enquiry ? new FormData(enquiry) : null;
-      const room = current
-        ? rooms.find(item => item.name === current.get("room"))?.slug || ""
+      // FormData omits disabled controls while an email is pending. Read only
+      // these three named travel controls so changing dates retains preferences.
+      const preference = (name: "room" | "children" | "roomCount", fallback: string) => {
+        const control = enquiry?.elements.namedItem(name);
+        return control instanceof HTMLInputElement || control instanceof HTMLSelectElement
+          ? control.value : fallback;
+      };
+      const room = enquiry
+        ? rooms.find(item => item.name === preference("room", ""))?.slug || ""
         : selectedRoom;
       const data = {
         arrival, departure, adults: String(values.adults || "2"),
-        children: String(current?.get("children") ?? "0"),
-        room, roomCount: String(current?.get("roomCount") ?? "1"), name: "", notes: "",
+        children: preference("children", "0"),
+        room, roomCount: preference("roomCount", "1"), name: "", notes: "",
       };
       const validation = validateEnquiry(data, localToday());
       setErrors(validation);
@@ -60,7 +66,7 @@ export function BookingDock() {
       }
       router.push(`/contact?${stayQuery(data)}#enquire`);
     }}>
-      <div className="booking-dock-copy"><strong>Your stay at Augusto.</strong><span>Availability confirmed on WhatsApp.</span></div>
+      <div className="booking-dock-copy"><strong>Your stay at Augusto.</strong><span>Availability confirmed by the hotel.</span></div>
       <div className="booking-dock-fields">
         <div className="dock-date"><label htmlFor="dock-arrival">Check-in</label><DateField id="dock-arrival" name="arrival" label="Check-in date" minToday required value={arrival} aria-invalid={!!errors.arrival} aria-describedby={errors.arrival ? "dock-error" : undefined} onValueChange={value => {
           setArrival(value);
