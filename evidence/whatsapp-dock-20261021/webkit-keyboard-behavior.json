@@ -1,0 +1,24 @@
+[
+  {
+    "key": "Tab",
+    "state": {
+      "focusVisible": false,
+      "tooltip": "hidden",
+      "active_tag": "body"
+    }
+  },
+  {
+    "key": "Alt+Tab",
+    "state": {
+      "focusVisible": false,
+      "tooltip": "hidden",
+      "active_tag": "body"
+    }
+  },
+  {
+    "after_keyboard_explicit_focus": {
+      "focusVisible": true,
+      "tooltip": "visible"
+    }
+  }
+]

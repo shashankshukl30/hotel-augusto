@@ -1,0 +1,56 @@
+{
+  "recorded_at_utc": "2026-10-21T16:36:30.681247+00:00",
+  "checks": [
+    {
+      "engine": "webkit",
+      "url": "https://hotel-augusto-brown.vercel.app/",
+      "status": 200,
+      "width": 320,
+      "height": 740,
+      "body": 320,
+      "guestWidth": 96,
+      "chatInside": true,
+      "chatSeparate": true,
+      "ctaTextFits": true,
+      "runtime_errors": [],
+      "ssl_bypass": false,
+      "stylesheet_injected": false,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "url": "https://hotel-augusto-brown.vercel.app/",
+      "status": 200,
+      "width": 480,
+      "height": 390,
+      "body": 480,
+      "guestWidth": 96,
+      "chatInside": true,
+      "chatSeparate": true,
+      "ctaTextFits": true,
+      "runtime_errors": [],
+      "ssl_bypass": false,
+      "stylesheet_injected": false,
+      "passed": true
+    },
+    {
+      "engine": "chromium",
+      "url": "https://hotelaugusto.in/",
+      "status": 200,
+      "width": 390,
+      "height": 844,
+      "body": 390,
+      "guestWidth": 96,
+      "chatInside": true,
+      "chatSeparate": true,
+      "ctaTextFits": true,
+      "runtime_errors": [],
+      "ssl_bypass": false,
+      "stylesheet_injected": false,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "external_messages_sent": 0,
+  "custom_domain_dns_override": "Chromium mapped the correct public Vercel IP because local ISP DNS still caches parking. Normal certificate validation remained enabled."
+}

@@ -1,0 +1,6 @@
+{
+  "path": "evidence\\whatsapp-dock-20261021\\webkit-keyboard-behavior.json",
+  "before_bytes": 316714,
+  "after_bytes": 400,
+  "reason": "Accidental full body.outerHTML in focus diagnostic was unnecessary; retained active tag and exact focus/tooltip states."
+}

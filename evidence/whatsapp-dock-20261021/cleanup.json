@@ -1,0 +1,28 @@
+{
+    "recorded_at_utc":  "2026-10-21T16:35:59.8160291Z",
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\whatsapp-dock-20261021",
+    "scope_validated":  true,
+    "reparse_point":  false,
+    "before_free_bytes":  {
+                              "D":  32262905856,
+                              "C":  19524567040
+                          },
+    "after_free_bytes":  [
+                             {
+                                 "Name":  "C",
+                                 "Free":  6735466496
+                             },
+                             {
+                                 "Name":  "D",
+                                 "Free":  31419219968
+                             }
+                         ],
+    "removed_paths":  [
+
+                      ],
+    "removed_bytes":  0,
+    "compacted_diagnostic":  "webkit-keyboard-behavior.json",
+    "compaction_report":  "diagnostic-compaction.json",
+    "compacted_bytes":  316314,
+    "reason":  "Retained required source, dependencies, active build, genuine assets, verification screenshots and recovery. Removed unnecessary duplicate page HTML from one task-owned diagnostic while preserving its actual focus results. No other task-owned disposable files identified."
+}
