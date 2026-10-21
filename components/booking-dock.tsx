@@ -3,10 +3,11 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { ChevronRight } from "lucide-react";
-import { rooms } from "@/content/hotel";
+import { hotel, rooms } from "@/content/hotel";
 import { localToday, nextDate, validateEnquiry, type EnquiryErrors } from "@/lib/booking";
 import { stayQuery } from "@/lib/stay-query";
 import { DateField } from "./date-field";
+import { WhatsAppChat } from "./whatsapp-chat";
 import "./booking-dock.css";
 
 /** Always within reach; the hotel confirms availability through the enquiry. */
@@ -18,6 +19,7 @@ export function BookingDock() {
   const [departure, setDeparture] = useState("");
   const [errors, setErrors] = useState<EnquiryErrors>({});
   const selectedRoom = rooms.find(room => pathname === `/rooms/${room.slug}`)?.slug || "";
+  const whatsapp = `https://wa.me/${hotel.whatsappNumber}?text=${encodeURIComponent(hotel.bookingMessage)}`;
 
   useEffect(() => {
     const element = dock.current;
@@ -74,8 +76,11 @@ export function BookingDock() {
           setErrors({});
         }}/></div>
         <div className="dock-date"><label htmlFor="dock-departure">Check-out</label><DateField id="dock-departure" name="departure" label="Check-out date" required value={departure} min={arrival ? nextDate(arrival) : undefined} aria-invalid={!!errors.departure} aria-describedby={errors.departure ? "dock-error" : undefined} onValueChange={value => { setDeparture(value); setErrors({}); }}/></div>
-        <div className="dock-guests"><label htmlFor="dock-adults">Adults</label><select id="dock-adults" name="adults" defaultValue="2" aria-label="Adults">{Array.from({length:8},(_,index)=><option key={index} value={index+1}>{index+1} adult{index ? "s" : ""}</option>)}</select></div>
-        <button type="submit" className="button dock-submit" style={{color:"var(--paper)"}}>Check availability <ChevronRight size={18}/></button>
+        <div className="dock-actions">
+          <div className="dock-guests"><label htmlFor="dock-adults">Adults</label><select id="dock-adults" name="adults" defaultValue="2" aria-label="Adults">{Array.from({length:8},(_,index)=><option key={index} value={index+1}>{index+1} adult{index ? "s" : ""}</option>)}</select></div>
+          <button type="submit" className="button dock-submit" style={{color:"var(--paper)"}}>Check availability <ChevronRight size={18}/></button>
+          <WhatsAppChat href={whatsapp}/>
+        </div>
       </div>
       {Object.keys(errors).length > 0 && <p className="dock-error" id="dock-error" role="alert">{Object.values(errors)[0]}</p>}
     </form>

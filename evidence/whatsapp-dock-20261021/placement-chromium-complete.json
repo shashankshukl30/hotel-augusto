@@ -1,0 +1,5913 @@
+{
+  "recorded_at_utc": "2026-10-21T16:28:03.436775+00:00",
+  "base": "http://127.0.0.1:3080",
+  "browser": "chromium",
+  "checks": [
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Navbar: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Navbar: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Navbar: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Navbar: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 132.15625,
+        "y": 12,
+        "width": 115.84375,
+        "height": 44
+      }
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 260,
+        "y": 686,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Homepage: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 260,
+          "right": 304,
+          "top": 686,
+          "bottom": 730,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 320,
+          "top": 613,
+          "bottom": 740,
+          "width": 320,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 304,
+          "top": 624,
+          "bottom": 730,
+          "width": 288,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 156,
+            "top": 624,
+            "bottom": 678
+          },
+          {
+            "class": "dock-date",
+            "left": 164,
+            "right": 304,
+            "top": 624,
+            "bottom": 678
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 94,
+            "top": 686,
+            "bottom": 730
+          },
+          {
+            "class": "button dock-submit",
+            "left": 102,
+            "right": 252,
+            "top": 686,
+            "bottom": 730
+          }
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Homepage: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 260,
+          "right": 304,
+          "top": 686,
+          "bottom": 730,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 320,
+          "top": 613,
+          "bottom": 740,
+          "width": 320,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 304,
+          "top": 624,
+          "bottom": 730,
+          "width": 288,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 156,
+            "top": 624,
+            "bottom": 678
+          },
+          {
+            "class": "dock-date",
+            "left": 164,
+            "right": 304,
+            "top": 624,
+            "bottom": 678
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 94,
+            "top": 686,
+            "bottom": 730
+          },
+          {
+            "class": "button dock-submit",
+            "left": 102,
+            "right": 252,
+            "top": 686,
+            "bottom": 730
+          }
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat clears hero controls",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 69,
+          "width": 320,
+          "height": 69,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 260,
+          "right": 304,
+          "top": 686,
+          "bottom": 730,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 19.5,
+          "right": 300.5,
+          "top": 537,
+          "bottom": 589,
+          "width": 281,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 32,
+          "right": 288,
+          "top": 323.36895751953125,
+          "bottom": 369.36895751953125,
+          "width": 256,
+          "height": 46,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 320,
+          "top": 613,
+          "bottom": 740,
+          "width": 320,
+          "height": 127,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 32,
+            "right": 197.296875,
+            "top": 323.3471374511719,
+            "bottom": 369.3471374511719,
+            "width": 165.296875,
+            "height": 46,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 209.296875,
+            "right": 255.296875,
+            "top": 323.3471374511719,
+            "bottom": 369.3471374511719,
+            "width": 46,
+            "height": 46,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Hero actions and scene controls stay above booking dock",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 69,
+          "width": 320,
+          "height": 69,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 260,
+          "right": 304,
+          "top": 686,
+          "bottom": 730,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 19.5,
+          "right": 300.5,
+          "top": 537,
+          "bottom": 589,
+          "width": 281,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 32,
+          "right": 288,
+          "top": 323.36895751953125,
+          "bottom": 369.36895751953125,
+          "width": 256,
+          "height": 46,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 320,
+          "top": 613,
+          "bottom": 740,
+          "width": 320,
+          "height": 127,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 32,
+            "right": 197.296875,
+            "top": 323.3471374511719,
+            "bottom": 369.3471374511719,
+            "width": 165.296875,
+            "height": 46,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 209.296875,
+            "right": 255.296875,
+            "top": 323.3471374511719,
+            "bottom": 369.3471374511719,
+            "width": 46,
+            "height": 46,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Homepage: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Hero scene remains operable beside chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Mobile menu: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Mobile menu: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Mobile menu: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat hides behind navigation dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Navigation open: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat returns after navigation closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat hides while calendar is open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Calendar opening does not select a date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Dock chat returns after calendar closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "route": "/",
+      "name": "Keyboard tooltip fits viewport",
+      "passed": false,
+      "detail": {
+        "x": 198.765625,
+        "y": 561.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navbar: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navbar: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navbar: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navbar: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 202.15625,
+        "y": 12,
+        "width": 115.84375,
+        "height": 44
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 330,
+        "y": 790,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Homepage: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Homepage: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat clears hero controls",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 69,
+          "width": 390,
+          "height": 69,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 44.84375,
+          "right": 345.15625,
+          "top": 641,
+          "bottom": 693,
+          "width": 300.3125,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 32,
+          "right": 358,
+          "top": 352.80133056640625,
+          "bottom": 398.80133056640625,
+          "width": 326,
+          "height": 46,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 32,
+            "right": 197.296875,
+            "top": 352.7776794433594,
+            "bottom": 398.7776794433594,
+            "width": 165.296875,
+            "height": 46,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 209.296875,
+            "right": 255.296875,
+            "top": 352.7776794433594,
+            "bottom": 398.7776794433594,
+            "width": 46,
+            "height": 46,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Hero actions and scene controls stay above booking dock",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 69,
+          "width": 390,
+          "height": 69,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 44.84375,
+          "right": 345.15625,
+          "top": 641,
+          "bottom": 693,
+          "width": 300.3125,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 32,
+          "right": 358,
+          "top": 352.80133056640625,
+          "bottom": 398.80133056640625,
+          "width": 326,
+          "height": 46,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 32,
+            "right": 197.296875,
+            "top": 352.7776794433594,
+            "bottom": 398.7776794433594,
+            "width": 165.296875,
+            "height": 46,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 209.296875,
+            "right": 255.296875,
+            "top": 352.7776794433594,
+            "bottom": 398.7776794433594,
+            "width": 46,
+            "height": 46,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Homepage: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Hero scene remains operable beside chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Mobile menu: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Mobile menu: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Mobile menu: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat hides behind navigation dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navigation open: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat returns after navigation closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat hides while calendar is open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Calendar opening does not select a date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat returns after calendar closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/gallery",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/gallery",
+      "name": "Dock chat hides behind gallery dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/gallery",
+      "name": "Dock chat returns after gallery closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/gallery",
+      "name": "Keyboard tooltip fits viewport",
+      "passed": false,
+      "detail": {
+        "x": 268.765625,
+        "y": 665.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "/: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "/: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "/: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/hotel",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/hotel",
+      "name": "/hotel: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/hotel",
+      "name": "/hotel: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/hotel",
+      "name": "/hotel: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms",
+      "name": "/rooms: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms",
+      "name": "/rooms: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms",
+      "name": "/rooms: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/compare",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/compare",
+      "name": "/rooms/compare: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/compare",
+      "name": "/rooms/compare: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/compare",
+      "name": "/rooms/compare: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/deluxe-room",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/deluxe-room",
+      "name": "/rooms/deluxe-room: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/deluxe-room",
+      "name": "/rooms/deluxe-room: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/deluxe-room",
+      "name": "/rooms/deluxe-room: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "/rooms/deluxe-twin-room: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "/rooms/deluxe-twin-room: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/deluxe-twin-room",
+      "name": "/rooms/deluxe-twin-room: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/family-room",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/family-room",
+      "name": "/rooms/family-room: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/family-room",
+      "name": "/rooms/family-room: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/rooms/family-room",
+      "name": "/rooms/family-room: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/dining",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/dining",
+      "name": "/dining: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/dining",
+      "name": "/dining: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/dining",
+      "name": "/dining: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/varanasi",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/varanasi",
+      "name": "/varanasi: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/varanasi",
+      "name": "/varanasi: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/varanasi",
+      "name": "/varanasi: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/gallery",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/gallery",
+      "name": "/gallery: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/gallery",
+      "name": "/gallery: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/gallery",
+      "name": "/gallery: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides",
+      "name": "/guides: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides",
+      "name": "/guides: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides",
+      "name": "/guides: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "/guides/first-visit-to-kashi: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "/guides/first-visit-to-kashi: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/first-visit-to-kashi",
+      "name": "/guides/first-visit-to-kashi: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "/guides/arriving-in-godowlia: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "/guides/arriving-in-godowlia: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/arriving-in-godowlia",
+      "name": "/guides/arriving-in-godowlia: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/choosing-your-room",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/choosing-your-room",
+      "name": "/guides/choosing-your-room: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/choosing-your-room",
+      "name": "/guides/choosing-your-room: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/guides/choosing-your-room",
+      "name": "/guides/choosing-your-room: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/group-stays",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/group-stays",
+      "name": "/group-stays: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/group-stays",
+      "name": "/group-stays: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/group-stays",
+      "name": "/group-stays: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/contact",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/contact",
+      "name": "/contact: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/contact",
+      "name": "/contact: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/contact",
+      "name": "/contact: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/privacy",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/privacy",
+      "name": "/privacy: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/privacy",
+      "name": "/privacy: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/privacy",
+      "name": "/privacy: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 330,
+          "right": 374,
+          "top": 790,
+          "bottom": 834,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 390,
+          "top": 717,
+          "bottom": 844,
+          "width": 390,
+          "height": 127,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 16,
+          "right": 374,
+          "top": 728,
+          "bottom": 834,
+          "width": 358,
+          "height": 106,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 16,
+            "right": 191,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-date",
+            "left": 199,
+            "right": 374,
+            "top": 728,
+            "bottom": 782
+          },
+          {
+            "class": "dock-guests",
+            "left": 16,
+            "right": 104,
+            "top": 790,
+            "bottom": 834
+          },
+          {
+            "class": "button dock-submit",
+            "left": 112,
+            "right": 322,
+            "top": 790,
+            "bottom": 834
+          }
+        ]
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Navbar: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Navbar: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Navbar: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Navbar: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 412.15625,
+        "y": 12,
+        "width": 115.84375,
+        "height": 44
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 544,
+        "y": 332,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Homepage: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 544,
+          "right": 588,
+          "top": 332,
+          "bottom": 376,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 600,
+          "top": 317,
+          "bottom": 390,
+          "width": 600,
+          "height": 73,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 12,
+          "right": 588,
+          "top": 326,
+          "bottom": 382,
+          "width": 576,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 12,
+            "right": 182,
+            "top": 326,
+            "bottom": 382
+          },
+          {
+            "class": "dock-date",
+            "left": 188,
+            "right": 358,
+            "top": 326,
+            "bottom": 382
+          },
+          {
+            "class": "dock-guests",
+            "left": 364,
+            "right": 444,
+            "top": 332,
+            "bottom": 376
+          },
+          {
+            "class": "button dock-submit",
+            "left": 450,
+            "right": 538,
+            "top": 326,
+            "bottom": 382
+          }
+        ]
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Homepage: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 544,
+          "right": 588,
+          "top": 332,
+          "bottom": 376,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 600,
+          "top": 317,
+          "bottom": 390,
+          "width": 600,
+          "height": 73,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 12,
+          "right": 588,
+          "top": 326,
+          "bottom": 382,
+          "width": 576,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 12,
+            "right": 182,
+            "top": 326,
+            "bottom": 382
+          },
+          {
+            "class": "dock-date",
+            "left": 188,
+            "right": 358,
+            "top": 326,
+            "bottom": 382
+          },
+          {
+            "class": "dock-guests",
+            "left": 364,
+            "right": 444,
+            "top": 332,
+            "bottom": 376
+          },
+          {
+            "class": "button dock-submit",
+            "left": 450,
+            "right": 538,
+            "top": 326,
+            "bottom": 382
+          }
+        ]
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat clears hero controls",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 600,
+          "top": 0,
+          "bottom": 69,
+          "width": 600,
+          "height": 69,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 544,
+          "right": 588,
+          "top": 332,
+          "bottom": 376,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 273.3125,
+          "right": 574,
+          "top": 245,
+          "bottom": 297,
+          "width": 300.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 365.375,
+          "right": 574,
+          "top": 139.35894775390625,
+          "bottom": 183.35894775390625,
+          "width": 208.625,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 600,
+          "top": 317,
+          "bottom": 390,
+          "width": 600,
+          "height": 73,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 365.375,
+            "right": 518,
+            "top": 139.30563354492188,
+            "bottom": 183.30563354492188,
+            "width": 152.625,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 530,
+            "right": 574,
+            "top": 139.30563354492188,
+            "bottom": 183.30563354492188,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Hero actions and scene controls stay above booking dock",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 600,
+          "top": 0,
+          "bottom": 69,
+          "width": 600,
+          "height": 69,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 544,
+          "right": 588,
+          "top": 332,
+          "bottom": 376,
+          "width": 44,
+          "height": 44,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 273.3125,
+          "right": 574,
+          "top": 245,
+          "bottom": 297,
+          "width": 300.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 365.375,
+          "right": 574,
+          "top": 139.35894775390625,
+          "bottom": 183.35894775390625,
+          "width": 208.625,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 600,
+          "top": 317,
+          "bottom": 390,
+          "width": 600,
+          "height": 73,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 365.375,
+            "right": 518,
+            "top": 139.30563354492188,
+            "bottom": 183.30563354492188,
+            "width": 152.625,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 530,
+            "right": 574,
+            "top": 139.30563354492188,
+            "bottom": 183.30563354492188,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Homepage: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 600,
+        "document": 600,
+        "viewport": 600
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Hero scene remains operable beside chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Mobile menu: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Mobile menu: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Mobile menu: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat hides behind navigation dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Navigation open: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 600,
+        "document": 600,
+        "viewport": 600
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat returns after navigation closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat hides while calendar is open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Calendar opening does not select a date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat returns after calendar closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "route": "/",
+      "name": "Keyboard tooltip fits viewport",
+      "passed": false,
+      "detail": {
+        "x": 482.765625,
+        "y": 263.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Navbar: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Navbar: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Navbar: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Navbar: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 613.171875,
+        "y": 14,
+        "width": 138.828125,
+        "height": 44
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 768,
+        "y": 321,
+        "width": 52,
+        "height": 52
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Homepage: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 768,
+          "right": 820,
+          "top": 321,
+          "bottom": 373,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 844,
+          "top": 303,
+          "bottom": 390,
+          "width": 844,
+          "height": 87,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 24,
+          "right": 820,
+          "top": 319,
+          "bottom": 375,
+          "width": 796,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 24,
+            "right": 210.984375,
+            "top": 319,
+            "bottom": 375
+          },
+          {
+            "class": "dock-date",
+            "left": 222.984375,
+            "right": 409.984375,
+            "top": 319,
+            "bottom": 375
+          },
+          {
+            "class": "dock-guests",
+            "left": 421.984375,
+            "right": 533.984375,
+            "top": 319,
+            "bottom": 375
+          },
+          {
+            "class": "button dock-submit",
+            "left": 545.984375,
+            "right": 756,
+            "top": 321,
+            "bottom": 373
+          }
+        ]
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Homepage: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 768,
+          "right": 820,
+          "top": 321,
+          "bottom": 373,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 844,
+          "top": 303,
+          "bottom": 390,
+          "width": 844,
+          "height": 87,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 24,
+          "right": 820,
+          "top": 319,
+          "bottom": 375,
+          "width": 796,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 24,
+            "right": 210.984375,
+            "top": 319,
+            "bottom": 375
+          },
+          {
+            "class": "dock-date",
+            "left": 222.984375,
+            "right": 409.984375,
+            "top": 319,
+            "bottom": 375
+          },
+          {
+            "class": "dock-guests",
+            "left": 421.984375,
+            "right": 533.984375,
+            "top": 319,
+            "bottom": 375
+          },
+          {
+            "class": "button dock-submit",
+            "left": 545.984375,
+            "right": 756,
+            "top": 321,
+            "bottom": 373
+          }
+        ]
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat clears hero controls",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 844,
+          "top": 0,
+          "bottom": 73,
+          "width": 844,
+          "height": 73,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 768,
+          "right": 820,
+          "top": 321,
+          "bottom": 373,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 495.3125,
+          "right": 804,
+          "top": 225,
+          "bottom": 277,
+          "width": 308.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 434,
+          "right": 804,
+          "top": 157.88291931152344,
+          "bottom": 201.88291931152344,
+          "width": 370,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 844,
+          "top": 303,
+          "bottom": 390,
+          "width": 844,
+          "height": 87,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 434,
+            "right": 594.625,
+            "top": 157.82664489746094,
+            "bottom": 201.82664489746094,
+            "width": 160.625,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 612.625,
+            "right": 656.625,
+            "top": 157.82664489746094,
+            "bottom": 201.82664489746094,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Hero actions and scene controls stay above booking dock",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 844,
+          "top": 0,
+          "bottom": 73,
+          "width": 844,
+          "height": 73,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 768,
+          "right": 820,
+          "top": 321,
+          "bottom": 373,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 495.3125,
+          "right": 804,
+          "top": 225,
+          "bottom": 277,
+          "width": 308.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 434,
+          "right": 804,
+          "top": 157.88291931152344,
+          "bottom": 201.88291931152344,
+          "width": 370,
+          "height": 44,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 844,
+          "top": 303,
+          "bottom": 390,
+          "width": 844,
+          "height": 87,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 434,
+            "right": 594.625,
+            "top": 157.82664489746094,
+            "bottom": 201.82664489746094,
+            "width": 160.625,
+            "height": 44,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 612.625,
+            "right": 656.625,
+            "top": 157.82664489746094,
+            "bottom": 201.82664489746094,
+            "width": 44,
+            "height": 44,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Homepage: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 844,
+        "document": 844,
+        "viewport": 844
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Hero scene remains operable beside chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Mobile menu: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Mobile menu: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Mobile menu: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat hides behind navigation dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Navigation open: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 844,
+        "document": 844,
+        "viewport": 844
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat returns after navigation closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat hides while calendar is open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Calendar opening does not select a date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Dock chat returns after calendar closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "route": "/",
+      "name": "Keyboard tooltip fits viewport",
+      "passed": false,
+      "detail": {
+        "x": 714.765625,
+        "y": 256.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Navbar: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Navbar: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Navbar: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Navbar: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 793.171875,
+        "y": 14,
+        "width": 138.828125,
+        "height": 44
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 948,
+        "y": 699,
+        "width": 52,
+        "height": 52
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Homepage: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 948,
+          "right": 1000,
+          "top": 699,
+          "bottom": 751,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1024,
+          "top": 681,
+          "bottom": 768,
+          "width": 1024,
+          "height": 87,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 24,
+          "right": 1000,
+          "top": 697,
+          "bottom": 753,
+          "width": 976,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 24,
+            "right": 300.984375,
+            "top": 697,
+            "bottom": 753
+          },
+          {
+            "class": "dock-date",
+            "left": 312.984375,
+            "right": 589.984375,
+            "top": 697,
+            "bottom": 753
+          },
+          {
+            "class": "dock-guests",
+            "left": 601.984375,
+            "right": 713.984375,
+            "top": 697,
+            "bottom": 753
+          },
+          {
+            "class": "button dock-submit",
+            "left": 725.984375,
+            "right": 936,
+            "top": 699,
+            "bottom": 751
+          }
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Homepage: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 948,
+          "right": 1000,
+          "top": 699,
+          "bottom": 751,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1024,
+          "top": 681,
+          "bottom": 768,
+          "width": 1024,
+          "height": 87,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 24,
+          "right": 1000,
+          "top": 697,
+          "bottom": 753,
+          "width": 976,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 24,
+            "right": 300.984375,
+            "top": 697,
+            "bottom": 753
+          },
+          {
+            "class": "dock-date",
+            "left": 312.984375,
+            "right": 589.984375,
+            "top": 697,
+            "bottom": 753
+          },
+          {
+            "class": "dock-guests",
+            "left": 601.984375,
+            "right": 713.984375,
+            "top": 697,
+            "bottom": 753
+          },
+          {
+            "class": "button dock-submit",
+            "left": 725.984375,
+            "right": 936,
+            "top": 699,
+            "bottom": 751
+          }
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat clears hero controls",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 73,
+          "width": 1024,
+          "height": 73,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 948,
+          "right": 1000,
+          "top": 699,
+          "bottom": 751,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 667.3125,
+          "right": 976,
+          "top": 591,
+          "bottom": 643,
+          "width": 308.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 48,
+          "right": 976,
+          "top": 488.21783447265625,
+          "bottom": 540.2178344726562,
+          "width": 928,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1024,
+          "top": 681,
+          "bottom": 768,
+          "width": 1024,
+          "height": 87,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 48,
+            "right": 233.953125,
+            "top": 488.20745849609375,
+            "bottom": 540.2074584960938,
+            "width": 185.953125,
+            "height": 52,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 251.953125,
+            "right": 303.953125,
+            "top": 488.20745849609375,
+            "bottom": 540.2074584960938,
+            "width": 52,
+            "height": 52,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Hero actions and scene controls stay above booking dock",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 73,
+          "width": 1024,
+          "height": 73,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 948,
+          "right": 1000,
+          "top": 699,
+          "bottom": 751,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 667.3125,
+          "right": 976,
+          "top": 591,
+          "bottom": 643,
+          "width": 308.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 48,
+          "right": 976,
+          "top": 488.21783447265625,
+          "bottom": 540.2178344726562,
+          "width": 928,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1024,
+          "top": 681,
+          "bottom": 768,
+          "width": 1024,
+          "height": 87,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 48,
+            "right": 233.953125,
+            "top": 488.20745849609375,
+            "bottom": 540.2074584960938,
+            "width": 185.953125,
+            "height": 52,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 251.953125,
+            "right": 303.953125,
+            "top": 488.20745849609375,
+            "bottom": 540.2074584960938,
+            "width": 52,
+            "height": 52,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Homepage: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Hero scene remains operable beside chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Mobile menu: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Mobile menu: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Mobile menu: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat hides behind navigation dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Navigation open: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat returns after navigation closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat hides while calendar is open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Calendar opening does not select a date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Dock chat returns after calendar closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "route": "/",
+      "name": "Keyboard tooltip fits viewport",
+      "passed": false,
+      "detail": {
+        "x": 894.765625,
+        "y": 634.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Navbar: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Navbar: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Navbar: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Navbar: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 1249.171875,
+        "y": 16,
+        "width": 138.828125,
+        "height": 44
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Dock chat: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Dock chat: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Dock chat: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Dock chat: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 1328,
+        "y": 931,
+        "width": 52,
+        "height": 52
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Homepage: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 1328,
+          "right": 1380,
+          "top": 931,
+          "bottom": 983,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1440,
+          "top": 913,
+          "bottom": 1000,
+          "width": 1440,
+          "height": 87,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 637.984375,
+          "right": 1380,
+          "top": 929,
+          "bottom": 985,
+          "width": 742.015625,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 637.984375,
+            "right": 797.984375,
+            "top": 929,
+            "bottom": 985
+          },
+          {
+            "class": "dock-date",
+            "left": 809.984375,
+            "right": 969.984375,
+            "top": 929,
+            "bottom": 985
+          },
+          {
+            "class": "dock-guests",
+            "left": 981.984375,
+            "right": 1093.984375,
+            "top": 929,
+            "bottom": 985
+          },
+          {
+            "class": "button dock-submit",
+            "left": 1105.984375,
+            "right": 1316,
+            "top": 931,
+            "bottom": 983
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Homepage: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 1328,
+          "right": 1380,
+          "top": 931,
+          "bottom": 983,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1440,
+          "top": 913,
+          "bottom": 1000,
+          "width": 1440,
+          "height": 87,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 637.984375,
+          "right": 1380,
+          "top": 929,
+          "bottom": 985,
+          "width": 742.015625,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 637.984375,
+            "right": 797.984375,
+            "top": 929,
+            "bottom": 985
+          },
+          {
+            "class": "dock-date",
+            "left": 809.984375,
+            "right": 969.984375,
+            "top": 929,
+            "bottom": 985
+          },
+          {
+            "class": "dock-guests",
+            "left": 981.984375,
+            "right": 1093.984375,
+            "top": 929,
+            "bottom": 985
+          },
+          {
+            "class": "button dock-submit",
+            "left": 1105.984375,
+            "right": 1316,
+            "top": 931,
+            "bottom": 983
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Dock chat clears hero controls",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 77,
+          "width": 1440,
+          "height": 77,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 1328,
+          "right": 1380,
+          "top": 931,
+          "bottom": 983,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 1067.3125,
+          "right": 1376,
+          "top": 823,
+          "bottom": 875,
+          "width": 308.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 64,
+          "right": 1376,
+          "top": 637.5269775390625,
+          "bottom": 689.5269775390625,
+          "width": 1312,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1440,
+          "top": 913,
+          "bottom": 1000,
+          "width": 1440,
+          "height": 87,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 64,
+            "right": 249.953125,
+            "top": 637.5029296875,
+            "bottom": 689.5029296875,
+            "width": 185.953125,
+            "height": 52,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 267.953125,
+            "right": 319.953125,
+            "top": 637.5029296875,
+            "bottom": 689.5029296875,
+            "width": 52,
+            "height": 52,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Hero actions and scene controls stay above booking dock",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 77,
+          "width": 1440,
+          "height": 77,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 1328,
+          "right": 1380,
+          "top": 931,
+          "bottom": 983,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 1067.3125,
+          "right": 1376,
+          "top": 823,
+          "bottom": 875,
+          "width": 308.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 64,
+          "right": 1376,
+          "top": 637.5269775390625,
+          "bottom": 689.5269775390625,
+          "width": 1312,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1440,
+          "top": 913,
+          "bottom": 1000,
+          "width": 1440,
+          "height": 87,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 64,
+            "right": 249.953125,
+            "top": 637.5029296875,
+            "bottom": 689.5029296875,
+            "width": 185.953125,
+            "height": 52,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 267.953125,
+            "right": 319.953125,
+            "top": 637.5029296875,
+            "bottom": 689.5029296875,
+            "width": 52,
+            "height": 52,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Homepage: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Hero scene remains operable beside chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Dock chat hides while calendar is open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Calendar opening does not select a date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/",
+      "name": "Dock chat returns after calendar closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/gallery",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/gallery",
+      "name": "Dock chat hides behind gallery dialog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/gallery",
+      "name": "Dock chat returns after gallery closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "route": "/gallery",
+      "name": "Keyboard tooltip fits viewport",
+      "passed": false,
+      "detail": {
+        "x": 1274.765625,
+        "y": 866.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Navbar: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Navbar: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Navbar: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Navbar: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 1539.171875,
+        "y": 16,
+        "width": 138.828125,
+        "height": 44
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Dock chat: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Dock chat: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Dock chat: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Dock chat: visible 44px target inside viewport",
+      "passed": true,
+      "detail": {
+        "x": 1568,
+        "y": 1011,
+        "width": 52,
+        "height": 52
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Homepage: chat occupies the rightmost booking dock cell",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 1568,
+          "right": 1620,
+          "top": 1011,
+          "bottom": 1063,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1920,
+          "top": 993,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 87,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 877.984375,
+          "right": 1620,
+          "top": 1009,
+          "bottom": 1065,
+          "width": 742.015625,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 877.984375,
+            "right": 1037.984375,
+            "top": 1009,
+            "bottom": 1065
+          },
+          {
+            "class": "dock-date",
+            "left": 1049.984375,
+            "right": 1209.984375,
+            "top": 1009,
+            "bottom": 1065
+          },
+          {
+            "class": "dock-guests",
+            "left": 1221.984375,
+            "right": 1333.984375,
+            "top": 1009,
+            "bottom": 1065
+          },
+          {
+            "class": "button dock-submit",
+            "left": 1345.984375,
+            "right": 1556,
+            "top": 1011,
+            "bottom": 1063
+          }
+        ]
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Homepage: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 1568,
+          "right": 1620,
+          "top": 1011,
+          "bottom": 1063,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1920,
+          "top": 993,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 87,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 877.984375,
+          "right": 1620,
+          "top": 1009,
+          "bottom": 1065,
+          "width": 742.015625,
+          "height": 56,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 877.984375,
+            "right": 1037.984375,
+            "top": 1009,
+            "bottom": 1065
+          },
+          {
+            "class": "dock-date",
+            "left": 1049.984375,
+            "right": 1209.984375,
+            "top": 1009,
+            "bottom": 1065
+          },
+          {
+            "class": "dock-guests",
+            "left": 1221.984375,
+            "right": 1333.984375,
+            "top": 1009,
+            "bottom": 1065
+          },
+          {
+            "class": "button dock-submit",
+            "left": 1345.984375,
+            "right": 1556,
+            "top": 1011,
+            "bottom": 1063
+          }
+        ]
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Dock chat clears hero controls",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 77,
+          "width": 1920,
+          "height": 77,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 1568,
+          "right": 1620,
+          "top": 1011,
+          "bottom": 1063,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 1531.3125,
+          "right": 1840,
+          "top": 903,
+          "bottom": 955,
+          "width": 308.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 80,
+          "right": 1840,
+          "top": 708.3026123046875,
+          "bottom": 760.3026123046875,
+          "width": 1760,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1920,
+          "top": 993,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 87,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 80,
+            "right": 265.953125,
+            "top": 708.281494140625,
+            "bottom": 760.281494140625,
+            "width": 185.953125,
+            "height": 52,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 283.953125,
+            "right": 335.953125,
+            "top": 708.281494140625,
+            "bottom": 760.281494140625,
+            "width": 52,
+            "height": 52,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Hero actions and scene controls stay above booking dock",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 77,
+          "width": 1920,
+          "height": 77,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 1568,
+          "right": 1620,
+          "top": 1011,
+          "bottom": 1063,
+          "width": 52,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 1531.3125,
+          "right": 1840,
+          "top": 903,
+          "bottom": 955,
+          "width": 308.6875,
+          "height": 52,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 80,
+          "right": 1840,
+          "top": 708.3026123046875,
+          "bottom": 760.3026123046875,
+          "width": 1760,
+          "height": 52,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 0,
+          "right": 1920,
+          "top": 993,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 87,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 80,
+            "right": 265.953125,
+            "top": 708.281494140625,
+            "bottom": 760.281494140625,
+            "width": 185.953125,
+            "height": 52,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 283.953125,
+            "right": 335.953125,
+            "top": 708.281494140625,
+            "bottom": 760.281494140625,
+            "width": 52,
+            "height": 52,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Homepage: no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1920,
+        "document": 1920,
+        "viewport": 1920
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Hero scene remains operable beside chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Dock chat hides while calendar is open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Calendar opening does not select a date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Dock chat returns after calendar closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "route": "/",
+      "name": "Keyboard tooltip fits viewport",
+      "passed": false,
+      "detail": {
+        "x": 1514.765625,
+        "y": 946.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    }
+  ],
+  "runtime_errors": [],
+  "console_errors": [],
+  "requests": [],
+  "blocked_external_writes": [],
+  "blocked_whatsapp": [],
+  "screenshots": [
+    "evidence\\whatsapp-dock-20261021\\contact-chromium-home-320x740.png",
+    "evidence\\whatsapp-dock-20261021\\contact-chromium-home-390x844.png",
+    "evidence\\whatsapp-dock-20261021\\contact-chromium-home-600x390.png",
+    "evidence\\whatsapp-dock-20261021\\contact-chromium-home-844x390.png",
+    "evidence\\whatsapp-dock-20261021\\contact-chromium-home-1024x768.png",
+    "evidence\\whatsapp-dock-20261021\\contact-chromium-home-1440x1000.png",
+    "evidence\\whatsapp-dock-20261021\\contact-chromium-home-1920x1080.png"
+  ],
+  "external_emails_sent": 0,
+  "limitations": [
+    "FormSubmit responses are mocked. This does not prove mailbox activation or delivery.",
+    "WebKit emulation is not a physical iPhone test."
+  ],
+  "summary": {
+    "passed": 230,
+    "failed": 7,
+    "runtime_errors": 0,
+    "mocked_posts": 0
+  }
+}

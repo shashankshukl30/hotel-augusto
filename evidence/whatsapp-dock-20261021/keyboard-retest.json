@@ -1,0 +1,90 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "height": 740,
+      "name": "Real keyboard Tab exposes in-viewport tooltip",
+      "passed": true,
+      "box": {
+        "x": 198.765625,
+        "y": 561.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "Real keyboard Tab exposes in-viewport tooltip",
+      "passed": true,
+      "box": {
+        "x": 268.765625,
+        "y": 665.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 600,
+      "height": 390,
+      "name": "Real keyboard Tab exposes in-viewport tooltip",
+      "passed": true,
+      "box": {
+        "x": 482.765625,
+        "y": 263.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "name": "Real keyboard Tab exposes in-viewport tooltip",
+      "passed": true,
+      "box": {
+        "x": 714.765625,
+        "y": 256.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "name": "Real keyboard Tab exposes in-viewport tooltip",
+      "passed": true,
+      "box": {
+        "x": 894.765625,
+        "y": 634.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "name": "Real keyboard Tab exposes in-viewport tooltip",
+      "passed": true,
+      "box": {
+        "x": 1274.765625,
+        "y": 866.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "name": "Real keyboard Tab exposes in-viewport tooltip",
+      "passed": true,
+      "box": {
+        "x": 1514.765625,
+        "y": 946.8125,
+        "width": 105.234375,
+        "height": 38.1875
+      }
+    }
+  ],
+  "passed": true,
+  "explanation": "Earlier programmatic focus after pointer input did not engage :focus-visible; this retest uses real Tab from the preceding availability button."
+}

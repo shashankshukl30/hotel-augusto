@@ -1,0 +1,59 @@
+{
+  "recorded_at_utc": "2026-10-21T16:30:54.593159+00:00",
+  "change": "Place WhatsApp inside the rightmost booking dock action cell, removing floating hero overlay",
+  "verification": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "unit_tests": {
+      "passed": 23,
+      "failed": 0
+    },
+    "production_build": "passed",
+    "chromium_layout_and_interactions": {
+      "passed": 230,
+      "routes_at_390px": 17,
+      "home_viewports": [
+        [
+          320,
+          740
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          600,
+          390
+        ],
+        [
+          844,
+          390
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1440,
+          1000
+        ],
+        [
+          1920,
+          1080
+        ]
+      ],
+      "runtime_errors": 0
+    },
+    "keyboard_tab_retest": {
+      "passed": 7,
+      "failed": 0
+    }
+  },
+  "diagnostics": [
+    "The first Chromium run stopped due to a relative screenshot-output path in the ad hoc harness. It was corrected and rerun.",
+    "Programmatic focus after pointer input did not engage :focus-visible. All seven real-keyboard Tab retests passed; original reports retained.",
+    "WebKit on the local HTTP development server attempted upgraded HTTPS assets because of the production CSP and showed SSL load failures. Production HTTPS verification is required before completion."
+  ],
+  "last_adjustment": "Landscape adults cell widened from 80px to 88px after screenshot review; verify on published HTTPS release.",
+  "external_messages_sent": 0
+}

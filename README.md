@@ -46,7 +46,7 @@ Stop the development server before starting production on the same port.
 
 The exact dated MakeMyTrip route returned a browser transport error; its indexed canonical property page corroborated stable facts. Google property photos were opened and mapped to the site. These distinctions and individual asset sources are recorded in `research/ota-revision/`; no live MMT availability was established.
 
-The client confirmed **+91 80817 09146** for WhatsApp and **aromaofkashi@gmail.com** for email enquiries on 21 October. Both are centralized in `content/hotel.ts`. The navbar, mobile menu and floating chat link use that WhatsApp number. No enquiry is sent during automated testing.
+The client confirmed **+91 80817 09146** for WhatsApp and **aromaofkashi@gmail.com** for email enquiries on 21 October. Both are centralized in `content/hotel.ts`. The navbar, mobile menu and rightmost booking-dock chat link use that WhatsApp number. Chat has its own space beside availability and never floats over the hero photograph. No enquiry is sent during automated testing.
 
 The universal `BookingDock` keeps dates and “Check availability” accessible across routes. Its measured height reserves bottom space so the footer remains reachable. Dated `StayBar` and enquiry forms support 1–8 requested rooms and night summaries. Validated dates, party size, room count and room preference travel to contact through the URL and may remain in browser history. Names and private notes stay off that URL. `lib/stay-query.ts` validates those preferences; `lib/booking.ts` prepares the explicit WhatsApp handoff. Availability is confirmed by the hotel, not a live inventory engine.
 
@@ -89,7 +89,7 @@ Generate matching Markdown and Word handoffs after final verification with `pyth
 
 The client production project is in Vercel team `sahil-5aa6`, with a public fallback URL at https://hotel-augusto-brown.vercel.app. The local Vercel link targets that client project. Both `hotelaugusto.in` and `www.hotelaugusto.in` are attached, with www redirecting to the apex. Namecheap DNS and custom-domain HTTPS must be verified separately; attaching an alias is not a completed DNS cutover. Current release and handoff evidence is in `evidence/client-handoff-20261021/`.
 
-Namecheap's parking records must be replaced with the Vercel-inspected apex A record `76.76.21.21` and www CNAME `a2ab83b9e7357c0b.vercel-dns-017.com`. Preserve mail/MX/TXT records. Reinspect Vercel's current recommendation before any later DNS change. The client's GitHub Login Connection is not configured, so this release was pushed to GitHub and then deployed through the authenticated Vercel CLI; automatic Git deployments remain unconnected.
+The client updated Namecheap on 21 October: apex A `76.76.21.21`, www CNAME `a2ab83b9e7357c0b.vercel-dns-017.com`. Vercel accepts both records; validated certificates now serve the apex with HTTP 200 and www with a 308 redirect to the apex. Some DNS resolvers may retain the earlier parking records until their cached TTL expires. Evidence is in `domain-tls-diagnostic.json` and `domain-vercel-confirmation.json`. Mail/MX/TXT records were not changed. Reinspect Vercel's current recommendation before any later DNS change. The client's GitHub Login Connection is not configured, so releases are pushed to GitHub and then deployed through the authenticated Vercel CLI; automatic Git deployments remain unconnected.
 
 ## Private preview
 

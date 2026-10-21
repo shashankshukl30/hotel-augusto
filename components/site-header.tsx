@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import { useMotionPreference } from "./use-motion-preference";
 import { ArrowUpRight, Menu, X, Phone, MapPin } from "lucide-react";
 import { Brand } from "./brand";
-import { WhatsAppChat } from "./whatsapp-chat";
 import { WhatsAppIcon } from "./whatsapp-icon";
 import { hotel } from "@/content/hotel";
 import "./interaction-polish.css";
@@ -88,6 +87,5 @@ export function SiteHeader() {
         <p className="navigation-note">Hotel Augusto<br/>Godowlia, Varanasi.</p>
       </motion.div>
     </dialog>
-    <WhatsAppChat href={whatsapp} homepage={pathname === "/"}/>
   </>;
 }

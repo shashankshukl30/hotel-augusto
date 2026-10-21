@@ -1,0 +1,128 @@
+{
+  "recorded_at_utc": "2026-10-21T16:24:04.493080+00:00",
+  "team_id": "team_4jsiQKqeVz4xh1i73JLRO01i",
+  "project_id": "prj_VlsLF1U8sZw7aj8auqil5fgIz0ch",
+  "project_name": "hotel-augusto",
+  "project_account_id": "team_4jsiQKqeVz4xh1i73JLRO01i",
+  "api_http_statuses": {
+    "project": 200,
+    "domains": 200,
+    "apex_config": 200,
+    "www_config": 200
+  },
+  "domains": [
+    {
+      "name": "hotelaugusto.in",
+      "attached": true,
+      "verified": true,
+      "gitBranch": null,
+      "customEnvironmentId": null,
+      "production_attachment": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "config_http_status": 200,
+      "configuredBy": "A",
+      "misconfigured": false,
+      "acceptedChallenges": [
+        "http-01"
+      ],
+      "recommendedIPv4": [
+        {
+          "rank": 1,
+          "value": [
+            "216.198.79.1",
+            "64.29.17.1"
+          ]
+        },
+        {
+          "rank": 2,
+          "value": [
+            "76.76.21.21"
+          ]
+        }
+      ],
+      "recommendedCNAME": [
+        {
+          "rank": 1,
+          "value": "a2ab83b9e7357c0b.vercel-dns-017.com."
+        },
+        {
+          "rank": 2,
+          "value": "cname.vercel-dns.com."
+        }
+      ]
+    },
+    {
+      "name": "www.hotelaugusto.in",
+      "attached": true,
+      "verified": true,
+      "gitBranch": null,
+      "customEnvironmentId": null,
+      "production_attachment": true,
+      "redirect": "hotelaugusto.in",
+      "redirectStatusCode": 308,
+      "config_http_status": 200,
+      "configuredBy": "CNAME",
+      "misconfigured": false,
+      "acceptedChallenges": [
+        "http-01"
+      ],
+      "recommendedIPv4": [
+        {
+          "rank": 1,
+          "value": [
+            "216.198.79.1",
+            "64.29.17.1"
+          ]
+        },
+        {
+          "rank": 2,
+          "value": [
+            "76.76.21.21"
+          ]
+        }
+      ],
+      "recommendedCNAME": [
+        {
+          "rank": 1,
+          "value": "a2ab83b9e7357c0b.vercel-dns-017.com."
+        },
+        {
+          "rank": 2,
+          "value": "cname.vercel-dns.com."
+        }
+      ]
+    }
+  ],
+  "production_deployment": {
+    "id": "dpl_4bkxY29mkvPfzRuPLKiA7c8g4v1K",
+    "url": "hotel-augusto-mmc1lvzuo-sahil-5aa6.vercel.app",
+    "target": "production",
+    "readyState": "READY",
+    "aliasAssigned": true,
+    "alias": [
+      "hotelaugusto.in",
+      "hotel-augusto-brown.vercel.app",
+      "www.hotelaugusto.in",
+      "hotel-augusto-sahil-5aa6.vercel.app"
+    ],
+    "createdAt": 1792598862899,
+    "ready": 1792598912712,
+    "regions": [
+      "sin1"
+    ]
+  },
+  "production_deployment_http_status": 200,
+  "production_source_commit": "072f405dd1b08b5a055bb5e7cadb8712a68a5562",
+  "checks": {
+    "correct_client_project": true,
+    "apex_and_www_attached_to_production": true,
+    "apex_and_www_verified": true,
+    "apex_and_www_dns_configured": true,
+    "production_ready": true,
+    "www_redirects_to_apex": true
+  },
+  "scope": "Vercel control-plane verification only. Public DNS, HTTP redirect behavior and TLS are checked separately by root.",
+  "mutations_performed": 0,
+  "credentials_recorded": false
+}

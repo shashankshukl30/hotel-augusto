@@ -1,0 +1,464 @@
+{
+  "recorded_at_utc": "2026-10-21T16:25:32.102353+00:00",
+  "team_id": "team_4jsiQKqeVz4xh1i73JLRO01i",
+  "openssl_version": "OpenSSL 3.0.15 3 Sep 2024",
+  "cert_api": {
+    "http_status": 200,
+    "returned_count": 0,
+    "matching_certificates": []
+  },
+  "domain_api": {
+    "apex_domain": {
+      "http_status": 200,
+      "name": "hotelaugusto.in",
+      "verified": true,
+      "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+      ],
+      "intendedNameservers": [],
+      "configuredNameservers": null,
+      "createdAt": 1792598135458,
+      "expiresAt": null
+    },
+    "www_domain": {
+      "http_status": 200,
+      "name": "hotelaugusto.in",
+      "verified": true,
+      "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+      ],
+      "intendedNameservers": [],
+      "configuredNameservers": null,
+      "createdAt": 1792598135458,
+      "expiresAt": null
+    }
+  },
+  "dns": [
+    {
+      "name": "hotelaugusto.in",
+      "type": "A",
+      "resolver": "dns.google",
+      "status": 0,
+      "answers": [
+        {
+          "name": "hotelaugusto.in.",
+          "type": 1,
+          "TTL": 1799,
+          "data": "76.76.21.21"
+        }
+      ],
+      "authority": []
+    },
+    {
+      "name": "hotelaugusto.in",
+      "type": "AAAA",
+      "resolver": "dns.google",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "hotelaugusto.in.",
+          "type": 6,
+          "TTL": 1800,
+          "data": "dns1.registrar-servers.com. hostmaster.registrar-servers.com. 1792599715 43200 3600 604800 3601"
+        }
+      ]
+    },
+    {
+      "name": "hotelaugusto.in",
+      "type": "CAA",
+      "resolver": "dns.google",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "hotelaugusto.in.",
+          "type": 6,
+          "TTL": 1800,
+          "data": "dns1.registrar-servers.com. hostmaster.registrar-servers.com. 1792599715 43200 3600 604800 3601"
+        }
+      ]
+    },
+    {
+      "name": "www.hotelaugusto.in",
+      "type": "CNAME",
+      "resolver": "dns.google",
+      "status": 0,
+      "answers": [
+        {
+          "name": "www.hotelaugusto.in.",
+          "type": 5,
+          "TTL": 924,
+          "data": "parkingpage.namecheap.com."
+        }
+      ],
+      "authority": []
+    },
+    {
+      "name": "www.hotelaugusto.in",
+      "type": "A",
+      "resolver": "dns.google",
+      "status": 0,
+      "answers": [
+        {
+          "name": "www.hotelaugusto.in.",
+          "type": 5,
+          "TTL": 925,
+          "data": "parkingpage.namecheap.com."
+        },
+        {
+          "name": "parkingpage.namecheap.com.",
+          "type": 5,
+          "TTL": 30,
+          "data": "parking.d.parity.domains."
+        },
+        {
+          "name": "parking.d.parity.domains.",
+          "type": 1,
+          "TTL": 60,
+          "data": "104.219.250.36"
+        },
+        {
+          "name": "parking.d.parity.domains.",
+          "type": 1,
+          "TTL": 60,
+          "data": "2.59.170.19"
+        }
+      ],
+      "authority": []
+    }
+  ],
+  "direct_ip_tls": [
+    {
+      "host": "hotelaugusto.in",
+      "ip": "76.76.21.21",
+      "sni": "hotelaugusto.in",
+      "certificate_verification": "required",
+      "recorded_at_utc": "2026-10-21T16:25:30.059289+00:00",
+      "tls_valid": false,
+      "error_type": "SSLEOFError",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)",
+      "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+      "verify_code": null
+    },
+    {
+      "host": "hotelaugusto.in",
+      "ip": "216.198.79.1",
+      "sni": "hotelaugusto.in",
+      "certificate_verification": "required",
+      "recorded_at_utc": "2026-10-21T16:25:30.204479+00:00",
+      "tls_valid": false,
+      "error_type": "SSLEOFError",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)",
+      "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+      "verify_code": null
+    },
+    {
+      "host": "hotelaugusto.in",
+      "ip": "64.29.17.1",
+      "sni": "hotelaugusto.in",
+      "certificate_verification": "required",
+      "recorded_at_utc": "2026-10-21T16:25:30.409673+00:00",
+      "tls_valid": false,
+      "error_type": "SSLEOFError",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)",
+      "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+      "verify_code": null
+    },
+    {
+      "host": "www.hotelaugusto.in",
+      "ip": "76.76.21.21",
+      "sni": "www.hotelaugusto.in",
+      "certificate_verification": "required",
+      "recorded_at_utc": "2026-10-21T16:25:30.811771+00:00",
+      "tls_valid": false,
+      "error_type": "SSLEOFError",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)",
+      "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+      "verify_code": null
+    },
+    {
+      "host": "www.hotelaugusto.in",
+      "ip": "216.198.79.1",
+      "sni": "www.hotelaugusto.in",
+      "certificate_verification": "required",
+      "recorded_at_utc": "2026-10-21T16:25:30.921026+00:00",
+      "tls_valid": false,
+      "error_type": "SSLEOFError",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)",
+      "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+      "verify_code": null
+    },
+    {
+      "host": "www.hotelaugusto.in",
+      "ip": "64.29.17.1",
+      "sni": "www.hotelaugusto.in",
+      "certificate_verification": "required",
+      "recorded_at_utc": "2026-10-21T16:25:30.955443+00:00",
+      "tls_valid": false,
+      "error_type": "SSLEOFError",
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)",
+      "ssl_reason": "UNEXPECTED_EOF_WHILE_READING",
+      "verify_code": null
+    }
+  ],
+  "mutations_performed": 2,
+  "certificate_validation_disabled": false,
+  "same_edge_control": {
+    "host": "hotel-augusto-brown.vercel.app",
+    "ip": "76.76.21.21",
+    "sni": "hotel-augusto-brown.vercel.app",
+    "recorded_at_utc": "2026-10-21T16:25:54.536978+00:00",
+    "certificate_verification": "required",
+    "tls_valid": true,
+    "protocol": "TLSv1.3",
+    "subjectAltName": [
+      [
+        "DNS",
+        "*.vercel.app"
+      ]
+    ],
+    "notAfter": "Nov 27 19:48:08 2026 GMT"
+  },
+  "standard_verification_refresh": [
+    {
+      "domain": "hotelaugusto.in",
+      "recorded_at_utc": "2026-10-21T16:26:22.425292+00:00",
+      "method": "POST",
+      "operation": "standard-project-domain-verify",
+      "http_status": 415,
+      "error": "Standard verification API request failed; credential withheld"
+    },
+    {
+      "domain": "www.hotelaugusto.in",
+      "recorded_at_utc": "2026-10-21T16:26:23.502959+00:00",
+      "method": "POST",
+      "operation": "standard-project-domain-verify",
+      "http_status": 415,
+      "error": "Standard verification API request failed; credential withheld"
+    },
+    {
+      "domain": "hotelaugusto.in",
+      "recorded_at_utc": "2026-10-21T16:26:39.323383+00:00",
+      "method": "POST",
+      "operation": "standard-project-domain-verify",
+      "content_type": "application/json",
+      "http_status": 200,
+      "name": "hotelaugusto.in",
+      "verified": true,
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    },
+    {
+      "domain": "www.hotelaugusto.in",
+      "recorded_at_utc": "2026-10-21T16:26:40.387268+00:00",
+      "method": "POST",
+      "operation": "standard-project-domain-verify",
+      "content_type": "application/json",
+      "http_status": 200,
+      "name": "www.hotelaugusto.in",
+      "verified": true,
+      "redirect": "hotelaugusto.in",
+      "redirectStatusCode": 308,
+      "gitBranch": null,
+      "customEnvironmentId": null
+    }
+  ],
+  "mutation_requests_attempted": 4,
+  "post_verify_cert_list": {
+    "recorded_at_utc": "2026-10-21T16:27:24.931376+00:00",
+    "count": 1,
+    "certificates": [
+      {
+        "id": null,
+        "cns": [
+          "hotelaugusto.in"
+        ],
+        "created": "2026-10-21T16:27:19.435Z",
+        "expiresAt": 1800372527000,
+        "autoRenew": true
+      }
+    ]
+  },
+  "official_guidance": [
+    {
+      "url": "https://vercel.com/docs/domains/set-up-custom-domain",
+      "finding": "Certificates normally provision within a few minutes of DNS verification."
+    },
+    {
+      "url": "https://vercel.com/docs/domains/troubleshooting",
+      "finding": "Non-wildcard certificates use HTTP-01 validation; an extra CAA record is only needed when existing restrictive CAA records exclude Lets Encrypt. Current query returned no CAA."
+    }
+  ],
+  "post_verify_tls": [
+    {
+      "host": "hotelaugusto.in",
+      "ip": "76.76.21.21",
+      "sni": "hotelaugusto.in",
+      "recorded_at_utc": "2026-10-21T16:27:41.957620+00:00",
+      "certificate_verification": "required",
+      "tls_valid": true,
+      "protocol": "TLSv1.3",
+      "subjectAltName": [
+        [
+          "DNS",
+          "hotelaugusto.in"
+        ]
+      ],
+      "notBefore": "Oct 21 15:28:48 2026 GMT",
+      "notAfter": "Jan 19 15:28:47 2027 GMT",
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Let's Encrypt"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "YR1"
+          ]
+        ]
+      ],
+      "http_headers": "HTTP/1.1 200 OK\r\nAccept-Ranges: bytes\r\nAccess-Control-Allow-Origin: *\r\nAge: 14\r\nCache-Control: public, max-age=0, must-revalidate\r\nContent-Disposition: inline\r\nContent-Length: 144630\r\nContent-Security-Policy: base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://wa.me; upgrade-insecure-requests\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 21 Oct 2026 16:27:42 GMT\r\nEtag: \"9600b4541f6dd20057c9f76cd048b214\"\r\nPermissions-Policy: camera=(), microphone=(), geolocation=()\r\nReferrer-Policy: strict-origin-when-cross-origin\r\nServer: Vercel\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nVary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: DENY\r\nX-Matched-Path: /\r\nX-Nextjs-Prerender: 1\r\nX-Nextjs-Stale-Time: 300\r\nX-Vercel-Cache: HIT\r\nX-Vercel-Id: bom1::68rvh-1792600062661-ddde0cc53fe8\r\nConnection: close"
+    },
+    {
+      "host": "www.hotelaugusto.in",
+      "ip": "76.76.21.21",
+      "sni": "www.hotelaugusto.in",
+      "recorded_at_utc": "2026-10-21T16:27:41.958202+00:00",
+      "certificate_verification": "required",
+      "tls_valid": false,
+      "error_type": "SSLCertVerificationError",
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hotelaugusto.in'. (_ssl.c:1028)"
+    }
+  ],
+  "alias_cert_checks": [
+    {
+      "recorded_at_utc": "2026-10-21T16:28:04.858721+00:00",
+      "aliases": [
+        {
+          "domain": "hotelaugusto.in",
+          "http_status": 200,
+          "alias": "hotelaugusto.in",
+          "redirect": null,
+          "redirectStatusCode": null,
+          "created": "2026-10-21T16:08:32.851Z",
+          "updatedAt": 1792598912851,
+          "deploymentId": "dpl_4bkxY29mkvPfzRuPLKiA7c8g4v1K",
+          "projectId": "prj_VlsLF1U8sZw7aj8auqil5fgIz0ch",
+          "ssl": null,
+          "cert": null,
+          "certError": null,
+          "error": null,
+          "status": null,
+          "available_fields": [
+            "alias",
+            "created",
+            "createdAt",
+            "creator",
+            "deletedAt",
+            "deployment",
+            "deploymentId",
+            "projectId",
+            "redirect",
+            "redirectStatusCode",
+            "uid",
+            "updatedAt"
+          ]
+        },
+        {
+          "domain": "www.hotelaugusto.in",
+          "http_status": 200,
+          "alias": "www.hotelaugusto.in",
+          "redirect": "hotelaugusto.in",
+          "redirectStatusCode": 308,
+          "created": "2026-10-21T16:08:32.853Z",
+          "updatedAt": 1792598912853,
+          "deploymentId": "dpl_4bkxY29mkvPfzRuPLKiA7c8g4v1K",
+          "projectId": "prj_VlsLF1U8sZw7aj8auqil5fgIz0ch",
+          "ssl": null,
+          "cert": null,
+          "certError": null,
+          "error": null,
+          "status": null,
+          "available_fields": [
+            "alias",
+            "created",
+            "createdAt",
+            "creator",
+            "deletedAt",
+            "deployment",
+            "deploymentId",
+            "projectId",
+            "redirect",
+            "redirectStatusCode",
+            "uid",
+            "updatedAt"
+          ]
+        }
+      ]
+    }
+  ],
+  "www_issuance_polls": [
+    {
+      "recorded_at_utc": "2026-10-21T16:28:52.090592+00:00",
+      "certificates": [
+        {
+          "cns": [
+            "www.hotelaugusto.in"
+          ],
+          "created": "2026-10-21T16:28:00.458Z",
+          "expiresAt": 1800372567000,
+          "autoRenew": true
+        },
+        {
+          "cns": [
+            "hotelaugusto.in"
+          ],
+          "created": "2026-10-21T16:27:19.435Z",
+          "expiresAt": 1800372527000,
+          "autoRenew": true
+        }
+      ],
+      "host": "www.hotelaugusto.in",
+      "ip": "76.76.21.21",
+      "certificate_verification": "required",
+      "tls_valid": true,
+      "protocol": "TLSv1.3",
+      "subjectAltName": [
+        [
+          "DNS",
+          "www.hotelaugusto.in"
+        ]
+      ],
+      "notAfter": "Jan 19 15:29:27 2027 GMT",
+      "http_headers": "HTTP/1.1 308 Permanent Redirect\r\nCache-Control: public, max-age=0, must-revalidate\r\nContent-Type: text/plain\r\nDate: Wed, 21 Oct 2026 16:28:52 GMT\r\nLocation: https://hotelaugusto.in/\r\nRefresh: 0;url=https://hotelaugusto.in/\r\nServer: Vercel\r\nStrict-Transport-Security: max-age=63072000\r\nX-Vercel-Id: bom1::9fhhg-1792600132640-aa0427136b21\r\nConnection: close"
+    }
+  ],
+  "resolution": {
+    "confirmed_at_utc": "2026-10-21T16:28:52.090592+00:00",
+    "apex_validated_tls": true,
+    "apex_http_status": 200,
+    "www_validated_tls": true,
+    "www_http_status": 308,
+    "www_location": "https://hotelaugusto.in/",
+    "both_certificates_auto_renew": true,
+    "certificate_provisioning": "Vercel automatic issuance after DNS configuration and standard domain verify refresh",
+    "manual_certificate_issuance": false,
+    "paid_changes": false,
+    "dns_changes_by_agent": false,
+    "dns_cache_caveat": "Direct-IP TLS used correct SNI and full certificate verification. Independent public DNS and ordinary resolver browser verification are handled by root."
+  }
+}

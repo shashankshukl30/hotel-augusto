@@ -1,0 +1,590 @@
+{
+  "recorded_at_utc": "2026-10-21T16:27:20.847028+00:00",
+  "base": "http://127.0.0.1:3080",
+  "browser": "webkit",
+  "checks": [
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Page responds successfully",
+      "passed": true,
+      "detail": 200
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navbar: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navbar: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navbar: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Navbar: visible 44px target inside viewport",
+      "passed": false,
+      "detail": {
+        "x": 8,
+        "y": 1317,
+        "width": 87.4296875,
+        "height": 17
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat: one link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat: correct WhatsApp destination",
+      "passed": true,
+      "detail": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.%20Please%20share%20room%20availability%20and%20rates."
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat: accessible external-link semantics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat: visible 44px target inside viewport",
+      "passed": false,
+      "detail": {
+        "x": 140.203125,
+        "y": 9549.5,
+        "width": 108.890625,
+        "height": 17
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Homepage: chat occupies the rightmost booking dock cell",
+      "passed": false,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 140.203125,
+          "right": 249.09375,
+          "top": 9549.5,
+          "bottom": 9566.5,
+          "width": 108.890625,
+          "height": 17,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 8,
+          "right": 382,
+          "top": 9373.5,
+          "bottom": 9572.5,
+          "width": 374,
+          "height": 199,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 8,
+          "right": 382,
+          "top": 9409.5,
+          "bottom": 9572.5,
+          "width": 374,
+          "height": 163,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 8,
+            "right": 382,
+            "top": 9409.5,
+            "bottom": 9458.5
+          },
+          {
+            "class": "dock-date",
+            "left": 8,
+            "right": 382,
+            "top": 9458.5,
+            "bottom": 9507.5
+          },
+          {
+            "class": "dock-guests",
+            "left": 8,
+            "right": 382,
+            "top": 9507.5,
+            "bottom": 9535.5
+          },
+          {
+            "class": "button dock-submit",
+            "left": 8,
+            "right": 140.203125,
+            "top": 9541.5,
+            "bottom": 9572.5
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Homepage: chat is separate from both dates, guests and availability button",
+      "passed": true,
+      "detail": {
+        ".whatsapp-chat": {
+          "left": 140.203125,
+          "right": 249.09375,
+          "top": 9549.5,
+          "bottom": 9566.5,
+          "width": 108.890625,
+          "height": 17,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 8,
+          "right": 382,
+          "top": 9373.5,
+          "bottom": 9572.5,
+          "width": 374,
+          "height": 199,
+          "visible": true
+        },
+        ".booking-dock-fields": {
+          "left": 8,
+          "right": 382,
+          "top": 9409.5,
+          "bottom": 9572.5,
+          "width": 374,
+          "height": 163,
+          "visible": true
+        },
+        "booking_controls": [
+          {
+            "class": "dock-date",
+            "left": 8,
+            "right": 382,
+            "top": 9409.5,
+            "bottom": 9458.5
+          },
+          {
+            "class": "dock-date",
+            "left": 8,
+            "right": 382,
+            "top": 9458.5,
+            "bottom": 9507.5
+          },
+          {
+            "class": "dock-guests",
+            "left": 8,
+            "right": 382,
+            "top": 9507.5,
+            "bottom": 9535.5
+          },
+          {
+            "class": "button dock-submit",
+            "left": 8,
+            "right": 140.203125,
+            "top": 9541.5,
+            "bottom": 9572.5
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Dock chat clears hero controls",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 8,
+          "right": 382,
+          "top": 26,
+          "bottom": 1340,
+          "width": 374,
+          "height": 1314,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 140.203125,
+          "right": 249.09375,
+          "top": 9549.5,
+          "bottom": 9566.5,
+          "width": 108.890625,
+          "height": 17,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 8,
+          "right": 382,
+          "top": 1533.875,
+          "bottom": 1587.875,
+          "width": 374,
+          "height": 54,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 8,
+          "right": 382,
+          "top": 1491.875,
+          "bottom": 1515.875,
+          "width": 374,
+          "height": 24,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 8,
+          "right": 382,
+          "top": 9373.5,
+          "bottom": 9572.5,
+          "width": 374,
+          "height": 199,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 8,
+            "right": 124.6484375,
+            "top": 1497.875,
+            "bottom": 1514.875,
+            "width": 116.6484375,
+            "height": 17,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 124.6484375,
+            "right": 144.6484375,
+            "top": 1497.875,
+            "bottom": 1514.875,
+            "width": 20,
+            "height": 17,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Hero actions and scene controls stay above booking dock",
+      "passed": true,
+      "detail": {
+        ".site-header": {
+          "left": 8,
+          "right": 382,
+          "top": 26,
+          "bottom": 1340,
+          "width": 374,
+          "height": 1314,
+          "visible": true
+        },
+        ".whatsapp-chat": {
+          "left": 140.203125,
+          "right": 249.09375,
+          "top": 9549.5,
+          "bottom": 9566.5,
+          "width": 108.890625,
+          "height": 17,
+          "visible": true
+        },
+        ".hero-scene-controls": {
+          "left": 8,
+          "right": 382,
+          "top": 1533.875,
+          "bottom": 1587.875,
+          "width": 374,
+          "height": 54,
+          "visible": true
+        },
+        ".hero-actions": {
+          "left": 8,
+          "right": 382,
+          "top": 1491.875,
+          "bottom": 1515.875,
+          "width": 374,
+          "height": 24,
+          "visible": true
+        },
+        ".booking-dock": {
+          "left": 8,
+          "right": 382,
+          "top": 9373.5,
+          "bottom": 9572.5,
+          "width": 374,
+          "height": 199,
+          "visible": true
+        },
+        "actionable_children": [
+          {
+            "tag": "A",
+            "label": "Explore rooms",
+            "left": 8,
+            "right": 124.6484375,
+            "top": 1497.875,
+            "bottom": 1514.875,
+            "width": 116.6484375,
+            "height": 17,
+            "visible": true
+          },
+          {
+            "tag": "A",
+            "label": "Discover Hotel Augusto",
+            "left": 124.6484375,
+            "right": 144.6484375,
+            "top": 1497.875,
+            "bottom": 1514.875,
+            "width": 20,
+            "height": 17,
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Homepage: no horizontal overflow",
+      "passed": false,
+      "detail": {
+        "body": 1254,
+        "document": 1262,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "name": "Audit completed",
+      "passed": false,
+      "detail": "Page.wait_for_function: Timeout 15000ms exceeded."
+    }
+  ],
+  "runtime_errors": [],
+  "console_errors": [
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "/",
+      "message": "Failed to load resource: SSL connect error"
+    }
+  ],
+  "requests": [],
+  "blocked_external_writes": [],
+  "blocked_whatsapp": [],
+  "screenshots": [],
+  "external_emails_sent": 0,
+  "limitations": [
+    "FormSubmit responses are mocked. This does not prove mailbox activation or delivery.",
+    "WebKit emulation is not a physical iPhone test."
+  ],
+  "fatal_error": "Page.wait_for_function: Timeout 15000ms exceeded.",
+  "summary": {
+    "passed": 10,
+    "failed": 5,
+    "runtime_errors": 0,
+    "mocked_posts": 0
+  }
+}

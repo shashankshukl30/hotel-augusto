@@ -133,9 +133,26 @@ class Audit:
         self.check(f"{label}: accessible external-link semantics", bool(locator.get_attribute("aria-label"))
                    and locator.get_attribute("target") == "_blank" and "noopener" in (locator.get_attribute("rel") or ""))
 
+    def dock_chat_layout(self, page, state):
+        boxes = page.evaluate(GEOMETRY, [".whatsapp-chat", ".booking-dock", ".booking-dock-fields"])
+        controls = page.locator(".booking-dock-fields :is(.dock-date,.dock-guests,.dock-submit)").evaluate_all("""elements=>elements.map(e=>{
+          const r=e.getBoundingClientRect();return {class:e.className,left:r.left,right:r.right,top:r.top,bottom:r.bottom}})""")
+        boxes["booking_controls"] = controls
+        chat, dock, fields = [boxes[s] for s in [".whatsapp-chat", ".booking-dock", ".booking-dock-fields"]]
+        in_grid = page.locator(".whatsapp-chat").evaluate("""e=>e.parentElement.matches('.dock-actions')
+          && !!e.closest('.booking-dock-fields')
+          && !['absolute','fixed'].includes(getComputedStyle(e).position)""")
+        contained = bool(chat and dock and fields and chat["visible"]
+                         and chat["left"] >= dock["left"] - 1 and chat["right"] <= dock["right"] + 1
+                         and chat["top"] >= dock["top"] - 1 and chat["bottom"] <= dock["bottom"] + 1)
+        self.check(f"{state}: chat occupies the rightmost booking dock cell", in_grid and contained
+                   and abs(chat["right"] - fields["right"]) <= 1, boxes)
+        self.check(f"{state}: chat is separate from both dates, guests and availability button", bool(chat)
+                   and len(controls) == 4 and all(not overlaps(chat, control) for control in controls), boxes)
+
     def chrome(self, page, width, height):
         self.goto(page, "/")
-        for selector, label in [(".header-whatsapp", "Navbar"), (".whatsapp-chat", "Floating chat")]:
+        for selector, label in [(".header-whatsapp", "Navbar"), (".whatsapp-chat", "Dock chat")]:
             link = page.locator(selector)
             self.whatsapp(link, label)
             box = link.bounding_box()
@@ -149,8 +166,9 @@ class Audit:
           visible:!!r.width&&!!r.height&&s.visibility!=='hidden'&&s.display!=='none'}}).filter(e=>e.visible)""")
         boxes["actionable_children"] = actions
         chat, scene, dock = [boxes[s] for s in [".whatsapp-chat", ".hero-scene-controls", ".booking-dock"]]
-        self.check("Floating chat clears booking dock and hero controls", not overlaps(chat, dock)
-                   and not overlaps(chat, scene) and bool(actions) and all(not overlaps(chat, action) for action in actions), boxes)
+        self.dock_chat_layout(page, "Homepage")
+        self.check("Dock chat clears hero controls", not overlaps(chat, scene)
+                   and bool(actions) and all(not overlaps(chat, action) for action in actions), boxes)
         self.check("Hero actions and scene controls stay above booking dock", scene["bottom"] <= dock["top"] + 1
                    and bool(actions) and all(action["bottom"] <= dock["top"] + 1 for action in actions)
                    and scene["top"] >= boxes[".site-header"]["bottom"] - 1, boxes)
@@ -165,23 +183,27 @@ class Audit:
             page.locator(".menu-trigger").click()
             page.locator(".navigation-dialog[open]").wait_for()
             self.whatsapp(page.locator('.navigation-contact a[href^="https://wa.me/"]'), "Mobile menu")
-            self.check("Floating chat hides behind navigation dialog", page.locator(".whatsapp-chat").is_hidden())
+            self.check("Dock chat hides behind navigation dialog", page.locator(".whatsapp-chat").is_hidden())
             self.overflow(page, "Navigation open")
             page.get_by_role("button", name="Close navigation", exact=True).click()
-            self.check("Floating chat returns after navigation closes", page.locator(".whatsapp-chat").is_visible())
-        page.locator(".booking-dock .date-picker-trigger").first.click()
+            self.check("Dock chat returns after navigation closes", page.locator(".whatsapp-chat").is_visible())
+        calendar_trigger = page.locator(".booking-dock .date-picker-trigger").first
+        if calendar_trigger.is_visible():
+            calendar_trigger.click()
+        else:
+            page.locator("#dock-arrival").click()
         page.locator(".date-picker-dialog[open]").wait_for()
-        self.check("Floating chat hides while calendar is open", page.locator(".whatsapp-chat").is_hidden())
+        self.check("Dock chat hides while calendar is open", page.locator(".whatsapp-chat").is_hidden())
         page.get_by_role("button", name="Close calendar", exact=True).click()
         self.check("Calendar opening does not select a date", page.locator("#dock-arrival").input_value() == "")
-        self.check("Floating chat returns after calendar closes", page.locator(".whatsapp-chat").is_visible())
+        self.check("Dock chat returns after calendar closes", page.locator(".whatsapp-chat").is_visible())
         if width in {390, 1440}:
             self.goto(page, "/gallery")
             page.locator(".gallery-tile").first.click()
             page.locator(".gallery-dialog[open]").wait_for()
-            self.check("Floating chat hides behind gallery dialog", page.locator(".whatsapp-chat").is_hidden())
+            self.check("Dock chat hides behind gallery dialog", page.locator(".whatsapp-chat").is_hidden())
             page.get_by_role("button", name="Close photograph viewer", exact=True).click()
-            self.check("Floating chat returns after gallery closes", page.locator(".whatsapp-chat").is_visible())
+            self.check("Dock chat returns after gallery closes", page.locator(".whatsapp-chat").is_visible())
 
     def set_field(self, form, name, value):
         field = form.locator(f'[name="{name}"]')
@@ -304,9 +326,8 @@ class Audit:
                 page.wait_for_timeout(160)
                 self.overflow(page, f"Route scroll {fraction}")
             self.whatsapp(page.locator(".header-whatsapp"), "Navbar")
-            self.whatsapp(page.locator(".whatsapp-chat"), "Floating chat")
-            boxes = page.evaluate(GEOMETRY, [".whatsapp-chat", ".booking-dock"])
-            self.check("Floating chat clears the dock at page end", not overlaps(boxes[".whatsapp-chat"], boxes[".booking-dock"]), boxes)
+            self.whatsapp(page.locator(".whatsapp-chat"), "Dock chat")
+            self.dock_chat_layout(page, "Page end")
             self.save()
 
     def run_case(self, browser, width, height, action, reduced=False):
