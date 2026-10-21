@@ -19,7 +19,7 @@
 .form-heading h3 em { font-style: normal; font-weight: inherit; }
 .form-heading p { font-size: 18px; line-height: 1.5; color: var(--muted); max-width: 48ch; margin: 0; }
 .booking-fields { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; gap: 28px 24px; }
-.form-field { min-width: 0; }
+.form-field { min-width: 0; --date-text-inset: 16px; }
 .full-field { grid-column: 1 / -1; }
 .form-field label { display: block; margin-bottom: 10px; font-size: 16px; font-weight: 500; line-height: 22px; }
 .form-field label > span { color: var(--muted); }
@@ -91,6 +91,7 @@
   .booking-form { padding: 30px 22px; border-radius: 24px; }
   .form-heading h3 { font-size: 32px; }
   .form-heading p { font-size: 17px; }
+  .form-field { --date-text-inset: 10px; }
   .form-field label { font-size: 15px; }
   .form-field input[type="date"] { min-height: 50px; }
   .booking-fields { gap: 24px 14px; }

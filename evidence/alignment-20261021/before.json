@@ -1,0 +1,108 @@
+{
+  "welcome": {
+    "photo": {
+      "left": 80,
+      "right": 1360,
+      "top": 175.515625,
+      "bottom": 705.515625,
+      "clip": "inset(0% round 24px)"
+    },
+    "amenities": [
+      {
+        "left": 80,
+        "right": 276.65625,
+        "top": 741.515625,
+        "bottom": 800.515625,
+        "clip": "none"
+      },
+      {
+        "left": 296.65625,
+        "right": 493.328125,
+        "top": 741.515625,
+        "bottom": 800.515625,
+        "clip": "none"
+      },
+      {
+        "left": 513.328125,
+        "right": 710,
+        "top": 741.515625,
+        "bottom": 800.515625,
+        "clip": "none"
+      },
+      {
+        "left": 730,
+        "right": 926.65625,
+        "top": 741.515625,
+        "bottom": 800.515625,
+        "clip": "none"
+      },
+      {
+        "left": 946.65625,
+        "right": 1143.328125,
+        "top": 741.515625,
+        "bottom": 800.515625,
+        "clip": "none"
+      },
+      {
+        "left": 1163.328125,
+        "right": 1360,
+        "top": 741.515625,
+        "bottom": 800.515625,
+        "clip": "none"
+      }
+    ]
+  },
+  "city": {
+    "intro": {
+      "left": 918.40625,
+      "right": 1360,
+      "top": 450.046875,
+      "bottom": 540.046875
+    },
+    "detail": {
+      "left": 752,
+      "right": 1360,
+      "top": 690.046875,
+      "bottom": 873.421875
+    },
+    "heading": {
+      "left": 80,
+      "right": 1360,
+      "top": 337.546875,
+      "bottom": 544.046875
+    },
+    "stage": {
+      "left": 80,
+      "right": 1360,
+      "top": 901.421875,
+      "bottom": 1710.21875
+    }
+  },
+  "room_form_1024": [
+    {
+      "label": "Arrival",
+      "width": 396.40625,
+      "column": "1 / -1"
+    },
+    {
+      "label": "Departure",
+      "width": 396.40625,
+      "column": "1 / -1"
+    },
+    {
+      "label": "Guests",
+      "width": 396.40625,
+      "column": "1 / -1"
+    },
+    {
+      "label": "Room preference",
+      "width": 188.203125,
+      "column": "auto"
+    },
+    {
+      "label": "Rooms",
+      "width": 396.40625,
+      "column": "1 / -1"
+    }
+  ]
+}

@@ -1,0 +1,1990 @@
+{
+  "date": "2026-10-21T14:58:04.912313+00:00",
+  "base_url": "http://127.0.0.1:3092",
+  "engines": [
+    "chromium"
+  ],
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "home_compact_widths": [
+    601,
+    640,
+    768,
+    1024
+  ],
+  "room_widths": [
+    901,
+    1024,
+    1100
+  ],
+  "checks": [
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "_R_1dav5b_-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 359.609375,
+          "placeholderLeft": 359.609375,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "_R_1dav5b_-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 463.796875,
+          "placeholderLeft": 463.796875,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 146.484375,
+          "placeholderLeft": 146.484375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "name": "Homepage compact form has both date controls",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 348.609375,
+            "right": 432.796875,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 84.1875,
+            "height": 50
+          },
+          "text": {
+            "left": 359.609375,
+            "right": 449.421875,
+            "top": 287,
+            "bottom": 306,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 388.796875,
+            "right": 432.796875,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 40.1875,
+          "usableDateWidth": 29.1875,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 452.796875,
+            "right": 537,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 84.203125,
+            "height": 50
+          },
+          "text": {
+            "left": 463.796875,
+            "right": 553.609375,
+            "top": 287,
+            "bottom": 306,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 493,
+            "right": 537,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 40.203125,
+          "usableDateWidth": 29.203125,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "name": "Visible Choose date text stays clear of calendar trigger",
+      "passed": false,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 348.609375,
+            "right": 432.796875,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 84.1875,
+            "height": 50
+          },
+          "text": {
+            "left": 359.609375,
+            "right": 449.421875,
+            "top": 287,
+            "bottom": 306,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 388.796875,
+            "right": 432.796875,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 40.1875,
+          "usableDateWidth": 29.1875,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 452.796875,
+            "right": 537,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 84.203125,
+            "height": 50
+          },
+          "text": {
+            "left": 463.796875,
+            "right": 553.609375,
+            "top": 287,
+            "bottom": 306,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 493,
+            "right": 537,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 40.203125,
+          "usableDateWidth": 29.203125,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "name": "Homepage native date content has at least 100px of usable width",
+      "passed": false,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 348.609375,
+            "right": 432.796875,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 84.1875,
+            "height": 50
+          },
+          "text": {
+            "left": 359.609375,
+            "right": 449.421875,
+            "top": 287,
+            "bottom": 306,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 388.796875,
+            "right": 432.796875,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 40.1875,
+          "usableDateWidth": 29.1875,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 452.796875,
+            "right": 537,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 84.203125,
+            "height": 50
+          },
+          "text": {
+            "left": 463.796875,
+            "right": 553.609375,
+            "top": 287,
+            "bottom": 306,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 493,
+            "right": 537,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 40.203125,
+          "usableDateWidth": 29.203125,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "name": "Homepage compact controls stay within their fields and form padding",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "left": 348.609375,
+          "right": 432.796875,
+          "top": 271.75,
+          "bottom": 321.75,
+          "width": 84.1875,
+          "height": 50,
+          "field": {
+            "left": 348.609375,
+            "right": 432.796875,
+            "top": 243.25,
+            "bottom": 321.75,
+            "width": 84.1875,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "departure",
+          "left": 452.796875,
+          "right": 537,
+          "top": 271.75,
+          "bottom": 321.75,
+          "width": 84.203125,
+          "height": 50,
+          "field": {
+            "left": 452.796875,
+            "right": 537,
+            "top": 243.25,
+            "bottom": 321.75,
+            "width": 84.203125,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "adults",
+          "left": 348.609375,
+          "right": 432.796875,
+          "top": 372.25,
+          "bottom": 422.25,
+          "width": 84.1875,
+          "height": 50,
+          "field": {
+            "left": 348.609375,
+            "right": 432.796875,
+            "top": 343.75,
+            "bottom": 480.25,
+            "width": 84.1875,
+            "height": 136.5
+          }
+        },
+        {
+          "name": "children",
+          "left": 348.609375,
+          "right": 432.796875,
+          "top": 430.25,
+          "bottom": 480.25,
+          "width": 84.1875,
+          "height": 50,
+          "field": {
+            "left": 348.609375,
+            "right": 432.796875,
+            "top": 343.75,
+            "bottom": 480.25,
+            "width": 84.1875,
+            "height": 136.5
+          }
+        },
+        {
+          "name": "room",
+          "left": 452.796875,
+          "right": 537,
+          "top": 391.75,
+          "bottom": 441.75,
+          "width": 84.203125,
+          "height": 50,
+          "field": {
+            "left": 452.796875,
+            "right": 537,
+            "top": 343.75,
+            "bottom": 441.75,
+            "width": 84.203125,
+            "height": 98
+          }
+        },
+        {
+          "name": "roomCount",
+          "left": 348.609375,
+          "right": 537,
+          "top": 530.75,
+          "bottom": 580.75,
+          "width": 188.390625,
+          "height": 50,
+          "field": {
+            "left": 348.609375,
+            "right": 537,
+            "top": 502.25,
+            "bottom": 580.75,
+            "width": 188.390625,
+            "height": 78.5
+          }
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "name": "Homepage shared-row controls have matching baselines",
+      "passed": false,
+      "detail": [
+        {
+          "first": "arrival",
+          "second": "departure",
+          "firstBox": {
+            "name": "arrival",
+            "left": 348.609375,
+            "right": 432.796875,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 84.1875,
+            "height": 50,
+            "field": {
+              "left": 348.609375,
+              "right": 432.796875,
+              "top": 243.25,
+              "bottom": 321.75,
+              "width": 84.1875,
+              "height": 78.5
+            }
+          },
+          "secondBox": {
+            "name": "departure",
+            "left": 452.796875,
+            "right": 537,
+            "top": 271.75,
+            "bottom": 321.75,
+            "width": 84.203125,
+            "height": 50,
+            "field": {
+              "left": 452.796875,
+              "right": 537,
+              "top": 243.25,
+              "bottom": 321.75,
+              "width": 84.203125,
+              "height": 78.5
+            }
+          },
+          "aligned": true
+        },
+        {
+          "first": "adults",
+          "second": "room",
+          "firstBox": {
+            "name": "adults",
+            "left": 348.609375,
+            "right": 432.796875,
+            "top": 372.25,
+            "bottom": 422.25,
+            "width": 84.1875,
+            "height": 50,
+            "field": {
+              "left": 348.609375,
+              "right": 432.796875,
+              "top": 343.75,
+              "bottom": 480.25,
+              "width": 84.1875,
+              "height": 136.5
+            }
+          },
+          "secondBox": {
+            "name": "room",
+            "left": 452.796875,
+            "right": 537,
+            "top": 391.75,
+            "bottom": 441.75,
+            "width": 84.203125,
+            "height": 50,
+            "field": {
+              "left": 452.796875,
+              "right": 537,
+              "top": 343.75,
+              "bottom": 441.75,
+              "width": 84.203125,
+              "height": 98
+            }
+          },
+          "aligned": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "name": "Homepage compact form: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 601,
+        "document": 601,
+        "viewport": 601
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 640,
+      "route": "/",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 640,
+      "route": "/",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "_R_1dav5b_-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 380.265625,
+          "placeholderLeft": 380.265625,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "_R_1dav5b_-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 493.625,
+          "placeholderLeft": 493.625,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 165.984375,
+          "placeholderLeft": 165.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 640,
+      "route": "/",
+      "name": "Homepage compact form has both date controls",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 369.265625,
+            "right": 462.625,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 93.359375,
+            "height": 50
+          },
+          "text": {
+            "left": 380.265625,
+            "right": 470.078125,
+            "top": 287.078125,
+            "bottom": 306.078125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 418.625,
+            "right": 462.625,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 49.359375,
+          "usableDateWidth": 38.359375,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 482.625,
+            "right": 576,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 93.375,
+            "height": 50
+          },
+          "text": {
+            "left": 493.625,
+            "right": 583.4375,
+            "top": 287.078125,
+            "bottom": 306.078125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 532,
+            "right": 576,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 49.375,
+          "usableDateWidth": 38.375,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 640,
+      "route": "/",
+      "name": "Visible Choose date text stays clear of calendar trigger",
+      "passed": false,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 369.265625,
+            "right": 462.625,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 93.359375,
+            "height": 50
+          },
+          "text": {
+            "left": 380.265625,
+            "right": 470.078125,
+            "top": 287.078125,
+            "bottom": 306.078125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 418.625,
+            "right": 462.625,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 49.359375,
+          "usableDateWidth": 38.359375,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 482.625,
+            "right": 576,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 93.375,
+            "height": 50
+          },
+          "text": {
+            "left": 493.625,
+            "right": 583.4375,
+            "top": 287.078125,
+            "bottom": 306.078125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 532,
+            "right": 576,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 49.375,
+          "usableDateWidth": 38.375,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 640,
+      "route": "/",
+      "name": "Homepage native date content has at least 100px of usable width",
+      "passed": false,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 369.265625,
+            "right": 462.625,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 93.359375,
+            "height": 50
+          },
+          "text": {
+            "left": 380.265625,
+            "right": 470.078125,
+            "top": 287.078125,
+            "bottom": 306.078125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 418.625,
+            "right": 462.625,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 49.359375,
+          "usableDateWidth": 38.359375,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 482.625,
+            "right": 576,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 93.375,
+            "height": 50
+          },
+          "text": {
+            "left": 493.625,
+            "right": 583.4375,
+            "top": 287.078125,
+            "bottom": 306.078125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 532,
+            "right": 576,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 49.375,
+          "usableDateWidth": 38.375,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 640,
+      "route": "/",
+      "name": "Homepage compact controls stay within their fields and form padding",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "left": 369.265625,
+          "right": 462.625,
+          "top": 271.828125,
+          "bottom": 321.828125,
+          "width": 93.359375,
+          "height": 50,
+          "field": {
+            "left": 369.265625,
+            "right": 462.625,
+            "top": 243.328125,
+            "bottom": 321.828125,
+            "width": 93.359375,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "departure",
+          "left": 482.625,
+          "right": 576,
+          "top": 271.828125,
+          "bottom": 321.828125,
+          "width": 93.375,
+          "height": 50,
+          "field": {
+            "left": 482.625,
+            "right": 576,
+            "top": 243.328125,
+            "bottom": 321.828125,
+            "width": 93.375,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "adults",
+          "left": 369.265625,
+          "right": 462.625,
+          "top": 372.328125,
+          "bottom": 422.328125,
+          "width": 93.359375,
+          "height": 50,
+          "field": {
+            "left": 369.265625,
+            "right": 462.625,
+            "top": 343.828125,
+            "bottom": 480.328125,
+            "width": 93.359375,
+            "height": 136.5
+          }
+        },
+        {
+          "name": "children",
+          "left": 369.265625,
+          "right": 462.625,
+          "top": 430.328125,
+          "bottom": 480.328125,
+          "width": 93.359375,
+          "height": 50,
+          "field": {
+            "left": 369.265625,
+            "right": 462.625,
+            "top": 343.828125,
+            "bottom": 480.328125,
+            "width": 93.359375,
+            "height": 136.5
+          }
+        },
+        {
+          "name": "room",
+          "left": 482.625,
+          "right": 576,
+          "top": 391.828125,
+          "bottom": 441.828125,
+          "width": 93.375,
+          "height": 50,
+          "field": {
+            "left": 482.625,
+            "right": 576,
+            "top": 343.828125,
+            "bottom": 441.828125,
+            "width": 93.375,
+            "height": 98
+          }
+        },
+        {
+          "name": "roomCount",
+          "left": 369.265625,
+          "right": 576,
+          "top": 530.828125,
+          "bottom": 580.828125,
+          "width": 206.734375,
+          "height": 50,
+          "field": {
+            "left": 369.265625,
+            "right": 576,
+            "top": 502.328125,
+            "bottom": 580.828125,
+            "width": 206.734375,
+            "height": 78.5
+          }
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 640,
+      "route": "/",
+      "name": "Homepage shared-row controls have matching baselines",
+      "passed": false,
+      "detail": [
+        {
+          "first": "arrival",
+          "second": "departure",
+          "firstBox": {
+            "name": "arrival",
+            "left": 369.265625,
+            "right": 462.625,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 93.359375,
+            "height": 50,
+            "field": {
+              "left": 369.265625,
+              "right": 462.625,
+              "top": 243.328125,
+              "bottom": 321.828125,
+              "width": 93.359375,
+              "height": 78.5
+            }
+          },
+          "secondBox": {
+            "name": "departure",
+            "left": 482.625,
+            "right": 576,
+            "top": 271.828125,
+            "bottom": 321.828125,
+            "width": 93.375,
+            "height": 50,
+            "field": {
+              "left": 482.625,
+              "right": 576,
+              "top": 243.328125,
+              "bottom": 321.828125,
+              "width": 93.375,
+              "height": 78.5
+            }
+          },
+          "aligned": true
+        },
+        {
+          "first": "adults",
+          "second": "room",
+          "firstBox": {
+            "name": "adults",
+            "left": 369.265625,
+            "right": 462.625,
+            "top": 372.328125,
+            "bottom": 422.328125,
+            "width": 93.359375,
+            "height": 50,
+            "field": {
+              "left": 369.265625,
+              "right": 462.625,
+              "top": 343.828125,
+              "bottom": 480.328125,
+              "width": 93.359375,
+              "height": 136.5
+            }
+          },
+          "secondBox": {
+            "name": "room",
+            "left": 482.625,
+            "right": 576,
+            "top": 391.828125,
+            "bottom": 441.828125,
+            "width": 93.375,
+            "height": 50,
+            "field": {
+              "left": 482.625,
+              "right": 576,
+              "top": 343.828125,
+              "bottom": 441.828125,
+              "width": 93.375,
+              "height": 98
+            }
+          },
+          "aligned": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 640,
+      "route": "/",
+      "name": "Homepage compact form: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 640,
+        "document": 640,
+        "viewport": 640
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "_R_1dav5b_-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 448.109375,
+          "placeholderLeft": 448.109375,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "_R_1dav5b_-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 591.546875,
+          "placeholderLeft": 591.546875,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 229.984375,
+          "placeholderLeft": 229.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "name": "Homepage compact form has both date controls",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 437.109375,
+            "right": 560.546875,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 123.4375,
+            "height": 50
+          },
+          "text": {
+            "left": 448.109375,
+            "right": 537.921875,
+            "top": 286.53125,
+            "bottom": 305.53125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 516.546875,
+            "right": 560.546875,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 79.4375,
+          "usableDateWidth": 68.4375,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 580.546875,
+            "right": 704,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 123.453125,
+            "height": 50
+          },
+          "text": {
+            "left": 591.546875,
+            "right": 681.359375,
+            "top": 286.53125,
+            "bottom": 305.53125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 660,
+            "right": 704,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 79.453125,
+          "usableDateWidth": 68.453125,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "name": "Visible Choose date text stays clear of calendar trigger",
+      "passed": false,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 437.109375,
+            "right": 560.546875,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 123.4375,
+            "height": 50
+          },
+          "text": {
+            "left": 448.109375,
+            "right": 537.921875,
+            "top": 286.53125,
+            "bottom": 305.53125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 516.546875,
+            "right": 560.546875,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 79.4375,
+          "usableDateWidth": 68.4375,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 580.546875,
+            "right": 704,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 123.453125,
+            "height": 50
+          },
+          "text": {
+            "left": 591.546875,
+            "right": 681.359375,
+            "top": 286.53125,
+            "bottom": 305.53125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 660,
+            "right": 704,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 79.453125,
+          "usableDateWidth": 68.453125,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "name": "Homepage native date content has at least 100px of usable width",
+      "passed": false,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 437.109375,
+            "right": 560.546875,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 123.4375,
+            "height": 50
+          },
+          "text": {
+            "left": 448.109375,
+            "right": 537.921875,
+            "top": 286.53125,
+            "bottom": 305.53125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 516.546875,
+            "right": 560.546875,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 79.4375,
+          "usableDateWidth": 68.4375,
+          "placeholderFits": false
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 580.546875,
+            "right": 704,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 123.453125,
+            "height": 50
+          },
+          "text": {
+            "left": 591.546875,
+            "right": 681.359375,
+            "top": 286.53125,
+            "bottom": 305.53125,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 660,
+            "right": 704,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 79.453125,
+          "usableDateWidth": 68.453125,
+          "placeholderFits": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "name": "Homepage compact controls stay within their fields and form padding",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "left": 437.109375,
+          "right": 560.546875,
+          "top": 271.28125,
+          "bottom": 321.28125,
+          "width": 123.4375,
+          "height": 50,
+          "field": {
+            "left": 437.109375,
+            "right": 560.546875,
+            "top": 242.78125,
+            "bottom": 321.28125,
+            "width": 123.4375,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "departure",
+          "left": 580.546875,
+          "right": 704,
+          "top": 271.28125,
+          "bottom": 321.28125,
+          "width": 123.453125,
+          "height": 50,
+          "field": {
+            "left": 580.546875,
+            "right": 704,
+            "top": 242.78125,
+            "bottom": 321.28125,
+            "width": 123.453125,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "adults",
+          "left": 437.109375,
+          "right": 560.546875,
+          "top": 371.78125,
+          "bottom": 421.78125,
+          "width": 123.4375,
+          "height": 50,
+          "field": {
+            "left": 437.109375,
+            "right": 560.546875,
+            "top": 343.28125,
+            "bottom": 479.78125,
+            "width": 123.4375,
+            "height": 136.5
+          }
+        },
+        {
+          "name": "children",
+          "left": 437.109375,
+          "right": 560.546875,
+          "top": 429.78125,
+          "bottom": 479.78125,
+          "width": 123.4375,
+          "height": 50,
+          "field": {
+            "left": 437.109375,
+            "right": 560.546875,
+            "top": 343.28125,
+            "bottom": 479.78125,
+            "width": 123.4375,
+            "height": 136.5
+          }
+        },
+        {
+          "name": "room",
+          "left": 580.546875,
+          "right": 704,
+          "top": 371.78125,
+          "bottom": 421.78125,
+          "width": 123.453125,
+          "height": 50,
+          "field": {
+            "left": 580.546875,
+            "right": 704,
+            "top": 343.28125,
+            "bottom": 421.78125,
+            "width": 123.453125,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "roomCount",
+          "left": 437.109375,
+          "right": 704,
+          "top": 530.28125,
+          "bottom": 580.28125,
+          "width": 266.890625,
+          "height": 50,
+          "field": {
+            "left": 437.109375,
+            "right": 704,
+            "top": 501.78125,
+            "bottom": 580.28125,
+            "width": 266.890625,
+            "height": 78.5
+          }
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "name": "Homepage shared-row controls have matching baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "arrival",
+          "second": "departure",
+          "firstBox": {
+            "name": "arrival",
+            "left": 437.109375,
+            "right": 560.546875,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 123.4375,
+            "height": 50,
+            "field": {
+              "left": 437.109375,
+              "right": 560.546875,
+              "top": 242.78125,
+              "bottom": 321.28125,
+              "width": 123.4375,
+              "height": 78.5
+            }
+          },
+          "secondBox": {
+            "name": "departure",
+            "left": 580.546875,
+            "right": 704,
+            "top": 271.28125,
+            "bottom": 321.28125,
+            "width": 123.453125,
+            "height": 50,
+            "field": {
+              "left": 580.546875,
+              "right": 704,
+              "top": 242.78125,
+              "bottom": 321.28125,
+              "width": 123.453125,
+              "height": 78.5
+            }
+          },
+          "aligned": true
+        },
+        {
+          "first": "adults",
+          "second": "room",
+          "firstBox": {
+            "name": "adults",
+            "left": 437.109375,
+            "right": 560.546875,
+            "top": 371.78125,
+            "bottom": 421.78125,
+            "width": 123.4375,
+            "height": 50,
+            "field": {
+              "left": 437.109375,
+              "right": 560.546875,
+              "top": 343.28125,
+              "bottom": 479.78125,
+              "width": 123.4375,
+              "height": 136.5
+            }
+          },
+          "secondBox": {
+            "name": "room",
+            "left": 580.546875,
+            "right": 704,
+            "top": 371.78125,
+            "bottom": 421.78125,
+            "width": 123.453125,
+            "height": 50,
+            "field": {
+              "left": 580.546875,
+              "right": 704,
+              "top": 343.28125,
+              "bottom": 421.78125,
+              "width": 123.453125,
+              "height": 78.5
+            }
+          },
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "name": "Homepage compact form: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "_R_1dav5b_-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 596.75,
+          "placeholderLeft": 596.75,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "_R_1dav5b_-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 785.875,
+          "placeholderLeft": 785.875,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 357.984375,
+          "placeholderLeft": 357.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "Homepage compact form has both date controls",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 585.75,
+            "right": 754.875,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 50
+          },
+          "text": {
+            "left": 596.75,
+            "right": 686.5625,
+            "top": 325.515625,
+            "bottom": 344.515625,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 710.875,
+            "right": 754.875,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 125.125,
+          "usableDateWidth": 114.125,
+          "placeholderFits": true
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 774.875,
+            "right": 944,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 50
+          },
+          "text": {
+            "left": 785.875,
+            "right": 875.6875,
+            "top": 325.515625,
+            "bottom": 344.515625,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 900,
+            "right": 944,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 125.125,
+          "usableDateWidth": 114.125,
+          "placeholderFits": true
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "Visible Choose date text stays clear of calendar trigger",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 585.75,
+            "right": 754.875,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 50
+          },
+          "text": {
+            "left": 596.75,
+            "right": 686.5625,
+            "top": 325.515625,
+            "bottom": 344.515625,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 710.875,
+            "right": 754.875,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 125.125,
+          "usableDateWidth": 114.125,
+          "placeholderFits": true
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 774.875,
+            "right": 944,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 50
+          },
+          "text": {
+            "left": 785.875,
+            "right": 875.6875,
+            "top": 325.515625,
+            "bottom": 344.515625,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 900,
+            "right": 944,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 125.125,
+          "usableDateWidth": 114.125,
+          "placeholderFits": true
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "Homepage native date content has at least 100px of usable width",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "input": {
+            "left": 585.75,
+            "right": 754.875,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 50
+          },
+          "text": {
+            "left": 596.75,
+            "right": 686.5625,
+            "top": 325.515625,
+            "bottom": 344.515625,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 710.875,
+            "right": 754.875,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 125.125,
+          "usableDateWidth": 114.125,
+          "placeholderFits": true
+        },
+        {
+          "name": "departure",
+          "input": {
+            "left": 774.875,
+            "right": 944,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 50
+          },
+          "text": {
+            "left": 785.875,
+            "right": 875.6875,
+            "top": 325.515625,
+            "bottom": 344.515625,
+            "width": 89.8125,
+            "height": 19
+          },
+          "trigger": {
+            "left": 900,
+            "right": 944,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 44,
+            "height": 50
+          },
+          "triggerVisible": true,
+          "nativeContentWidth": 125.125,
+          "usableDateWidth": 114.125,
+          "placeholderFits": true
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "Homepage compact controls stay within their fields and form padding",
+      "passed": true,
+      "detail": [
+        {
+          "name": "arrival",
+          "left": 585.75,
+          "right": 754.875,
+          "top": 310.265625,
+          "bottom": 360.265625,
+          "width": 169.125,
+          "height": 50,
+          "field": {
+            "left": 585.75,
+            "right": 754.875,
+            "top": 281.765625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "departure",
+          "left": 774.875,
+          "right": 944,
+          "top": 310.265625,
+          "bottom": 360.265625,
+          "width": 169.125,
+          "height": 50,
+          "field": {
+            "left": 774.875,
+            "right": 944,
+            "top": 281.765625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "adults",
+          "left": 585.75,
+          "right": 754.875,
+          "top": 410.765625,
+          "bottom": 460.765625,
+          "width": 169.125,
+          "height": 50,
+          "field": {
+            "left": 585.75,
+            "right": 754.875,
+            "top": 382.265625,
+            "bottom": 518.765625,
+            "width": 169.125,
+            "height": 136.5
+          }
+        },
+        {
+          "name": "children",
+          "left": 585.75,
+          "right": 754.875,
+          "top": 468.765625,
+          "bottom": 518.765625,
+          "width": 169.125,
+          "height": 50,
+          "field": {
+            "left": 585.75,
+            "right": 754.875,
+            "top": 382.265625,
+            "bottom": 518.765625,
+            "width": 169.125,
+            "height": 136.5
+          }
+        },
+        {
+          "name": "room",
+          "left": 774.875,
+          "right": 944,
+          "top": 410.765625,
+          "bottom": 460.765625,
+          "width": 169.125,
+          "height": 50,
+          "field": {
+            "left": 774.875,
+            "right": 944,
+            "top": 382.265625,
+            "bottom": 460.765625,
+            "width": 169.125,
+            "height": 78.5
+          }
+        },
+        {
+          "name": "roomCount",
+          "left": 585.75,
+          "right": 944,
+          "top": 569.265625,
+          "bottom": 619.265625,
+          "width": 358.25,
+          "height": 50,
+          "field": {
+            "left": 585.75,
+            "right": 944,
+            "top": 540.765625,
+            "bottom": 619.265625,
+            "width": 358.25,
+            "height": 78.5
+          }
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "Homepage shared-row controls have matching baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": "arrival",
+          "second": "departure",
+          "firstBox": {
+            "name": "arrival",
+            "left": 585.75,
+            "right": 754.875,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 50,
+            "field": {
+              "left": 585.75,
+              "right": 754.875,
+              "top": 281.765625,
+              "bottom": 360.265625,
+              "width": 169.125,
+              "height": 78.5
+            }
+          },
+          "secondBox": {
+            "name": "departure",
+            "left": 774.875,
+            "right": 944,
+            "top": 310.265625,
+            "bottom": 360.265625,
+            "width": 169.125,
+            "height": 50,
+            "field": {
+              "left": 774.875,
+              "right": 944,
+              "top": 281.765625,
+              "bottom": 360.265625,
+              "width": 169.125,
+              "height": 78.5
+            }
+          },
+          "aligned": true
+        },
+        {
+          "first": "adults",
+          "second": "room",
+          "firstBox": {
+            "name": "adults",
+            "left": 585.75,
+            "right": 754.875,
+            "top": 410.765625,
+            "bottom": 460.765625,
+            "width": 169.125,
+            "height": 50,
+            "field": {
+              "left": 585.75,
+              "right": 754.875,
+              "top": 382.265625,
+              "bottom": 518.765625,
+              "width": 169.125,
+              "height": 136.5
+            }
+          },
+          "secondBox": {
+            "name": "room",
+            "left": 774.875,
+            "right": 944,
+            "top": 410.765625,
+            "bottom": 460.765625,
+            "width": 169.125,
+            "height": 50,
+            "field": {
+              "left": 774.875,
+              "right": 944,
+              "top": 382.265625,
+              "bottom": 460.765625,
+              "width": 169.125,
+              "height": 78.5
+            }
+          },
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "Homepage compact form: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "No JavaScript runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/",
+      "name": "No WhatsApp navigation attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "console_errors": [],
+  "screenshots": [
+    {
+      "engine": "chromium",
+      "width": 601,
+      "route": "/",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-chromium-601-home-compact-form.png"
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-chromium-768-home-compact-form.png"
+    }
+  ],
+  "blocked_external_requests": [],
+  "external_messages_sent": 0,
+  "limitations": [
+    "WebKit engine coverage is not physical iPhone verification.",
+    "Enquiry links are inspected only; WhatsApp is never opened."
+  ],
+  "summary": {
+    "passed": 26,
+    "failed": 8,
+    "runtime_errors": 0
+  }
+}

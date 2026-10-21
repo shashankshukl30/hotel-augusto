@@ -1,0 +1,1833 @@
+{
+  "date": "2026-10-21T15:03:01.067844+00:00",
+  "base_url": "http://127.0.0.1:3082",
+  "engines": [
+    "chromium"
+  ],
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "home_compact_widths": [
+    601,
+    640,
+    768,
+    1024
+  ],
+  "room_widths": [
+    901,
+    1024,
+    1100
+  ],
+  "checks": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "dining-date",
+          "name": "date",
+          "inputType": "date",
+          "expectedLeft": 59,
+          "placeholderLeft": 59,
+          "visible": true,
+          "padding": "14px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 29,
+          "placeholderLeft": 29,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 176.984375,
+          "placeholderLeft": 176.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 271
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 44,
+          "right": 276,
+          "top": 210.84375,
+          "bottom": 263.234375,
+          "width": 232,
+          "height": 52.390625
+        },
+        "content": {
+          "left": 67,
+          "right": 253,
+          "top": 225.84375,
+          "bottom": 248.234375
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp",
+            "box": {
+              "left": 98.921875,
+              "right": 221.0625,
+              "top": 226.84375,
+              "bottom": 246.84375,
+              "width": 122.140625,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 70.921875,
+              "right": 88.921875,
+              "top": 227.03125,
+              "bottom": 247.03125,
+              "width": 18,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 231.0625,
+              "right": 249.0625,
+              "top": 228.03125,
+              "bottom": 246.03125,
+              "width": 18,
+              "height": 18
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20dining.%0APreferred%20date%3A%2020%20Nov%202026%0AInterested%20in%3A%20Restaurant%20meal%0APeople%20in%20our%20party%3A%202%0APlease%20share%20the%20current%20menu%2C%20serving%20times%2C%20availability%20and%20charges.%20Please%20confirm%20any%20meal%20inclusions%20for%20my%20stay.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 320,
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "dining-date",
+          "name": "date",
+          "inputType": "date",
+          "expectedLeft": 59,
+          "placeholderLeft": 59,
+          "visible": true,
+          "padding": "14px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 29,
+          "placeholderLeft": 29,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 212,
+          "placeholderLeft": 212,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 271
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 44,
+          "right": 346,
+          "top": 210.84375,
+          "bottom": 263.234375,
+          "width": 302,
+          "height": 52.390625
+        },
+        "content": {
+          "left": 67,
+          "right": 323,
+          "top": 225.84375,
+          "bottom": 248.234375
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp",
+            "box": {
+              "left": 133.921875,
+              "right": 256.0625,
+              "top": 226.84375,
+              "bottom": 246.84375,
+              "width": 122.140625,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 105.921875,
+              "right": 123.921875,
+              "top": 227.03125,
+              "bottom": 247.03125,
+              "width": 18,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 266.0625,
+              "right": 284.0625,
+              "top": 228.03125,
+              "bottom": 246.03125,
+              "width": 18,
+              "height": 18
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20dining.%0APreferred%20date%3A%2020%20Nov%202026%0AInterested%20in%3A%20Restaurant%20meal%0APeople%20in%20our%20party%3A%202%0APlease%20share%20the%20current%20menu%2C%20serving%20times%2C%20availability%20and%20charges.%20Please%20confirm%20any%20meal%20inclusions%20for%20my%20stay.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "route": "/dining",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "dining-date",
+          "name": "date",
+          "inputType": "date",
+          "expectedLeft": 414.578125,
+          "placeholderLeft": 414.578125,
+          "visible": true,
+          "padding": "14px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 229.984375,
+          "placeholderLeft": 229.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 271
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 399.578125,
+          "right": 700,
+          "top": 210.6875,
+          "bottom": 263.078125,
+          "width": 300.421875,
+          "height": 52.390625
+        },
+        "content": {
+          "left": 425.578125,
+          "right": 674,
+          "top": 225.6875,
+          "bottom": 248.078125
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp",
+            "box": {
+              "left": 488.71875,
+              "right": 610.859375,
+              "top": 226.6875,
+              "bottom": 246.6875,
+              "width": 122.140625,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 460.71875,
+              "right": 478.71875,
+              "top": 226.875,
+              "bottom": 246.875,
+              "width": 18,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 620.859375,
+              "right": 638.859375,
+              "top": 227.875,
+              "bottom": 245.875,
+              "width": 18,
+              "height": 18
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20dining.%0APreferred%20date%3A%2020%20Nov%202026%0AInterested%20in%3A%20Restaurant%20meal%0APeople%20in%20our%20party%3A%202%0APlease%20share%20the%20current%20menu%2C%20serving%20times%2C%20availability%20and%20charges.%20Please%20confirm%20any%20meal%20inclusions%20for%20my%20stay.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 768,
+        "document": 768,
+        "viewport": 768
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "route": "/dining",
+      "name": "Dining intro, enquiry form and FAQ share desktop right-column edges",
+      "passed": true,
+      "detail": [
+        {
+          "selector": ".hospitality-dining-introduction > :nth-child(2)",
+          "left": 363.578125,
+          "right": 736
+        },
+        {
+          "selector": ".hospitality-dining-enquiries > .dining-enquiry-form",
+          "left": 363.578125,
+          "right": 736
+        },
+        {
+          "selector": ".hospitality-dining-questions > div",
+          "left": 363.578125,
+          "right": 736
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "dining-date",
+          "name": "date",
+          "inputType": "date",
+          "expectedLeft": 536.078125,
+          "placeholderLeft": 536.078125,
+          "visible": true,
+          "padding": "14px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 357.984375,
+          "placeholderLeft": 357.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 271
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 521.078125,
+          "right": 940,
+          "top": 249.65625,
+          "bottom": 302.046875,
+          "width": 418.921875,
+          "height": 52.390625
+        },
+        "content": {
+          "left": 547.078125,
+          "right": 914,
+          "top": 264.65625,
+          "bottom": 287.046875
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp",
+            "box": {
+              "left": 669.46875,
+              "right": 791.609375,
+              "top": 265.65625,
+              "bottom": 285.65625,
+              "width": 122.140625,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 641.46875,
+              "right": 659.46875,
+              "top": 265.84375,
+              "bottom": 285.84375,
+              "width": 18,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 801.609375,
+              "right": 819.609375,
+              "top": 266.84375,
+              "bottom": 284.84375,
+              "width": 18,
+              "height": 18
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20dining.%0APreferred%20date%3A%2020%20Nov%202026%0AInterested%20in%3A%20Restaurant%20meal%0APeople%20in%20our%20party%3A%202%0APlease%20share%20the%20current%20menu%2C%20serving%20times%2C%20availability%20and%20charges.%20Please%20confirm%20any%20meal%20inclusions%20for%20my%20stay.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/dining",
+      "name": "Dining intro, enquiry form and FAQ share desktop right-column edges",
+      "passed": true,
+      "detail": [
+        {
+          "selector": ".hospitality-dining-introduction > :nth-child(2)",
+          "left": 485.078125,
+          "right": 976
+        },
+        {
+          "selector": ".hospitality-dining-enquiries > .dining-enquiry-form",
+          "left": 485.078125,
+          "right": 976
+        },
+        {
+          "selector": ".hospitality-dining-questions > div",
+          "left": 485.078125,
+          "right": 976
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "dining-date",
+          "name": "date",
+          "inputType": "date",
+          "expectedLeft": 733.859375,
+          "placeholderLeft": 733.859375,
+          "visible": true,
+          "padding": "14px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 714.984375,
+          "placeholderLeft": 714.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 886.984375,
+          "placeholderLeft": 886.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Empty: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Empty form has no prepared enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Empty submission displays validation and no draft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Missing required values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Invalid values display validation and prevent preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Invalid values: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Valid local future dates prepare one WhatsApp link",
+      "passed": true,
+      "detail": {
+        "dates": [
+          "2026-11-20",
+          "2026-11-22"
+        ]
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Prepared link targets wa.me with an enquiry, without navigation",
+      "passed": true,
+      "detail": {
+        "host": "wa.me",
+        "message_length": 271
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Prepared CTA text and SVGs remain inside its content padding",
+      "passed": true,
+      "detail": {
+        "outer": {
+          "left": 718.859375,
+          "right": 1324,
+          "top": 250.453125,
+          "bottom": 302.84375,
+          "width": 605.140625,
+          "height": 52.390625
+        },
+        "content": {
+          "left": 744.859375,
+          "right": 1298,
+          "top": 265.453125,
+          "bottom": 287.84375
+        },
+        "parts": [
+          {
+            "kind": "text",
+            "text": "Open WhatsApp",
+            "box": {
+              "left": 960.359375,
+              "right": 1082.5,
+              "top": 266.453125,
+              "bottom": 286.453125,
+              "width": 122.140625,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 932.359375,
+              "right": 950.359375,
+              "top": 266.640625,
+              "bottom": 286.640625,
+              "width": 18,
+              "height": 20
+            }
+          },
+          {
+            "kind": "svg",
+            "box": {
+              "left": 1092.5,
+              "right": 1110.5,
+              "top": 267.640625,
+              "bottom": 285.640625,
+              "width": 18,
+              "height": 18
+            }
+          }
+        ],
+        "outside": [],
+        "clipped": [],
+        "whiteSpace": "nowrap",
+        "href": "https://wa.me/918081709146?text=Hello%20Hotel%20Augusto%2C%20I%20would%20like%20to%20enquire%20about%20dining.%0APreferred%20date%3A%2020%20Nov%202026%0AInterested%20in%3A%20Restaurant%20meal%0APeople%20in%20our%20party%3A%202%0APlease%20share%20the%20current%20menu%2C%20serving%20times%2C%20availability%20and%20charges.%20Please%20confirm%20any%20meal%20inclusions%20for%20my%20stay.%20Thank%20you!"
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Prepared CTA content is not clipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Prepared enquiry: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1440,
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "route": "/dining",
+      "name": "Dining intro, enquiry form and FAQ share desktop right-column edges",
+      "passed": true,
+      "detail": [
+        {
+          "selector": ".hospitality-dining-introduction > :nth-child(2)",
+          "left": 682.859375,
+          "right": 1360
+        },
+        {
+          "selector": ".hospitality-dining-enquiries > .dining-enquiry-form",
+          "left": 682.859375,
+          "right": 1360
+        },
+        {
+          "selector": ".hospitality-dining-questions > div",
+          "left": 682.859375,
+          "right": 1360
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 901,
+      "route": "/rooms/deluxe-room",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 901,
+      "route": "/rooms/deluxe-room",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "_R_lanpfiv5b_-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 507.625,
+          "placeholderLeft": 507.625,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "_R_lanpfiv5b_-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 507.625,
+          "placeholderLeft": 507.625,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 296.484375,
+          "placeholderLeft": 296.484375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 901,
+      "route": "/rooms/deluxe-room",
+      "name": "Room fields fill narrow containers and retain readable columns when wider",
+      "passed": true,
+      "detail": {
+        "containerWidth": 330.375,
+        "grid": {
+          "left": 496.625,
+          "right": 827,
+          "top": 425.234375,
+          "bottom": 978.734375,
+          "width": 330.375,
+          "height": 553.5
+        },
+        "fields": [
+          {
+            "className": "stay-field",
+            "left": 496.625,
+            "right": 827,
+            "top": 425.234375,
+            "bottom": 503.734375,
+            "width": 330.375,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field",
+            "left": 496.625,
+            "right": 827,
+            "top": 525.734375,
+            "bottom": 604.234375,
+            "width": 330.375,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field stay-guests",
+            "left": 496.625,
+            "right": 827,
+            "top": 626.234375,
+            "bottom": 704.734375,
+            "width": 330.375,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field stay-room",
+            "left": 496.625,
+            "right": 827,
+            "top": 726.734375,
+            "bottom": 805.234375,
+            "width": 330.375,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field stay-count",
+            "left": 496.625,
+            "right": 827,
+            "top": 827.234375,
+            "bottom": 905.734375,
+            "width": 330.375,
+            "height": 78.5
+          }
+        ],
+        "pairs": [
+          {
+            "first": {
+              "name": "adults",
+              "left": 496.625,
+              "right": 657.8125,
+              "top": 654.734375,
+              "bottom": 704.734375,
+              "width": 161.1875,
+              "height": 50
+            },
+            "second": {
+              "name": "children",
+              "left": 665.8125,
+              "right": 827,
+              "top": 654.734375,
+              "bottom": 704.734375,
+              "width": 161.1875,
+              "height": 50
+            },
+            "aligned": true
+          }
+        ]
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 901,
+      "route": "/rooms/deluxe-room",
+      "name": "Shared-row room form controls have matching baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": {
+            "name": "adults",
+            "left": 496.625,
+            "right": 657.8125,
+            "top": 654.734375,
+            "bottom": 704.734375,
+            "width": 161.1875,
+            "height": 50
+          },
+          "second": {
+            "name": "children",
+            "left": 665.8125,
+            "right": 827,
+            "top": 654.734375,
+            "bottom": 704.734375,
+            "width": 161.1875,
+            "height": 50
+          },
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 901,
+      "route": "/rooms/deluxe-room",
+      "name": "Tablet room form: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 901,
+        "document": 901,
+        "viewport": 901
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "_R_lanpfiv5b_-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 572.1875,
+          "placeholderLeft": 572.1875,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "_R_lanpfiv5b_-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 572.1875,
+          "placeholderLeft": 572.1875,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 357.984375,
+          "placeholderLeft": 357.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Room fields fill narrow containers and retain readable columns when wider",
+      "passed": true,
+      "detail": {
+        "containerWidth": 388.8125,
+        "grid": {
+          "left": 561.1875,
+          "right": 950,
+          "top": 425.3125,
+          "bottom": 978.8125,
+          "width": 388.8125,
+          "height": 553.5
+        },
+        "fields": [
+          {
+            "className": "stay-field",
+            "left": 561.1875,
+            "right": 950,
+            "top": 425.3125,
+            "bottom": 503.8125,
+            "width": 388.8125,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field",
+            "left": 561.1875,
+            "right": 950,
+            "top": 525.8125,
+            "bottom": 604.3125,
+            "width": 388.8125,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field stay-guests",
+            "left": 561.1875,
+            "right": 950,
+            "top": 626.3125,
+            "bottom": 704.8125,
+            "width": 388.8125,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field stay-room",
+            "left": 561.1875,
+            "right": 950,
+            "top": 726.8125,
+            "bottom": 805.3125,
+            "width": 388.8125,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field stay-count",
+            "left": 561.1875,
+            "right": 950,
+            "top": 827.3125,
+            "bottom": 905.8125,
+            "width": 388.8125,
+            "height": 78.5
+          }
+        ],
+        "pairs": [
+          {
+            "first": {
+              "name": "adults",
+              "left": 561.1875,
+              "right": 751.59375,
+              "top": 654.8125,
+              "bottom": 704.8125,
+              "width": 190.40625,
+              "height": 50
+            },
+            "second": {
+              "name": "children",
+              "left": 759.59375,
+              "right": 950,
+              "top": 654.8125,
+              "bottom": 704.8125,
+              "width": 190.40625,
+              "height": 50
+            },
+            "aligned": true
+          }
+        ]
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Shared-row room form controls have matching baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": {
+            "name": "adults",
+            "left": 561.1875,
+            "right": 751.59375,
+            "top": 654.8125,
+            "bottom": 704.8125,
+            "width": 190.40625,
+            "height": 50
+          },
+          "second": {
+            "name": "children",
+            "left": 759.59375,
+            "right": 950,
+            "top": 654.8125,
+            "bottom": 704.8125,
+            "width": 190.40625,
+            "height": 50
+          },
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "name": "Tablet room form: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1024,
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "route": "/rooms/deluxe-room",
+      "name": "Route responds successfully",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "route": "/rooms/deluxe-room",
+      "name": "All empty visible date placeholders align with native input content left",
+      "passed": true,
+      "detail": [
+        {
+          "id": "_R_lanpfiv5b_-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 612.09375,
+          "placeholderLeft": 612.09375,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "_R_lanpfiv5b_-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 834.546875,
+          "placeholderLeft": 834.546875,
+          "visible": true,
+          "padding": "10px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-arrival",
+          "name": "arrival",
+          "inputType": "date",
+          "expectedLeft": 37,
+          "placeholderLeft": 37,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        },
+        {
+          "id": "dock-departure",
+          "name": "departure",
+          "inputType": "date",
+          "expectedLeft": 395.984375,
+          "placeholderLeft": 395.984375,
+          "visible": true,
+          "padding": "12px",
+          "border": "1px"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "route": "/rooms/deluxe-room",
+      "name": "Room fields fill narrow containers and retain readable columns when wider",
+      "passed": true,
+      "detail": {
+        "containerWidth": 424.90625,
+        "grid": {
+          "left": 601.09375,
+          "right": 1026,
+          "top": 425.28125,
+          "bottom": 835.78125,
+          "width": 424.90625,
+          "height": 410.5
+        },
+        "fields": [
+          {
+            "className": "stay-field",
+            "left": 601.09375,
+            "right": 803.546875,
+            "top": 425.28125,
+            "bottom": 503.78125,
+            "width": 202.453125,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field",
+            "left": 823.546875,
+            "right": 1026,
+            "top": 425.28125,
+            "bottom": 503.78125,
+            "width": 202.453125,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field stay-guests",
+            "left": 601.09375,
+            "right": 803.546875,
+            "top": 525.78125,
+            "bottom": 662.28125,
+            "width": 202.453125,
+            "height": 136.5
+          },
+          {
+            "className": "stay-field stay-room",
+            "left": 823.546875,
+            "right": 1026,
+            "top": 525.78125,
+            "bottom": 604.28125,
+            "width": 202.453125,
+            "height": 78.5
+          },
+          {
+            "className": "stay-field stay-count",
+            "left": 601.09375,
+            "right": 1026,
+            "top": 684.28125,
+            "bottom": 762.78125,
+            "width": 424.90625,
+            "height": 78.5
+          }
+        ],
+        "pairs": [
+          {
+            "first": {
+              "name": "arrival",
+              "left": 601.09375,
+              "right": 803.546875,
+              "top": 453.78125,
+              "bottom": 503.78125,
+              "width": 202.453125,
+              "height": 50
+            },
+            "second": {
+              "name": "departure",
+              "left": 823.546875,
+              "right": 1026,
+              "top": 453.78125,
+              "bottom": 503.78125,
+              "width": 202.453125,
+              "height": 50
+            },
+            "aligned": true
+          },
+          {
+            "first": {
+              "name": "adults",
+              "left": 601.09375,
+              "right": 803.546875,
+              "top": 554.28125,
+              "bottom": 604.28125,
+              "width": 202.453125,
+              "height": 50
+            },
+            "second": {
+              "name": "room",
+              "left": 823.546875,
+              "right": 1026,
+              "top": 554.28125,
+              "bottom": 604.28125,
+              "width": 202.453125,
+              "height": 50
+            },
+            "aligned": true
+          }
+        ]
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "route": "/rooms/deluxe-room",
+      "name": "Shared-row room form controls have matching baselines",
+      "passed": true,
+      "detail": [
+        {
+          "first": {
+            "name": "arrival",
+            "left": 601.09375,
+            "right": 803.546875,
+            "top": 453.78125,
+            "bottom": 503.78125,
+            "width": 202.453125,
+            "height": 50
+          },
+          "second": {
+            "name": "departure",
+            "left": 823.546875,
+            "right": 1026,
+            "top": 453.78125,
+            "bottom": 503.78125,
+            "width": 202.453125,
+            "height": 50
+          },
+          "aligned": true
+        },
+        {
+          "first": {
+            "name": "adults",
+            "left": 601.09375,
+            "right": 803.546875,
+            "top": 554.28125,
+            "bottom": 604.28125,
+            "width": 202.453125,
+            "height": 50
+          },
+          "second": {
+            "name": "room",
+            "left": 823.546875,
+            "right": 1026,
+            "top": 554.28125,
+            "bottom": 604.28125,
+            "width": 202.453125,
+            "height": 50
+          },
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "route": "/rooms/deluxe-room",
+      "name": "Tablet room form: body and document have no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "body": 1100,
+        "document": 1100,
+        "viewport": 1100
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "route": "/rooms/deluxe-room",
+      "name": "No JavaScript runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "route": "/rooms/deluxe-room",
+      "name": "No WhatsApp navigation attempted",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "runtime_errors": [],
+  "console_errors": [],
+  "screenshots": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-chromium-320-dining-prepared-form.png"
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "route": "/dining",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-chromium-320-dining-prepared-cta.png"
+    },
+    {
+      "engine": "chromium",
+      "width": 901,
+      "route": "/rooms/deluxe-room",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-chromium-901-rooms-deluxe-room-tablet-room-form.png"
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "route": "/rooms/deluxe-room",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-chromium-1024-rooms-deluxe-room-tablet-room-form.png"
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "route": "/rooms/deluxe-room",
+      "path": "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\alignment-20261021\\states-chromium-1100-rooms-deluxe-room-tablet-room-form.png"
+    }
+  ],
+  "blocked_external_requests": [],
+  "external_messages_sent": 0,
+  "limitations": [
+    "WebKit engine coverage is not physical iPhone verification.",
+    "Enquiry links are inspected only; WhatsApp is never opened."
+  ],
+  "summary": {
+    "passed": 85,
+    "failed": 0,
+    "runtime_errors": 0
+  }
+}

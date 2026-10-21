@@ -1,5 +1,5 @@
 .rooms-page, .room-detail-page { font-family: var(--font-body), -apple-system, BlinkMacSystemFont, sans-serif; color: var(--ink); }
-.rooms-container { width: 100%; max-width: 1440px; margin-inline: auto; padding-inline: 64px; }
+.rooms-container { width: 100%; max-width: calc(var(--content-max) + 2 * var(--page-gutter)); margin-inline: auto; padding-inline: var(--page-gutter); }
 .rooms-page h1, .room-detail-page h1, .rooms-page h2, .room-detail-page h2, .rooms-page h3, .room-detail-page h3 { font-family: var(--font-display), -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600; letter-spacing: -.045em; }
 .room-context { color: var(--muted); font-size: 17px; font-weight: 500; line-height: 1.5; letter-spacing: 0; text-transform: none; margin: 0 0 16px; }
 .room-action { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 14px 24px; border: 1px solid transparent; border-radius: 999px; background: var(--accent); font-size: 16px; font-weight: 500; line-height: 1.4; text-align: center; transition: background 180ms, transform 180ms; }
@@ -126,7 +126,6 @@
 .room-compare-help p { color: var(--muted); font-size: 17px; margin: 0; }
 
 @media (max-width: 1150px) {
-  .rooms-container { padding-inline: 40px; }
   .room-story { padding: 24px; gap: 28px; }
   .room-story h3 { font-size: 34px; }
   .room-feature-list { gap: 12px; }
@@ -136,7 +135,6 @@
   .room-facts, .room-stay-panel { padding: 26px; }
 }
 @media (max-width: 900px) {
-  .rooms-container { padding-inline: 32px; }
   .rooms-masthead { padding-top: 56px; }
   .rooms-masthead h1, .room-compare-heading h1 { font-size: 56px; }
   .rooms-directory>a { padding: 18px; }
@@ -159,7 +157,6 @@
   .room-compare-invitation-inner, .room-inclusions { gap: 32px; }
 }
 @media (max-width: 700px) {
-  .rooms-container { padding-inline: 24px; }
   .rooms-masthead { padding-block: 44px 24px; }
   .rooms-masthead-copy { text-align: left; margin-bottom: 30px; }
   .rooms-masthead h1, .room-detail-heading h1, .room-compare-heading h1 { font-size: 40px; line-height: 1.08; }

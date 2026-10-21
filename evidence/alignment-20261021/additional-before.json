@@ -1,0 +1,30 @@
+{
+  "hotel_cards": [
+    {
+      "title": "Find your room.",
+      "titleHeight": 34.546875,
+      "actionTop": 545.625
+    },
+    {
+      "title": "Dining at Augusto.",
+      "titleHeight": 34.546875,
+      "actionTop": 545.625
+    }
+  ],
+  "group_draft": {
+    "width": 228,
+    "scroll": 228,
+    "button": {
+      "x": 62,
+      "y": 409.8125,
+      "width": 196,
+      "height": 52,
+      "top": 409.8125,
+      "right": 258,
+      "bottom": 461.8125,
+      "left": 62
+    },
+    "body": 320,
+    "viewport": 320
+  }
+}

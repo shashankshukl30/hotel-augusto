@@ -86,15 +86,16 @@ def desktop(page):
     shot(page, "hero-entrance-settled")
     place(page, ".scroll-photo-window", .88)
     first = state(page, ".scroll-photo-window")
+    first_layer = state(page, ".scroll-photo-layer")
     y1 = page.evaluate("scrollY")
     place(page, ".scroll-photo-window", .15)
     second = state(page, ".scroll-photo-window")
-    # Computed CSS collapses equal sides to inset(0% round 24px).
-    # Only inspect the inset values, never the corner radius.
-    sides = [re.findall(r"[-\d.]+", s["clip"].split("round")[0]) for s in [first, second]]
-    insets = [float(values[1] if len(values) > 1 else values[0]) for values in sides]
-    check("Native scroll opens photograph crop", page.evaluate("scrollY") > y1 + 100
-          and insets[0] > insets[1] + .5, {"before": first, "after": second})
+    second_layer = state(page, ".scroll-photo-layer")
+    check("Native scroll moves photography within aligned frame edges", page.evaluate("scrollY") > y1 + 100
+          and first["clip"] == second["clip"] == "none"
+          and abs(first_layer["y"] - second_layer["y"]) > 1,
+          {"frame_before": first, "frame_after": second,
+           "photo_before": first_layer, "photo_after": second_layer})
     place(page, ".home-gallery-motion", .9)
     before = page.locator(".gallery-motion-card").evaluate_all(
         "es=>es.map(e=>new DOMMatrixReadOnly(getComputedStyle(e).transform).m42)")

@@ -1,0 +1,993 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-21T15:03:15.545739+00:00",
+  "purpose": "Explain retained audit flags and distinguish sampler corrections from a separately reproduced homepage layout regression.",
+  "status": "Evidence annotation only. This is not a declaration that all QA or deployment work is complete.",
+  "method": "Read-only inspection of retained JSON reports and current sampler/CSS source. No browser was launched and no source file or original report was edited for this annotation.",
+  "original_reports": [
+    {
+      "path": "evidence/alignment-20261021/local-alignment.json",
+      "sha256": "880a3ce591a3514f9de591700c8f70672725cfacf1748633f083971a7095e695",
+      "bytes": 891985,
+      "recorded_at": "2026-10-21T14:48:42.818262+00:00",
+      "original_summary": {
+        "passed": 799,
+        "failed": 19,
+        "suspicious": 0,
+        "runtime_errors": 0
+      },
+      "check_count": 818
+    },
+    {
+      "path": "evidence/alignment-20261021/home-compact-before.json",
+      "sha256": "83a08e4c02f9b612f9efec635eba3ab394a8c1614202630021ae2c2d2890cfa5",
+      "bytes": 53281,
+      "recorded_at": "2026-10-21T14:58:04.912313+00:00",
+      "original_summary": {
+        "passed": 26,
+        "failed": 8,
+        "runtime_errors": 0
+      },
+      "check_count": 34
+    },
+    {
+      "path": "evidence/alignment-20261021/home-compact-after.json",
+      "sha256": "126ba8bbefa8ca09d69cf0e06692f3b077bf48941a80aeee8cb6ea8988e8ab75",
+      "bytes": 50603,
+      "recorded_at": "2026-10-21T14:58:52.318924+00:00",
+      "original_summary": {
+        "passed": 34,
+        "failed": 0,
+        "runtime_errors": 0
+      },
+      "check_count": 34
+    }
+  ],
+  "original_local_alignment": {
+    "recorded_result": {
+      "passed": 799,
+      "failed": 19,
+      "total": 818,
+      "runtime_errors": 0
+    },
+    "interpretation": "All 19 recorded failures are classified below as assertion artifacts. The original result remains 799 passed / 19 failed; it is not rewritten as 818 passed.",
+    "classification_counts": {
+      "intentional_hero_gutter": 3,
+      "stacked_control_row_comparison": 13,
+      "intentional_centered_comparison_heading": 3
+    },
+    "classified_flags": [
+      {
+        "source_check_index_zero_based": 137,
+        "engine": "chromium",
+        "viewport_width": 768,
+        "route": "/",
+        "assertion": "Container and hospitality-shell content gutters agree",
+        "original_passed": false,
+        "classification": "intentional_hero_gutter",
+        "reason": "The controls follow the inset hero photograph and its local padding rather than the page content gutter.",
+        "observed": {
+          "reference_content_bounds": {
+            "left": 32,
+            "right": 736,
+            "top": 210.65625,
+            "bottom": 913.15625,
+            "width": 768,
+            "height": 702.5
+          },
+          "mismatch": {
+            "element": "div.hero-media-footer.container",
+            "box": {
+              "left": 48,
+              "right": 720,
+              "top": -10067,
+              "bottom": -9983,
+              "width": 736,
+              "height": 84
+            }
+          }
+        }
+      },
+      {
+        "source_check_index_zero_based": 138,
+        "engine": "chromium",
+        "viewport_width": 768,
+        "route": "/",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_bclrilb_-room.",
+            "firstBox": {
+              "left": 437.109375,
+              "right": 560.546875,
+              "top": -193.21875,
+              "bottom": -143.21875,
+              "width": 123.4375,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 580.546875,
+              "right": 704,
+              "top": -251.21875,
+              "bottom": -201.21875,
+              "width": 123.453125,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 184,
+        "engine": "chromium",
+        "viewport_width": 768,
+        "route": "/rooms/deluxe-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 58,
+              "right": 347,
+              "top": -1093.96875,
+              "bottom": -1043.96875,
+              "width": 289,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 367,
+              "right": 656,
+              "top": -1151.96875,
+              "bottom": -1101.96875,
+              "width": 289,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 191,
+        "engine": "chromium",
+        "viewport_width": 768,
+        "route": "/rooms/deluxe-twin-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 58,
+              "right": 347,
+              "top": -1094.5625,
+              "bottom": -1044.5625,
+              "width": 289,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 367,
+              "right": 656,
+              "top": -1152.5625,
+              "bottom": -1102.5625,
+              "width": 289,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 198,
+        "engine": "chromium",
+        "viewport_width": 768,
+        "route": "/rooms/family-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 58,
+              "right": 347,
+              "top": -1093.96875,
+              "bottom": -1043.96875,
+              "width": 289,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 367,
+              "right": 656,
+              "top": -1151.96875,
+              "bottom": -1101.96875,
+              "width": 289,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 275,
+        "engine": "chromium",
+        "viewport_width": 1024,
+        "route": "/",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_bclrilb_-room.",
+            "firstBox": {
+              "left": 585.75,
+              "right": 754.875,
+              "top": -193.234375,
+              "bottom": -143.234375,
+              "width": 169.125,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 774.875,
+              "right": 944,
+              "top": -251.234375,
+              "bottom": -201.234375,
+              "width": 169.125,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 314,
+        "engine": "chromium",
+        "viewport_width": 1024,
+        "route": "/rooms/compare",
+        "assertion": "Container and hospitality-shell content gutters agree",
+        "original_passed": false,
+        "classification": "intentional_centered_comparison_heading",
+        "reason": "This comparison heading deliberately uses a centered 920px maximum reading measure.",
+        "observed": {
+          "reference_content_bounds": {
+            "left": 48,
+            "right": 976,
+            "top": -130.203125,
+            "bottom": 913.359375,
+            "width": 1024,
+            "height": 1043.5625
+          },
+          "mismatch": {
+            "element": "header.rooms-container.room-compare-heading",
+            "box": {
+              "left": 100,
+              "right": 924,
+              "top": -1597,
+              "bottom": -1230.4375,
+              "width": 920,
+              "height": 366.5625
+            }
+          }
+        }
+      },
+      {
+        "source_check_index_zero_based": 412,
+        "engine": "chromium",
+        "viewport_width": 1440,
+        "route": "/",
+        "assertion": "Container and hospitality-shell content gutters agree",
+        "original_passed": false,
+        "classification": "intentional_hero_gutter",
+        "reason": "The controls follow the inset hero photograph and its local padding rather than the page content gutter.",
+        "observed": {
+          "reference_content_bounds": {
+            "left": 80,
+            "right": 1360,
+            "top": 346,
+            "bottom": 913,
+            "width": 1440,
+            "height": 567
+          },
+          "mismatch": {
+            "element": "div.hero-media-footer.container",
+            "box": {
+              "left": 48,
+              "right": 1392,
+              "top": -10341,
+              "bottom": -10257,
+              "width": 1408,
+              "height": 84
+            }
+          }
+        }
+      },
+      {
+        "source_check_index_zero_based": 413,
+        "engine": "chromium",
+        "viewport_width": 1440,
+        "route": "/",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_bclrilb_-room.",
+            "firstBox": {
+              "left": 809.59375,
+              "right": 1058.796875,
+              "top": -38.6875,
+              "bottom": 11.3125,
+              "width": 249.203125,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 1078.796875,
+              "right": 1328,
+              "top": -96.6875,
+              "bottom": -46.6875,
+              "width": 249.203125,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 452,
+        "engine": "chromium",
+        "viewport_width": 1440,
+        "route": "/rooms/compare",
+        "assertion": "Container and hospitality-shell content gutters agree",
+        "original_passed": false,
+        "classification": "intentional_centered_comparison_heading",
+        "reason": "This comparison heading deliberately uses a centered 920px maximum reading measure.",
+        "observed": {
+          "reference_content_bounds": {
+            "left": 80,
+            "right": 1360,
+            "top": -9.6875,
+            "bottom": 913.375,
+            "width": 1440,
+            "height": 923.0625
+          },
+          "mismatch": {
+            "element": "header.rooms-container.room-compare-heading",
+            "box": {
+              "left": 340,
+              "right": 1100,
+              "top": -1553,
+              "bottom": -1186.4375,
+              "width": 920,
+              "height": 366.5625
+            }
+          }
+        }
+      },
+      {
+        "source_check_index_zero_based": 460,
+        "engine": "chromium",
+        "viewport_width": 1440,
+        "route": "/rooms/deluxe-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 803.1875,
+              "right": 1055.59375,
+              "top": -1159.703125,
+              "bottom": -1109.703125,
+              "width": 252.40625,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 1075.59375,
+              "right": 1328,
+              "top": -1217.703125,
+              "bottom": -1167.703125,
+              "width": 252.40625,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 467,
+        "engine": "chromium",
+        "viewport_width": 1440,
+        "route": "/rooms/deluxe-twin-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 803.1875,
+              "right": 1055.59375,
+              "top": -1159.703125,
+              "bottom": -1109.703125,
+              "width": 252.40625,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 1075.59375,
+              "right": 1328,
+              "top": -1217.703125,
+              "bottom": -1167.703125,
+              "width": 252.40625,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 474,
+        "engine": "chromium",
+        "viewport_width": 1440,
+        "route": "/rooms/family-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 803.1875,
+              "right": 1055.59375,
+              "top": -1159.703125,
+              "bottom": -1109.703125,
+              "width": 252.40625,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 1075.59375,
+              "right": 1328,
+              "top": -1217.703125,
+              "bottom": -1167.703125,
+              "width": 252.40625,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 550,
+        "engine": "chromium",
+        "viewport_width": 1920,
+        "route": "/",
+        "assertion": "Container and hospitality-shell content gutters agree",
+        "original_passed": false,
+        "classification": "intentional_hero_gutter",
+        "reason": "The controls follow the inset hero photograph and its local padding rather than the page content gutter.",
+        "observed": {
+          "reference_content_bounds": {
+            "left": 300,
+            "right": 1620,
+            "top": 346.125,
+            "bottom": 913.125,
+            "width": 1480,
+            "height": 567
+          },
+          "mismatch": {
+            "element": "div.hero-media-footer.container",
+            "box": {
+              "left": 252,
+              "right": 1668,
+              "top": -10367,
+              "bottom": -10283,
+              "width": 1480,
+              "height": 84
+            }
+          }
+        }
+      },
+      {
+        "source_check_index_zero_based": 551,
+        "engine": "chromium",
+        "viewport_width": 1920,
+        "route": "/",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_bclrilb_-room.",
+            "firstBox": {
+              "left": 1051.390625,
+              "right": 1309.6875,
+              "top": -38.5625,
+              "bottom": 11.4375,
+              "width": 258.296875,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 1329.6875,
+              "right": 1588,
+              "top": -96.5625,
+              "bottom": -46.5625,
+              "width": 258.3125,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 590,
+        "engine": "chromium",
+        "viewport_width": 1920,
+        "route": "/rooms/compare",
+        "assertion": "Container and hospitality-shell content gutters agree",
+        "original_passed": false,
+        "classification": "intentional_centered_comparison_heading",
+        "reason": "This comparison heading deliberately uses a centered 920px maximum reading measure.",
+        "observed": {
+          "reference_content_bounds": {
+            "left": 300,
+            "right": 1620,
+            "top": -14.046875,
+            "bottom": 912.828125,
+            "width": 1480,
+            "height": 926.875
+          },
+          "mismatch": {
+            "element": "header.rooms-container.room-compare-heading",
+            "box": {
+              "left": 580,
+              "right": 1340,
+              "top": -1566,
+              "bottom": -1199.4375,
+              "width": 920,
+              "height": 366.5625
+            }
+          }
+        }
+      },
+      {
+        "source_check_index_zero_based": 598,
+        "engine": "chromium",
+        "viewport_width": 1920,
+        "route": "/rooms/deluxe-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 1044.796875,
+              "right": 1306.390625,
+              "top": -1176.1875,
+              "bottom": -1126.1875,
+              "width": 261.59375,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 1326.390625,
+              "right": 1588,
+              "top": -1234.1875,
+              "bottom": -1184.1875,
+              "width": 261.609375,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 605,
+        "engine": "chromium",
+        "viewport_width": 1920,
+        "route": "/rooms/deluxe-twin-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 1044.796875,
+              "right": 1306.390625,
+              "top": -1176.1875,
+              "bottom": -1126.1875,
+              "width": 261.59375,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 1326.390625,
+              "right": 1588,
+              "top": -1234.1875,
+              "bottom": -1184.1875,
+              "width": 261.609375,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      },
+      {
+        "source_check_index_zero_based": 612,
+        "engine": "chromium",
+        "viewport_width": 1920,
+        "route": "/rooms/family-room",
+        "assertion": "Comparable form fields in the same row share top and bottom baselines",
+        "original_passed": false,
+        "classification": "stacked_control_row_comparison",
+        "reason": "The second children select in a vertically stacked guest field was compared with the adjacent room-preference field first control. They are different internal rows, separated by one 50px control and an 8px gap.",
+        "observed": {
+          "pair": {
+            "first": "select.",
+            "second": "select#_R_2linebn5rilb_-room.",
+            "firstBox": {
+              "left": 1044.796875,
+              "right": 1306.390625,
+              "top": -1176.1875,
+              "bottom": -1126.1875,
+              "width": 261.59375,
+              "height": 50
+            },
+            "secondBox": {
+              "left": 1326.390625,
+              "right": 1588,
+              "top": -1234.1875,
+              "bottom": -1184.1875,
+              "width": 261.609375,
+              "height": 50
+            },
+            "comparableHeight": true,
+            "aligned": false
+          },
+          "top_delta_px": 58.0,
+          "control_height_px": 50,
+          "internal_gap_px": 8
+        }
+      }
+    ],
+    "corrected_audit_behavior": [
+      {
+        "correction": "Narrow gutter exceptions",
+        "selectors": [
+          ".hero-media-footer.container",
+          ".room-compare-heading.rooms-container"
+        ],
+        "behavior": "Keep their measured bounds and explicit intentional_layout reason, but exclude these named elements only from equality with the shared page gutter. Document/body overflow and visible-content containment coverage remain active."
+      },
+      {
+        "correction": "Match controls by internal row",
+        "behavior": "Count visible predecessor controls stacked above each control within its field; compare controls only when their internal row indexes match. Existing height and top/bottom baseline checks still apply to actual matching rows."
+      },
+      {
+        "correction": "Preserved coverage",
+        "behavior": "The rooms-container selectors and Chromium msedge launch channel remain in the current audit."
+      }
+    ],
+    "retest_limit": "Source correction does not retroactively replace the retained browser run. A fresh broad audit is a separate piece of release evidence."
+  },
+  "confirmed_home_compact_regression": {
+    "classification": "Real visible layout regression, separate from the 19 sampler flags above.",
+    "before": {
+      "passed": 26,
+      "failed": 8,
+      "runtime_errors": 0
+    },
+    "after": {
+      "passed": 34,
+      "failed": 0,
+      "runtime_errors": 0
+    },
+    "failed_assertion_distribution_before": {
+      "601px": 3,
+      "640px": 3,
+      "768px": 2,
+      "1024px": 0
+    },
+    "observed_defects": "At 601/640/768px the Choose date text overlapped the calendar-trigger area and native date content had less than 100px usable width. At 601/640px the room-preference label wrapped, producing a real 19.5px adults-versus-room baseline difference. This differs from the intentional 58px stacked-child offsets in the broad audit.",
+    "source_correction_observed": "Compact stay forms now establish an inline-size container, with all stay-field children spanning narrow containers at or below 400px. app/home.css changes the homepage bottom section to one column at 800px and below.",
+    "retest_scope": {
+      "route": "/",
+      "engine": "chromium",
+      "viewport_widths": [
+        601,
+        640,
+        768,
+        1024
+      ],
+      "assertions": 34
+    },
+    "measurements": [
+      {
+        "viewport_width": 601,
+        "before_failed_assertions": [
+          "Visible Choose date text stays clear of calendar trigger",
+          "Homepage native date content has at least 100px of usable width",
+          "Homepage shared-row controls have matching baselines"
+        ],
+        "before_dates": [
+          {
+            "name": "arrival",
+            "input_width_px": 84.1875,
+            "native_content_width_px": 40.1875,
+            "usable_date_width_px": 29.1875,
+            "placeholder_fits_before_trigger": false
+          },
+          {
+            "name": "departure",
+            "input_width_px": 84.203125,
+            "native_content_width_px": 40.203125,
+            "usable_date_width_px": 29.203125,
+            "placeholder_fits_before_trigger": false
+          }
+        ],
+        "before_real_baseline_defects": [
+          {
+            "first": "adults",
+            "second": "room",
+            "top_delta_px": 19.5
+          }
+        ],
+        "after_dates": [
+          {
+            "name": "arrival",
+            "input_width_px": 226.5,
+            "native_content_width_px": 182.5,
+            "usable_date_width_px": 171.5,
+            "placeholder_fits_before_trigger": true
+          },
+          {
+            "name": "departure",
+            "input_width_px": 226.5,
+            "native_content_width_px": 182.5,
+            "usable_date_width_px": 171.5,
+            "placeholder_fits_before_trigger": true
+          }
+        ]
+      },
+      {
+        "viewport_width": 640,
+        "before_failed_assertions": [
+          "Visible Choose date text stays clear of calendar trigger",
+          "Homepage native date content has at least 100px of usable width",
+          "Homepage shared-row controls have matching baselines"
+        ],
+        "before_dates": [
+          {
+            "name": "arrival",
+            "input_width_px": 93.359375,
+            "native_content_width_px": 49.359375,
+            "usable_date_width_px": 38.359375,
+            "placeholder_fits_before_trigger": false
+          },
+          {
+            "name": "departure",
+            "input_width_px": 93.375,
+            "native_content_width_px": 49.375,
+            "usable_date_width_px": 38.375,
+            "placeholder_fits_before_trigger": false
+          }
+        ],
+        "before_real_baseline_defects": [
+          {
+            "first": "adults",
+            "second": "room",
+            "top_delta_px": 19.5
+          }
+        ],
+        "after_dates": [
+          {
+            "name": "arrival",
+            "input_width_px": 246,
+            "native_content_width_px": 202,
+            "usable_date_width_px": 191,
+            "placeholder_fits_before_trigger": true
+          },
+          {
+            "name": "departure",
+            "input_width_px": 246,
+            "native_content_width_px": 202,
+            "usable_date_width_px": 191,
+            "placeholder_fits_before_trigger": true
+          }
+        ]
+      },
+      {
+        "viewport_width": 768,
+        "before_failed_assertions": [
+          "Visible Choose date text stays clear of calendar trigger",
+          "Homepage native date content has at least 100px of usable width"
+        ],
+        "before_dates": [
+          {
+            "name": "arrival",
+            "input_width_px": 123.4375,
+            "native_content_width_px": 79.4375,
+            "usable_date_width_px": 68.4375,
+            "placeholder_fits_before_trigger": false
+          },
+          {
+            "name": "departure",
+            "input_width_px": 123.453125,
+            "native_content_width_px": 79.453125,
+            "usable_date_width_px": 68.453125,
+            "placeholder_fits_before_trigger": false
+          }
+        ],
+        "before_real_baseline_defects": [],
+        "after_dates": [
+          {
+            "name": "arrival",
+            "input_width_px": 310,
+            "native_content_width_px": 266,
+            "usable_date_width_px": 255,
+            "placeholder_fits_before_trigger": true
+          },
+          {
+            "name": "departure",
+            "input_width_px": 310,
+            "native_content_width_px": 266,
+            "usable_date_width_px": 255,
+            "placeholder_fits_before_trigger": true
+          }
+        ]
+      },
+      {
+        "viewport_width": 1024,
+        "before_failed_assertions": [],
+        "before_dates": [
+          {
+            "name": "arrival",
+            "input_width_px": 169.125,
+            "native_content_width_px": 125.125,
+            "usable_date_width_px": 114.125,
+            "placeholder_fits_before_trigger": true
+          },
+          {
+            "name": "departure",
+            "input_width_px": 169.125,
+            "native_content_width_px": 125.125,
+            "usable_date_width_px": 114.125,
+            "placeholder_fits_before_trigger": true
+          }
+        ],
+        "before_real_baseline_defects": [],
+        "after_dates": [
+          {
+            "name": "arrival",
+            "input_width_px": 358.25,
+            "native_content_width_px": 314.25,
+            "usable_date_width_px": 303.25,
+            "placeholder_fits_before_trigger": true
+          },
+          {
+            "name": "departure",
+            "input_width_px": 358.25,
+            "native_content_width_px": 314.25,
+            "usable_date_width_px": 303.25,
+            "placeholder_fits_before_trigger": true
+          }
+        ]
+      }
+    ],
+    "acceptance_limit": "The 34 passing assertions certify only this saved focused homepage retest, not other routes, browser engines, or the complete release."
+  },
+  "prepared_cta_sampler_correction": {
+    "status": "Verified in current source; no retained pre-correction failing CTA report identified in the inspected evidence directory.",
+    "sampler": "scripts/verify_alignment_states.py:30-31",
+    "observed_rule": "SVG parts are added to CTA geometry only when their bounding rectangle has nonzero width and height.",
+    "hidden_svg_source": "components/booking-form.css:83 deliberately hides the last SVG in the prepared booking CTA.",
+    "reason": "A hidden SVG has a zero-area rectangle and contributes no visible content. Including its zero-area origin in the padded-content comparison can falsely flag an otherwise visible CTA.",
+    "historical_failure_count": null,
+    "limit": "No historical hidden-SVG failure count or completed production-state retest is asserted here. production-states.json was being updated during this annotation and is not treated as a final report."
+  },
+  "source_snapshots": [
+    {
+      "path": "scripts/verify_alignment.py",
+      "sha256": "2ab2be2da54706fdcb1cad68b9f468f91bd719c38f192ed316771244a5f139cb"
+    },
+    {
+      "path": "scripts/verify_alignment_states.py",
+      "sha256": "6f7178253853eda38ffe77a07b76dfa41cc4e6aabe37a5eff645419038570ed3"
+    },
+    {
+      "path": "components/booking-form.css",
+      "sha256": "b6197104b7ff2f4652c7a5cbe950204dca8b8870232a372ae562007be11f63c3"
+    },
+    {
+      "path": "components/stay-bar.css",
+      "sha256": "2bf6178b19b5c75004099fad4b27b4baf5098e7b67a0b12c6a5ff49c2ca131d7"
+    },
+    {
+      "path": "app/home.css",
+      "sha256": "f48782df39593afbf4a39626908c2b618a2b549c8d3ad58d1d48d1e9b8cc88b2"
+    }
+  ],
+  "preservation": {
+    "original_report_counts_unchanged": true,
+    "original_reports_not_modified": true,
+    "source_files_not_modified": true,
+    "browser_sessions_started": 0,
+    "disposable_artifacts_created": 0
+  },
+  "release_status": "Parent agent owns remaining QA, review of active production-state findings, and deployment."
+}

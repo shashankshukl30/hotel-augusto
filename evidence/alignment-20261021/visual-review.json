@@ -1,0 +1,472 @@
+{
+  "date": "2026-10-21",
+  "reviewer": "booking_runtime_audit",
+  "method": "Manual visual review of local Chromium screenshots through annotated contact sheets; no browser sessions or site source edits in this review.",
+  "scope": {
+    "routes": 17,
+    "widths": [
+      390,
+      1440
+    ],
+    "full_page_captures": 34,
+    "status": "Inspected all listed captures; no actionable remaining alignment findings in these captures.",
+    "path_base": "evidence/alignment-20261021/"
+  },
+  "routes": [
+    {
+      "route": "/",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-home-full-page.png",
+          "contact_sheet": "review-390-home-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-home-full-page.png",
+          "contact_sheet": "review-1440-home-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/hotel",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-hotel-full-page.png",
+          "contact_sheet": "review-390-hotel-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-hotel-full-page.png",
+          "contact_sheet": "review-1440-hotel-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/rooms",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-rooms-full-page.png",
+          "contact_sheet": "review-390-rooms-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-rooms-full-page.png",
+          "contact_sheet": "review-1440-rooms-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/compare",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-rooms-compare-full-page.png",
+          "contact_sheet": "review-390-rooms-compare-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-rooms-compare-full-page.png",
+          "contact_sheet": "review-1440-rooms-compare-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-rooms-deluxe-room-full-page.png",
+          "contact_sheet": "review-390-rooms-deluxe-room-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-rooms-deluxe-room-full-page.png",
+          "contact_sheet": "review-1440-rooms-deluxe-room-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-rooms-deluxe-twin-room-full-page.png",
+          "contact_sheet": "review-390-rooms-deluxe-twin-room-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-rooms-deluxe-twin-room-full-page.png",
+          "contact_sheet": "review-1440-rooms-deluxe-twin-room-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/rooms/family-room",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-rooms-family-room-full-page.png",
+          "contact_sheet": "review-390-rooms-family-room-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-rooms-family-room-full-page.png",
+          "contact_sheet": "review-1440-rooms-family-room-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/dining",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-dining-full-page.png",
+          "contact_sheet": "review-390-dining-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-dining-full-page.png",
+          "contact_sheet": "review-1440-dining-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/varanasi",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-varanasi-full-page.png",
+          "contact_sheet": "review-390-varanasi-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-varanasi-full-page.png",
+          "contact_sheet": "review-1440-varanasi-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/gallery",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-gallery-full-page.png",
+          "contact_sheet": "review-390-gallery-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-gallery-full-page.png",
+          "contact_sheet": "review-1440-gallery-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/guides",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-guides-full-page.png",
+          "contact_sheet": "review-390-guides-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-guides-full-page.png",
+          "contact_sheet": "review-1440-guides-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/guides/first-visit-to-kashi",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-guides-first-visit-to-kashi-full-page.png",
+          "contact_sheet": "review-390-guides-first-visit-to-kashi-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-guides-first-visit-to-kashi-full-page.png",
+          "contact_sheet": "review-1440-guides-first-visit-to-kashi-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/guides/arriving-in-godowlia",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-guides-arriving-in-godowlia-full-page.png",
+          "contact_sheet": "review-390-guides-arriving-in-godowlia-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-guides-arriving-in-godowlia-full-page.png",
+          "contact_sheet": "review-1440-guides-arriving-in-godowlia-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/guides/choosing-your-room",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-guides-choosing-your-room-full-page.png",
+          "contact_sheet": "review-390-guides-choosing-your-room-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-guides-choosing-your-room-full-page.png",
+          "contact_sheet": "review-1440-guides-choosing-your-room-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/group-stays",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-group-stays-full-page.png",
+          "contact_sheet": "review-390-group-stays-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-group-stays-full-page.png",
+          "contact_sheet": "review-1440-group-stays-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-contact-full-page.png",
+          "contact_sheet": "review-390-contact-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-contact-full-page.png",
+          "contact_sheet": "review-1440-contact-full-page.png"
+        }
+      ]
+    },
+    {
+      "route": "/privacy",
+      "inspected": [
+        {
+          "width": 390,
+          "screenshot": "alignment-chromium-390-privacy-full-page.png",
+          "contact_sheet": "review-390-privacy-full-page.png"
+        },
+        {
+          "width": 1440,
+          "screenshot": "alignment-chromium-1440-privacy-full-page.png",
+          "contact_sheet": "review-1440-privacy-full-page.png"
+        }
+      ]
+    }
+  ],
+  "before_after_issues": [
+    {
+      "issue": "KASHI backdrop was heavily obscured by the photo and clipped at the upper viewport edge in the supplied state.",
+      "before": "before-kashi-1440.png",
+      "after": "after-kashi-1440.png",
+      "result": "Raised lettering is readable above the image, with the lower edge blended into the photo. No accidental heading clipping observed."
+    },
+    {
+      "issue": "City-section introductory copy started farther right than the detail copy beneath it.",
+      "before": "before-city-copy-1440.png",
+      "after": "after-city-copy-1440.png",
+      "result": "The two right-column text blocks now share their left edge; the left heading and detail remain aligned."
+    },
+    {
+      "issue": "Welcome amenities row ended short of the shared photograph edge and used uneven visual distribution.",
+      "before": "before-welcome-1440.png",
+      "after": "after-welcome-1440.png",
+      "result": "Amenities are distributed across the photograph width and labels remain legible without clipping."
+    },
+    {
+      "issue": "Inconsistent page-family gutters and dining enquiry/FAQ column edges found in the preceding source audit.",
+      "before": "Source audit reported .container, .rooms-container and .hospitality-shell gutter differences; dining paired grids used different gaps.",
+      "after": [
+        "alignment-chromium-1440-hotel-full-page.png",
+        "alignment-chromium-1440-rooms-full-page.png",
+        "alignment-chromium-1440-dining-full-page.png"
+      ],
+      "result": "Reviewed after captures show coherent outer gutters and matching dining enquiry/FAQ column edges. These are after-state visual confirmations, not pixel-diff comparisons."
+    }
+  ],
+  "deliberate_layout_exceptions": [
+    "Header and fixed booking dock use wider chrome spacing than the principal body content.",
+    "Contact form, privacy prose and guide article reading columns intentionally use narrower content widths.",
+    "Photo/text compositions alternate or offset columns; gallery teaser cards intentionally stagger vertically.",
+    "KASHI overlaps and blends with the photo as part of the approved composition.",
+    "Fixed booking dock appears once at the initial viewport position in full-page captures; bottom body padding reserves room for it.",
+    "Contact-sheet strip boundaries can cut text between panels; grey unused cells and seams are generated QA layout, not page defects.",
+    "The local Next.js development indicator is tooling UI, not hotel UI."
+  ],
+  "remaining_actionable_findings": [],
+  "limitations": [
+    "Visual review covers the captured 390px and 1440px states only; it does not assert all viewport widths or interactive states.",
+    "The narrow homepage compact form at 601-768px is being separately tested by root and is not covered by this visual review.",
+    "Root owns browser interaction, layout measurements, runtime-error checks and calendar regression verification."
+  ],
+  "artifacts": {
+    "retained_evidence": {
+      "reason": "Annotated contact sheets used to review every mobile and desktop page; retain with original screenshots as auditable visual evidence.",
+      "count": 34,
+      "bytes": 25180416,
+      "files": [
+        {
+          "path": "review-1440-contact-full-page.png",
+          "bytes": 506299
+        },
+        {
+          "path": "review-1440-dining-full-page.png",
+          "bytes": 584749
+        },
+        {
+          "path": "review-1440-gallery-full-page.png",
+          "bytes": 1555939
+        },
+        {
+          "path": "review-1440-group-stays-full-page.png",
+          "bytes": 346092
+        },
+        {
+          "path": "review-1440-guides-arriving-in-godowlia-full-page.png",
+          "bytes": 774250
+        },
+        {
+          "path": "review-1440-guides-choosing-your-room-full-page.png",
+          "bytes": 724861
+        },
+        {
+          "path": "review-1440-guides-first-visit-to-kashi-full-page.png",
+          "bytes": 771759
+        },
+        {
+          "path": "review-1440-guides-full-page.png",
+          "bytes": 485585
+        },
+        {
+          "path": "review-1440-home-full-page.png",
+          "bytes": 2144892
+        },
+        {
+          "path": "review-1440-hotel-full-page.png",
+          "bytes": 1130007
+        },
+        {
+          "path": "review-1440-privacy-full-page.png",
+          "bytes": 367308
+        },
+        {
+          "path": "review-1440-rooms-compare-full-page.png",
+          "bytes": 259604
+        },
+        {
+          "path": "review-1440-rooms-deluxe-room-full-page.png",
+          "bytes": 656769
+        },
+        {
+          "path": "review-1440-rooms-deluxe-twin-room-full-page.png",
+          "bytes": 660453
+        },
+        {
+          "path": "review-1440-rooms-family-room-full-page.png",
+          "bytes": 658116
+        },
+        {
+          "path": "review-1440-rooms-full-page.png",
+          "bytes": 801429
+        },
+        {
+          "path": "review-1440-varanasi-full-page.png",
+          "bytes": 1075956
+        },
+        {
+          "path": "review-390-contact-full-page.png",
+          "bytes": 566275
+        },
+        {
+          "path": "review-390-dining-full-page.png",
+          "bytes": 555356
+        },
+        {
+          "path": "review-390-gallery-full-page.png",
+          "bytes": 1116940
+        },
+        {
+          "path": "review-390-group-stays-full-page.png",
+          "bytes": 415425
+        },
+        {
+          "path": "review-390-guides-arriving-in-godowlia-full-page.png",
+          "bytes": 799891
+        },
+        {
+          "path": "review-390-guides-choosing-your-room-full-page.png",
+          "bytes": 821863
+        },
+        {
+          "path": "review-390-guides-first-visit-to-kashi-full-page.png",
+          "bytes": 821646
+        },
+        {
+          "path": "review-390-guides-full-page.png",
+          "bytes": 473291
+        },
+        {
+          "path": "review-390-home-full-page.png",
+          "bytes": 1462553
+        },
+        {
+          "path": "review-390-hotel-full-page.png",
+          "bytes": 922167
+        },
+        {
+          "path": "review-390-privacy-full-page.png",
+          "bytes": 549031
+        },
+        {
+          "path": "review-390-rooms-compare-full-page.png",
+          "bytes": 248343
+        },
+        {
+          "path": "review-390-rooms-deluxe-room-full-page.png",
+          "bytes": 509596
+        },
+        {
+          "path": "review-390-rooms-deluxe-twin-room-full-page.png",
+          "bytes": 512770
+        },
+        {
+          "path": "review-390-rooms-family-room-full-page.png",
+          "bytes": 509911
+        },
+        {
+          "path": "review-390-rooms-full-page.png",
+          "bytes": 607186
+        },
+        {
+          "path": "review-390-varanasi-full-page.png",
+          "bytes": 784104
+        }
+      ]
+    },
+    "retained_helper": [
+      {
+        "path": "make-review-sheets.py",
+        "bytes": 1566,
+        "reason": "Reproduces the annotated contact sheets from retained original screenshots."
+      }
+    ],
+    "disposable_task_scratch": [],
+    "deletions_performed": 0,
+    "note": "No unneeded task scratch was positively identified in this agent's artifact set. No files were deleted."
+  }
+}

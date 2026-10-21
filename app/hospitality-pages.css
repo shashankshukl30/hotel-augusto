@@ -1,5 +1,5 @@
 .hospitality-page { min-width: 0; }
-.hospitality-shell { width: min(1320px, calc(100% - 112px)); margin-inline: auto; }
+.hospitality-shell { width: min(var(--content-max), calc(100% - 2 * var(--page-gutter))); margin-inline: auto; }
 .hospitality-breadcrumb { display: flex; align-items: center; gap: 10px; min-height: 64px; color: var(--muted); font-size: 14px; }
 .hospitality-breadcrumb a { display: inline-flex; align-items: center; min-height: 44px; }
 .hospitality-breadcrumb a:hover { color: var(--accent); }
@@ -67,7 +67,7 @@
 .hospitality-dining-hero-photo img { object-position: 40% center; }
 .hospitality-dining-facts { display: flex; flex-wrap: wrap; gap: 20px 48px; padding: 24px 32px; margin-top: 32px; border-radius: 20px; background: var(--paper-deep); }
 .hospitality-dining-facts span { color: var(--ink); font-size: 16px; font-weight: 500; }
-.hospitality-dining-introduction { display: grid; grid-template-columns: 1fr 1fr; gap: 10%; align-items: center; padding-block: 120px; }
+.hospitality-dining-introduction { display: grid; grid-template-columns: .85fr 1.15fr; gap: 8%; align-items: center; padding-block: 120px; }
 .hospitality-dining-introduction p:not(.hospitality-context) { color: var(--muted); font-size: 18px; line-height: 1.7; margin: 0 0 20px; max-width: 56ch; }
 .hospitality-dining-introduction p:last-child { margin-bottom: 0; }
 .hospitality-dining-service { background: var(--paper-deep); padding-block: 104px; }
@@ -92,7 +92,7 @@
 .hospitality-dining-enquiry h3 { font-size: 23px; line-height: 1.25; letter-spacing: -.025em; margin: 0 0 10px; }
 .hospitality-dining-enquiry p { font-size: 16px; line-height: 1.65; color: var(--muted); margin: 0 0 12px; }
 .hospitality-dining-enquiry .hospitality-link { gap: 8px; min-height: 44px; font-size: 15px; }
-.hospitality-dining-questions { display: grid; grid-template-columns: .85fr 1.15fr; gap: 10%; padding-block: 0 104px; }
+.hospitality-dining-questions { display: grid; grid-template-columns: .85fr 1.15fr; gap: 8%; padding-block: 0 104px; }
 .hospitality-dining-questions > h2 { max-width: 14ch; font-size: 48px; }
 .hospitality-related { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; padding-bottom: 88px; }
 .hospitality-related a { position: relative; min-width: 0; padding: 32px 64px 32px 32px; border-radius: 24px; background: var(--paper-deep); color: var(--ink); text-decoration: none; transition: background 180ms; }
@@ -101,7 +101,6 @@
 .hospitality-related strong { display: block; font-family: var(--font-display), sans-serif; font-weight: 600; font-size: 30px; letter-spacing: -.035em; line-height: 1.2; }
 .hospitality-related svg { position: absolute; right: 28px; bottom: 34px; color: var(--accent); }
 @media (max-width: 1100px) {
-  .hospitality-shell { width: calc(100% - 72px); }
   .hospitality-hotel-title { gap: 6%; }
   .hospitality-hotel-title h1 { font-size: 64px; }
   .hospitality-stay-facts { padding: 26px; gap: 20px; }
@@ -111,7 +110,6 @@
   .hospitality-service-group { gap: 6%; }
 }
 @media (max-width: 760px) {
-  .hospitality-shell { width: calc(100% - 48px); }
   .hospitality-breadcrumb { min-height: 60px; }
   .hospitality-context { margin-bottom: 14px; font-size: 15px; }
   .hospitality-page h1, .hospitality-hotel-title h1, .hospitality-dining-hero h1 { font-size: 48px; line-height: 1.06; margin-bottom: 24px; }

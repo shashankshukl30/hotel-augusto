@@ -9,8 +9,8 @@
   color: var(--city-text);
 }
 .itinerary-heading {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: end;
   gap: 64px;
   margin-bottom: 40px;
@@ -34,7 +34,8 @@
   margin: 0;
 }
 .itinerary-heading > p {
-  max-width: 35ch;
+  max-width: 44ch;
+  min-width: 0;
   font-size: 20px;
   line-height: 1.5;
   color: var(--city-muted);
@@ -87,7 +88,7 @@
 .itinerary-copy { grid-area: 1/1; min-width: 0; }
 .itinerary-copy-motion {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 64px;
   align-items: start;
 }
@@ -162,6 +163,9 @@
   overflow: hidden;
   border-radius: 24px;
   background: var(--city-surface);
+  /* Fade the complete frame so the lettering blends through the photograph. */
+  -webkit-mask-image: linear-gradient(to bottom, transparent, oklch(0 0 0) clamp(64px, 8vw, 120px));
+  mask-image: linear-gradient(to bottom, transparent, oklch(0 0 0) clamp(64px, 8vw, 120px));
 }
 .itinerary-image-parallax { position: absolute; inset: -4%; }
 .itinerary-image-layer,
