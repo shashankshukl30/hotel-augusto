@@ -1,10 +1,10 @@
-﻿{
-    "recorded_at_utc":  "2026-10-21T15:39:42.0699741Z",
+{
+    "recorded_at_utc":  "2026-10-21T16:18:21.5280293Z",
     "repository":  "https://github.com/shashankshukl30/hotel-augusto",
     "repository_visibility":  "PUBLIC",
     "anonymous_repository_http":  200,
     "github_disabled":  false,
-    "approved_application_commit":  "dfe908bccd5a898556ebc043f1de55561431fb06",
+    "approved_application_commit":  "072f405dd1b08b5a055bb5e7cadb8712a68a5562",
     "main_fast_forwarded_from":  "fb6eaa1e981f06c63f7cfbba5ec21fe912edf74f",
     "latest_application_on_main":  true,
     "credential_review":  {
@@ -14,9 +14,9 @@
                               "notes":  "Public third-party browser analytics and map keys in captured research were distinguished from project authentication."
                           },
     "client_vercel_team":  "sahil-5aa6",
-    "current_cli_team":  "omvitys-projects",
-    "client_deployment_created":  false,
-    "namecheap_domain":  null,
+    "current_cli_team":  "sahil-5aa6 (explicit authenticated client context)",
+    "client_deployment_created":  true,
+    "namecheap_domain":  "hotelaugusto.in",
     "dns_changes_made":  false,
     "browser_access":  {
                            "desktop_bridge_error":  "Computer Use native pipe is unavailable",
@@ -25,34 +25,59 @@
                            "reset_and_retry":  "Same missing native pipe error"
                        },
     "pending":  [
-                    "Working connection to signed-in client browser or locally configured client API access",
-                    "Exact domain from client Namecheap account",
-                    "Deploy latest source to client Vercel team",
-                    "Configure production origin/indexing and project domain",
-                    "Apply and verify domain DNS and TLS without altering unrelated mail records"
+                    "Namecheap DNS cutover and custom-domain TLS verification",
+                    "FormSubmit recipient activation and real inbox confirmation",
+                    "Client GitHub Login Connection for automatic deployments"
                 ],
     "cleanup":  {
-                    "removed_bytes":  0,
+                    "before_free_bytes":  {
+                                              "D":  36399435776,
+                                              "C":  20595036160
+                                          },
+                    "recorded_at_utc":  "2026-10-21T16:18:21.5280293Z",
+                    "after_free_bytes":  [
+                                             {
+                                                 "Name":  "C",
+                                                 "Free":  7589892096
+                                             },
+                                             {
+                                                 "Name":  "D",
+                                                 "Free":  32324575232
+                                             }
+                                         ],
+                    "retained_recovery":  ".openai/local-tools/vercel-omvity-link-20261021.json",
+                    "deliverable_check":  "Production deployment READY and anonymous homepage returns HTTP 200.",
                     "removed_paths":  [
 
                                       ],
                     "reparse_point":  false,
-                    "reason":  "No task-owned disposable files were created. Retain source and handoff evidence; no user browser profiles or application caches were removed.",
-                    "before_free_bytes":  {
-                                              "D":  43052171264,
-                                              "C":  25071337472
-                                          },
                     "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\client-handoff-20261021",
-                    "scope_validated":  true,
-                    "after_free_bytes":  [
-                                             {
-                                                 "Name":  "C",
-                                                 "Free":  24608931840
-                                             },
-                                             {
-                                                 "Name":  "D",
-                                                 "Free":  43042992128
-                                             }
-                                         ]
-                }
+                    "reason":  "No disposable task-owned scratch remains. Retain source, live build and dependencies, verification evidence and client authentication. Old Vercel linkage is a verified recovery copy. Free-space changes include concurrent host work; no deletion savings claimed.",
+                    "removed_bytes":  0,
+                    "scope_validated":  true
+                },
+    "client_release":  {
+                           "deployment_id":  "dpl_4bkxY29mkvPfzRuPLKiA7c8g4v1K",
+                           "emails_sent_by_automation":  0,
+                           "state":  "READY",
+                           "github_auto_deploy_connected":  false,
+                           "custom_domain_verified_live":  false,
+                           "whatsapp":  "918081709146",
+                           "team_id":  "team_4jsiQKqeVz4xh1i73JLRO01i",
+                           "enquiry_email":  "aromaofkashi@gmail.com",
+                           "project_id":  "prj_VlsLF1U8sZw7aj8auqil5fgIz0ch",
+                           "public_url":  "https://hotel-augusto-brown.vercel.app",
+                           "region":  "sin1",
+                           "anonymous_http":  200,
+                           "email_delivery_confirmed":  false,
+                           "source_commit":  "072f405dd1b08b5a055bb5e7cadb8712a68a5562"
+                       },
+    "dns":  {
+                "mail_records_changed":  false,
+                "nameservers":  "Namecheap registrar-servers.com",
+                "required_apex":  "76.76.21.21",
+                "required_www":  "a2ab83b9e7357c0b.vercel-dns-017.com",
+                "observed_apex":  "192.64.119.65",
+                "observed_www":  "parkingpage.namecheap.com"
+            }
 }

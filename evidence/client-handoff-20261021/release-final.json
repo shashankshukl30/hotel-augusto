@@ -1,0 +1,71 @@
+{
+    "client_team":  "sahil-5aa6",
+    "github_auto_deploy":  "pending client GitHub Login Connection",
+    "recorded_at_utc":  "2026-10-21T16:15:59.0962295Z",
+    "state":  "READY",
+    "old_preview":  {
+                        "noindex":  true,
+                        "anonymous_http":  200
+                    },
+    "email_inbox_delivery_verified":  false,
+    "namecheap_dns":  "still parking at last live check",
+    "deployment_id":  "dpl_4bkxY29mkvPfzRuPLKiA7c8g4v1K",
+    "public_url":  "https://hotel-augusto-brown.vercel.app",
+    "region":  "sin1",
+    "cleanup":  {
+                    "removed_bytes":  0,
+                    "report":  "cleanup-contact-release.json"
+                },
+    "external_emails_sent_by_tests":  0,
+    "formsubmit_recipient_activation":  "pending client completion",
+    "source_commit":  "072f405dd1b08b5a055bb5e7cadb8712a68a5562",
+    "checks":  {
+                   "http":  {
+                                "passed":  94,
+                                "failed":  0
+                            },
+                   "calendar_gestures":  {
+                                             "engines":  [
+                                                             "chromium",
+                                                             "webkit"
+                                                         ],
+                                             "failed":  0,
+                                             "passed":  156
+                                         },
+                   "build":  "passed",
+                   "lint":  "passed",
+                   "recovery":  {
+                                    "passed":  49,
+                                    "failed":  0
+                                },
+                   "typecheck":  "passed",
+                   "pending_dock_recovery":  {
+                                                 "passed":  25,
+                                                 "failed":  0
+                                             },
+                   "webkit_contact_suite":  {
+                                                "functional_passes":  498,
+                                                "diagnostic_assertion_failures":  1,
+                                                "note":  "Rapid document navigation produced browser prefetch access-control diagnostics. Original report retained; see focused request trace."
+                                            },
+                   "webkit_navigation_trace":  {
+                                                   "stable_real_link_page_errors":  0,
+                                                   "stable_real_link_clicks":  10,
+                                                   "diagnosis_report":  "prefetch-diagnosis.json",
+                                                   "exact_failed_request_replays_http_200":  24,
+                                                   "lifecycle_navigation_checks_passed":  16,
+                                                   "note":  "Actual failed requests report cancellation during hard navigation; 24 exact failed-request replays return 200. Warning timing supports document teardown, but individual warning URLs remain unmatched to network events. Original failed diagnostic report is preserved.",
+                                                   "failed":  0,
+                                                   "passed":  44
+                                               },
+                   "chat_layout_retest":  {
+                                              "passed":  89,
+                                              "failed":  0
+                                          },
+                   "unit":  {
+                                "passed":  23,
+                                "failed":  0
+                            }
+               },
+    "custom_domain_tls_verified":  false
+}

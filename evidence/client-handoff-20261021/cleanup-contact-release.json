@@ -1,0 +1,27 @@
+{
+    "before_free_bytes":  {
+                              "D":  36399435776,
+                              "C":  20595036160
+                          },
+    "recorded_at_utc":  "2026-10-21T16:18:21.5280293Z",
+    "after_free_bytes":  [
+                             {
+                                 "Name":  "C",
+                                 "Free":  7589892096
+                             },
+                             {
+                                 "Name":  "D",
+                                 "Free":  32324575232
+                             }
+                         ],
+    "retained_recovery":  ".openai/local-tools/vercel-omvity-link-20261021.json",
+    "deliverable_check":  "Production deployment READY and anonymous homepage returns HTTP 200.",
+    "removed_paths":  [
+
+                      ],
+    "reparse_point":  false,
+    "scope":  "D:\\Digiocular\\Websites\\Hotel Augusto\\evidence\\client-handoff-20261021",
+    "reason":  "No disposable task-owned scratch remains. Retain source, live build and dependencies, verification evidence and client authentication. Old Vercel linkage is a verified recovery copy. Free-space changes include concurrent host work; no deletion savings claimed.",
+    "removed_bytes":  0,
+    "scope_validated":  true
+}

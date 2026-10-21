@@ -1,0 +1,889 @@
+{
+  "checked_at_utc": "2026-10-21T16:10:18.256100+00:00",
+  "base_url": "https://hotel-augusto-brown.vercel.app",
+  "canonical_origin": "https://hotelaugusto.in",
+  "source_commit": "072f405",
+  "anonymous": true,
+  "authentication_or_bypass_used": false,
+  "external_messages_sent": 0,
+  "methods": [
+    "GET"
+  ],
+  "checks": [
+    {
+      "name": "route /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /",
+      "passed": true,
+      "detail": "https://hotelaugusto.in"
+    },
+    {
+      "name": "index follow /",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /hotel",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/hotel"
+    },
+    {
+      "name": "index follow /hotel",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /hotel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /rooms",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/rooms"
+    },
+    {
+      "name": "index follow /rooms",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /rooms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /rooms/compare",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/rooms/compare"
+    },
+    {
+      "name": "index follow /rooms/compare",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /rooms/compare",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /rooms/deluxe-room",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/rooms/deluxe-room"
+    },
+    {
+      "name": "index follow /rooms/deluxe-room",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /rooms/deluxe-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/rooms/deluxe-twin-room"
+    },
+    {
+      "name": "index follow /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /rooms/deluxe-twin-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /rooms/family-room",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/rooms/family-room"
+    },
+    {
+      "name": "index follow /rooms/family-room",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /rooms/family-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /dining",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/dining"
+    },
+    {
+      "name": "index follow /dining",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /dining",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /varanasi",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/varanasi"
+    },
+    {
+      "name": "index follow /varanasi",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /varanasi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /gallery",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/gallery"
+    },
+    {
+      "name": "index follow /gallery",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /gallery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /guides",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/guides"
+    },
+    {
+      "name": "index follow /guides",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /guides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/guides/first-visit-to-kashi"
+    },
+    {
+      "name": "index follow /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /guides/first-visit-to-kashi",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/guides/arriving-in-godowlia"
+    },
+    {
+      "name": "index follow /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /guides/arriving-in-godowlia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /guides/choosing-your-room",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/guides/choosing-your-room"
+    },
+    {
+      "name": "index follow /guides/choosing-your-room",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /guides/choosing-your-room",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /group-stays",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/group-stays"
+    },
+    {
+      "name": "index follow /group-stays",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /group-stays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /contact",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/contact"
+    },
+    {
+      "name": "index follow /contact",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical /privacy",
+      "passed": true,
+      "detail": "https://hotelaugusto.in/privacy"
+    },
+    {
+      "name": "index follow /privacy",
+      "passed": true,
+      "detail": [
+        "index, follow"
+      ]
+    },
+    {
+      "name": "WhatsApp controls /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "footer email /privacy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main email /",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main email /contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hotel JSON-LD email and origin",
+      "passed": true,
+      "detail": {
+        "email": "aromaofkashi@gmail.com",
+        "url": "https://hotelaugusto.in"
+      }
+    },
+    {
+      "name": "security headers",
+      "passed": true,
+      "detail": {
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+        "Content-Security-Policy": "base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://wa.me; upgrade-insecure-requests",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+      }
+    },
+    {
+      "name": "powered by header removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "production robots permits indexing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sitemap has exactly 17 canonical URLs",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "name": "OG image 1200x630",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "property image available",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/",
+      "canonical": "https://hotelaugusto.in",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1011
+    },
+    {
+      "route": "/hotel",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/hotel",
+      "canonical": "https://hotelaugusto.in/hotel",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1340
+    },
+    {
+      "route": "/rooms",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/rooms",
+      "canonical": "https://hotelaugusto.in/rooms",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1308
+    },
+    {
+      "route": "/rooms/compare",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/rooms/compare",
+      "canonical": "https://hotelaugusto.in/rooms/compare",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1319
+    },
+    {
+      "route": "/rooms/deluxe-room",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/rooms/deluxe-room",
+      "canonical": "https://hotelaugusto.in/rooms/deluxe-room",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1048
+    },
+    {
+      "route": "/rooms/deluxe-twin-room",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/rooms/deluxe-twin-room",
+      "canonical": "https://hotelaugusto.in/rooms/deluxe-twin-room",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1229
+    },
+    {
+      "route": "/rooms/family-room",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/rooms/family-room",
+      "canonical": "https://hotelaugusto.in/rooms/family-room",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1262
+    },
+    {
+      "route": "/dining",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/dining",
+      "canonical": "https://hotelaugusto.in/dining",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 879
+    },
+    {
+      "route": "/varanasi",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/varanasi",
+      "canonical": "https://hotelaugusto.in/varanasi",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1035
+    },
+    {
+      "route": "/gallery",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/gallery",
+      "canonical": "https://hotelaugusto.in/gallery",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 718
+    },
+    {
+      "route": "/guides",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/guides",
+      "canonical": "https://hotelaugusto.in/guides",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1132
+    },
+    {
+      "route": "/guides/first-visit-to-kashi",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/guides/first-visit-to-kashi",
+      "canonical": "https://hotelaugusto.in/guides/first-visit-to-kashi",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1041
+    },
+    {
+      "route": "/guides/arriving-in-godowlia",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/guides/arriving-in-godowlia",
+      "canonical": "https://hotelaugusto.in/guides/arriving-in-godowlia",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1039
+    },
+    {
+      "route": "/guides/choosing-your-room",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/guides/choosing-your-room",
+      "canonical": "https://hotelaugusto.in/guides/choosing-your-room",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 1071
+    },
+    {
+      "route": "/group-stays",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/group-stays",
+      "canonical": "https://hotelaugusto.in/group-stays",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 769
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/contact",
+      "canonical": "https://hotelaugusto.in/contact",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 752
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "landed_url": "https://hotel-augusto-brown.vercel.app/privacy",
+      "canonical": "https://hotelaugusto.in/privacy",
+      "robots": [
+        "index, follow"
+      ],
+      "h1_count": 1,
+      "whatsapp_header_and_floating": true,
+      "footer_mailto": true,
+      "elapsed_ms": 961
+    }
+  ],
+  "domain_status": {
+    "hotelaugusto.in": {
+      "A": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "hotelaugusto.in.",
+            "type": 1,
+            "value": "192.64.119.65"
+          }
+        ]
+      },
+      "CNAME": {
+        "status": 0,
+        "answers": []
+      },
+      "https": {
+        "error": "HTTPSConnectionPool(host='hotelaugusto.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='hotelaugusto.in', port=443) at 0x1e9e0801810>, 'Connection to hotelaugusto.in timed out. (connect timeout=12)'))"
+      },
+      "http": {
+        "status": 200,
+        "landed_url": "http://www.hotelaugusto.in/",
+        "redirects": [
+          {
+            "status": 302,
+            "url": "http://hotelaugusto.in/",
+            "location": "http://www.hotelaugusto.in/"
+          }
+        ],
+        "canonical": []
+      }
+    },
+    "www.hotelaugusto.in": {
+      "A": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "www.hotelaugusto.in.",
+            "type": 5,
+            "value": "parkingpage.namecheap.com."
+          },
+          {
+            "name": "parkingpage.namecheap.com.",
+            "type": 5,
+            "value": "parking.d.parity.domains."
+          },
+          {
+            "name": "parking.d.parity.domains.",
+            "type": 1,
+            "value": "104.219.250.36"
+          },
+          {
+            "name": "parking.d.parity.domains.",
+            "type": 1,
+            "value": "2.59.170.19"
+          }
+        ]
+      },
+      "CNAME": {
+        "status": 0,
+        "answers": [
+          {
+            "name": "www.hotelaugusto.in.",
+            "type": 5,
+            "value": "parkingpage.namecheap.com."
+          }
+        ]
+      },
+      "https": {
+        "error": "HTTPSConnectionPool(host='www.hotelaugusto.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))"
+      },
+      "http": {
+        "status": 200,
+        "landed_url": "http://www.hotelaugusto.in/",
+        "redirects": [],
+        "canonical": []
+      }
+    }
+  },
+  "security_headers": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "Content-Security-Policy": "base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://wa.me; upgrade-insecure-requests",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  },
+  "robots": {
+    "status": 200,
+    "text": "User-Agent: *\nAllow: /\n\nSitemap: https://hotelaugusto.in/sitemap.xml\n"
+  },
+  "sitemap": {
+    "status": 200,
+    "urls": [
+      "https://hotelaugusto.in/",
+      "https://hotelaugusto.in/hotel",
+      "https://hotelaugusto.in/rooms",
+      "https://hotelaugusto.in/rooms/compare",
+      "https://hotelaugusto.in/rooms/deluxe-room",
+      "https://hotelaugusto.in/rooms/deluxe-twin-room",
+      "https://hotelaugusto.in/rooms/family-room",
+      "https://hotelaugusto.in/dining",
+      "https://hotelaugusto.in/group-stays",
+      "https://hotelaugusto.in/varanasi",
+      "https://hotelaugusto.in/gallery",
+      "https://hotelaugusto.in/guides",
+      "https://hotelaugusto.in/guides/first-visit-to-kashi",
+      "https://hotelaugusto.in/guides/arriving-in-godowlia",
+      "https://hotelaugusto.in/guides/choosing-your-room",
+      "https://hotelaugusto.in/contact",
+      "https://hotelaugusto.in/privacy"
+    ]
+  },
+  "og_image": {
+    "status": 200,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "content_type": "image/png",
+    "advertised": [
+      "https://hotelaugusto.in/opengraph-image?55d7176bf3ce0eea"
+    ]
+  },
+  "property_image": {
+    "path": "/images/deluxe-room.webp",
+    "status": 200,
+    "bytes": 112082,
+    "content_type": "image/webp"
+  },
+  "passed": true,
+  "checks_passed": 94,
+  "checks_failed": 0,
+  "notes": [
+    "Custom-domain DNS/HTTPS status is reported separately from Vercel release verification.",
+    "No browser interaction or real form/email submission was performed.",
+    "HTTP markup verifies URLs and server output; root browser QA verifies rendered UI."
+  ]
+}

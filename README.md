@@ -81,13 +81,15 @@ Generate matching Markdown and Word handoffs after final verification with `pyth
 
 ## Launch settings
 
-1. Confirm the WhatsApp booking number, current guest policies and permission to reuse the hotel photographs collected from public listings.
-2. Supply the approved production domain. Set `NEXT_PUBLIC_SITE_URL` to its HTTPS origin.
+1. The client confirmed WhatsApp `+91 80817 09146` and enquiry email `aromaofkashi@gmail.com`. FormSubmit recipient activation and a real inbox test remain separate launch checks.
+2. The approved production origin is `https://hotelaugusto.in`. Set `NEXT_PUBLIC_SITE_URL` to that origin.
 3. Keep `SITE_INDEXABLE=false` for previews; set it to `true` only for approved production. This controls robots and sitemap output.
 4. Push this independent Git repository before any Vercel deployment. The owner authorized public visibility on 21 October 2026 for the client import; `main` contains the current approved application. The Vercel region is configured as `sin1`.
 5. Run the browser checks on the deployed host and verify its canonical/OG URLs before connecting a domain.
 
-No production domain has been changed. Old hotel domains were not assumed to be authoritative: one no longer resolves, and another redirects through an affiliate.
+The client production project is in Vercel team `sahil-5aa6`, with a public fallback URL at https://hotel-augusto-brown.vercel.app. The local Vercel link targets that client project. Both `hotelaugusto.in` and `www.hotelaugusto.in` are attached, with www redirecting to the apex. Namecheap DNS and custom-domain HTTPS must be verified separately; attaching an alias is not a completed DNS cutover. Current release and handoff evidence is in `evidence/client-handoff-20261021/`.
+
+Namecheap's parking records must be replaced with the Vercel-inspected apex A record `76.76.21.21` and www CNAME `a2ab83b9e7357c0b.vercel-dns-017.com`. Preserve mail/MX/TXT records. Reinspect Vercel's current recommendation before any later DNS change. The client's GitHub Login Connection is not configured, so this release was pushed to GitHub and then deployed through the authenticated Vercel CLI; automatic Git deployments remain unconnected.
 
 ## Private preview
 

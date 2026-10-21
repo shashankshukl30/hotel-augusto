@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-21",
+  "base": "https://hotel-augusto-brown.vercel.app",
+  "browser": "Playwright WebKit, 390x844, anonymous fresh contexts",
+  "conclusion": "No guest-facing navigation failure was reproduced. The access-control diagnostics reproduce during rapid hard document replacement and coincide with explicitly cancelled prefetch requests. Navigation teardown is the supported explanation, but individual warning URLs were not matched to network events and must not be represented as individually proven cancellations.",
+  "original_report_preserved": "contact-webkit.json",
+  "original_report": {
+    "passed": 498,
+    "failed": 1,
+    "page_errors": 15,
+    "failed_assertion": "No runtime or recursion errors"
+  },
+  "comparison_evidence": "prefetch-navigation-trace.json",
+  "comparison_results": {
+    "navigation_assertions_passed": 44,
+    "navigation_assertions_failed": 0,
+    "stable_real_link_clicks": {
+      "routes": ["/rooms", "/hotel", "/guides", "/contact", "/privacy"],
+      "modes": ["FormSubmit-only interception", "broad interception matching the contact audit"],
+      "total_clicks": 10,
+      "correct_landed_heading_and_url": 10,
+      "page_errors": 0,
+      "failed_requests": 0
+    },
+    "rapid_eight_document_navigations": {
+      "narrow": {"page_errors": 27, "failed_requests": 27, "failed_rsc_requests": 24},
+      "broad": {"page_errors": 36, "failed_requests": 18, "failed_rsc_requests": 16},
+      "all_recorded_failure_reasons": ["Load request cancelled"],
+      "http_error_responses": 0,
+      "exact_failed_rsc_request_replays": 16,
+      "replay_http_200": 16,
+      "replay_redirects": 0
+    }
+  },
+  "lifecycle_evidence": "prefetch-document-lifecycle.json",
+  "lifecycle_results": {
+    "navigation_assertions_passed": 16,
+    "navigation_assertions_failed": 0,
+    "page_errors": 26,
+    "all_error_offsets_after_next_document_navigation_ms": {"min": 23.9, "max": 56.5},
+    "failed_requests": 28,
+    "failed_rsc_requests": 24,
+    "all_recorded_failure_reasons": ["Load request cancelled"],
+    "http_error_responses": 0,
+    "exact_failed_request_replays": 8,
+    "replay_http_200": 8,
+    "warning_urls_matched_to_request_events": 0,
+    "warning_urls_matched_to_fetch_instrumentation": 0
+  },
+  "interpretation_limits": [
+    "Reproduction with both narrow and broad interception rules out broad request interception as a necessary cause.",
+    "Actual browser request failures explicitly report cancellation during document replacement; none reports a server denial or produces an HTTP error response.",
+    "The warning URLs lack corresponding network records. The timing association supports teardown attribution but is not a one-to-one cancellation mapping.",
+    "Anonymous HTTP replays corroborate availability and absence of protection redirects; they do not independently establish browser CORS behavior.",
+    "The original 15-warning report remains unchanged and failed. No blanket warning filter or application change was applied.",
+    "Physical Safari-device behavior was not tested."
+  ],
+  "external_emails_sent": 0,
+  "application_files_changed_for_diagnosis": []
+}
