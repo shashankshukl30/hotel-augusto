@@ -11,6 +11,8 @@ out/
 *.tsbuildinfo
 *.log
 research/assets/originals/
+# Client-supplied WhatsApp copies; the enhanced versions ship from public/images.
+/IMAGES/
 research/assets/contact-sheets/
 research/raw/
 evidence/screenshots/

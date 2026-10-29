@@ -23,10 +23,20 @@ const photographs: GalleryImage[] = [
   { src: "/images/hotel-reception.webp", alt: "Reception desk and seating at Hotel Augusto", caption: "Reception", category: "Hotel" },
   { src: "/images/family-room.webp", alt: "Family guest room with two beds at Hotel Augusto", caption: "Family Room", category: "Rooms" },
   { src: "/images/hotel-exterior.webp", alt: "Hotel Augusto's exterior and illuminated sign after dark", caption: "Augusto after dark", category: "Hotel", position: "center 45%" },
+  { src: "/images/deluxe-room-blue-sofa.webp", alt: "A blue sofa, wall-mounted television and patterned curtains in a Hotel Augusto double room", caption: "Blue-headboard double room", category: "Rooms" },
   { src: "/images/hotel-lounge.webp", alt: "Sofas and a coffee table in the Hotel Augusto lounge", caption: "Guest lounge", category: "Hotel" },
+  { src: "/images/twin-room-wide.webp", alt: "Two single beds with tufted headboards and teal runners in a Hotel Augusto twin room", caption: "Twin-bed room", category: "Rooms" },
   { src: "/images/dining-room-wide.webp", alt: "A wide view of Hotel Augusto's dining room", caption: "The dining room", category: "Dining" },
+  { src: "/images/family-room-wide.webp", alt: "A wide view of a Hotel Augusto family room with two beds, wardrobe and wall-mounted television", caption: "Family room", category: "Rooms" },
+  { src: "/images/hotel-corridor.webp", alt: "A guest-floor corridor at Hotel Augusto with terrazzo flooring and wooden room doors", caption: "Guest-floor corridor", category: "Hotel" },
+  { src: "/images/deluxe-room-tv.webp", alt: "A double bed with a tufted headboard facing the television unit in a Hotel Augusto room", caption: "Double-bed guest room", category: "Rooms" },
+  { src: "/images/hotel-lounge-seating.webp", alt: "Sofas and a glass-topped table in Hotel Augusto's ground-floor lounge, beside the hotel's tour-services board", caption: "Lounge seating", category: "Hotel" },
   { src: "/images/google-family-room.webp", alt: "Two beds with green runners and a small table in a Hotel Augusto guest room", caption: "Two-bed guest room", category: "Rooms" },
-  { src: "/images/room-bathroom.webp", alt: "A tiled private bathroom in a Hotel Augusto guest room", caption: "Guest bathroom", category: "Rooms" },
+  { src: "/images/room-bathroom-wc.webp", alt: "A tiled guest bathroom at Hotel Augusto with a wash basin, WC and hand shower", caption: "Guest bathroom", category: "Rooms", position: "center 62%" },
+  { src: "/images/twin-room-orange.webp", alt: "Two single beds with orange runners in a Hotel Augusto twin room", caption: "Twin room, orange runners", category: "Rooms" },
+  { src: "/images/hotel-lobby-lift.webp", alt: "Patterned sofas and a glass-topped table in Hotel Augusto's lobby, with steps up to the lift", caption: "Lobby and lift", category: "Hotel" },
+  { src: "/images/family-room-corner.webp", alt: "Two beds, a red armchair and a small table in a Hotel Augusto family room", caption: "Family room corner", category: "Rooms" },
+  { src: "/images/room-bathroom.webp", alt: "A tiled private bathroom in a Hotel Augusto guest room", caption: "Shower area", category: "Rooms" },
 ];
 
 export default function GalleryPage() {

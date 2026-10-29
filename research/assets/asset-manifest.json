@@ -305,10 +305,16 @@
       "public_path": "/images/room-tea.webp",
       "public_width": 1600,
       "public_height": 900,
-      "public_bytes": 145740,
+      "public_bytes": 201824,
       "category": "details",
       "alt": "An electric kettle, glasses and cups on the room tea tray at Hotel Augusto.",
-      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel."
+      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel.",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Full-frame hi-res original; light denoise, local contrast (CLAHE 40% blend), unsharp mask; Lanczos/area resize to 1600px.",
+        "whatsapp_copy": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.35 PM.jpeg",
+        "synthetic_content": false
+      }
     },
     {
       "id": "1687586842",
@@ -408,10 +414,16 @@
       "public_path": "/images/deluxe-room-blue.webp",
       "public_width": 1600,
       "public_height": 900,
-      "public_bytes": 125406,
+      "public_bytes": 156568,
       "category": "rooms",
       "alt": "Hotel Augusto double room with a blue upholstered headboard and sofa.",
-      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel."
+      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel.",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Full-frame hi-res original; light denoise, local contrast (CLAHE 40% blend), unsharp mask; Lanczos/area resize to 1600px.",
+        "whatsapp_copy": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.35 PM (2).jpeg",
+        "synthetic_content": false
+      }
     },
     {
       "id": "1687586830",
@@ -590,10 +602,16 @@
       "public_path": "/images/hotel-exterior.webp",
       "public_width": 1600,
       "public_height": 900,
-      "public_bytes": 209346,
+      "public_bytes": 290436,
       "category": "hotel",
       "alt": "Hotel Augusto illuminated entrance and street facade in Godowlia at night.",
-      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel."
+      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel.",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Full-frame hi-res original; light denoise, local contrast (CLAHE 40% blend), unsharp mask; Lanczos/area resize to 1600px.",
+        "whatsapp_copy": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.30 PM (1).jpeg",
+        "synthetic_content": false
+      }
     },
     {
       "id": "1687586869",
@@ -693,10 +711,16 @@
       "public_path": "/images/deluxe-room.webp",
       "public_width": 1600,
       "public_height": 900,
-      "public_bytes": 112082,
+      "public_bytes": 145540,
       "category": "rooms",
       "alt": "A double room at Hotel Augusto with a cushioned headboard, white bedding and wood detailing.",
-      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel."
+      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel.",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Full-frame hi-res original; light denoise, local contrast (CLAHE 40% blend), unsharp mask; Lanczos/area resize to 1600px.",
+        "whatsapp_copy": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.35 PM (1).jpeg",
+        "synthetic_content": false
+      }
     },
     {
       "id": "1687586846",
@@ -712,10 +736,16 @@
       "public_path": "/images/twin-room.webp",
       "public_width": 1600,
       "public_height": 900,
-      "public_bytes": 136568,
+      "public_bytes": 173994,
       "category": "rooms",
       "alt": "Two separate single beds with green runners in a Hotel Augusto twin room.",
-      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel."
+      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel.",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Full-frame hi-res original; light denoise, local contrast (CLAHE 40% blend), unsharp mask; Lanczos/area resize to 1600px.",
+        "whatsapp_copy": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.38 PM.jpeg",
+        "synthetic_content": false
+      }
     },
     {
       "id": "1687586876",
@@ -743,10 +773,16 @@
       "public_path": "/images/hotel-reception.webp",
       "public_width": 1600,
       "public_height": 900,
-      "public_bytes": 194606,
+      "public_bytes": 238450,
       "category": "hotel",
       "alt": "Hotel Augusto reception desk with wood panelling and patterned wall details.",
-      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel."
+      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel.",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Full-frame hi-res original; light denoise, local contrast (CLAHE 40% blend), unsharp mask; Lanczos/area resize to 1600px.",
+        "whatsapp_copy": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.32 PM (1).jpeg",
+        "synthetic_content": false
+      }
     },
     {
       "id": "1687586832",
@@ -774,10 +810,16 @@
       "public_path": "/images/hotel-exterior-day.webp",
       "public_width": 1600,
       "public_height": 900,
-      "public_bytes": 233820,
+      "public_bytes": 294656,
       "category": "hotel",
       "alt": "Hotel Augusto street facade and entrance in daylight.",
-      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel."
+      "verified": "Visually checked contact sheets against Hotel Augusto listing; no removed watermarks, no substituted hotel.",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Full-frame hi-res original; light denoise, local contrast (CLAHE 40% blend), unsharp mask; Lanczos/area resize to 1600px.",
+        "whatsapp_copy": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.30 PM.jpeg",
+        "synthetic_content": false
+      }
     },
     {
       "id": "1687586840",
@@ -1061,6 +1103,314 @@
       "height": 4096,
       "bytes": 1420316,
       "sha256": "41c9fd5ebfda369823b804ac388729f4c2677793c6c2f7871498d0ff2d255823"
+    },
+    {
+      "id": "whatsapp-03",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.31 PM (1).jpeg",
+      "whatsapp_sha256": "e0e9d988973d5f8272a743c8e036d31fe0836af41b60205719929bacc8800955",
+      "matched_listing_original": "originals\\1687586878.jpg",
+      "public_path": "/images/hotel-lobby-lift.webp",
+      "public_width": 1599,
+      "public_height": 1279,
+      "public_bytes": 333210,
+      "category": "hotel",
+      "alt": "Patterned sofas and a glass-topped table in Hotel Augusto's lobby, with steps up to the lift",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.809,
+        "ai_upscaled_share": 0.191
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-05",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.31 PM.jpeg",
+      "whatsapp_sha256": "6a1fef686980608de6d4f47cf2ab0ce32c80557bf5fee0b62aaa49f16096acc1",
+      "matched_listing_original": "originals\\1687586869.jpg",
+      "public_path": "/images/hotel-lounge-seating.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 347380,
+      "category": "hotel",
+      "alt": "Sofas and a glass-topped table in Hotel Augusto's ground-floor lounge, beside the hotel's tour-services board",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.809,
+        "ai_upscaled_share": 0.191
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-04",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.31 PM (2).jpeg",
+      "whatsapp_sha256": "570f140f45a77d05c8a7530f2f843db310f759c415ed180521c27a3a8f282cb6",
+      "matched_listing_original": "originals\\1687586870.jpg",
+      "public_path": "/images/hotel-corridor.webp",
+      "public_width": 1599,
+      "public_height": 1279,
+      "public_bytes": 224318,
+      "category": "hotel",
+      "alt": "A guest-floor corridor at Hotel Augusto with terrazzo flooring and wooden room doors",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.81,
+        "ai_upscaled_share": 0.19
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-10",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.33 PM.jpeg",
+      "whatsapp_sha256": "cd0cb9976585c65bc3887bd7a2d477e0d9815932dfc3ea6686e4222687aeac10",
+      "matched_listing_original": "originals\\1687586852.jpg",
+      "public_path": "/images/room-bathroom-wc.webp",
+      "public_width": 1333,
+      "public_height": 1733,
+      "public_bytes": 265742,
+      "category": "rooms",
+      "alt": "A tiled guest bathroom at Hotel Augusto with a wash basin, WC and hand shower",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.598,
+        "ai_upscaled_share": 0.402
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-09",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.33 PM (2).jpeg",
+      "whatsapp_sha256": "127a3968beb4f206097d8af09b3e2b38077f55cc4b003c133c628dd5cbc4e48c",
+      "matched_listing_original": "originals\\1687586856.jpg",
+      "public_path": "/images/family-room-corner.webp",
+      "public_width": 1599,
+      "public_height": 1280,
+      "public_bytes": 267066,
+      "category": "rooms",
+      "alt": "Two beds, a red armchair and a small table in a Hotel Augusto family room",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.81,
+        "ai_upscaled_share": 0.19
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-11",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.34 PM (1).jpeg",
+      "whatsapp_sha256": "7280dad4c66ee2caf16c57e5b15db313de79d6dfc436ad5eb7583d3f8e4b6aa2",
+      "matched_listing_original": "originals\\1687586826.jpg",
+      "public_path": "/images/family-room-wide.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 193564,
+      "category": "rooms",
+      "alt": "A wide view of a Hotel Augusto family room with two beds, wardrobe and wall-mounted television",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.809,
+        "ai_upscaled_share": 0.191
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-13",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.34 PM.jpeg",
+      "whatsapp_sha256": "b4a218d8b4883d5964c4f4731e9fd27722e660757044a8885b06072867122fb0",
+      "matched_listing_original": "originals\\1687586836.jpg",
+      "public_path": "/images/family-room-long.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 178566,
+      "category": "rooms",
+      "alt": "A long family room at Hotel Augusto with a dressing mirror, red armchair and two beds",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.809,
+        "ai_upscaled_share": 0.191
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-17",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.36 PM (1).jpeg",
+      "whatsapp_sha256": "2c98b130ec090351dcdd8620d76b936984125585f4fdee22cfc3d886daffac31",
+      "matched_listing_original": "originals\\1687586825.jpg",
+      "public_path": "/images/deluxe-room-blue-sofa.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 173652,
+      "category": "rooms",
+      "alt": "A blue sofa, wall-mounted television and patterned curtains in a Hotel Augusto double room",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.809,
+        "ai_upscaled_share": 0.191
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-18",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.36 PM (2).jpeg",
+      "whatsapp_sha256": "eb73a5a49fab5241bd51336cff9af7677bbe0522d8a2505a90b2ee0e3158dba5",
+      "matched_listing_original": "originals\\1687586845.jpg",
+      "public_path": "/images/deluxe-room-tv.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 181844,
+      "category": "rooms",
+      "alt": "A double bed with a tufted headboard facing the television unit in a Hotel Augusto room",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.81,
+        "ai_upscaled_share": 0.19
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-19",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.36 PM.jpeg",
+      "whatsapp_sha256": "dad60e0633c86a21e0033d7d86cbca1bd7ad521740d212340da6460565278694",
+      "matched_listing_original": "originals\\1687586876.jpg",
+      "public_path": "/images/deluxe-room-wardrobe.webp",
+      "public_width": 1557,
+      "public_height": 1246,
+      "public_bytes": 167222,
+      "category": "rooms",
+      "alt": "A double bed, wardrobe and television wall in a Hotel Augusto guest room",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.831,
+        "ai_upscaled_share": 0.169
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-20",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.37 PM (1).jpeg",
+      "whatsapp_sha256": "5585b662451eab1ab0c20034c0cabe05c2dd3a409993ac3593a6a70b669a843f",
+      "matched_listing_original": "originals\\1687586911.jpg",
+      "public_path": "/images/twin-room-wide.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 220280,
+      "category": "rooms",
+      "alt": "Two single beds with tufted headboards and teal runners in a Hotel Augusto twin room",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.81,
+        "ai_upscaled_share": 0.19
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-21",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.37 PM (2).jpeg",
+      "whatsapp_sha256": "2dbb2400129873b287a20a93ddf5e44a507129f27db9905ad19620477acde128",
+      "matched_listing_original": null,
+      "public_path": "/images/twin-room-orange.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 180118,
+      "category": "rooms",
+      "alt": "Two single beds with orange runners in a Hotel Augusto twin room",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy (no hi-res original exists); light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.0,
+        "ai_upscaled_share": 1.0
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-22",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.37 PM.jpeg",
+      "whatsapp_sha256": "0bbbc2ce2a3b8b784cdb7d307888bc55f3497681aec968531a6902552f689714",
+      "matched_listing_original": "originals\\1687586824.jpg",
+      "public_path": "/images/twin-room-tv.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 210882,
+      "category": "rooms",
+      "alt": "Two single beds facing a wall-mounted television in a Hotel Augusto twin room",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.81,
+        "ai_upscaled_share": 0.19
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
+    },
+    {
+      "id": "whatsapp-23",
+      "source_page": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+      "kind": "hotel",
+      "rights": "Supplied by Hotel Augusto for use on its own website.",
+      "whatsapp_original": "IMAGES/WhatsApp Image 2026-10-25 at 9.27.38 PM (1).jpeg",
+      "whatsapp_sha256": "c0748f61b50db3ef90ad809d09093a50cdbe6bf99abebde6d7bea678c31707c9",
+      "matched_listing_original": "originals\\1687586874.jpg",
+      "public_path": "/images/twin-room-window.webp",
+      "public_width": 1600,
+      "public_height": 1280,
+      "public_bytes": 204526,
+      "category": "rooms",
+      "alt": "Two single beds beneath a small window in a Hotel Augusto twin room",
+      "enhancement": {
+        "date": "2026-10-29",
+        "method": "Real-ESRGAN x4plus (ONNX, CPU) of the WhatsApp copy at its framing; the matched hi-res listing original is perspective-aligned (SIFT + RANSAC homography), colour-matched and feathered over every pixel it covers; light denoise, local contrast and unsharp mask.",
+        "real_pixel_share": 0.81,
+        "ai_upscaled_share": 0.19
+      },
+      "verified": "Visually checked against the WhatsApp copy on 2026-10-29: same room, no added or removed objects."
     }
   ],
   "photography_policy": "Only genuine hotel listing photography and licensed destination photography. No generative hotel images, removed watermarks, or unrelated hotel stand-ins.",

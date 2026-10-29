@@ -1,4 +1,26 @@
 {
+  "/images/deluxe-room-blue-sofa.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/deluxe-room-blue-sofa-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/deluxe-room-blue-sofa-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/deluxe-room-blue-sofa-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/deluxe-room-blue-sofa-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/deluxe-room-blue-sofa.webp"
+    }
+  ],
   "/images/deluxe-room-blue.webp": [
     {
       "width": 96,
@@ -19,6 +41,50 @@
     {
       "width": 1600,
       "src": "/images/deluxe-room-blue.webp"
+    }
+  ],
+  "/images/deluxe-room-tv.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/deluxe-room-tv-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/deluxe-room-tv-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/deluxe-room-tv-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/deluxe-room-tv-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/deluxe-room-tv.webp"
+    }
+  ],
+  "/images/deluxe-room-wardrobe.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/deluxe-room-wardrobe-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/deluxe-room-wardrobe-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/deluxe-room-wardrobe-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/deluxe-room-wardrobe-960w.webp"
+    },
+    {
+      "width": 1557,
+      "src": "/images/deluxe-room-wardrobe.webp"
     }
   ],
   "/images/deluxe-room.webp": [
@@ -107,6 +173,72 @@
     {
       "width": 1600,
       "src": "/images/family-room-alternate.webp"
+    }
+  ],
+  "/images/family-room-corner.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/family-room-corner-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/family-room-corner-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/family-room-corner-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/family-room-corner-960w.webp"
+    },
+    {
+      "width": 1599,
+      "src": "/images/family-room-corner.webp"
+    }
+  ],
+  "/images/family-room-long.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/family-room-long-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/family-room-long-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/family-room-long-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/family-room-long-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/family-room-long.webp"
+    }
+  ],
+  "/images/family-room-wide.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/family-room-wide-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/family-room-wide-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/family-room-wide-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/family-room-wide-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/family-room-wide.webp"
     }
   ],
   "/images/family-room.webp": [
@@ -241,6 +373,28 @@
       "src": "/images/google-family-room.webp"
     }
   ],
+  "/images/hotel-corridor.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/hotel-corridor-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/hotel-corridor-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/hotel-corridor-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/hotel-corridor-960w.webp"
+    },
+    {
+      "width": 1599,
+      "src": "/images/hotel-corridor.webp"
+    }
+  ],
   "/images/hotel-exterior-day.webp": [
     {
       "width": 96,
@@ -285,6 +439,28 @@
       "src": "/images/hotel-exterior.webp"
     }
   ],
+  "/images/hotel-lobby-lift.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/hotel-lobby-lift-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/hotel-lobby-lift-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/hotel-lobby-lift-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/hotel-lobby-lift-960w.webp"
+    },
+    {
+      "width": 1599,
+      "src": "/images/hotel-lobby-lift.webp"
+    }
+  ],
   "/images/hotel-lobby.webp": [
     {
       "width": 96,
@@ -305,6 +481,28 @@
     {
       "width": 1600,
       "src": "/images/hotel-lobby.webp"
+    }
+  ],
+  "/images/hotel-lounge-seating.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/hotel-lounge-seating-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/hotel-lounge-seating-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/hotel-lounge-seating-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/hotel-lounge-seating-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/hotel-lounge-seating.webp"
     }
   ],
   "/images/hotel-lounge.webp": [
@@ -373,6 +571,28 @@
       "src": "/images/kashi-vishwanath.webp"
     }
   ],
+  "/images/room-bathroom-wc.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/room-bathroom-wc-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/room-bathroom-wc-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/room-bathroom-wc-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/room-bathroom-wc-960w.webp"
+    },
+    {
+      "width": 1333,
+      "src": "/images/room-bathroom-wc.webp"
+    }
+  ],
   "/images/room-bathroom.webp": [
     {
       "width": 96,
@@ -415,6 +635,94 @@
     {
       "width": 1600,
       "src": "/images/room-tea.webp"
+    }
+  ],
+  "/images/twin-room-orange.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/twin-room-orange-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/twin-room-orange-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/twin-room-orange-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/twin-room-orange-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/twin-room-orange.webp"
+    }
+  ],
+  "/images/twin-room-tv.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/twin-room-tv-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/twin-room-tv-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/twin-room-tv-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/twin-room-tv-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/twin-room-tv.webp"
+    }
+  ],
+  "/images/twin-room-wide.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/twin-room-wide-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/twin-room-wide-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/twin-room-wide-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/twin-room-wide-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/twin-room-wide.webp"
+    }
+  ],
+  "/images/twin-room-window.webp": [
+    {
+      "width": 96,
+      "src": "/images/responsive/twin-room-window-96w.webp"
+    },
+    {
+      "width": 192,
+      "src": "/images/responsive/twin-room-window-192w.webp"
+    },
+    {
+      "width": 480,
+      "src": "/images/responsive/twin-room-window-480w.webp"
+    },
+    {
+      "width": 960,
+      "src": "/images/responsive/twin-room-window-960w.webp"
+    },
+    {
+      "width": 1600,
+      "src": "/images/twin-room-window.webp"
     }
   ],
   "/images/twin-room.webp": [

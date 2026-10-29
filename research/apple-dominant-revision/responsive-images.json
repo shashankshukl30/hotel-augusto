@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T06:56:31.604573+00:00",
+  "generated": "2026-10-29T04:48:44.368394+00:00",
   "generator": "scripts/generate-responsive-images.py",
   "pillowVersion": "12.1.1",
   "method": {
@@ -27,34 +27,91 @@
     "untouched": "Brand assets, metadata JPEG, source photos and original rights ledgers."
   },
   "summary": {
-    "sources": 22,
-    "originalBytes": 4382520,
-    "generatedFiles": 92,
-    "generatedBytes": 2790272,
+    "sources": 36,
+    "originalBytes": 7874790,
+    "generatedFiles": 148,
+    "generatedBytes": 4574490,
     "responsiveTotals": {
       "480": {
-        "bytesAcrossAllImages": 521332,
-        "reductionFromOriginalPercent": 88.1
+        "bytesAcrossAllImages": 953814,
+        "reductionFromOriginalPercent": 87.89
       },
       "960": {
-        "bytesAcrossAllImages": 1560802,
-        "reductionFromOriginalPercent": 64.39
+        "bytesAcrossAllImages": 2773112,
+        "reductionFromOriginalPercent": 64.78
       },
       "1600": {
-        "bytesAcrossAllImages": 3505716,
-        "reductionFromOriginalPercent": 20.01
+        "bytesAcrossAllImages": 6997986,
+        "reductionFromOriginalPercent": 11.13
       }
     }
   },
   "assets": [
+    {
+      "source": "/images/deluxe-room-blue-sofa.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 173652,
+      "sourceSha256": "8a196e382ea7b80d5e2d1d70e3058e9e735558f2c12ffd6720aafb267af28001",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/deluxe-room-blue-sofa-96w.webp",
+          "bytes": 1970,
+          "sha256": "d65db6e7cd745da45df3c4c80232d676c7e1366b1078f9c97d527a1ee34d342e",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/deluxe-room-blue-sofa-192w.webp",
+          "bytes": 5528,
+          "sha256": "995afd2505d3be6bf4586fd5ad48889751b8c2a127093c31e5bf774b33aca2c3",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/deluxe-room-blue-sofa-480w.webp",
+          "bytes": 22638,
+          "sha256": "6d46587a1cc99aa38de7c613ecb8c2f5b494efd9dbf50728062864d416001599",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/deluxe-room-blue-sofa-960w.webp",
+          "bytes": 61594,
+          "sha256": "951bc056a4927a14ac0afc57cb01b9433bfd11adb962613cbbe5ad763b19ebbd",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/deluxe-room-blue-sofa.webp",
+          "bytes": 173652,
+          "sha256": "8a196e382ea7b80d5e2d1d70e3058e9e735558f2c12ffd6720aafb267af28001",
+          "retainedOriginal": true
+        }
+      ]
+    },
     {
       "source": "/images/deluxe-room-blue.webp",
       "sourceDimensions": [
         1600,
         900
       ],
-      "sourceBytes": 125406,
-      "sourceSha256": "c0695691d518a4ffb6146c9443960de4cf1f16d10a2e060ec87cc9c3bef44973",
+      "sourceBytes": 156568,
+      "sourceSha256": "d795a4f0b0a382ffca1731e760bb03749529c6a8cc620d5a1cba55243a7f279d",
       "provenance": {
         "ledger": "research/assets/asset-manifest.json",
         "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
@@ -66,40 +123,154 @@
           "width": 96,
           "height": 54,
           "src": "/images/responsive/deluxe-room-blue-96w.webp",
-          "bytes": 1920,
-          "sha256": "d12418288f1c73d3e0b2f0d9e685e29e4f87142314abfcd5fef78f2b5ba60113",
+          "bytes": 2102,
+          "sha256": "0b8946c6a345e66ec4b3dd1750f0d01279349d73cd06ef8abe4a8b31e82402bb",
           "retainedOriginal": false
         },
         {
           "width": 192,
           "height": 108,
           "src": "/images/responsive/deluxe-room-blue-192w.webp",
-          "bytes": 5008,
-          "sha256": "cc9b9f03c770bef8e4804eb8c1b46673071038f1e1a26590c615a275949294fd",
+          "bytes": 5544,
+          "sha256": "4d9b9b288455a09df3614aa2bd989474d047929ec30638e8a9e049d45f75b256",
           "retainedOriginal": false
         },
         {
           "width": 480,
           "height": 270,
           "src": "/images/responsive/deluxe-room-blue-480w.webp",
-          "bytes": 19564,
-          "sha256": "b066ffc9e77fc2a2977e0a3d989979affdcf0a4ad64d2a8e0bda927ed7d13a26",
+          "bytes": 21566,
+          "sha256": "d020fc28609fc395bdd5e739b065383cfd7f85493333240478029395cf54a57d",
           "retainedOriginal": false
         },
         {
           "width": 960,
           "height": 540,
           "src": "/images/responsive/deluxe-room-blue-960w.webp",
-          "bytes": 52292,
-          "sha256": "9fda3cb66f8bd814fa306bc0505011becd21ea9cda8e3174c6530119792c20ce",
+          "bytes": 59294,
+          "sha256": "649800274a1ef6c86a6ce5658b505a1a327e0b2fda2232dd7a21e29a9a679c6e",
           "retainedOriginal": false
         },
         {
           "width": 1600,
           "height": 900,
           "src": "/images/deluxe-room-blue.webp",
-          "bytes": 125406,
-          "sha256": "c0695691d518a4ffb6146c9443960de4cf1f16d10a2e060ec87cc9c3bef44973",
+          "bytes": 156568,
+          "sha256": "d795a4f0b0a382ffca1731e760bb03749529c6a8cc620d5a1cba55243a7f279d",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/deluxe-room-tv.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 181844,
+      "sourceSha256": "8495a58776cd305dc15a44b5f85fea95210fff0f68777014f060b6f7f64f2742",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/deluxe-room-tv-96w.webp",
+          "bytes": 2436,
+          "sha256": "0de90ee97e0e9f578cc50ef13e7164b0bd44ab0285df690572feda6bd3b5411c",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/deluxe-room-tv-192w.webp",
+          "bytes": 6562,
+          "sha256": "2ab4a369da0d1b71564ebad64abf20d8c9774952d9f6019dd525d091854a3bed",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/deluxe-room-tv-480w.webp",
+          "bytes": 24478,
+          "sha256": "8a3d2c84ae85a99a1ee11543573228f1d7a6e4d0fb0c567d2c81cd017f719ee5",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/deluxe-room-tv-960w.webp",
+          "bytes": 65526,
+          "sha256": "f5a8fdf2ab6e3633af26603da7cc73e18729c8b9eb7676ba1b909e7dcbc94755",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/deluxe-room-tv.webp",
+          "bytes": 181844,
+          "sha256": "8495a58776cd305dc15a44b5f85fea95210fff0f68777014f060b6f7f64f2742",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/deluxe-room-wardrobe.webp",
+      "sourceDimensions": [
+        1557,
+        1246
+      ],
+      "sourceBytes": 167222,
+      "sourceSha256": "6bdb8dc17da7c79b2bfab82f444698f119ccab1b76fd6dcc76f1857afb11c5e7",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/deluxe-room-wardrobe-96w.webp",
+          "bytes": 2444,
+          "sha256": "dc40ec1ecc616f1d71bd3bcf6d2a85dff8dfd9f728f59593c236c4dd18bedc66",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/deluxe-room-wardrobe-192w.webp",
+          "bytes": 6138,
+          "sha256": "a11892200b5f52981d07699a42f440f8dfce85a2f497c382d3886a230cbd5efb",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/deluxe-room-wardrobe-480w.webp",
+          "bytes": 22716,
+          "sha256": "84bcab91c24706e89cbb5d8d67f69363b782966715f5857d12739b01d0456271",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/deluxe-room-wardrobe-960w.webp",
+          "bytes": 60830,
+          "sha256": "ffc8c120b4cec8c5209a96f5e2db9befc9a4a18315766fe34d0900615eae810a",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1557,
+          "height": 1246,
+          "src": "/images/deluxe-room-wardrobe.webp",
+          "bytes": 167222,
+          "sha256": "6bdb8dc17da7c79b2bfab82f444698f119ccab1b76fd6dcc76f1857afb11c5e7",
           "retainedOriginal": true
         }
       ]
@@ -110,8 +281,8 @@
         1600,
         900
       ],
-      "sourceBytes": 112082,
-      "sourceSha256": "cdcd62eba49d74ab0fe7b16716a31887e7a23bba5c0acc4b54deebf05470ef40",
+      "sourceBytes": 145540,
+      "sourceSha256": "263b0fed44999657b2dbef1a852773b2a3876bd4d48f21b71deae2a760942d4d",
       "provenance": {
         "ledger": "research/assets/asset-manifest.json",
         "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
@@ -123,40 +294,40 @@
           "width": 96,
           "height": 54,
           "src": "/images/responsive/deluxe-room-96w.webp",
-          "bytes": 1772,
-          "sha256": "b5a57b294b114e0a2ff8e040b1a9a1a99a0900e99a55b6bbf81eaee24dfb58e5",
+          "bytes": 1882,
+          "sha256": "c8728b23581e5d4d79277c3c0dbaf93a21f27cc52004917426344d46a36936ea",
           "retainedOriginal": false
         },
         {
           "width": 192,
           "height": 108,
           "src": "/images/responsive/deluxe-room-192w.webp",
-          "bytes": 4448,
-          "sha256": "133549786c1da7fb809c454173218487ad27d3b1eda74d0ec15c6f2c1f3b8e61",
+          "bytes": 4898,
+          "sha256": "ab61beb90c708784be11d73453b085aa9f897977948ccd6718ef149e28e35d7d",
           "retainedOriginal": false
         },
         {
           "width": 480,
           "height": 270,
           "src": "/images/responsive/deluxe-room-480w.webp",
-          "bytes": 17740,
-          "sha256": "340478221df0d490e699cc4dfbd3b0e35ca6e5d87f67d5faee7966b079c9b7a3",
+          "bytes": 19206,
+          "sha256": "c0bdf664ad0fd99fa6ff6440b5314006d62bdcd206e4411c83941da156e0e783",
           "retainedOriginal": false
         },
         {
           "width": 960,
           "height": 540,
           "src": "/images/responsive/deluxe-room-960w.webp",
-          "bytes": 46574,
-          "sha256": "ea7bacd1a9b58460c4d194f2170a52e21b287cf963814d7be63bccdaf0728ffd",
+          "bytes": 53090,
+          "sha256": "edc1a6b5ea882eca55e680400096ba6a62d42698ffe7726f8596502562b904f0",
           "retainedOriginal": false
         },
         {
           "width": 1600,
           "height": 900,
           "src": "/images/deluxe-room.webp",
-          "bytes": 112082,
-          "sha256": "cdcd62eba49d74ab0fe7b16716a31887e7a23bba5c0acc4b54deebf05470ef40",
+          "bytes": 145540,
+          "sha256": "263b0fed44999657b2dbef1a852773b2a3876bd4d48f21b71deae2a760942d4d",
           "retainedOriginal": true
         }
       ]
@@ -328,6 +499,177 @@
           "src": "/images/family-room-alternate.webp",
           "bytes": 109450,
           "sha256": "d3a765c81575bbcf96de925dbab81945a73c967929accc5adac4481f18612a87",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/family-room-corner.webp",
+      "sourceDimensions": [
+        1599,
+        1280
+      ],
+      "sourceBytes": 267066,
+      "sourceSha256": "b069dca61737c51bdd3067dfb41fa7da26045ebd7b0a72ce6a7fc9a2dc028d91",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/family-room-corner-96w.webp",
+          "bytes": 2512,
+          "sha256": "ef94833c609aca72c9361e4e778fdbe56470cd2ed2d547e3ad11c2b440d81fad",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/family-room-corner-192w.webp",
+          "bytes": 7076,
+          "sha256": "139248b014d170f89cfe3b6b81af7142f154d454eb00a289512a2c9ac96110fc",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/family-room-corner-480w.webp",
+          "bytes": 29334,
+          "sha256": "668becc6df9fc506c31cf412dd8fd15c8c27df8a3fe5d8cd0c2b0f9ac12e50bc",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/family-room-corner-960w.webp",
+          "bytes": 90482,
+          "sha256": "4d5d3ba452862d4260b4ea48eb539ac8c2bcb5a3eadf89ca5338ed191d7e5276",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1599,
+          "height": 1280,
+          "src": "/images/family-room-corner.webp",
+          "bytes": 267066,
+          "sha256": "b069dca61737c51bdd3067dfb41fa7da26045ebd7b0a72ce6a7fc9a2dc028d91",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/family-room-long.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 178566,
+      "sourceSha256": "be2b2ad93fa1ba713dfa60be92c068bc9132f3a8c50609d7b6e10ee66d0070de",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/family-room-long-96w.webp",
+          "bytes": 2544,
+          "sha256": "4f4ee6c5e03c40ec934b0c6c58e092247c2f876a046cfef8b41983345015254a",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/family-room-long-192w.webp",
+          "bytes": 6828,
+          "sha256": "a2e8c3f45fa720b15cd5ec744d38249a75de03bb0117db25584afc074be34d62",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/family-room-long-480w.webp",
+          "bytes": 25586,
+          "sha256": "2be4a20b4dc91d1fd7bf76fd31b876432323da0b7c75362fd81eb7ef78e25cdd",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/family-room-long-960w.webp",
+          "bytes": 66200,
+          "sha256": "21e1f9975a98da9a6630a97eafc9f9185864e06a7656d27d4474ec998d278e09",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/family-room-long.webp",
+          "bytes": 178566,
+          "sha256": "be2b2ad93fa1ba713dfa60be92c068bc9132f3a8c50609d7b6e10ee66d0070de",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/family-room-wide.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 193564,
+      "sourceSha256": "052ce5b2697d3ef09ec87f1484b27ba604d5b46edbec22c7379d39a6ce2c87af",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/family-room-wide-96w.webp",
+          "bytes": 2648,
+          "sha256": "fa50c343a9688c1d92e1b3770ad37a72774941b36e5191283490fd54778fea20",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/family-room-wide-192w.webp",
+          "bytes": 7618,
+          "sha256": "c70e58bfafa36a1610ba0c907678b2aeac244898d420502f77b2b98f63a8cef7",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/family-room-wide-480w.webp",
+          "bytes": 28470,
+          "sha256": "110fcb1b483f820c52ff61951beb425cd8296602aebb1272dff14c051de7d0b4",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/family-room-wide-960w.webp",
+          "bytes": 73370,
+          "sha256": "0411fe28ce11868b5c65ab181aa608cebf447b38060d2b1b4a7b2e627867e283",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/family-room-wide.webp",
+          "bytes": 193564,
+          "sha256": "052ce5b2697d3ef09ec87f1484b27ba604d5b46edbec22c7379d39a6ce2c87af",
           "retainedOriginal": true
         }
       ]
@@ -675,13 +1017,70 @@
       ]
     },
     {
+      "source": "/images/hotel-corridor.webp",
+      "sourceDimensions": [
+        1599,
+        1279
+      ],
+      "sourceBytes": 224318,
+      "sourceSha256": "ca0b3854bd0623f2e228baa986db50f0ace785a98ea3240d84288ffc59cf9fae",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/hotel-corridor-96w.webp",
+          "bytes": 2042,
+          "sha256": "2522b4e72c9cb5484321f2f91a757b847069f5f3087ea658720c28c505d98b68",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/hotel-corridor-192w.webp",
+          "bytes": 5646,
+          "sha256": "5c4c1a518d9d05a9f9bac996c9cf8336c454b7d79cd0d194050b60c3c26844b7",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/hotel-corridor-480w.webp",
+          "bytes": 24238,
+          "sha256": "52f4c84fd6bd0cacf14e295c94f21a753b1781ca09dbd6c017a73eb70145c242",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/hotel-corridor-960w.webp",
+          "bytes": 76140,
+          "sha256": "406d765f617080ca16c8e94f1e15b679e796ec0e900760052e4a42e9a5aa7af0",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1599,
+          "height": 1279,
+          "src": "/images/hotel-corridor.webp",
+          "bytes": 224318,
+          "sha256": "ca0b3854bd0623f2e228baa986db50f0ace785a98ea3240d84288ffc59cf9fae",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
       "source": "/images/hotel-exterior-day.webp",
       "sourceDimensions": [
         1600,
         900
       ],
-      "sourceBytes": 233820,
-      "sourceSha256": "308eb4bb29bf392cf3ffd589bdd11ebf75e2a98279892420f32ef65ffb96694b",
+      "sourceBytes": 294656,
+      "sourceSha256": "5f3450fa85510d605cc82eb85d6d8df9aea63a1a005f28b461a489e87aa61a6b",
       "provenance": {
         "ledger": "research/assets/asset-manifest.json",
         "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
@@ -693,40 +1092,40 @@
           "width": 96,
           "height": 54,
           "src": "/images/responsive/hotel-exterior-day-96w.webp",
-          "bytes": 2114,
-          "sha256": "2801a5bbe7a482147647a4cec1fb2942eb434ca86b444e8e5ec987e99c27c2b0",
+          "bytes": 2258,
+          "sha256": "695e2747155eea068f88fe14e4964fcada8dbc730447a5ca351e9c05ad4bba11",
           "retainedOriginal": false
         },
         {
           "width": 192,
           "height": 108,
           "src": "/images/responsive/hotel-exterior-day-192w.webp",
-          "bytes": 6430,
-          "sha256": "a85af699132eef49889eed1c990d6489bce2f4d03a23ff82b68c3142daa31860",
+          "bytes": 7018,
+          "sha256": "978385947b8ef822d2e6d3596234415e9a2b8960c1e765e252ce19208ef162d1",
           "retainedOriginal": false
         },
         {
           "width": 480,
           "height": 270,
           "src": "/images/responsive/hotel-exterior-day-480w.webp",
-          "bytes": 30862,
-          "sha256": "d2c3402bdf789141172058b62b7cdd453f957863cd2c17c2bd5f23600bebf17c",
+          "bytes": 33788,
+          "sha256": "cba7e390498fddca915b8966da149e60f16140da95ce54e1f98e57fed193517b",
           "retainedOriginal": false
         },
         {
           "width": 960,
           "height": 540,
           "src": "/images/responsive/hotel-exterior-day-960w.webp",
-          "bytes": 98948,
-          "sha256": "8d6138ac6cdc86f34da9e573834f19ff7ec47968426ecefa9ac1bd39cff26c28",
+          "bytes": 107460,
+          "sha256": "860b99dc01c180c87864efb60563e5f9c34dad30926522f8af08065e0916b550",
           "retainedOriginal": false
         },
         {
           "width": 1600,
           "height": 900,
           "src": "/images/hotel-exterior-day.webp",
-          "bytes": 233820,
-          "sha256": "308eb4bb29bf392cf3ffd589bdd11ebf75e2a98279892420f32ef65ffb96694b",
+          "bytes": 294656,
+          "sha256": "5f3450fa85510d605cc82eb85d6d8df9aea63a1a005f28b461a489e87aa61a6b",
           "retainedOriginal": true
         }
       ]
@@ -737,8 +1136,8 @@
         1600,
         900
       ],
-      "sourceBytes": 209346,
-      "sourceSha256": "3cfbf73d1c337f22f2cca5a95eee4c9613a0193ecba60a571ae22f81b48781ba",
+      "sourceBytes": 290436,
+      "sourceSha256": "65a7b11dbc513537b843af324d95941eb3f9521b012efdc2df9376fa929f4be9",
       "provenance": {
         "ledger": "research/assets/asset-manifest.json",
         "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
@@ -750,40 +1149,97 @@
           "width": 96,
           "height": 54,
           "src": "/images/responsive/hotel-exterior-96w.webp",
-          "bytes": 1926,
-          "sha256": "2dab2198ccaac48c792399e373dbc1fc67a671968d4092904068e4b5e2180253",
+          "bytes": 2106,
+          "sha256": "aa8b0b1fd9378c790913cde4281fa5adf49be02ae1207e33ed867adbb8e3640f",
           "retainedOriginal": false
         },
         {
           "width": 192,
           "height": 108,
           "src": "/images/responsive/hotel-exterior-192w.webp",
-          "bytes": 5764,
-          "sha256": "ac6210f311d5b8d34cf0ba42e114798160dd6184dd2b7f3a3fc81c7dc234713f",
+          "bytes": 6382,
+          "sha256": "78dc43dbf47976403123f4902e431141778b1d158748f64a774c904a71d0ea83",
           "retainedOriginal": false
         },
         {
           "width": 480,
           "height": 270,
           "src": "/images/responsive/hotel-exterior-480w.webp",
-          "bytes": 27226,
-          "sha256": "135d316ccdfa809ff46923a68b3523404a1c3614b63d77c4c0594df5d443d5fc",
+          "bytes": 31926,
+          "sha256": "bacd5aefcb9bdd28b4d7e59eec4e00bf3c276519138e5c38b5458aed20f4d139",
           "retainedOriginal": false
         },
         {
           "width": 960,
           "height": 540,
           "src": "/images/responsive/hotel-exterior-960w.webp",
-          "bytes": 90582,
-          "sha256": "51e0239b8b9fb024d1fc60784198ad1794af4e3d33c858be9d1447df53723027",
+          "bytes": 105970,
+          "sha256": "0e52bc7485774dd5e555f563892cadff91c1b43b670a6105bc248870a053a771",
           "retainedOriginal": false
         },
         {
           "width": 1600,
           "height": 900,
           "src": "/images/hotel-exterior.webp",
-          "bytes": 209346,
-          "sha256": "3cfbf73d1c337f22f2cca5a95eee4c9613a0193ecba60a571ae22f81b48781ba",
+          "bytes": 290436,
+          "sha256": "65a7b11dbc513537b843af324d95941eb3f9521b012efdc2df9376fa929f4be9",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/hotel-lobby-lift.webp",
+      "sourceDimensions": [
+        1599,
+        1279
+      ],
+      "sourceBytes": 333210,
+      "sourceSha256": "2901c0ef2a88f052beb29e716392d25b9b2c6961bd2e203f87d0fd979a7e1ce3",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/hotel-lobby-lift-96w.webp",
+          "bytes": 2708,
+          "sha256": "829dd98a99a3737f86a5e183305a0a0751f336871cbdfaff4bd9137f49ffe7b2",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/hotel-lobby-lift-192w.webp",
+          "bytes": 8314,
+          "sha256": "364f90a90930501bce538fa168eefbc40a751c0b6c855a57b9ed704c066e1758",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/hotel-lobby-lift-480w.webp",
+          "bytes": 39040,
+          "sha256": "d4e0c3b471bff9c98e529600111b741a99e3a459ce5fc5a6def99912f514c09d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/hotel-lobby-lift-960w.webp",
+          "bytes": 119268,
+          "sha256": "bdf2b02103d412c7f7321a37dd1e2992b319ccc3b7ee5ff56dcf81f623dbc3dc",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1599,
+          "height": 1279,
+          "src": "/images/hotel-lobby-lift.webp",
+          "bytes": 333210,
+          "sha256": "2901c0ef2a88f052beb29e716392d25b9b2c6961bd2e203f87d0fd979a7e1ce3",
           "retainedOriginal": true
         }
       ]
@@ -841,6 +1297,63 @@
           "src": "/images/hotel-lobby.webp",
           "bytes": 223808,
           "sha256": "acb7348f17994fc1b3452c04c67991d796e7c82988424da688fb531a93e3ad00",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/hotel-lounge-seating.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 347380,
+      "sourceSha256": "9208082dd2fe1b629a5e4d22763676777226231330a58bea3c29ab8b7f7c7ca2",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/hotel-lounge-seating-96w.webp",
+          "bytes": 2812,
+          "sha256": "3eb7216caf0d13f073accd3053c0ca9ec27312e6ae2d9a1c7cebf3c645f5e162",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/hotel-lounge-seating-192w.webp",
+          "bytes": 8664,
+          "sha256": "867e56b26f76cd2e15c200878a2e2188995d565f5b2b45f192cf1754abf33449",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/hotel-lounge-seating-480w.webp",
+          "bytes": 40904,
+          "sha256": "c4381a6018c6b052b33c495f37ad27bf1c3477540e5340bb7f9eeb59e50483cb",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/hotel-lounge-seating-960w.webp",
+          "bytes": 123840,
+          "sha256": "f20ad8a38a1153641714c67a0025a7d0757d168160fb64fe2028d0de6d45626d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/hotel-lounge-seating.webp",
+          "bytes": 347380,
+          "sha256": "9208082dd2fe1b629a5e4d22763676777226231330a58bea3c29ab8b7f7c7ca2",
           "retainedOriginal": true
         }
       ]
@@ -908,8 +1421,8 @@
         1600,
         900
       ],
-      "sourceBytes": 194606,
-      "sourceSha256": "51b6d90005902738b9afecbc4f6e29c355d21be6102ab77537d76b8cb7762b9e",
+      "sourceBytes": 238450,
+      "sourceSha256": "8aa9189cd005143f20eb8da81a337e36469af47cc16cd26691431ba2f2f65b12",
       "provenance": {
         "ledger": "research/assets/asset-manifest.json",
         "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
@@ -921,40 +1434,40 @@
           "width": 96,
           "height": 54,
           "src": "/images/responsive/hotel-reception-96w.webp",
-          "bytes": 1994,
-          "sha256": "b01033f11963ff9ff79c5df7b32a009a85b3c08dda6fdb13d6b162f59da4ef11",
+          "bytes": 2140,
+          "sha256": "d5d35b2ca614e243a5a2c171becce1e894c1c654efa46a3d63e85061c420894c",
           "retainedOriginal": false
         },
         {
           "width": 192,
           "height": 108,
           "src": "/images/responsive/hotel-reception-192w.webp",
-          "bytes": 5546,
-          "sha256": "af05ebd85628eca9dbf8940e15a9a308a8220df11f0be645c366b04cf325fc0f",
+          "bytes": 6180,
+          "sha256": "ebe3b1c33de07a97c6aa7c25862c6cff0c3e41917dab9900f4bf9634fc3f9753",
           "retainedOriginal": false
         },
         {
           "width": 480,
           "height": 270,
           "src": "/images/responsive/hotel-reception-480w.webp",
-          "bytes": 25674,
-          "sha256": "c585e623eac6908650a63d35c67082289985c70626dc720c9d04763d8d771fa9",
+          "bytes": 27834,
+          "sha256": "252a81c341960a7cbeff2ec372d55522412b0243c306e5a871a280bce0d368cf",
           "retainedOriginal": false
         },
         {
           "width": 960,
           "height": 540,
           "src": "/images/responsive/hotel-reception-960w.webp",
-          "bytes": 81074,
-          "sha256": "1912f9751d0aa658c3cbd4d537a00b168ff7703f8c77b01565d460ff6a9d82f3",
+          "bytes": 85322,
+          "sha256": "36c9f655143b45157fbcabac969a4d75a817d1f99a2684be1ced3d0497d466d7",
           "retainedOriginal": false
         },
         {
           "width": 1600,
           "height": 900,
           "src": "/images/hotel-reception.webp",
-          "bytes": 194606,
-          "sha256": "51b6d90005902738b9afecbc4f6e29c355d21be6102ab77537d76b8cb7762b9e",
+          "bytes": 238450,
+          "sha256": "8aa9189cd005143f20eb8da81a337e36469af47cc16cd26691431ba2f2f65b12",
           "retainedOriginal": true
         }
       ]
@@ -1012,6 +1525,63 @@
           "src": "/images/kashi-vishwanath.webp",
           "bytes": 204844,
           "sha256": "65ae060e6a0f6dd561f77ed05daf372fcecd51ee5dffe6ac2905e82dbd01e24b",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/room-bathroom-wc.webp",
+      "sourceDimensions": [
+        1333,
+        1733
+      ],
+      "sourceBytes": 265742,
+      "sourceSha256": "7afef345f5c7f30157aced5d50b67b571633397d8af7a482164217c6aecd06f8",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 125,
+          "src": "/images/responsive/room-bathroom-wc-96w.webp",
+          "bytes": 3358,
+          "sha256": "a11ba3983736cf4038f23ca3fc60467d3e1418df1b26ded063a4cc32fbe2fc74",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 250,
+          "src": "/images/responsive/room-bathroom-wc-192w.webp",
+          "bytes": 10508,
+          "sha256": "40dfdac3f1a6dc9a65fa5f3fff487f65612286b2081fa46487d3a1b7cd39624b",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 624,
+          "src": "/images/responsive/room-bathroom-wc-480w.webp",
+          "bytes": 47814,
+          "sha256": "9939a683ab7836aaf9f41c607427667376416fc06ad05d5e70a452d394cfdf23",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 1248,
+          "src": "/images/responsive/room-bathroom-wc-960w.webp",
+          "bytes": 123220,
+          "sha256": "3ddb8b41920eeb12c1d91dfe124b59d98dfd6385c66c05c9e4a9e1d495e5db81",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1333,
+          "height": 1733,
+          "src": "/images/room-bathroom-wc.webp",
+          "bytes": 265742,
+          "sha256": "7afef345f5c7f30157aced5d50b67b571633397d8af7a482164217c6aecd06f8",
           "retainedOriginal": true
         }
       ]
@@ -1079,8 +1649,8 @@
         1600,
         900
       ],
-      "sourceBytes": 145740,
-      "sourceSha256": "c0ce739b9a418fc4f6ff814bb1b05e93036ac1cdca0dabe532e95359b971903d",
+      "sourceBytes": 201824,
+      "sourceSha256": "019d248fd148efb67e2f9cd4dc4d322b60f35cf371abf8089d306cc071737fd3",
       "provenance": {
         "ledger": "research/assets/asset-manifest.json",
         "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
@@ -1092,40 +1662,268 @@
           "width": 96,
           "height": 54,
           "src": "/images/responsive/room-tea-96w.webp",
-          "bytes": 2138,
-          "sha256": "512aeae549ef3447db94d2b08aac6690b3108f05aa5c233855d7c91b04381ea6",
+          "bytes": 2368,
+          "sha256": "7da9969ae2cd53d072f92ed0b9b50bd1d7afb518422f695634a9bb6a3122b31e",
           "retainedOriginal": false
         },
         {
           "width": 192,
           "height": 108,
           "src": "/images/responsive/room-tea-192w.webp",
-          "bytes": 6314,
-          "sha256": "aedd0791e03e3bfd0c5c17b6f5b61a7388c4a7d2fa36436b6d8ee7b2e1ac1e4d",
+          "bytes": 7056,
+          "sha256": "caa0121fc3d817929a1c73271e9259f64743a448d77d163ae37d5735b9f9bf5a",
           "retainedOriginal": false
         },
         {
           "width": 480,
           "height": 270,
           "src": "/images/responsive/room-tea-480w.webp",
-          "bytes": 25742,
-          "sha256": "13c1aeb52c767f0b6ebc8b6b562c894a2dbde26a2e2b267d82c635063f133549",
+          "bytes": 29450,
+          "sha256": "54077c480a5ec46588b0c5ecb5e9e785fbe50a7b5b1c693b8a0b7754eab25a45",
           "retainedOriginal": false
         },
         {
           "width": 960,
           "height": 540,
           "src": "/images/responsive/room-tea-960w.webp",
-          "bytes": 67154,
-          "sha256": "93998b03127dbd7551dea35bdcca3d1ca011a16327ff7cc194ca24568a9756ee",
+          "bytes": 75496,
+          "sha256": "9d8fddac9d07e1c698ade177b53f50b53d3a8e973f6415c1176699a37f87f626",
           "retainedOriginal": false
         },
         {
           "width": 1600,
           "height": 900,
           "src": "/images/room-tea.webp",
-          "bytes": 145740,
-          "sha256": "c0ce739b9a418fc4f6ff814bb1b05e93036ac1cdca0dabe532e95359b971903d",
+          "bytes": 201824,
+          "sha256": "019d248fd148efb67e2f9cd4dc4d322b60f35cf371abf8089d306cc071737fd3",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/twin-room-orange.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 180118,
+      "sourceSha256": "ef3c8a3c9311203a38b8ede7090a195414c786cb3dd6f7217adc754dd326cd7a",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/twin-room-orange-96w.webp",
+          "bytes": 2526,
+          "sha256": "81b150d96f5d58d2cd3e3e79ff46eeebf94298ec957a610b290f206a184bacab",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/twin-room-orange-192w.webp",
+          "bytes": 6858,
+          "sha256": "f160a7d736e0307e2b952b32db1a3750ddbf9e3ea36f99b138df2d42e20fe08d",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/twin-room-orange-480w.webp",
+          "bytes": 27460,
+          "sha256": "69c10b1726d0a7d2ed095bab432cadbc6bdd88f94eebf088c63ea878fcbb33fc",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/twin-room-orange-960w.webp",
+          "bytes": 70434,
+          "sha256": "3c5d9b26643880c98c4a171ea7c3fca1531892ed93a96836b397db0c51656344",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/twin-room-orange.webp",
+          "bytes": 180118,
+          "sha256": "ef3c8a3c9311203a38b8ede7090a195414c786cb3dd6f7217adc754dd326cd7a",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/twin-room-tv.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 210882,
+      "sourceSha256": "780a21119b1a004b6b1e30aa5a087c4072aa5336b67fec8f0013013642a6ae5d",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/twin-room-tv-96w.webp",
+          "bytes": 2296,
+          "sha256": "089a010870f140484015b4ae386208ca68eba0dab6f87b05572056da6b2f3e5b",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/twin-room-tv-192w.webp",
+          "bytes": 6494,
+          "sha256": "36fb9a25d0719cd86b48373ce98cef82225c93ea7f77796133888db9e9903cc9",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/twin-room-tv-480w.webp",
+          "bytes": 26788,
+          "sha256": "c709e8cc483b954059a0227d04c2ca93bab1033e55459241c7c03399f3e545f2",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/twin-room-tv-960w.webp",
+          "bytes": 74872,
+          "sha256": "12c8ae3a346e71d6719822d7697c40188052038571bf62f8b769d5dc75554b29",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/twin-room-tv.webp",
+          "bytes": 210882,
+          "sha256": "780a21119b1a004b6b1e30aa5a087c4072aa5336b67fec8f0013013642a6ae5d",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/twin-room-wide.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 220280,
+      "sourceSha256": "8c94599857e55a8bdae6c0421a5e1c8971a203dcca196a4e3cadbe01493dd2b4",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/twin-room-wide-96w.webp",
+          "bytes": 2392,
+          "sha256": "e46205fd9dd233d4eddfc2bd24115196a57c008dc5e877848e80fffeb28c00b9",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/twin-room-wide-192w.webp",
+          "bytes": 6476,
+          "sha256": "b9591b1d36cd55ee10ec348da1510064d64e78617d7890409d7e24b5b834ce51",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/twin-room-wide-480w.webp",
+          "bytes": 26758,
+          "sha256": "6acac4ee4f7e431aed5c4137a19b485d505e868780ed6bf6d5c7355f0028212c",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/twin-room-wide-960w.webp",
+          "bytes": 76570,
+          "sha256": "00acb4b3e83650b1fddf7ee282ab82ebfd11c15dd98b3d81fad238ba5f21eb9c",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/twin-room-wide.webp",
+          "bytes": 220280,
+          "sha256": "8c94599857e55a8bdae6c0421a5e1c8971a203dcca196a4e3cadbe01493dd2b4",
+          "retainedOriginal": true
+        }
+      ]
+    },
+    {
+      "source": "/images/twin-room-window.webp",
+      "sourceDimensions": [
+        1600,
+        1280
+      ],
+      "sourceBytes": 204526,
+      "sourceSha256": "185a187241d3189b36c8c2f03278051a52784ed4007f8d7a650340b6d700a08d",
+      "provenance": {
+        "ledger": "research/assets/asset-manifest.json",
+        "sourcePage": "Supplied by Hotel Augusto over WhatsApp on 25 October 2026 (IMAGES/ in the project folder)",
+        "rights": "Supplied by Hotel Augusto for use on its own website.",
+        "licenseUrl": null
+      },
+      "variants": [
+        {
+          "width": 96,
+          "height": 77,
+          "src": "/images/responsive/twin-room-window-96w.webp",
+          "bytes": 2278,
+          "sha256": "39c64f3e2147efac1d665aeba8b91ac696853ae6451896eb6da5c05601e4bc11",
+          "retainedOriginal": false
+        },
+        {
+          "width": 192,
+          "height": 154,
+          "src": "/images/responsive/twin-room-window-192w.webp",
+          "bytes": 6562,
+          "sha256": "4856176db16bbbaa7cef866bcc608b4a4b82dc67b6fd994f01b8977357a2cd2b",
+          "retainedOriginal": false
+        },
+        {
+          "width": 480,
+          "height": 384,
+          "src": "/images/responsive/twin-room-window-480w.webp",
+          "bytes": 27470,
+          "sha256": "9dea19591f15e54dfe0c90de7481bae4c4741bd6aa783708fac6804144822baa",
+          "retainedOriginal": false
+        },
+        {
+          "width": 960,
+          "height": 768,
+          "src": "/images/responsive/twin-room-window-960w.webp",
+          "bytes": 75602,
+          "sha256": "8f3f119dc803d444511e0dbaf7d7973a23ed4e7e257bcb46ab500b18b47ef66f",
+          "retainedOriginal": false
+        },
+        {
+          "width": 1600,
+          "height": 1280,
+          "src": "/images/twin-room-window.webp",
+          "bytes": 204526,
+          "sha256": "185a187241d3189b36c8c2f03278051a52784ed4007f8d7a650340b6d700a08d",
           "retainedOriginal": true
         }
       ]
@@ -1136,8 +1934,8 @@
         1600,
         900
       ],
-      "sourceBytes": 136568,
-      "sourceSha256": "cff41440bb5706fa64cd3f97dd3a7500f460b7afbcd91443c8ba94a52055f578",
+      "sourceBytes": 173994,
+      "sourceSha256": "c413950c165a9e932bc503c17ba3e2e8bf6eae6898852a7ee394b11d7e1b93e1",
       "provenance": {
         "ledger": "research/assets/asset-manifest.json",
         "sourcePage": "https://www.varanasihotels.org/augusto-varanasi.en.html",
@@ -1149,40 +1947,40 @@
           "width": 96,
           "height": 54,
           "src": "/images/responsive/twin-room-96w.webp",
-          "bytes": 1822,
-          "sha256": "56a49883c3cfb40ee5b39739715aafb2d4ea93997c7f5124b7902dbcf3e1898d",
+          "bytes": 1962,
+          "sha256": "81e662407955c9dc4950d04275481a487f07d3fed64eb90075588de6c8d98f6a",
           "retainedOriginal": false
         },
         {
           "width": 192,
           "height": 108,
           "src": "/images/responsive/twin-room-192w.webp",
-          "bytes": 4798,
-          "sha256": "39c8504f2d33b70221e03f97639815c4b1fe12d7b366f35c04cd0c0e94c88db9",
+          "bytes": 5286,
+          "sha256": "b6dfea458f8d969147bd3f2aa36bb4983bc0ab40776b405bde4cc875f608ccdd",
           "retainedOriginal": false
         },
         {
           "width": 480,
           "height": 270,
           "src": "/images/responsive/twin-room-480w.webp",
-          "bytes": 19900,
-          "sha256": "c7c01f3e2b9fad3b67b7e19ec956b91e88c3ba5c17738f52f6249d2dad98a001",
+          "bytes": 21726,
+          "sha256": "92e6ecdb23325c2894868b2e708d215d0a8b0caac6840e8c56f74239c9523546",
           "retainedOriginal": false
         },
         {
           "width": 960,
           "height": 540,
           "src": "/images/responsive/twin-room-960w.webp",
-          "bytes": 57894,
-          "sha256": "432e34ac2c360a48c69f83733895b08d31a4b8a336dd335ba746388cfe1c4c11",
+          "bytes": 62248,
+          "sha256": "158391d1818db75d8714cad40e8d46934bb03bc3c576173a623ed729de1b2f30",
           "retainedOriginal": false
         },
         {
           "width": 1600,
           "height": 900,
           "src": "/images/twin-room.webp",
-          "bytes": 136568,
-          "sha256": "cff41440bb5706fa64cd3f97dd3a7500f460b7afbcd91443c8ba94a52055f578",
+          "bytes": 173994,
+          "sha256": "c413950c165a9e932bc503c17ba3e2e8bf6eae6898852a7ee394b11d7e1b93e1",
           "retainedOriginal": true
         }
       ]
@@ -1305,12 +2103,12 @@
   "cleanup": {
     "removed": [],
     "beforeFreeBytes": {
-      "C": 28668399616,
-      "D": 68058767360
+      "C": 67333398528,
+      "D": 46179975168
     },
     "afterFreeBytes": {
-      "C": 28668461056,
-      "D": 68055740416
+      "C": 67269484544,
+      "D": 46177554432
     },
     "retained": "All originals, responsive runtime files, provenance and generator."
   }

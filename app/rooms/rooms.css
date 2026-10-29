@@ -65,8 +65,12 @@
 .room-photo-layer img { object-fit: cover; object-position: center 60%; }
 .room-photo-expand { position: absolute; bottom: 22px; right: 22px; display: inline-flex; align-items: center; gap: 9px; min-height: 44px; padding: 11px 17px; color: var(--ink); background: var(--paper); border-radius: 999px; font-size: 14px; font-weight: 500; transition: background 180ms; }
 .room-photo-main:hover .room-photo-expand { background: var(--paper-deep); }
-.room-photo-thumbnails { display: flex; justify-content: center; gap: 12px; margin-top: 18px; }
-.room-photo-thumbnails>button { position: relative; width: 86px; height: 58px; border: 0; padding: 0; overflow: hidden; border-radius: 12px; background: var(--paper-deep); }
+/* Centred while the strip fits; scrolls sideways (with room for focus rings) once it doesn't. */
+.room-photo-thumbnails { display: flex; gap: 12px; margin-top: 14px; padding: 4px; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; }
+.room-photo-thumbnails::-webkit-scrollbar { display: none; }
+.room-photo-thumbnails>button:first-child { margin-left: auto; }
+.room-photo-thumbnails>button:last-child { margin-right: auto; }
+.room-photo-thumbnails>button { flex: 0 0 auto; position: relative; width: 86px; height: 58px; border: 0; padding: 0; overflow: hidden; border-radius: 12px; background: var(--paper-deep); }
 .room-photo-thumbnails img { object-fit: cover; transition: opacity 180ms; }
 .room-photo-thumbnails>button:hover img { opacity: .75; }
 .room-thumbnail-mark { position: absolute; inset: 3px; border: 2px solid transparent; border-radius: 9px; transition: border-color 180ms; }
@@ -195,7 +199,7 @@
   .room-heading-action p { margin-bottom: 16px; }
   .room-photo-main { aspect-ratio: 1.15; }
   .room-photo-expand { right: 14px; bottom: 14px; padding-inline: 14px; }
-  .room-photo-thumbnails { gap: 10px; margin-top: 14px; }
+  .room-photo-thumbnails { gap: 10px; margin-top: 10px; }
   .room-photo-thumbnails>button { width: 72px; height: 50px; }
   .room-photo-toolbar { flex-wrap: wrap; gap: 12px; padding-block: 16px; }
   .room-photo-caption { min-height: 44px; }
